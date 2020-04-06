@@ -1,4 +1,10 @@
-# Monumental-Experience [![Discord][discordImg]][discordLink] [![Test][curseImg]][curseLink]
+<p align="center">
+  <img width="990" height="96" src="https://i.imgur.com/TUAJ8wD.png">
+</p>
+
+[![Discord][discordImg]][discordLink] [![Test][curseImg]][curseLink]
+
+
 
 [discordImg]: https://img.shields.io/discord/554449878282010633?color=ffaa00&label=Discord&logo=Discord&style=flat-square
 
