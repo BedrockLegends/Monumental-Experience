@@ -4,7 +4,7 @@
 - Nothing 
 
 **Changed/Fixed**
-- Nothing
+- Vanilla Tweaks config to match the pack style
 
 **JEI**
 - None
