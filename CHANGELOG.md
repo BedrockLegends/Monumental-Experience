@@ -1,7 +1,7 @@
 # 1.7(WIP)
 
 **Added**
-- Nothing 
+- A Temp Data pack to use for some of our custom recipes till more craft tweaker support is added
 
 **Changed/Fixed**
 - Vanilla Tweaks config to match the pack style
