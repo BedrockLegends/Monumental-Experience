@@ -5,6 +5,8 @@
 
 **Changed/Fixed**
 - Vanilla Tweaks config to match the pack style
+- Variant16x (https://www.curseforge.com/minecraft/mc-mods/variant16x)
+- Variant16x: Biomes O Plenty (https://www.curseforge.com/minecraft/mc-mods/variant16x)
 
 **JEI**
 - None
