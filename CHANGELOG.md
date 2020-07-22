@@ -15,6 +15,7 @@
 - **Variant16x: Biomes O Plenty** (https://www.curseforge.com/minecraft/mc-mods/variant16x)
 - **Titanium**
 - **DungeonCrawl**
+- **Controller Support Mod**
 
 **Removed**
 - **Nothing at this time**
