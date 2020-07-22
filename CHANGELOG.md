@@ -5,6 +5,7 @@
 
 **Changed/Fixed**
 - Vanilla Tweaks config to match the pack style
+- Broken Fancy Menu Again
 
 **JEI**
 - None
