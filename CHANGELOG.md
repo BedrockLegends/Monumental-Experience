@@ -1,4 +1,4 @@
-# 1.7
+# 1.9
 
 **Added**
 - custom vanilla Tweaks recipe
@@ -14,16 +14,18 @@
 - **Vanilla Tweaks** (https://www.curseforge.com/minecraft/mc-mods/vanillatweaks)
 - **Variant16x** (https://www.curseforge.com/minecraft/mc-mods/variant16x)
 - **Variant16x: Biomes O Plenty** (https://www.curseforge.com/minecraft/mc-mods/variant16x)
-- **Titanium**
 - **DungeonCrawl**
 - **Controller Support Mod**
 - **Simple Storage Network**
 
 **Removed**
-- **Nothing at this time**
+- **Mixin Bootstrap**
 
 **Updated**
 - **Builders Crafts & Additions**
-- **Oh Biomes u Go
+- **Oh Biomes u Go**
+- **Titanium**
+- **Industrial Foregoing**
 - **Biomes O' Plenty**
+- **Craft tweaker**
 ---------------------------------------------------------------------------------------------
