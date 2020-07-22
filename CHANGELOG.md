@@ -16,6 +16,7 @@
 - **Titanium**
 - **DungeonCrawl**
 - **Controller Support Mod**
+- **Simple Storage Network**
 
 **Removed**
 - **Nothing at this time**
