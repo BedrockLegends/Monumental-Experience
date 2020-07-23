@@ -11,7 +11,7 @@
 
 **Mods Added**
 - **JAOPCA**
-- **Azure's Doom Mod
+- **Azure's Doom Mod**
 
 
 **Removed**
