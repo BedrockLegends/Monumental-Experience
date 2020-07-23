@@ -1,3 +1,26 @@
+# 1.10
+
+**Added**
+- None Yet
+
+**Changed/Fixed**
+- None Yet
+
+**JEI**
+- None Yet
+
+**Mods Added**
+- **JAOPCA**
+- **Azure's Doom Mod
+
+
+**Removed**
+- None Yet
+
+**Updated**
+- None Yet
+---------------------------------------------------------------------------------------------
+
 # 1.9
 
 **Added**
