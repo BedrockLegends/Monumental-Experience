@@ -12,13 +12,14 @@
 **Mods Added**
 - **JAOPCA**
 - **Azure's Doom Mod**
-
+- **Trumpet Skeleton**
 
 **Removed**
 - None Yet
 
 **Updated**
-- Just Enought Resources
+- **Just Enought Resources**
+- **Engineers Decor**
 
 ---------------------------------------------------------------------------------------------
 
