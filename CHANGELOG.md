@@ -5,6 +5,7 @@
 - Fixed Magma Block recipe not returning Bucket
 - New Sponge Crafting Recipe
 - New Paper Recipe
+- New Storage Drawer Recipes
 
 **Changed/Fixed**
 - None Yet
