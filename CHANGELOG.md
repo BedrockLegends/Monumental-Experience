@@ -1,7 +1,10 @@
 # 1.10
 
 **Added**
-- None Yet
+- New Stick Recipe that gives you a empty glas bottle
+- Fixed Magma Block recipe not returning Bucket
+- New Sponge Crafting Recipe
+- New Paper Recipe
 
 **Changed/Fixed**
 - None Yet
