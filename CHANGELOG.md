@@ -14,6 +14,7 @@
 - None Yet
 
 **Mods Added**
+- **Simple Farming**
 - **JAOPCA**
 - **Azure's Doom Mod**
 - **Trumpet Skeleton**
