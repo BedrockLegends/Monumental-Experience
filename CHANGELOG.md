@@ -22,6 +22,7 @@
 - None Yet
 
 **Updated**
+- **Pam's Food Core
 - **Just Enought Resources**
 - **Engineers Decor**
 - **Builders Addations**
