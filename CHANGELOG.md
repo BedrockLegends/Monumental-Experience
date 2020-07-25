@@ -23,12 +23,12 @@
 - None Yet
 
 **Updated**
-- **Pam's Food Core
+- **Pam's Food Core**
 - **Just Enought Resources**
 - **Engineers Decor**
 - **Builders Addations**
 - **Craft Tweaker**
-- **Global Data Pack
+- **Global Data Pack**
 
 ---------------------------------------------------------------------------------------------
 
