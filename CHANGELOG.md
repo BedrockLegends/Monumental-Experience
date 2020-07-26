@@ -14,6 +14,7 @@
 - None Yet
 
 **Mods Added**
+- **Torchmaster**
 - **Simple Farming**
 - **JAOPCA**
 - **Azure's Doom Mod**
@@ -23,6 +24,7 @@
 - None Yet
 
 **Updated**
+- **Random Patches**
 - **Pam's Food Core**
 - **Just Enought Resources**
 - **Engineers Decor**
