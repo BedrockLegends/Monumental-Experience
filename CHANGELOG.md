@@ -21,8 +21,8 @@
 - **Trumpet Skeleton**
 
 **Removed**
-- JAOPCA Storage blocks, Not needed
-- JAOPCA Shards, Not needed
+- **JAOPCA Storage blocks, Not needed**
+- **JAOPCA Shards, Not needed**
 
 **Updated**
 - **Random Patches**
