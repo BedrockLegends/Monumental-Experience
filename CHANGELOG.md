@@ -14,6 +14,7 @@
 - None Yet
 
 **Mods Added**
+- **Classic Bars**
 - **Torchmaster**
 - **Simple Farming**
 - **JAOPCA**
