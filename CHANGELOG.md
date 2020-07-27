@@ -14,6 +14,7 @@
 - None Yet
 
 **Mods Added**
+- **Neat**
 - **Classic Bars**
 - **Torchmaster**
 - **Simple Farming**
