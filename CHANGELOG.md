@@ -20,12 +20,16 @@
 - **JAOPCA**
 - **Azure's Doom Mod**
 - **Trumpet Skeleton**
+- **Macaw's Windows**
 
 **Removed**
 - **JAOPCA Storage blocks, Not needed**
 - **JAOPCA Shards, Not needed**
 
 **Updated**
+- **Concrete Conversion**
+- **Kiwi**
+- **Vanilla Tweaks**
 - **Random Patches**
 - **Pam's Food Core**
 - **Just Enought Resources**
