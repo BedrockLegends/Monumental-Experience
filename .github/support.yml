@@ -1,0 +1,14 @@
+# Configuration for support-requests - https://github.com/dessant/support-requests
+
+# Label used to mark issues as support requests
+supportLabel: Request/Suggestion
+# Comment to post on issues marked as support requests. Add a link
+# to a support page, or set to `false` to disable
+supportComment: >
+  👋 We use the issue tracker exclusively for final bug reports and feature requests.
+  However, this issue appears to be better suited for the
+  Request/Suggestion tag.
+# Whether to close issues marked as support requests
+close: false
+# Whether to lock issues marked as support requests
+lock: true
