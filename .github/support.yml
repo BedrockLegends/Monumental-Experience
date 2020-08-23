@@ -5,9 +5,9 @@ supportLabel: Request/Suggestion
 # Comment to post on issues marked as support requests. Add a link
 # to a support page, or set to `false` to disable
 supportComment: >
-  👋 We use the issue tracker exclusively for final bug reports and feature requests.
-  However, this issue appears to be better suited for the
-  Request/Suggestion tag.
+  👋 We use the issue tracker exclusively for bug reports only.
+  However, this issue appears to be a Request/suggestion
+  and will be limited to collaborators .
 # Whether to close issues marked as support requests
 close: false
 # Whether to lock issues marked as support requests
