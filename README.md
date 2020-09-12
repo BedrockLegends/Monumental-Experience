@@ -2,7 +2,7 @@
 
 [discordImg]: https://img.shields.io/discord/554449878282010633?label=Discord&logo=Discord
 
-[discordLink]: https://discord.gg/wFtUTgZ
+[discordLink]: https://discord.gg/dhEkyGm
 
 [curseImg]: http://cf.way2muchnoise.eu/363581.svg
 
