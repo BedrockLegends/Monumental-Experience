@@ -1,5 +1,4 @@
 # Monumental Experience
-
   <a href="https://discord.gg/kvagXuP">
     <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=flat-square">
   </a>
