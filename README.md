@@ -1,12 +1,16 @@
-# Monumental Experience [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink]
+# Monumental Experience
 
-[discordImg]: https://img.shields.io/discord/554449878282010633?label=Discord&logo=Discord
+  <a href="https://discord.gg/kvagXuP">
+    <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?style=flat-square">
+  </a>
 
-[discordLink]: https://discord.gg/dhEkyGm
-
-[curseImg]: http://cf.way2muchnoise.eu/363581.svg
-
-[curseLink]: https://www.curseforge.com/minecraft/modpacks/monumental-experience
+ <a href="https://github.com/BedrockLegends/Monumental-Experience/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/lazyMods/WoodenUtilities">
+  </a>
+  
+  <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
+    <img alt="Repository issues" src="http://cf.way2muchnoise.eu/versions/363581.svg">
+  </a>
 
 ## Pack Downloads:
 Released files:
