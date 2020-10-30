@@ -1,7 +1,7 @@
 # Monumental Experience
 
   <a href="https://discord.gg/kvagXuP">
-    <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=for-the-badge">
+    <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=flat-square">
   </a>
 
  <a href="https://github.com/BedrockLegends/Monumental-Experience/issues">
