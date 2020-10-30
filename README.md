@@ -5,15 +5,15 @@
   </a>
 
  <a href="https://github.com/BedrockLegends/Monumental-Experience/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lazyMods/WoodenUtilities">
+    <img alt="Modpack issues" src="https://img.shields.io/github/issues/lazyMods/WoodenUtilities">
   </a>
   
   <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
-    <img alt="Repository issues" src="http://cf.way2muchnoise.eu/full_363581_downloads.svg">
+    <img alt="Modpack Downloads" src="http://cf.way2muchnoise.eu/full_363581_downloads.svg">
   </a>
   
   <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
-    <img alt="Repository issues" src="http://cf.way2muchnoise.eu/versions/363581.svg">
+    <img alt="Modpack Versions" src="http://cf.way2muchnoise.eu/versions/363581.svg">
   </a>
 
 
