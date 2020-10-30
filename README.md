@@ -1,5 +1,9 @@
 # Monumental Experience
 
+  <a href="https://discord.gg/kvagXuP">
+    <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=for-the-badge">
+  </a>
+
  <a href="https://github.com/BedrockLegends/Monumental-Experience/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/lazyMods/WoodenUtilities">
   </a>
@@ -12,9 +16,6 @@
     <img alt="Repository issues" src="http://cf.way2muchnoise.eu/versions/363581.svg">
   </a>
   
-    <a href="https://discord.gg/kvagXuP">
-    <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=for-the-badge">
-  </a>
 
 ## Pack Downloads:
 Released files:
