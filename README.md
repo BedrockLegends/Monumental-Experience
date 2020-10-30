@@ -15,19 +15,11 @@
   <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
     <img alt="Repository issues" src="http://cf.way2muchnoise.eu/versions/363581.svg">
   </a>
-  
-
-## Pack Downloads:
-Released files:
-- [Curse/Twitch](https://www.curseforge.com/minecraft/modpacks/monumental-experience)
-- [Discord](https://discord.gg/wFtUTgZ)
-
-
 
 
 ## About the Pack:
 
-Welcome to Monumental Experience! Monumental Experience will offer you a Kitchen sink style modpack with custom recipes, tons of mods, and built around Biomes O' Plenty and Serene Seasons. To start in a Biomes O' Plenty world, Create a world and click World Type till you see World Type: Biomes O' Plenty and click Create New World.
+Welcome to Monumental Experience, where everything you ever loved about Minecraft is changed in a new Monumental way. Explore the world looking for the choicest biome both to build your magnificent structures but also to mine the most extraordinary ores! With your home front established, travel the world in search of treasures and untold magic and tech.
 
 
 ## Mod List
@@ -36,7 +28,7 @@ Welcome to Monumental Experience! Monumental Experience will offer you a Kitchen
 
 ## Modpack Developers:
 
-ModernGamingWorld and Warbringer12
+ModernGamingWorld, Warbringer12, Mastersloth, and Lect
 
 
 ## Additional Credits:
