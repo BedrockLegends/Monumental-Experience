@@ -36,8 +36,5 @@ The Feed The Beast Team for use of their mods in Curseforge packs.
 
 
 ## Other Projects
-- [Mod Slothcraft](https://www.curseforge.com/minecraft/mc-mods/slothcraft)
-- [Solth's Hack n Slash](https://www.curseforge.com/minecraft/modpacks/sloths-has-adventure)
-- [Warbringer's Medieval Adventure](https://www.curseforge.com/minecraft/modpacks/warbringer)
 - [Journey Across The Void](https://www.curseforge.com/minecraft/modpacks/journey-across-the-void)
 - [Journey Across The Void 2](https://www.curseforge.com/minecraft/modpacks/journey-across-the-void-2)
