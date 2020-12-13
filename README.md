@@ -27,7 +27,7 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 
 ## Modpack Developers:
 
-ModernGamingWorld, Warbringer12, Mastersloth, and Lect
+ModernGamingWorld
 
 
 ## Additional Credits:
