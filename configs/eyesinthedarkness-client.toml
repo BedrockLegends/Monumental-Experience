@@ -1,6 +1,0 @@
-
-[general]
-	#Set to false to prevent jumpscares from displaying client-side.
-	#NOTE: Jumpscare effects such as poison still apply, this only prevents the visual and sound.
-	jumpscare = true
-

@@ -1,3 +1,0 @@
-#If true, conversions will only occur upon pressing the defined key (defaults to c).
-enableKeypress = false
-
