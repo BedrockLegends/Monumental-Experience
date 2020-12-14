@@ -9,7 +9,7 @@ entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
