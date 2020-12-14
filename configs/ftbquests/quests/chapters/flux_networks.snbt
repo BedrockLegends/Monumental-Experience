@@ -1,0 +1,184 @@
+{
+	id: 2789,
+	filename: "flux_networks",
+	order_index: 11,
+	title: "Flux Networks",
+	icon: "fluxnetworks:flux_dust",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2790,
+			tasks: [{
+				id: 2791,
+				type: "item",
+				item: "fluxnetworks:flux_dust"
+			}],
+			rewards: [{
+				id: 3079,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			dependencies: [I;2790],
+			id: 2792,
+			tasks: [{
+				id: 2793,
+				type: "item",
+				item: "fluxnetworks:flux_configurator"
+			}],
+			rewards: [
+				{
+					id: 3087,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3105,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			dependencies: [I;2790],
+			id: 2794,
+			tasks: [{
+				id: 2795,
+				type: "item",
+				item: "fluxnetworks:flux_controller"
+			}],
+			rewards: [
+				{
+					id: 3080,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3107,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -4.5d,
+			dependencies: [I;2790],
+			id: 2796,
+			tasks: [
+				{
+					id: 2797,
+					type: "item",
+					item: "fluxnetworks:basic_flux_storage"
+				},
+				{
+					id: 2798,
+					type: "item",
+					item: "fluxnetworks:herculean_flux_storage"
+				},
+				{
+					id: 2799,
+					type: "item",
+					item: "fluxnetworks:gargantuan_flux_storage"
+				}
+			],
+			rewards: [
+				{
+					id: 3086,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3106,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: [I;2790],
+			id: 2800,
+			tasks: [
+				{
+					id: 2801,
+					type: "item",
+					item: "fluxnetworks:flux_plug"
+				},
+				{
+					id: 2802,
+					type: "item",
+					item: "fluxnetworks:flux_point"
+				}
+			],
+			rewards: [
+				{
+					id: 3081,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3112,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 4.5d,
+			dependencies: [I;2790],
+			id: 2803,
+			tasks: [{
+				id: 2804,
+				type: "item",
+				item: "fluxnetworks:flux_block"
+			}],
+			rewards: [
+				{
+					id: 3110,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3111,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			dependencies: [I;2790],
+			id: 2805,
+			tasks: [{
+				id: 2806,
+				type: "item",
+				item: "fluxnetworks:flux_core"
+			}],
+			rewards: [
+				{
+					id: 3108,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3109,
+					type: "random",
+					table: 4
+				}
+			]
+		}
+	]
+}

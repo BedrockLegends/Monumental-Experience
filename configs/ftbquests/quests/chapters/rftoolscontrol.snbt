@@ -1,0 +1,250 @@
+{
+	id: 2488,
+	filename: "rftoolscontrol",
+	order_index: 32,
+	title: "Rftools Control",
+	icon: "rftoolscontrol:graphics_card",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2489,
+			tasks: [{
+				id: 2490,
+				type: "item",
+				item: "rftoolsbase:machine_frame"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;2489],
+			id: 2491,
+			tasks: [{
+				id: 2492,
+				type: "item",
+				item: "rftoolscontrol:processor"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			dependencies: [I;2489],
+			id: 2493,
+			tasks: [{
+				id: 2494,
+				type: "item",
+				item: "rftoolscontrol:programmer"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: [I;2489],
+			id: 2495,
+			tasks: [{
+				id: 2496,
+				type: "item",
+				item: "rftoolscontrol:card_base"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: [I;2495],
+			id: 2497,
+			tasks: [{
+				id: 2498,
+				type: "item",
+				item: "rftoolscontrol:cpu_core_500"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.5d,
+			dependencies: [I;2497],
+			id: 2499,
+			tasks: [{
+				id: 2500,
+				type: "item",
+				item: "rftoolscontrol:cpu_core_1000"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.5d,
+			dependencies: [I;2499],
+			id: 2501,
+			tasks: [{
+				id: 2502,
+				type: "item",
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			dependencies: [I;2495],
+			id: 2503,
+			tasks: [{
+				id: 2504,
+				type: "item",
+				item: "rftoolscontrol:ram_chip"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			dependencies: [I;2495],
+			id: 2505,
+			tasks: [{
+				id: 2506,
+				type: "item",
+				item: "rftoolscontrol:network_card"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			dependencies: [I;2505],
+			id: 2507,
+			tasks: [{
+				id: 2508,
+				type: "item",
+				item: "rftoolscontrol:advanced_network_card"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.5d,
+			dependencies: [I;2495],
+			id: 2509,
+			tasks: [{
+				id: 2510,
+				type: "item",
+				item: {
+					id: "rftoolscontrol:network_identifier",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			dependencies: [I;2495],
+			id: 2511,
+			tasks: [{
+				id: 2512,
+				type: "item",
+				item: "rftoolscontrol:graphics_card"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: [I;2495],
+			id: 2513,
+			tasks: [{
+				id: 2514,
+				type: "item",
+				item: "rftoolscontrol:token"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.5d,
+			dependencies: [I;2495],
+			id: 2515,
+			tasks: [{
+				id: 2516,
+				type: "item",
+				item: "rftoolscontrol:program_card"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.5d,
+			dependencies: [I;2495],
+			id: 2517,
+			tasks: [{
+				id: 2518,
+				type: "item",
+				item: {
+					id: "rftoolscontrol:variable_module",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			dependencies: [I;2495],
+			id: 2519,
+			tasks: [{
+				id: 2520,
+				type: "item",
+				item: {
+					id: "rftoolscontrol:interaction_module",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			dependencies: [I;2495],
+			id: 2521,
+			tasks: [{
+				id: 2522,
+				type: "item",
+				item: {
+					id: "rftoolscontrol:console_module",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			dependencies: [I;2495],
+			id: 2523,
+			tasks: [{
+				id: 2524,
+				type: "item",
+				item: {
+					id: "rftoolscontrol:vectorart_module",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;2495],
+			id: 2525,
+			tasks: [{
+				id: 2526,
+				type: "item",
+				item: "rftoolscontrol:tablet_processor"
+			}]
+		}
+	]
+}

@@ -1,0 +1,284 @@
+{
+	id: 3012,
+	filename: "bloody_magic",
+	order_index: 5,
+	title: "Bloody Magic",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: true,
+		tag: {
+			"patchouli:book": "bloodmagic:guide"
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 9.0d,
+			y: 5.0d,
+			id: 3013,
+			tasks: [{
+				id: 3014,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 2.5d,
+			id: 3015,
+			tasks: [{
+				id: 3016,
+				type: "item",
+				item: "bloodmagic:soulsnare",
+				count: 4L
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 0.5d,
+			dependencies: [I;3015],
+			id: 3017,
+			tasks: [{
+				id: 3018,
+				type: "item",
+				item: {
+					id: "bloodmagic:basemonstersoul",
+					Count: true,
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 5.0d,
+			id: 3019,
+			tasks: [{
+				id: 3020,
+				type: "item",
+				item: "bloodmagic:soulforge"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 0.5d,
+			dependencies: [I;3017],
+			id: 3021,
+			tasks: [{
+				id: 3022,
+				type: "item",
+				item: "bloodmagic:altar"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 2.5d,
+			id: 3023,
+			tasks: [{
+				id: 3024,
+				type: "item",
+				item: {
+					id: "bloodmagic:sacrificialdagger",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 0.5d,
+			dependencies: [I;
+				3021,
+				3023
+			],
+			id: 3025,
+			tasks: [{
+				id: 3026,
+				type: "item",
+				item: "bloodmagic:blankslate",
+				count: 8L
+			}]
+		},
+		{
+			x: 15.5d,
+			y: 0.5d,
+			dependencies: [I;3025],
+			id: 3027,
+			tasks: [{
+				id: 3028,
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 8L
+			}]
+		},
+		{
+			x: 17.5d,
+			y: 0.5d,
+			dependencies: [I;3027],
+			id: 3029,
+			tasks: [{
+				id: 3030,
+				type: "item",
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 2.5d,
+			dependencies: [I;3019],
+			id: 3031,
+			tasks: [{
+				id: 3032,
+				type: "item",
+				item: "bloodmagic:demoncrystallizer"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 5.0d,
+			dependencies: [I;3019],
+			id: 3033,
+			tasks: [{
+				id: 3034,
+				type: "item",
+				item: "bloodmagic:demoncrucible"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -1.5d,
+			dependencies: [I;3021],
+			id: 3035,
+			tasks: [{
+				id: 3036,
+				type: "item",
+				item: "bloodmagic:weakbloodorb"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -1.5d,
+			dependencies: [I;3027],
+			id: 3037,
+			tasks: [{
+				id: 3038,
+				type: "item",
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -1.5d,
+			dependencies: [I;3035],
+			id: 3039,
+			tasks: [{
+				id: 3040,
+				type: "item",
+				item: "bloodmagic:alchemytable"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 7.0d,
+			dependencies: [I;3019],
+			id: 3041,
+			tasks: [{
+				id: 3042,
+				type: "item",
+				item: {
+					id: "bloodmagic:soulgempetty",
+					Count: true,
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		},
+		{
+			x: 16.0d,
+			y: 7.0d,
+			dependencies: [I;3041],
+			id: 3043,
+			tasks: [{
+				id: 3044,
+				type: "item",
+				item: {
+					id: "bloodmagic:soulsword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 16.0d,
+			y: 8.0d,
+			dependencies: [I;3041],
+			id: 3045,
+			tasks: [{
+				id: 3046,
+				type: "item",
+				item: {
+					id: "bloodmagic:soulaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 16.0d,
+			y: 9.0d,
+			dependencies: [I;3041],
+			id: 3047,
+			tasks: [{
+				id: 3048,
+				type: "item",
+				item: {
+					id: "bloodmagic:soulpickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 16.0d,
+			y: 10.0d,
+			dependencies: [I;3041],
+			id: 3049,
+			tasks: [{
+				id: 3050,
+				type: "item",
+				item: {
+					id: "bloodmagic:soulshovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -3.5d,
+			dependencies: [I;3035],
+			id: 3051,
+			tasks: [{
+				id: 3052,
+				type: "item",
+				item: "bloodmagic:incensealtar"
+			}]
+		}
+	]
+}

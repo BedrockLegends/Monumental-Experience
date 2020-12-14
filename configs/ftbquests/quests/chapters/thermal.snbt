@@ -1,0 +1,1054 @@
+{
+	id: 2807,
+	filename: "thermal",
+	order_index: 38,
+	title: "Thermal",
+	icon: "thermal:signalum_glass",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.5d,
+			y: 1.5d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2808,
+			tasks: [{
+				id: 2809,
+				type: "item",
+				item: "thermal:rf_coil"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.0d,
+			dependencies: [I;2808],
+			id: 2810,
+			tasks: [{
+				id: 2811,
+				type: "item",
+				item: "thermal:machine_frame"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 6.0d,
+			dependencies: [I;2810],
+			id: 2812,
+			tasks: [{
+				id: 2813,
+				type: "item",
+				item: "thermal:machine_furnace"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 10.0d,
+			dependencies: [I;2810],
+			id: 2814,
+			tasks: [{
+				id: 2815,
+				type: "item",
+				item: "thermal:machine_sawmill"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 10.0d,
+			dependencies: [I;2810],
+			id: 2816,
+			tasks: [{
+				id: 2817,
+				type: "item",
+				item: "thermal:machine_pulverizer"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 8.0d,
+			dependencies: [I;2810],
+			id: 2818,
+			tasks: [{
+				id: 2819,
+				type: "item",
+				item: "thermal:machine_smelter"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 6.0d,
+			dependencies: [I;2810],
+			id: 2820,
+			tasks: [{
+				id: 2821,
+				type: "item",
+				item: "thermal:machine_insolator"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 10.0d,
+			dependencies: [I;2810],
+			id: 2822,
+			tasks: [{
+				id: 2823,
+				type: "item",
+				item: "thermal:machine_centrifuge"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 10.0d,
+			dependencies: [I;2810],
+			id: 2824,
+			tasks: [{
+				id: 2825,
+				type: "item",
+				item: "thermal:machine_press"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.0d,
+			dependencies: [I;2810],
+			id: 2826,
+			tasks: [{
+				id: 2827,
+				type: "item",
+				item: "thermal:machine_crucible"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 4.0d,
+			dependencies: [I;2810],
+			id: 2828,
+			tasks: [{
+				id: 2829,
+				type: "item",
+				item: "thermal:machine_chiller"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 8.0d,
+			dependencies: [I;2810],
+			id: 2830,
+			tasks: [{
+				id: 2831,
+				type: "item",
+				item: "thermal:machine_refinery"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 10.0d,
+			dependencies: [I;2810],
+			id: 2832,
+			tasks: [{
+				id: 2833,
+				type: "item",
+				item: "thermal:machine_brewer"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.0d,
+			dependencies: [I;2810],
+			id: 2834,
+			tasks: [{
+				id: 2835,
+				type: "item",
+				item: "thermal:machine_bottler"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.0d,
+			dependencies: [I;2810],
+			id: 2836,
+			tasks: [{
+				id: 2837,
+				type: "item",
+				item: "thermal:machine_crafter"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -3.0d,
+			dependencies: [I;2808],
+			id: 2838,
+			tasks: [{
+				id: 2839,
+				type: "item",
+				item: "thermal:dynamo_stirling"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.0d,
+			dependencies: [I;2808],
+			id: 2840,
+			tasks: [{
+				id: 2841,
+				type: "item",
+				item: "thermal:dynamo_compression"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -3.0d,
+			dependencies: [I;2808],
+			id: 2842,
+			tasks: [{
+				id: 2843,
+				type: "item",
+				item: "thermal:dynamo_magmatic"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -3.0d,
+			dependencies: [I;2808],
+			id: 2844,
+			tasks: [{
+				id: 2845,
+				type: "item",
+				item: "thermal:dynamo_numismatic"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			dependencies: [I;2808],
+			id: 2846,
+			tasks: [{
+				id: 2847,
+				type: "item",
+				item: "thermal:dynamo_lapidary"
+			}]
+		},
+		{
+			title: "Coils of plenty",
+			x: 4.5d,
+			y: 1.5d,
+			dependencies: [I;2808],
+			id: 2848,
+			tasks: [
+				{
+					id: 2849,
+					type: "item",
+					item: "thermal:rf_coil_augment"
+				},
+				{
+					id: 2850,
+					type: "item",
+					item: "thermal:rf_coil_storage_augment"
+				},
+				{
+					id: 2851,
+					type: "item",
+					item: "thermal:rf_coil_xfer_augment"
+				}
+			]
+		},
+		{
+			title: "O My, Look a ton of Upgrades",
+			x: 4.5d,
+			y: -0.5d,
+			dependencies: [I;2808],
+			id: 2852,
+			tasks: [
+				{
+					id: 2853,
+					type: "item",
+					item: "thermal:fluid_tank_augment"
+				},
+				{
+					id: 2854,
+					type: "item",
+					item: "thermal:machine_speed_augment"
+				},
+				{
+					id: 2855,
+					type: "item",
+					item: "thermal:machine_output_augment"
+				},
+				{
+					id: 2856,
+					type: "item",
+					item: "thermal:machine_catalyst_augment"
+				},
+				{
+					id: 2857,
+					type: "item",
+					item: "thermal:machine_cycle_augment"
+				},
+				{
+					id: 2858,
+					type: "item",
+					item: "thermal:dynamo_output_augment"
+				},
+				{
+					id: 2859,
+					type: "item",
+					item: "thermal:area_radius_augment"
+				},
+				{
+					id: 2860,
+					type: "item",
+					item: "thermal:dynamo_fuel_augment"
+				},
+				{
+					id: 2861,
+					type: "item",
+					item: "thermal:potion_amplifier_augment"
+				},
+				{
+					id: 2862,
+					type: "item",
+					item: "thermal:potion_duration_augment"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 4.0d,
+			id: 2863,
+			tasks: [{
+				id: 2864,
+				type: "item",
+				item: "thermal:upgrade_augment_1"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 6.0d,
+			dependencies: [I;2863],
+			id: 2865,
+			tasks: [{
+				id: 2866,
+				type: "item",
+				item: "thermal:upgrade_augment_2"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 8.0d,
+			dependencies: [I;2865],
+			id: 2867,
+			tasks: [{
+				id: 2868,
+				type: "item",
+				item: "thermal:upgrade_augment_3"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.0d,
+			id: 2869,
+			tasks: [{
+				id: 2870,
+				type: "item",
+				item: "thermal:wrench"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 6.0d,
+			id: 2871,
+			tasks: [{
+				id: 2872,
+				type: "item",
+				item: "thermal:lock"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 8.0d,
+			id: 2873,
+			tasks: [{
+				id: 2874,
+				type: "item",
+				item: "thermal:detonator"
+			}]
+		},
+		{
+			title: "Rails O My",
+			x: 6.5d,
+			y: 10.0d,
+			id: 2875,
+			tasks: [
+				{
+					id: 2876,
+					type: "item",
+					item: "thermal:crossover_rail"
+				},
+				{
+					id: 2877,
+					type: "item",
+					item: "thermal:prismarine_rail"
+				},
+				{
+					id: 2878,
+					type: "item",
+					item: "thermal:prismarine_crossover_rail"
+				},
+				{
+					id: 2879,
+					type: "item",
+					item: "thermal:prismarine_powered_rail"
+				},
+				{
+					id: 2880,
+					type: "item",
+					item: "thermal:prismarine_activator_rail"
+				},
+				{
+					id: 2881,
+					type: "item",
+					item: "thermal:prismarine_detector_rail"
+				},
+				{
+					id: 2882,
+					type: "item",
+					item: "thermal:lumium_rail"
+				},
+				{
+					id: 2883,
+					type: "item",
+					item: "thermal:lumium_crossover_rail"
+				},
+				{
+					id: 2884,
+					type: "item",
+					item: "thermal:lumium_powered_rail"
+				},
+				{
+					id: 2885,
+					type: "item",
+					item: "thermal:lumium_activator_rail"
+				},
+				{
+					id: 2886,
+					type: "item",
+					item: "thermal:lumium_detector_rail"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 1.5d,
+			id: 2887,
+			tasks: [
+				{
+					id: 2888,
+					type: "item",
+					item: "thermal:earth_charge"
+				},
+				{
+					id: 2889,
+					type: "item",
+					item: "thermal:ice_charge"
+				},
+				{
+					id: 2890,
+					type: "item",
+					item: "thermal:lightning_charge"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -0.5d,
+			id: 2891,
+			tasks: [
+				{
+					id: 2892,
+					type: "item",
+					item: "thermal:device_hive_extractor"
+				},
+				{
+					id: 2893,
+					type: "item",
+					item: "thermal:device_tree_extractor"
+				},
+				{
+					id: 2894,
+					type: "item",
+					item: "thermal:tinker_bench"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -3.0d,
+			id: 2895,
+			tasks: [
+				{
+					id: 2896,
+					type: "item",
+					item: "thermal:phyto_tnt"
+				},
+				{
+					id: 2897,
+					type: "item",
+					item: "thermal:fire_tnt"
+				},
+				{
+					id: 2898,
+					type: "item",
+					item: "thermal:earth_tnt"
+				},
+				{
+					id: 2899,
+					type: "item",
+					item: "thermal:ice_tnt"
+				},
+				{
+					id: 2900,
+					type: "item",
+					item: "thermal:lightning_tnt"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			dependencies: [I;2808],
+			id: 2901,
+			tasks: [
+				{
+					id: 2902,
+					type: "item",
+					item: "thermal:flux_drill"
+				},
+				{
+					id: 2903,
+					type: "item",
+					item: "thermal:flux_saw"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -1.0d,
+			dependencies: [I;2808],
+			id: 2904,
+			tasks: [
+				{
+					id: 2905,
+					type: "item",
+					item: {
+						id: "thermal:flux_capacitor",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 2906,
+					type: "item",
+					item: "thermal:flux_magnet"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 1.5d,
+			id: 2907,
+			tasks: [{
+				id: 2908,
+				type: "item",
+				item: {
+					id: "thermal:watering_can",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -1.0d,
+			id: 2909,
+			tasks: [
+				{
+					id: 2910,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2911,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2912,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2913,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -3.0d,
+			id: 2914,
+			tasks: [
+				{
+					id: 2915,
+					type: "item",
+					item: {
+						id: "thermal:diving_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2916,
+					type: "item",
+					item: {
+						id: "thermal:diving_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2917,
+					type: "item",
+					item: {
+						id: "thermal:diving_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2918,
+					type: "item",
+					item: {
+						id: "thermal:diving_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 10.0d,
+			id: 2919,
+			tasks: [
+				{
+					id: 2920,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2921,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2922,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2923,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -5.0d,
+			id: 2924,
+			tasks: [
+				{
+					id: 2925,
+					type: "item",
+					item: "thermal:explosive_grenade"
+				},
+				{
+					id: 2926,
+					type: "item",
+					item: "thermal:phyto_grenade"
+				},
+				{
+					id: 2927,
+					type: "item",
+					item: "thermal:fire_grenade"
+				},
+				{
+					id: 2928,
+					type: "item",
+					item: "thermal:earth_grenade"
+				},
+				{
+					id: 2929,
+					type: "item",
+					item: "thermal:earth_grenade"
+				},
+				{
+					id: 2930,
+					type: "item",
+					item: "thermal:lightning_grenade"
+				},
+				{
+					id: 2931,
+					type: "item",
+					item: "thermal:ice_grenade"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -5.0d,
+			id: 2932,
+			tasks: [{
+				id: 2933,
+				type: "kill",
+				entity: "thermal:blizz",
+				value: 100L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -5.0d,
+			id: 2934,
+			tasks: [{
+				id: 2935,
+				type: "kill",
+				entity: "thermal:blitz",
+				value: 100L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -5.0d,
+			id: 2938,
+			tasks: [
+				{
+					id: 2939,
+					type: "item",
+					item: "thermal:sadiroot_block"
+				},
+				{
+					id: 2940,
+					type: "item",
+					item: "thermal:apple_block"
+				},
+				{
+					id: 2941,
+					type: "item",
+					item: "thermal:carrot_block"
+				},
+				{
+					id: 2942,
+					type: "item",
+					item: "thermal:potato_block"
+				},
+				{
+					id: 2943,
+					type: "item",
+					item: "thermal:potato_block"
+				},
+				{
+					id: 2944,
+					type: "item",
+					item: "thermal:beetroot_block"
+				},
+				{
+					id: 2945,
+					type: "item",
+					item: "thermal:corn_block"
+				},
+				{
+					id: 2946,
+					type: "item",
+					item: "thermal:onion_block"
+				},
+				{
+					id: 2947,
+					type: "item",
+					item: "thermal:radish_block"
+				},
+				{
+					id: 2948,
+					type: "item",
+					item: "thermal:spinach_block"
+				},
+				{
+					id: 2951,
+					type: "item",
+					item: "thermal:bell_pepper_block"
+				},
+				{
+					id: 2952,
+					type: "item",
+					item: "thermal:eggplant_block"
+				},
+				{
+					id: 2953,
+					type: "item",
+					item: "thermal:green_bean_block"
+				},
+				{
+					id: 2954,
+					type: "item",
+					item: "thermal:hops_block"
+				},
+				{
+					id: 2955,
+					type: "item",
+					item: "thermal:strawberry_block"
+				},
+				{
+					id: 2956,
+					type: "item",
+					item: "thermal:tomato_block"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -5.0d,
+			id: 2949,
+			tasks: [{
+				id: 2950,
+				type: "kill",
+				entity: "thermal:basalz",
+				value: 100L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -5.0d,
+			id: 2957,
+			tasks: [
+				{
+					id: 2958,
+					type: "item",
+					item: "thermal:press_coin_die"
+				},
+				{
+					id: 2959,
+					type: "item",
+					item: "thermal:press_gear_die"
+				},
+				{
+					id: 2960,
+					type: "item",
+					item: "thermal:chiller_ball_cast"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -5.0d,
+			id: 2961,
+			tasks: [
+				{
+					id: 2962,
+					type: "item",
+					item: "thermal:underwater_minecart"
+				},
+				{
+					id: 2963,
+					type: "item",
+					item: "thermal:phyto_tnt_minecart"
+				},
+				{
+					id: 2964,
+					type: "item",
+					item: "thermal:fire_tnt_minecart"
+				},
+				{
+					id: 2965,
+					type: "item",
+					item: "thermal:earth_tnt_minecart"
+				},
+				{
+					id: 2966,
+					type: "item",
+					item: "thermal:ice_tnt_minecart"
+				},
+				{
+					id: 2967,
+					type: "item",
+					item: "thermal:lightning_tnt_minecart"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: -3.0d,
+			id: 2968,
+			tasks: [
+				{
+					id: 2969,
+					type: "item",
+					item: "thermal:obsidian_glass"
+				},
+				{
+					id: 2970,
+					type: "item",
+					item: "thermal:signalum_glass"
+				},
+				{
+					id: 2971,
+					type: "item",
+					item: "thermal:lumium_glass"
+				},
+				{
+					id: 2972,
+					type: "item",
+					item: "thermal:enderium_glass"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: -1.0d,
+			id: 2973,
+			tasks: [
+				{
+					id: 2974,
+					type: "item",
+					item: "thermal:drill_head"
+				},
+				{
+					id: 2975,
+					type: "item",
+					item: "thermal:saw_blade"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: 1.5d,
+			id: 2976,
+			tasks: [
+				{
+					id: 2977,
+					type: "item",
+					item: "thermal:chocolate_cake"
+				},
+				{
+					id: 2978,
+					type: "item",
+					item: "thermal:spice_cake"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: 4.0d,
+			id: 2979,
+			tasks: [{
+				id: 2980,
+				type: "item",
+				item: {
+					id: "thermal:potion_infuser",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 6.0d,
+			id: 2981,
+			tasks: [{
+				id: 2982,
+				type: "item",
+				item: {
+					id: "thermal:potion_quiver",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 8.0d,
+			id: 2983,
+			tasks: [
+				{
+					id: 2984,
+					type: "item",
+					item: "thermal:phytosoil"
+				},
+				{
+					id: 2985,
+					type: "item",
+					item: "thermal:phytosoil_tilled"
+				},
+				{
+					id: 2986,
+					type: "item",
+					item: "thermal:device_soil_infuser"
+				}
+			]
+		}
+	]
+}

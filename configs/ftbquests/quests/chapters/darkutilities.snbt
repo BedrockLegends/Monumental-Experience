@@ -1,0 +1,437 @@
+{
+	id: 2594,
+	filename: "darkutilities",
+	order_index: 9,
+	title: "Dark Utilities",
+	icon: "darkutils:blank_plate",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2595,
+			tasks: [{
+				id: 2596,
+				type: "item",
+				item: "darkutils:blank_plate",
+				count: 24L
+			}],
+			rewards: [{
+				id: 3096,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;2595],
+			id: 2603,
+			tasks: [
+				{
+					id: 2604,
+					type: "item",
+					item: "darkutils:vector_plate_fast",
+					count: 6L
+				},
+				{
+					id: 2616,
+					type: "item",
+					item: "darkutils:export_plate_fast",
+					count: 6L
+				},
+				{
+					id: 2617,
+					type: "item",
+					item: "darkutils:import_plate_fast",
+					count: 6L
+				}
+			],
+			rewards: [
+				{
+					id: 3089,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3090,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: [I;2595],
+			id: 2609,
+			tasks: [
+				{
+					id: 2610,
+					type: "item",
+					item: "darkutils:vector_plate_extreme",
+					count: 6L
+				},
+				{
+					id: 2618,
+					type: "item",
+					item: "darkutils:export_plate_extreme",
+					count: 6L
+				},
+				{
+					id: 2619,
+					type: "item",
+					item: "darkutils:import_plate_extreme",
+					count: 6L
+				}
+			],
+			rewards: [
+				{
+					id: 3101,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3102,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;2595],
+			id: 2612,
+			tasks: [
+				{
+					id: 2613,
+					type: "item",
+					item: "darkutils:vector_plate",
+					count: 6L
+				},
+				{
+					id: 2614,
+					type: "item",
+					item: "darkutils:export_plate",
+					count: 6L
+				},
+				{
+					id: 2615,
+					type: "item",
+					item: "darkutils:import_plate",
+					count: 6L
+				}
+			],
+			rewards: [
+				{
+					id: 3097,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3098,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			title: "Many types of Traps!!!",
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: [I;2595],
+			id: 2620,
+			tasks: [
+				{
+					id: 2621,
+					type: "item",
+					item: "darkutils:rune_damage",
+					count: 3L
+				},
+				{
+					id: 2622,
+					type: "item",
+					item: "darkutils:rune_damage_player",
+					count: 3L
+				},
+				{
+					id: 2623,
+					type: "item",
+					item: "darkutils:rune_poison",
+					count: 3L
+				},
+				{
+					id: 2624,
+					type: "item",
+					item: "darkutils:rune_weakness",
+					count: 3L
+				},
+				{
+					id: 2625,
+					type: "item",
+					item: "darkutils:rune_slowness",
+					count: 3L
+				},
+				{
+					id: 2626,
+					type: "item",
+					item: "darkutils:rune_wither",
+					count: 3L
+				},
+				{
+					id: 2627,
+					type: "item",
+					item: "darkutils:rune_fire",
+					count: 3L
+				},
+				{
+					id: 2628,
+					type: "item",
+					item: "darkutils:rune_fatigue",
+					count: 3L
+				},
+				{
+					id: 2629,
+					type: "item",
+					item: "darkutils:rune_glowing",
+					count: 3L
+				},
+				{
+					id: 2630,
+					type: "item",
+					item: "darkutils:rune_hunger",
+					count: 3L
+				},
+				{
+					id: 2631,
+					type: "item",
+					item: "darkutils:rune_blindness",
+					count: 3L
+				},
+				{
+					id: 2632,
+					type: "item",
+					item: "darkutils:rune_nausea",
+					count: 3L
+				},
+				{
+					id: 2633,
+					type: "item",
+					item: "darkutils:anchor_plate",
+					count: 3L
+				}
+			],
+			rewards: [
+				{
+					id: 3094,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3095,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			title: "Many types of Filters!!!",
+			x: -4.0d,
+			y: 4.0d,
+			id: 2634,
+			tasks: [
+				{
+					id: 2635,
+					type: "item",
+					item: "darkutils:filter_player"
+				},
+				{
+					id: 2636,
+					type: "item",
+					item: "darkutils:filter_undead"
+				},
+				{
+					id: 2637,
+					type: "item",
+					item: "darkutils:filter_arthropod"
+				},
+				{
+					id: 2638,
+					type: "item",
+					item: "darkutils:filter_illager"
+				},
+				{
+					id: 2639,
+					type: "item",
+					item: "darkutils:filter_raid"
+				},
+				{
+					id: 2640,
+					type: "item",
+					item: "darkutils:filter_hostile"
+				},
+				{
+					id: 2641,
+					type: "item",
+					item: "darkutils:filter_animal"
+				},
+				{
+					id: 2642,
+					type: "item",
+					item: "darkutils:filter_child"
+				},
+				{
+					id: 2643,
+					type: "item",
+					item: "darkutils:filter_pet"
+				},
+				{
+					id: 2644,
+					type: "item",
+					item: "darkutils:filter_slime"
+				},
+				{
+					id: 2645,
+					type: "item",
+					item: "darkutils:filter_boss"
+				},
+				{
+					id: 2646,
+					type: "item",
+					item: "darkutils:filter_villager"
+				},
+				{
+					id: 2647,
+					type: "item",
+					item: "darkutils:filter_fire_immune"
+				},
+				{
+					id: 2648,
+					type: "item",
+					item: "darkutils:filter_explosion_immune"
+				},
+				{
+					id: 2649,
+					type: "item",
+					item: "darkutils:filter_golem"
+				},
+				{
+					id: 2650,
+					type: "item",
+					item: "darkutils:filter_water"
+				},
+				{
+					id: 2651,
+					type: "item",
+					item: "darkutils:filter_named"
+				}
+			],
+			rewards: [
+				{
+					id: 3099,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3100,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			id: 2652,
+			tasks: [{
+				id: 2653,
+				type: "item",
+				item: "darkutils:item_grate"
+			}],
+			rewards: [
+				{
+					id: 3088,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3091,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			id: 2654,
+			tasks: [
+				{
+					id: 2655,
+					type: "item",
+					item: "darkutils:redstone_randomizer"
+				},
+				{
+					id: 2656,
+					type: "item",
+					item: "darkutils:shielded_redstone"
+				}
+			],
+			rewards: [
+				{
+					id: 3092,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3093,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			title: "Many kinds of Charms!!!",
+			x: 4.0d,
+			y: 4.0d,
+			id: 2661,
+			tasks: [
+				{
+					id: 2662,
+					type: "item",
+					item: "darkutils:charm_portal"
+				},
+				{
+					id: 2663,
+					type: "item",
+					item: "darkutils:charm_sleep"
+				},
+				{
+					id: 2664,
+					type: "item",
+					item: "darkutils:charm_experience"
+				},
+				{
+					id: 2665,
+					type: "item",
+					item: "darkutils:charm_gluttony"
+				}
+			],
+			rewards: [
+				{
+					id: 3103,
+					type: "random",
+					table: 2
+				},
+				{
+					id: 3104,
+					type: "random",
+					table: 1
+				}
+			]
+		}
+	]
+}

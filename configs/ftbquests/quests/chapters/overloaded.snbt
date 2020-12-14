@@ -1,0 +1,186 @@
+{
+	id: 1361,
+	filename: "overloaded",
+	order_index: 28,
+	title: "Overloaded",
+	icon: "overloaded:almost_infinite_barrel",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 1396,
+			tasks: [{
+				id: 1397,
+				type: "item",
+				item: "overloaded:item_core"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;1396],
+			id: 1444,
+			tasks: [{
+				id: 1445,
+				type: "item",
+				item: "overloaded:almost_infinite_barrel"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 1484,
+			tasks: [{
+				id: 1485,
+				type: "item",
+				item: "overloaded:energy_core"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			dependencies: [I;1484],
+			id: 1564,
+			tasks: [{
+				id: 1565,
+				type: "item",
+				item: {
+					id: "overloaded:railgun",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			dependencies: [I;1484],
+			id: 1566,
+			tasks: [
+				{
+					id: 1567,
+					type: "item",
+					item: {
+						id: "overloaded:multi_helmet",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 1568,
+					type: "item",
+					item: {
+						id: "overloaded:multi_chestplate",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 1569,
+					type: "item",
+					item: {
+						id: "overloaded:multi_leggings",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 1570,
+					type: "item",
+					item: {
+						id: "overloaded:multi_boots",
+						Count: true,
+						tag: {}
+					}
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -4.0d,
+			dependencies: [I;1484],
+			id: 1571,
+			tasks: [{
+				id: 1572,
+				type: "item",
+				item: "overloaded:almost_infinite_capacitor"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -8.0d,
+			dependencies: [I;1571],
+			id: 1573,
+			tasks: [{
+				id: 1574,
+				type: "item",
+				item: "overloaded:true_infinite_capacitor"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			dependencies: [I;1444],
+			id: 1575,
+			tasks: [{
+				id: 1576,
+				type: "item",
+				item: "overloaded:true_infinite_barrel"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;1484],
+			id: 1577,
+			tasks: [{
+				id: 1578,
+				type: "item",
+				item: {
+					id: "overloaded:multi_tool",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 1579,
+			tasks: [{
+				id: 1580,
+				type: "item",
+				item: "overloaded:fluid_core"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			dependencies: [I;1579],
+			id: 1581,
+			tasks: [{
+				id: 1582,
+				type: "item",
+				item: "overloaded:almost_infinite_tank"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.0d,
+			dependencies: [I;1581],
+			id: 1583,
+			tasks: [{
+				id: 1584,
+				type: "item",
+				item: "overloaded:true_infinite_tank"
+			}]
+		}
+	]
+}

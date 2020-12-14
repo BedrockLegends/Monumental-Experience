@@ -1,0 +1,857 @@
+{
+	id: 2697,
+	filename: "immersive_engineering",
+	order_index: 16,
+	title: "Immersive Engineering",
+	icon: "immersiveengineering:workbench",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "rsquare",
+			size: 2.0d,
+			id: 2698,
+			tasks: [{
+				id: 2699,
+				type: "item",
+				item: "immersiveengineering:manual"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: [I;2698],
+			id: 1585,
+			tasks: [{
+				id: 1586,
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "blast furnace",
+			x: 4.0d,
+			y: -3.5d,
+			dependencies: [I;1585],
+			id: 1587,
+			tasks: [{
+				id: 1588,
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}]
+		},
+		{
+			title: "coke oven",
+			x: 4.0d,
+			y: -0.5d,
+			dependencies: [I;1585],
+			id: 1589,
+			tasks: [{
+				id: 1590,
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}]
+		},
+		{
+			title: "reinforced blast furnace",
+			x: 7.5d,
+			y: -3.5d,
+			dependencies: [I;1587],
+			id: 1591,
+			tasks: [
+				{
+					id: 1592,
+					type: "item",
+					item: "immersiveengineering:blastbrick_reinforced",
+					count: 27L
+				},
+				{
+					id: 1593,
+					type: "item",
+					item: "minecraft:hopper"
+				}
+			]
+		},
+		{
+			title: "silo",
+			x: -5.0d,
+			y: 0.0d,
+			dependencies: [I;1585],
+			id: 1594,
+			tasks: [
+				{
+					id: 1595,
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 4L
+				},
+				{
+					id: 1596,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 50L
+				}
+			]
+		},
+		{
+			title: "tank",
+			x: -5.0d,
+			y: -1.0d,
+			dependencies: [I;1585],
+			id: 1597,
+			tasks: [
+				{
+					id: 1598,
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 4L
+				},
+				{
+					id: 1599,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 34L
+				}
+			]
+		},
+		{
+			title: "Diesel Generator",
+			x: -5.0d,
+			y: -2.0d,
+			dependencies: [I;1585],
+			id: 1600,
+			tasks: [
+				{
+					id: 1601,
+					type: "item",
+					item: "immersiveengineering:radiator",
+					count: 9L
+				},
+				{
+					id: 1602,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 1603,
+					type: "item",
+					item: "immersiveengineering:generator",
+					count: 4L
+				},
+				{
+					id: 1604,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 13L
+				},
+				{
+					id: 1605,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1606,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 5L
+				}
+			]
+		},
+		{
+			title: "lightning rod",
+			x: -5.0d,
+			y: -3.0d,
+			dependencies: [I;1585],
+			id: 1607,
+			tasks: [
+				{
+					id: 1608,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 4L
+				},
+				{
+					id: 1609,
+					type: "item",
+					item: "immersiveengineering:coil_hv",
+					count: 3L
+				},
+				{
+					id: 1610,
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 4L
+				},
+				{
+					id: 1611,
+					type: "item",
+					item: "immersiveengineering:coil_lv",
+					count: 8L
+				},
+				{
+					id: 1612,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 4L
+				},
+				{
+					id: 1613,
+					type: "item",
+					item: "immersiveengineering:capacitor_hv",
+					count: 4L
+				}
+			]
+		},
+		{
+			title: "metal press",
+			x: -5.0d,
+			y: -4.0d,
+			dependencies: [I;1585],
+			id: 1614,
+			tasks: [
+				{
+					id: 1615,
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: 1616,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 2L
+				},
+				{
+					id: 1617,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1618,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering"
+				},
+				{
+					id: 1621,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
+				}
+			]
+		},
+		{
+			title: "Crusher",
+			x: -5.0d,
+			y: -5.0d,
+			dependencies: [I;1585],
+			id: 1622,
+			tasks: [
+				{
+					id: 1651,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 10L
+				},
+				{
+					id: 1652,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 10L
+				},
+				{
+					id: 1653,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1654,
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 8L
+				},
+				{
+					id: 1655,
+					type: "item",
+					item: "minecraft:hopper",
+					count: 9L
+				}
+			]
+		},
+		{
+			title: "Sawmill",
+			x: -5.0d,
+			y: -6.0d,
+			dependencies: [I;1585],
+			id: 1656,
+			tasks: [
+				{
+					id: 1657,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 8L
+				},
+				{
+					id: 1658,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 6L
+				},
+				{
+					id: 1659,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 4L
+				},
+				{
+					id: 1660,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: 1661,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1662,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 4L
+				}
+			]
+		},
+		{
+			title: "assembler",
+			x: -5.0d,
+			y: -7.0d,
+			dependencies: [I;1585],
+			id: 1663,
+			tasks: [
+				{
+					id: 1664,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 1665,
+					type: "item",
+					item: "immersiveengineering:rs_engineering",
+					count: 2L
+				},
+				{
+					id: 1666,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 1667,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 9L
+				},
+				{
+					id: 1668,
+					type: "item",
+					item: "immersiveengineering:slab_sheetmetal_iron",
+					count: 6L
+				},
+				{
+					id: 1669,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
+				}
+			]
+		},
+		{
+			title: "fermenter",
+			x: -5.0d,
+			y: -8.0d,
+			dependencies: [I;1585],
+			id: 1670,
+			tasks: [
+				{
+					id: 1671,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 1672,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 1673,
+					type: "item",
+					item: "minecraft:cauldron",
+					count: 4L
+				},
+				{
+					id: 1674,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1675,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 4L
+				},
+				{
+					id: 1676,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 2L
+				}
+			]
+		},
+		{
+			title: "squeezer",
+			x: -4.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1677,
+			tasks: [
+				{
+					id: 1678,
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: 1679,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 1680,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1681,
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 3L
+				},
+				{
+					id: 1682,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 2L
+				},
+				{
+					id: 1683,
+					type: "item",
+					item: "immersiveengineering:wooden_barrel",
+					count: 4L
+				}
+			]
+		},
+		{
+			title: "refinery",
+			x: -3.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1684,
+			tasks: [
+				{
+					id: 1685,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 8L
+				},
+				{
+					id: 1686,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 1687,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: 1688,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 16L
+				},
+				{
+					id: 1689,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1690,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 5L
+				}
+			]
+		},
+		{
+			title: "mixer",
+			x: -2.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1691,
+			tasks: [
+				{
+					id: 1692,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 5L
+				},
+				{
+					id: 1693,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 4L
+				},
+				{
+					id: 1694,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 4L
+				},
+				{
+					id: 1695,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1696,
+					type: "item",
+					item: "immersiveengineering:steel_fence"
+				},
+				{
+					id: 1697,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 3L
+				}
+			]
+		},
+		{
+			title: "bottling machine",
+			x: -1.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1698,
+			tasks: [
+				{
+					id: 1699,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 2L
+				},
+				{
+					id: 1700,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 3L
+				},
+				{
+					id: 1711,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1712,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 1715,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 3L
+				},
+				{
+					id: 1716,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 2L
+				}
+			]
+		},
+		{
+			title: "automated workbench",
+			x: 0.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1717,
+			tasks: [
+				{
+					id: 1718,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 5L
+				},
+				{
+					id: 1719,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 4L
+				},
+				{
+					id: 1720,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1721,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: 1722,
+					type: "item",
+					item: "immersiveengineering:slab_treated_wood_packaged",
+					count: 2L
+				},
+				{
+					id: 1723,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 4L
+				}
+			]
+		},
+		{
+			title: "Arc Furnace",
+			x: 1.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1724,
+			tasks: [
+				{
+					id: 1725,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_steel",
+					count: 8L
+				},
+				{
+					id: 1726,
+					type: "item",
+					item: "immersiveengineering:storage_steel",
+					count: 6L
+				},
+				{
+					id: 1727,
+					type: "item",
+					item: "immersiveengineering:slab_sheetmetal_steel",
+					count: 14L
+				},
+				{
+					id: 1728,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 5L
+				},
+				{
+					id: 1729,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 5L
+				},
+				{
+					id: 1730,
+					type: "item",
+					item: "minecraft:cauldron"
+				},
+				{
+					id: 1731,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1734,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 10L
+				},
+				{
+					id: 1735,
+					type: "item",
+					item: "immersiveengineering:blastbrick_reinforced",
+					count: 27L
+				}
+			]
+		},
+		{
+			title: "excavator",
+			x: 2.0d,
+			y: -9.0d,
+			dependencies: [I;1585],
+			id: 1739,
+			tasks: [
+				{
+					id: 1740,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 1741,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_steel",
+					count: 16L
+				},
+				{
+					id: 1742,
+					type: "item",
+					item: "immersiveengineering:radiator",
+					count: 3L
+				},
+				{
+					id: 1822,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 9L
+				},
+				{
+					id: 1823,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1824,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 4L
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			size: 2.0d,
+			id: 2393,
+			tasks: [{
+				id: 2394,
+				type: "item",
+				item: "immersivepetroleum:projector"
+			}]
+		},
+		{
+			title: "pumpjack",
+			x: -5.0d,
+			y: 1.0d,
+			dependencies: [I;1585],
+			id: 2395,
+			tasks: [
+				{
+					id: 2396,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 11L
+				},
+				{
+					id: 2397,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 2398,
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 6L
+				},
+				{
+					id: 2399,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 2400,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: 2401,
+					type: "item",
+					item: "immersiveengineering:storage_steel",
+					count: 2L
+				},
+				{
+					id: 2402,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_steel",
+					count: 4L
+				},
+				{
+					id: 2403,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 4L
+				}
+			]
+		},
+		{
+			title: "Distillation Tower",
+			x: -5.0d,
+			y: 2.0d,
+			dependencies: [I;1585],
+			id: 2404,
+			tasks: [
+				{
+					id: 2405,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 25L
+				},
+				{
+					id: 2406,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 4L
+				},
+				{
+					id: 2407,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 2408,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 60L
+				},
+				{
+					id: 2409,
+					type: "item",
+					item: "immersiveengineering:slab_steel_scaffolding_standard",
+					count: 30L
+				},
+				{
+					id: 2410,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 17L
+				}
+			]
+		}
+	]
+}
