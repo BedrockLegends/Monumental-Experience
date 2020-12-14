@@ -1,0 +1,10 @@
+┏╸ma:valkyrielib
+┃┏╸bo:generate_documentation
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┃┏╸bo:debug
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: null
+┃┗╸
+┗╸
