@@ -12,10 +12,10 @@
 ["Hornet Spawn Settings"]
 	#Hornet Spawn Group Maximum Size
 	#Range: > 1
-	hornet_max_spawn_size = 3
+	hornet_max_spawn_size = 1
 	#Hornet Spawn Chance Probability
 	#Range: > 1
-	hornet_chance = 20
+	hornet_chance = 8
 	#Hornet Spawn Group Minimum Size
 	#Range: > 1
 	hornet_min_spawn_size = 1
