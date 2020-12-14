@@ -1,0 +1,84 @@
+
+[trilium]
+
+	[trilium.armor_values]
+		#Trilium Boots Armor Value
+		#Range: 0 ~ 8
+		trilium_boots_armor_protection = 5
+		#Toughness, no decimals
+		#Range: 0 ~ 16
+		trilium_armor_toughness = 3
+		#Trilium Helmet Armor Value
+		#Range: 0 ~ 8
+		trilium_helmet_armor_protection = 5
+		#Trilium Leggings Armor Value
+		#Range: 0 ~ 16
+		trilium_leggings_armor_protection = 8
+		#Durability modifier for the Trilium Armor Set.  Armor durability array:  {5, 8, 10, 5}.  Durability is calculated by modifer x armor piece array value
+		#Range: 0 ~ 99999999
+		trilium_armor_durability = 56
+		#Trilium Chestplate Armor Value
+		#Range: 0 ~ 16
+		trilium_chestplate_armor_protection = 10
+
+	[trilium.material_values]
+		#Base Durability of the Trilium Tool Set
+		#Range: 0 ~ 999999
+		trilium_durability = 3600
+		#Trilium Enchantability
+		#Range: 0 ~ 256
+		trilium_enchantability = 20
+		#Additional Attack Damage of the Trilium Tool Set.  Note, there are hardcoded scaling values applied internally
+		#Range: 0 ~ 100
+		trilium_attack_damage = 9
+		#Harvest Level of the Trilium Tool Set
+		#Range: 0 ~ 7
+		trilium_harvest_level = 5
+
+[quadrilium]
+
+	[quadrilium.armor_values]
+		#Durability modifier for the Quadrilium Armor Set.  Armor durability array:  {6, 9, 11, 6}.  Durability is calculated by modifer x armor piece array value
+		#Range: 0 ~ 99999999
+		quadrilium_armor_durability = 64
+		#Quadrilium Boots Armor Value
+		#Range: 0 ~ 8
+		quadrilium_boots_armor_protection = 6
+		#Quadrilium Chestplate Armor Value
+		#Range: 0 ~ 16
+		quadrilium_chestplate_armor_protection = 11
+		#Quadrilium Leggings Armor Value
+		#Range: 0 ~ 16
+		quadrilium_leggings_armor_protection = 9
+		#Toughness, no decimals
+		#Range: 0 ~ 16
+		quadrilium_armor_toughness = 4
+		#Quadrilium Helmet Armor Value
+		#Range: 0 ~ 8
+		quadrilium_helmet_armor_protection = 6
+
+	[quadrilium.material_values]
+		#Quadrilium Enchantability
+		#Range: 0 ~ 256
+		quadrilium_enchantability = 22
+		#Additional Attack Damage of the Quadrilium Tool Set.  Note, there are hardcoded scaling values applied internally
+		#Range: 0 ~ 100
+		quadrilium_attack_damage = 1
+		#Harvest Level of the Quadrilium Tool Set
+		#Range: 0 ~ 7
+		quadrilium_harvest_level = 5
+		#Base Durability of the Quadrilium Tool Set
+		#Range: 0 ~ 999999
+		quadrilium_durability = 4200
+
+[token_settings]
+	#Experience Token value for killing mobs
+	#Range: 0 ~ 100
+	exp_token_killing_value = 4
+	#Experience Token value for mining ores
+	#Range: 0 ~ 100
+	exp_token_mining_value = 7
+	#Haste Token block break speed
+	#Range: 1 ~ 20
+	haste_token_break_speed = 7
+
