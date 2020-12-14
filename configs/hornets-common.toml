@@ -1,0 +1,24 @@
+
+#Hornet Attack Settings
+["Hornet Attack Settings"]
+	#Hornets Attack Monsters
+	hornet_should_attack_monsters = false
+	#Hornets Attack Everything (Except Hornets)
+	hornet_should_attack_all = false
+	#Hornets Drop Cake
+	hornet_drops_cake = true
+
+#Hornet Spawn Settings
+["Hornet Spawn Settings"]
+	#Hornet Spawn Group Maximum Size
+	#Range: > 1
+	hornet_max_spawn_size = 1
+	#Hornet Spawn Chance Probability
+	#Range: > 1
+	hornet_chance = 8
+	#Hornet Spawn Group Minimum Size
+	#Range: > 1
+	hornet_min_spawn_size = 1
+	#Hornet Spawn Dimension Blacklist
+	hornet_dimensions = ["allthemodium:mining"]
+

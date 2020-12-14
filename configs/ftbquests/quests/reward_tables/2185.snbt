@@ -1,0 +1,40 @@
+{
+	id: 2185,
+	title: "Hard Quest's",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:beacon"
+		},
+		{
+			item: "minecraft:diamond_block",
+			count: 2
+		},
+		{
+			item: "minecraft:nether_star"
+		},
+		{
+			item: "minecraft:enchanting_table"
+		},
+		{
+			item: "minecraft:orange_shulker_box"
+		},
+		{
+			item: "minecraft:emerald_block"
+		},
+		{
+			item: "minecraft:enchanted_golden_apple",
+			count: 2
+		},
+		{
+			item: "clickmachine:auto_clicker"
+		},
+		{
+			item: "botania:blacker_lotus",
+			count: 3
+		},
+		{
+			item: "industrialforegoing:mycelial_culinary"
+		}
+	]
+}

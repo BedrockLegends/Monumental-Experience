@@ -1,0 +1,14 @@
+{
+  "name": "owner",
+  "prefix": "&4&lOwner",
+  "suffix": "",
+  "perms": [
+    "*",
+    "worldedit.*",
+    "serverutils.*"
+  ],
+  "parents": [],
+  "weight": 2000,
+  "rank_up": 0,
+  "next_ranks": []
+}

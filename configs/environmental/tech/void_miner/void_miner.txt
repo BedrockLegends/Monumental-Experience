@@ -1,0 +1,296 @@
+┏╸ma:void_miner
+┃┏╸bo:enabled
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┃┏╸ma:ccus
+┃┃┏╸ma:litherite
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:erodium
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 247
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 247
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 247
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:kyronite
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 239
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 239
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 239
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:pladium
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 231
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 231
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 231
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:ionite
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 223
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 223
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 223
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:aethium
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 215
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 215
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 215
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:nanorite
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 207
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 207
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 207
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┃┏╸ma:xerothium
+┃┃┃┏╸ma:default_base_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 199
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 199
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 199
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┃┏╸ma:default_core_color
+┃┃┃┃┏╸in:r
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 120
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:g
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 232
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┃┏╸in:b
+┃┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┃┣> Default: 255
+┃┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┃┗╸
+┃┃┃┗╸
+┃┃┗╸
+┃┗╸
+┗╸

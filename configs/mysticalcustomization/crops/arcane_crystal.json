@@ -1,0 +1,14 @@
+{
+  "name": "arcane_crystal",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "forbidden_arcanus:arcane_crystal"
+  },
+  "color": "C4DDE6",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_diamond"
+  },
+  "crux": "forbidden_arcanus:arcane_crystal_block"
+}

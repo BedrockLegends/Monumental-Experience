@@ -1,0 +1,462 @@
+{
+	id: 2700,
+	filename: "pneumaticcraft",
+	order_index: 29,
+	title: "Pneumaticcraft",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: true,
+		tag: {
+			"patchouli:book": "pneumaticcraft:book"
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2701,
+			tasks: [{
+				id: 2702,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: [I;2701],
+			id: 775,
+			tasks: [{
+				id: 776,
+				type: "item",
+				item: "pneumaticcraft:ingot_iron_compressed",
+				count: 4L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			dependencies: [I;775],
+			id: 777,
+			tasks: [{
+				id: 778,
+				type: "item",
+				item: "pneumaticcraft:crop_support",
+				count: 4L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;775],
+			id: 779,
+			tasks: [{
+				id: 780,
+				type: "item",
+				item: "pneumaticcraft:spawner_agitator"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;775],
+			id: 781,
+			tasks: [{
+				id: 782,
+				type: "item",
+				item: "pneumaticcraft:pressure_tube",
+				count: 4L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: [I;781],
+			id: 783,
+			tasks: [{
+				id: 784,
+				type: "item",
+				item: "pneumaticcraft:air_compressor"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			dependencies: [I;783],
+			id: 785,
+			tasks: [{
+				id: 786,
+				type: "item",
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			dependencies: [I;783],
+			id: 787,
+			tasks: [{
+				id: 788,
+				type: "item",
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 4.0d,
+			dependencies: [I;787],
+			id: 789,
+			tasks: [{
+				id: 790,
+				type: "item",
+				item: "pneumaticcraft:advanced_liquid_compressor"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			dependencies: [I;775],
+			id: 791,
+			tasks: [
+				{
+					id: 792,
+					type: "item",
+					item: "pneumaticcraft:refinery_output",
+					count: 4L
+				},
+				{
+					id: 793,
+					type: "item",
+					item: "pneumaticcraft:refinery"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			dependencies: [I;791],
+			id: 794,
+			tasks: [{
+				id: 795,
+				type: "item",
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 8.0d,
+			dependencies: [I;794],
+			id: 796,
+			tasks: [{
+				id: 797,
+				type: "item",
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 8.0d,
+			dependencies: [I;796],
+			id: 798,
+			tasks: [{
+				id: 799,
+				type: "item",
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 12.0d,
+			dependencies: [I;798],
+			id: 800,
+			tasks: [
+				{
+					id: 801,
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_gray",
+					count: 7L
+				},
+				{
+					id: 802,
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_red",
+					count: 4L
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 12.0d,
+			dependencies: [I;800],
+			id: 803,
+			tasks: [{
+				id: 804,
+				type: "item",
+				item: "pneumaticcraft:charging_station"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 12.0d,
+			dependencies: [I;803],
+			id: 805,
+			tasks: [{
+				id: 806,
+				type: "item",
+				item: {
+					id: "pneumaticcraft:amadron_tablet",
+					Count: true,
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 12.0d,
+			dependencies: [I;805],
+			id: 807,
+			tasks: [{
+				id: 808,
+				type: "item",
+				item: "pneumaticcraft:assembly_program_laser"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 10.0d,
+			dependencies: [I;805],
+			id: 809,
+			tasks: [{
+				id: 810,
+				type: "item",
+				item: "pneumaticcraft:assembly_program_drill"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 10.0d,
+			dependencies: [I;805],
+			id: 811,
+			tasks: [{
+				id: 812,
+				type: "item",
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 16.0d,
+			dependencies: [I;805],
+			id: 813,
+			tasks: [{
+				id: 814,
+				type: "item",
+				item: {
+					id: "pneumaticcraft:pneumatic_wrench",
+					Count: true,
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 16.0d,
+			dependencies: [I;803],
+			id: 815,
+			tasks: [{
+				id: 816,
+				type: "item",
+				item: "pneumaticcraft:plastic_brick_green",
+				count: 8L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 16.0d,
+			dependencies: [I;815],
+			id: 817,
+			tasks: [
+				{
+					id: 818,
+					type: "item",
+					item: "pneumaticcraft:empty_pcb",
+					count: 8L
+				},
+				{
+					id: 821,
+					type: "item",
+					item: {
+						id: "pneumaticcraft:empty_pcb",
+						Count: true,
+						tag: {
+							"pneumaticcraft:uv_exposure": 100
+						}
+					},
+					count: 8L
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: 14.0d,
+			dependencies: [I;817],
+			id: 819,
+			tasks: [{
+				id: 820,
+				type: "item",
+				item: "pneumaticcraft:uv_light_box"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 20.0d,
+			dependencies: [I;817],
+			id: 822,
+			tasks: [{
+				id: 823,
+				type: "item",
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 20.0d,
+			dependencies: [I;822],
+			id: 824,
+			tasks: [
+				{
+					id: 825,
+					type: "item",
+					item: "pneumaticcraft:unassembled_pcb",
+					count: 8L
+				},
+				{
+					id: 826,
+					type: "item",
+					item: "pneumaticcraft:transistor",
+					count: 24L
+				},
+				{
+					id: 827,
+					type: "item",
+					item: "pneumaticcraft:capacitor",
+					count: 24L
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 20.0d,
+			dependencies: [I;824],
+			id: 828,
+			tasks: [
+				{
+					id: 829,
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_blue",
+					count: 42L
+				},
+				{
+					id: 830,
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_orange",
+					count: 3L
+				},
+				{
+					id: 831,
+					type: "item",
+					item: "pneumaticcraft:printed_circuit_board",
+					count: 8L
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 20.0d,
+			dependencies: [I;828],
+			id: 832,
+			tasks: [
+				{
+					id: 833,
+					type: "item",
+					item: "pneumaticcraft:assembly_platform"
+				},
+				{
+					id: 834,
+					type: "item",
+					item: "pneumaticcraft:assembly_io_unit_export",
+					count: 2L
+				},
+				{
+					id: 835,
+					type: "item",
+					item: "pneumaticcraft:assembly_io_unit_import",
+					count: 2L
+				},
+				{
+					id: 836,
+					type: "item",
+					item: "pneumaticcraft:assembly_drill"
+				},
+				{
+					id: 837,
+					type: "item",
+					item: "pneumaticcraft:assembly_laser"
+				},
+				{
+					id: 838,
+					type: "item",
+					item: "pneumaticcraft:assembly_controller"
+				},
+				{
+					id: 839,
+					type: "item",
+					title: "Any forge:chests/wooden",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 16.0d,
+			dependencies: [I;832],
+			id: 840,
+			tasks: [{
+				id: 841,
+				type: "item",
+				item: "pneumaticcraft:advanced_pressure_tube",
+				count: 8L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 18.0d,
+			dependencies: [I;840],
+			id: 842,
+			tasks: [{
+				id: 843,
+				type: "item",
+				item: "pneumaticcraft:flux_compressor"
+			}]
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	id: 2987,
+	filename: "the_end",
+	order_index: 39,
+	title: "The End",
+	icon: "minecraft:end_portal_frame",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.0d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2988,
+			tasks: [{
+				id: 2989,
+				type: "item",
+				item: "minecraft:dragon_head"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			dependencies: [I;2988],
+			id: 2990,
+			tasks: [{
+				id: 2991,
+				type: "item",
+				item: "minecraft:end_stone",
+				count: 32L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 1.0d,
+			dependencies: [I;2990],
+			id: 2992,
+			tasks: [{
+				id: 2993,
+				type: "item",
+				item: "minecraft:end_stone_bricks",
+				count: 32L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.5d,
+			dependencies: [I;2988],
+			id: 2994,
+			tasks: [{
+				id: 2995,
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 16L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -3.5d,
+			dependencies: [I;2988],
+			id: 2996,
+			tasks: [{
+				id: 2997,
+				type: "item",
+				item: "minecraft:shulker_box"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			dependencies: [I;2988],
+			id: 2998,
+			tasks: [{
+				id: 2999,
+				type: "item",
+				item: "minecraft:shulker_shell"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 5.5d,
+			dependencies: [I;2988],
+			id: 3000,
+			tasks: [{
+				id: 3001,
+				type: "item",
+				item: "minecraft:end_crystal"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 5.5d,
+			dependencies: [I;2988],
+			id: 3002,
+			tasks: [{
+				id: 3003,
+				type: "item",
+				item: "minecraft:dragon_breath",
+				count: 2L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -3.5d,
+			dependencies: [I;2988],
+			id: 3004,
+			tasks: [{
+				id: 3005,
+				type: "item",
+				item: "minecraft:purpur_block"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: [I;2994],
+			id: 3006,
+			tasks: [{
+				id: 3007,
+				type: "item",
+				item: "minecraft:ender_eye",
+				count: 16L
+			}]
+		}
+	]
+}

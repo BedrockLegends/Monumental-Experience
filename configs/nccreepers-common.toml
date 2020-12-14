@@ -1,0 +1,12 @@
+
+[General]
+	#The chance of a creeper being naturally charged.
+	#Range: 0.0 ~ 1.0
+	ischargedchance = 0.1
+	#If enabled, prevents fire damage to the naturally charged creepers (on first charge).
+	preventFireDamage = true
+	#If enabled, allows naturally spawned creepers in the world to have a chance to be charged.
+	onWorldSpawn = true
+	#If enabled, allows creepers which were spawned by an egg to have a chance to be charged.
+	onEggSpawn = true
+

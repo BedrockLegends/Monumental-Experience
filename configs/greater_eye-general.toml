@@ -1,0 +1,6 @@
+
+#Settings
+[settings]
+	#Enable the display message of distance to structure [true / false]
+	displayDistanceMessage = true
+

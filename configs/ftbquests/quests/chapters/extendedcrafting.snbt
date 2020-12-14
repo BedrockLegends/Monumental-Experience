@@ -1,0 +1,106 @@
+{
+	id: 2546,
+	filename: "extendedcrafting",
+	order_index: 10,
+	title: "Extended Crafting",
+	icon: "extendedcrafting:basic_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2547,
+			tasks: [{
+				id: 2548,
+				type: "item",
+				item: "extendedcrafting:black_iron_ingot",
+				count: 2L
+			}],
+			rewards: [{
+				id: 3168,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;
+				2547,
+				2551
+			],
+			id: 2549,
+			tasks: [{
+				id: 2550,
+				type: "item",
+				item: "extendedcrafting:basic_table"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: [I;2547],
+			id: 2551,
+			tasks: [{
+				id: 2552,
+				type: "item",
+				item: "extendedcrafting:luminessence"
+			}],
+			rewards: [{
+				id: 3172,
+				type: "random",
+				table: 11
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;2549],
+			id: 2553,
+			tasks: [{
+				id: 2554,
+				type: "item",
+				item: "extendedcrafting:advanced_table"
+			}],
+			rewards: [{
+				id: 3171,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: [I;2553],
+			id: 2555,
+			tasks: [{
+				id: 2556,
+				type: "item",
+				item: "extendedcrafting:elite_table"
+			}],
+			rewards: [{
+				id: 3170,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;2555],
+			id: 2557,
+			tasks: [{
+				id: 2558,
+				type: "item",
+				item: "extendedcrafting:ultimate_table"
+			}],
+			rewards: [{
+				id: 3169,
+				type: "random",
+				table: 3
+			}]
+		}
+	]
+}

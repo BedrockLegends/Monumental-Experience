@@ -1,0 +1,14 @@
+{
+  "name": "cyanite",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "bigreactors:cyanite_ingot"
+  },
+  "color": "AADAFC",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "bigreactors:cyanite_block"
+}

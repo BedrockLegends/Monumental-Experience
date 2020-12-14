@@ -1,0 +1,13 @@
+{
+  "name": "aquamarine",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "astralsorcery:aquamarine"
+  },
+  "color": "00E7F3",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

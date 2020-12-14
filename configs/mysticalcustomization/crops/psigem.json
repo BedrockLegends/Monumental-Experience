@@ -1,0 +1,14 @@
+{
+  "name": "psigem",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "psi:psigem"
+  },
+  "color": "C8BFE7",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_diamond"
+  },
+  "crux": "psi:psigem_block"
+}

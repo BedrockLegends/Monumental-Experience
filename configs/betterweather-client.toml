@@ -1,0 +1,32 @@
+
+[Blizzard_Client_Settings]
+	#The lowered render distance that's forced when blizzards are active.
+	#This is used to save performance.
+	#Default 3
+	#Range: 1 ~ 16
+	ForcedBlizzardRenderDistance = 3
+	#Blizzard Sound?
+	#Default: LOOP1.
+	#Allowed Values: LOOP1, LOOP2, LOOP3, LOOP4, LOOP5, LOOP6, LOOP7
+	BlizzardSoundTrack = "LOOP2"
+	#Blizzard Pitch
+	#Default 0.5
+	#Range: 0.0 ~ 10.0
+	BlizzardPitch = 0.4
+	#Blizzard fog Density. Higher values = denser fog.
+	#Default 0.1
+	#Range: 0.0 ~ 10.0
+	BlizzardFogDensity = 0.1
+	#Is there Blizzard fog?
+	#Default: true
+	BlizzardFog = true
+	#How loud are blizzards?
+	#Default 0.5
+	#Range: 0.0 ~ 10.0
+	BlizzardVolume = 0.4
+
+[Acid_Rain_Client_Settings]
+	#Remove the smoke particles emitted by the acid rain.
+	#Default is false.
+	RemoveParticles = false
+

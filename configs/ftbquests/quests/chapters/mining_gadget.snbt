@@ -1,0 +1,271 @@
+{
+	id: 1894,
+	filename: "mining_gadget",
+	order_index: 20,
+	title: "Mining Gadget",
+	icon: {
+		id: "mininggadgets:mininggadget",
+		Count: true,
+		tag: {}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			id: 1895,
+			tasks: [{
+				id: 1900,
+				type: "item",
+				item: "mininggadgets:upgrade_empty"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;1895],
+			id: 1906,
+			tasks: [{
+				id: 1907,
+				type: "item",
+				item: "mininggadgets:modificationtable"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: [I;1895],
+			id: 1908,
+			tasks: [{
+				id: 1909,
+				type: "item",
+				item: {
+					id: "mininggadgets:mininggadget",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;1895],
+			id: 1910,
+			tasks: [{
+				id: 1911,
+				type: "item",
+				item: "mininggadgets:upgrade_efficiency_1"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			dependencies: [I;1910],
+			id: 1912,
+			tasks: [{
+				id: 1913,
+				type: "item",
+				item: "mininggadgets:upgrade_efficiency_2"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: [I;1912],
+			id: 1914,
+			tasks: [{
+				id: 1915,
+				type: "item",
+				item: "mininggadgets:upgrade_efficiency_3"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 0.0d,
+			dependencies: [I;1914],
+			id: 1916,
+			tasks: [{
+				id: 1918,
+				type: "item",
+				item: "mininggadgets:upgrade_efficiency_4"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: [I;1916],
+			id: 1919,
+			tasks: [{
+				id: 1920,
+				type: "item",
+				item: "mininggadgets:upgrade_efficiency_5"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: [I;1895],
+			id: 1921,
+			tasks: [{
+				id: 1922,
+				type: "item",
+				item: "mininggadgets:upgrade_fortune_1"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			dependencies: [I;1921],
+			id: 1923,
+			tasks: [{
+				id: 1924,
+				type: "item",
+				item: "mininggadgets:upgrade_fortune_2"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			dependencies: [I;1923],
+			id: 1925,
+			tasks: [{
+				id: 1926,
+				type: "item",
+				item: "mininggadgets:upgrade_fortune_3"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			dependencies: [I;1895],
+			id: 1927,
+			tasks: [{
+				id: 1928,
+				type: "item",
+				item: "mininggadgets:upgrade_range_1"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -5.0d,
+			dependencies: [I;1927],
+			id: 1929,
+			tasks: [{
+				id: 1930,
+				type: "item",
+				item: "mininggadgets:upgrade_range_2"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -6.0d,
+			dependencies: [I;1929],
+			id: 1931,
+			tasks: [{
+				id: 1932,
+				type: "item",
+				item: "mininggadgets:upgrade_range_3"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;1908],
+			id: 1933,
+			tasks: [{
+				id: 1934,
+				type: "item",
+				item: "mininggadgets:upgrade_battery_1"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.0d,
+			dependencies: [I;1933],
+			id: 1935,
+			tasks: [{
+				id: 1936,
+				type: "item",
+				item: "mininggadgets:upgrade_battery_2"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.0d,
+			dependencies: [I;1935],
+			id: 1937,
+			tasks: [{
+				id: 1938,
+				type: "item",
+				item: "mininggadgets:upgrade_battery_3"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			dependencies: [I;1895],
+			id: 1939,
+			tasks: [{
+				id: 1940,
+				type: "item",
+				item: "mininggadgets:upgrade_silk"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			dependencies: [I;1895],
+			id: 1941,
+			tasks: [{
+				id: 1942,
+				type: "item",
+				item: "mininggadgets:upgrade_void_junk"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: [I;1895],
+			id: 1943,
+			tasks: [{
+				id: 1944,
+				type: "item",
+				item: "mininggadgets:upgrade_magnet"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			dependencies: [I;1895],
+			id: 1945,
+			tasks: [{
+				id: 1946,
+				type: "item",
+				item: "mininggadgets:upgrade_three_by_three"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: [I;1895],
+			id: 1947,
+			tasks: [{
+				id: 1948,
+				type: "item",
+				item: "mininggadgets:upgrade_light_placer"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;1895],
+			id: 1949,
+			tasks: [{
+				id: 1950,
+				type: "item",
+				item: "mininggadgets:upgrade_freezing"
+			}]
+		}
+	]
+}

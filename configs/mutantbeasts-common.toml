@@ -1,0 +1,25 @@
+
+#Common configuration settings
+[common]
+	#Mutant Zombie spawn weight
+	#Requires game restart
+	#Range: 0 ~ 100
+	mutantZombieSpawnWeight = 4
+	#Mutant Skeleton spawn weight
+	#Requires game restart
+	#Range: 0 ~ 100
+	mutantSkeletonSpawnWeight = 4
+	#Mutants will only spawn in the biomes from the given mod IDs
+	#Example - "minecraft", "midnight"
+	#You can see a mod's ID by clicking the 'Mods' button on the main screen and clicking on the mod's name on the left
+	#Requires game restart
+	biomeWhitelist = ["minecraft"]
+	#Mutant Enderman spawn weight
+	#Requires game restart
+	#Range: 0 ~ 100
+	mutantEndermanSpawnWeight = 3
+	#Mutant Creeper spawn weight
+	#Requires game restart
+	#Range: 0 ~ 100
+	mutantCreeperSpawnWeight = 4
+

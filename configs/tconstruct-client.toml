@@ -1,0 +1,15 @@
+
+#Client only settings
+[client]
+	#If true tools will show additional info in their tooltips
+	extraToolTips = true
+	#If true all of Tinkers' blocks with contents (tables, basin, drying racks,...) will render their contents in the world
+	renderTableItems = true
+	#Experimental. If true, renders fluids in tanks using a dynamic model, being more efficient when the tank is static
+	#If false, renders fluids in tanks using a TESR, which is more efficient when the tank contents are changing
+	tankFluidModel = false
+	#If true all of Tinkers' blocks with contents (tables, basin, drying racks,...) will render their contents in the world
+	renderInventoryInWorld = true
+	#If true, temperatures in the smeltery and in JEI will display in celsius. If false they will use the internal units of Kelvin, which may be better for developers
+	temperatureInCelsius = true
+
