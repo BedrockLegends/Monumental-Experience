@@ -10,3 +10,4 @@ Welcome to Monumental Version 5.8
 7. Updated FTB Quests
 8. Updated Options.txt and Keybindings.txt, Might need to reset keybinding if u had anything special
 9. Updated JEI Client Config
+10. Updated Zerocore
