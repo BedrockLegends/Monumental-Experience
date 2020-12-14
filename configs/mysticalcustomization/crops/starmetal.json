@@ -1,0 +1,13 @@
+{
+  "name": "starmetal",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "astralsorcery:starmetal_ingot"
+  },
+  "color": "0032A8",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

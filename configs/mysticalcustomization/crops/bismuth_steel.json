@@ -1,0 +1,14 @@
+{
+  "name": "bismuth_steel",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "silents_mechanisms:bismuth_steel_ingot"
+  },
+  "color": "D6BBD2",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "silents_mechanisms:bismuth_steel_block"
+}

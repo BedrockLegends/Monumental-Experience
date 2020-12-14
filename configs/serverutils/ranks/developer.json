@@ -1,0 +1,28 @@
+{
+  "name": "developer",
+  "prefix": "&9&lDeveloper",
+  "suffix": "",
+  "perms": [
+    "serverutils.maxhome_20",
+    "worldedit.*",
+    "serverutils.*",
+    "serverutils.reload",
+    "serverutils.setspawn",
+    "command.scoreboard",
+    "command.reload",
+    "serverutils.gamemode",
+    "command.weather",
+    "command.summon",
+    "command.setworldspawn",
+    "command.deop",
+    "command.ftbbackups",
+    "command.banlist",
+    "serverutils.bomb"
+  ],
+  "parents": [
+    "admin"
+  ],
+  "weight": 4,
+  "rank_up": 0,
+  "next_ranks": []
+}

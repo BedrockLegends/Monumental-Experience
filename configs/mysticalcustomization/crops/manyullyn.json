@@ -1,0 +1,14 @@
+{
+  "name": "manyullyn",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "tconstruct:manyullyn_ingot"
+  },
+  "color": "A77CDD",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "tconstruct:manyullyn_block"
+}
