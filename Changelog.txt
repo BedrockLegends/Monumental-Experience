@@ -8,3 +8,4 @@ Welcome to Monumental Version 5.8
 5. Updated Alex's Mobs, fixes some issues
 6. Updated Cyclic and Disabled their crafting on a stick
 7. Updated FTB Quests
+8. Updated Options.txt and Keybindings.txt, Might need to reset keybinding if u had anything special
