@@ -1,0 +1,35 @@
+{
+    "input": [
+        {
+            "tag": "minecraft:wool"
+        },
+        {
+            "item": "appliedenergistics2:calculation_processor"
+        },
+        {
+            "tag": "minecraft:wool"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "minecraft:wool"
+        },
+        {
+            "item": "appliedenergistics2:calculation_processor"
+        },
+        {
+            "tag": "minecraft:wool"
+        }
+    ],
+    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "processingTime": 320,
+    "output": {
+        "item": "appliedenergistics2:cell_workbench",
+        "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+}

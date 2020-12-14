@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " J ",
+        "JKJ",
+        " J "
+    ],
+    "key": {
+        "J": {
+            "tag": "minecraft:logs"
+        },
+        "K": {
+            "item": "immersiveengineering:wooden_barrel"
+        }
+    },
+    "result": {
+        "item": "minecraft:barrel",
+        "count": 2
+    }
+}

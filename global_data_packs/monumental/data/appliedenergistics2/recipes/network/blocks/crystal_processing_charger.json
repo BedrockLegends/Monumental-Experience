@@ -1,0 +1,35 @@
+{
+    "input": [
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "appliedenergistics2:crystals/fluix"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "appliedenergistics2:crystals/fluix"
+        },
+        {
+            "tag": "appliedenergistics2:crystals/fluix"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "appliedenergistics2:crystals/fluix"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        }
+    ],
+    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "processingTime": 320,
+    "output": {
+        "item": "appliedenergistics2:charger",
+        "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+}

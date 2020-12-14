@@ -1,0 +1,53 @@
+{
+  "type": "botanypots:crop",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ],
+  "seed": {
+    "item": "pamhc2trees:walnut_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "pamhc2trees:walnut_sapling"
+  },
+  "results": [
+    {
+      "chance": 0.50,
+      "output": {
+        "item": "minecraft:jungle_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+	{
+      "chance": 0.01,
+      "output": {
+        "item": "pamhc2trees:walnutitem"
+      },
+	  "minRolls": 1,
+	  "maxRolls": 1
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "pamhc2trees:walnut_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

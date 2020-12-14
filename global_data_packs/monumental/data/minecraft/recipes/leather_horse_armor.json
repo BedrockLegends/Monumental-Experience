@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "woodenutilities:wooden_horse_armor"
+    },
+    "addition": {
+        "item": "forbidden_arcanus:rotten_leather"
+    },
+    "result": {
+        "item": "minecraft:leather_horse_armor"
+    }
+}

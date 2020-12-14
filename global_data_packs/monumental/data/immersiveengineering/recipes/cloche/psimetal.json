@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:psimetal_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:psimetal_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:psimetal_crop"
+    }
+}

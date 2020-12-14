@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:arcane_gold_essence"
+    }
+  },
+  "result": {
+    "item": "forbidden_arcanus:arcane_gold_ingot",
+   	"count": 4
+  }
+}

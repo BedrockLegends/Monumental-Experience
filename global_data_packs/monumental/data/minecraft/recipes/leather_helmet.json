@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:leather"
+    },
+    "C": {
+      "item": "woodenutilities:wooden_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_helmet"
+  }
+}

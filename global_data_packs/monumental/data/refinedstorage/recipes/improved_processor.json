@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "refinedstorage:raw_improved_processor"
+    },
+    "result": "refinedstorage:improved_processor",
+    "experience": 0.1,
+    "cookingtime": 600
+}

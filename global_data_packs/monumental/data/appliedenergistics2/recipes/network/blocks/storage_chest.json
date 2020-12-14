@@ -1,0 +1,35 @@
+{
+    "input": [
+        {
+            "tag": "forge:glass"
+        },
+        {
+            "item": "appliedenergistics2:terminal"
+        },
+        {
+            "tag": "forge:glass"
+        },
+        {
+            "tag": "appliedenergistics2:glass_cable"
+        },
+        {
+            "tag": "appliedenergistics2:glass_cable"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "appliedenergistics2:crystals/fluix"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        }
+    ],
+    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "processingTime": 320,
+    "output": {
+        "item": "appliedenergistics2:chest",
+        "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+}

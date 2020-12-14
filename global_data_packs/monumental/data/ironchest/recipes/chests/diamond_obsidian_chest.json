@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "cyclic:gem_obsidian"
+    },
+	"B": {
+      "item": "ironchest:crystal_chest"
+    }
+  },
+  "result": {
+    "item": "ironchest:obsidian_chest"
+  }
+}

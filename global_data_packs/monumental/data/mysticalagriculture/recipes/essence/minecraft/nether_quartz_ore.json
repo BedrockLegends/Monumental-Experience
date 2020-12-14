@@ -1,0 +1,26 @@
+{
+    "type": "cucumber:shaped_no_mirror",
+    "conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:nether_quartz"
+        }
+    ],
+    "pattern": [
+        "EME",
+        "MEM",
+        "EME"
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:nether_quartz_essence"
+        },
+        "M": {
+            "tag": "forge:netherrack"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_quartz_ore",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "EGE",
+        "FEF"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobweb"
+        },
+        "E": {
+            "tag": "forge:gems/emerald"
+        },
+        "G": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "F": {
+            "tag": "forge:feathers"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}

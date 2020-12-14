@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "   A   ",
+        "  AAA  ",
+        " AABAA ",
+        "  AAA  ",
+        "   C   ",
+        "   C   ",
+        "   C   "
+    ],
+    "key": {
+        "A": {
+            "item": "cyclic:gem_obsidian"
+        },
+        "B": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "C": {
+            "tag": "forge:gems/mana_diamond"
+        }
+    },
+    "result": {
+        "item": "cyclic:crystal_shovel"
+    }
+}

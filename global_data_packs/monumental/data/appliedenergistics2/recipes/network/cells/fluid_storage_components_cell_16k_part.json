@@ -1,0 +1,35 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "item": "appliedenergistics2:calculation_processor"
+    },
+    "ingredients": [
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "item": "appliedenergistics2:4k_fluid_cell_component"
+        },
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "item": "appliedenergistics2:4k_fluid_cell_component"
+        },
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "item": "appliedenergistics2:4k_fluid_cell_component"
+        },
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "item": "appliedenergistics2:4k_fluid_cell_component"
+        }
+    ],
+    "result": {
+        "item": "appliedenergistics2:16k_fluid_cell_component"
+    }
+}

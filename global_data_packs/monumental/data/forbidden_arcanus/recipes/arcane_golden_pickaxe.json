@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAA ",
+    "A  B  A",
+    "A  A  A",
+    "   A   ",
+    "   A   ",
+    "   A   ",
+    "   A   "
+  ],
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:arcane_gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "forbidden_arcanus:arcane_golden_pickaxe"
+  }
+}

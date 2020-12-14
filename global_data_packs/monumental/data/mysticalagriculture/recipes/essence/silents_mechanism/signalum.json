@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:signalum_essence"
+    }
+  },
+  "result": {
+    "item": "silents_mechanisms:signalum_ingot",
+   	"count": 6
+  }
+}

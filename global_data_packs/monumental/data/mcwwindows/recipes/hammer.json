@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        " BA",
+        "B  "                
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },    
+        
+        "B":
+        {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwwindows:hammer",
+        "count": 1
+    }
+}
+
+

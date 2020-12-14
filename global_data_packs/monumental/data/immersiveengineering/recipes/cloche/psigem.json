@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:psigem_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:psigem_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:psigem_crop"
+    }
+}

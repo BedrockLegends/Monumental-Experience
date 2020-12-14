@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "ABC",
+        "DED",
+        "ABC"
+    ],
+    "key": {
+        "A": {
+            "item": "ironchest:dirt_chest"
+        },
+        "B": {
+            "item": "minecraft:chest"
+        },
+        "C": {
+            "item": "ironchest:copper_chest"
+        },
+        "D": {
+            "item": "ironchest:iron_chest"
+        },
+        "E": {
+            "item": "ironchest:silver_chest"
+        }
+    },
+    "result": {
+        "item": "prefab:item_compressed_chest"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "item": "appliedenergistics2:calculation_processor"
+    },
+    "ingredients": [
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "appliedenergistics2:1k_cell_component"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "appliedenergistics2:1k_cell_component"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "appliedenergistics2:1k_cell_component"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "appliedenergistics2:1k_cell_component"
+        }
+    ],
+    "result": {
+        "item": "appliedenergistics2:4k_cell_component"
+    }
+}

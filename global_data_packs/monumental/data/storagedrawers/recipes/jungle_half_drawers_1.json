@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        " X ",
+        "///"
+    ],
+    "key": {
+        "/": {
+            "tag": "forge:treated_wood_slab"
+        },
+        "X": {
+            "tag": "forge:chests/wooden"
+        }
+    },
+    "result": {
+        "item": "minecraft:air",
+        "count": 1
+    }
+}

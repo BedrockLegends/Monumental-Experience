@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:psidust_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:psidust_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:psidust_crop"
+    }
+}

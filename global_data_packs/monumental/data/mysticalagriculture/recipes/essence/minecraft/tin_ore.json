@@ -1,0 +1,26 @@
+{
+    "type": "cucumber:shaped_no_mirror",
+    "conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:tin"
+        }
+    ],
+    "pattern": [
+        "EME",
+        "MEM",
+        "EME"
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:tin_essence"
+        },
+        "M": {
+            "tag": "forge:stone"
+        }
+    },
+    "result": {
+        "item": "alltheores:ore_tin",
+        "count": 1
+    }
+}

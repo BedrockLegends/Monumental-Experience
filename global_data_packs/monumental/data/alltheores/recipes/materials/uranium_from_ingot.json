@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:ingots/uranium"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "alltheores:uranium",
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

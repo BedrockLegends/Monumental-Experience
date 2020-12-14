@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalcustomization"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalcustomization:ebony_psimetal"
+        }
+    ],
+    "seed": {
+        "item": "mysticalagriculture:ebony_psimetal_seeds"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "mysticalagriculture:ebony_psimetal_crop"
+        },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "mysticalagriculture:ebony_psimetal_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "mysticalagriculture:ebony_psimetal_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "packedup:backpackrecipe",
+  "pattern": [
+    "ILI",
+    "ICI",
+    "GGG"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:gems/diamond"
+    },
+    "C": {
+      "item": "packedup:silverbackpack"
+    },
+    "L": {
+      "tag": "forge:ingots/silver"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:air"
+  }
+}

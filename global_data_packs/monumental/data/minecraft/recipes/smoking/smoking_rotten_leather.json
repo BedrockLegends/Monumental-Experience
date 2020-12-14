@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "forbidden_arcanus:rotten_leather"
+    },
+    "result": "minecraft:leather",
+    "experience": 0.1,
+    "cookingtime": 300
+}

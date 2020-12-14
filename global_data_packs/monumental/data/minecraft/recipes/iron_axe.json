@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AA ",
+        "ABA",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/iron"
+        },
+        "B": {
+            "item": "minecraft:stone_axe"
+        },
+        "C": {
+            "tag": "forge:rods/iron"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_axe"
+    }
+}

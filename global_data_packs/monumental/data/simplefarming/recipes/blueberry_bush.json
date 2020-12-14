@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "KJK",
+        "JKJ",
+        "KJK"
+    ],
+    "key": {
+        "J": {
+            "item": "mysticalagriculture:nature_essence"
+        },
+        "K": {
+            "tag": "forge:fruits/blueberries"
+        }
+    },
+    "result": {
+        "item": "simplefarming:blueberry_bush",
+        "count": 1
+    }
+}

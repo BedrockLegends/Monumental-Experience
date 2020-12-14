@@ -1,0 +1,23 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAAAA",
+        "AAAAAAA",
+        "AA B AA",
+        "AA   AA",
+        "A     A",
+        "A     A",
+        "A     A"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/mana_diamond"
+        },
+        "B": {
+            "item": "minecraft:golden_leggings"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_leggings"
+    }
+}

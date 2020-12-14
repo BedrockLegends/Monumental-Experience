@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalcustomization"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalcustomization:aluminum_steel"
+        }
+    ],
+    "seed": {
+        "item": "mysticalagriculture:aluminum_steel_seeds"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "mysticalagriculture:aluminum_steel_crop"
+        },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "mysticalagriculture:aluminum_steel_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "mysticalagriculture:aluminum_steel_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

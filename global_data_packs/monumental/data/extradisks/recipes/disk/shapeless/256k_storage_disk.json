@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "extradisks:advanced_storage_housing"
+        },
+        {
+            "item": "extradisks:256k_storage_part"
+        }
+    ],
+    "result": {
+        "item": "minecraft:air"
+    }
+}

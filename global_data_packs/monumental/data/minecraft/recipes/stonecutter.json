@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LSL",
+        "SCS",
+        "LSL"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:stone"
+        },
+        "L": {
+            "tag": "minecraft:logs"
+        },
+        "C": {
+            "tag": "forge:ingots/iron"
+        }
+    },
+    "result": {
+        "item": "minecraft:stonecutter"
+    }
+}

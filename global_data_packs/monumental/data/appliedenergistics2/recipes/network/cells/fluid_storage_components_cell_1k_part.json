@@ -1,0 +1,35 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "item": "appliedenergistics2:logic_processor"
+    },
+    "ingredients": [
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "tag": "forge:gems/certus_quartz"
+        },
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "tag": "forge:gems/certus_quartz"
+        },
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "tag": "forge:gems/certus_quartz"
+        },
+        {
+            "tag": "forge:gems/lapis"
+        },
+        {
+            "tag": "forge:gems/certus_quartz"
+        }
+    ],
+    "result": {
+        "item": "appliedenergistics2:1k_fluid_cell_component"
+    }
+}

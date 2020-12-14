@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:frost_crystal_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:frost_crystal_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:frost_crystal_crop"
+    }
+}

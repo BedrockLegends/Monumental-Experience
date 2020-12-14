@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        " C ",
+        "ABA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/mana_diamond"
+        },
+        "B": {
+            "item": "botania:mana_diamond_block"
+        },
+        "C": {
+            "item": "ironchest:gold_chest"
+        }
+    },
+    "result": {
+        "item": "ironchest:diamond_chest"
+    }
+}

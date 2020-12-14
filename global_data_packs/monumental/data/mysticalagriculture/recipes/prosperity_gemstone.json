@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "item": "mysticalagriculture:prosperity_shard"
+        },
+        "C": {
+            "tag": "forge:gems/mana_diamond"
+        }
+    },
+    "result": {
+        "item": "mysticalagriculture:prosperity_gemstone",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:alfsteel_essence"
+    }
+  },
+  "result": {
+    "item": "mythicbotany:alfsteel_ingot",
+   	"count": 4
+  }
+}

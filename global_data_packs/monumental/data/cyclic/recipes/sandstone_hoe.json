@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJ ",
+        " K ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "J": {
+            "tag": "forge:sandstone"
+        },
+    "K": {
+      "item": "minecraft:wooden_hoe"
+    }
+    },
+    "result": {
+        "item": "cyclic:sandstone_hoe"
+    }
+}

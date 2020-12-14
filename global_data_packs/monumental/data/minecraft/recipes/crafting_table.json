@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SQS",
+        " S "
+    ],
+    "key": {
+        "Q": {
+            "item": "woodenutilities:crafting_slab"
+        },
+        "S": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:crafting_table"
+    }
+}

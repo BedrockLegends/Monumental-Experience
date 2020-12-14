@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:dragonsteel_ice_essence"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonsteel_ice_ingot",
+   	"count": 4
+  }
+}

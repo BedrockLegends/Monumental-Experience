@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "    A    ",
+        "   ABA   ",
+        "  AAAAA  ",
+        "   AAA   ",
+        "    A    ",
+        "    A    ",
+        "    A    ",
+        "    A    ",
+        "    A    "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:bones/wither"
+        },
+        "B": {
+            "item": "minecraft:diamond_shovel"
+        }
+    },
+    "result": {
+        "item": "iceandfire:dragonbone_shovel"
+    }
+}

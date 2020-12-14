@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/X/",
+        "///",
+        "/X/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:spruce_slab"
+        },
+        "X": {
+            "item": "immersiveengineering:crate"
+        }
+    },
+    "result": {
+        "item": "minecraft:air",
+        "count": 2
+    }
+}

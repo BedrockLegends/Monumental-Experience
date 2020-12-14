@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:ladder"
+    },
+    "addition": {
+        "tag": "forge:stone"
+    },
+    "result": {
+        "item": "speedyladders:stone_ladder",
+        "count": 3
+    }
+}

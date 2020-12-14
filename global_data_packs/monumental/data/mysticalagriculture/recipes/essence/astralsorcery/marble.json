@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:marble_essence"
+    }
+  },
+  "result": {
+    "item": "astralsorcery:marble_raw",
+   	"count": 4
+  }
+}

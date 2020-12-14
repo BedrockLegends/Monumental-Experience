@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "    A  ",
+        "   AA  ",
+        "  AABA ",
+        "   AAA ",
+        "  C    ",
+        " C     ",
+        "C      "
+    ],
+    "key": {
+        "A": {
+            "item": "powder_power:ingot_obsidian"
+        },
+        "B": {
+            "item": "minecraft:golden_axe"
+        },
+        "C": {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    "result": {
+        "item": "powder_power:hatchet_obsidian"
+    }
+}

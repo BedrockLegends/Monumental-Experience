@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i",
+    "c "
+  ],
+  "key": {
+   
+    "i": {
+      "item": "minecraft:crafting_table"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:air"
+  }
+}

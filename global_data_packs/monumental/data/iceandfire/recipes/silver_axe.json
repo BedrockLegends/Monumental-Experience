@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AA ",
+        "ABA",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/silver"
+        },
+        "B": {
+            "item": "minecraft:stone_axe"
+        },
+        "C": {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    "result": {
+        "item": "iceandfire:silver_axe"
+    }
+}

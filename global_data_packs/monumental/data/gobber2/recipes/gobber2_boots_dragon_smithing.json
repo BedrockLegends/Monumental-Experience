@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allthemodium:unobtainium_boots"
+  },
+  "addition": {
+    "item": "gobber2:dragon_star"
+  },
+  "result": {
+    "item": "gobber2:gobber2_boots_dragon"
+  }
+}

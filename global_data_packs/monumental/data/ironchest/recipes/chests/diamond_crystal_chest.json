@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABC",
+        "DED",
+        "FGH"
+    ],
+    "key": {
+        "A": {
+            "item": "appliedenergistics2:purified_certus_quartz_crystal"
+        },
+        "B": {
+            "item": "appliedenergistics2:purified_nether_quartz_crystal"
+        },
+        "C": {
+            "item": "appliedenergistics2:purified_fluix_crystal"
+        },
+        "D": {
+            "tag": "forge:gems/prismarine"
+        },
+        "E": {
+            "item": "ironchest:diamond_chest"
+        },
+        "F": {
+            "item": "appliedenergistics2:certus_quartz_crystal"
+        },
+        "G": {
+            "item": "appliedenergistics2:charged_certus_quartz_crystal"
+        },
+        "H": {
+            "item": "appliedenergistics2:fluix_crystal"
+        }
+    },
+    "result": {
+        "item": "ironchest:crystal_chest"
+    }
+}

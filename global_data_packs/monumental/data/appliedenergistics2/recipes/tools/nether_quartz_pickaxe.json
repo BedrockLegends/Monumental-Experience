@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAA",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:gems/quartz"
+    },
+    "B": {
+      "tag": "forge:gems/quartz"
+    },
+    "C": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "D": {
+      "tag": "forge:rods/treated_wood"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:nether_quartz_pickaxe"
+  }
+}

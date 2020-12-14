@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:psigem_essence"
+    }
+  },
+  "result": {
+    "item": "psi:psigem",
+   	"count": 4
+  }
+}

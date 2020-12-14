@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:psidust_essence"
+    }
+  },
+  "result": {
+    "item": "psi:psidust",
+   	"count": 4
+  }
+}

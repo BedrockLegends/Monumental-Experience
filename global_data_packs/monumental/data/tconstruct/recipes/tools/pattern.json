@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "psp",
+    "sps",
+    "psp"
+  ],
+  "key": {
+    "s": {
+      "tag": "forge:rods/treated_wood"
+    },
+    "p": {
+      "item": "woodenutilities:wooden_plate"
+    }
+  },
+  "result": {
+    "item": "tconstruct:pattern",
+    "count": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJJ",
+        " K ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:rods/wooden"
+        },
+        "J": {
+            "tag": "minecraft:stone_tool_materials"
+        },
+		"K": {
+			"item": "minecraft:wooden_pickaxe"
+		}
+    },
+    "result": {
+        "item": "minecraft:stone_pickaxe"
+    }
+}

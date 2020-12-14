@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:sweetpotatoseeditem"
+        },
+        {
+            "item": "pamhc2crops:sweetpotatoitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:sweetpotatoseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamsweetpotatocrop"
+    }
+}

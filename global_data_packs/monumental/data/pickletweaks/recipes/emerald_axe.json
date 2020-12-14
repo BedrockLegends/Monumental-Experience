@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions": [
+		{
+			"type": "cucumber:enabled",
+			"item": "pickletweaks:emerald_axe"
+		}
+	],
+	"pattern": [
+		"FF",
+		"FS",
+		" S"
+	],
+	"key": {
+		"F": {
+			"tag": "forge:gems/emerald"
+		},
+		"S": {
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result": {
+		"item": "minecraft:air"
+	}
+}

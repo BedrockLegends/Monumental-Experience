@@ -1,0 +1,23 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "  AAAAA",
+        "AA   B ",
+        "     A ",
+        "     A ",
+        "     A ",
+        "     A ",
+        "     A "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/neptunium"
+        },
+        "B": {
+            "item": "minecraft:golden_hoe"
+        }
+    },
+    "result": {
+        "item": "aquaculture:neptunium_hoe"
+    }
+}

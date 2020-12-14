@@ -1,0 +1,30 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "appliedenergistics2:basic_card"
+    },
+    "mana": 20000,
+    "ingredients": [
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "item": "appliedenergistics2:calculation_processor"
+        },
+        {
+            "tag": "forge:ingots/gold"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "tag": "forge:ingots/gold"
+        }
+    ]
+}

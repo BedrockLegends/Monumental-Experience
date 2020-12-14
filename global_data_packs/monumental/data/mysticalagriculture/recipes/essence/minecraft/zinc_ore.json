@@ -1,0 +1,26 @@
+{
+    "type": "cucumber:shaped_no_mirror",
+    "conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:zinc"
+        }
+    ],
+    "pattern": [
+        "EME",
+        "MEM",
+        "EME"
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:zinc_essence"
+        },
+        "M": {
+            "tag": "forge:stone"
+        }
+    },
+    "result": {
+        "item": "alltheores:ore_zinc",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAA ",
+    "A  B  A",
+    "A  A  A",
+    "   A   ",
+    "   A   ",
+    "   A   ",
+    "   A   "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/neptunium"
+    },
+    "B": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "aquaculture:neptunium_pickaxe"
+  }
+}

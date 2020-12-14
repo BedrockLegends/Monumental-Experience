@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "alltheores:molten_copper",
+    "amount": 1296
+  },
+  "result": "alltheores:copper_block",
+  "cooling_time": 80,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

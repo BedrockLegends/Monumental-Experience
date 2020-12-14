@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "minecraft:air"
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/lead"
+        }
+    }
+}

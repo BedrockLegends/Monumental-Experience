@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:golden_horse_armor"
+    },
+    "addition": {
+        "item": "botania:mana_diamond_block"
+    },
+    "result": {
+        "item": "minecraft:diamond_horse_armor"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:ingots/tin"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "minecraft:air"
+  }
+}

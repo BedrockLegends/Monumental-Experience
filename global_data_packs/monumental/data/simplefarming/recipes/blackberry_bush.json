@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "KJK",
+        "JKJ",
+        "KJK"
+    ],
+    "key": {
+        "J": {
+            "item": "mysticalagriculture:nature_essence"
+        },
+        "K": {
+            "tag": "forge:fruits/blackberries"
+        }
+    },
+    "result": {
+        "item": "simplefarming:blackberry_bush",
+        "count": 1
+    }
+}

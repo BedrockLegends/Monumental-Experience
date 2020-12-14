@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:leekseeditem"
+        },
+        {
+            "item": "pamhc2crops:leekitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:leekseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamleekcrop"
+    }
+}

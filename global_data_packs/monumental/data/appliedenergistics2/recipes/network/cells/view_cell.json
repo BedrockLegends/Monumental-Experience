@@ -1,0 +1,30 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "appliedenergistics2:view_cell"
+    },
+    "mana": 20000,
+    "ingredients": [
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "appliedenergistics2:quartz_vibrant_glass"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "appliedenergistics2:quartz_vibrant_glass"
+        }
+    ]
+}

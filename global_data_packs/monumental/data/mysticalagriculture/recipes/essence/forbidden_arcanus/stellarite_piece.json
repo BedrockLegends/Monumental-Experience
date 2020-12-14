@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:stellarite_piece_essence"
+    }
+  },
+  "result": {
+    "item": "forbidden_arcanus:stellarite_piece",
+   	"count": 4
+  }
+}

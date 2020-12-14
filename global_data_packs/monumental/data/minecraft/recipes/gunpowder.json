@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SAS",
+        " S "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:blaze_powder"
+        },
+        "A": {
+            "tag": "minecraft:coals"
+        }
+    },
+    "result": {
+        "item": "minecraft:gunpowder",
+        "count": 4
+    }
+}

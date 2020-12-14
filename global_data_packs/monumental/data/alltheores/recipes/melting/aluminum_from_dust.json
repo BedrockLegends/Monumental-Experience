@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/aluminum"
+  },
+  "result": {
+    "fluid": "alltheores:molten_aluminum",
+    "amount": 144
+  },
+  "temperature": 121,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

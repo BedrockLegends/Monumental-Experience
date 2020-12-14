@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:cottonseeditem"
+        },
+        {
+            "item": "pamhc2crops:cottonitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:cottonseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamcottoncrop"
+    }
+}

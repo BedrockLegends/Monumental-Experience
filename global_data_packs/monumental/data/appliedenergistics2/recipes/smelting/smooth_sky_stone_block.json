@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "result": {
+    "item": "minecraft:air"
+  },
+  "ingredient": {
+    "item": "appliedenergistics2:sky_stone_block"
+  },
+  "experience": 0.0
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:frost_crystal_essence"
+    }
+  },
+  "result": {
+    "item": "armorplus:frost_crystal",
+   	"count": 4
+  }
+}

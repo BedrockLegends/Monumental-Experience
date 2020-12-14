@@ -1,0 +1,26 @@
+{
+  "type": "cucumber:shaped_no_mirror",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:aluminum"
+    }
+  ],
+  "pattern": [
+    "EME",
+    "MEM",
+    "EME"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:aluminum_essence"
+    },
+    "M": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "alltheores:ore_aluminum",
+    "count": 1
+  }
+}

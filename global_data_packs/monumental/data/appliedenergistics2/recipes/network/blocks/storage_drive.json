@@ -1,0 +1,35 @@
+{
+    "input": [
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "item": "appliedenergistics2:engineering_processor"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "tag": "appliedenergistics2:glass_cable"
+        },
+        {
+            "tag": "appliedenergistics2:glass_cable"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        {
+            "item": "appliedenergistics2:engineering_processor"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        }
+    ],
+    "inputFluid": "{FluidName:\"pneumaticcraft:lubricant\",Amount:1500}",
+    "processingTime": 320,
+    "output": {
+        "item": "appliedenergistics2:drive",
+        "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+}

@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:wither_skeleton_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:wither_skeleton_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:wither_skeleton_crop"
+    }
+}

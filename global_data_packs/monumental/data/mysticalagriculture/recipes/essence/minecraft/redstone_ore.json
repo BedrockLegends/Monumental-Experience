@@ -1,0 +1,26 @@
+{
+    "type": "cucumber:shaped_no_mirror",
+    "conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:redstone"
+        }
+    ],
+    "pattern": [
+        "EME",
+        "MEM",
+        "EME"
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:redstone_essence"
+        },
+        "M": {
+            "tag": "forge:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone_ore",
+        "count": 1
+    }
+}

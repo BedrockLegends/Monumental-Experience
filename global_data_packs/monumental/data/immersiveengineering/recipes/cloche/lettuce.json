@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:lettuceseeditem"
+        },
+        {
+            "item": "pamhc2crops:lettuceitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:lettuceseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamlettucecrop"
+    }
+}

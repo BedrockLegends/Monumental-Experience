@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "allthemodium:allthemodium_dust"
+  },
+  "result": "allthemodium:allthemodium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

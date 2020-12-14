@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:iridium_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:iridium_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:prudentium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:iridium_crop"
+    }
+}

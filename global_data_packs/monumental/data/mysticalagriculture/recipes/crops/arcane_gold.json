@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalcustomization"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalcustomization:arcane_gold"
+        }
+    ],
+    "seed": {
+        "item": "mysticalagriculture:arcane_gold_seeds"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "mysticalagriculture:arcane_gold_crop"
+    },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "mysticalagriculture:arcane_gold_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "mysticalagriculture:arcane_gold_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SPS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:cobblestone"
+        },
+        "P": {
+            "item": "woodenutilities:wooden_furnace"
+        }
+    },
+    "result": {
+        "item": "minecraft:furnace"
+    }
+}

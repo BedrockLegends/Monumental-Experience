@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:vibranium_essence"
+    }
+  },
+  "result": {
+    "item": "allthemodium:vibranium_ingot",
+   	"count": 4
+  }
+}

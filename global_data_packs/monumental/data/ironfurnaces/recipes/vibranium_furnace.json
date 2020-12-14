@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "YXY",
+    "#Y#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/vibranium"
+    },
+    "X": {
+      "tag": "forge:furnaces/allthemodium"
+    },
+    "Y": {
+      "tag": "forge:rods/blaze"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:vibranium_furnace"
+  }
+}

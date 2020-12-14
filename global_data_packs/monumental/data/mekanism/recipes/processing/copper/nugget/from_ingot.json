@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "minecraft:air",
+        "count": 9
+    },
+    "ingredients": [
+        {
+            "tag": "forge:ingots/copper"
+        }
+    ]
+}

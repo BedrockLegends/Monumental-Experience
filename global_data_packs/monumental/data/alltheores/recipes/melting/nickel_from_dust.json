@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/nickel"
+  },
+  "result": {
+    "fluid": "alltheores:molten_nickel",
+    "amount": 144
+  },
+  "temperature": 121,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

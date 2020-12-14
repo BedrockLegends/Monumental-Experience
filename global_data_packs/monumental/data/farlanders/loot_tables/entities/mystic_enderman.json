@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "drops",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_teleport"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_regen"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_invisible"
+				}
+			]
+		}
+	]
+}

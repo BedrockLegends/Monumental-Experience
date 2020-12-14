@@ -1,0 +1,11 @@
+{
+    "type": "pneumaticcraft:assembly_drill",
+    "input": {
+        "item": "mysticalagradditions:insanium_block"
+    },
+    "result": {
+        "item": "mysticalagradditions:insanium_essence",
+        "count": 9
+    },
+    "program": "drill"
+}

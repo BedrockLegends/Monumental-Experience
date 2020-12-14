@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/aluminum"
+  },
+  "result": {
+    "fluid": "alltheores:molten_aluminum",
+    "amount": 1296
+  },
+  "temperature": 242,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

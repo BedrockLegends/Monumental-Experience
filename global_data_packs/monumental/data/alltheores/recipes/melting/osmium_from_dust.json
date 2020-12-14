@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/osmium"
+  },
+  "result": {
+    "fluid": "alltheores:molten_osmium",
+    "amount": 144
+  },
+  "temperature": 121,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

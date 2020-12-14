@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "ifi",
+    "ici"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:plates/iron"
+    },
+    "f": {
+      "item": "minecraft:blast_furnace"
+    },
+    "c": {
+      "item": "routerreborn:coppercoil"
+    }
+  },
+  "result": {
+    "item": "routerreborn:furnace",
+    "count": 1
+  }
+}

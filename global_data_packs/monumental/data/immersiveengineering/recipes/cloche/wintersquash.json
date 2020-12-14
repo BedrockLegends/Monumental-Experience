@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:wintersquashseeditem"
+        },
+        {
+            "item": "pamhc2crops:wintersquashitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:wintersquashseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamwintersquashcrop"
+    }
+}

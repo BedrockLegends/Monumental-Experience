@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:milletseeditem"
+        },
+        {
+            "item": "pamhc2crops:milletitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:milletseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pammilletcrop"
+    }
+}

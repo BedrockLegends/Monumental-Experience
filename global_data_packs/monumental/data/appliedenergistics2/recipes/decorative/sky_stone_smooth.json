@@ -1,0 +1,11 @@
+{
+    "result": {
+        "item": "minecraft:air"
+    },
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "appliedenergistics2:sky_stone_small_brick"
+        }
+    ]
+}

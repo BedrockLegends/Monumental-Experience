@@ -1,0 +1,25 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "item": "woodenutilities:wooden_lamp"
+  },
+  "tool": {
+    "item": "auraaddons:block_disruption_catalyst"
+  },
+  "inputfluid": {
+    "amount": 3415,
+    "fluid": "astralsorcery:liquid_starlight"
+  },
+  "addedoutput": [
+    {
+      "chance": 0.10,
+      "type": {
+        "item": "psi:spell_bullet"
+      }
+    }
+  ],
+  "output": {
+    "item": "psi:cad_assembler"
+  },
+  "consumeingredient": true
+}

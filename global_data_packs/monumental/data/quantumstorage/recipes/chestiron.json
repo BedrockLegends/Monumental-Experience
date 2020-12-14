@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ACA",
+        "ICI",
+        "ACA"
+    ],
+    "key": {
+        "A": [
+            {
+                "tag": "minecraft:planks"
+            }
+        ],
+        "I": [
+            {
+                "tag": "forge:ingots/iron"
+            }
+        ],
+        "C": [
+            {
+                "item": "ironchest:iron_chest"
+            }
+        ]
+    },
+    "result": {
+        "item": "quantumstorage:chestiron"
+    }
+}

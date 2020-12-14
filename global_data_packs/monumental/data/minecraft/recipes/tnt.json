@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X#X",
+        "#C#",
+        "X#X"
+    ],
+    "key": {
+        "#": [
+            {
+                "item": "minecraft:sand"
+            },
+            {
+                "item": "minecraft:red_sand"
+            }
+        ],
+        "X": {
+            "tag": "forge:gunpowder"
+        },
+        "C": {
+            "item": "woodenutilities:wooden_tnt"
+        }
+    },
+    "result": {
+        "item": "minecraft:tnt"
+    }
+}

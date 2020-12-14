@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:ingots/quicksilver"
+    }
+  },
+  "result": {
+    "item": "mysticalworld:quicksilver_leggings"
+  }
+}

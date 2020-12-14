@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJJ",
+        " K ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "J": {
+            "tag": "forge:bones"
+        },
+    "K": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+    },
+    "result": {
+        "item": "forbidden_arcanus:bone_pickaxe"
+    }
+}

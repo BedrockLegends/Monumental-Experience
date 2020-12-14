@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/copper"
+  },
+  "result": {
+    "fluid": "alltheores:molten_copper",
+    "amount": 16
+  },
+  "temperature": 271,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

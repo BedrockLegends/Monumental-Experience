@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "CDC",
+        "ECE"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:wires/copper"
+        },
+        "B": {
+            "item": "engineersdecor:halfslab_sheetmetal_copper"
+        },
+        "C": {
+            "item": "immersiveengineering:slab_sheetmetal_copper"
+        },
+        "D": {
+            "tag": "forge:chests/wooden"
+        },
+        "E": {
+            "item": "minecraft:honey_block"
+        }
+    },
+    "result": {
+        "item": "ironchest:copper_chest"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:jicamaseeditem"
+        },
+        {
+            "item": "pamhc2crops:jicamaitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:jicamaseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamjicamacrop"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalcustomization"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalcustomization:red_matter"
+        }
+    ],
+    "seed": {
+        "item": "mysticalagriculture:red_matter_seeds"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "mysticalagriculture:red_matter_crop"
+        },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "mysticalagriculture:red_matter_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "mysticalagriculture:red_matter_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

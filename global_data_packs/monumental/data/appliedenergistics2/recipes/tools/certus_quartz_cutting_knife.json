@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "appliedenergistics2:certus_quartz_cutting_knife"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["  a", "ba ", "cc "],
+  "key": {
+    "b": {
+      "tag": "forge:ingots/iron"
+    },
+    "c": {
+      "tag": "appliedenergistics2:crystals/certus_quartz"
+    },
+    "a": {
+      "tag": "forge:rods/treated_wood"
+    }
+  }
+}

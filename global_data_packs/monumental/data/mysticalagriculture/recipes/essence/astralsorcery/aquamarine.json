@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:aquamarine_essence"
+    }
+  },
+  "result": {
+    "item": "astralsorcery:aquamarine",
+   	"count": 1
+  }
+}

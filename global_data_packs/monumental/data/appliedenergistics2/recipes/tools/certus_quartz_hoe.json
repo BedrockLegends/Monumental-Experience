@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " AA",
+        "A B",
+        "  C"
+    ],
+    "key": {
+        "A": {
+            "tag": "appliedenergistics2:crystals/certus_quartz"
+        },
+        "B": {
+            "item": "minecraft:stone_hoe"
+        },
+        "C": {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    "result": {
+        "item": "appliedenergistics2:certus_quartz_hoe"
+    }
+}

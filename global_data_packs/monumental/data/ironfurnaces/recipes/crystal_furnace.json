@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:glass"
+    },
+    "X": {
+      "tag": "forge:furnaces/emerald"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:crystal_furnace"
+  }
+}

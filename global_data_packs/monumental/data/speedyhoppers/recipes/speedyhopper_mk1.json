@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:hopper"
+    },
+    "addition": {
+        "tag": "forge:storage_blocks/iron"
+    },
+    "result": {
+        "item": "speedyhoppers:speedyhopper_mk1"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:black_iron_essence"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:black_iron_ingot",
+   	"count": 4
+  }
+}

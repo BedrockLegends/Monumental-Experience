@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "speedyladders:iron_ladder"
+    },
+    "addition": {
+        "tag": "forge:storage_blocks/gold"
+    },
+    "result": {
+        "item": "speedyladders:gold_ladder",
+        "count": 3
+    }
+}

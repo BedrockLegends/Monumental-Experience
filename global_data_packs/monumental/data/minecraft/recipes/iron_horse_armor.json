@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:leather_horse_armor"
+    },
+    "addition": {
+        "tag": "forge:storage_blocks/iron"
+    },
+    "result": {
+        "item": "minecraft:iron_horse_armor"
+    }
+}

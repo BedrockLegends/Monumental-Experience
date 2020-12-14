@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sss"
+    ],
+    "key": {
+        "s": {
+            "item": "immersiveengineering:concrete"
+        }
+    },
+    "result": {
+        "item": "minecraft:air"
+    }
+}

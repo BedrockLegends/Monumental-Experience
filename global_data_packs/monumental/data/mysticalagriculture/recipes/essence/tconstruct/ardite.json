@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:ardite_essence"
+    }
+  },
+  "result": {
+    "item": "tconstruct:ardite_ingot",
+   	"count": 4
+  }
+}

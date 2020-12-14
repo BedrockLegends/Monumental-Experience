@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalcustomization"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalcustomization:black_iron"
+        }
+    ],
+    "seed": {
+        "item": "mysticalagriculture:black_iron_seeds"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "mysticalagriculture:black_iron_crop"
+    },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "mysticalagriculture:black_iron_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "mysticalagriculture:black_iron_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

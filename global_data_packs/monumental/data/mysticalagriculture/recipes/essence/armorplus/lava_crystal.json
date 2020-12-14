@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:lava_crystal_essence"
+    }
+  },
+  "result": {
+    "item": "armorplus:lava_crystal",
+   	"count": 4
+  }
+}

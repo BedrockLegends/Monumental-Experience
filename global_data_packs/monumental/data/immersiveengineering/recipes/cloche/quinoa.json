@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:quinoaseeditem"
+        },
+        {
+            "item": "pamhc2crops:quinoaitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:quinoaseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamquinoacrop"
+    }
+}

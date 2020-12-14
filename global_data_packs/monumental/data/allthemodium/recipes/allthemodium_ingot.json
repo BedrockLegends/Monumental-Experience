@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "allthemodium:allthemodium_ore"
+  },
+  "result": "minecraft:air",
+  "experience": 1.0,
+  "cookingtime": 400
+}

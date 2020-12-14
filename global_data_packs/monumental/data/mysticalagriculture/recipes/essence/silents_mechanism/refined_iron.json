@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:refined_iron_essence"
+    }
+  },
+  "result": {
+    "item": "silents_mechanisms:refined_iron_ingot",
+   	"count": 4
+  }
+}

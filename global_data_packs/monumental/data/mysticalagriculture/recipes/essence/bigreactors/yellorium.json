@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:yellorium_essence"
+    }
+  },
+  "result": {
+    "item": "bigreactors:yellorium_ingot",
+   	"count": 4
+  }
+}

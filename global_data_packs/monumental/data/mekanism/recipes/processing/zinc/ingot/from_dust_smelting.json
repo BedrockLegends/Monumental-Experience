@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "result": "alltheores:zinc_ingot",
+    "ingredient": {
+        "tag": "forge:dusts/zinc"
+    },
+    "cookingtime": 200,
+    "experience": 0.5
+}

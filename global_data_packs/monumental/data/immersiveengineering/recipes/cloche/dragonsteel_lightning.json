@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:dragonsteel_lightning_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:dragonsteel_lightning_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:dragonsteel_lightning_crop"
+    }
+}

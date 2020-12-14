@@ -1,0 +1,23 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "  CCCCC",
+        "CC   B ",
+        "     C ",
+        "     C ",
+        "     C ",
+        "     C ",
+        "     C "
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:gems/emerald"
+        },
+        "B": {
+            "item": "minecraft:golden_hoe"
+        }
+    },
+    "result": {
+        "item": "cyclic:emerald_hoe"
+    }
+}

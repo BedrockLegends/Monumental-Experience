@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "    A    ",
+        "   ABA   ",
+        "  AAAAA  ",
+        "   AAA   ",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    "
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_ingot"
+        },
+        "B": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "C": {
+            "item": "gobber2:gobber2_rod"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_shovel"
+    }
+}

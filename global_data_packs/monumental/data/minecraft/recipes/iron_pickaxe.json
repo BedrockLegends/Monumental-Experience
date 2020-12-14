@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAA",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "forge:nuggets/iron"
+    },
+    "C": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "D": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_pickaxe"
+  }
+}

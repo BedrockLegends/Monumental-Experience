@@ -1,0 +1,16 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:cow_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather"
+  }
+}

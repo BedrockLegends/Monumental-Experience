@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:arcane_gold_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:arcane_gold_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:arcane_gold_crop"
+    }
+}

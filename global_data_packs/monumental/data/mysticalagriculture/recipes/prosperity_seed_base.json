@@ -1,0 +1,35 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "item": "minecraft:wheat_seeds"
+    },
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:prosperity_gemstone"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_shard"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_gemstone"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_shard"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_gemstone"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_shard"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_gemstone"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_shard"
+        }
+    ],
+    "result": {
+        "item": "mysticalagriculture:prosperity_seed_base"
+    }
+}

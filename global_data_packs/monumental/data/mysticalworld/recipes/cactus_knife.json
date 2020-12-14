@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X",
+    "S "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cactus"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mysticalworld:cactus_knife"
+  }
+}

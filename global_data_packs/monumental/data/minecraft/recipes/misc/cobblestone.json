@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "PSP",
+        "PPP"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:flint"
+        },
+        "P": {
+            "tag": "forge:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:cobblestone",
+        "count": 4
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "result": "minecraft:air",
+    "ingredient": {
+        "tag": "forge:ores/tin"
+    },
+    "cookingtime": 200,
+    "experience": 1
+}

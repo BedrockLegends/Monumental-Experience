@@ -1,0 +1,26 @@
+{
+    "type": "cucumber:shaped_no_mirror",
+    "conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:copper"
+        }
+    ],
+    "pattern": [
+        "EME",
+        "MEM",
+        "EME"
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:copper_essence"
+        },
+        "M": {
+            "tag": "forge:stone"
+        }
+    },
+    "result": {
+        "item": "alltheores:ore_copper",
+        "count": 1
+    }
+}

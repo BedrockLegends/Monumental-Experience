@@ -1,0 +1,48 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAB",
+    " CDDE",
+    "FDGDE",
+    "FHDC ",
+    "IJJ  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:fire_coral_block"
+    },
+    "B": {
+      "item": "mythicbotany:alfsteel_sword"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "count": 1,
+      "nbt": "{mana:500000}"
+    },
+    "D": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "E": {
+      "item": "minecraft:bubble_coral_block"
+    },
+    "F": {
+      "item": "minecraft:horn_coral_block"
+    },
+    "G": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+    "H": {
+      "item": "psi:psidust_block"
+    },
+    "I": {
+      "item": "ars_nouveau:spell_turret"
+    },
+    "J": {
+      "item": "minecraft:tube_coral_block"
+    }
+  },
+  "result": {
+    "item": "psi:programmer"
+  }
+}

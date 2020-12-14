@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    " b ",
+    " i "
+  ],
+  "key": {
+    "b": {
+      "item": "logisticslasers:routing_logic_module"
+    },
+    "i": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "result": {
+    "item": "logisticslasers:wrench"
+  }
+}

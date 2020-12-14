@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:stellarite_piece_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:stellarite_piece_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:stellarite_piece_crop"
+    }
+}

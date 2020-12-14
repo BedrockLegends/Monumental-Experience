@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/lead"
+  },
+  "result": {
+    "fluid": "alltheores:molten_lead",
+    "amount": 16
+  },
+  "temperature": 60,
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+      }
+  ]
+}

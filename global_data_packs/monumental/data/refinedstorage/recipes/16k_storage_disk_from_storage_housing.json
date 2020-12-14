@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AB ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "A": {
+            "item": "refinedstorage:storage_housing"
+        },
+        "B": {
+            "item": "refinedstorage:16k_storage_part"
+        }
+    },
+    "result": {
+        "item": "minecraft:air"
+    }
+}

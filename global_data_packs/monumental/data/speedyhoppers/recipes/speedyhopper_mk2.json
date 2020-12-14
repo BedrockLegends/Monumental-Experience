@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "speedyhoppers:speedyhopper_mk1"
+    },
+    "addition": {
+        "tag": "forge:storage_blocks/gold"
+    },
+    "result": {
+        "item": "speedyhoppers:speedyhopper_mk2"
+    }
+}

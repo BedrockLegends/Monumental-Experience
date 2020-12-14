@@ -1,0 +1,19 @@
+{
+    "result": {
+        "item": "overloaded:fluid_core"
+    },
+    "pattern": [
+        "NNN",
+        "NRN",
+        "NNN"
+    ],
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "R": {
+            "item": "naturesaura:infused_iron_block"
+        },
+        "N": {
+            "tag": "forge:storage_blocks/nether_star"
+        }
+    }
+}

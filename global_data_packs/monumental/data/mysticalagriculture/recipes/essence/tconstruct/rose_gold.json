@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:rose_gold_essence"
+    }
+  },
+  "result": {
+    "item": "tconstruct:rose_gold_ingot",
+   	"count": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "   A   ",
+        "  ABA  ",
+        "  AAA  ",
+        "  AAA  ",
+        " AAAAA ",
+        "   A   ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/mana_diamond"
+        },
+        "B": {
+            "item": "minecraft:golden_sword"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_sword"
+    }
+}

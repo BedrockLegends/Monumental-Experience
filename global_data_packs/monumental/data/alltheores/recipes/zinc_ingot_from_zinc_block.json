@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "zinc_ingot",
+  "ingredients": [
+    {
+      "item": "alltheores:zinc_block"
+    }
+  ],
+  "result": {
+    "item": "alltheores:zinc_ingot",
+    "count": 9
+  }
+}

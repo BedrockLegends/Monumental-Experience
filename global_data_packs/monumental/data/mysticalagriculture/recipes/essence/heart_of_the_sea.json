@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " DBD ",
+        "DAAAD",
+        "BACAB",
+        "DAAAD",
+        " DBD "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/prismarine"
+        },
+        "B": {
+            "tag": "forge:dusts/prismarine"
+        },
+        "C": {
+            "item": "minecraft:trident"
+        },
+        "D": {
+            "tag": "forge:gems/mana_diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:heart_of_the_sea",
+        "count": 2
+    }
+}

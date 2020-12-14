@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:pigiron_essence"
+    }
+  },
+  "result": {
+    "item": "tconstruct:pigiron_ingot",
+   	"count": 4
+  }
+}

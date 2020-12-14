@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "   ABA   ",
+        "  AAAAA  ",
+        " AA A AA ",
+        "AA  A  AA",
+        "A   A   A",
+        "    A    ",
+        "    A    ",
+        "    A    ",
+        "    A    "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/netherite"
+        },
+        "B": {
+            "type": "forge:nbt",
+            "item": "minecraft:diamond_pickaxe",
+            "count": 1,
+            "nbt": "{Damage:0}"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJ ",
+        " K ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:rods/wooden"
+        },
+        "J": {
+            "tag": "minecraft:stone_tool_materials"
+        },
+		"K": {
+			"item": "minecraft:wooden_hoe"
+		}
+    },
+    "result": {
+        "item": "minecraft:stone_hoe"
+    }
+}
