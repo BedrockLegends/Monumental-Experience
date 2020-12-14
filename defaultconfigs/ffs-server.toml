@@ -1,0 +1,14 @@
+
+#General settings for configuring the mod.
+[General]
+	#How many millibuckets can each block within the tank store?
+	#(Has to be higher than 1!)
+	#Range: > 1
+	"mB Per Virtual Tank" = 16000
+	#When enabled, this will turn the blacklist into a whitelist.
+	"Block Blacklist Invert" = false
+	#Define the maximum number of air blocks a tank can have.
+	#2197 have been tested to not cause any noticeable lag.
+	#Range: 3 ~ 2197
+	"Maximum Air Blocks" = 2197
+

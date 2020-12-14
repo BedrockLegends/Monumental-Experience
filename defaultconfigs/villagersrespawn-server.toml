@@ -1,0 +1,16 @@
+
+["Villager Respawn Control Values"]
+	#Zombie Deaths In Hard Mode
+	hardModeZombieDeaths = true
+	#Respawn Health
+	#Range: 1 ~ 25
+	respawnHealth = 20
+	#Respawn Percentage
+	#Range: 1 ~ 110
+	respawnPercentage = 104
+	#Respawn XpLoss
+	respawnXpLoss = true
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+

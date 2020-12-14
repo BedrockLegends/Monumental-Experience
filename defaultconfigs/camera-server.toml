@@ -1,0 +1,30 @@
+
+[camera]
+	#The time in milliseconds the camera will be on cooldown after taking an image
+	#Range: > 100
+	cooldown = 5000
+
+	[camera.consumed_item]
+		#The item that is consumed when taking an image
+		#If it starts with '#' it is a tag
+		item = "minecraft:paper"
+		#The amount of the item that is consumed when taking an image
+		#Range: 1 ~ 32767
+		amount = 1
+
+[image]
+	#If it is allowed to upload custom images
+	allow_upload = true
+	#The amount of jpeg compression applied to the image
+	#If the image exceeds the 'max_image_size', it will get compressed anyways
+	#Range: 0.1 ~ 1.0
+	compression = 0.5
+	#The maximum size of an image in bytes when transferred to the server
+	#Higher values mean more delay/lag between taking an image and getting it into your inventory
+	#Range: 50000 ~ 1000000
+	max_size = 200000
+
+[image_frame]
+	#If only the owner can modify or break the image frame
+	only_owner_modify = true
+
