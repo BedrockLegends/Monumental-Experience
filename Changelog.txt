@@ -4,3 +4,6 @@ Welcome to Monumental Version 5.8
 1. Updated Connected Texture Mod
 2. Updated Extreme Reactors 2
 3. Updated FTB Essentials- Server config, You will need to update this on your servers as well
+4. Added Immersive Railroading(https://www.curseforge.com/minecraft/mc-mods/immersive-railroading)
+5. Added TrackAPI
+6. Added Universal Mod Core
