@@ -2,10 +2,6 @@
   <a href="https://discord.gg/kvagXuP">
     <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=flat-square">
   </a>
-
- <a href="https://github.com/BedrockLegends/Monumental-Experience/issues">
-    <img alt="Modpack issues" src="https://img.shields.io/github/issues/BedrockLegends/Monumental-Experience">
-  </a>
   
   <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
     <img alt="Modpack Downloads" src="http://cf.way2muchnoise.eu/full_363581_downloads.svg">
