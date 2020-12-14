@@ -1,0 +1,7 @@
+
+[eggtab]
+	#Move enchanted books to seperate tab
+	books_group = true
+	#Move spawn eggs to seperate tab
+	eggs_group = true
+

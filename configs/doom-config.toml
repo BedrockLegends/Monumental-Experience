@@ -1,0 +1,11 @@
+
+[extra]
+	#Do you want to allow In-fighting of the mobs?
+	IN_FIGHTING = true
+	#You can disable disable the lockon feature here.
+	ENABLE_LOCKON = true
+
+[gear]
+	#Crucible Sword/Maruader Axe Max Damage
+	CRUCIBLE_MARUADER_MAXDAMAGE = 5
+

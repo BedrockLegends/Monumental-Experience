@@ -1,0 +1,42 @@
+
+#General settings
+[gardentools]
+
+	[gardentools.watering]
+		#Watering can range
+		#Range: 1 ~ 32
+		range = 4
+
+	[gardentools.cultivator]
+		#Range of cultivator item
+		#Range: 2 ~ 32
+		range = 9
+		#Moisture level set by cultivator
+		#Range: 0 ~ 7
+		moisture = 7
+
+	[gardentools.feeder]
+		#Livestock Feeder range
+		#Range: 1 ~ 32
+		range = 8
+
+	[gardentools.planter]
+		#Range of planter item
+		#Range: 2 ~ 32
+		range = 9
+
+	[gardentools.rancher]
+		#Livestock Rancher range
+		#Range: 1 ~ 32
+		range = 8
+
+	[gardentools.irrigator]
+		#Watering radius of irrigation block
+		#Range: 1 ~ 64
+		radius = 8
+
+	[gardentools.fertilizer]
+		#The bonemeal-power of the fertilizer
+		#Range: 1 ~ 32
+		power = 6
+
