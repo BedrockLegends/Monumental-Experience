@@ -1,7 +1,7 @@
 {
 	id: 666,
 	filename: "halloffame",
-	order_index: 1,
+	order_index: 0,
 	title: "All the Fame",
 	icon: "xreliquary:holy_hand_grenade",
 	default_quest_shape: "",
@@ -281,6 +281,47 @@
 			shape: "heart",
 			description: ["Go to our official Discord https://discord.gg/kvagXuP and send Sloth a screen shot of this page at 100% then in the next update of the pack youll be added :D"],
 			hide_dependency_lines: true,
+			dependencies: [I;
+				637,
+				641,
+				643,
+				659,
+				668,
+				671,
+				673,
+				675,
+				677,
+				679,
+				681,
+				683,
+				685,
+				688,
+				690,
+				694,
+				1973,
+				696,
+				737,
+				739,
+				741,
+				743,
+				745,
+				747,
+				1732,
+				723,
+				725,
+				727,
+				729,
+				731,
+				1975,
+				733,
+				735,
+				749,
+				751,
+				3116,
+				3120,
+				3122,
+				3124
+			],
 			size: 2.0d,
 			id: 717,
 			tasks: [{
@@ -419,7 +460,7 @@
 		{
 			title: "Botania",
 			icon: "botania:lexicon",
-			x: 0.0d,
+			x: 1.0d,
 			y: 3.0d,
 			dependencies: [I;2060],
 			id: 659,
@@ -434,8 +475,8 @@
 		{
 			title: "Cooking for Blockheads",
 			icon: "cookingforblockheads:cow_jar",
-			x: 1.0d,
-			y: 3.0d,
+			x: -1.5d,
+			y: 4.0d,
 			dependencies: [I;1736],
 			id: 668,
 			rewards: [{
@@ -449,7 +490,7 @@
 		{
 			title: "Creative Stuff",
 			icon: "storagedrawers:creative_storage_upgrade",
-			x: -1.5d,
+			x: -0.5d,
 			y: 4.0d,
 			dependencies: [I;755],
 			id: 671,
@@ -464,7 +505,7 @@
 		{
 			title: "Dark Utilities",
 			icon: "darkutils:blank_plate",
-			x: -0.5d,
+			x: 1.5d,
 			y: 4.0d,
 			dependencies: [I;2594],
 			id: 673,
@@ -479,8 +520,8 @@
 		{
 			title: "Extended Crafting",
 			icon: "extendedcrafting:basic_table",
-			x: 0.5d,
-			y: 4.0d,
+			x: -2.0d,
+			y: 5.0d,
 			dependencies: [I;2546],
 			id: 675,
 			rewards: [{
@@ -494,8 +535,8 @@
 		{
 			title: "Fluid of Plenty",
 			icon: "minecraft:lava_bucket",
-			x: 1.5d,
-			y: 4.0d,
+			x: -1.0d,
+			y: 5.0d,
 			dependencies: [I;450],
 			id: 677,
 			rewards: [{
@@ -509,7 +550,7 @@
 		{
 			title: "Forbidden & Arcanus",
 			icon: "forbidden_arcanus:forbiddenmicon",
-			x: -2.0d,
+			x: 0.0d,
 			y: 5.0d,
 			dependencies: [I;2694],
 			id: 679,
@@ -524,7 +565,7 @@
 		{
 			title: "Gobber",
 			icon: "gobber2:gobber2_globette",
-			x: -1.0d,
+			x: 1.0d,
 			y: 5.0d,
 			dependencies: [I;24],
 			id: 681,
@@ -538,10 +579,11 @@
 		},
 		{
 			title: "Ice and Fire",
-			x: 0.0d,
+			icon: "iceandfire:dragon_skull_fire",
+			x: 2.0d,
 			y: 5.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;717],
+			dependencies: [I;3370],
 			id: 683,
 			rewards: [{
 				id: 2289,
@@ -553,10 +595,11 @@
 		},
 		{
 			title: "Immersive Engineering",
-			x: 1.0d,
-			y: 5.0d,
+			icon: "immersiveengineering:workbench",
+			x: -2.5d,
+			y: 6.0d,
 			hide_dependency_lines: true,
-			dependencies: [I;717],
+			dependencies: [I;2697],
 			id: 685,
 			rewards: [{
 				id: 2290,
@@ -569,8 +612,8 @@
 		{
 			title: "Industrial Foregoing",
 			icon: "industrialforegoing:fluid_extractor",
-			x: 2.0d,
-			y: 5.0d,
+			x: -1.5d,
+			y: 6.0d,
 			dependencies: [I;10],
 			id: 688,
 			rewards: [{
@@ -584,7 +627,7 @@
 		{
 			title: "Library of all Mods",
 			icon: "minecraft:writable_book",
-			x: -2.5d,
+			x: -0.5d,
 			y: 6.0d,
 			dependencies: [I;2106],
 			id: 690,
@@ -599,7 +642,7 @@
 		{
 			title: "Mekanism",
 			icon: "mekanism:robit",
-			x: -1.5d,
+			x: 0.5d,
 			y: 6.0d,
 			dependencies: [I;1011],
 			id: 694,
@@ -614,7 +657,7 @@
 		{
 			title: "Mob Killing",
 			icon: "minecraft:zombie_head",
-			x: 0.5d,
+			x: 2.5d,
 			y: 6.0d,
 			dependencies: [I;605],
 			id: 696,
@@ -635,8 +678,8 @@
 					"patchouli:book": "pneumaticcraft:book"
 				}
 			},
-			x: 2.0d,
-			y: 7.0d,
+			x: -3.5d,
+			y: 8.0d,
 			dependencies: [I;2700],
 			id: 723,
 			rewards: [{
@@ -650,8 +693,8 @@
 		{
 			title: "Refined Storage",
 			icon: "refinedstorage:machine_casing",
-			x: 3.0d,
-			y: 7.0d,
+			x: -2.5d,
+			y: 8.0d,
 			dependencies: [I;2123],
 			id: 725,
 			rewards: [{
@@ -665,7 +708,7 @@
 		{
 			title: "Rftools Builder",
 			icon: "rftoolsbuilder:builder",
-			x: -3.5d,
+			x: -1.5d,
 			y: 8.0d,
 			dependencies: [I;2460],
 			id: 727,
@@ -680,7 +723,7 @@
 		{
 			title: "Rftools Control",
 			icon: "rftoolscontrol:graphics_card",
-			x: -2.5d,
+			x: -0.5d,
 			y: 8.0d,
 			dependencies: [I;2488],
 			id: 729,
@@ -695,7 +738,7 @@
 		{
 			title: "Rftools Power",
 			icon: "rftoolspower:power_core1",
-			x: -1.5d,
+			x: 0.5d,
 			y: 8.0d,
 			dependencies: [I;2252],
 			id: 731,
@@ -710,9 +753,9 @@
 		{
 			title: "Simple Storage Network",
 			icon: "storagenetwork:inventory",
-			x: 0.5d,
+			x: 2.5d,
 			y: 8.0d,
-			dependencies: [I;14],
+			dependencies: [I;3294],
 			id: 733,
 			rewards: [{
 				id: 2300,
@@ -725,9 +768,9 @@
 		{
 			title: "Storage Drawers",
 			icon: "storagedrawers:oak_full_drawers_1",
-			x: 1.5d,
+			x: 3.5d,
 			y: 8.0d,
-			dependencies: [I;15],
+			dependencies: [I;3295],
 			id: 735,
 			rewards: [{
 				id: 2301,
@@ -740,8 +783,8 @@
 		{
 			title: "Tier1 Mystical Agriculture",
 			icon: "mysticalagriculture:inferium_essence",
-			x: 1.5d,
-			y: 6.0d,
+			x: -3.0d,
+			y: 7.0d,
 			dependencies: [I;2142],
 			id: 737,
 			rewards: [{
@@ -755,9 +798,9 @@
 		{
 			title: "Tier2 Mystical Agriculture",
 			icon: "mysticalagriculture:nature_seeds",
-			x: 2.5d,
-			y: 6.0d,
-			dependencies: [I;5],
+			x: -2.0d,
+			y: 7.0d,
+			dependencies: [I;3318],
 			id: 739,
 			rewards: [{
 				id: 2303,
@@ -770,9 +813,9 @@
 		{
 			title: "Tier3 Mystical Agriculture",
 			icon: "mysticalagriculture:iron_seeds",
-			x: -3.0d,
+			x: -1.0d,
 			y: 7.0d,
-			dependencies: [I;6],
+			dependencies: [I;3344],
 			id: 741,
 			rewards: [{
 				id: 2304,
@@ -785,7 +828,7 @@
 		{
 			title: "Tier4 Mystical Agriculture",
 			icon: "mysticalagriculture:gold_seeds",
-			x: -2.0d,
+			x: 0.0d,
 			y: 7.0d,
 			dependencies: [I;7],
 			id: 743,
@@ -800,9 +843,9 @@
 		{
 			title: "Tier5 Mystical Agriculture",
 			icon: "mysticalagriculture:diamond_seeds",
-			x: -1.0d,
+			x: 1.0d,
 			y: 7.0d,
-			dependencies: [I;8],
+			dependencies: [I;3353],
 			id: 745,
 			rewards: [{
 				id: 2306,
@@ -815,9 +858,9 @@
 		{
 			title: "Tier6 Mystical Agriculture",
 			icon: "mysticalagriculture:nether_star_seeds",
-			x: 0.0d,
+			x: 2.0d,
 			y: 7.0d,
-			dependencies: [I;9],
+			dependencies: [I;3357],
 			id: 747,
 			rewards: [{
 				id: 2307,
@@ -830,8 +873,8 @@
 		{
 			title: "Wooden Utilities",
 			icon: "woodenutilities:wooden_plate",
-			x: 2.5d,
-			y: 8.0d,
+			x: 0.5d,
+			y: 9.0d,
 			dependencies: [I;2713],
 			id: 749,
 			rewards: [{
@@ -845,9 +888,9 @@
 		{
 			title: "Xnet",
 			icon: "xnet:connector_upgrade",
-			x: 3.5d,
-			y: 8.0d,
-			dependencies: [I;16],
+			x: 1.5d,
+			y: 9.0d,
+			dependencies: [I;3364],
 			id: 751,
 			rewards: [{
 				id: 2309,
@@ -860,7 +903,7 @@
 		{
 			title: "Overloaded",
 			icon: "overloaded:true_infinite_barrel",
-			x: 1.0d,
+			x: 3.0d,
 			y: 7.0d,
 			dependencies: [I;1361],
 			id: 1732,
@@ -879,7 +922,7 @@
 				Count: true,
 				tag: {}
 			},
-			x: -0.5d,
+			x: 1.5d,
 			y: 6.0d,
 			dependencies: [I;1894],
 			id: 1973,
@@ -894,7 +937,7 @@
 		{
 			title: "RFtools Utilities",
 			icon: "rftoolsutility:crafter1",
-			x: -0.5d,
+			x: 1.5d,
 			y: 8.0d,
 			dependencies: [I;2324],
 			id: 1975,
@@ -903,6 +946,82 @@
 				type: "command",
 				auto: "invisible",
 				command: "/say @p has compleated the RFtools Utilities chapter",
+				player_command: false
+			}]
+		},
+		{
+			title: "Bloody Magic",
+			icon: {
+				id: "patchouli:guide_book",
+				Count: true,
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			},
+			x: 0.0d,
+			y: 3.0d,
+			dependencies: [I;3012],
+			id: 3116,
+			rewards: [{
+				id: 3427,
+				type: "command",
+				auto: "invisible",
+				command: "/say @p has compleated the Bloody Magic chapter",
+				player_command: false
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			id: 3118,
+			tasks: [{
+				id: 3119,
+				type: "checkmark",
+				title: "Bloody Magic"
+			}]
+		},
+		{
+			title: "Flux Networks",
+			icon: "fluxnetworks:flux_dust",
+			x: 0.5d,
+			y: 4.0d,
+			dependencies: [I;2789],
+			id: 3120,
+			rewards: [{
+				id: 3428,
+				type: "command",
+				auto: "invisible",
+				command: "/say @p has compleated the Flux Networks chapter",
+				player_command: false
+			}]
+		},
+		{
+			title: "Thermal",
+			icon: "thermal:signalum_glass",
+			x: -1.5d,
+			y: 9.0d,
+			dependencies: [I;2807],
+			id: 3122,
+			rewards: [{
+				id: 3429,
+				type: "command",
+				auto: "invisible",
+				command: "/say @p has compleated the Thermal chapter",
+				player_command: false
+			}]
+		},
+		{
+			title: "The End",
+			icon: "minecraft:end_portal_frame",
+			x: -0.5d,
+			y: 9.0d,
+			dependencies: [I;2987],
+			id: 3124,
+			rewards: [{
+				id: 3430,
+				type: "command",
+				auto: "invisible",
+				command: "/say @p has compleated the The End chapter",
 				player_command: false
 			}]
 		}
