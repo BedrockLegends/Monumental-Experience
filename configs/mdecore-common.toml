@@ -1,5 +1,0 @@
-#A message to be sent to the player every time they join the server.
-#Supports color codes as specified at http://minecraft.gamepedia.com/Formatting_codes#Color_codes
-#If this string is empty no message will be sent.
-loginMessage = ""
-
