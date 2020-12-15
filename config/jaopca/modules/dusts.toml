@@ -1,0 +1,7 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["certus_quartz", "zinc", "aluminum", "platinum", "mana_gem", "biotite"]
+	#The materials to force generate passive forms for this module.
+	passiveMaterialWhitelist = []
+

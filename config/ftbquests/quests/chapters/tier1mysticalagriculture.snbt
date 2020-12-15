@@ -1,0 +1,427 @@
+{
+	id: 2142,
+	filename: "tier1mysticalagriculture",
+	order_index: 22,
+	title: "(Tier1) Mystical Agriculture",
+	icon: "mysticalagriculture:inferium_essence",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: [I;2145],
+			id: 2143,
+			tasks: [{
+				id: 2144,
+				type: "item",
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2145,
+			tasks: [
+				{
+					id: 2146,
+					type: "item",
+					item: "mysticalagriculture:inferium_essence"
+				},
+				{
+					id: 2192,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "mysticalagriculture:guide"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;2145],
+			id: 2147,
+			tasks: [{
+				id: 2148,
+				type: "item",
+				item: "mysticalagradditions:inferium_coal"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: [I;2145],
+			id: 2149,
+			tasks: [{
+				id: 2150,
+				type: "item",
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: [I;2145],
+			id: 2151,
+			tasks: [{
+				id: 2152,
+				type: "item",
+				item: "mysticalagriculture:inferium_gemstone"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;
+				2149,
+				2151
+			],
+			id: 2153,
+			tasks: [{
+				id: 2154,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			dependencies: [I;2153],
+			id: 2155,
+			tasks: [{
+				id: 2156,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			dependencies: [I;2155],
+			id: 2157,
+			tasks: [{
+				id: 2158,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -4.0d,
+			dependencies: [I;2157],
+			id: 2159,
+			tasks: [{
+				id: 2160,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			dependencies: [I;2149],
+			id: 2161,
+			tasks: [{
+				id: 2162,
+				type: "item",
+				item: {
+					id: "mysticalagradditions:inferium_paxel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			dependencies: [I;2149],
+			id: 2163,
+			tasks: [{
+				id: 2164,
+				type: "item",
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2149,
+				2195
+			],
+			id: 2165,
+			tasks: [{
+				id: 2166,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_watering_can",
+					Count: true,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 6.0d,
+			id: 2167,
+			tasks: [{
+				id: 2168,
+				type: "item",
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			dependencies: [I;2167],
+			id: 2169,
+			tasks: [{
+				id: 2170,
+				type: "item",
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2145,
+				2169
+			],
+			id: 2171,
+			tasks: [{
+				id: 2172,
+				type: "item",
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			dependencies: [I;2163],
+			id: 2173,
+			tasks: [
+				{
+					id: 2174,
+					type: "item",
+					item: "mysticalagriculture:infusion_altar"
+				},
+				{
+					id: 2175,
+					type: "item",
+					item: "mysticalagriculture:infusion_pedestal",
+					count: 8L
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2169,
+				2145
+			],
+			id: 2176,
+			tasks: [{
+				id: 2177,
+				type: "item",
+				item: "mysticalagriculture:stone_seeds"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2169,
+				2145
+			],
+			id: 2178,
+			tasks: [{
+				id: 2179,
+				type: "item",
+				item: "mysticalagriculture:dirt_seeds"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2169,
+				2145
+			],
+			id: 2180,
+			tasks: [{
+				id: 2181,
+				type: "item",
+				item: "mysticalagriculture:wood_seeds"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2169,
+				2145
+			],
+			id: 2182,
+			tasks: [{
+				id: 2183,
+				type: "item",
+				item: "mysticalagriculture:ice_seeds"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			id: 2186,
+			tasks: [{
+				id: 2187,
+				type: "item",
+				item: "mysticalagriculture:machine_frame"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.0d,
+			dependencies: [I;
+				2186,
+				2149
+			],
+			id: 2188,
+			tasks: [{
+				id: 2189,
+				type: "item",
+				item: "mysticalagriculture:inferium_reprocessor"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			id: 2195,
+			tasks: [{
+				id: 2196,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:watering_can",
+					Count: true,
+					tag: {
+						Water: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 4.0d,
+			dependencies: [I;2201],
+			id: 2197,
+			tasks: [{
+				id: 2198,
+				type: "item",
+				item: "mysticalagriculture:soul_jar"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 6.0d,
+			dependencies: [I;2167],
+			id: 2199,
+			tasks: [{
+				id: 2200,
+				type: "item",
+				item: "mysticalagriculture:prosperity_ingot"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 6.0d,
+			dependencies: [I;2199],
+			id: 2201,
+			tasks: [{
+				id: 2202,
+				type: "item",
+				item: "mysticalagriculture:soulium_ingot"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			dependencies: [I;2167],
+			id: 2203,
+			tasks: [{
+				id: 2204,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:infusion_crystal",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2169,
+				2145
+			],
+			id: 126,
+			tasks: [{
+				id: 127,
+				type: "item",
+				item: "mysticalagriculture:water_seeds"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.0d,
+			dependencies: [I;
+				2169,
+				2145
+			],
+			id: 3317,
+			tasks: [{
+				id: 180,
+				type: "item",
+				item: "mysticalagriculture:fire_seeds"
+			}]
+		}
+	]
+}

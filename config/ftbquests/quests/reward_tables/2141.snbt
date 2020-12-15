@@ -1,0 +1,286 @@
+{
+	id: 2141,
+	title: "Normal Quest's",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "woodenutilities:wooden_hopper"
+		},
+		{
+			item: {
+				id: "woodenutilities:wooden_helmet",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "woodenutilities:wooden_chestplate",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "woodenutilities:wooden_leggings",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "woodenutilities:wooden_boot",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "minecraft:iron_ingot",
+			count: 4
+		},
+		{
+			item: "alltheores:copper_ingot",
+			count: 8
+		},
+		{
+			item: "alltheores:aluminum_ingot",
+			count: 6
+		},
+		{
+			item: "minecraft:stone",
+			count: 16
+		},
+		{
+			item: "minecraft:dark_oak_log",
+			count: 64
+		},
+		{
+			item: "minecraft:cobblestone",
+			count: 64
+		},
+		{
+			type: "xp_levels",
+			xp_levels: 5
+		},
+		{
+			type: "xp_levels",
+			xp_levels: 10
+		},
+		{
+			item: "minecraft:oak_sapling",
+			count: 8
+		},
+		{
+			item: "minecraft:spruce_sapling",
+			count: 8
+		},
+		{
+			item: "minecraft:birch_sapling",
+			count: 8
+		},
+		{
+			item: "minecraft:jungle_sapling",
+			count: 8
+		},
+		{
+			item: "minecraft:acacia_sapling",
+			count: 8
+		},
+		{
+			item: "minecraft:dark_oak_sapling",
+			count: 8
+		},
+		{
+			item: "minecraft:orange_wool",
+			count: 16
+		},
+		{
+			item: "minecraft:vine",
+			count: 3
+		},
+		{
+			item: "minecraft:powered_rail",
+			count: 4
+		},
+		{
+			item: "minecraft:sunflower"
+		},
+		{
+			item: "minecraft:lilac"
+		},
+		{
+			item: "minecraft:rose_bush"
+		},
+		{
+			item: "minecraft:peony"
+		},
+		{
+			item: "minecraft:brown_mushroom"
+		},
+		{
+			item: "minecraft:red_mushroom"
+		},
+		{
+			item: "minecraft:lily_pad"
+		},
+		{
+			item: "minecraft:oak_button"
+		},
+		{
+			item: "minecraft:cobweb",
+			count: 2
+		},
+		{
+			item: "minecraft:piston"
+		},
+		{
+			item: "minecraft:ice"
+		},
+		{
+			item: "minecraft:comparator"
+		},
+		{
+			item: "minecraft:charcoal",
+			count: 8
+		},
+		{
+			item: {
+				id: "minecraft:flint_and_steel",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "minecraft:string",
+			count: 3
+		},
+		{
+			item: "minecraft:slime_ball",
+			count: 4
+		},
+		{
+			item: "minecraft:feather",
+			count: 2
+		},
+		{
+			item: "minecraft:gunpowder",
+			count: 3
+		},
+		{
+			item: "minecraft:saddle"
+		},
+		{
+			item: "minecraft:bone",
+			count: 4
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: true,
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: true,
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: true,
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		},
+		{
+			item: "minecraft:rabbit_foot"
+		},
+		{
+			item: "minecraft:writable_book"
+		},
+		{
+			item: "minecraft:zombie_head"
+		},
+		{
+			item: "minecraft:creeper_head"
+		},
+		{
+			item: "minecraft:armor_stand"
+		},
+		{
+			item: "minecraft:name_tag"
+		},
+		{
+			item: "minecraft:phantom_membrane"
+		},
+		{
+			item: "minecraft:honey_bottle",
+			count: 2
+		},
+		{
+			item: "xreliquary:rib_bone"
+		},
+		{
+			item: "xreliquary:slime_pearl"
+		},
+		{
+			item: "xreliquary:molten_core"
+		},
+		{
+			item: "xreliquary:nebulous_heart"
+		},
+		{
+			item: "refinedstorage:cable",
+			count: 2
+		},
+		{
+			item: "appliedenergistics2:fluix_glass_cable",
+			count: 2
+		},
+		{
+			item: "botania:orange_petal",
+			count: 2
+		},
+		{
+			item: "botania:livingwood_twig",
+			count: 3
+		},
+		{
+			item: "botania:grass_seeds"
+		},
+		{
+			item: "botania:rune_water"
+		},
+		{
+			item: "botania:rune_fire"
+		},
+		{
+			item: "botania:rune_earth"
+		},
+		{
+			item: "botania:rune_air"
+		},
+		{
+			item: "minecraft:nether_brick",
+			count: 4
+		}
+	]
+}

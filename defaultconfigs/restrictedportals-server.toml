@@ -1,0 +1,17 @@
+
+[options]
+	#Message that displays when Teleport is blocked
+	blockedmessage = "Please obtain a %item% to enter the %dim%"
+	#Prevents Death by Teleporting Player to Spawn if trying to enter an Ender Portal
+	preventdeath = true
+	#Description for the Advancements
+	description = "Obtain a %item%"
+	#Comma seperated list of Dimension Resource Names
+	dimresname = "minecraft:the_nether,minecraft:the_end"
+	#Title for the Advancements
+	craftedmessage = "%dim% Unlocked!"
+	#Comma seperated list of items that when crafted unlock the corresponding dimension
+	craftitems = "telepastries:nether_cake,telepastries:end_cake"
+	#Comma seperated list of Dimension Display Names
+	dimnames = "Nether,End"
+

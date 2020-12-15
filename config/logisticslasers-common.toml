@@ -1,0 +1,37 @@
+
+#RF SETTINGS
+[rfcosts]
+
+	#Crafting Station
+	[rfcosts.rf_crafting_station]
+		#The RF cost per item when requesting from a crafting station
+		#Range: > 0
+		rf_crafting_station_request = 10
+		#The passive RF/Tick cost of a crafting station when connected to a controller
+		#Range: > 0
+		rf_controller_crafting_station_passive = 5
+
+	#Controller
+	[rfcosts.rf_controller]
+		#The RF cost per item to extract items from any inventory using extractor cards
+		#Range: > 0
+		rf_controller_extractor = 10
+		#The RF cost per item to stock an item in an inventory via the stocker cards
+		#Range: > 0
+		rf_controller_stocker = 20
+		#The RF cost per item to store items in the controller's internal inventory.
+		#Range: > 0
+		rf_controller_internal = 10
+		#The passive RF/Tick cost of an inventory node when connected to a controller
+		#Range: > 0
+		rf_controller_inventory_node_passive = 5
+		#The passive RF/Tick cost of the controller
+		#Range: > 0
+		rf_controller_passive = 0
+		#The RF cost per item to remove an item from the internal stored inventory
+		#Range: > 0
+		rf_controller_internal_remove = 50
+		#The passive RF/Tick cost of a basic node when connected to a controller
+		#Range: > 0
+		rf_controller_basic_node_passive = 2
+

@@ -1,0 +1,391 @@
+{
+	id: 2599,
+	filename: "reliquary",
+	order_index: 35,
+	title: "Reliquary",
+	icon: {
+		id: "xreliquary:mercy_cross",
+		Count: true,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.0d,
+			y: 0.0d,
+			id: 2600,
+			tasks: [{
+				id: 2601,
+				type: "item",
+				item: {
+					id: "xreliquary:mercy_cross",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			id: 2602,
+			tasks: [{
+				id: 2605,
+				type: "item",
+				item: "xreliquary:destruction_catalyst"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			id: 2606,
+			tasks: [{
+				id: 2607,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:ender_pearl",
+									Count: true
+								},
+								amount: 0
+							}]
+						}
+					},
+					id: "xreliquary:ender_staff",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			id: 2608,
+			tasks: [{
+				id: 2611,
+				type: "item",
+				item: "xreliquary:glacial_staff"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.0d,
+			id: 2657,
+			tasks: [{
+				id: 2658,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:bone_meal",
+									Count: true
+								},
+								amount: 0
+							}]
+						}
+					},
+					id: "xreliquary:harvest_rod",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -4.0d,
+			id: 2659,
+			tasks: [{
+				id: 2660,
+				type: "item",
+				item: "xreliquary:hero_medallion"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			id: 2666,
+			tasks: [{
+				id: 2667,
+				type: "item",
+				item: "xreliquary:holy_hand_grenade"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			id: 2674,
+			tasks: [
+				{
+					id: 2675,
+					type: "item",
+					item: "xreliquary:infernal_chalice"
+				},
+				{
+					id: 2684,
+					type: "item",
+					item: "xreliquary:emperor_chalice"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 4.0d,
+			id: 2715,
+			tasks: [{
+				id: 2739,
+				type: "item",
+				item: "xreliquary:fortune_coin"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			id: 2740,
+			tasks: [{
+				id: 2746,
+				type: "item",
+				item: "xreliquary:ice_magus_rod"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			id: 2747,
+			tasks: [
+				{
+					id: 2748,
+					type: "item",
+					item: "xreliquary:infernal_claws"
+				},
+				{
+					id: 2751,
+					type: "item",
+					item: "xreliquary:infernal_claw"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			id: 2749,
+			tasks: [{
+				id: 2750,
+				type: "item",
+				item: "xreliquary:lantern_of_paranoia"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.0d,
+			id: 2752,
+			tasks: [{
+				id: 2753,
+				type: "item",
+				item: "xreliquary:crimson_cloth"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.0d,
+			id: 2754,
+			tasks: [{
+				id: 2755,
+				type: "item",
+				item: "xreliquary:pyromancer_staff"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 4.0d,
+			id: 2756,
+			tasks: [{
+				id: 2757,
+				type: "item",
+				item: {
+					id: "xreliquary:serpent_staff",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -4.0d,
+			id: 2758,
+			tasks: [{
+				id: 2759,
+				type: "item",
+				item: "xreliquary:sojourner_staff"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			id: 2760,
+			tasks: [{
+				id: 2761,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:feather",
+									Count: true
+								},
+								amount: 0
+							}]
+						}
+					},
+					id: "xreliquary:rending_gale",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			id: 2762,
+			tasks: [{
+				id: 2763,
+				type: "item",
+				item: "xreliquary:rod_of_lyssa"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 0.0d,
+			id: 2764,
+			tasks: [{
+				id: 2765,
+				type: "item",
+				item: "xreliquary:shears_of_winter"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 4.0d,
+			id: 2766,
+			tasks: [{
+				id: 2767,
+				type: "item",
+				item: "xreliquary:twilight_cloak"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -4.0d,
+			id: 2768,
+			tasks: [{
+				id: 2769,
+				type: "item",
+				item: "xreliquary:witch_hat"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -2.0d,
+			id: 2770,
+			tasks: [{
+				id: 2771,
+				type: "item",
+				item: "xreliquary:witherless_rose"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 2.0d,
+			id: 2772,
+			tasks: [
+				{
+					id: 2773,
+					type: "item",
+					item: "xreliquary:barrel_assembly"
+				},
+				{
+					id: 2774,
+					type: "item",
+					item: "xreliquary:hammer_assembly"
+				},
+				{
+					id: 2775,
+					type: "item",
+					item: "xreliquary:handgun"
+				},
+				{
+					id: 2776,
+					type: "item",
+					item: "xreliquary:grip_assembly"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -6.0d,
+			id: 2777,
+			tasks: [{
+				id: 2778,
+				type: "item",
+				item: "xreliquary:alkahestry_altar"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			id: 2779,
+			tasks: [{
+				id: 2780,
+				type: "item",
+				item: "xreliquary:apothecary_cauldron"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -6.0d,
+			id: 2781,
+			tasks: [{
+				id: 2782,
+				type: "item",
+				item: "xreliquary:apothecary_mortar"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -6.0d,
+			id: 2783,
+			tasks: [{
+				id: 2784,
+				type: "item",
+				item: "xreliquary:fertile_lily_pad"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			id: 2785,
+			tasks: [{
+				id: 2786,
+				type: "item",
+				item: "xreliquary:interdiction_torch"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			id: 2787,
+			tasks: [{
+				id: 2788,
+				type: "item",
+				item: "xreliquary:wraith_node"
+			}]
+		}
+	]
+}

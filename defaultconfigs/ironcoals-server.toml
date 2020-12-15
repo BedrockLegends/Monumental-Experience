@@ -1,0 +1,16 @@
+
+#Coal Burntime Settings
+[coalburntime]
+	#How long diamond coal burns in ticks, default value is 9600
+	#Range: 1 ~ 19200
+	diamondBurnTicks = 9600
+	#How long gold coal burns in ticks, default value is 4800
+	#Range: 1 ~ 9600
+	goldBurnTicks = 4800
+	#How long iron coal burns in ticks, default value is 2400
+	#Range: 1 ~ 4800
+	ironBurnTicks = 2400
+	#How long emerald coal burns in ticks, default value is 19200
+	#Range: 1 ~ 38400
+	emeraldBurnTicks = 19200
+

@@ -1,0 +1,13 @@
+{
+  "name": "marble",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "astralsorcery:marble_raw"
+  },
+  "color": "F1F0E7",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_rock"
+  }
+}

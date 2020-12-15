@@ -1,0 +1,418 @@
+{
+	id: 686,
+	title: "Food",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:bread"
+		},
+		{
+			item: "minecraft:mushroom_stew"
+		},
+		{
+			item: "minecraft:cake"
+		},
+		{
+			item: "minecraft:cookie"
+		},
+		{
+			item: "minecraft:cooked_beef"
+		},
+		{
+			item: "minecraft:cooked_chicken"
+		},
+		{
+			item: "minecraft:carrot"
+		},
+		{
+			item: "minecraft:baked_potato"
+		},
+		{
+			item: "minecraft:cooked_rabbit"
+		},
+		{
+			item: "minecraft:pumpkin_pie"
+		},
+		{
+			item: "minecraft:cooked_mutton"
+		},
+		{
+			item: "minecraft:cooked_cod"
+		},
+		{
+			item: "minecraft:cooked_porkchop"
+		},
+		{
+			item: "minecraft:melon_slice"
+		},
+		{
+			item: "minecraft:cooked_salmon"
+		},
+		{
+			item: "minecraft:sweet_berries"
+		},
+		{
+			item: "pamhc2foodcore:applepieitem"
+		},
+		{
+			item: "pamhc2foodcore:caramelappleitem"
+		},
+		{
+			item: "pamhc2foodcore:applejellytoastitem"
+		},
+		{
+			item: "pamhc2foodcore:applesauceitem"
+		},
+		{
+			item: "simplefarming:apple_pie"
+		},
+		{
+			item: "pamhc2foodcore:carrotcakeitem"
+		},
+		{
+			item: "simplefarming:birthday_cake"
+		},
+		{
+			item: "simplefarming:chocolate_cake"
+		},
+		{
+			item: "pamhc2foodcore:chocolatecupcakeitem"
+		},
+		{
+			item: "pamhc2foodcore:carrotcupcakeitem"
+		},
+		{
+			item: "pamhc2foodcore:pumpkincupcakeitem"
+		},
+		{
+			item: "pamhc2foodcore:pumpkincupcakeitem"
+		},
+		{
+			item: "pamhc2foodcore:caramelcupcakeitem"
+		},
+		{
+			item: "pamhc2foodcore:chocolatecakeitem"
+		},
+		{
+			item: "pamhc2foodcore:cheesecakeitem"
+		},
+		{
+			item: "pamhc2foodcore:pumpkincheesecakeitem"
+		},
+		{
+			item: "simplefarming:sweet_potato_quinoa_cakes"
+		},
+		{
+			item: "simplefarming:pancakes"
+		},
+		{
+			item: "simplefarming:jaffa_cake"
+		},
+		{
+			item: "simplefarming:cassava_cake"
+		},
+		{
+			item: "minecraft:rabbit_stew"
+		},
+		{
+			item: "pamhc2foodcore:stewitem"
+		},
+		{
+			item: "gobber2:gobber2_gooey_beefstew"
+		},
+		{
+			item: "gobber2:gobber2_gooey_beefstew_nether"
+		},
+		{
+			item: "simplefarming:pumpkin_soup"
+		},
+		{
+			item: "pamhc2foodcore:pumpkinsoupitem"
+		},
+		{
+			item: "pamhc2foodcore:pumpkinyogurtitem"
+		},
+		{
+			item: "pamhc2foodcore:pumpkinmuffinitem"
+		},
+		{
+			item: "pamhc2foodcore:pumpkinbreaditem"
+		},
+		{
+			item: "simplefarming:sorghum_bread"
+		},
+		{
+			item: "simplefarming:rye_bread"
+		},
+		{
+			item: "simplefarming:rice_bread"
+		},
+		{
+			item: "simplefarming:oat_bread"
+		},
+		{
+			item: "simplefarming:cornbread"
+		},
+		{
+			item: "simplefarming:barley_bread"
+		},
+		{
+			item: "simplefarming:banana_bread"
+		},
+		{
+			item: "pamhc2foodcore:carrotbreaditem"
+		},
+		{
+			item: "simplefarming:pizza"
+		},
+		{
+			item: "minecraft:apple"
+		},
+		{
+			item: "minecraft:golden_carrot"
+		},
+		{
+			item: "minecraft:golden_apple"
+		},
+		{
+			item: "minecraft:beetroot_soup"
+		},
+		{
+			item: "good_nights_sleep:rainbow_berries"
+		},
+		{
+			item: "pneumaticcraft:sourdough_bread"
+		},
+		{
+			item: "pneumaticcraft:chips"
+		},
+		{
+			item: "pneumaticcraft:cod_n_chips"
+		},
+		{
+			item: "pamhc2crops:artichokeitem"
+		},
+		{
+			item: "pamhc2crops:asparagusitem"
+		},
+		{
+			item: "pamhc2crops:bellpepperitem"
+		},
+		{
+			item: "pamhc2crops:broccoliitem"
+		},
+		{
+			item: "pamhc2crops:brusselsproutitem"
+		},
+		{
+			item: "pamhc2crops:cabbageitem"
+		},
+		{
+			item: "pamhc2crops:caulifloweritem"
+		},
+		{
+			item: "pamhc2crops:celeryitem"
+		},
+		{
+			item: "pamhc2crops:chilipepperitem"
+		},
+		{
+			item: "pamhc2crops:cucumberitem"
+		},
+		{
+			item: "pamhc2crops:eggplantitem"
+		},
+		{
+			item: "pamhc2crops:kaleitem"
+		},
+		{
+			item: "pamhc2crops:lettuceitem"
+		},
+		{
+			item: "pamhc2crops:okraitem"
+		},
+		{
+			item: "pamhc2crops:peasitem"
+		},
+		{
+			item: "pamhc2crops:spinachitem"
+		},
+		{
+			item: "pamhc2crops:tomatilloitem"
+		},
+		{
+			item: "pamhc2crops:tomatoitem"
+		},
+		{
+			item: "pamhc2crops:wintersquashitem"
+		},
+		{
+			item: "pamhc2crops:zucchiniitem"
+		},
+		{
+			item: "pamhc2crops:arrowrootitem"
+		},
+		{
+			item: "pamhc2crops:cassavaitem"
+		},
+		{
+			item: "pamhc2crops:garlicitem"
+		},
+		{
+			item: "pamhc2crops:jicamaitem"
+		},
+		{
+			item: "pamhc2crops:leekitem"
+		},
+		{
+			item: "pamhc2crops:kohlrabiitem"
+		},
+		{
+			item: "pamhc2crops:onionitem"
+		},
+		{
+			item: "pamhc2crops:parsnipitem"
+		},
+		{
+			item: "pamhc2crops:peanutitem"
+		},
+		{
+			item: "pamhc2crops:radishitem"
+		},
+		{
+			item: "pamhc2crops:rhubarbitem"
+		},
+		{
+			item: "pamhc2crops:rutabagaitem"
+		},
+		{
+			item: "pamhc2crops:scallionitem"
+		},
+		{
+			item: "pamhc2crops:sweetpotatoitem"
+		},
+		{
+			item: "pamhc2crops:taroitem"
+		},
+		{
+			item: "pamhc2crops:turnipitem"
+		},
+		{
+			item: "pamhc2crops:waterchestnutitem"
+		},
+		{
+			item: "pamhc2crops:blackberryitem"
+		},
+		{
+			item: "pamhc2crops:blueberryitem"
+		},
+		{
+			item: "pamhc2crops:cactusfruititem"
+		},
+		{
+			item: "pamhc2crops:candleberryitem"
+		},
+		{
+			item: "pamhc2crops:cantaloupeitem"
+		},
+		{
+			item: "pamhc2crops:cranberryitem"
+		},
+		{
+			item: "pamhc2crops:elderberryitem"
+		},
+		{
+			item: "pamhc2crops:grapeitem"
+		},
+		{
+			item: "pamhc2crops:greengrapeitem"
+		},
+		{
+			item: "pamhc2crops:huckleberryitem"
+		},
+		{
+			item: "pamhc2crops:juniperberryitem"
+		},
+		{
+			item: "pamhc2crops:kiwiitem"
+		},
+		{
+			item: "pamhc2crops:mulberryitem"
+		},
+		{
+			item: "pamhc2crops:pineappleitem"
+		},
+		{
+			item: "pamhc2crops:raspberryitem"
+		},
+		{
+			item: "pamhc2crops:strawberryitem"
+		},
+		{
+			item: "pamhc2crops:whitemushroomitem"
+		},
+		{
+			item: "pamhc2crops:spiceleafitem"
+		},
+		{
+			item: "pamhc2crops:bakedarrowrootitem"
+		},
+		{
+			item: "pamhc2crops:bakedcassavaitem"
+		},
+		{
+			item: "pamhc2crops:roastedgarlicitem"
+		},
+		{
+			item: "pamhc2crops:bakedjicamaitem"
+		},
+		{
+			item: "pamhc2crops:roastedleekitem"
+		},
+		{
+			item: "pamhc2crops:roastedkohlrabiitem"
+		},
+		{
+			item: "pamhc2crops:roastedonionitem"
+		},
+		{
+			item: "pamhc2crops:bakedparsnipitem"
+		},
+		{
+			item: "pamhc2crops:roastedpeanutitem"
+		},
+		{
+			item: "pamhc2crops:roastedradishitem"
+		},
+		{
+			item: "pamhc2crops:roastedrhubarbitem"
+		},
+		{
+			item: "pamhc2crops:bakedrutabagaitem"
+		},
+		{
+			item: "pamhc2crops:roastedscallionitem"
+		},
+		{
+			item: "pamhc2crops:bakedsweetpotatoitem"
+		},
+		{
+			item: "pamhc2crops:bakedtaroitem"
+		},
+		{
+			item: "pamhc2crops:bakedturnipitem"
+		},
+		{
+			item: "pamhc2crops:bakedwaterchestnutitem"
+		},
+		{
+			item: "pamhc2crops:roastedmushroomitem"
+		},
+		{
+			item: "pamhc2crops:hotteaitem"
+		},
+		{
+			item: "pamhc2crops:hotcoffeeitem"
+		}
+	]
+}

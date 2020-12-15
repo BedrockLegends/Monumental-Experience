@@ -1,0 +1,153 @@
+{
+	id: 3357,
+	filename: "tier6mysticalagriculture",
+	order_index: 27,
+	title: "(Tier6) Mystical Agriculture",
+	icon: "mysticalagriculture:nether_star_seeds",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: -4.0d,
+			id: 3358,
+			tasks: [{
+				id: 3359,
+				type: "item",
+				item: "mysticalagradditions:insanium_coal"
+			}],
+			rewards: [{
+				id: 3122,
+				type: "random",
+				table: 11
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 3360,
+			tasks: [{
+				id: 3361,
+				type: "item",
+				item: "mysticalagradditions:insanium_essence"
+			}],
+			rewards: [
+				{
+					id: 3120,
+					type: "random",
+					table: 3
+				},
+				{
+					id: 3121,
+					type: "random",
+					table: 11
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			id: 597,
+			tasks: [
+				{
+					id: 598,
+					type: "item",
+					item: "mysticalagriculture:nether_star_seeds"
+				},
+				{
+					id: 975,
+					type: "item",
+					item: "mysticalagradditions:nether_star_crux"
+				}
+			],
+			rewards: [
+				{
+					id: 3123,
+					type: "random",
+					table: 3
+				},
+				{
+					id: 3124,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			id: 599,
+			tasks: [
+				{
+					id: 600,
+					type: "item",
+					item: "mysticalagriculture:dragon_egg_seeds"
+				},
+				{
+					id: 976,
+					type: "item",
+					item: "mysticalagradditions:dragon_egg_crux"
+				},
+				{
+					id: 3362,
+					type: "item",
+					item: "minecraft:dragon_head"
+				}
+			],
+			rewards: [{
+				id: 3363,
+				type: "random",
+				table: 3
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;597],
+			id: 601,
+			tasks: [{
+				id: 602,
+				type: "item",
+				item: "mysticalagriculture:nether_star_essence",
+				count: 9L
+			}],
+			rewards: [
+				{
+					id: 3119,
+					type: "random",
+					table: 3
+				},
+				{
+					id: 3125,
+					type: "random",
+					table: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			dependencies: [I;599],
+			id: 603,
+			tasks: [{
+				id: 604,
+				type: "item",
+				item: "mysticalagriculture:dragon_egg_essence",
+				count: 9L
+			}],
+			rewards: [
+				{
+					id: 3116,
+					type: "random",
+					table: 3
+				},
+				{
+					id: 3117,
+					type: "random",
+					table: 4
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,233 @@
+
+[pipe]
+
+	[pipe.item]
+
+		[pipe.item.improved]
+			#The maximum amount of ticks that items can be in the pipe. Lower is faster.
+			#Range: > 0
+			maxTicks = 20
+
+		[pipe.item.advanced]
+			#The maximum amount of ticks that items can be in the pipe. Lower is faster.
+			#Range: > 0
+			maxTicks = 10
+
+		[pipe.item.basic]
+			#The maximum amount of ticks that items can be in the pipe. Lower is faster.
+			#Range: > 0
+			maxTicks = 30
+
+	[pipe.attachment]
+
+		[pipe.attachment.extractor]
+
+			[pipe.attachment.extractor.improved]
+				#The interval between fluid extractions in ticks. Lower is faster.
+				#Range: > 0
+				fluidTickInterval = 0
+				#The amount of filter slots allowed.
+				#Range: 0 ~ 15
+				filterSlots = 4
+				#Whether the redstone mode can be configured for this extractor.
+				canSetRedstoneMode = true
+				#Whether the extractor can be toggled between routing modes.
+				canSetRoutingMode = false
+				#The interval between item extractions in ticks. Lower is faster.
+				#Range: > 0
+				itemTickInterval = 40
+				#The amount of items to extract per extraction.
+				#Range: 0 ~ 64
+				itemsToExtract = 16
+				#Whether the extractor can be toggled between whitelist and blacklist.
+				canSetWhitelistBlacklist = false
+				#Whether the extractor can toggle exact mode.
+				canSetExactMode = true
+				#The amount of fluids in mB to extract per extraction.
+				#Range: > 0
+				fluidsToExtract = 400
+
+			[pipe.attachment.extractor.elite]
+				#The interval between fluid extractions in ticks. Lower is faster.
+				#Range: > 0
+				fluidTickInterval = 0
+				#The amount of filter slots allowed.
+				#Range: 0 ~ 15
+				filterSlots = 12
+				#Whether the redstone mode can be configured for this extractor.
+				canSetRedstoneMode = true
+				#Whether the extractor can be toggled between routing modes.
+				canSetRoutingMode = true
+				#The interval between item extractions in ticks. Lower is faster.
+				#Range: > 0
+				itemTickInterval = 10
+				#The amount of items to extract per extraction.
+				#Range: 0 ~ 64
+				itemsToExtract = 64
+				#Whether the extractor can be toggled between whitelist and blacklist.
+				canSetWhitelistBlacklist = true
+				#Whether the extractor can toggle exact mode.
+				canSetExactMode = true
+				#The amount of fluids in mB to extract per extraction.
+				#Range: > 0
+				fluidsToExtract = 1600
+
+			[pipe.attachment.extractor.advanced]
+				#The interval between fluid extractions in ticks. Lower is faster.
+				#Range: > 0
+				fluidTickInterval = 0
+				#The amount of filter slots allowed.
+				#Range: 0 ~ 15
+				filterSlots = 8
+				#Whether the redstone mode can be configured for this extractor.
+				canSetRedstoneMode = true
+				#Whether the extractor can be toggled between routing modes.
+				canSetRoutingMode = true
+				#The interval between item extractions in ticks. Lower is faster.
+				#Range: > 0
+				itemTickInterval = 20
+				#The amount of items to extract per extraction.
+				#Range: 0 ~ 64
+				itemsToExtract = 32
+				#Whether the extractor can be toggled between whitelist and blacklist.
+				canSetWhitelistBlacklist = true
+				#Whether the extractor can toggle exact mode.
+				canSetExactMode = true
+				#The amount of fluids in mB to extract per extraction.
+				#Range: > 0
+				fluidsToExtract = 800
+
+			[pipe.attachment.extractor.ultimate]
+				#The interval between fluid extractions in ticks. Lower is faster.
+				#Range: > 0
+				fluidTickInterval = 0
+				#The amount of filter slots allowed.
+				#Range: 0 ~ 15
+				filterSlots = 15
+				#Whether the redstone mode can be configured for this extractor.
+				canSetRedstoneMode = true
+				#Whether the extractor can be toggled between routing modes.
+				canSetRoutingMode = true
+				#The interval between item extractions in ticks. Lower is faster.
+				#Range: > 0
+				itemTickInterval = 10
+				#The amount of items to extract per extraction.
+				#Range: 0 ~ 64
+				itemsToExtract = 64
+				#Whether the extractor can be toggled between whitelist and blacklist.
+				canSetWhitelistBlacklist = true
+				#Whether the extractor can toggle exact mode.
+				canSetExactMode = true
+				#The amount of fluids in mB to extract per extraction.
+				#Range: > 0
+				fluidsToExtract = 3200
+
+			[pipe.attachment.extractor.basic]
+				#The interval between fluid extractions in ticks. Lower is faster.
+				#Range: > 0
+				fluidTickInterval = 0
+				#The amount of filter slots allowed.
+				#Range: 0 ~ 15
+				filterSlots = 0
+				#Whether the redstone mode can be configured for this extractor.
+				canSetRedstoneMode = false
+				#Whether the extractor can be toggled between routing modes.
+				canSetRoutingMode = false
+				#The interval between item extractions in ticks. Lower is faster.
+				#Range: > 0
+				itemTickInterval = 60
+				#The amount of items to extract per extraction.
+				#Range: 0 ~ 64
+				itemsToExtract = 8
+				#Whether the extractor can be toggled between whitelist and blacklist.
+				canSetWhitelistBlacklist = false
+				#Whether the extractor can toggle exact mode.
+				canSetExactMode = false
+				#The amount of fluids in mB to extract per extraction.
+				#Range: > 0
+				fluidsToExtract = 100
+
+	[pipe.fluid]
+
+		[pipe.fluid.improved]
+			#The transfer rate in mB/t of the pipe.
+			#Range: > 0
+			transferRate = 400
+			#The capacity in mB of the pipe.
+			#Range: > 0
+			capacity = 4000
+
+		[pipe.fluid.elite]
+			#The transfer rate in mB/t of the pipe.
+			#Range: > 0
+			transferRate = 1600
+			#The capacity in mB of the pipe.
+			#Range: > 0
+			capacity = 16000
+
+		[pipe.fluid.advanced]
+			#The transfer rate in mB/t of the pipe.
+			#Range: > 0
+			transferRate = 800
+			#The capacity in mB of the pipe.
+			#Range: > 0
+			capacity = 8000
+
+		[pipe.fluid.ultimate]
+			#The transfer rate in mB/t of the pipe.
+			#Range: > 0
+			transferRate = 3200
+			#The capacity in mB of the pipe.
+			#Range: > 0
+			capacity = 32000
+
+		[pipe.fluid.basic]
+			#The transfer rate in mB/t of the pipe.
+			#Range: > 0
+			transferRate = 100
+			#The capacity in mB of the pipe.
+			#Range: > 0
+			capacity = 1000
+
+	[pipe.energy]
+
+		[pipe.energy.improved]
+			#The transfer rate in FE/t of the pipe.
+			#Range: > 0
+			transferRate = 4000
+			#The capacity in FE of the pipe.
+			#Range: > 0
+			capacity = 4000
+
+		[pipe.energy.elite]
+			#The transfer rate in FE/t of the pipe.
+			#Range: > 0
+			transferRate = 16000
+			#The capacity in FE of the pipe.
+			#Range: > 0
+			capacity = 16000
+
+		[pipe.energy.advanced]
+			#The transfer rate in FE/t of the pipe.
+			#Range: > 0
+			transferRate = 8000
+			#The capacity in FE of the pipe.
+			#Range: > 0
+			capacity = 8000
+
+		[pipe.energy.ultimate]
+			#The transfer rate in FE/t of the pipe.
+			#Range: > 0
+			transferRate = 32000
+			#The capacity in FE of the pipe.
+			#Range: > 0
+			capacity = 32000
+
+		[pipe.energy.basic]
+			#The transfer rate in FE/t of the pipe.
+			#Range: > 0
+			transferRate = 1000
+			#The capacity in FE of the pipe.
+			#Range: > 0
+			capacity = 1000
+

@@ -1,0 +1,32 @@
+{
+	id: 3370,
+	filename: "ice_and_fire",
+	order_index: 15,
+	title: "Ice and Fire",
+	icon: "iceandfire:dragon_skull_fire",
+	default_quest_shape: "",
+	quests: [{
+		disable_toast: true,
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		subtitle: "Welcome to Ice and Fire!",
+		description: ["&7Complete Quests to unlock new paths & &7earn some goodies."],
+		size: 2.0d,
+		id: 145,
+		tasks: [{
+			id: 146,
+			type: "advancement",
+			title: "Ice and Fire: Dragons",
+			icon: "iceandfire:dragon_skull_fire",
+			advancement: "iceandfire:iceandfire/root",
+			criterion: ""
+		}],
+		rewards: [{
+			id: 147,
+			type: "xp_levels",
+			auto: "invisible",
+			xp_levels: 1
+		}]
+	}]
+}

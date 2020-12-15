@@ -1,0 +1,18 @@
+
+#Common config settings
+[common]
+	#Places backpack at place where player died
+	backpackDeathPlace = true
+	#Range: > 250
+	tanksCapacity = 4000
+	#Enables button in backpack gui, which allows to empty tank
+	enableEmptyTankButton = true
+	toolSlotsAcceptSwords = true
+	disableCrafting = false
+	enableBackpackAbilities = true
+	enableSleepingBagSpawnPoint = false
+	#Enables wearing backpack directly from ground
+	enableBackpackBlockWearable = true
+	#Enables backpacks spawning in loot chests
+	enableLoot = true
+

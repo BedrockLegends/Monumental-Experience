@@ -1,0 +1,15 @@
+
+[gui]
+	#Internal use only! Keep this to false!
+	enableGuiDebug = false
+	#Enable navigation buttons sound when pressing it
+	enableButtonSound = true
+
+[OneProbe]
+	#Displays Advanced Info when sneaking only
+	enableOneProbeSneaking = true
+	#Displays: Network Name, Live Transfer Rate & Internal Buffer
+	enableOneProbeBasicInfo = true
+	#Displays: Transfer Limit & Priority etc
+	enableOneProbeAdvancedInfo = true
+

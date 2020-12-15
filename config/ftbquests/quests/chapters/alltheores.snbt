@@ -1,0 +1,305 @@
+{
+	id: 2,
+	filename: "alltheores",
+	order_index: 2,
+	title: "All the Ores",
+	icon: "alltheores:ore_copper",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: -2.0d,
+			subtitle: "Spawn's between Y.25 and Y.1",
+			description: ["Nickel ore spawn's between Y.25 and Y.1"],
+			id: 17,
+			tasks: [{
+				id: 18,
+				type: "item",
+				item: "alltheores:ore_nickel"
+			}],
+			rewards: [{
+				id: 2562,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			subtitle: "Spawn's between Y.25 and Y.1",
+			id: 68,
+			tasks: [{
+				id: 69,
+				type: "item",
+				item: "alltheores:ore_platinum"
+			}],
+			rewards: [{
+				id: 2564,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -1.0d,
+			subtitle: "Spawn's between Y.60 and Y.30",
+			id: 72,
+			tasks: [{
+				id: 73,
+				type: "item",
+				item: "alltheores:ore_tin"
+			}],
+			rewards: [{
+				id: 2566,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			subtitle: "Spawn's between Y.60 and Y.30",
+			id: 76,
+			tasks: [{
+				id: 77,
+				type: "item",
+				item: "alltheores:ore_copper"
+			}],
+			rewards: [{
+				id: 2565,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			subtitle: "Spawn's between Y.40 and Y.20",
+			id: 96,
+			tasks: [{
+				id: 97,
+				type: "item",
+				item: "alltheores:ore_osmium"
+			}],
+			rewards: [{
+				id: 2567,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "Spawn's between Y.25 and Y.1",
+			id: 98,
+			tasks: [{
+				id: 99,
+				type: "item",
+				item: "alltheores:ore_silver"
+			}],
+			rewards: [{
+				id: 2569,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			subtitle: "Spawn's between Y.70 and Y.40",
+			id: 100,
+			tasks: [{
+				id: 101,
+				type: "item",
+				item: "alltheores:ore_aluminum"
+			}],
+			rewards: [{
+				id: 2570,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			subtitle: "Spawn's between Y.25 and Y.1",
+			id: 102,
+			tasks: [{
+				id: 103,
+				type: "item",
+				item: "alltheores:ore_uranium"
+			}],
+			rewards: [{
+				id: 2571,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			subtitle: "Spawn's between Y.60 and Y.30",
+			id: 104,
+			tasks: [{
+				id: 105,
+				type: "item",
+				item: "alltheores:ore_zinc"
+			}],
+			rewards: [{
+				id: 2572,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			subtitle: "Spawn's between Y.40 and Y.20",
+			id: 106,
+			tasks: [{
+				id: 107,
+				type: "item",
+				item: "alltheores:ore_lead"
+			}],
+			rewards: [{
+				id: 2574,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			subtitle: "Spawn's between Y.52 and Y.5",
+			id: 110,
+			tasks: [{
+				id: 111,
+				type: "item",
+				item: "minecraft:coal_ore"
+			}],
+			rewards: [{
+				id: 2575,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			subtitle: "Spawn's between Y.54 and Y.5",
+			id: 112,
+			tasks: [{
+				id: 113,
+				type: "item",
+				item: "minecraft:iron_ore"
+			}],
+			rewards: [{
+				id: 2545,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.0d,
+			subtitle: "Spawn's between Y.16 and Y.14",
+			id: 114,
+			tasks: [{
+				id: 115,
+				type: "item",
+				item: "minecraft:lapis_ore"
+			}],
+			rewards: [{
+				id: 2561,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -3.0d,
+			subtitle: "Spawn's between Y.29 and Y.5",
+			id: 116,
+			tasks: [{
+				id: 117,
+				type: "item",
+				item: "minecraft:gold_ore"
+			}],
+			rewards: [{
+				id: 2392,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Spawn's between Y.12 and Y.5",
+			id: 118,
+			tasks: [{
+				id: 119,
+				type: "item",
+				item: "minecraft:redstone_ore"
+			}],
+			rewards: [{
+				id: 2563,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "Spawn's between Y.12 and Y.5",
+			id: 120,
+			tasks: [{
+				id: 121,
+				type: "item",
+				item: "minecraft:diamond_ore"
+			}],
+			rewards: [{
+				id: 2568,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "Spawn's between Y.29 and Y.5",
+			id: 122,
+			tasks: [{
+				id: 123,
+				type: "item",
+				item: "minecraft:emerald_ore"
+			}],
+			rewards: [{
+				id: 2573,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -3.0d,
+			y: -5.5d,
+			id: 124,
+			tasks: [{
+				id: 125,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: 3.0d,
+			y: -5.5d,
+			id: 413,
+			tasks: [{
+				id: 414,
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}]
+		}
+	]
+}

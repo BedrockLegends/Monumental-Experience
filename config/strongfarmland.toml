@@ -1,0 +1,12 @@
+
+#If a farmland has moisture, the following entity types will be blocked from trampling it into dirt when the setting is false
+[strongfarmland]
+	#Do tamed horses trample farmland
+	horse = false
+	#Do iron golems trample farmland
+	golem = false
+	#Do tamed animals (cats, dogs, etc) trample farmland
+	tameable = false
+	#Do players trample farmland
+	player = false
+

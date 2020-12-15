@@ -1,0 +1,40 @@
+┏╸ma:panels
+┃┏╸ma:panel
+┃┃┏╸ma:default_base_color
+┃┃┃┏╸in:r
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┗╸
+┃┃┃┏╸in:g
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┗╸
+┃┃┃┏╸in:b
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┗╸
+┃┃┗╸
+┃┗╸
+┃┏╸ma:clear_panel
+┃┃┏╸ma:default_base_color
+┃┃┃┏╸in:r
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┗╸
+┃┃┃┏╸in:g
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┗╸
+┃┃┃┏╸in:b
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┗╸
+┃┃┗╸
+┃┗╸
+┗╸

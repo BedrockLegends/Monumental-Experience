@@ -1,0 +1,29 @@
+
+[minecraft]
+	replace_wolf = true
+	replace_sheep = true
+	replace_cat = true
+	replace_spider = true
+	replace_dolphin = true
+	replace_polarbear = true
+	replace_chicken = true
+	replace_mooshroom = true
+	replace_cow = true
+	replace_cavespider = true
+	replace_pig = true
+	replace_ocelot = true
+	replace_fox = true
+	replace_squid = true
+	replace_silverfish = true
+	replace_bee = true
+
+[quark_compat]
+	#enable overriding quark's override. Bee must be enabled as well. This will not have the LGBT bee textures, as there are too many for us to make right now.
+	enablequarkoverridebee = true
+	#enable overriding quark's override. Chicken must be enabled as well.
+	enablequarkoverridechicken = true
+	#enable overriding quark's override. Cow must be enabled as well.
+	enablequarkoverridecow = true
+	#enable overriding quark's override. Pig must be enabled as well.
+	enablequarkoverridepig = true
+

@@ -1,0 +1,12 @@
+#Whether to show particles or not when crouching to grow things
+showParticles = true
+#whether to enable the whitelist this does not disable the blacklist
+useWhiteList = false
+#growables to disable crouching on
+blacklist = ["minecraft:netherrack", "minecraft:grass_block", "minecraft:warped_nylium", "minecraft:crimson_nylium", "minecraft:tall_grass", "botanypots", "minecraft:grass", "mysticalagriculture", "mysticalagradditions", "botania"]
+#growables to enable crouching on (only works if 'useWhiteList' is true and will give exclisivity to those growables) 
+whitelist = []
+#the minimum number of crouches before the bonemeal is applied (bonemeal is applied randomly so this will not be exact)
+#Range: > 0
+minCrouchesToApplyBonemeal = 5
+

@@ -1,0 +1,26 @@
+
+[general]
+	#If -1, the default spawn weight will be used.
+	#Range: > -1
+	overrideWeight = -1
+	#Specifies rules for accepting or rejecting biomes.
+	#The rules are scanned one by one until a rule matches, This means the first rule to match takes precedence over any other subsequent rule, so more specific rules should go first.
+	#Rules:
+	#  "biome:name"    -- ALLOWS spawning in the given biome.
+	#  "!biome:name"   -- DISALLOWS spawning in the given biome.
+	#  "#biome_label"  -- ALLOWS spawning in the given biome dictionary label.
+	#  "!#biome_label" -- DISALLOWS spawning in the given biome dictionary label.
+	#  "!*"            -- DISALLOWS spawning unconditionally. Place this at the end of the list to disable spawning if no other rules pass (defaults to allow otherwise).
+	#Examples:
+	#  To disable spawning in the end: [ "!#END" ]
+	#  To disable spawning in the nether biome: [ "!minecraft:nether" ]
+	#  To disable spawning in forest areas, but allow them in dark fores: [ "minecraft:dark_forest", "!#FOREST" ]
+	#NOTE: VOID type biomes are disabled by default, internally. You can explicitly enable those by adding "#VOID" to the rules, but this is not recommended.
+	biomeRules = []
+	#Range: > 1
+	maximumPackSize = 2
+	#If false, the eyes entity will not spawn naturally during the night-
+	enableNaturalSpawn = true
+	#Range: > 1
+	minimumPackSize = 1
+

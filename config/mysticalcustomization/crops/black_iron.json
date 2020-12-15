@@ -1,0 +1,14 @@
+{
+  "name": "black_iron",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "color": "868686",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "extendedcrafting:black_iron_block"
+}

@@ -1,0 +1,445 @@
+{
+	id: 605,
+	filename: "mobkilling",
+	order_index: 21,
+	title: "Mob Killing",
+	icon: "minecraft:zombie_head",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 1.0d,
+			y: -1.0d,
+			dependencies: [I;931],
+			id: 929,
+			tasks: [{
+				id: 930,
+				type: "kill",
+				title: "Let's Kill a Nasty Blaze!!!!",
+				entity: "minecraft:blaze",
+				value: 30L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			id: 931,
+			tasks: [{
+				id: 932,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.5d,
+			dependencies: [I;931],
+			id: 935,
+			tasks: [{
+				id: 936,
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 30L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: [I;931],
+			id: 1003,
+			tasks: [{
+				id: 1004,
+				type: "kill",
+				title: "Let's Kill a Zombie Pigman!!!!",
+				entity: "minecraft:zombie_pigman",
+				value: 50L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			dependencies: [I;931],
+			id: 1009,
+			tasks: [{
+				id: 1010,
+				type: "kill",
+				title: "Let's Kill a Magma Slime",
+				entity: "minecraft:magma_cube",
+				value: 30L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 5.0d,
+			dependencies: [I;1349],
+			id: 1279,
+			tasks: [{
+				id: 1280,
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 30L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 4.0d,
+			dependencies: [I;1349],
+			id: 1285,
+			tasks: [{
+				id: 1286,
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 30L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 3.0d,
+			dependencies: [I;1349],
+			id: 1287,
+			tasks: [{
+				id: 1288,
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 30L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;1349],
+			id: 1289,
+			tasks: [{
+				id: 1290,
+				type: "kill",
+				entity: "minecraft:elder_guardian",
+				value: 15L
+			}]
+		},
+		{
+			icon: "minecraft:dragon_head",
+			x: -11.5d,
+			y: 0.0d,
+			dependencies: [I;1347],
+			id: 1291,
+			tasks: [{
+				id: 1292,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 5L
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -2.0d,
+			dependencies: [I;1347],
+			id: 1293,
+			tasks: [{
+				id: 1294,
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 30L
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -2.0d,
+			dependencies: [I;1347],
+			id: 1295,
+			tasks: [{
+				id: 1296,
+				type: "kill",
+				entity: "minecraft:endermite",
+				value: 15L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 2.0d,
+			dependencies: [I;1349],
+			id: 1297,
+			tasks: [{
+				id: 1298,
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 30L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.5d,
+			dependencies: [I;931],
+			id: 1301,
+			tasks: [{
+				id: 1302,
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 15L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 5.0d,
+			dependencies: [I;1349],
+			id: 1305,
+			tasks: [{
+				id: 1306,
+				type: "kill",
+				entity: "minecraft:guardian",
+				value: 30L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 3.0d,
+			dependencies: [I;1349],
+			id: 1307,
+			tasks: [{
+				id: 1308,
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 30L
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 0.0d,
+			dependencies: [I;1347],
+			id: 1315,
+			tasks: [{
+				id: 1316,
+				type: "kill",
+				entity: "minecraft:shulker",
+				value: 30L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 6.0d,
+			dependencies: [I;1349],
+			id: 1317,
+			tasks: [{
+				id: 1318,
+				type: "kill",
+				entity: "minecraft:silverfish",
+				value: 15L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 5.0d,
+			dependencies: [I;1349],
+			id: 1319,
+			tasks: [{
+				id: 1320,
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 30L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 3.0d,
+			dependencies: [I;1349],
+			id: 1321,
+			tasks: [{
+				id: 1322,
+				type: "kill",
+				entity: "minecraft:slime",
+				value: 30L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 3.0d,
+			dependencies: [I;1349],
+			id: 1323,
+			tasks: [{
+				id: 1324,
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 30L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 4.0d,
+			dependencies: [I;1349],
+			id: 1325,
+			tasks: [{
+				id: 1326,
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 30L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			dependencies: [I;1349],
+			id: 1327,
+			tasks: [{
+				id: 1328,
+				type: "kill",
+				entity: "minecraft:vex",
+				value: 15L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.0d,
+			dependencies: [I;1349],
+			id: 1329,
+			tasks: [{
+				id: 1330,
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 30L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 5.0d,
+			dependencies: [I;1349],
+			id: 1331,
+			tasks: [{
+				id: 1332,
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 30L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			dependencies: [I;1349],
+			id: 1333,
+			tasks: [{
+				id: 1334,
+				type: "kill",
+				entity: "minecraft:witch",
+				value: 30L
+			}]
+		},
+		{
+			icon: "minecraft:wither_skeleton_skull",
+			x: -1.0d,
+			y: -1.0d,
+			dependencies: [I;931],
+			id: 1335,
+			tasks: [{
+				id: 1336,
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 5L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 6.0d,
+			dependencies: [I;1349],
+			id: 1339,
+			tasks: [{
+				id: 1340,
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 30L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.0d,
+			dependencies: [I;1349],
+			id: 1341,
+			tasks: [{
+				id: 1342,
+				type: "kill",
+				entity: "minecraft:zombie_villager",
+				value: 30L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 3.0d,
+			dependencies: [I;1349],
+			id: 1343,
+			tasks: [{
+				id: 1344,
+				type: "kill",
+				entity: "minecraft:phantom",
+				value: 30L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 6.0d,
+			dependencies: [I;1349],
+			id: 1345,
+			tasks: [{
+				id: 1346,
+				type: "kill",
+				entity: "minecraft:ravager",
+				value: 15L
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -1.0d,
+			shape: "gear",
+			id: 1347,
+			tasks: [{
+				id: 1348,
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 4.0d,
+			shape: "gear",
+			id: 1349,
+			tasks: [{
+				id: 1350,
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 6.0d,
+			dependencies: [I;1349],
+			id: 3064,
+			tasks: [{
+				id: 3065,
+				type: "kill",
+				title: "Let's Kill a Nasty Skelly",
+				entity: "nasty:skeleton",
+				value: 30L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.0d,
+			dependencies: [I;1349],
+			id: 3066,
+			tasks: [{
+				id: 3067,
+				type: "kill",
+				entity: "froglins:froglin",
+				value: 30L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			id: 3068,
+			tasks: [{
+				id: 3069,
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 30L
+			}]
+		}
+	]
+}

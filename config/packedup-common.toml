@@ -1,0 +1,27 @@
+#Can backpacks be put inside other backpacks?
+allowBagInBag = true
+#How many layers deep can you place backpacks inside backpacks? -1 for infinite, 0 is the same as setting 'allowBagInBag' to false.
+#Range: -1 ~ 5
+maxBagInBagLayer = -1
+#How many rows does the basic backpack have?
+#Range: 1 ~ 13
+rowsBasic = 3
+#How many rows does the iron backpack have?
+#Range: 1 ~ 13
+rowsIron = 4
+#How many rows does the copper backpack have?
+#Range: 1 ~ 13
+rowsCopper = 4
+#How many rows does the silver backpack have?
+#Range: 1 ~ 13
+rowsSilver = 5
+#How many rows does the gold backpack have?
+#Range: 1 ~ 13
+rowsGold = 5
+#How many rows does the diamond backpack have?
+#Range: 1 ~ 13
+rowsDiamond = 7
+#How many rows does the obsidian backpack have?
+#Range: 1 ~ 13
+rowsObsidian = 8
+

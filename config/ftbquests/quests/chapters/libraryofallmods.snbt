@@ -1,0 +1,359 @@
+{
+	id: 2106,
+	filename: "libraryofallmods",
+	order_index: 18,
+	title: "Library of all mods",
+	icon: "minecraft:writable_book",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			size: 2.0d,
+			id: 2107,
+			tasks: [{
+				id: 2108,
+				type: "item",
+				title: "Book",
+				icon: "minecraft:book",
+				item: "minecraft:book"
+			}],
+			rewards: [{
+				id: 3185,
+				type: "random",
+				table: 4
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 2109,
+			tasks: [{
+				id: 2110,
+				type: "item",
+				item: "ftbquests:book"
+			}],
+			rewards: [{
+				id: 3182,
+				type: "random",
+				table: 11
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 2111,
+			tasks: [{
+				id: 2112,
+				type: "item",
+				item: "solcarrot:food_book"
+			}],
+			rewards: [{
+				id: 3063,
+				type: "random",
+				table: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			dependencies: [I;2107],
+			id: 2113,
+			tasks: [{
+				id: 2114,
+				type: "item",
+				title: "Novice Spell Book",
+				icon: "ars_nouveau:novice_spell_book",
+				item: "ars_nouveau:novice_spell_book"
+			}],
+			rewards: [{
+				id: 1966,
+				type: "random",
+				table: 3
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 2115,
+			tasks: [{
+				id: 2116,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "rftoolsbase:manual"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3183,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 2117,
+			tasks: [{
+				id: 2118,
+				type: "item",
+				item: "rftoolsbase:manual"
+			}],
+			rewards: [{
+				id: 3287,
+				type: "random",
+				table: 11
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			dependencies: [I;2107],
+			id: 2670,
+			tasks: [{
+				id: 2671,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3288,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 2672,
+			tasks: [{
+				id: 2673,
+				type: "item",
+				title: "Worn Notebook",
+				item: "ars_nouveau:worn_notebook"
+			}],
+			rewards: [{
+				id: 3180,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			dependencies: [I;2107],
+			id: 2676,
+			tasks: [{
+				id: 2677,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "extendedcrafting:guide"
+					}
+				}
+			}],
+			rewards: [{
+				id: 1957,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: [I;2107],
+			id: 2685,
+			tasks: [{
+				id: 2686,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3176,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.5d,
+			dependencies: [I;2107],
+			id: 2687,
+			tasks: [{
+				id: 2688,
+				type: "item",
+				item: "golems:info_book"
+			}],
+			rewards: [{
+				id: 3291,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.5d,
+			dependencies: [I;2107],
+			id: 2689,
+			tasks: [{
+				id: 2690,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3175,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -0.5d,
+			dependencies: [I;2107],
+			id: 2703,
+			tasks: [{
+				id: 2704,
+				type: "item",
+				item: "ars_nouveau:apprentice_spell_book"
+			}],
+			rewards: [{
+				id: 1967,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.5d,
+			dependencies: [I;2107],
+			id: 2705,
+			tasks: [{
+				id: 2706,
+				type: "item",
+				item: "ars_nouveau:archmage_spell_book"
+			}],
+			rewards: [
+				{
+					id: 1968,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 3179,
+					type: "random",
+					table: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 2707,
+			tasks: [{
+				id: 2708,
+				type: "item",
+				item: "immersiveengineering:manual"
+			}],
+			rewards: [{
+				id: 3181,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;2107],
+			id: 2709,
+			tasks: [{
+				id: 2710,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "woot:wootguide"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3178,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.5d,
+			dependencies: [I;2107],
+			id: 2711,
+			tasks: [{
+				id: 2712,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3177,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			dependencies: [I;2107],
+			id: 3113,
+			tasks: [{
+				id: 3115,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}],
+			rewards: [{
+				id: 3184,
+				type: "random",
+				table: 2
+			}]
+		}
+	]
+}
