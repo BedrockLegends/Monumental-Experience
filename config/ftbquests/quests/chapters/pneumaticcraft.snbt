@@ -1,7 +1,7 @@
 {
 	id: 2700,
 	filename: "pneumaticcraft",
-	order_index: 29,
+	order_index: 30,
 	title: "Pneumaticcraft",
 	icon: {
 		id: "patchouli:guide_book",

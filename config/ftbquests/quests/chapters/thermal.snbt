@@ -1,7 +1,7 @@
 {
 	id: 2807,
 	filename: "thermal",
-	order_index: 38,
+	order_index: 40,
 	title: "Thermal",
 	icon: "thermal:signalum_glass",
 	default_quest_shape: "",

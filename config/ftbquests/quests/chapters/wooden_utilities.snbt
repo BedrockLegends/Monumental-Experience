@@ -1,7 +1,7 @@
 {
 	id: 2713,
 	filename: "wooden_utilities",
-	order_index: 40,
+	order_index: 42,
 	title: "Wooden Utilities",
 	icon: "woodenutilities:wooden_plate",
 	default_quest_shape: "",
@@ -33,7 +33,7 @@
 			rewards: [{
 				id: 3008,
 				type: "random",
-				table: 2
+				table: 43
 			}]
 		},
 		{
@@ -49,7 +49,7 @@
 			rewards: [{
 				id: 3058,
 				type: "random",
-				table: 2
+				table: 57
 			}]
 		},
 		{
@@ -106,7 +106,7 @@
 			rewards: [{
 				id: 3009,
 				type: "random",
-				table: 2
+				table: 12
 			}]
 		},
 		{
@@ -122,7 +122,7 @@
 			rewards: [{
 				id: 3054,
 				type: "random",
-				table: 2
+				table: 98
 			}]
 		},
 		{
@@ -138,7 +138,7 @@
 			rewards: [{
 				id: 3011,
 				type: "random",
-				table: 2
+				table: 74
 			}]
 		},
 		{
@@ -154,7 +154,7 @@
 			rewards: [{
 				id: 3010,
 				type: "random",
-				table: 2
+				table: 30
 			}]
 		},
 		{
@@ -170,7 +170,7 @@
 			rewards: [{
 				id: 3053,
 				type: "random",
-				table: 2
+				table: 33
 			}]
 		},
 		{
@@ -186,7 +186,7 @@
 			rewards: [{
 				id: 3059,
 				type: "random",
-				table: 2
+				table: 70
 			}]
 		},
 		{
@@ -202,7 +202,7 @@
 			rewards: [{
 				id: 3056,
 				type: "random",
-				table: 2
+				table: 97
 			}]
 		},
 		{
@@ -218,7 +218,7 @@
 			rewards: [{
 				id: 3055,
 				type: "random",
-				table: 2
+				table: 64
 			}]
 		},
 		{
@@ -234,7 +234,7 @@
 			rewards: [{
 				id: 3057,
 				type: "random",
-				table: 2
+				table: 10
 			}]
 		}
 	]

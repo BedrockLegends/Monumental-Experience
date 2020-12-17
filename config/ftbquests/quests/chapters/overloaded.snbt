@@ -1,7 +1,7 @@
 {
 	id: 1361,
 	filename: "overloaded",
-	order_index: 28,
+	order_index: 29,
 	title: "Overloaded",
 	icon: "overloaded:almost_infinite_barrel",
 	default_quest_shape: "",
@@ -16,6 +16,11 @@
 				id: 1397,
 				type: "item",
 				item: "overloaded:item_core"
+			}],
+			rewards: [{
+				id: 4149,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -27,6 +32,11 @@
 				id: 1445,
 				type: "item",
 				item: "overloaded:almost_infinite_barrel"
+			}],
+			rewards: [{
+				id: 4153,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -39,6 +49,11 @@
 				id: 1485,
 				type: "item",
 				item: "overloaded:energy_core"
+			}],
+			rewards: [{
+				id: 4146,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -54,6 +69,11 @@
 					Count: true,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: 4152,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -98,7 +118,12 @@
 						tag: {}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: 4147,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: -8.0d,
@@ -109,6 +134,11 @@
 				id: 1572,
 				type: "item",
 				item: "overloaded:almost_infinite_capacitor"
+			}],
+			rewards: [{
+				id: 4150,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -120,6 +150,11 @@
 				id: 1574,
 				type: "item",
 				item: "overloaded:true_infinite_capacitor"
+			}],
+			rewards: [{
+				id: 4151,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -131,6 +166,11 @@
 				id: 1576,
 				type: "item",
 				item: "overloaded:true_infinite_barrel"
+			}],
+			rewards: [{
+				id: 4157,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -146,6 +186,11 @@
 					Count: true,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: 4148,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -158,6 +203,11 @@
 				id: 1580,
 				type: "item",
 				item: "overloaded:fluid_core"
+			}],
+			rewards: [{
+				id: 4154,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -169,6 +219,11 @@
 				id: 1582,
 				type: "item",
 				item: "overloaded:almost_infinite_tank"
+			}],
+			rewards: [{
+				id: 4155,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -180,6 +235,11 @@
 				id: 1584,
 				type: "item",
 				item: "overloaded:true_infinite_tank"
+			}],
+			rewards: [{
+				id: 4156,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

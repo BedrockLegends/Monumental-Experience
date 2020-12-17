@@ -1,7 +1,7 @@
 {
 	id: 1011,
 	filename: "mekanism",
-	order_index: 19,
+	order_index: 20,
 	title: "Mekanism",
 	icon: "mekanism:robit",
 	default_quest_shape: "",

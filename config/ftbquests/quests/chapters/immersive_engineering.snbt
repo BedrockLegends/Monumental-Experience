@@ -16,6 +16,11 @@
 				id: 2699,
 				type: "item",
 				item: "immersiveengineering:manual"
+			}],
+			rewards: [{
+				id: 4048,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -33,6 +38,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4049,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -46,6 +56,11 @@
 				type: "item",
 				item: "immersiveengineering:blastbrick",
 				count: 27L
+			}],
+			rewards: [{
+				id: 4052,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -59,6 +74,11 @@
 				type: "item",
 				item: "immersiveengineering:cokebrick",
 				count: 27L
+			}],
+			rewards: [{
+				id: 4051,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -79,7 +99,12 @@
 					type: "item",
 					item: "minecraft:hopper"
 				}
-			]
+			],
+			rewards: [{
+				id: 4053,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "silo",
@@ -100,7 +125,12 @@
 					item: "immersiveengineering:sheetmetal_iron",
 					count: 50L
 				}
-			]
+			],
+			rewards: [{
+				id: 4045,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "tank",
@@ -121,7 +151,12 @@
 					item: "immersiveengineering:sheetmetal_iron",
 					count: 34L
 				}
-			]
+			],
+			rewards: [{
+				id: 4044,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Diesel Generator",
@@ -165,7 +200,12 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 5L
 				}
-			]
+			],
+			rewards: [{
+				id: 4043,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "lightning rod",
@@ -210,7 +250,12 @@
 					item: "immersiveengineering:capacitor_hv",
 					count: 4L
 				}
-			]
+			],
+			rewards: [{
+				id: 4042,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "metal press",
@@ -246,7 +291,12 @@
 					item: "immersiveengineering:conveyor_basic",
 					count: 2L
 				}
-			]
+			],
+			rewards: [{
+				id: 4041,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Crusher",
@@ -284,7 +334,12 @@
 					item: "minecraft:hopper",
 					count: 9L
 				}
-			]
+			],
+			rewards: [{
+				id: 4040,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Sawmill",
@@ -328,7 +383,12 @@
 					item: "immersiveengineering:conveyor_basic",
 					count: 4L
 				}
-			]
+			],
+			rewards: [{
+				id: 4039,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "assembler",
@@ -373,7 +433,12 @@
 					item: "immersiveengineering:conveyor_basic",
 					count: 2L
 				}
-			]
+			],
+			rewards: [{
+				id: 4038,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "fermenter",
@@ -417,7 +482,12 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 2L
 				}
-			]
+			],
+			rewards: [{
+				id: 4037,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "squeezer",
@@ -751,6 +821,11 @@
 				id: 2394,
 				type: "item",
 				item: "immersivepetroleum:projector"
+			}],
+			rewards: [{
+				id: 4050,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -807,7 +882,12 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 4L
 				}
-			]
+			],
+			rewards: [{
+				id: 4046,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Distillation Tower",
@@ -851,7 +931,12 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 17L
 				}
-			]
+			],
+			rewards: [{
+				id: 4047,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		}
 	]
 }

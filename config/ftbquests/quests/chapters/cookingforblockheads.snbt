@@ -30,9 +30,9 @@
 				}
 			],
 			rewards: [{
-				id: 3147,
-				type: "random",
-				table: 11
+				id: 3983,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -47,9 +47,9 @@
 				count: 8L
 			}],
 			rewards: [{
-				id: 3158,
-				type: "random",
-				table: 11
+				id: 3992,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -64,9 +64,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3156,
-				type: "random",
-				table: 11
+				id: 3993,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -81,9 +81,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3162,
-				type: "random",
-				table: 11
+				id: 3987,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -98,9 +98,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3151,
-				type: "random",
-				table: 11
+				id: 3998,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -115,9 +115,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3154,
-				type: "random",
-				table: 11
+				id: 3995,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -132,9 +132,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3164,
-				type: "random",
-				table: 11
+				id: 3989,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -149,9 +149,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3163,
-				type: "random",
-				table: 11
+				id: 3988,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -166,9 +166,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3153,
-				type: "random",
-				table: 11
+				id: 3996,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -183,9 +183,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3160,
-				type: "random",
-				table: 11
+				id: 3985,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -200,9 +200,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3155,
-				type: "random",
-				table: 11
+				id: 3994,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -217,9 +217,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3152,
-				type: "random",
-				table: 11
+				id: 3997,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -234,9 +234,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3161,
-				type: "random",
-				table: 11
+				id: 3986,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -251,9 +251,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3157,
-				type: "random",
-				table: 11
+				id: 3991,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -268,9 +268,9 @@
 				count: 4L
 			}],
 			rewards: [{
-				id: 3165,
-				type: "random",
-				table: 11
+				id: 3990,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -284,9 +284,9 @@
 				item: "cookingforblockheads:fruit_basket"
 			}],
 			rewards: [{
-				id: 3150,
-				type: "random",
-				table: 11
+				id: 3999,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -327,9 +327,9 @@
 				}
 			],
 			rewards: [{
-				id: 3148,
-				type: "random",
-				table: 11
+				id: 3979,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -350,9 +350,9 @@
 				}
 			],
 			rewards: [{
-				id: 3159,
-				type: "random",
-				table: 11
+				id: 3984,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -378,9 +378,9 @@
 				}
 			],
 			rewards: [{
-				id: 3166,
-				type: "random",
-				table: 11
+				id: 3982,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -401,9 +401,9 @@
 				}
 			],
 			rewards: [{
-				id: 3149,
-				type: "random",
-				table: 11
+				id: 3980,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -429,9 +429,9 @@
 				}
 			],
 			rewards: [{
-				id: 3167,
-				type: "random",
-				table: 11
+				id: 3981,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

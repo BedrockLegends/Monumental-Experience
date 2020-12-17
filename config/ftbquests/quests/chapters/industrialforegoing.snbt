@@ -16,6 +16,11 @@
 				id: 615,
 				type: "item",
 				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [{
+				id: 4054,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -28,6 +33,11 @@
 				id: 617,
 				type: "item",
 				item: "industrialforegoing:animal_rancher"
+			}],
+			rewards: [{
+				id: 4062,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -40,6 +50,11 @@
 				id: 619,
 				type: "item",
 				item: "industrialforegoing:animal_feeder"
+			}],
+			rewards: [{
+				id: 4060,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -52,6 +67,11 @@
 				id: 621,
 				type: "item",
 				item: "industrialforegoing:animal_baby_separator"
+			}],
+			rewards: [{
+				id: 4058,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -64,6 +84,11 @@
 				id: 625,
 				type: "item",
 				item: "industrialforegoing:sewer"
+			}],
+			rewards: [{
+				id: 4059,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -76,6 +101,11 @@
 				id: 627,
 				type: "item",
 				item: "industrialforegoing:sewage_composter"
+			}],
+			rewards: [{
+				id: 4061,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -88,6 +118,11 @@
 				id: 629,
 				type: "item",
 				item: "industrialforegoing:plant_sower"
+			}],
+			rewards: [{
+				id: 4055,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -100,6 +135,11 @@
 				id: 631,
 				type: "item",
 				item: "industrialforegoing:plant_fertilizer"
+			}],
+			rewards: [{
+				id: 4056,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -112,6 +152,11 @@
 				id: 635,
 				type: "item",
 				item: "industrialforegoing:plant_gatherer"
+			}],
+			rewards: [{
+				id: 4057,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -124,6 +169,11 @@
 				id: 645,
 				type: "item",
 				item: "industrialforegoing:mob_slaughter_factory"
+			}],
+			rewards: [{
+				id: 4069,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -136,6 +186,11 @@
 				id: 647,
 				type: "item",
 				item: "industrialforegoing:meat_feeder"
+			}],
+			rewards: [{
+				id: 4070,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -148,6 +203,11 @@
 				id: 649,
 				type: "item",
 				item: "industrialforegoing:biofuel_generator"
+			}],
+			rewards: [{
+				id: 4067,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -160,6 +220,11 @@
 				id: 653,
 				type: "item",
 				item: "industrialforegoing:bioreactor"
+			}],
+			rewards: [{
+				id: 4066,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -172,6 +237,11 @@
 				id: 655,
 				type: "item",
 				item: "industrialforegoing:water_condensator"
+			}],
+			rewards: [{
+				id: 4071,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -184,6 +254,11 @@
 				id: 657,
 				type: "item",
 				item: "industrialforegoing:spores_recreator"
+			}],
+			rewards: [{
+				id: 4068,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -196,6 +271,11 @@
 				id: 661,
 				type: "item",
 				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: 4064,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -209,6 +289,11 @@
 				type: "item",
 				item: "industrialforegoing:fluid_extractor",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4063,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -222,6 +307,11 @@
 				type: "item",
 				item: "industrialforegoing:plastic",
 				count: 64L
+			}],
+			rewards: [{
+				id: 4065,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

@@ -30,6 +30,8 @@
 	EnableHarvester = true
 	#Enables/Disables Tree Farm [false/true|default:true]
 	EnableTreeFarm = true
+	#Enables/Disables Super Pickaxe [false/true|default:true]
+	EnablePickaxe = true
 
 [Tree_Farm]
 	#Fake player name, default: [rr_fakeplayer2]

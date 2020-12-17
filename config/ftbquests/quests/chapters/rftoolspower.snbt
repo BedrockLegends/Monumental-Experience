@@ -1,7 +1,7 @@
 {
 	id: 2252,
 	filename: "rftoolspower",
-	order_index: 33,
+	order_index: 34,
 	title: "Rftools Power",
 	icon: "rftoolspower:power_core1",
 	default_quest_shape: "",

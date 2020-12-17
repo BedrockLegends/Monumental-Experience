@@ -1,0 +1,535 @@
+{
+	id: 3801,
+	filename: "solar_flux_reborn",
+	order_index: 38,
+	title: "Solar Flux Reborn",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 3802,
+			tasks: [{
+				id: 3803,
+				type: "item",
+				item: "solarflux:mirror"
+			}],
+			rewards: [
+				{
+					id: 3806,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3807,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3802],
+			id: 3804,
+			tasks: [{
+				id: 3805,
+				type: "item",
+				item: "solarflux:photovoltaic_cell_1"
+			}],
+			rewards: [
+				{
+					id: 3808,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3809,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3804],
+			id: 3810,
+			tasks: [{
+				id: 3811,
+				type: "item",
+				item: "solarflux:photovoltaic_cell_2"
+			}],
+			rewards: [
+				{
+					id: 3812,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3813,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3802],
+			id: 3814,
+			tasks: [{
+				id: 3815,
+				type: "item",
+				item: "solarflux:sp_1"
+			}],
+			rewards: [
+				{
+					id: 3816,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3817,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3814],
+			id: 3818,
+			tasks: [{
+				id: 3819,
+				type: "item",
+				item: "solarflux:sp_2"
+			}],
+			rewards: [
+				{
+					id: 3820,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3821,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3818],
+			id: 3822,
+			tasks: [{
+				id: 3823,
+				type: "item",
+				item: "solarflux:sp_3"
+			}],
+			rewards: [
+				{
+					id: 3824,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3825,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3810],
+			id: 3826,
+			tasks: [{
+				id: 3827,
+				type: "item",
+				item: "solarflux:photovoltaic_cell_3"
+			}],
+			rewards: [
+				{
+					id: 3828,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3829,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3826],
+			id: 3830,
+			tasks: [{
+				id: 3831,
+				type: "item",
+				item: "solarflux:photovoltaic_cell_4"
+			}],
+			rewards: [
+				{
+					id: 3832,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3833,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3822],
+			id: 3834,
+			tasks: [{
+				id: 3835,
+				type: "item",
+				item: "solarflux:sp_4"
+			}],
+			rewards: [
+				{
+					id: 3850,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3851,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3830],
+			id: 3836,
+			tasks: [{
+				id: 3837,
+				type: "item",
+				item: "solarflux:photovoltaic_cell_5"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3836],
+			id: 3838,
+			tasks: [{
+				id: 3839,
+				type: "item",
+				item: "solarflux:photovoltaic_cell_6"
+			}],
+			rewards: [
+				{
+					id: 3840,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3841,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3834],
+			id: 3842,
+			tasks: [{
+				id: 3843,
+				type: "item",
+				item: "solarflux:sp_5"
+			}],
+			rewards: [
+				{
+					id: 3844,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3845,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			dependencies: [I;3842],
+			id: 3846,
+			tasks: [{
+				id: 3847,
+				type: "item",
+				item: "solarflux:sp_6"
+			}],
+			rewards: [
+				{
+					id: 3848,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3849,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 2.0d,
+			dependencies: [I;3846],
+			id: 3854,
+			tasks: [{
+				id: 3855,
+				type: "item",
+				item: "solarflux:sp_7"
+			}],
+			rewards: [
+				{
+					id: 3856,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3857,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: 2.0d,
+			dependencies: [I;3854],
+			id: 3858,
+			tasks: [{
+				id: 3859,
+				type: "item",
+				item: "solarflux:sp_8"
+			}],
+			rewards: [
+				{
+					id: 3860,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3861,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: 0.0d,
+			id: 3862,
+			tasks: [{
+				id: 3863,
+				type: "item",
+				item: "solarflux:blank_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3868,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3869,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: 4.0d,
+			dependencies: [I;3862],
+			id: 3864,
+			tasks: [{
+				id: 3865,
+				type: "item",
+				item: "solarflux:efficiency_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3866,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3867,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: 0.0d,
+			dependencies: [I;3862],
+			id: 3870,
+			tasks: [{
+				id: 3871,
+				type: "item",
+				item: "solarflux:transfer_rate_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3874,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3875,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 21.0d,
+			y: 0.0d,
+			dependencies: [I;3862],
+			id: 3872,
+			tasks: [{
+				id: 3873,
+				type: "item",
+				item: "solarflux:capacity_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3876,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3877,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: -4.0d,
+			dependencies: [I;3862],
+			id: 3878,
+			tasks: [{
+				id: 3880,
+				type: "item",
+				item: "solarflux:traversal_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3881,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3882,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: -4.0d,
+			dependencies: [I;3862],
+			id: 3883,
+			tasks: [{
+				id: 3884,
+				type: "item",
+				item: "solarflux:dispersive_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3889,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3890,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 21.0d,
+			y: -4.0d,
+			dependencies: [I;3862],
+			id: 3885,
+			tasks: [{
+				id: 3886,
+				type: "item",
+				item: "solarflux:block_charging_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3887,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3888,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: 4.0d,
+			dependencies: [I;3862],
+			id: 3891,
+			tasks: [{
+				id: 3892,
+				type: "item",
+				item: "solarflux:furnace_upgrade"
+			}],
+			rewards: [
+				{
+					id: 3893,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3894,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

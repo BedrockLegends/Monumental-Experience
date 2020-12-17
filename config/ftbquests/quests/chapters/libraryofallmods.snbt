@@ -1,7 +1,7 @@
 {
 	id: 2106,
 	filename: "libraryofallmods",
-	order_index: 18,
+	order_index: 19,
 	title: "Library of all mods",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",
@@ -20,9 +20,9 @@
 				item: "minecraft:book"
 			}],
 			rewards: [{
-				id: 3185,
-				type: "random",
-				table: 4
+				id: 4077,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -36,9 +36,9 @@
 				item: "ftbquests:book"
 			}],
 			rewards: [{
-				id: 3182,
-				type: "random",
-				table: 11
+				id: 4087,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -52,9 +52,9 @@
 				item: "solcarrot:food_book"
 			}],
 			rewards: [{
-				id: 3063,
-				type: "random",
-				table: 4
+				id: 4084,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -70,9 +70,9 @@
 				item: "ars_nouveau:novice_spell_book"
 			}],
 			rewards: [{
-				id: 1966,
-				type: "random",
-				table: 3
+				id: 4083,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -92,9 +92,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3183,
-				type: "random",
-				table: 2
+				id: 4088,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -108,9 +108,9 @@
 				item: "rftoolsbase:manual"
 			}],
 			rewards: [{
-				id: 3287,
-				type: "random",
-				table: 11
+				id: 4072,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -130,9 +130,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3288,
-				type: "random",
-				table: 2
+				id: 4073,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -147,9 +147,9 @@
 				item: "ars_nouveau:worn_notebook"
 			}],
 			rewards: [{
-				id: 3180,
-				type: "random",
-				table: 2
+				id: 4085,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -169,9 +169,9 @@
 				}
 			}],
 			rewards: [{
-				id: 1957,
-				type: "random",
-				table: 1
+				id: 4074,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -191,9 +191,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3176,
-				type: "random",
-				table: 2
+				id: 4078,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -207,9 +207,9 @@
 				item: "golems:info_book"
 			}],
 			rewards: [{
-				id: 3291,
-				type: "random",
-				table: 2
+				id: 4075,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -229,9 +229,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3175,
-				type: "random",
-				table: 2
+				id: 4076,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -245,9 +245,9 @@
 				item: "ars_nouveau:apprentice_spell_book"
 			}],
 			rewards: [{
-				id: 1967,
-				type: "random",
-				table: 2
+				id: 4082,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -260,18 +260,11 @@
 				type: "item",
 				item: "ars_nouveau:archmage_spell_book"
 			}],
-			rewards: [
-				{
-					id: 1968,
-					type: "random",
-					table: 0
-				},
-				{
-					id: 3179,
-					type: "random",
-					table: 2
-				}
-			]
+			rewards: [{
+				id: 4081,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 1.0d,
@@ -284,9 +277,9 @@
 				item: "immersiveengineering:manual"
 			}],
 			rewards: [{
-				id: 3181,
-				type: "random",
-				table: 2
+				id: 4086,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -306,9 +299,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3178,
-				type: "random",
-				table: 2
+				id: 4080,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -328,9 +321,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3177,
-				type: "random",
-				table: 2
+				id: 4079,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -350,9 +343,9 @@
 				}
 			}],
 			rewards: [{
-				id: 3184,
-				type: "random",
-				table: 2
+				id: 4089,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

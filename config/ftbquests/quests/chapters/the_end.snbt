@@ -1,7 +1,7 @@
 {
 	id: 2987,
 	filename: "the_end",
-	order_index: 39,
+	order_index: 41,
 	title: "The End",
 	icon: "minecraft:end_portal_frame",
 	default_quest_shape: "",
@@ -16,7 +16,19 @@
 				id: 2989,
 				type: "item",
 				item: "minecraft:dragon_head"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4186,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4187,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.0d,
@@ -28,7 +40,19 @@
 				type: "item",
 				item: "minecraft:end_stone",
 				count: 32L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4188,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4189,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 10.0d,
@@ -40,7 +64,19 @@
 				type: "item",
 				item: "minecraft:end_stone_bricks",
 				count: 32L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4190,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4191,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 2.0d,
@@ -52,7 +88,19 @@
 				type: "item",
 				item: "minecraft:ender_pearl",
 				count: 16L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4194,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4195,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.0d,
@@ -63,7 +111,19 @@
 				id: 2997,
 				type: "item",
 				item: "minecraft:shulker_box"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4198,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4199,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.0d,
@@ -74,18 +134,43 @@
 				id: 2999,
 				type: "item",
 				item: "minecraft:shulker_shell"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4196,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4197,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 2.0d,
 			y: 5.5d,
+			shape: "gear",
 			dependencies: [I;2988],
 			id: 3000,
 			tasks: [{
 				id: 3001,
 				type: "item",
 				item: "minecraft:end_crystal"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4182,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4183,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.0d,
@@ -97,7 +182,19 @@
 				type: "item",
 				item: "minecraft:dragon_breath",
 				count: 2L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4184,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4185,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 10.0d,
@@ -108,7 +205,19 @@
 				id: 3005,
 				type: "item",
 				item: "minecraft:purpur_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4200,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4201,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
@@ -119,7 +228,19 @@
 				type: "item",
 				item: "minecraft:ender_eye",
 				count: 16L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4192,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4193,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

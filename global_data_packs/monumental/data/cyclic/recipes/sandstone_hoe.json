@@ -12,9 +12,9 @@
         "J": {
             "tag": "forge:sandstone"
         },
-    "K": {
-      "item": "minecraft:wooden_hoe"
-    }
+        "K": {
+            "item": "minecraft:wooden_hoe"
+        }
     },
     "result": {
         "item": "cyclic:sandstone_hoe"

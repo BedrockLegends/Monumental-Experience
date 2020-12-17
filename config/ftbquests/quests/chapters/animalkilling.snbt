@@ -38,11 +38,18 @@
 				entity: "minecraft:pig",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3127,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3510,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3511,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 3.0d,
@@ -57,11 +64,18 @@
 				entity: "minecraft:chicken",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3138,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3532,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3533,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -9.5d,
@@ -75,11 +89,18 @@
 				entity: "minecraft:cow",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3128,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3512,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3513,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -6.5d,
@@ -93,11 +114,18 @@
 				entity: "minecraft:donkey",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3131,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3518,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3519,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 9.5d,
@@ -111,11 +139,18 @@
 				entity: "minecraft:dolphin",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3144,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3544,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3545,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -4.5d,
@@ -129,11 +164,18 @@
 				entity: "minecraft:fox",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3133,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3522,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3523,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -147,11 +189,18 @@
 				entity: "minecraft:horse",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3134,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3524,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3525,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 7.0d,
@@ -165,11 +214,18 @@
 				entity: "minecraft:llama",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3146,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3548,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3549,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 8.5d,
@@ -183,11 +239,18 @@
 				entity: "minecraft:mooshroom",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3143,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3542,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3543,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 8.5d,
@@ -201,11 +264,18 @@
 				entity: "minecraft:turtle",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3145,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3546,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3547,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -6.5d,
@@ -219,11 +289,18 @@
 				entity: "minecraft:squid",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3126,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3508,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3509,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 1.5d,
@@ -237,11 +314,18 @@
 				entity: "minecraft:mule",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3137,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3530,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3531,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.5d,
@@ -255,11 +339,18 @@
 				entity: "minecraft:parrot",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3139,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3534,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3535,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			title: "Time To Kill Some 20 Bats",
@@ -275,11 +366,18 @@
 				entity: "minecraft:bat",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3129,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3514,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3515,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -7.5d,
@@ -293,11 +391,18 @@
 				entity: "minecraft:bee",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3130,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3516,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3517,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -1.5d,
@@ -311,11 +416,18 @@
 				entity: "minecraft:cat",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3135,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3526,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3527,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
@@ -329,11 +441,18 @@
 				entity: "minecraft:panda",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3136,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3528,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3529,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.5d,
@@ -347,11 +466,18 @@
 				entity: "minecraft:polar_bear",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3141,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3538,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3539,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 7.5d,
@@ -365,11 +491,18 @@
 				entity: "minecraft:rabbit",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3142,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3540,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3541,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 5.5d,
@@ -383,11 +516,18 @@
 				entity: "minecraft:sheep",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3140,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3536,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3537,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -5.5d,
@@ -401,11 +541,18 @@
 				entity: "minecraft:witch",
 				value: 20L
 			}],
-			rewards: [{
-				id: 3132,
-				type: "random",
-				table: 2
-			}]
+			rewards: [
+				{
+					id: 3520,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3521,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

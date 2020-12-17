@@ -26,7 +26,19 @@
 						"patchouli:book": "bloodmagic:guide"
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3947,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3948,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 9.0d,
@@ -37,7 +49,19 @@
 				type: "item",
 				item: "bloodmagic:soulsnare",
 				count: 4L
-			}]
+			}],
+			rewards: [
+				{
+					id: 3953,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3954,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 9.0d,
@@ -54,7 +78,19 @@
 						souls: 5.0d
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3955,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3956,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -64,7 +100,19 @@
 				id: 3020,
 				type: "item",
 				item: "bloodmagic:soulforge"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3945,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3946,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -75,7 +123,19 @@
 				id: 3022,
 				type: "item",
 				item: "bloodmagic:altar"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3957,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3958,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -89,7 +149,19 @@
 					Count: true,
 					tag: {}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3951,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3952,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -104,7 +176,19 @@
 				type: "item",
 				item: "bloodmagic:blankslate",
 				count: 8L
-			}]
+			}],
+			rewards: [
+				{
+					id: 3959,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3960,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 15.5d,
@@ -116,7 +200,19 @@
 				type: "item",
 				item: "bloodmagic:blankrune",
 				count: 8L
-			}]
+			}],
+			rewards: [
+				{
+					id: 3961,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3962,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 17.5d,
@@ -127,7 +223,19 @@
 				id: 3030,
 				type: "item",
 				item: "bloodmagic:daggerofsacrifice"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3963,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3964,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -138,7 +246,19 @@
 				id: 3032,
 				type: "item",
 				item: "bloodmagic:demoncrystallizer"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3949,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3950,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -149,7 +269,19 @@
 				id: 3034,
 				type: "item",
 				item: "bloodmagic:demoncrucible"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3943,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3944,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -160,7 +292,19 @@
 				id: 3036,
 				type: "item",
 				item: "bloodmagic:weakbloodorb"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3967,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3968,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 15.5d,
@@ -171,7 +315,19 @@
 				id: 3038,
 				type: "item",
 				item: "bloodmagic:apprenticebloodorb"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3965,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3966,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -182,7 +338,19 @@
 				id: 3040,
 				type: "item",
 				item: "bloodmagic:alchemytable"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3969,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3970,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -199,7 +367,19 @@
 						souls: 64.0d
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3941,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3942,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 16.0d,
@@ -216,7 +396,19 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3939,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3940,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 16.0d,
@@ -233,7 +425,19 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3937,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3938,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 16.0d,
@@ -250,7 +454,19 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3935,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3936,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 16.0d,
@@ -267,7 +483,19 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 3933,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3934,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -278,7 +506,19 @@
 				id: 3052,
 				type: "item",
 				item: "bloodmagic:incensealtar"
-			}]
+			}],
+			rewards: [
+				{
+					id: 3971,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3972,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

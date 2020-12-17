@@ -18,9 +18,9 @@
 				item: "fluxnetworks:flux_dust"
 			}],
 			rewards: [{
-				id: 3079,
-				type: "random",
-				table: 2
+				id: 4025,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -33,18 +33,11 @@
 				type: "item",
 				item: "fluxnetworks:flux_configurator"
 			}],
-			rewards: [
-				{
-					id: 3087,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3105,
-					type: "random",
-					table: 4
-				}
-			]
+			rewards: [{
+				id: 4031,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: -4.5d,
@@ -56,18 +49,11 @@
 				type: "item",
 				item: "fluxnetworks:flux_controller"
 			}],
-			rewards: [
-				{
-					id: 3080,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3107,
-					type: "random",
-					table: 4
-				}
-			]
+			rewards: [{
+				id: 4029,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: -4.5d,
@@ -91,18 +77,11 @@
 					item: "fluxnetworks:gargantuan_flux_storage"
 				}
 			],
-			rewards: [
-				{
-					id: 3086,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3106,
-					type: "random",
-					table: 4
-				}
-			]
+			rewards: [{
+				id: 4030,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 0.0d,
@@ -121,18 +100,11 @@
 					item: "fluxnetworks:flux_point"
 				}
 			],
-			rewards: [
-				{
-					id: 3081,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3112,
-					type: "random",
-					table: 4
-				}
-			]
+			rewards: [{
+				id: 4027,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: -4.5d,
@@ -144,18 +116,11 @@
 				type: "item",
 				item: "fluxnetworks:flux_block"
 			}],
-			rewards: [
-				{
-					id: 3110,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3111,
-					type: "random",
-					table: 4
-				}
-			]
+			rewards: [{
+				id: 4028,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 4.5d,
@@ -167,18 +132,11 @@
 				type: "item",
 				item: "fluxnetworks:flux_core"
 			}],
-			rewards: [
-				{
-					id: 3108,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3109,
-					type: "random",
-					table: 4
-				}
-			]
+			rewards: [{
+				id: 4026,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		}
 	]
 }

@@ -24,9 +24,9 @@
 					player_command: false
 				},
 				{
-					id: 3082,
-					type: "random",
-					table: 5
+					id: 3974,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				}
 			]
 		},
@@ -50,7 +50,7 @@
 				{
 					id: 2317,
 					type: "random",
-					table: 10
+					table: 53
 				}
 			]
 		},
@@ -72,9 +72,9 @@
 					player_command: false
 				},
 				{
-					id: 3084,
-					type: "random",
-					table: 5
+					id: 3977,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				}
 			]
 		},
@@ -96,9 +96,9 @@
 					player_command: false
 				},
 				{
-					id: 3085,
-					type: "random",
-					table: 5
+					id: 3978,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				}
 			]
 		},
@@ -120,9 +120,9 @@
 					player_command: false
 				},
 				{
-					id: 3083,
-					type: "random",
-					table: 5
+					id: 3975,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				}
 			]
 		},
@@ -144,9 +144,9 @@
 					player_command: false
 				},
 				{
-					id: 2318,
-					type: "random",
-					table: 11
+					id: 3976,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				}
 			]
 		},
@@ -168,9 +168,9 @@
 					player_command: false
 				},
 				{
-					id: 2313,
-					type: "random",
-					table: 6
+					id: 3973,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				}
 			]
 		}

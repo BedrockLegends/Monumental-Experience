@@ -19,9 +19,9 @@
 				count: 24L
 			}],
 			rewards: [{
-				id: 3096,
-				type: "random",
-				table: 1
+				id: 4016,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -49,18 +49,11 @@
 					count: 6L
 				}
 			],
-			rewards: [
-				{
-					id: 3089,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3090,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4018,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 0.0d,
@@ -87,18 +80,11 @@
 					count: 6L
 				}
 			],
-			rewards: [
-				{
-					id: 3101,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3102,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4013,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 4.0d,
@@ -125,18 +111,11 @@
 					count: 6L
 				}
 			],
-			rewards: [
-				{
-					id: 3097,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3098,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4015,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Many types of Traps!!!",
@@ -224,18 +203,11 @@
 					count: 3L
 				}
 			],
-			rewards: [
-				{
-					id: 3094,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3095,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4011,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Many types of Filters!!!",
@@ -329,18 +301,11 @@
 					item: "darkutils:filter_named"
 				}
 			],
-			rewards: [
-				{
-					id: 3099,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3100,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4012,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: -4.0d,
@@ -351,18 +316,11 @@
 				type: "item",
 				item: "darkutils:item_grate"
 			}],
-			rewards: [
-				{
-					id: 3088,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3091,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4010,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 4.0d,
@@ -380,18 +338,11 @@
 					item: "darkutils:shielded_redstone"
 				}
 			],
-			rewards: [
-				{
-					id: 3092,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3093,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4017,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Many kinds of Charms!!!",
@@ -420,18 +371,11 @@
 					item: "darkutils:charm_gluttony"
 				}
 			],
-			rewards: [
-				{
-					id: 3103,
-					type: "random",
-					table: 2
-				},
-				{
-					id: 3104,
-					type: "random",
-					table: 1
-				}
-			]
+			rewards: [{
+				id: 4014,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		}
 	]
 }

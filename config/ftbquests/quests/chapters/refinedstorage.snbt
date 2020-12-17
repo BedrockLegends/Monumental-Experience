@@ -1,7 +1,7 @@
 {
 	id: 2123,
 	filename: "refinedstorage",
-	order_index: 30,
+	order_index: 31,
 	title: "Refined Storage",
 	icon: "refinedstorage:machine_casing",
 	default_quest_shape: "",

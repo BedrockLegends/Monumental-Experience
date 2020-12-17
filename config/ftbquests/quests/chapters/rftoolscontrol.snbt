@@ -1,7 +1,7 @@
 {
 	id: 2488,
 	filename: "rftoolscontrol",
-	order_index: 32,
+	order_index: 33,
 	title: "Rftools Control",
 	icon: "rftoolscontrol:graphics_card",
 	default_quest_shape: "",

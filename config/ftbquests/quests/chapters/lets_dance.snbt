@@ -1,0 +1,423 @@
+{
+	id: 3436,
+	filename: "lets_dance",
+	order_index: 18,
+	title: "Let's Dance!!",
+	icon: "minecraft:jukebox",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 3437,
+			tasks: [
+				{
+					id: 3438,
+					type: "item",
+					item: "minecraft:note_block"
+				},
+				{
+					id: 3439,
+					type: "item",
+					item: "minecraft:jukebox"
+				}
+			],
+			rewards: [
+				{
+					id: 3462,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3463,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3440,
+			tasks: [{
+				id: 3441,
+				type: "item",
+				item: "minecraft:music_disc_13"
+			}],
+			rewards: [
+				{
+					id: 3456,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3457,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3442,
+			tasks: [{
+				id: 3443,
+				type: "item",
+				item: "minecraft:music_disc_cat"
+			}],
+			rewards: [
+				{
+					id: 3501,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3502,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3444,
+			tasks: [{
+				id: 3445,
+				type: "item",
+				item: "minecraft:music_disc_blocks"
+			}]
+		},
+		{
+			title: "Chirp",
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3446,
+			tasks: [{
+				id: 3447,
+				type: "item",
+				item: "minecraft:music_disc_chirp"
+			}],
+			rewards: [
+				{
+					id: 3460,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3461,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Far Disc",
+			x: -4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3448,
+			tasks: [{
+				id: 3449,
+				type: "item",
+				item: "minecraft:music_disc_far"
+			}],
+			rewards: [
+				{
+					id: 3503,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3504,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3450,
+			tasks: [{
+				id: 3451,
+				type: "item",
+				title: "Mall",
+				item: "minecraft:music_disc_mall"
+			}],
+			rewards: [
+				{
+					id: 3455,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3459,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Mellohi",
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3452,
+			tasks: [{
+				id: 3453,
+				type: "item",
+				icon: "minecraft:music_disc_mellohi"
+			}],
+			rewards: [
+				{
+					id: 3454,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3458,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Stal",
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3464,
+			tasks: [{
+				id: 3465,
+				type: "item",
+				item: "minecraft:music_disc_stal"
+			}],
+			rewards: [
+				{
+					id: 3466,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3467,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Strad",
+			x: -2.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3468,
+			tasks: [{
+				id: 3469,
+				type: "item",
+				item: "minecraft:music_disc_strad"
+			}],
+			rewards: [
+				{
+					id: 3474,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3475,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3470,
+			tasks: [{
+				id: 3471,
+				type: "item",
+				title: "Ward",
+				item: "minecraft:music_disc_ward"
+			}],
+			rewards: [
+				{
+					id: 3472,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3473,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "11",
+			x: -4.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3476,
+			tasks: [{
+				id: 3477,
+				type: "item",
+				item: "minecraft:music_disc_11"
+			}],
+			rewards: [
+				{
+					id: 3478,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3479,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Pigstep",
+			x: 4.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3480,
+			tasks: [{
+				id: 3481,
+				type: "item",
+				item: "minecraft:music_disc_pigstep"
+			}],
+			rewards: [
+				{
+					id: 3482,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3483,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Endure",
+			x: 4.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3484,
+			tasks: [{
+				id: 3485,
+				type: "item",
+				item: "botania:record_gaia_1"
+			}],
+			rewards: [
+				{
+					id: 3486,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3487,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Kain",
+			x: -4.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3488,
+			tasks: [{
+				id: 3489,
+				type: "item",
+				item: "botania:record_gaia_2"
+			}],
+			rewards: [
+				{
+					id: 3490,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3492,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Jellyfields",
+			x: -2.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3493,
+			tasks: [{
+				id: 3494,
+				type: "item",
+				item: "jellyfishing:music_disc_jellyfish_fields"
+			}],
+			rewards: [
+				{
+					id: 3495,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3496,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3437],
+			id: 3497,
+			tasks: [{
+				id: 3498,
+				type: "item",
+				item: "doomweapon:e1m1_music_disc"
+			}],
+			rewards: [
+				{
+					id: 3499,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3500,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

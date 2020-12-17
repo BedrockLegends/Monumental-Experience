@@ -98,7 +98,7 @@
 	#Range: > 10
 	"Max Stymphalian Bird Flight Height" = 80
 	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-	blacklistDimensions = ["rats:ratlantis", "minecraft:the_nether", "minecraft:the_end", "allthemodium:the_other", "undergarden:undergarden"]
+	blacklistDimensions = ["minecraft:the_end", "allthemodium:the_other", "undergarden:undergarden"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Sea Serpent Chance" = 300

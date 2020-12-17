@@ -1,7 +1,7 @@
 {
 	id: 3344,
 	filename: "tier3mysticalagriculture",
-	order_index: 24,
+	order_index: 25,
 	title: "(Tier3) Mystical Agriculture",
 	icon: "mysticalagriculture:iron_seeds",
 	default_quest_shape: "",

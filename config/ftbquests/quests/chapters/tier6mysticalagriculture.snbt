@@ -1,7 +1,7 @@
 {
 	id: 3357,
 	filename: "tier6mysticalagriculture",
-	order_index: 27,
+	order_index: 28,
 	title: "(Tier6) Mystical Agriculture",
 	icon: "mysticalagriculture:nether_star_seeds",
 	default_quest_shape: "",
@@ -16,9 +16,9 @@
 				item: "mysticalagradditions:insanium_coal"
 			}],
 			rewards: [{
-				id: 3122,
+				id: 3431,
 				type: "random",
-				table: 11
+				table: 87
 			}]
 		},
 		{
@@ -34,14 +34,14 @@
 			}],
 			rewards: [
 				{
-					id: 3120,
+					id: 3432,
 					type: "random",
-					table: 3
+					table: 63
 				},
 				{
 					id: 3121,
 					type: "random",
-					table: 11
+					table: 27
 				}
 			]
 		},
@@ -65,12 +65,12 @@
 				{
 					id: 3123,
 					type: "random",
-					table: 3
+					table: 44
 				},
 				{
-					id: 3124,
+					id: 3433,
 					type: "random",
-					table: 4
+					table: 102
 				}
 			]
 		},
@@ -98,7 +98,7 @@
 			rewards: [{
 				id: 3363,
 				type: "random",
-				table: 3
+				table: 23
 			}]
 		},
 		{
@@ -114,14 +114,14 @@
 			}],
 			rewards: [
 				{
-					id: 3119,
+					id: 3434,
 					type: "random",
-					table: 3
+					table: 2
 				},
 				{
 					id: 3125,
 					type: "random",
-					table: 4
+					table: 101
 				}
 			]
 		},
@@ -138,14 +138,14 @@
 			}],
 			rewards: [
 				{
-					id: 3116,
+					id: 3435,
 					type: "random",
-					table: 3
+					table: 40
 				},
 				{
 					id: 3117,
 					type: "random",
-					table: 4
+					table: 31
 				}
 			]
 		}

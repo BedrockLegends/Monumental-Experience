@@ -247,7 +247,7 @@ customization {
   backgroundhovered = packmenu/resources/assets/packmenu/textures/gui/bh_me_twitch.png
   label = 
   backgroundnormal = packmenu/resources/assets/packmenu/textures/gui/bh_me_twitch.png
-  value = https://www.twitch.tv/moderngamingworld
+  value = https://www.twitch.tv/bedrocklegends
   height = 41
 }
 

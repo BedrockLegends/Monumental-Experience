@@ -14,6 +14,11 @@
 				id: 2696,
 				type: "item",
 				item: "forbidden_arcanus:forbiddenmicon"
+			}],
+			rewards: [{
+				id: 4036,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -25,6 +30,11 @@
 				id: 1848,
 				type: "item",
 				item: "forbidden_arcanus:arcane_crystal"
+			}],
+			rewards: [{
+				id: 4034,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -36,6 +46,11 @@
 				id: 1859,
 				type: "item",
 				item: "forbidden_arcanus:mundabitur_dust"
+			}],
+			rewards: [{
+				id: 4035,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -50,6 +65,11 @@
 				id: 1880,
 				type: "item",
 				item: "forbidden_arcanus:arcane_gold_ingot"
+			}],
+			rewards: [{
+				id: 4033,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -61,6 +81,11 @@
 				id: 1893,
 				type: "item",
 				item: "forbidden_arcanus:edelwood_log"
+			}],
+			rewards: [{
+				id: 4032,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

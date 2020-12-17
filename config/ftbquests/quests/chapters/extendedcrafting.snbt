@@ -19,9 +19,9 @@
 				count: 2L
 			}],
 			rewards: [{
-				id: 3168,
-				type: "random",
-				table: 2
+				id: 4019,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -36,6 +36,11 @@
 				id: 2550,
 				type: "item",
 				item: "extendedcrafting:basic_table"
+			}],
+			rewards: [{
+				id: 4021,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -49,9 +54,9 @@
 				item: "extendedcrafting:luminessence"
 			}],
 			rewards: [{
-				id: 3172,
-				type: "random",
-				table: 11
+				id: 4020,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -65,9 +70,9 @@
 				item: "extendedcrafting:advanced_table"
 			}],
 			rewards: [{
-				id: 3171,
-				type: "random",
-				table: 2
+				id: 4022,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -81,9 +86,9 @@
 				item: "extendedcrafting:elite_table"
 			}],
 			rewards: [{
-				id: 3170,
-				type: "random",
-				table: 2
+				id: 4023,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -97,9 +102,9 @@
 				item: "extendedcrafting:ultimate_table"
 			}],
 			rewards: [{
-				id: 3169,
-				type: "random",
-				table: 3
+				id: 4024,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

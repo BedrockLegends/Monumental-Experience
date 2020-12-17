@@ -16,6 +16,11 @@
 				id: 2062,
 				type: "item",
 				item: "botania:mana_pool"
+			}],
+			rewards: [{
+				id: 4000,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -34,7 +39,12 @@
 					type: "item",
 					item: "botania:mana_diamond"
 				}
-			]
+			],
+			rewards: [{
+				id: 4003,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 0.0d,
@@ -45,6 +55,11 @@
 				id: 2068,
 				type: "item",
 				item: "botania:runic_altar"
+			}],
+			rewards: [{
+				id: 4006,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -57,6 +72,11 @@
 				type: "item",
 				item: "botania:mana_powder",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4009,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -90,7 +110,12 @@
 					type: "item",
 					item: "botania:rune_water"
 				}
-			]
+			],
+			rewards: [{
+				id: 4005,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: -2.0d,
@@ -101,6 +126,11 @@
 				id: 2086,
 				type: "item",
 				item: "botania:terra_plate"
+			}],
+			rewards: [{
+				id: 4007,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -112,6 +142,11 @@
 				id: 2094,
 				type: "item",
 				item: "botania:thermalily"
+			}],
+			rewards: [{
+				id: 4008,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -123,6 +158,11 @@
 				id: 2096,
 				type: "item",
 				item: "botania:rosa_arcana"
+			}],
+			rewards: [{
+				id: 4004,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -135,6 +175,11 @@
 				type: "item",
 				item: "botania:manasteel_ingot",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4001,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -150,6 +195,11 @@
 					Count: true,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: 4002,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

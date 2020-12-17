@@ -1,7 +1,7 @@
 {
 	id: 7,
 	filename: "tier4mysticalagriculture",
-	order_index: 25,
+	order_index: 26,
 	title: "(Tier4) Mystical Agriculture",
 	icon: "mysticalagriculture:gold_seeds",
 	default_quest_shape: "",

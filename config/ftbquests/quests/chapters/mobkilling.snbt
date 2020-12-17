@@ -1,7 +1,7 @@
 {
 	id: 605,
 	filename: "mobkilling",
-	order_index: 21,
+	order_index: 22,
 	title: "Mob Killing",
 	icon: "minecraft:zombie_head",
 	default_quest_shape: "",
@@ -17,6 +17,11 @@
 				title: "Let's Kill a Nasty Blaze!!!!",
 				entity: "minecraft:blaze",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4118,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -40,6 +45,11 @@
 				type: "kill",
 				entity: "minecraft:wither_skeleton",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4119,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -53,6 +63,11 @@
 				title: "Let's Kill a Zombie Pigman!!!!",
 				entity: "minecraft:zombie_pigman",
 				value: 50L
+			}],
+			rewards: [{
+				id: 4144,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -66,6 +81,11 @@
 				title: "Let's Kill a Magma Slime",
 				entity: "minecraft:magma_cube",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4145,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -78,6 +98,11 @@
 				type: "kill",
 				entity: "minecraft:cave_spider",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4128,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -90,6 +115,11 @@
 				type: "kill",
 				entity: "minecraft:creeper",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4132,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -102,6 +132,11 @@
 				type: "kill",
 				entity: "minecraft:drowned",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4136,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -114,6 +149,11 @@
 				type: "kill",
 				entity: "minecraft:elder_guardian",
 				value: 15L
+			}],
+			rewards: [{
+				id: 4131,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -127,6 +167,11 @@
 				type: "kill",
 				entity: "minecraft:ender_dragon",
 				value: 5L
+			}],
+			rewards: [{
+				id: 4115,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -139,6 +184,11 @@
 				type: "kill",
 				entity: "minecraft:enderman",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4116,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -151,6 +201,11 @@
 				type: "kill",
 				entity: "minecraft:endermite",
 				value: 15L
+			}],
+			rewards: [{
+				id: 4113,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -163,6 +218,11 @@
 				type: "kill",
 				entity: "minecraft:evoker",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4143,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -175,6 +235,11 @@
 				type: "kill",
 				entity: "minecraft:ghast",
 				value: 15L
+			}],
+			rewards: [{
+				id: 4120,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -187,6 +252,11 @@
 				type: "kill",
 				entity: "minecraft:guardian",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4130,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -199,6 +269,11 @@
 				type: "kill",
 				entity: "minecraft:husk",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4138,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -211,6 +286,11 @@
 				type: "kill",
 				entity: "minecraft:shulker",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4114,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -223,6 +303,11 @@
 				type: "kill",
 				entity: "minecraft:silverfish",
 				value: 15L
+			}],
+			rewards: [{
+				id: 4123,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -235,6 +320,11 @@
 				type: "kill",
 				entity: "minecraft:skeleton",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4127,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -247,6 +337,11 @@
 				type: "kill",
 				entity: "minecraft:slime",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4137,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -259,6 +354,11 @@
 				type: "kill",
 				entity: "minecraft:spider",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4135,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -271,6 +371,11 @@
 				type: "kill",
 				entity: "minecraft:stray",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4133,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -283,6 +388,11 @@
 				type: "kill",
 				entity: "minecraft:vex",
 				value: 15L
+			}],
+			rewards: [{
+				id: 4134,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -295,6 +405,11 @@
 				type: "kill",
 				entity: "minecraft:vindicator",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4142,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -307,6 +422,11 @@
 				type: "kill",
 				entity: "minecraft:pillager",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4129,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -319,6 +439,11 @@
 				type: "kill",
 				entity: "minecraft:witch",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4141,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -332,6 +457,11 @@
 				type: "kill",
 				entity: "minecraft:wither",
 				value: 5L
+			}],
+			rewards: [{
+				id: 4117,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -344,6 +474,11 @@
 				type: "kill",
 				entity: "minecraft:zombie",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4122,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -356,6 +491,11 @@
 				type: "kill",
 				entity: "minecraft:zombie_villager",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4126,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -368,6 +508,11 @@
 				type: "kill",
 				entity: "minecraft:phantom",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4139,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -380,6 +525,11 @@
 				type: "kill",
 				entity: "minecraft:ravager",
 				value: 15L
+			}],
+			rewards: [{
+				id: 4124,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -416,6 +566,11 @@
 				title: "Let's Kill a Nasty Skelly",
 				entity: "nasty:skeleton",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4125,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -428,6 +583,11 @@
 				type: "kill",
 				entity: "froglins:froglin",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4121,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -439,6 +599,11 @@
 				type: "kill",
 				entity: "minecraft:zombie",
 				value: 30L
+			}],
+			rewards: [{
+				id: 4140,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]
