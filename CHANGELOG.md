@@ -15,4 +15,9 @@
 **Updated**
 - **Corail Tombstone**
 - **Ambient Sounds**
--
+- **Farlanders**
+- **Natures Aura**
+- **Harder Spawners**
+- **Pneumaticcraft Repressurized**
+- **Immersive Engineering**
+- **Auto Ore Dict Convter**
