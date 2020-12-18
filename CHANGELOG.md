@@ -4,6 +4,7 @@
 
 **Changed/Fixed**
 - WorldSelectionScreen for fancy menu 
+- Desired Servers.json
 
 
 **Mods Added**
