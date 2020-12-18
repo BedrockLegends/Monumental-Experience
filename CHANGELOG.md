@@ -3,11 +3,13 @@
 6.0
 
 **Changed/Fixed**
-- WorldSelectionScreen for fancy menu 
 - Desired Servers.json
 
 
-**Mods Added**
+
+**Added**
+- WorldSelectionScreen for fancy menu 
+- Multiplayer Screen for Fancymenu
 
 
 **Removed**
