@@ -10,6 +10,7 @@
 **Added**
 - WorldSelectionScreen for fancy menu 
 - Multiplayer Screen for Fancymenu
+- Not Enough Wands
 
 
 
