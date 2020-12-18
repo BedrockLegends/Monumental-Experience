@@ -25,6 +25,5 @@
 - **Natures Aura**
 - **Harder Spawners**
 - **Pneumaticcraft Repressurized**
-- **Immersive Engineering**
 - **Auto Ore Dict Convter**
 - **PolyMorph-forge**(Added smelting recipe conflict management for the Furnace, Smoker, and the Blast Furnace, Added smelting recipe conflict integration for FastFurnace and Iron Furnaces)
