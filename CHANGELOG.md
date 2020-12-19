@@ -10,7 +10,9 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 Also **BedrockLegends** Official server was reset along with this update as it was a huge update that fixed a ton of issues I may or may not missed from the last two months.
 
+
 **Changed/Fixed**
+
 - Desired Servers.json
 - More datapack recipe errors/issues
 - The rest of the quest book missing rewards(Still have some to finish, but most are done)
@@ -21,6 +23,7 @@ Also **BedrockLegends** Official server was reset along with this update as it w
 
 
 **Added**
+
 - Custom WorldSelectionScreen for fancy menu 
 - Custom Multiplayer Screen for Fancymenu
 - Not Enough Wands and Blacklisted it from Lootbag mod(Note, Do not type wands in creative menu or you will crash to desktop cause of a mod conflict via creative menu)
@@ -33,12 +36,14 @@ Also **BedrockLegends** Official server was reset along with this update as it w
 
 
 **Removed**
+
 - Dust to Ingot Furnace recipes, Moved them to Blast Furnace(Please note that a few furnace recipes from create will not disable at this time)
 - Botanypots easy shapeless recipes
 - Getting Hopper from a Upper recipe
 - Coal and Charcoal Piece from Pickeltweaks, as Iron Coal has Coal chunks
 
 **Updated**
+
 - **Corail Tombstone**
 - **Ambient Sounds**
 - **Farlanders**
