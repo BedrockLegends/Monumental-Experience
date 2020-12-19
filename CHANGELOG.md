@@ -19,6 +19,7 @@
 - envirotech to Lootbag Blacklist
 - A Welcome Quest line, to let the end user know that the quest book is more of a guide.
 - New Items to the starter Kit, Enjoy
+- New Flower Pot recipe using Clay plates
 
 
 
