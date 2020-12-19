@@ -2,10 +2,13 @@
 **Modpack Version**
 6.0
 
+**Notes**
+Last Updated hopefully till the New Year, I have no plans to play Minecraft during Xmas or New years. I will however be streaming something on the 24th if nothing comes up by then.
+
 **Changed/Fixed**
 - Desired Servers.json
 - More datapack recipe errors/issues
-- The rest of the quest book missing rewards
+- The rest of the quest book missing rewards(Still have some to finish, but most are done)
 - The issue with blast furnace as with Create added, that now it should not be an issue
 - Alex's Mobs giving Book
 - Broken upper recipe, Thanks to Sty2000 on BedrockLegends Discord
