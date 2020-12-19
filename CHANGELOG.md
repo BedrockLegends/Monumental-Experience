@@ -8,7 +8,7 @@
 Last Updated hopefully till the New Year, I have no plans to play Minecraft during Xmas or New years. I will however be streaming something on the 24th if nothing comes up by then.
 
 
-Also **BedrockLegends** Official server was reset along with this update as it was a huge update that fixed a ton of issues I may or may not missed from the last two months.
+**BedrockLegends** Official server was reset along with this update as it was a huge update that fixed a ton of issues I may or may not missed from the last two months.
 
 
 **Changed/Fixed**
