@@ -8,7 +8,7 @@
 - The rest of the quest book missing rewards
 - The issue with blast furnace as with Create added, that now it should not be an issue
 - Alex's Mobs giving Book
-
+- Fixed broken upper recipe, Thanks to Sty2000 on BedrockLegends Discord
 
 
 **Added**
