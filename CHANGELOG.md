@@ -24,7 +24,8 @@
 
 **Removed**
 - Dust to Ingot Furnace recipes, Moved them to Blast Furnace(Please note that a few furnace recipes from create will not disable at this time)
-- Removed Botanypots easy shapeless recipes
+- Botanypots easy shapeless recipes
+- Getting Hopper from a Upper recipe
 
 **Updated**
 - **Corail Tombstone**
