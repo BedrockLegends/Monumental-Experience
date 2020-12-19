@@ -22,7 +22,7 @@
 
 
 **Removed**
-- Dust to Ingot Furnace recipes, Moved them to Blast Furnace
+- Dust to Ingot Furnace recipes, Moved them to Blast Furnace(Please note that a few furnace recipes from create will not disable at this time)
 
 **Updated**
 - **Corail Tombstone**
