@@ -3,6 +3,7 @@
 6.0
 
 **Notes**
+
 Last Updated hopefully till the New Year, I have no plans to play Minecraft during Xmas or New years. I will however be streaming something on the 24th if nothing comes up by then.
 
 **Changed/Fixed**
