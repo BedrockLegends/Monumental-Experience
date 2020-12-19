@@ -27,6 +27,7 @@
 - Dust to Ingot Furnace recipes, Moved them to Blast Furnace(Please note that a few furnace recipes from create will not disable at this time)
 - Botanypots easy shapeless recipes
 - Getting Hopper from a Upper recipe
+- Coal and Charcoal Piece from Pickeltweaks, as Iron Coal has Coal chunks
 
 **Updated**
 - **Corail Tombstone**
