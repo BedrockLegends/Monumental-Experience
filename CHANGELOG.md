@@ -7,6 +7,7 @@
 - More datapack recipe errors/issues
 - The rest of the quest book missing rewards
 - The issue with blast furnace as with Create added, that now it should not be an issue
+- Alex's Mobs giving Book
 
 
 
