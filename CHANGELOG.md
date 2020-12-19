@@ -13,7 +13,7 @@
 **Added**
 - Custom WorldSelectionScreen for fancy menu 
 - Custom Multiplayer Screen for Fancymenu
-- Not Enough Wands and Blacklisted it from Lootbag mod(Note, Do not type wands in creative menu or you will crash to desktop cause of a mod conflict via creative menu
+- Not Enough Wands and Blacklisted it from Lootbag mod(Note, Do not type wands in creative menu or you will crash to desktop cause of a mod conflict via creative menu)
 - Create and Blacklisted it from Lootbag mod
 - envirotech to Lootbag Blacklist
 - A Welcome Quest line, to let the end user know that the quest book is more of a guide.
