@@ -134,4 +134,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **PotionsMaster**(Also Fixes Crashes with Client)
 - **ToroHealth Damaghe Indicators**
 - **Building Gadgets**
--**Crash Utilities**
+- **Crash Utilities**
+- **Trash Cans**(Fixes Crash with ultimate trash can's inventory)
