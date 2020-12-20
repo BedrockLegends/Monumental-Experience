@@ -120,9 +120,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Added**
 
-- More missing rewards for Quest lines, Only ones left should be Mystical
-- Comforts
-- Gauges and Switches
+- None
 
 
 **Removed**
@@ -131,19 +129,8 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Updated**
 
-- **Valkyrie Lib**
-- **Better Animals**
-- **Engineers Decor**
-- **Enviro Tech**
-- **Industrial Foregoing**
-- **Pneumaticcraft Repressurized**
-- **Titanium**
-- **Ars Nouveau**
-- **Extra Golems**
-- **Extreme Reactors**
-- **Immersive Engineering**
-- **Immersive Petroleum**
-- **Quark**
-- **U Team Core**
-- **Create**
-- **Trash cans**
+- **Astral Soecery**
+- **Polymorph-forge**(Fixes Crash with Create)
+- **PotionsMaster**(Also Fixes Crashes with Client)
+- **ToroHealth Damaghe Indicators**
+- **Building Gadgets**
