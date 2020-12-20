@@ -134,3 +134,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **PotionsMaster**(Also Fixes Crashes with Client)
 - **ToroHealth Damaghe Indicators**
 - **Building Gadgets**
+-**Crash Utilities**
