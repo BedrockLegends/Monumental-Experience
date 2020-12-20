@@ -136,3 +136,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Building Gadgets**
 - **Crash Utilities**
 - **Trash Cans**(Fixes Crash with ultimate trash can's inventory)
+- **Ars Nouveau**
