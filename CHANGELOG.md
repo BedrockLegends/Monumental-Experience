@@ -75,6 +75,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 - More missing rewards for Quest lines, Only ones left should be Mystical
 - Comforts
+- Gauges and Switches
 
 
 **Removed**
