@@ -54,3 +54,47 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **PolyMorph-forge**(Added smelting recipe conflict management for the Furnace, Smoker, and the Blast Furnace, Added smelting recipe conflict integration for FastFurnace and Iron Furnaces)
 - **Allthemodium**
 - **FTB Chunks**
+
+---------------------------------------------------------------------------------------------
+**Modpack Version**
+6.1
+
+**Notes**
+
+
+Last Updated hopefully till the New Year, I have no plans to play Minecraft during Xmas or New years. I will however be streaming something on the 24th if nothing comes up by then.
+
+
+
+**Changed/Fixed**
+
+- None
+
+
+**Added**
+
+- None
+
+
+**Removed**
+
+- None
+
+**Updated**
+
+- **Valkyrie Lib**
+- **Better Animals**
+- **Engineers Decor**
+- **Enviro Tech**
+- **Industrial Foregoing**
+- **Pneumaticcraft Repressurized**
+- **Titanium**
+- **Ars Nouveau**
+- **Extra Golems**
+- **Extreme Reactors**
+- **Immersive Engineering**
+- **Immersive Petroleum**
+- **Quark**
+- **U Team Core**
+- **Create**
+- **Trash cans**
