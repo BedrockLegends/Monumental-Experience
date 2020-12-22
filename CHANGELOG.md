@@ -166,7 +166,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Removed**
 
-- None
+- **Mr Crayfishes Furniture mod and Lib due to crash with Optifine, Will be readded if he every fixes
 
 **Updated**
 
