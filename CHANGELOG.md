@@ -142,3 +142,39 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Ars Nouveau**
 - **FTB Chunks**
 - **itemphysic**
+---------------------------------------------------------------------------------------------
+**Modpack Version**
+6.3
+
+**Notes**
+
+**Sorry for all the updates BedrockLegends Server keeps timing out, these updates been to try and fix that**
+
+**Now this is the Last Updated till the New Year, I have no plans to play Minecraft during Xmas or New years. I will however be streaming something on the 24th if nothing comes up by then.**
+
+
+
+**Changed/Fixed**
+
+- None
+
+
+**Added**
+
+- None
+
+
+**Removed**
+
+- None
+
+**Updated**
+
+- **Astral Soecery**
+- **Potions Master**
+- **Blame**
+- **Cyclic**
+- **FTB Quests**
+- **LibX**
+- **Quark**
+- **Ars Nouveau**
