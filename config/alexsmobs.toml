@@ -11,7 +11,7 @@
 	#Whether spiders should target fly mobs.
 	spidersAttackFlies = true
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
-	giveBookOnStartup = true
+	giveBookOnStartup = false
 	#Maximum world y-level that cave centipedes can spawn at
 	#Range: 0 ~ 256
 	caveCentipedeSpawnHeight = 30

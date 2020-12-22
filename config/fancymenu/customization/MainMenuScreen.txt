@@ -224,7 +224,6 @@ customization {
 
 customization {
   orientation = bottom-right
-  hoverlabel = Use Code BedrockLegends for 25% off of your first purchase
   buttonaction = openlink
   x = -200
   width = 200
@@ -249,5 +248,16 @@ customization {
   backgroundnormal = packmenu/resources/assets/packmenu/textures/gui/bh_me_twitch.png
   value = https://www.twitch.tv/bedrocklegends
   height = 41
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  centered = false
+  x = 877
+  action = addtext
+  y = 503
+  scale = 1.0
+  value = BedrockLegends is proudly sponsored by:
 }
 

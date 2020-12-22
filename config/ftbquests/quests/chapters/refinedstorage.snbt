@@ -1,7 +1,7 @@
 {
 	id: 2123,
 	filename: "refinedstorage",
-	order_index: 31,
+	order_index: 34,
 	title: "Refined Storage",
 	icon: "refinedstorage:machine_casing",
 	default_quest_shape: "",
@@ -24,11 +24,24 @@
 					type: "item",
 					item: "refinedstorage:machine_casing"
 				}
+			],
+			rewards: [
+				{
+					id: 4790,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4791,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: 4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 2126,
@@ -36,11 +49,24 @@
 				id: 2127,
 				type: "item",
 				item: "refinedstorage:interface"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4806,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4807,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 2.0d,
 			y: -6.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 2128,
@@ -75,11 +101,24 @@
 					type: "item",
 					item: "refinedstorage:crafting_monitor"
 				}
+			],
+			rewards: [
+				{
+					id: 4826,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4827,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 2135,
@@ -87,11 +126,24 @@
 				id: 2136,
 				type: "item",
 				item: "refinedstorage:relay"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4810,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4811,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 2137,
@@ -99,11 +151,24 @@
 				id: 2138,
 				type: "item",
 				item: "refinedstorage:1k_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4802,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4803,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;2137],
 			size: 2.0d,
 			id: 1838,
@@ -111,11 +176,24 @@
 				id: 1839,
 				type: "item",
 				item: "refinedstorage:4k_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4798,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4799,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -4.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;1838],
 			size: 2.0d,
 			id: 1840,
@@ -123,11 +201,24 @@
 				id: 1841,
 				type: "item",
 				item: "refinedstorage:16k_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4796,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4797,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -6.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1844,
@@ -135,11 +226,24 @@
 				id: 1845,
 				type: "item",
 				item: "refinedstorage:security_manager"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4812,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4813,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -2.0d,
 			y: -5.5d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1846,
@@ -154,11 +258,24 @@
 					type: "item",
 					item: "refinedstorage:disk_drive"
 				}
+			],
+			rewards: [
+				{
+					id: 4816,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4817,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: 6.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1850,
@@ -166,11 +283,24 @@
 				id: 1851,
 				type: "item",
 				item: "refinedstorage:controller"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4830,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4831,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.0d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;1850],
 			size: 2.0d,
 			id: 1852,
@@ -182,11 +312,24 @@
 					Count: true,
 					tag: {}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4832,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4833,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1854,
@@ -194,13 +337,25 @@
 				id: 1855,
 				type: "item",
 				item: "refinedstorage:detector"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4794,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4795,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			title: "Let's Start Getting Some Storage Space",
 			x: -24.0d,
 			y: -0.5d,
-			shape: "rsquare",
+			shape: "diamond",
 			hide_dependency_lines: true,
 			size: 2.0d,
 			id: 1856,
@@ -213,6 +368,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1858,
@@ -220,11 +376,24 @@
 				id: 1881,
 				type: "item",
 				item: "refinedstorage:64k_fluid_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4818,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4819,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -4.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1860,
@@ -232,7 +401,19 @@
 				id: 1861,
 				type: "item",
 				item: "refinedstorage:network_transmitter"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4814,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4815,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.0d,
@@ -250,6 +431,7 @@
 		{
 			x: -6.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1864,
@@ -257,11 +439,24 @@
 				id: 1865,
 				type: "item",
 				item: "refinedstorage:fluid_interface"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4808,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4809,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -28.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;1856],
 			size: 2.0d,
 			id: 1866,
@@ -269,11 +464,24 @@
 				id: 1867,
 				type: "item",
 				item: "refinedstorage:1k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4750,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4751,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -28.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1866],
 			size: 2.0d,
 			id: 1868,
@@ -281,11 +489,24 @@
 				id: 1869,
 				type: "item",
 				item: "refinedstorage:4k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4752,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4753,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -24.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1868],
 			size: 2.0d,
 			id: 1870,
@@ -293,11 +514,24 @@
 				id: 1871,
 				type: "item",
 				item: "refinedstorage:16k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4754,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4755,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -20.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1870],
 			size: 2.0d,
 			id: 1872,
@@ -305,11 +539,24 @@
 				id: 1873,
 				type: "item",
 				item: "refinedstorage:64k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4756,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4757,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -2.0d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1874,
@@ -317,11 +564,24 @@
 				id: 1875,
 				type: "item",
 				item: "refinedstorage:crafter"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4800,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4801,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1876,
@@ -329,11 +589,24 @@
 				id: 1877,
 				type: "item",
 				item: "refinedstorage:wireless_transmitter"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4804,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4805,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -20.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;1856],
 			size: 2.0d,
 			id: 1885,
@@ -341,11 +614,24 @@
 				id: 1886,
 				type: "item",
 				item: "refinedstorage:64k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4748,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4749,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -16.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;1885],
 			size: 2.0d,
 			id: 1887,
@@ -353,11 +639,24 @@
 				id: 1888,
 				type: "item",
 				item: "refinedstorage:256k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4746,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4747,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -12.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;1887],
 			size: 2.0d,
 			id: 1889,
@@ -365,11 +664,24 @@
 				id: 1890,
 				type: "item",
 				item: "refinedstorage:1024k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4744,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4745,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -16.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1889],
 			hide: false,
 			size: 2.0d,
@@ -378,11 +690,24 @@
 				id: 1892,
 				type: "item",
 				item: "refinedstorage:4096k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4742,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4743,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1896,
@@ -407,12 +732,25 @@
 					type: "item",
 					item: "refinedstorageaddons:wireless_crafting_grid"
 				}
+			],
+			rewards: [
+				{
+					id: 4828,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4829,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			title: "Let's Start Improvements With Some Upgrades",
 			x: 11.5d,
 			y: 0.0d,
+			shape: "diamond",
 			size: 2.0d,
 			id: 1902,
 			tasks: [{
@@ -424,6 +762,7 @@
 		{
 			x: 11.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;1902],
 			size: 2.0d,
 			id: 1904,
@@ -431,11 +770,24 @@
 				id: 1905,
 				type: "item",
 				item: "refinedstorage:fortune_1_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4844,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4845,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 15.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1902],
 			size: 2.0d,
 			id: 1983,
@@ -443,11 +795,24 @@
 				id: 1984,
 				type: "item",
 				item: "refinedstorage:speed_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4840,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4841,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 11.5d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1902],
 			size: 2.0d,
 			id: 1985,
@@ -455,11 +820,24 @@
 				id: 1986,
 				type: "item",
 				item: "refinedstorage:crafting_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4836,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4837,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1902],
 			size: 2.0d,
 			id: 1987,
@@ -467,11 +845,24 @@
 				id: 1988,
 				type: "item",
 				item: "refinedstorage:range_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4842,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4843,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 7.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1902],
 			size: 2.0d,
 			id: 1989,
@@ -479,11 +870,24 @@
 				id: 1990,
 				type: "item",
 				item: "refinedstorage:silk_touch_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4834,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4835,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 13.5d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1902],
 			size: 2.0d,
 			id: 1991,
@@ -491,11 +895,24 @@
 				id: 1992,
 				type: "item",
 				item: "refinedstorage:stack_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4838,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4839,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 15.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;1904],
 			size: 2.0d,
 			id: 1993,
@@ -503,11 +920,24 @@
 				id: 1994,
 				type: "item",
 				item: "refinedstorage:fortune_2_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4846,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4847,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -2.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;2124],
 			size: 2.0d,
 			id: 1997,
@@ -516,22 +946,48 @@
 				type: "item",
 				item: "refinedstorage:cable",
 				count: 12L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4792,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4793,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -12.0d,
 			y: -4.0d,
+			shape: "gear",
 			size: 2.0d,
 			id: 2190,
 			tasks: [{
 				id: 2191,
 				type: "item",
 				item: "extradisks:256k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4758,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4759,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -12.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;2190],
 			size: 2.0d,
 			id: 2193,
@@ -539,11 +995,24 @@
 				id: 2194,
 				type: "item",
 				item: "extradisks:256k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4760,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4761,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -16.0d,
 			y: -4.0d,
+			shape: "gear",
 			hide_dependency_lines: true,
 			size: 2.0d,
 			id: 2205,
@@ -551,11 +1020,24 @@
 				id: 2206,
 				type: "item",
 				item: "extradisks:1024k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4762,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4763,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -16.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;2205],
 			size: 2.0d,
 			id: 2207,
@@ -563,11 +1045,24 @@
 				id: 2208,
 				type: "item",
 				item: "extradisks:1024k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4764,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4765,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -20.0d,
 			y: -4.0d,
+			shape: "gear",
 			hide_dependency_lines: true,
 			size: 2.0d,
 			id: 2209,
@@ -575,11 +1070,24 @@
 				id: 2210,
 				type: "item",
 				item: "extradisks:4096k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4768,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4769,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -20.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;2209],
 			size: 2.0d,
 			id: 2211,
@@ -587,11 +1095,24 @@
 				id: 2212,
 				type: "item",
 				item: "extradisks:4096k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4766,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4767,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -24.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;2215],
 			size: 2.0d,
 			id: 2213,
@@ -599,11 +1120,24 @@
 				id: 2214,
 				type: "item",
 				item: "extradisks:16384k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4770,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4771,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -24.0d,
 			y: -4.0d,
+			shape: "gear",
 			hide_dependency_lines: true,
 			size: 2.0d,
 			id: 2215,
@@ -611,11 +1145,24 @@
 				id: 2216,
 				type: "item",
 				item: "extradisks:16384k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4772,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4773,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -28.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;2223],
 			size: 2.0d,
 			id: 2221,
@@ -623,33 +1170,72 @@
 				id: 2222,
 				type: "item",
 				item: "extradisks:16384k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4740,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4741,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -28.0d,
 			y: 11.5d,
+			shape: "gear",
 			size: 2.0d,
 			id: 2223,
 			tasks: [{
 				id: 2224,
 				type: "item",
 				item: "extradisks:16384k_fluid_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4738,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4739,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -24.0d,
 			y: 11.5d,
+			shape: "gear",
 			size: 2.0d,
 			id: 2225,
 			tasks: [{
 				id: 2226,
 				type: "item",
 				item: "extradisks:65536k_fluid_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4734,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4735,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -24.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;2225],
 			size: 2.0d,
 			id: 2227,
@@ -657,11 +1243,24 @@
 				id: 2228,
 				type: "item",
 				item: "extradisks:65536k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4736,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4737,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -20.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;2231],
 			size: 2.0d,
 			id: 2229,
@@ -669,22 +1268,48 @@
 				id: 2230,
 				type: "item",
 				item: "extradisks:262144k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4730,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4731,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -20.0d,
 			y: 11.5d,
+			shape: "gear",
 			size: 2.0d,
 			id: 2231,
 			tasks: [{
 				id: 2232,
 				type: "item",
 				item: "extradisks:262144k_fluid_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4732,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4733,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -16.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;2235],
 			size: 2.0d,
 			id: 2233,
@@ -692,22 +1317,48 @@
 				id: 2234,
 				type: "item",
 				item: "extradisks:1048576k_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4726,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4727,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -16.0d,
 			y: 11.5d,
+			shape: "gear",
 			size: 2.0d,
 			id: 2235,
 			tasks: [{
 				id: 2236,
 				type: "item",
 				item: "extradisks:1048576k_fluid_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4728,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4729,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 19.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;1993],
 			size: 2.0d,
 			id: 415,
@@ -715,11 +1366,24 @@
 				id: 416,
 				type: "item",
 				item: "refinedstorage:fortune_3_upgrade"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4848,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4849,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;1858],
 			size: 2.0d,
 			id: 417,
@@ -727,11 +1391,24 @@
 				id: 418,
 				type: "item",
 				item: "refinedstorage:256k_fluid_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4820,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4821,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;417],
 			size: 2.0d,
 			id: 419,
@@ -739,11 +1416,24 @@
 				id: 420,
 				type: "item",
 				item: "refinedstorage:1024k_fluid_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4822,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4823,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.0d,
 			y: -12.0d,
+			shape: "gear",
 			dependencies: [I;419],
 			size: 2.0d,
 			id: 421,
@@ -751,11 +1441,24 @@
 				id: 422,
 				type: "item",
 				item: "refinedstorage:4096k_fluid_storage_block"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4824,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4825,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -28.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;427],
 			size: 2.0d,
 			id: 425,
@@ -763,22 +1466,48 @@
 				id: 426,
 				type: "item",
 				item: "extradisks:65536k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4776,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4777,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -28.0d,
 			y: -4.0d,
+			shape: "gear",
 			size: 2.0d,
 			id: 427,
 			tasks: [{
 				id: 428,
 				type: "item",
 				item: "extradisks:65536k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4774,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4775,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -12.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;1825],
 			size: 2.0d,
 			id: 429,
@@ -786,33 +1515,72 @@
 				id: 430,
 				type: "item",
 				item: "extradisks:infinite_fluid_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4724,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4725,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -12.0d,
 			y: 11.5d,
+			shape: "gear",
 			size: 2.0d,
 			id: 1825,
 			tasks: [{
 				id: 1826,
 				type: "item",
 				item: "extradisks:infinite_fluid_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4722,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4723,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -32.0d,
 			y: -4.0d,
+			shape: "gear",
 			size: 2.0d,
 			id: 1827,
 			tasks: [{
 				id: 1828,
 				type: "item",
 				item: "extradisks:262144k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4780,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4781,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -32.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;1827],
 			size: 2.0d,
 			id: 1829,
@@ -820,11 +1588,24 @@
 				id: 1830,
 				type: "item",
 				item: "extradisks:262144k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4778,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4779,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -36.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;1833],
 			size: 2.0d,
 			id: 1831,
@@ -832,33 +1613,72 @@
 				id: 1832,
 				type: "item",
 				item: "extradisks:1048576k_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4782,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4783,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -36.0d,
 			y: -4.0d,
+			shape: "gear",
 			size: 2.0d,
 			id: 1833,
 			tasks: [{
 				id: 1834,
 				type: "item",
 				item: "extradisks:1048576k_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4784,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4785,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -40.0d,
 			y: -4.0d,
+			shape: "gear",
 			size: 2.0d,
 			id: 1835,
 			tasks: [{
 				id: 1836,
 				type: "item",
 				item: "extradisks:infinite_storage_part"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4786,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4787,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -40.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;1835],
 			size: 2.0d,
 			id: 1837,
@@ -866,7 +1686,19 @@
 				id: 1842,
 				type: "item",
 				item: "extradisks:infinite_storage_disk"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4788,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4789,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

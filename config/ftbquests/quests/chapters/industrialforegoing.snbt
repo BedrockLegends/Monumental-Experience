@@ -1,7 +1,7 @@
 {
 	id: 10,
 	filename: "industrialforegoing",
-	order_index: 17,
+	order_index: 19,
 	title: "Industrial Foregoing",
 	icon: "industrialforegoing:mob_slaughter_factory",
 	default_quest_shape: "",
@@ -26,7 +26,7 @@
 		{
 			x: -2.0d,
 			y: -2.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 616,
 			tasks: [{
@@ -43,7 +43,7 @@
 		{
 			x: -2.5d,
 			y: 0.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 618,
 			tasks: [{
@@ -60,7 +60,7 @@
 		{
 			x: -2.0d,
 			y: 2.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 620,
 			tasks: [{
@@ -77,7 +77,7 @@
 		{
 			x: -2.5d,
 			y: 1.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 624,
 			tasks: [{
@@ -94,7 +94,7 @@
 		{
 			x: -2.5d,
 			y: -1.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 626,
 			tasks: [{
@@ -111,7 +111,7 @@
 		{
 			x: 0.0d,
 			y: 2.5d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 628,
 			tasks: [{
@@ -128,7 +128,7 @@
 		{
 			x: -1.0d,
 			y: 2.5d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 630,
 			tasks: [{
@@ -145,7 +145,7 @@
 		{
 			x: 1.0d,
 			y: 2.5d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 634,
 			tasks: [{
@@ -162,7 +162,7 @@
 		{
 			x: 2.5d,
 			y: 1.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 644,
 			tasks: [{
@@ -179,7 +179,7 @@
 		{
 			x: 3.5d,
 			y: 1.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;644],
 			id: 646,
 			tasks: [{
@@ -196,7 +196,7 @@
 		{
 			x: 2.5d,
 			y: -1.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 648,
 			tasks: [{
@@ -213,7 +213,7 @@
 		{
 			x: 2.0d,
 			y: -2.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 652,
 			tasks: [{
@@ -230,7 +230,7 @@
 		{
 			x: 2.0d,
 			y: 2.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 654,
 			tasks: [{
@@ -247,7 +247,7 @@
 		{
 			x: 2.5d,
 			y: 0.0d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 656,
 			tasks: [{
@@ -264,7 +264,7 @@
 		{
 			x: 0.0d,
 			y: -2.5d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;662],
 			id: 660,
 			tasks: [{
@@ -281,7 +281,7 @@
 		{
 			x: -1.0d,
 			y: -2.5d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;614],
 			id: 662,
 			tasks: [{
@@ -299,7 +299,7 @@
 		{
 			x: 1.0d,
 			y: -2.5d,
-			shape: "rsquare",
+			shape: "gear",
 			dependencies: [I;660],
 			id: 664,
 			tasks: [{

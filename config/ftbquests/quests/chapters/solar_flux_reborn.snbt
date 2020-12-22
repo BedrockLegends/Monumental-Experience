@@ -1,8 +1,9 @@
 {
 	id: 3801,
 	filename: "solar_flux_reborn",
-	order_index: 38,
+	order_index: 40,
 	title: "Solar Flux Reborn",
+	icon: "solarflux:blank_upgrade",
 	default_quest_shape: "",
 	quests: [
 		{
@@ -282,6 +283,7 @@
 		{
 			x: -6.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;3842],
 			id: 3846,
 			tasks: [{
@@ -305,6 +307,7 @@
 		{
 			x: -6.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;3846],
 			id: 3854,
 			tasks: [{
@@ -328,6 +331,7 @@
 		{
 			x: -10.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;3854],
 			id: 3858,
 			tasks: [{
@@ -373,6 +377,7 @@
 		{
 			x: 17.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3864,
 			tasks: [{
@@ -396,6 +401,7 @@
 		{
 			x: 13.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3870,
 			tasks: [{
@@ -419,6 +425,7 @@
 		{
 			x: 21.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3872,
 			tasks: [{
@@ -442,6 +449,7 @@
 		{
 			x: 17.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3878,
 			tasks: [{
@@ -465,6 +473,7 @@
 		{
 			x: 13.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3883,
 			tasks: [{
@@ -488,6 +497,7 @@
 		{
 			x: 21.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3885,
 			tasks: [{
@@ -511,6 +521,7 @@
 		{
 			x: 13.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;3862],
 			id: 3891,
 			tasks: [{

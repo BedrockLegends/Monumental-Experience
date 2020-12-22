@@ -1,7 +1,7 @@
 {
 	id: 1894,
 	filename: "mining_gadget",
-	order_index: 21,
+	order_index: 23,
 	title: "Mining Gadget",
 	icon: {
 		id: "mininggadgets:mininggadget",
@@ -29,6 +29,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1906,
 			tasks: [{
@@ -45,6 +46,7 @@
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1908,
 			tasks: [{
@@ -65,6 +67,7 @@
 		{
 			x: 4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1910,
 			tasks: [{
@@ -81,6 +84,7 @@
 		{
 			x: 5.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1910],
 			id: 1912,
 			tasks: [{
@@ -97,6 +101,7 @@
 		{
 			x: 6.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1912],
 			id: 1914,
 			tasks: [{
@@ -113,6 +118,7 @@
 		{
 			x: 7.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1914],
 			id: 1916,
 			tasks: [{
@@ -129,6 +135,7 @@
 		{
 			x: 8.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1916],
 			id: 1919,
 			tasks: [{
@@ -145,6 +152,7 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1921,
 			tasks: [{
@@ -161,6 +169,7 @@
 		{
 			x: 0.0d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;1921],
 			id: 1923,
 			tasks: [{
@@ -177,6 +186,7 @@
 		{
 			x: 0.0d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;1923],
 			id: 1925,
 			tasks: [{
@@ -193,6 +203,7 @@
 		{
 			x: -4.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1927,
 			tasks: [{
@@ -209,6 +220,7 @@
 		{
 			x: -4.0d,
 			y: -5.0d,
+			shape: "gear",
 			dependencies: [I;1927],
 			id: 1929,
 			tasks: [{
@@ -225,6 +237,7 @@
 		{
 			x: -4.0d,
 			y: -6.0d,
+			shape: "gear",
 			dependencies: [I;1929],
 			id: 1931,
 			tasks: [{
@@ -241,6 +254,7 @@
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1908],
 			id: 1933,
 			tasks: [{
@@ -257,6 +271,7 @@
 		{
 			x: -4.0d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;1933],
 			id: 1935,
 			tasks: [{
@@ -273,6 +288,7 @@
 		{
 			x: -4.0d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;1935],
 			id: 1937,
 			tasks: [{
@@ -289,6 +305,7 @@
 		{
 			x: -2.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1939,
 			tasks: [{
@@ -305,6 +322,7 @@
 		{
 			x: 2.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1941,
 			tasks: [{
@@ -321,6 +339,7 @@
 		{
 			x: 2.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1943,
 			tasks: [{
@@ -337,6 +356,7 @@
 		{
 			x: -2.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1945,
 			tasks: [{
@@ -353,6 +373,7 @@
 		{
 			x: 0.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1947,
 			tasks: [{
@@ -369,6 +390,7 @@
 		{
 			x: 0.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1895],
 			id: 1949,
 			tasks: [{

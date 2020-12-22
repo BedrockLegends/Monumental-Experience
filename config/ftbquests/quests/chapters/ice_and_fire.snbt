@@ -1,7 +1,7 @@
 {
 	id: 3370,
 	filename: "ice_and_fire",
-	order_index: 15,
+	order_index: 17,
 	title: "Ice and Fire",
 	icon: "iceandfire:dragon_skull_fire",
 	default_quest_shape: "",

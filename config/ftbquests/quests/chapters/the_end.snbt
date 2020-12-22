@@ -1,7 +1,7 @@
 {
 	id: 2987,
 	filename: "the_end",
-	order_index: 41,
+	order_index: 44,
 	title: "The End",
 	icon: "minecraft:end_portal_frame",
 	default_quest_shape: "",
@@ -33,6 +33,7 @@
 		{
 			x: 6.0d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;2988],
 			id: 2990,
 			tasks: [{
@@ -57,6 +58,7 @@
 		{
 			x: 10.0d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;2990],
 			id: 2992,
 			tasks: [{
@@ -81,6 +83,7 @@
 		{
 			x: 2.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;2988],
 			id: 3314,
 			tasks: [{
@@ -105,6 +108,7 @@
 		{
 			x: 6.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;2988],
 			id: 2996,
 			tasks: [{
@@ -128,6 +132,7 @@
 		{
 			x: 4.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;2988],
 			id: 2998,
 			tasks: [{
@@ -199,6 +204,7 @@
 		{
 			x: 10.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;2988],
 			id: 3316,
 			tasks: [{
@@ -222,6 +228,7 @@
 		{
 			x: 0.0d,
 			y: -3.5d,
+			shape: "gear",
 			id: 3006,
 			tasks: [{
 				id: 3007,

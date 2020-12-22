@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "alltheores",
-	order_index: 2,
+	order_index: 4,
 	title: "All the Ores",
 	icon: "alltheores:ore_copper",
 	default_quest_shape: "",
@@ -18,9 +18,9 @@
 				item: "alltheores:ore_nickel"
 			}],
 			rewards: [{
-				id: 2562,
-				type: "random",
-				table: 0
+				id: 4499,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -34,9 +34,9 @@
 				item: "alltheores:ore_platinum"
 			}],
 			rewards: [{
-				id: 2564,
-				type: "random",
-				table: 0
+				id: 4501,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -50,9 +50,9 @@
 				item: "alltheores:ore_tin"
 			}],
 			rewards: [{
-				id: 2566,
-				type: "random",
-				table: 0
+				id: 4502,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -66,9 +66,9 @@
 				item: "alltheores:ore_copper"
 			}],
 			rewards: [{
-				id: 2565,
-				type: "random",
-				table: 0
+				id: 4505,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -82,9 +82,9 @@
 				item: "alltheores:ore_osmium"
 			}],
 			rewards: [{
-				id: 2567,
-				type: "random",
-				table: 0
+				id: 4503,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -98,9 +98,9 @@
 				item: "alltheores:ore_silver"
 			}],
 			rewards: [{
-				id: 2569,
-				type: "random",
-				table: 0
+				id: 4506,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -114,9 +114,9 @@
 				item: "alltheores:ore_aluminum"
 			}],
 			rewards: [{
-				id: 2570,
-				type: "random",
-				table: 0
+				id: 4507,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -146,9 +146,9 @@
 				item: "alltheores:ore_zinc"
 			}],
 			rewards: [{
-				id: 2572,
-				type: "random",
-				table: 0
+				id: 4966,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -162,9 +162,9 @@
 				item: "alltheores:ore_lead"
 			}],
 			rewards: [{
-				id: 2574,
-				type: "random",
-				table: 0
+				id: 4509,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -178,9 +178,9 @@
 				item: "minecraft:coal_ore"
 			}],
 			rewards: [{
-				id: 2575,
-				type: "random",
-				table: 0
+				id: 4510,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -194,9 +194,9 @@
 				item: "minecraft:iron_ore"
 			}],
 			rewards: [{
-				id: 2545,
-				type: "random",
-				table: 0
+				id: 4511,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -210,9 +210,9 @@
 				item: "minecraft:lapis_ore"
 			}],
 			rewards: [{
-				id: 2561,
-				type: "random",
-				table: 0
+				id: 4497,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -226,9 +226,9 @@
 				item: "minecraft:gold_ore"
 			}],
 			rewards: [{
-				id: 2392,
-				type: "random",
-				table: 0
+				id: 4498,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -242,9 +242,9 @@
 				item: "minecraft:redstone_ore"
 			}],
 			rewards: [{
-				id: 2563,
-				type: "random",
-				table: 0
+				id: 4500,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -258,9 +258,9 @@
 				item: "minecraft:diamond_ore"
 			}],
 			rewards: [{
-				id: 2568,
-				type: "random",
-				table: 0
+				id: 4504,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -274,9 +274,9 @@
 				item: "minecraft:emerald_ore"
 			}],
 			rewards: [{
-				id: 2573,
-				type: "random",
-				table: 0
+				id: 4508,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "powder_power:blend_trilium"
+  },
+  "result": "minecraft:air",
+  "experience": 0.35,
+  "cookingtime": 200
+}

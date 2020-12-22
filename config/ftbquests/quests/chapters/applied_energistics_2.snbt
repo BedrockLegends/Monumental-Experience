@@ -1,7 +1,7 @@
 {
 	id: 2741,
 	filename: "applied_energistics_2",
-	order_index: 4,
+	order_index: 6,
 	title: "Applied Energistics 2",
 	icon: "appliedenergistics2:controller",
 	default_quest_shape: "",
@@ -32,6 +32,7 @@
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2742],
 			id: 890,
 			tasks: [{
@@ -39,11 +40,24 @@
 				type: "item",
 				item: "appliedenergistics2:certus_crystal_seed",
 				count: 2L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4299,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4300,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;890],
 			id: 892,
 			tasks: [{
@@ -67,6 +81,7 @@
 		{
 			x: -5.0d,
 			y: 0.0d,
+			shape: "gear",
 			id: 894,
 			tasks: [{
 				id: 895,
@@ -90,6 +105,7 @@
 		{
 			x: -5.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;894],
 			id: 896,
 			tasks: [{
@@ -113,6 +129,7 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2742],
 			id: 898,
 			tasks: [{
@@ -136,6 +153,7 @@
 		{
 			x: 4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2742],
 			id: 900,
 			tasks: [{
@@ -182,6 +200,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;902],
 			id: 904,
 			tasks: [{
@@ -251,6 +270,7 @@
 		{
 			x: 0.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;909],
 			id: 911,
 			tasks: [{
@@ -274,6 +294,7 @@
 		{
 			x: -2.0d,
 			y: 10.0d,
+			shape: "gear",
 			dependencies: [I;911],
 			id: 913,
 			tasks: [{
@@ -297,6 +318,7 @@
 		{
 			x: 8.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;909],
 			id: 915,
 			tasks: [{
@@ -320,6 +342,7 @@
 		{
 			x: 6.0d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;906],
 			id: 917,
 			tasks: [{
@@ -343,6 +366,7 @@
 		{
 			x: 6.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;917],
 			id: 919,
 			tasks: [{
@@ -366,6 +390,7 @@
 		{
 			x: 8.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;915],
 			id: 921,
 			tasks: [{
@@ -421,6 +446,7 @@
 		{
 			x: 12.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 926,
 			tasks: [{
@@ -444,6 +470,7 @@
 		{
 			x: 12.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 928,
 			tasks: [{
@@ -467,6 +494,7 @@
 		{
 			x: 16.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 934,
 			tasks: [
@@ -499,6 +527,7 @@
 		{
 			x: 16.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 938,
 			tasks: [{
@@ -528,6 +557,7 @@
 		{
 			x: 8.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 940,
 			tasks: [{
@@ -545,6 +575,7 @@
 		{
 			x: 16.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 942,
 			tasks: [
@@ -577,6 +608,7 @@
 		{
 			x: 10.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 946,
 			tasks: [
@@ -609,6 +641,7 @@
 		{
 			x: 14.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 949,
 			tasks: [
@@ -641,6 +674,7 @@
 		{
 			x: 4.0d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;909],
 			id: 952,
 			tasks: [{
@@ -675,6 +709,7 @@
 		{
 			x: 12.0d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 956,
 			tasks: [{
@@ -698,6 +733,7 @@
 		{
 			x: 12.0d,
 			y: 10.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 958,
 			tasks: [{
@@ -721,6 +757,7 @@
 		{
 			x: 8.0d,
 			y: 16.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 960,
 			tasks: [{
@@ -750,6 +787,7 @@
 		{
 			x: 12.0d,
 			y: 16.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 962,
 			tasks: [{
@@ -777,6 +815,7 @@
 		{
 			x: 6.0d,
 			y: 16.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 964,
 			tasks: [{
@@ -800,6 +839,7 @@
 		{
 			x: 0.0d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;909],
 			id: 966,
 			tasks: [{
@@ -846,6 +886,7 @@
 		{
 			x: -4.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;898],
 			id: 970,
 			tasks: [{
@@ -873,6 +914,7 @@
 		{
 			x: -8.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;970],
 			id: 972,
 			tasks: [{
@@ -900,6 +942,7 @@
 		{
 			x: 4.0d,
 			y: 16.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 974,
 			tasks: [{
@@ -923,6 +966,7 @@
 		{
 			x: -4.0d,
 			y: 16.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 1013,
 			tasks: [
@@ -953,6 +997,7 @@
 		{
 			x: -4.0d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 1024,
 			tasks: [{
@@ -964,6 +1009,7 @@
 		{
 			x: 4.0d,
 			y: 20.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 1028,
 			tasks: [{
@@ -987,6 +1033,7 @@
 		{
 			x: 0.0d,
 			y: 20.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 1049,
 			tasks: [{
@@ -1014,6 +1061,7 @@
 		{
 			x: 2.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;906],
 			id: 1051,
 			tasks: [{
@@ -1037,6 +1085,7 @@
 		{
 			x: -2.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;892],
 			id: 1053,
 			tasks: [{
@@ -1060,6 +1109,7 @@
 		{
 			x: 4.0d,
 			y: 14.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 1055,
 			tasks: [{
@@ -1083,6 +1133,7 @@
 		{
 			x: 8.0d,
 			y: 10.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 1057,
 			tasks: [{
@@ -1106,6 +1157,7 @@
 		{
 			x: 4.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;1051],
 			id: 1059,
 			tasks: [{
@@ -1129,6 +1181,7 @@
 		{
 			x: 8.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;902],
 			id: 1061,
 			tasks: [{
@@ -1175,6 +1228,7 @@
 		{
 			x: 12.0d,
 			y: 14.0d,
+			shape: "gear",
 			dependencies: [I;954],
 			id: 1065,
 			tasks: [{
@@ -1198,6 +1252,7 @@
 		{
 			x: 8.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 1073,
 			tasks: [
@@ -1228,6 +1283,7 @@
 		{
 			x: -4.0d,
 			y: 20.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 1076,
 			tasks: [{
@@ -1251,6 +1307,7 @@
 		{
 			x: 16.0d,
 			y: 14.0d,
+			shape: "gear",
 			dependencies: [I;1065],
 			id: 1080,
 			tasks: [{
@@ -1274,6 +1331,7 @@
 		{
 			x: 4.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;902],
 			id: 1122,
 			tasks: [{
@@ -1297,6 +1355,7 @@
 		{
 			x: 10.0d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;921],
 			id: 1124,
 			tasks: [{
@@ -1320,6 +1379,7 @@
 		{
 			x: 10.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;1124],
 			id: 1134,
 			tasks: [{
@@ -1343,6 +1403,7 @@
 		{
 			x: 14.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;923],
 			id: 1136,
 			tasks: [{
@@ -1366,6 +1427,7 @@
 		{
 			x: 2.0d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;968],
 			id: 1138,
 			tasks: [{
@@ -1389,6 +1451,7 @@
 		{
 			x: 2.0d,
 			y: 10.0d,
+			shape: "gear",
 			dependencies: [I;1138],
 			id: 1176,
 			tasks: [{
@@ -1412,6 +1475,7 @@
 		{
 			x: 0.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;2742],
 			id: 1198,
 			tasks: [{
@@ -1436,6 +1500,7 @@
 		{
 			x: -10.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1206,
 			tasks: [{
 				id: 1207,
@@ -1458,6 +1523,7 @@
 		{
 			x: -11.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1210,
 			tasks: [{
 				id: 1211,
@@ -1480,6 +1546,7 @@
 		{
 			x: -12.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1212,
 			tasks: [{
 				id: 1213,
@@ -1502,6 +1569,7 @@
 		{
 			x: -13.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1214,
 			tasks: [{
 				id: 1215,
@@ -1512,6 +1580,7 @@
 		{
 			x: -10.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1206],
 			id: 1216,
 			tasks: [{
@@ -1522,11 +1591,24 @@
 					Count: true,
 					tag: {}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4303,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4304,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -11.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1210],
 			id: 1258,
 			tasks: [{
@@ -1537,11 +1619,24 @@
 					Count: true,
 					tag: {}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4301,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4302,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -12.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1212],
 			id: 1299,
 			tasks: [{
@@ -1557,6 +1652,7 @@
 		{
 			x: -13.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1214],
 			id: 1309,
 			tasks: [{
@@ -1584,6 +1680,7 @@
 		{
 			x: 18.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1311,
 			tasks: [{
 				id: 1312,
@@ -1606,6 +1703,7 @@
 		{
 			x: 18.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1311],
 			id: 1313,
 			tasks: [{
@@ -1633,6 +1731,7 @@
 		{
 			x: 19.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1337,
 			tasks: [{
 				id: 1338,
@@ -1655,6 +1754,7 @@
 		{
 			x: 19.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1337],
 			id: 1351,
 			tasks: [{
@@ -1682,6 +1782,7 @@
 		{
 			x: 20.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1353,
 			tasks: [{
 				id: 1354,
@@ -1704,6 +1805,7 @@
 		{
 			x: 20.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1353],
 			id: 1355,
 			tasks: [{
@@ -1731,6 +1833,7 @@
 		{
 			x: 21.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 1357,
 			tasks: [{
 				id: 1358,
@@ -1753,6 +1856,7 @@
 		{
 			x: 21.5d,
 			y: 12.0d,
+			shape: "gear",
 			dependencies: [I;1357],
 			id: 1359,
 			tasks: [{

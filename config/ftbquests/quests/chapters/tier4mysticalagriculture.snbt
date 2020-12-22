@@ -1,7 +1,7 @@
 {
 	id: 7,
 	filename: "tier4mysticalagriculture",
-	order_index: 26,
+	order_index: 28,
 	title: "(Tier4) Mystical Agriculture",
 	icon: "mysticalagriculture:gold_seeds",
 	default_quest_shape: "",
@@ -54,7 +54,6 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
-			dependencies: [I;245],
 			id: 331,
 			tasks: [{
 				id: 332,
@@ -731,7 +730,7 @@
 			y: 4.0d,
 			id: 217,
 			tasks: [{
-				id: 265,
+				id: 5025,
 				type: "item",
 				item: "mysticalagriculture:hop_graphite_seeds"
 			}]
@@ -739,7 +738,7 @@
 		{
 			x: -9.0d,
 			y: 4.0d,
-			id: 266,
+			id: 5026,
 			tasks: [{
 				id: 375,
 				type: "item",

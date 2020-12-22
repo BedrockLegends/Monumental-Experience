@@ -1,7 +1,7 @@
 {
 	id: 755,
 	filename: "creative_stuff",
-	order_index: 8,
+	order_index: 10,
 	title: "Creative Stuff",
 	icon: "storagedrawers:creative_storage_upgrade",
 	default_quest_shape: "",

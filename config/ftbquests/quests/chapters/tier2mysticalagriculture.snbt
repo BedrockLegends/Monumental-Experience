@@ -1,19 +1,26 @@
 {
 	id: 3318,
 	filename: "tier2mysticalagriculture",
-	order_index: 24,
+	order_index: 26,
 	title: "(Tier2) Mystical Agriculture",
 	icon: "mysticalagriculture:nature_seeds",
 	default_quest_shape: "",
 	quests: [
 		{
 			x: 0.0d,
-			y: -2.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3319,
 			tasks: [{
 				id: 3320,
 				type: "item",
 				item: "mysticalagradditions:prudentium_coal"
+			}],
+			rewards: [{
+				id: 4418,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -30,28 +37,44 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -2.0d,
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3325,
 			tasks: [{
 				id: 3326,
 				type: "item",
 				item: "mysticalagriculture:prudentium_gemstone"
+			}],
+			rewards: [{
+				id: 4421,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 4.0d,
 			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3327,
 			tasks: [{
 				id: 134,
 				type: "item",
 				item: "mysticalagriculture:prudentium_ingot"
+			}],
+			rewards: [{
+				id: 4419,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -4.0d,
 			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3328,
 			tasks: [{
 				id: 3329,
@@ -63,11 +86,18 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4427,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 0.0d,
+			x: -4.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3330,
 			tasks: [{
 				id: 3331,
@@ -79,11 +109,18 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4423,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -8.0d,
 			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;3330],
 			id: 3332,
 			tasks: [{
 				id: 3333,
@@ -95,11 +132,18 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4424,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -4.0d,
+			x: -8.0d,
+			y: -6.0d,
+			shape: "gear",
+			dependencies: [I;3332],
 			id: 3334,
 			tasks: [{
 				id: 3335,
@@ -111,11 +155,18 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4425,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 5.5d,
-			y: -4.0d,
+			x: -4.0d,
+			y: -6.0d,
+			shape: "gear",
+			dependencies: [I;3334],
 			id: 3336,
 			tasks: [{
 				id: 3337,
@@ -127,21 +178,35 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4426,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 2.0d,
+			x: -4.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3338,
 			tasks: [{
 				id: 3339,
 				type: "item",
 				item: "mysticalagriculture:prudentium_furnace"
+			}],
+			rewards: [{
+				id: 4420,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 2.0d,
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3340,
 			tasks: [{
 				id: 3341,
@@ -154,16 +219,28 @@
 						Active: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4422,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;3321],
 			id: 3342,
 			tasks: [{
 				id: 3343,
 				type: "item",
 				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}],
+			rewards: [{
+				id: 4417,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -180,165 +257,255 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 153,
 			tasks: [{
 				id: 154,
 				type: "item",
 				item: "mysticalagriculture:nature_seeds"
+			}],
+			rewards: [{
+				id: 4484,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -1.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 155,
 			tasks: [{
 				id: 156,
 				type: "item",
 				item: "mysticalagriculture:dye_seeds"
+			}],
+			rewards: [{
+				id: 4482,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 157,
 			tasks: [{
 				id: 158,
 				type: "item",
 				item: "mysticalagriculture:coal_seeds"
+			}],
+			rewards: [{
+				id: 4478,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 159,
 			tasks: [{
 				id: 160,
 				type: "item",
 				item: "mysticalagriculture:nether_seeds"
+			}],
+			rewards: [{
+				id: 4480,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 161,
 			tasks: [{
 				id: 162,
 				type: "item",
 				item: "mysticalagriculture:coral_seeds"
+			}],
+			rewards: [{
+				id: 4476,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -5.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 163,
 			tasks: [{
 				id: 164,
 				type: "item",
 				item: "mysticalagriculture:sulfur_seeds"
+			}],
+			rewards: [{
+				id: 4475,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 9.5d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 165,
 			tasks: [{
 				id: 166,
 				type: "item",
 				item: "mysticalagriculture:pig_seeds"
+			}],
+			rewards: [{
+				id: 4446,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.5d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 167,
 			tasks: [{
 				id: 168,
 				type: "item",
 				item: "mysticalagriculture:chicken_seeds"
+			}],
+			rewards: [{
+				id: 4449,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 11.5d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 169,
 			tasks: [{
 				id: 170,
 				type: "item",
 				item: "mysticalagriculture:cow_seeds"
+			}],
+			rewards: [{
+				id: 4452,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 11.5d,
 			y: 3.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 171,
 			tasks: [{
 				id: 172,
 				type: "item",
 				item: "mysticalagriculture:sheep_seeds"
+			}],
+			rewards: [{
+				id: 4454,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 11.5d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 173,
 			tasks: [{
 				id: 174,
 				type: "item",
 				item: "mysticalagriculture:squid_seeds"
+			}],
+			rewards: [{
+				id: 4457,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.5d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 175,
 			tasks: [{
 				id: 176,
 				type: "item",
 				item: "mysticalagriculture:fish_seeds"
+			}],
+			rewards: [{
+				id: 4435,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 9.5d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 177,
 			tasks: [{
 				id: 178,
 				type: "item",
 				item: "mysticalagriculture:slime_seeds"
+			}],
+			rewards: [{
+				id: 4432,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.5d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 179,
 			tasks: [{
 				id: 2013,
 				type: "item",
 				item: "mysticalagriculture:turtle_seeds"
+			}],
+			rewards: [{
+				id: 4430,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 7.5d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 2014,
 			tasks: [{
 				id: 2015,
 				type: "item",
 				item: "mysticalagriculture:wolf_seeds"
+			}],
+			rewards: [{
+				id: 4437,
+				type: "item"
 			}]
 		},
 		{
 			x: 0.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;153],
 			id: 2016,
 			tasks: [{
@@ -346,11 +513,17 @@
 				type: "item",
 				item: "mysticalagriculture:nature_essence",
 				count: 8L
+			}],
+			rewards: [{
+				id: 4485,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -1.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;155],
 			id: 2018,
 			tasks: [{
@@ -358,11 +531,17 @@
 				type: "item",
 				item: "mysticalagriculture:dye_essence",
 				count: 3L
+			}],
+			rewards: [{
+				id: 4483,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;159],
 			id: 2020,
 			tasks: [{
@@ -370,11 +549,17 @@
 				type: "item",
 				item: "mysticalagriculture:nether_essence",
 				count: 8L
+			}],
+			rewards: [{
+				id: 4481,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;157],
 			id: 2022,
 			tasks: [{
@@ -382,11 +567,17 @@
 				type: "item",
 				item: "mysticalagriculture:coal_essence",
 				count: 8L
+			}],
+			rewards: [{
+				id: 4479,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;161],
 			id: 2024,
 			tasks: [{
@@ -394,11 +585,17 @@
 				type: "item",
 				item: "mysticalagriculture:coral_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4477,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.5d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;173],
 			id: 2026,
 			tasks: [{
@@ -406,11 +603,17 @@
 				type: "item",
 				item: "mysticalagriculture:squid_essence",
 				count: 3L
+			}],
+			rewards: [{
+				id: 4456,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.5d,
 			y: 3.0d,
+			shape: "gear",
 			dependencies: [I;171],
 			id: 2028,
 			tasks: [{
@@ -418,11 +621,17 @@
 				type: "item",
 				item: "mysticalagriculture:sheep_essence",
 				count: 8L
+			}],
+			rewards: [{
+				id: 4455,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.5d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;169],
 			id: 2030,
 			tasks: [{
@@ -430,11 +639,17 @@
 				type: "item",
 				item: "mysticalagriculture:cow_essence",
 				count: 3L
+			}],
+			rewards: [{
+				id: 4453,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;167],
 			id: 2032,
 			tasks: [{
@@ -442,11 +657,17 @@
 				type: "item",
 				item: "mysticalagriculture:chicken_essence",
 				count: 3L
+			}],
+			rewards: [{
+				id: 4448,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 9.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;165],
 			id: 2034,
 			tasks: [{
@@ -454,11 +675,17 @@
 				type: "item",
 				item: "mysticalagriculture:pig_essence",
 				count: 3L
+			}],
+			rewards: [{
+				id: 4447,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 9.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;177],
 			id: 2036,
 			tasks: [{
@@ -466,11 +693,17 @@
 				type: "item",
 				item: "mysticalagriculture:slime_essence",
 				count: 3L
+			}],
+			rewards: [{
+				id: 4434,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;179],
 			id: 2038,
 			tasks: [{
@@ -478,11 +711,17 @@
 				type: "item",
 				item: "mysticalagriculture:turtle_essence",
 				count: 8L
+			}],
+			rewards: [{
+				id: 4431,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;175],
 			id: 2040,
 			tasks: [{
@@ -490,11 +729,17 @@
 				type: "item",
 				item: "mysticalagriculture:fish_essence",
 				count: 8L
+			}],
+			rewards: [{
+				id: 4436,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.5d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2014],
 			id: 2042,
 			tasks: [{
@@ -502,11 +747,17 @@
 				type: "item",
 				item: "mysticalagriculture:wolf_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4438,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.5d,
 			y: 3.0d,
+			shape: "gear",
 			dependencies: [I;235],
 			id: 219,
 			tasks: [{
@@ -514,11 +765,17 @@
 				type: "item",
 				item: "mysticalagriculture:cat_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4440,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.5d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;233],
 			id: 221,
 			tasks: [{
@@ -526,22 +783,34 @@
 				type: "item",
 				item: "mysticalagriculture:bat_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4442,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 7.5d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 223,
 			tasks: [{
 				id: 224,
 				type: "item",
 				item: "mysticalagriculture:parrot_seeds"
+			}],
+			rewards: [{
+				id: 4429,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 7.5d,
 			y: 6.0d,
+			shape: "gear",
 			dependencies: [I;223],
 			id: 225,
 			tasks: [{
@@ -549,11 +818,17 @@
 				type: "item",
 				icon: "mysticalagriculture:parrot_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4428,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -5.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;163],
 			id: 227,
 			tasks: [{
@@ -561,55 +836,85 @@
 				type: "item",
 				item: "mysticalagriculture:sulfur_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4474,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.5d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 229,
 			tasks: [{
 				id: 230,
 				type: "item",
 				item: "mysticalagriculture:fox_seeds"
+			}],
+			rewards: [{
+				id: 4445,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 11.5d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 231,
 			tasks: [{
 				id: 232,
 				type: "item",
 				item: "mysticalagriculture:panda_seeds"
+			}],
+			rewards: [{
+				id: 4450,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 7.5d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 233,
 			tasks: [{
 				id: 234,
 				type: "item",
 				item: "mysticalagriculture:bat_seeds"
+			}],
+			rewards: [{
+				id: 4441,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 7.5d,
 			y: 3.0d,
+			shape: "gear",
 			dependencies: [I;151],
 			id: 235,
 			tasks: [{
 				id: 236,
 				type: "item",
 				item: "mysticalagriculture:cat_seeds"
+			}],
+			rewards: [{
+				id: 4439,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.5d,
-			y: 0.0d,
+			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;231],
 			id: 237,
 			tasks: [{
@@ -617,11 +922,17 @@
 				type: "item",
 				item: "mysticalagriculture:panda_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4451,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;229],
 			id: 239,
 			tasks: [{
@@ -629,101 +940,161 @@
 				type: "item",
 				item: "mysticalagriculture:fox_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4444,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.5d,
 			y: 0.0d,
+			shape: "gear",
 			id: 263,
 			tasks: [{
 				id: 264,
 				type: "item",
 				item: "mysticalagriculture:soul_jar"
+			}],
+			rewards: [{
+				id: 4443,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 181,
 			tasks: [{
 				id: 182,
 				type: "item",
 				item: "mysticalagriculture:honey_seeds"
+			}],
+			rewards: [{
+				id: 4472,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -7.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 183,
 			tasks: [{
 				id: 184,
 				type: "item",
 				item: "mysticalagriculture:rubber_seeds"
+			}],
+			rewards: [{
+				id: 4470,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 185,
 			tasks: [{
 				id: 186,
 				type: "item",
 				item: "mysticalagriculture:silicon_seeds"
+			}],
+			rewards: [{
+				id: 4468,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -9.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 187,
 			tasks: [{
 				id: 188,
 				type: "item",
 				item: "mysticalagriculture:aluminum_seeds"
+			}],
+			rewards: [{
+				id: 4466,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -10.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 189,
 			tasks: [{
 				id: 190,
 				type: "item",
 				item: "mysticalagriculture:copper_seeds"
+			}],
+			rewards: [{
+				id: 4464,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -11.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 191,
 			tasks: [{
 				id: 192,
 				type: "item",
 				item: "mysticalagriculture:saltpeter_seeds"
+			}],
+			rewards: [{
+				id: 4462,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -12.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 193,
 			tasks: [{
 				id: 194,
 				type: "item",
 				item: "mysticalagriculture:platinum_seeds"
+			}],
+			rewards: [{
+				id: 4460,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -13.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 195,
 			tasks: [{
 				id: 196,
 				type: "item",
 				item: "mysticalagriculture:mystical_flower_seeds"
+			}],
+			rewards: [{
+				id: 4458,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;181],
 			id: 874,
 			tasks: [{
@@ -731,11 +1102,17 @@
 				type: "item",
 				item: "mysticalagriculture:honey_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4473,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -7.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;183],
 			id: 876,
 			tasks: [{
@@ -743,11 +1120,17 @@
 				type: "item",
 				item: "mysticalagriculture:rubber_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4471,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;185],
 			id: 878,
 			tasks: [{
@@ -755,11 +1138,17 @@
 				type: "item",
 				item: "mysticalagriculture:silicon_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4469,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -9.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;187],
 			id: 880,
 			tasks: [{
@@ -767,11 +1156,17 @@
 				type: "item",
 				item: "mysticalagriculture:aluminum_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4467,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -10.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;189],
 			id: 882,
 			tasks: [{
@@ -779,11 +1174,17 @@
 				type: "item",
 				item: "mysticalagriculture:copper_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4465,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -11.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;191],
 			id: 884,
 			tasks: [{
@@ -791,11 +1192,17 @@
 				type: "item",
 				item: "mysticalagriculture:saltpeter_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4463,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -12.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;193],
 			id: 886,
 			tasks: [{
@@ -803,11 +1210,17 @@
 				type: "item",
 				item: "mysticalagriculture:platinum_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4461,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -13.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;195],
 			id: 888,
 			tasks: [{
@@ -815,6 +1228,11 @@
 				type: "item",
 				item: "mysticalagriculture:mystical_flower_essence",
 				count: 4L
+			}],
+			rewards: [{
+				id: 4459,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

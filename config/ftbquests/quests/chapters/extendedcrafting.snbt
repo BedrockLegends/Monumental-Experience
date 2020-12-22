@@ -1,7 +1,7 @@
 {
 	id: 2546,
 	filename: "extendedcrafting",
-	order_index: 10,
+	order_index: 12,
 	title: "Extended Crafting",
 	icon: "extendedcrafting:basic_table",
 	default_quest_shape: "",
@@ -27,6 +27,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;
 				2547,
 				2551
@@ -46,6 +47,7 @@
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2547],
 			id: 2551,
 			tasks: [{
@@ -62,6 +64,7 @@
 		{
 			x: 4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2549],
 			id: 2553,
 			tasks: [{
@@ -78,6 +81,7 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2553],
 			id: 2555,
 			tasks: [{
@@ -94,6 +98,7 @@
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2555],
 			id: 2557,
 			tasks: [{

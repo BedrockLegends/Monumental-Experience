@@ -1,7 +1,7 @@
 {
 	id: 2488,
 	filename: "rftoolscontrol",
-	order_index: 33,
+	order_index: 36,
 	title: "Rftools Control",
 	icon: "rftoolscontrol:graphics_card",
 	default_quest_shape: "",
@@ -21,105 +21,223 @@
 		{
 			x: 0.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2489],
 			id: 2491,
 			tasks: [{
 				id: 2492,
 				type: "item",
 				item: "rftoolscontrol:processor"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4700,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4701,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 2.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2489],
 			id: 2493,
 			tasks: [{
 				id: 2494,
 				type: "item",
 				item: "rftoolscontrol:programmer"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4698,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4699,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;2489],
 			id: 2495,
 			tasks: [{
 				id: 2496,
 				type: "item",
 				item: "rftoolscontrol:card_base"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4672,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4673,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2497,
 			tasks: [{
 				id: 2498,
 				type: "item",
 				item: "rftoolscontrol:cpu_core_500"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4670,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4671,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: 6.5d,
+			shape: "gear",
 			dependencies: [I;2497],
 			id: 2499,
 			tasks: [{
 				id: 2500,
 				type: "item",
 				item: "rftoolscontrol:cpu_core_1000"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4668,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4669,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
 			y: 8.5d,
+			shape: "gear",
 			dependencies: [I;2499],
 			id: 2501,
 			tasks: [{
 				id: 2502,
 				type: "item",
 				item: "rftoolscontrol:cpu_core_2000"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4666,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4667,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -2.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2503,
 			tasks: [{
 				id: 2504,
 				type: "item",
 				item: "rftoolscontrol:ram_chip"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4680,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4681,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 2.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2505,
 			tasks: [{
 				id: 2506,
 				type: "item",
 				item: "rftoolscontrol:network_card"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4692,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4693,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 4.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;2505],
 			id: 2507,
 			tasks: [{
 				id: 2508,
 				type: "item",
 				item: "rftoolscontrol:advanced_network_card"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4694,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4695,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -1.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2509,
 			tasks: [{
@@ -132,44 +250,96 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4674,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4675,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 1.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2511,
 			tasks: [{
 				id: 2512,
 				type: "item",
 				item: "rftoolscontrol:graphics_card"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4686,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4687,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 1.0d,
 			y: 1.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2513,
 			tasks: [{
 				id: 2514,
 				type: "item",
 				item: "rftoolscontrol:token"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4684,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4685,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -1.0d,
 			y: 1.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2515,
 			tasks: [{
 				id: 2516,
 				type: "item",
 				item: "rftoolscontrol:program_card"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4682,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4683,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -2.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2517,
 			tasks: [{
@@ -182,11 +352,24 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4676,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4677,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 2.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2519,
 			tasks: [{
@@ -199,11 +382,24 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4688,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4689,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 3.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2521,
 			tasks: [{
@@ -216,11 +412,24 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4690,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4691,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -3.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2523,
 			tasks: [{
@@ -233,18 +442,43 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: 4678,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4679,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 3.0d,
 			y: 1.5d,
+			shape: "gear",
 			dependencies: [I;2495],
 			id: 2525,
 			tasks: [{
 				id: 2526,
 				type: "item",
 				item: "rftoolscontrol:tablet_processor"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4696,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4697,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

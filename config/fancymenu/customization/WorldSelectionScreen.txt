@@ -6,18 +6,27 @@ customization-meta {
 }
 
 customization {
-  identifier = %id=346948%
   orientation = bottom-right
-  x = -150
-  action = movebutton
-  y = -29
+  shadow = false
+  centered = false
+  x = -396
+  action = addtext
+  y = -36
+  scale = 1.0
+  value = BedrockLegends is proudly sponsored by:
 }
 
 customization {
-  identifier = %id=504948%
-  orientation = bottom-left
-  x = -1
-  action = movebutton
-  y = -28
+  orientation = bottom-right
+  buttonaction = openlink
+  x = -180
+  width = 180
+  action = addbutton
+  y = -70
+  backgroundhovered = packmenu/resources/assets/packmenu/textures/gui/bh_me_bhpromo.png
+  label = 
+  backgroundnormal = packmenu/resources/assets/packmenu/textures/gui/bh_me_bhpromo.png
+  value = https://bisecthosting.com/BedrockLegends
+  height = 70
 }
 

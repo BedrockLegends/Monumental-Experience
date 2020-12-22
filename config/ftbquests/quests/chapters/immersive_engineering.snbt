@@ -1,7 +1,7 @@
 {
 	id: 2697,
 	filename: "immersive_engineering",
-	order_index: 16,
+	order_index: 18,
 	title: "Immersive Engineering",
 	icon: "immersiveengineering:workbench",
 	default_quest_shape: "",
@@ -49,6 +49,7 @@
 			title: "blast furnace",
 			x: 4.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1587,
 			tasks: [{
@@ -67,6 +68,7 @@
 			title: "coke oven",
 			x: 4.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1589,
 			tasks: [{
@@ -85,6 +87,7 @@
 			title: "reinforced blast furnace",
 			x: 7.5d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1587],
 			id: 1591,
 			tasks: [
@@ -110,6 +113,7 @@
 			title: "silo",
 			x: -5.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1594,
 			tasks: [
@@ -136,6 +140,7 @@
 			title: "tank",
 			x: -5.0d,
 			y: -1.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1597,
 			tasks: [
@@ -162,6 +167,7 @@
 			title: "Diesel Generator",
 			x: -5.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1600,
 			tasks: [
@@ -211,6 +217,7 @@
 			title: "lightning rod",
 			x: -5.0d,
 			y: -3.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1607,
 			tasks: [
@@ -261,6 +268,7 @@
 			title: "metal press",
 			x: -5.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1614,
 			tasks: [
@@ -302,6 +310,7 @@
 			title: "Crusher",
 			x: -5.0d,
 			y: -5.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1622,
 			tasks: [
@@ -345,6 +354,7 @@
 			title: "Sawmill",
 			x: -5.0d,
 			y: -6.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1656,
 			tasks: [
@@ -394,6 +404,7 @@
 			title: "assembler",
 			x: -5.0d,
 			y: -7.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1663,
 			tasks: [
@@ -444,6 +455,7 @@
 			title: "fermenter",
 			x: -5.0d,
 			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1670,
 			tasks: [
@@ -493,6 +505,7 @@
 			title: "squeezer",
 			x: -4.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1677,
 			tasks: [
@@ -530,12 +543,18 @@
 					item: "immersiveengineering:wooden_barrel",
 					count: 4L
 				}
-			]
+			],
+			rewards: [{
+				id: 4305,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "refinery",
 			x: -3.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1684,
 			tasks: [
@@ -574,12 +593,18 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 5L
 				}
-			]
+			],
+			rewards: [{
+				id: 4306,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "mixer",
 			x: -2.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1691,
 			tasks: [
@@ -617,12 +642,18 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 3L
 				}
-			]
+			],
+			rewards: [{
+				id: 4307,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "bottling machine",
 			x: -1.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1698,
 			tasks: [
@@ -661,12 +692,18 @@
 					item: "immersiveengineering:fluid_pipe",
 					count: 2L
 				}
-			]
+			],
+			rewards: [{
+				id: 4308,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "automated workbench",
 			x: 0.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1717,
 			tasks: [
@@ -705,12 +742,18 @@
 					item: "immersiveengineering:conveyor_basic",
 					count: 4L
 				}
-			]
+			],
+			rewards: [{
+				id: 4309,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "Arc Furnace",
 			x: 1.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1724,
 			tasks: [
@@ -766,12 +809,18 @@
 					item: "immersiveengineering:blastbrick_reinforced",
 					count: 27L
 				}
-			]
+			],
+			rewards: [{
+				id: 4310,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			title: "excavator",
 			x: 2.0d,
 			y: -9.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 1739,
 			tasks: [
@@ -810,7 +859,12 @@
 					item: "immersiveengineering:heavy_engineering",
 					count: 4L
 				}
-			]
+			],
+			rewards: [{
+				id: 4311,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 3.0d,
@@ -832,6 +886,7 @@
 			title: "pumpjack",
 			x: -5.0d,
 			y: 1.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 2395,
 			tasks: [
@@ -893,6 +948,7 @@
 			title: "Distillation Tower",
 			x: -5.0d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;1585],
 			id: 2404,
 			tasks: [

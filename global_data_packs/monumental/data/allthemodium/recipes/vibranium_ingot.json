@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "allthemodium:vibranium_ore"
+  },
+  "result": "minecraft:air",
+  "experience": 2.0,
+  "cookingtime": 400
+}

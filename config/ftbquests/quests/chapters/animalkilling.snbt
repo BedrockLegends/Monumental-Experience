@@ -1,7 +1,7 @@
 {
 	id: 1278,
 	filename: "animalkilling",
-	order_index: 3,
+	order_index: 5,
 	title: "Animal Killing",
 	icon: {
 		id: "good_nights_sleep:rainbow_sword",

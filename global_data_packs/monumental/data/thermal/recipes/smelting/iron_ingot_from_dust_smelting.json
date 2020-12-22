@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "thermal:iron_dust"
+  },
+  "result": "minecraft:air",
+  "experience": 0.0,
+  "cookingtime": 200
+}

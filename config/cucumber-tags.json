@@ -13,7 +13,7 @@
   "forge:ingots/chrome": "null",
   "forge:ingots/electrum": "immersiveengineering:ingot_electrum",
   "forge:silicon": "refinedstorage:silicon",
-  "forge:ingots/brass": "null",
+  "forge:ingots/brass": "create:brass_ingot",
   "forge:ingots/silver": "alltheores:silver_ingot",
   "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
   "forge:ingots/steel": "immersiveengineering:ingot_steel",

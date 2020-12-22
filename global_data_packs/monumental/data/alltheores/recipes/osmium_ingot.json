@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "ingredient": {
  "tag": "forge:ores/osmium"
   },
-  "result": "alltheores:osmium_ingot",
+  "result": "minecraft:air",
   "experience": 1.0,
   "cookingtime": 200
 }

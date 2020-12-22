@@ -1,5 +1,5 @@
 {
-    "type": "extendedcrafting:shaped_table",
+    "type": "create:mechanical_crafting",
     "pattern": [
         "ABCDEDCBA",
         "BFGHEHGFB",

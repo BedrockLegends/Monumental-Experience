@@ -1,7 +1,7 @@
 {
 	id: 605,
 	filename: "mobkilling",
-	order_index: 22,
+	order_index: 24,
 	title: "Mob Killing",
 	icon: "minecraft:zombie_head",
 	default_quest_shape: "",
@@ -158,8 +158,9 @@
 		},
 		{
 			icon: "minecraft:dragon_head",
-			x: -11.5d,
-			y: 0.0d,
+			x: -10.5d,
+			y: 3.0d,
+			shape: "gear",
 			dependencies: [I;1347],
 			id: 1291,
 			tasks: [{
@@ -175,8 +176,9 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -2.0d,
+			x: -10.5d,
+			y: -5.0d,
+			shape: "gear",
 			dependencies: [I;1347],
 			id: 1293,
 			tasks: [{
@@ -192,8 +194,9 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -2.0d,
+			x: -6.5d,
+			y: -1.0d,
+			shape: "gear",
 			dependencies: [I;1347],
 			id: 1295,
 			tasks: [{
@@ -277,8 +280,9 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 0.0d,
+			x: -14.5d,
+			y: -1.0d,
+			shape: "gear",
 			dependencies: [I;1347],
 			id: 1315,
 			tasks: [{
@@ -535,7 +539,8 @@
 		{
 			x: -10.5d,
 			y: -1.0d,
-			shape: "gear",
+			shape: "diamond",
+			size: 2.0d,
 			id: 1347,
 			tasks: [{
 				id: 1348,

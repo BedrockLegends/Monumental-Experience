@@ -1,5 +1,5 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = ["netherite_scrap", "hellforged", "ender_pearl", "amethyst", "certus_quartz", "mana", "sulfur", "saltpeter", "unobtainium_allthemodium_alloy", "vibranium_unobtainium_alloy", "wood", "brick", "hop_graphite", "prismarine", "lithium", "obsidian", "vibranium_allthemodium_alloy", "salt", "flour", "nether_brick", "fluorite", "mana_diamond", "dragonstone", "corrupti", "end_crystal_gem", "gemium", "lapis_lazuli", "lapium", "mundabitur", "redium", "trilium", "aquamarine", "biotite", "mana_gem"]
+	materialBlacklist = ["netherite_scrap", "hellforged", "ender_pearl", "amethyst", "certus_quartz", "mana", "sulfur", "saltpeter", "unobtainium_allthemodium_alloy", "vibranium_unobtainium_alloy", "wood", "brick", "hop_graphite", "prismarine", "lithium", "obsidian", "vibranium_allthemodium_alloy", "salt", "flour", "nether_brick", "fluorite", "mana_diamond", "dragonstone", "corrupti", "end_crystal_gem", "gemium", "lapis_lazuli", "lapium", "mundabitur", "redium", "trilium", "aquamarine", "biotite"]
 

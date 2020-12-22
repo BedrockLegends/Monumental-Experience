@@ -1,7 +1,7 @@
 {
 	id: 1736,
 	filename: "cookingforblockheads",
-	order_index: 7,
+	order_index: 9,
 	title: "Cooking For Blockheads",
 	icon: "cookingforblockheads:cow_jar",
 	default_quest_shape: "",
@@ -55,6 +55,7 @@
 		{
 			x: 7.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1747,
 			tasks: [{
@@ -72,6 +73,7 @@
 		{
 			x: 4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1749,
 			tasks: [{
@@ -89,6 +91,7 @@
 		{
 			x: 2.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1751,
 			tasks: [{
@@ -106,6 +109,7 @@
 		{
 			x: 5.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1753,
 			tasks: [{
@@ -123,6 +127,7 @@
 		{
 			x: 6.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1755,
 			tasks: [{
@@ -140,6 +145,7 @@
 		{
 			x: 5.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1757,
 			tasks: [{
@@ -157,6 +163,7 @@
 		{
 			x: 4.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1759,
 			tasks: [{
@@ -174,6 +181,7 @@
 		{
 			x: 2.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1761,
 			tasks: [{
@@ -191,6 +199,7 @@
 		{
 			x: 6.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1763,
 			tasks: [{
@@ -208,6 +217,7 @@
 		{
 			x: 3.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1765,
 			tasks: [{
@@ -225,6 +235,7 @@
 		{
 			x: 3.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1767,
 			tasks: [{
@@ -242,6 +253,7 @@
 		{
 			x: 8.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1769,
 			tasks: [{
@@ -259,6 +271,7 @@
 		{
 			x: 7.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1745],
 			id: 1771,
 			tasks: [{
@@ -276,6 +289,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1737],
 			id: 1773,
 			tasks: [{
@@ -292,6 +306,7 @@
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1737],
 			id: 1775,
 			tasks: [
@@ -335,6 +350,7 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1737],
 			id: 1777,
 			tasks: [
@@ -358,6 +374,7 @@
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;1737],
 			id: 1779,
 			tasks: [
@@ -386,6 +403,7 @@
 		{
 			x: -4.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;1737],
 			id: 1781,
 			tasks: [
@@ -409,6 +427,7 @@
 		{
 			x: -5.5d,
 			y: 2.0d,
+			shape: "gear",
 			dependencies: [I;1779],
 			id: 1792,
 			tasks: [

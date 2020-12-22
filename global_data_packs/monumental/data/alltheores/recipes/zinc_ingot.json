@@ -3,7 +3,7 @@
   "ingredient": {
   "tag": "forge:ores/zinc"
   },
-  "result": "alltheores:zinc_ingot",
+  "result": "minecraft:air",
   "experience": 1.0,
   "cookingtime": 200
 }

@@ -1,7 +1,7 @@
 {
 	id: 24,
 	filename: "gobber",
-	order_index: 14,
+	order_index: 16,
 	title: "Gobber",
 	icon: "gobber2:gobber2_globette",
 	default_quest_shape: "",

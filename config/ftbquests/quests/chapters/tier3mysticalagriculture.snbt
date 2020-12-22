@@ -1,70 +1,85 @@
 {
 	id: 3344,
 	filename: "tier3mysticalagriculture",
-	order_index: 25,
+	order_index: 27,
 	title: "(Tier3) Mystical Agriculture",
 	icon: "mysticalagriculture:iron_seeds",
 	default_quest_shape: "",
 	quests: [
 		{
 			x: 0.0d,
-			y: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;243],
 			id: 3345,
 			tasks: [{
 				id: 3346,
 				type: "item",
 				item: "mysticalagradditions:tertium_coal"
+			}],
+			rewards: [{
+				id: 4490,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -8.0d,
 			y: 0.0d,
-			shape: "diamond",
+			shape: "gear",
+			dependencies: [I;243],
 			id: 3347,
 			tasks: [{
 				id: 3348,
 				type: "item",
 				item: "mysticalagriculture:tertium_essence",
 				count: 16L
+			}],
+			rewards: [{
+				id: 4487,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;243],
 			id: 241,
 			tasks: [{
 				id: 242,
 				type: "item",
 				item: "mysticalagriculture:tertium_growth_accelerator"
+			}],
+			rewards: [{
+				id: 4486,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: -4.0d,
+			shape: "diamond",
+			size: 2.0d,
 			id: 243,
 			tasks: [{
 				id: 244,
 				type: "item",
 				item: "mysticalagriculture:tertium_ingot"
-			}]
-		},
-		{
-			x: -2.0d,
-			y: -5.5d,
-			id: 245,
-			tasks: [{
-				id: 246,
+			}],
+			rewards: [{
+				id: 4489,
 				type: "item",
-				item: "mysticalagriculture:tertium_gemstone"
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 0.0d,
-			y: -7.5d,
-			dependencies: [I;
-				245,
-				243
-			],
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;243],
 			id: 247,
 			tasks: [{
 				id: 248,
@@ -76,22 +91,34 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4493,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: -6.0d,
-			y: -2.0d,
+			x: -8.0d,
+			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;243],
 			id: 249,
 			tasks: [{
 				id: 250,
 				type: "item",
 				item: "mysticalagriculture:tertium_furnace"
+			}],
+			rewards: [{
+				id: 4488,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -7.5d,
+			x: -8.0d,
+			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;243],
 			id: 251,
 			tasks: [{
@@ -105,12 +132,18 @@
 						Active: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4494,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 2.0d,
-			y: -5.5d,
-			dependencies: [I;245],
+			x: -4.0d,
+			y: -8.0d,
+			shape: "gear",
+			dependencies: [I;243],
 			id: 253,
 			tasks: [{
 				id: 254,
@@ -122,11 +155,17 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4491,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: 2.0d,
-			y: -9.5d,
+			x: 0.0d,
+			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;253],
 			id: 255,
 			tasks: [{
@@ -139,11 +178,17 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4495,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -9.5d,
+			x: 4.0d,
+			y: -8.0d,
+			shape: "gear",
 			dependencies: [I;255],
 			id: 257,
 			tasks: [{
@@ -156,11 +201,17 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4496,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -7.5d,
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;257],
 			id: 259,
 			tasks: [{
@@ -173,6 +224,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4492,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -181,7 +237,7 @@
 			shape: "diamond",
 			dependencies: [I;267],
 			size: 2.0d,
-			id: 261,
+			id: 4967,
 			tasks: [{
 				id: 262,
 				type: "item",
@@ -191,9 +247,9 @@
 		{
 			x: 9.5d,
 			y: -1.5d,
-			id: 267,
+			id: 4968,
 			tasks: [{
-				id: 268,
+				id: 4969,
 				type: "item",
 				item: "mysticalagriculture:soul_jar"
 			}]
@@ -201,9 +257,9 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
-			id: 269,
+			id: 4970,
 			tasks: [{
-				id: 270,
+				id: 4971,
 				type: "item",
 				item: "mysticalagriculture:iron_seeds"
 			}]
@@ -211,9 +267,9 @@
 		{
 			x: -1.0d,
 			y: 4.0d,
-			id: 271,
+			id: 4972,
 			tasks: [{
-				id: 272,
+				id: 4973,
 				type: "item",
 				item: "mysticalagriculture:nether_quartz_seeds"
 			}]
@@ -221,9 +277,9 @@
 		{
 			x: -2.0d,
 			y: 4.0d,
-			id: 273,
+			id: 4974,
 			tasks: [{
-				id: 274,
+				id: 4975,
 				type: "item",
 				item: "mysticalagriculture:glowstone_seeds"
 			}]
@@ -231,9 +287,9 @@
 		{
 			x: -3.0d,
 			y: 4.0d,
-			id: 275,
+			id: 4976,
 			tasks: [{
-				id: 276,
+				id: 4977,
 				type: "item",
 				item: "mysticalagriculture:redstone_seeds"
 			}]
@@ -241,9 +297,9 @@
 		{
 			x: -4.0d,
 			y: 4.0d,
-			id: 277,
+			id: 4978,
 			tasks: [{
-				id: 278,
+				id: 4979,
 				type: "item",
 				item: "mysticalagriculture:obsidian_seeds"
 			}]
@@ -251,9 +307,9 @@
 		{
 			x: -5.0d,
 			y: 4.0d,
-			id: 279,
+			id: 4980,
 			tasks: [{
-				id: 280,
+				id: 4981,
 				type: "item",
 				item: "mysticalagriculture:prismarine_seeds"
 			}]
@@ -261,9 +317,9 @@
 		{
 			x: -6.0d,
 			y: 4.0d,
-			id: 281,
+			id: 4982,
 			tasks: [{
-				id: 282,
+				id: 4983,
 				type: "item",
 				item: "mysticalagriculture:aluminum_seeds"
 			}]
@@ -271,9 +327,9 @@
 		{
 			x: -7.0d,
 			y: 4.0d,
-			id: 283,
+			id: 4984,
 			tasks: [{
-				id: 284,
+				id: 4985,
 				type: "item",
 				item: "mysticalagriculture:tin_seeds"
 			}]
@@ -281,9 +337,9 @@
 		{
 			x: -8.0d,
 			y: 4.0d,
-			id: 285,
+			id: 4986,
 			tasks: [{
-				id: 286,
+				id: 4987,
 				type: "item",
 				item: "mysticalagriculture:copper_seeds"
 			}]
@@ -291,9 +347,9 @@
 		{
 			x: -9.0d,
 			y: 4.0d,
-			id: 287,
+			id: 4988,
 			tasks: [{
-				id: 288,
+				id: 4989,
 				type: "item",
 				item: "mysticalagriculture:osmium_seeds"
 			}]
@@ -301,9 +357,9 @@
 		{
 			x: -10.0d,
 			y: 4.0d,
-			id: 289,
+			id: 4990,
 			tasks: [{
-				id: 290,
+				id: 4991,
 				type: "item",
 				item: "mysticalagriculture:lead_seeds"
 			}]
@@ -311,9 +367,9 @@
 		{
 			x: -11.0d,
 			y: 4.0d,
-			id: 291,
+			id: 4992,
 			tasks: [{
-				id: 292,
+				id: 4993,
 				type: "item",
 				item: "mysticalagriculture:silver_seeds"
 			}]
@@ -322,9 +378,9 @@
 			x: 5.5d,
 			y: -1.0d,
 			dependencies: [I;261],
-			id: 293,
+			id: 4994,
 			tasks: [{
-				id: 294,
+				id: 4995,
 				type: "item",
 				item: "mysticalagriculture:zombie_seeds"
 			}]
@@ -333,9 +389,9 @@
 			x: 13.5d,
 			y: -1.0d,
 			dependencies: [I;261],
-			id: 295,
+			id: 4996,
 			tasks: [{
-				id: 296,
+				id: 4997,
 				type: "item",
 				item: "mysticalagriculture:skeleton_seeds"
 			}]
@@ -344,9 +400,9 @@
 			x: 13.5d,
 			y: 1.0d,
 			dependencies: [I;261],
-			id: 297,
+			id: 4998,
 			tasks: [{
-				id: 298,
+				id: 4999,
 				type: "item",
 				item: "mysticalagriculture:creeper_seeds"
 			}]
@@ -355,9 +411,9 @@
 			x: 13.5d,
 			y: 2.0d,
 			dependencies: [I;261],
-			id: 299,
+			id: 5000,
 			tasks: [{
-				id: 300,
+				id: 5001,
 				type: "item",
 				item: "mysticalagriculture:spider_seeds"
 			}]
@@ -366,9 +422,9 @@
 			x: 13.5d,
 			y: 3.0d,
 			dependencies: [I;261],
-			id: 301,
+			id: 5002,
 			tasks: [{
-				id: 302,
+				id: 5003,
 				type: "item",
 				item: "mysticalagriculture:rabbit_seeds"
 			}]
@@ -377,9 +433,9 @@
 			x: 13.5d,
 			y: 4.0d,
 			dependencies: [I;261],
-			id: 303,
+			id: 5004,
 			tasks: [{
-				id: 304,
+				id: 5005,
 				type: "item",
 				item: "mysticalagriculture:llama_seeds"
 			}]
@@ -388,9 +444,9 @@
 			x: 13.5d,
 			y: 0.0d,
 			dependencies: [I;261],
-			id: 305,
+			id: 5006,
 			tasks: [{
-				id: 306,
+				id: 5007,
 				type: "item",
 				item: "mysticalagriculture:silverfish_seeds"
 			}]
@@ -399,9 +455,9 @@
 			x: 13.5d,
 			y: 6.0d,
 			dependencies: [I;261],
-			id: 307,
+			id: 5008,
 			tasks: [{
-				id: 308,
+				id: 5009,
 				type: "item",
 				item: "mysticalagriculture:drowned_seeds"
 			}]
@@ -410,9 +466,9 @@
 			x: 9.5d,
 			y: 7.0d,
 			dependencies: [I;261],
-			id: 309,
+			id: 5010,
 			tasks: [{
-				id: 310,
+				id: 5011,
 				type: "item",
 				item: "mysticalagriculture:guardian_seeds"
 			}]
@@ -421,9 +477,9 @@
 			x: 5.5d,
 			y: 6.0d,
 			dependencies: [I;261],
-			id: 311,
+			id: 5012,
 			tasks: [{
-				id: 312,
+				id: 5013,
 				type: "item",
 				item: "mysticalagriculture:dolphin_seeds"
 			}]
@@ -432,9 +488,9 @@
 			x: 5.5d,
 			y: 5.0d,
 			dependencies: [I;261],
-			id: 313,
+			id: 5014,
 			tasks: [{
-				id: 314,
+				id: 5015,
 				type: "item",
 				item: "mysticalagriculture:zombie_pigman_seeds"
 			}]
@@ -443,9 +499,9 @@
 			x: 5.5d,
 			y: 4.0d,
 			dependencies: [I;261],
-			id: 315,
+			id: 5016,
 			tasks: [{
-				id: 316,
+				id: 5017,
 				type: "item",
 				item: "mysticalagriculture:stray_seeds"
 			}]
@@ -454,9 +510,9 @@
 			x: 5.5d,
 			y: 3.0d,
 			dependencies: [I;261],
-			id: 317,
+			id: 5018,
 			tasks: [{
-				id: 318,
+				id: 5019,
 				type: "item",
 				item: "mysticalagriculture:vex_seeds"
 			}]
@@ -465,9 +521,9 @@
 			x: 5.5d,
 			y: 2.0d,
 			dependencies: [I;261],
-			id: 319,
+			id: 5020,
 			tasks: [{
-				id: 320,
+				id: 5021,
 				type: "item",
 				item: "mysticalagriculture:polar_bear_seeds"
 			}]
@@ -476,9 +532,9 @@
 			x: 5.5d,
 			y: 1.0d,
 			dependencies: [I;261],
-			id: 321,
+			id: 5022,
 			tasks: [{
-				id: 322,
+				id: 5023,
 				type: "item",
 				item: "mysticalagriculture:horse_seeds"
 			}]
@@ -487,7 +543,7 @@
 			x: 5.5d,
 			y: 0.0d,
 			dependencies: [I;261],
-			id: 323,
+			id: 5024,
 			tasks: [{
 				id: 324,
 				type: "item",
@@ -701,7 +757,6 @@
 		{
 			x: 9.5d,
 			y: 11.0d,
-			dependencies: [I;309],
 			id: 1250,
 			tasks: [{
 				id: 1251,
@@ -785,7 +840,6 @@
 		{
 			x: 1.5d,
 			y: 6.0d,
-			dependencies: [I;311],
 			id: 1266,
 			tasks: [{
 				id: 1267,
@@ -821,7 +875,6 @@
 		{
 			x: 1.5d,
 			y: 3.0d,
-			dependencies: [I;317],
 			id: 1272,
 			tasks: [{
 				id: 1273,

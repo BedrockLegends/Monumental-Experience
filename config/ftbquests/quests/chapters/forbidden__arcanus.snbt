@@ -1,7 +1,7 @@
 {
 	id: 2694,
 	filename: "forbidden__arcanus",
-	order_index: 13,
+	order_index: 15,
 	title: "Forbidden & Arcanus",
 	icon: "forbidden_arcanus:forbiddenmicon",
 	default_quest_shape: "",
@@ -9,6 +9,7 @@
 		{
 			x: 0.0d,
 			y: 0.0d,
+			shape: "gear",
 			id: 2695,
 			tasks: [{
 				id: 2696,
@@ -40,6 +41,7 @@
 		{
 			x: 2.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1843],
 			id: 1849,
 			tasks: [{
@@ -56,6 +58,7 @@
 		{
 			x: 1.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;
 				1843,
 				1849
@@ -75,6 +78,7 @@
 		{
 			x: -2.0d,
 			y: -2.0d,
+			shape: "gear",
 			dependencies: [I;1843],
 			id: 1884,
 			tasks: [{

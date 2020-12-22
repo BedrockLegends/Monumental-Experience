@@ -1,7 +1,7 @@
 {
 	id: 3364,
 	filename: "xnet",
-	order_index: 43,
+	order_index: 46,
 	title: "Xnet",
 	icon: "xnet:connector_upgrade",
 	default_quest_shape: "",

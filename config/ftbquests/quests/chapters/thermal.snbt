@@ -1,7 +1,7 @@
 {
 	id: 2807,
 	filename: "thermal",
-	order_index: 40,
+	order_index: 43,
 	title: "Thermal",
 	icon: "thermal:signalum_glass",
 	default_quest_shape: "",
@@ -16,7 +16,19 @@
 				id: 2809,
 				type: "item",
 				item: "thermal:rf_coil"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4291,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4292,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.5d,
@@ -345,37 +357,77 @@
 		{
 			x: 6.5d,
 			y: 4.0d,
+			shape: "gear",
 			id: 2869,
 			tasks: [{
 				id: 2870,
 				type: "item",
 				item: "thermal:wrench"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4275,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4276,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.5d,
 			y: 6.0d,
+			shape: "gear",
 			id: 2871,
 			tasks: [{
 				id: 2872,
 				type: "item",
 				item: "thermal:lock"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4273,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4274,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 6.5d,
 			y: 8.0d,
+			shape: "gear",
 			id: 2873,
 			tasks: [{
 				id: 2874,
 				type: "item",
 				item: "thermal:detonator"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4271,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4272,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			title: "Rails O My",
 			x: 6.5d,
 			y: 10.0d,
+			shape: "gear",
 			id: 2875,
 			tasks: [
 				{
@@ -433,11 +485,24 @@
 					type: "item",
 					item: "thermal:lumium_detector_rail"
 				}
+			],
+			rewards: [
+				{
+					id: 4269,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4270,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: 6.5d,
 			y: 1.5d,
+			shape: "gear",
 			id: 2887,
 			tasks: [
 				{
@@ -455,11 +520,24 @@
 					type: "item",
 					item: "thermal:lightning_charge"
 				}
+			],
+			rewards: [
+				{
+					id: 4277,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4278,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: 6.5d,
 			y: -0.5d,
+			shape: "gear",
 			id: 2891,
 			tasks: [
 				{
@@ -477,11 +555,24 @@
 					type: "item",
 					item: "thermal:tinker_bench"
 				}
+			],
+			rewards: [
+				{
+					id: 4279,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4280,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: 6.5d,
 			y: -3.0d,
+			shape: "gear",
 			id: 2895,
 			tasks: [
 				{
@@ -508,6 +599,18 @@
 					id: 2900,
 					type: "item",
 					item: "thermal:lightning_tnt"
+				}
+			],
+			rewards: [
+				{
+					id: 4281,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4282,
+					type: "item",
+					item: "chancecubes:chance_cube"
 				}
 			]
 		},
@@ -721,6 +824,7 @@
 		{
 			x: -3.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 2924,
 			tasks: [
 				{
@@ -758,33 +862,65 @@
 					type: "item",
 					item: "thermal:ice_grenade"
 				}
+			],
+			rewards: [
+				{
+					id: 4295,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4296,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: -1.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 2932,
 			tasks: [{
 				id: 2933,
 				type: "kill",
 				entity: "thermal:blizz",
 				value: 100L
-			}]
+			}],
+			rewards: [
+				{
+					id: 4293,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4294,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 2934,
 			tasks: [{
 				id: 2935,
 				type: "kill",
 				entity: "thermal:blitz",
-				value: 100L
+				value: 50L
+			}],
+			rewards: [{
+				id: 4290,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 2938,
 			tasks: [
 				{
@@ -867,22 +1003,41 @@
 					type: "item",
 					item: "thermal:tomato_block"
 				}
+			],
+			rewards: [
+				{
+					id: 4287,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4288,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
 			]
 		},
 		{
 			x: 2.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 2949,
 			tasks: [{
 				id: 3304,
 				type: "kill",
 				entity: "thermal:basalz",
-				value: 100L
+				value: 50L
+			}],
+			rewards: [{
+				id: 4289,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 3305,
 			tasks: [
 				{
@@ -905,6 +1060,7 @@
 		{
 			x: -5.5d,
 			y: -5.0d,
+			shape: "gear",
 			id: 2961,
 			tasks: [
 				{
@@ -936,6 +1092,18 @@
 					id: 2967,
 					type: "item",
 					item: "thermal:lightning_tnt_minecart"
+				}
+			],
+			rewards: [
+				{
+					id: 4297,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4298,
+					type: "item",
+					item: "chancecubes:chance_cube"
 				}
 			]
 		},

@@ -11,7 +11,7 @@
 	#Range: 0.0 ~ 1.0
 	fertilizerBonusGrowthChance = 1.0
 	#List of names the merchant can have.
-	merchantNames = ["Grotts", "ModernGamingWorld", "Lectavison", "MasterSloth", "Warbringer1", "Warpath", "Spongebob", "Mario", "Squitle", "The Rock", "Phantomora"]
+	merchantNames = ["Grotts", "ModernGamingWorld", "Lectavison", "Warpath", "Spongebob", "Mario", "Squitle", "The Rock", "Phantomora", "KellySmash", "Thor", "Gary"]
 	#The range at which the chicken nest picks up laid eggs.
 	#Range: 1 ~ 16
 	chickenNestRange = 8

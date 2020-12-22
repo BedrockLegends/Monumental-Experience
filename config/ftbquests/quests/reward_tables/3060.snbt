@@ -1,9 +1,0 @@
-{
-	id: 3060,
-	title: "chance cube",
-	icon: "chancecubes:chance_cube",
-	loot_size: 1,
-	rewards: [{
-		item: "chancecubes:chance_cube"
-	}]
-}

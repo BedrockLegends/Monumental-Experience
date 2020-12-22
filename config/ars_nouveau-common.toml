@@ -325,3 +325,11 @@
 	#Range: > -2147483648
 	aoe_cost = 35
 
+#Starting Spells
+["Starter Spells"]
+	harm_starter = true
+	touch_starter = true
+	projectile_starter = true
+	break_starter = true
+	self_starter = true
+

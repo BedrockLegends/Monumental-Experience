@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "result": {
+    "item": "minecraft:air"
+  },
+  "ingredient": {
+    "tag": "forge:dusts/iron"
+  },
+  "experience": 0.0
+}

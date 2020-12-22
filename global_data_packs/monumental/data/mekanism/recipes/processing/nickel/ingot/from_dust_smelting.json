@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:smelting",
+    "type": "minecraft:blasting",
     "result": "alltheores:nickel_ingot",
     "ingredient": {
         "tag": "forge:dusts/nickel"

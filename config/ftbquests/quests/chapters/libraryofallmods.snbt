@@ -1,7 +1,7 @@
 {
 	id: 2106,
 	filename: "libraryofallmods",
-	order_index: 19,
+	order_index: 21,
 	title: "Library of all mods",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",
@@ -28,6 +28,7 @@
 		{
 			x: 0.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2109,
 			tasks: [{
@@ -44,6 +45,7 @@
 		{
 			x: 3.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2111,
 			tasks: [{
@@ -60,6 +62,7 @@
 		{
 			x: 3.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2113,
 			tasks: [{
@@ -78,6 +81,7 @@
 		{
 			x: -1.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2115,
 			tasks: [{
@@ -100,6 +104,7 @@
 		{
 			x: -3.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2117,
 			tasks: [{
@@ -116,6 +121,7 @@
 		{
 			x: -3.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2670,
 			tasks: [{
@@ -138,6 +144,7 @@
 		{
 			x: 2.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2672,
 			tasks: [{
@@ -155,6 +162,7 @@
 		{
 			x: -3.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2676,
 			tasks: [{
@@ -177,6 +185,7 @@
 		{
 			x: 0.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2685,
 			tasks: [{
@@ -199,6 +208,7 @@
 		{
 			x: -3.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2687,
 			tasks: [{
@@ -215,6 +225,7 @@
 		{
 			x: -3.0d,
 			y: 1.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2689,
 			tasks: [{
@@ -237,6 +248,7 @@
 		{
 			x: 3.0d,
 			y: -0.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2703,
 			tasks: [{
@@ -253,6 +265,7 @@
 		{
 			x: 3.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2705,
 			tasks: [{
@@ -269,6 +282,7 @@
 		{
 			x: 1.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2707,
 			tasks: [{
@@ -285,6 +299,7 @@
 		{
 			x: 3.0d,
 			y: 1.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2709,
 			tasks: [{
@@ -307,6 +322,7 @@
 		{
 			x: 3.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 2711,
 			tasks: [{
@@ -329,6 +345,7 @@
 		{
 			x: -2.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;2107],
 			id: 3113,
 			tasks: [{

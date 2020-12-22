@@ -1,7 +1,7 @@
 {
 	id: 1011,
 	filename: "mekanism",
-	order_index: 20,
+	order_index: 22,
 	title: "Mekanism",
 	icon: "mekanism:robit",
 	default_quest_shape: "",
@@ -9,6 +9,7 @@
 		{
 			x: 0.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1027],
 			id: 1014,
 			tasks: [{
@@ -21,6 +22,11 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4324,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -37,6 +43,7 @@
 		{
 			x: 0.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;1014],
 			id: 1018,
 			tasks: [{
@@ -48,6 +55,7 @@
 		{
 			x: 0.0d,
 			y: 6.5d,
+			shape: "gear",
 			dependencies: [I;1018],
 			id: 1020,
 			tasks: [
@@ -76,7 +84,12 @@
 					},
 					count: 9L
 				}
-			]
+			],
+			rewards: [{
+				id: 4349,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 0.0d,
@@ -111,6 +124,11 @@
 				id: 1033,
 				type: "item",
 				item: "mekanism:elite_control_circuit"
+			}],
+			rewards: [{
+				id: 4357,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -122,22 +140,34 @@
 				id: 1035,
 				type: "item",
 				item: "mekanism:ultimate_control_circuit"
+			}],
+			rewards: [{
+				id: 4355,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 1.0d,
 			y: 9.5d,
+			shape: "gear",
 			dependencies: [I;1034],
 			id: 1036,
 			tasks: [{
 				id: 1037,
 				type: "item",
 				item: "mekanism:quantum_entangloporter"
+			}],
+			rewards: [{
+				id: 4354,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 1038,
 			tasks: [{
@@ -150,11 +180,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4363,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1038],
 			id: 1040,
 			tasks: [{
@@ -167,11 +203,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4364,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1040],
 			id: 1042,
 			tasks: [{
@@ -184,11 +226,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4365,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1042],
 			id: 1044,
 			tasks: [{
@@ -201,11 +249,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4366,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1044],
 			id: 1046,
 			tasks: [{
@@ -218,39 +272,62 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4367,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1014],
 			id: 1066,
 			tasks: [{
 				id: 1067,
 				type: "item",
 				item: "mekanism:alloy_infused"
+			}],
+			rewards: [{
+				id: 4323,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1066],
 			id: 1068,
 			tasks: [{
 				id: 1069,
 				type: "item",
 				item: "mekanism:alloy_reinforced"
+			}],
+			rewards: [{
+				id: 4322,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1068],
 			id: 1070,
 			tasks: [{
 				id: 1071,
 				type: "item",
 				item: "mekanism:alloy_atomic"
+			}],
+			rewards: [{
+				id: 4321,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
@@ -262,11 +339,17 @@
 				id: 1079,
 				type: "item",
 				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: 4325,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -1.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1078],
 			id: 1082,
 			tasks: [{
@@ -279,143 +362,221 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4329,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 6.5d,
+			shape: "gear",
 			dependencies: [I;1078],
 			id: 1084,
 			tasks: [{
 				id: 1085,
 				type: "item",
 				item: "mekanism:basic_energy_cube"
+			}],
+			rewards: [{
+				id: 4334,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 6.5d,
+			shape: "gear",
 			dependencies: [I;1084],
 			id: 1086,
 			tasks: [{
 				id: 1087,
 				type: "item",
 				item: "mekanism:advanced_energy_cube"
+			}],
+			rewards: [{
+				id: 4335,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 6.5d,
+			shape: "gear",
 			dependencies: [I;1086],
 			id: 1088,
 			tasks: [{
 				id: 1089,
 				type: "item",
 				item: "mekanism:elite_energy_cube"
+			}],
+			rewards: [{
+				id: 4336,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 6.5d,
+			shape: "gear",
 			dependencies: [I;1088],
 			id: 1090,
 			tasks: [{
 				id: 1091,
 				type: "item",
 				item: "mekanism:ultimate_energy_cube"
+			}],
+			rewards: [{
+				id: 4337,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;1078],
 			id: 1092,
 			tasks: [{
 				id: 1093,
 				type: "item",
 				item: "mekanism:basic_induction_cell"
+			}],
+			rewards: [{
+				id: 4326,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;1092],
 			id: 1094,
 			tasks: [{
 				id: 1095,
 				type: "item",
 				item: "mekanism:advanced_induction_cell"
+			}],
+			rewards: [{
+				id: 4331,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;1094],
 			id: 1096,
 			tasks: [{
 				id: 1097,
 				type: "item",
 				item: "mekanism:elite_induction_cell"
+			}],
+			rewards: [{
+				id: 4332,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -9.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1096],
 			id: 1098,
 			tasks: [{
 				id: 1099,
 				type: "item",
 				item: "mekanism:ultimate_induction_cell"
+			}],
+			rewards: [{
+				id: 4333,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 8.5d,
+			shape: "gear",
 			dependencies: [I;1084],
 			id: 1100,
 			tasks: [{
 				id: 1101,
 				type: "item",
 				item: "mekanism:basic_induction_provider"
+			}],
+			rewards: [{
+				id: 4343,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 8.5d,
+			shape: "gear",
 			dependencies: [I;1086],
 			id: 1102,
 			tasks: [{
 				id: 1103,
 				type: "item",
 				item: "mekanism:advanced_induction_provider"
+			}],
+			rewards: [{
+				id: 4340,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 8.5d,
+			shape: "gear",
 			dependencies: [I;1088],
 			id: 1104,
 			tasks: [{
 				id: 1105,
 				type: "item",
 				item: "mekanism:elite_induction_provider"
+			}],
+			rewards: [{
+				id: 4339,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 8.5d,
+			shape: "gear",
 			dependencies: [I;1090],
 			id: 1106,
 			tasks: [{
 				id: 1107,
 				type: "item",
 				item: "mekanism:ultimate_induction_provider"
+			}],
+			rewards: [{
+				id: 4338,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 0.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1118],
 			id: 1108,
 			tasks: [{
@@ -423,11 +584,17 @@
 				type: "item",
 				item: "mekanism:basic_universal_cable",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4350,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 2.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1108],
 			id: 1110,
 			tasks: [{
@@ -435,11 +602,17 @@
 				type: "item",
 				item: "mekanism:advanced_universal_cable",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4351,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1110],
 			id: 1112,
 			tasks: [{
@@ -447,11 +620,17 @@
 				type: "item",
 				item: "mekanism:elite_universal_cable",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4352,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1112],
 			id: 1114,
 			tasks: [{
@@ -459,11 +638,17 @@
 				type: "item",
 				item: "mekanism:ultimate_universal_cable",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4353,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1118],
 			id: 1116,
 			tasks: [{
@@ -471,11 +656,17 @@
 				type: "item",
 				item: "mekanism:basic_mechanical_pipe",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4347,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 0.0d,
 			y: 8.5d,
+			shape: "gear",
 			dependencies: [I;1020],
 			id: 1118,
 			tasks: [{
@@ -489,11 +680,17 @@
 						value: "forge:ingots/steel"
 					}
 				}
+			}],
+			rewards: [{
+				id: 4348,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1078],
 			id: 1120,
 			tasks: [{
@@ -506,11 +703,17 @@
 						HideFlags: 2
 					}
 				}
+			}],
+			rewards: [{
+				id: 4327,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 1126,
 			tasks: [{
@@ -523,11 +726,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4368,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 1128,
 			tasks: [{
@@ -540,11 +749,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4374,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 1130,
 			tasks: [{
@@ -557,11 +772,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4379,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 4.0d,
 			y: -5.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 1132,
 			tasks: [{
@@ -574,55 +795,85 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4384,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;1070],
 			id: 1140,
 			tasks: [{
 				id: 1141,
 				type: "item",
 				item: "mekanism:robit"
+			}],
+			rewards: [{
+				id: 4320,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 5.5d,
+			shape: "gear",
 			dependencies: [I;1078],
 			id: 1142,
 			tasks: [{
 				id: 1143,
 				type: "item",
 				item: "mekanism:network_reader"
+			}],
+			rewards: [{
+				id: 4328,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -1.0d,
 			y: 5.5d,
+			shape: "gear",
 			dependencies: [I;1078],
 			id: 1144,
 			tasks: [{
 				id: 1145,
 				type: "item",
 				item: "mekanism:configurator"
+			}],
+			rewards: [{
+				id: 4330,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1066],
 			id: 1146,
 			tasks: [{
 				id: 1147,
 				type: "item",
 				item: "mekanismgenerators:solar_panel"
+			}],
+			rewards: [{
+				id: 4316,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1146],
 			id: 1148,
 			tasks: [{
@@ -635,11 +886,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4317,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1148],
 			id: 1150,
 			tasks: [{
@@ -652,11 +909,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4318,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1126],
 			id: 1152,
 			tasks: [{
@@ -669,11 +932,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4369,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1152],
 			id: 1154,
 			tasks: [{
@@ -686,11 +955,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4370,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1154],
 			id: 1156,
 			tasks: [{
@@ -703,11 +978,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4371,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -4.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1116],
 			id: 1158,
 			tasks: [{
@@ -715,11 +996,17 @@
 				type: "item",
 				item: "mekanism:advanced_mechanical_pipe",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4346,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -6.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1158],
 			id: 1160,
 			tasks: [{
@@ -727,11 +1014,17 @@
 				type: "item",
 				item: "mekanism:elite_mechanical_pipe",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4345,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 10.5d,
+			shape: "gear",
 			dependencies: [I;1160],
 			id: 1162,
 			tasks: [{
@@ -739,11 +1032,17 @@
 				type: "item",
 				item: "mekanism:ultimate_mechanical_pipe",
 				count: 6L
+			}],
+			rewards: [{
+				id: 4344,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 1.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;1032],
 			id: 1164,
 			tasks: [{
@@ -751,33 +1050,51 @@
 				type: "item",
 				item: "mekanism:induction_port",
 				count: 2L
+			}],
+			rewards: [{
+				id: 4356,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 2.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;1027],
 			id: 1166,
 			tasks: [{
 				id: 1167,
 				type: "item",
 				item: "mekanism:flamethrower"
+			}],
+			rewards: [{
+				id: 4315,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 1.0d,
 			y: 5.5d,
+			shape: "gear",
 			dependencies: [I;1030],
 			id: 1168,
 			tasks: [{
 				id: 1169,
 				type: "item",
 				item: "mekanism:thermal_evaporation_controller"
+			}],
+			rewards: [{
+				id: 4359,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;1027],
 			id: 1170,
 			tasks: [
@@ -803,11 +1120,17 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: 4312,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
 		},
 		{
 			x: 2.0d,
 			y: -2.5d,
+			shape: "gear",
 			id: 1172,
 			tasks: [{
 				id: 1173,
@@ -819,11 +1142,17 @@
 						HideFlags: 2
 					}
 				}
+			}],
+			rewards: [{
+				id: 4314,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 0.0d,
 			y: -2.5d,
+			shape: "gear",
 			dependencies: [I;
 				1172,
 				1027
@@ -833,11 +1162,17 @@
 				id: 1175,
 				type: "item",
 				item: "mekanism:jetpack_armored"
+			}],
+			rewards: [{
+				id: 4313,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;1128],
 			id: 1178,
 			tasks: [{
@@ -850,11 +1185,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4375,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;1178],
 			id: 1180,
 			tasks: [{
@@ -867,11 +1208,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4376,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;1180],
 			id: 1182,
 			tasks: [{
@@ -884,11 +1231,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4377,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.0d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;1182],
 			id: 1184,
 			tasks: [{
@@ -901,11 +1254,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4378,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1156],
 			id: 1186,
 			tasks: [{
@@ -918,11 +1277,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4373,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1130],
 			id: 1188,
 			tasks: [{
@@ -935,11 +1300,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4380,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1188],
 			id: 1190,
 			tasks: [{
@@ -952,11 +1323,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4381,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1190],
 			id: 1192,
 			tasks: [{
@@ -969,11 +1346,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4382,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.0d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;1192],
 			id: 1194,
 			tasks: [{
@@ -986,11 +1369,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4383,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 6.0d,
 			y: -5.5d,
+			shape: "gear",
 			dependencies: [I;1132],
 			id: 1196,
 			tasks: [{
@@ -1003,11 +1392,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4385,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 10.0d,
 			y: -5.5d,
+			shape: "gear",
 			dependencies: [I;1202],
 			id: 1200,
 			tasks: [{
@@ -1020,11 +1415,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4387,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 8.0d,
 			y: -5.5d,
+			shape: "gear",
 			dependencies: [I;1196],
 			id: 1202,
 			tasks: [{
@@ -1037,11 +1438,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4386,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 12.0d,
 			y: -5.5d,
+			shape: "gear",
 			dependencies: [I;1200],
 			id: 1204,
 			tasks: [{
@@ -1054,11 +1461,17 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4388,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 1.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1030],
 			id: 3292,
 			tasks: [{
@@ -1066,11 +1479,17 @@
 				type: "item",
 				item: "mekanism:thermal_evaporation_valve",
 				count: 2L
+			}],
+			rewards: [{
+				id: 4360,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -8.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;1140],
 			id: 1228,
 			tasks: [{
@@ -1083,55 +1502,85 @@
 						mekData: {}
 					}
 				}
+			}],
+			rewards: [{
+				id: 4319,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 7.5d,
+			shape: "gear",
 			dependencies: [I;1084],
 			id: 2277,
 			tasks: [{
 				id: 2278,
 				type: "item",
 				item: "mekanism:laser_amplifier"
+			}],
+			rewards: [{
+				id: 4341,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 9.5d,
+			shape: "gear",
 			dependencies: [I;2277],
 			id: 2279,
 			tasks: [{
 				id: 2280,
 				type: "item",
 				item: "mekanism:laser_tractor_beam"
+			}],
+			rewards: [{
+				id: 4342,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 3.0d,
 			y: 3.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 2678,
 			tasks: [{
 				id: 2679,
 				type: "item",
 				item: "mekanism:teleporter"
+			}],
+			rewards: [{
+				id: 4361,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 3.0d,
 			y: 1.5d,
+			shape: "gear",
 			dependencies: [I;1016],
 			id: 2680,
 			tasks: [{
 				id: 2681,
 				type: "item",
 				item: "mekanism:logistical_sorter"
+			}],
+			rewards: [{
+				id: 4362,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		},
 		{
 			x: 3.0d,
 			y: 5.5d,
+			shape: "gear",
 			dependencies: [I;1030],
 			id: 2682,
 			tasks: [{
@@ -1139,6 +1588,11 @@
 				type: "item",
 				item: "mekanismgenerators:turbine_valve",
 				count: 2L
+			}],
+			rewards: [{
+				id: 4358,
+				type: "item",
+				item: "lootbagmod:lootbag"
 			}]
 		}
 	]

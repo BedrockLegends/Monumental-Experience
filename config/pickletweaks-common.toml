@@ -56,7 +56,7 @@
 	#Enable Magnet?
 	magnet = false
 	#Coal and Charcoal Piece enabled?
-	coalPiece = true
+	coalPiece = false
 	#Enable Flint tools and armor?
 	flintGear = false
 	#Enable right click crop harvesting?

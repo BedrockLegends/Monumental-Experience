@@ -1,7 +1,7 @@
 {
 	id: 2594,
 	filename: "darkutilities",
-	order_index: 9,
+	order_index: 11,
 	title: "Dark Utilities",
 	icon: "darkutils:blank_plate",
 	default_quest_shape: "",
@@ -27,6 +27,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
 			dependencies: [I;2595],
 			id: 2603,
 			tasks: [
@@ -58,6 +59,7 @@
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;2595],
 			id: 2609,
 			tasks: [
@@ -89,6 +91,7 @@
 		{
 			x: 4.0d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2595],
 			id: 2612,
 			tasks: [
@@ -121,6 +124,7 @@
 			title: "Many types of Traps!!!",
 			x: -4.0d,
 			y: 0.0d,
+			shape: "heart",
 			dependencies: [I;2595],
 			id: 2620,
 			tasks: [
@@ -213,6 +217,7 @@
 			title: "Many types of Filters!!!",
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 2634,
 			tasks: [
 				{
@@ -310,6 +315,7 @@
 		{
 			x: -4.0d,
 			y: -4.0d,
+			shape: "gear",
 			id: 2652,
 			tasks: [{
 				id: 2653,
@@ -325,6 +331,7 @@
 		{
 			x: 4.0d,
 			y: -4.0d,
+			shape: "gear",
 			id: 2654,
 			tasks: [
 				{
@@ -348,6 +355,7 @@
 			title: "Many kinds of Charms!!!",
 			x: 4.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 2661,
 			tasks: [
 				{

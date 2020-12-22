@@ -1,7 +1,7 @@
 {
 	id: 450,
 	filename: "fluid_of_plenty",
-	order_index: 12,
+	order_index: 14,
 	title: "Fluid of Plenty",
 	icon: "minecraft:lava_bucket",
 	default_quest_shape: "",

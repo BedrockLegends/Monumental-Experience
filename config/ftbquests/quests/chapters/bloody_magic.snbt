@@ -1,7 +1,7 @@
 {
 	id: 3012,
 	filename: "bloody_magic",
-	order_index: 5,
+	order_index: 7,
 	title: "Bloody Magic",
 	icon: {
 		id: "patchouli:guide_book",
@@ -15,6 +15,7 @@
 		{
 			x: 9.0d,
 			y: 5.0d,
+			shape: "gear",
 			id: 3013,
 			tasks: [{
 				id: 3014,
@@ -43,6 +44,7 @@
 		{
 			x: 9.0d,
 			y: 2.5d,
+			shape: "gear",
 			id: 3015,
 			tasks: [{
 				id: 3016,
@@ -66,6 +68,7 @@
 		{
 			x: 9.0d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;3015],
 			id: 3017,
 			tasks: [{
@@ -95,6 +98,7 @@
 		{
 			x: 11.5d,
 			y: 5.0d,
+			shape: "gear",
 			id: 3019,
 			tasks: [{
 				id: 3020,
@@ -117,6 +121,7 @@
 		{
 			x: 11.5d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;3017],
 			id: 3021,
 			tasks: [{
@@ -140,6 +145,7 @@
 		{
 			x: 11.5d,
 			y: 2.5d,
+			shape: "gear",
 			id: 3023,
 			tasks: [{
 				id: 3024,
@@ -166,6 +172,7 @@
 		{
 			x: 13.5d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;
 				3021,
 				3023
@@ -193,6 +200,7 @@
 		{
 			x: 15.5d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;3025],
 			id: 3027,
 			tasks: [{
@@ -217,6 +225,7 @@
 		{
 			x: 17.5d,
 			y: 0.5d,
+			shape: "gear",
 			dependencies: [I;3027],
 			id: 3029,
 			tasks: [{
@@ -240,6 +249,7 @@
 		{
 			x: 13.5d,
 			y: 2.5d,
+			shape: "gear",
 			dependencies: [I;3019],
 			id: 3031,
 			tasks: [{
@@ -263,6 +273,7 @@
 		{
 			x: 13.5d,
 			y: 5.0d,
+			shape: "gear",
 			dependencies: [I;3019],
 			id: 3033,
 			tasks: [{
@@ -286,6 +297,7 @@
 		{
 			x: 13.5d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;3021],
 			id: 3035,
 			tasks: [{
@@ -332,6 +344,7 @@
 		{
 			x: 11.5d,
 			y: -1.5d,
+			shape: "gear",
 			dependencies: [I;3035],
 			id: 3039,
 			tasks: [{
@@ -355,6 +368,7 @@
 		{
 			x: 13.5d,
 			y: 7.0d,
+			shape: "gear",
 			dependencies: [I;3019],
 			id: 3041,
 			tasks: [{
@@ -384,6 +398,7 @@
 		{
 			x: 16.0d,
 			y: 7.0d,
+			shape: "gear",
 			dependencies: [I;3041],
 			id: 3043,
 			tasks: [{
@@ -413,6 +428,7 @@
 		{
 			x: 16.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;3041],
 			id: 3045,
 			tasks: [{
@@ -442,6 +458,7 @@
 		{
 			x: 16.0d,
 			y: 9.0d,
+			shape: "gear",
 			dependencies: [I;3041],
 			id: 3047,
 			tasks: [{
@@ -471,6 +488,7 @@
 		{
 			x: 16.0d,
 			y: 10.0d,
+			shape: "gear",
 			dependencies: [I;3041],
 			id: 3049,
 			tasks: [{
@@ -500,6 +518,7 @@
 		{
 			x: 13.5d,
 			y: -3.5d,
+			shape: "gear",
 			dependencies: [I;3035],
 			id: 3051,
 			tasks: [{

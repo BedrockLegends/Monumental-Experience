@@ -1,7 +1,7 @@
 {
 	id: 3357,
 	filename: "tier6mysticalagriculture",
-	order_index: 28,
+	order_index: 30,
 	title: "(Tier6) Mystical Agriculture",
 	icon: "mysticalagriculture:nether_star_seeds",
 	default_quest_shape: "",
@@ -9,17 +9,26 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;3360],
 			id: 3358,
 			tasks: [{
 				id: 3359,
 				type: "item",
 				item: "mysticalagradditions:insanium_coal"
 			}],
-			rewards: [{
-				id: 3431,
-				type: "random",
-				table: 87
-			}]
+			rewards: [
+				{
+					id: 4912,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4913,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: 0.0d,
@@ -48,6 +57,7 @@
 		{
 			x: -4.0d,
 			y: 0.0d,
+			shape: "gear",
 			id: 597,
 			tasks: [
 				{
@@ -63,20 +73,21 @@
 			],
 			rewards: [
 				{
-					id: 3123,
-					type: "random",
-					table: 44
+					id: 4906,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				},
 				{
-					id: 3433,
-					type: "random",
-					table: 102
+					id: 4907,
+					type: "item",
+					item: "chancecubes:chance_cube"
 				}
 			]
 		},
 		{
 			x: 0.0d,
 			y: 4.0d,
+			shape: "gear",
 			id: 599,
 			tasks: [
 				{
@@ -95,15 +106,23 @@
 					item: "minecraft:dragon_head"
 				}
 			],
-			rewards: [{
-				id: 3363,
-				type: "random",
-				table: 23
-			}]
+			rewards: [
+				{
+					id: 4908,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4909,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
 		},
 		{
 			x: -4.0d,
 			y: 4.0d,
+			shape: "gear",
 			dependencies: [I;597],
 			id: 601,
 			tasks: [{
@@ -114,20 +133,21 @@
 			}],
 			rewards: [
 				{
-					id: 3434,
-					type: "random",
-					table: 2
+					id: 4904,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				},
 				{
-					id: 3125,
-					type: "random",
-					table: 101
+					id: 4905,
+					type: "item",
+					item: "chancecubes:chance_cube"
 				}
 			]
 		},
 		{
 			x: 0.0d,
 			y: 8.0d,
+			shape: "gear",
 			dependencies: [I;599],
 			id: 603,
 			tasks: [{
@@ -138,14 +158,14 @@
 			}],
 			rewards: [
 				{
-					id: 3435,
-					type: "random",
-					table: 40
+					id: 4910,
+					type: "item",
+					item: "lootbagmod:lootbag"
 				},
 				{
-					id: 3117,
-					type: "random",
-					table: 31
+					id: 4911,
+					type: "item",
+					item: "chancecubes:chance_cube"
 				}
 			]
 		}

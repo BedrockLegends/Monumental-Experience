@@ -1,7 +1,7 @@
 {
 	id: 2789,
 	filename: "flux_networks",
-	order_index: 11,
+	order_index: 13,
 	title: "Flux Networks",
 	icon: "fluxnetworks:flux_dust",
 	default_quest_shape: "",
@@ -26,6 +26,7 @@
 		{
 			x: 0.0d,
 			y: -4.5d,
+			shape: "gear",
 			dependencies: [I;2790],
 			id: 2792,
 			tasks: [{
@@ -42,6 +43,7 @@
 		{
 			x: -4.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2790],
 			id: 2794,
 			tasks: [{
@@ -58,6 +60,7 @@
 		{
 			x: -4.5d,
 			y: -4.5d,
+			shape: "gear",
 			dependencies: [I;2790],
 			id: 2796,
 			tasks: [
@@ -86,6 +89,7 @@
 		{
 			x: 0.0d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;2790],
 			id: 2800,
 			tasks: [
@@ -109,6 +113,7 @@
 		{
 			x: -4.5d,
 			y: 4.5d,
+			shape: "gear",
 			dependencies: [I;2790],
 			id: 2803,
 			tasks: [{
@@ -125,6 +130,7 @@
 		{
 			x: 4.5d,
 			y: 0.0d,
+			shape: "gear",
 			dependencies: [I;2790],
 			id: 2805,
 			tasks: [{
