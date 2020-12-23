@@ -202,6 +202,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Immersive Posts
 - GlobalGameRules, Allows us to set gamerules we want setup for the modpack on world load
 - Shutup Experimentals Settings
+- JellyFishing Quest Line, Thanks Lect
 
 
 **Removed**
@@ -219,3 +220,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Better Mineshafts**
 - **Alex Mobs**
 - **Ars Nouveau**
+- **Hostile Water Monsters**
