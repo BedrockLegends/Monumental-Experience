@@ -190,7 +190,8 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - some things in the quark config
 - Toretoise Spawn Weight
 - Natures Aura Config
-- FTB Ultimine
+- FTB Ultimine Config
+- FTB Backups Config
 
 
 **Added**
