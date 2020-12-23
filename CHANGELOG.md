@@ -187,7 +187,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Changed/Fixed**
 
-- None
+- some things in the quark config
 
 
 **Added**
