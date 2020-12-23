@@ -198,6 +198,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Passthrough Signs
 - Immersive Posts
 - GlobalGameRules, Allows us to set gamerules we want setup for the modpack on world load
+- Shutup Experimentals Settings
 
 
 **Removed**
