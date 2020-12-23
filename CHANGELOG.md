@@ -192,6 +192,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Natures Aura Config
 - FTB Ultimine Config
 - FTB Backups Config
+- Forge Client Config
 
 
 **Added**
