@@ -188,6 +188,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 **Changed/Fixed**
 
 - some things in the quark config
+- Toretoise Spawn Weight
 
 
 **Added**
