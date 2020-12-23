@@ -1,7 +1,7 @@
 {
 	id: 3436,
 	filename: "lets_dance",
-	order_index: 20,
+	order_index: 21,
 	title: "Let's Dance!!",
 	icon: "minecraft:jukebox",
 	default_quest_shape: "",

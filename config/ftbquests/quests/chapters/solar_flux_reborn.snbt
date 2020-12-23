@@ -1,7 +1,7 @@
 {
 	id: 3801,
 	filename: "solar_flux_reborn",
-	order_index: 40,
+	order_index: 41,
 	title: "Solar Flux Reborn",
 	icon: "solarflux:blank_upgrade",
 	default_quest_shape: "",

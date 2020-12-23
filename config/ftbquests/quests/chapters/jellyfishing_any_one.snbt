@@ -1,0 +1,258 @@
+{
+	id: 5052,
+	filename: "jellyfishing_any_one",
+	order_index: 0,
+	title: "Jellyfishing any one?",
+	icon: {
+		id: "jellyfishing:jellyfish_net",
+		Count: true,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Let's go Jellyfishing!",
+			icon: {
+				id: "jellyfishing:jellyfish_net",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 5053,
+			tasks: [{
+				id: 5061,
+				type: "biome",
+				title: "Jellyfish Fields",
+				icon: "jellyfishing:jellyfish_spawn_egg",
+				biome: "jellyfishing:jellyfish_fields"
+			}],
+			rewards: [{
+				id: 5055,
+				type: "random",
+				table: 26
+			}]
+		},
+		{
+			title: "Jellyfishing the Squidward way!",
+			x: -2.5d,
+			y: 0.0d,
+			description: ["kill 10 Pink Jellyfish and 10 Blue Jellyfish"],
+			dependencies: [I;5053],
+			id: 5056,
+			tasks: [
+				{
+					id: 5057,
+					type: "kill",
+					title: "Pink Jellyfish",
+					icon: "jellyfishing:jellyfish",
+					entity: "jellyfishing:jellyfish",
+					value: 10L
+				},
+				{
+					id: 5059,
+					type: "kill",
+					title: "Blue Jellyfish",
+					icon: "jellyfishing:blue_jellyfish",
+					entity: "jellyfishing:blue_jellyfish",
+					value: 10L
+				}
+			],
+			rewards: [{
+				id: 5058,
+				type: "random",
+				table: 26
+			}]
+		},
+		{
+			title: "Jellyfishing the Spongbob way!",
+			x: 0.0d,
+			y: 2.5d,
+			description: [""],
+			dependencies: [I;5065],
+			id: 5062,
+			tasks: [
+				{
+					id: 5063,
+					type: "item",
+					item: "jellyfishing:jellyfish",
+					count: 10L
+				},
+				{
+					id: 5064,
+					type: "item",
+					item: "jellyfishing:blue_jellyfish",
+					count: 10L
+				}
+			],
+			rewards: [{
+				id: 5073,
+				type: "random",
+				table: 26
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			dependencies: [I;5056],
+			id: 5065,
+			tasks: [{
+				id: 5066,
+				type: "item",
+				item: {
+					id: "jellyfishing:jellyfish_net",
+					Count: true,
+					tag: {
+						Damage: 1,
+						AS_Amulet_Holder: [I;
+							-1886865986,
+							-155169161,
+							-1243543431,
+							-349440791
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: 5074,
+				type: "random",
+				table: 26
+			}]
+		},
+		{
+			title: "Let's become Sandy Cheeks",
+			x: 2.5d,
+			y: 2.5d,
+			dependencies: [I;5062],
+			id: 5067,
+			tasks: [
+				{
+					id: 5068,
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_helmet",
+						Count: true,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				},
+				{
+					id: 5069,
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				},
+				{
+					id: 5070,
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_leggings",
+						Count: true,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				},
+				{
+					id: 5071,
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_boots",
+						Count: true,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 5072,
+				type: "random",
+				table: 26
+			}]
+		},
+		{
+			title: "Karate anyone?",
+			x: 2.5d,
+			y: 0.0d,
+			dependencies: [I;5067],
+			id: 5075,
+			tasks: [{
+				id: 5076,
+				type: "item",
+				item: {
+					id: "jellyfishing:karate_glove",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Can anyone find the secret formula",
+			x: -2.5d,
+			y: -2.5d,
+			dependencies: [I;5079],
+			id: 5077,
+			tasks: [{
+				id: 5078,
+				type: "item",
+				item: "jellyfishing:krabby_patty"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;5053],
+			id: 5079,
+			tasks: [{
+				id: 5080,
+				type: "item",
+				item: {
+					id: "jellyfishing:spatula",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

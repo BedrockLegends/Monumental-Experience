@@ -1,7 +1,7 @@
 {
 	id: 2106,
 	filename: "libraryofallmods",
-	order_index: 21,
+	order_index: 22,
 	title: "Library of all mods",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",

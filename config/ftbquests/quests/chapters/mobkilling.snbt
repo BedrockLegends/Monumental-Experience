@@ -1,7 +1,7 @@
 {
 	id: 605,
 	filename: "mobkilling",
-	order_index: 24,
+	order_index: 25,
 	title: "Mob Killing",
 	icon: "minecraft:zombie_head",
 	default_quest_shape: "",

@@ -1,7 +1,7 @@
 {
 	id: 2599,
 	filename: "reliquary",
-	order_index: 39,
+	order_index: 40,
 	title: "Reliquary",
 	icon: {
 		id: "xreliquary:mercy_cross",

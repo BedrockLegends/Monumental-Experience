@@ -1,7 +1,7 @@
 {
 	id: 3294,
 	filename: "simplestoragenetwork",
-	order_index: 41,
+	order_index: 42,
 	title: "Simple Storage Network",
 	icon: "storagenetwork:inventory",
 	default_quest_shape: "",

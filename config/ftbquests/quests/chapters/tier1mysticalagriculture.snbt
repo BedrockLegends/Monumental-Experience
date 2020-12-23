@@ -1,7 +1,7 @@
 {
 	id: 2142,
 	filename: "tier1mysticalagriculture",
-	order_index: 25,
+	order_index: 26,
 	title: "(Tier1) Mystical Agriculture",
 	icon: "mysticalagriculture:inferium_essence",
 	default_quest_shape: "",

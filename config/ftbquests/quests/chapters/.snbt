@@ -1,7 +1,7 @@
 {
 	id: 2324,
 	filename: "",
-	order_index: 38,
+	order_index: 39,
 	title: "Rftools Utilities",
 	icon: "rftoolsutility:crafter1",
 	default_quest_shape: "",

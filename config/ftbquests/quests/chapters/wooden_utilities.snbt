@@ -1,7 +1,7 @@
 {
 	id: 2713,
 	filename: "wooden_utilities",
-	order_index: 45,
+	order_index: 46,
 	title: "Wooden Utilities",
 	icon: "woodenutilities:wooden_plate",
 	default_quest_shape: "",

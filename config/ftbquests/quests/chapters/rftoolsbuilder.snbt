@@ -1,7 +1,7 @@
 {
 	id: 2460,
 	filename: "rftoolsbuilder",
-	order_index: 35,
+	order_index: 36,
 	title: "Rftools Builder",
 	icon: "rftoolsbuilder:builder",
 	default_quest_shape: "",

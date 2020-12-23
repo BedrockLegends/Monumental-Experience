@@ -1,7 +1,7 @@
 {
 	id: 3318,
 	filename: "tier2mysticalagriculture",
-	order_index: 26,
+	order_index: 27,
 	title: "(Tier2) Mystical Agriculture",
 	icon: "mysticalagriculture:nature_seeds",
 	default_quest_shape: "",

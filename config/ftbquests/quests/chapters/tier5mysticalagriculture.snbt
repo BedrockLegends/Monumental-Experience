@@ -1,7 +1,7 @@
 {
 	id: 3353,
 	filename: "tier5mysticalagriculture",
-	order_index: 29,
+	order_index: 30,
 	title: "(Tier5) Mystical Agriculture",
 	icon: "mysticalagriculture:diamond_seeds",
 	default_quest_shape: "",

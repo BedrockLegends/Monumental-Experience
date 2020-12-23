@@ -1,7 +1,7 @@
 {
 	id: 3295,
 	filename: "storagedrawers",
-	order_index: 42,
+	order_index: 43,
 	title: "Storage Drawers",
 	icon: "storagedrawers:oak_full_drawers_1",
 	default_quest_shape: "",

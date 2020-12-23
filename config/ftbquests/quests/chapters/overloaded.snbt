@@ -1,7 +1,7 @@
 {
 	id: 1361,
 	filename: "overloaded",
-	order_index: 32,
+	order_index: 33,
 	title: "Overloaded",
 	icon: "overloaded:almost_infinite_barrel",
 	default_quest_shape: "",

@@ -1,7 +1,7 @@
 {
 	id: 3357,
 	filename: "tier6mysticalagriculture",
-	order_index: 30,
+	order_index: 31,
 	title: "(Tier6) Mystical Agriculture",
 	icon: "mysticalagriculture:nether_star_seeds",
 	default_quest_shape: "",

@@ -1,7 +1,7 @@
 {
 	id: 1894,
 	filename: "mining_gadget",
-	order_index: 23,
+	order_index: 24,
 	title: "Mining Gadget",
 	icon: {
 		id: "mininggadgets:mininggadget",

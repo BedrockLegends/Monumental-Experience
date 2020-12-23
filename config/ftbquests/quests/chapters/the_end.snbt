@@ -1,7 +1,7 @@
 {
 	id: 2987,
 	filename: "the_end",
-	order_index: 44,
+	order_index: 45,
 	title: "The End",
 	icon: "minecraft:end_portal_frame",
 	default_quest_shape: "",

@@ -1,7 +1,7 @@
 {
 	id: 4202,
 	filename: "not_enough_wands",
-	order_index: 31,
+	order_index: 32,
 	title: "Not Enough Wands",
 	icon: "notenoughwands:illumination_wand",
 	default_quest_shape: "",
