@@ -203,6 +203,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - GlobalGameRules, Allows us to set gamerules we want setup for the modpack on world load
 - Shutup Experimentals Settings
 - JellyFishing Quest Line, Thanks Lect
+- Ars Nouveau Quest Line, Please Note that the Quest Book is there for people who want to you use it. Anyone who does not want to use it does not have to.
 
 
 **Removed**
