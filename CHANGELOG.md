@@ -179,3 +179,39 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Quark**
 - **Ars Nouveau**
 - **Packed Up(Backpacks)**
+---------------------------------------------------------------------------------------------
+**Modpack Version**
+6.4
+
+**Notes**
+
+**Sorry for all the updates BedrockLegends Server keeps timing out, these updates been to try and fix that**
+
+**Now this is the Last Updated till the New Year, I have no plans to play Minecraft during Xmas or New years. I will however be streaming something on the 24th if nothing comes up by then.**
+
+
+
+**Changed/Fixed**
+
+- All Creative recipe to use Create Mechanical Crafting
+
+
+**Added**
+
+- None
+
+
+**Removed**
+
+- None
+
+**Updated**
+
+- **Better Weather**
+- **Jellyfishing**
+- **Corail Tombstone**
+- **Quark**
+- **Enchant With Mob**
+- **Create**
+- **Better Mineshafts**
+- 
