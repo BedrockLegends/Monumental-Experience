@@ -182,6 +182,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 ---------------------------------------------------------------------------------------------
 **Modpack Version**
 6.4
+The Map Wipe Version, Read under changes/fixed on why
 
 
 
@@ -193,6 +194,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - FTB Ultimine Config
 - FTB Backups Config
 - Forge Client Config
+- The Whole Mod List, This change will REQUIRE A Map WIPE as I went through and clean up the mod list by removing same mods and or mods that did not have a need.
 
 
 **Added**
@@ -229,3 +231,6 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Thermal Locomotion**
 - **BotanyPots**
 - **Archers Paradox**
+- **COFH Core
+- **Thermal Mods**
+- **Transport**
