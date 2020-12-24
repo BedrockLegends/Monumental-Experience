@@ -223,3 +223,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Ars Nouveau**
 - **Hostile Water Monsters**
 - **Astrological Sorcery, An Astral Sorcery add on**
+- **Thermal Innovation**
+- **Thermal Locomotion**
