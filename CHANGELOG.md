@@ -181,15 +181,13 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Packed Up(Backpacks)**
 ---------------------------------------------------------------------------------------------
 **Modpack Version**
-6.4, The Map Wipe update
+6.4, Recommended to backup worlds as I am not sure if it will break pre existing world
 
 
 
 **Changed/Fixed**
 
-- Most Configs
-- The Whole Mod list, Removed/Added mods that will break existing worlds
-- The Datapack
+- some configs
 
 
 **Added**
@@ -198,3 +196,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - a Few new quest lines
 
 
+**Removed**
+- A fewish mods
