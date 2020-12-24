@@ -181,7 +181,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Packed Up(Backpacks)**
 ---------------------------------------------------------------------------------------------
 **Modpack Version**
-6.4, Recommended to backup worlds as I am not sure if it will break pre existing world
+6.4, Recommended to backup worlds
 
 
 
