@@ -197,20 +197,12 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Added**
 
-- Quark Oddities
-- Passthrough Signs
-- Immersive Posts
-- GlobalGameRules, Allows us to set gamerules we want setup for the modpack on world load
-- Shutup Experimentals Settings
-- JellyFishing Quest Line, Thanks Lect
-- Bedspreads(Forge)
-- Clockout
-- Dangerous Stone Cutter
+- a whole bunch of new mods, Enjoy
 
 
 **Removed**
 
-- None
+- Some mods that I cant remember, Dont think it will break your map?
 
 **Updated**
 
