@@ -181,21 +181,15 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Packed Up(Backpacks)**
 ---------------------------------------------------------------------------------------------
 **Modpack Version**
-6.4
+6.4, The Map Wipe update
 
 
 
 **Changed/Fixed**
 
-- some things in the quark config
-- Toretoise Spawn Weight
-- Natures Aura Config
-- FTB Ultimine Config
-- FTB Backups Config
-- Forge Client Config
-- The quest book being out of wack
-- Missing Quest Rewards
-- The Natures Aura Chunkloader being enabled, It is now disabled
+- Most Configs
+- The Whole Mod list, Removed/Added mods that will break existing worlds
+- The Datapack
 
 
 **Added**
@@ -204,29 +198,3 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - a Few new quest lines
 
 
-**Removed**
-
-- Some mods that I cant remember, Could break existing Maps(Backups Recommended)
-
-**Updated**
-
-- **Better Weather**
-- **Jellyfishing**
-- **Corail Tombstone**
-- **Quark**
-- **Enchant With Mob**
-- **Create**
-- **Better Mineshafts**
-- **Alex Mobs**
-- **Ars Nouveau**
-- **Hostile Water Monsters**
-- **Astrological Sorcery, An Astral Sorcery add on**
-- **Thermal Innovation**
-- **Thermal Locomotion**
-- **BotanyPots**
-- **Archers Paradox**
-- **COFH Core**
-- **Thermal Mods**
-- **Transport**
-- **Router Reborn**
-- **Ae2**
