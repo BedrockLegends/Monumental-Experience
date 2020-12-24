@@ -193,16 +193,20 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - FTB Ultimine Config
 - FTB Backups Config
 - Forge Client Config
+- The quest book being out of wack
+- Missing Quest Rewards
+- The Natures Aura Chunkloader being enabled, It is now disabled
 
 
 **Added**
 
 - a whole bunch of new mods, Enjoy
+- a Few new quest lines
 
 
 **Removed**
 
-- Some mods that I cant remember, Dont think it will break your map?
+- Some mods that I cant remember, Could break existing Maps(Backups Recommended)
 
 **Updated**
 
