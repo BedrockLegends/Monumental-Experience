@@ -190,6 +190,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - some configs
 - The Whole Datapack, This means Backup Worlds
 - The Mod List a little bit, This could result in Map Wipe(Update with caution as I Added, Removed, and Updated Mods)
+- Ice & Fire Loot Tables
 
 
 **Added**
