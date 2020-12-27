@@ -192,6 +192,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - The Mod List a little bit, This could result in Map Wipe(Update with caution as I Added, Removed, and Updated Mods)
 - Ice & Fire Loot Tables
 - DungeonCrawl Loot Tables
+- Botania Fertilizer Recipe not matching what the book tells you
 
 
 **Added**
