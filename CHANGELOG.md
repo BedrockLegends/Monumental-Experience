@@ -193,6 +193,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Ice & Fire Loot Tables
 - DungeonCrawl Loot Tables
 - Botania Fertilizer Recipe not matching what the book tells you
+- TorchMaster Lamp and Torch Radius in half
 
 
 **Added**
