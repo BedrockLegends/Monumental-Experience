@@ -196,6 +196,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - TorchMaster Lamp and Torch Radius in half
 - Create not being able to make some plates
 - Cloche Support for seeds being broken, do to removal of a mod
+- Custom UI for Minecraft that ships with pack
 
 **Added**
 
