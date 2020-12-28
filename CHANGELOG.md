@@ -203,7 +203,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - a whole bunch of new mods, Enjoy
 - Mystical Agriculture Essence loot to Vanilla loot tables
 - Computercraft Recipes
-
+---------------------------------------------------------------------------------------------
 
 **Modpack Version**
 6.5
