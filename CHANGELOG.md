@@ -215,12 +215,13 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Changed/Fixed**
 
-- None
+- Sleep Percent in quark as it got broken in 6.4
 
 
 **Added**
 
-- 
+- Thermal Seeds Compatiablity
+- Ravager Seeds and Hop Graphite Essence missing from Botany Pots
 
 
 **Removed**
@@ -228,3 +229,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 
 **Updated**
+
+- Pneumaticcraft Repressurized
