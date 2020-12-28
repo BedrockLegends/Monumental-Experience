@@ -181,41 +181,25 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Packed Up(Backpacks)**
 ---------------------------------------------------------------------------------------------
 **Modpack Version**
-6.4
+6.4, Recommended to backup worlds and make sure said old worlds dont break(There is a chance that old worlds may break)
 
 
 
 **Changed/Fixed**
 
-- some things in the quark config
-- Toretoise Spawn Weight
-- Natures Aura Config
-- FTB Ultimine Config
-- FTB Backups Config
-- Forge Client Config
-
+- some configs
+- The Whole Datapack, This means Backup Worlds
+- The Mod List a little bit, This could result in Map Wipe(Update with caution as I Added, Removed, and Updated Mods)
+- Ice & Fire Loot Tables
+- DungeonCrawl Loot Tables
+- Botania Fertilizer Recipe not matching what the book tells you
+- TorchMaster Lamp and Torch Radius in half
+- Create not being able to make some plates
+- Cloche Support for seeds being broken, do to removal of a mod
+- Custom UI for Minecraft that ships with pack
 
 **Added**
 
-- Quark Oddities
-- Passthrough Signs
-- Immersive Posts
-- GlobalGameRules, Allows us to set gamerules we want setup for the modpack on world load
-- Shutup Experimentals Settings
-
-
-**Removed**
-
-- None
-
-**Updated**
-
-- **Better Weather**
-- **Jellyfishing**
-- **Corail Tombstone**
-- **Quark**
-- **Enchant With Mob**
-- **Create**
-- **Better Mineshafts**
-- **Alex Mobs**
-- **Ars Nouveau**
+- a whole bunch of new mods, Enjoy
+- Mystical Agriculture Essence loot to Vanilla loot tables
+- Computercraft Recipes
