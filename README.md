@@ -32,5 +32,3 @@ The Feed The Beast Team for use of their mods in Curseforge packs.
 
 
 ## Other Projects
-- [Journey Across The Void](https://www.curseforge.com/minecraft/modpacks/journey-across-the-void)
-- [Journey Across The Void 2](https://www.curseforge.com/minecraft/modpacks/journey-across-the-void-2)
