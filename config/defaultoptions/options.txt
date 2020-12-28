@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:[]
+resourcePacks:["inmemory:jaopca","vanilla","mod_resources","magipsi","quark:emote_resources","file/Pack Resources","file/Dark Mode GUI.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
