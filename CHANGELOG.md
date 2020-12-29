@@ -248,7 +248,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 ---------------------------------------------------------------------------------------------
 
 **Modpack Version**
-6.5
+6.6
 
 **Notes**
 
@@ -269,4 +269,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Updated**
 
-- 
+- Mystical Agriculture, Adds Extreme Reactors 2 and Astral Sorcery seeds
