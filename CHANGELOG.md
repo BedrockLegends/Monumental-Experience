@@ -258,6 +258,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 **Changed/Fixed**
 
 - Resonant Wand from Astral Sorcery not using forge:marble
+- The Easy Metal Barrel Recipes
 
 
 **Added**
