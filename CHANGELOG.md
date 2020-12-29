@@ -259,6 +259,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 - Resonant Wand from Astral Sorcery not using forge:marble
 - The Easy Metal Barrel Recipes
+- way to easy Quantum Tank recipe
 
 
 **Added**
