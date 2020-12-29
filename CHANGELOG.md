@@ -227,6 +227,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Capability(https://www.curseforge.com/minecraft/mc-mods/capabilityproxy)
 - Common Capabilities(https://www.curseforge.com/minecraft/mc-mods/common-capabilities/files/3151332)
 - EverlastingAbilities(https://www.curseforge.com/minecraft/mc-mods/everlastingabilities)
+- More Quest Rewards
 
 
 **Removed**
