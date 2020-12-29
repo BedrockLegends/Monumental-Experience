@@ -223,6 +223,10 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Thermal Mystical Seeds Compatiablity
 - Ravager Seeds and Hop Graphite Essence missing from Botany Pots
 - Survive(https://www.curseforge.com/minecraft/mc-mods/survive)
+- Flopper(https://www.curseforge.com/minecraft/mc-mods/flopper)
+- Capability(https://www.curseforge.com/minecraft/mc-mods/capabilityproxy)
+- Common Capabilities(https://www.curseforge.com/minecraft/mc-mods/common-capabilities/files/3151332)
+- EverlastingAbilities(https://www.curseforge.com/minecraft/mc-mods/everlastingabilities)
 
 
 **Removed**
