@@ -222,6 +222,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 - Thermal Mystical Seeds Compatiablity
 - Ravager Seeds and Hop Graphite Essence missing from Botany Pots
+- Survive(https://www.curseforge.com/minecraft/mc-mods/survive)
 
 
 **Removed**
@@ -240,3 +241,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Botany Trees
 - CoFH Core
 - FTB Quests
+- Mc Doom Mod
