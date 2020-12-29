@@ -245,3 +245,28 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - CoFH Core
 - FTB Quests
 - Mc Doom Mod
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+6.5
+
+**Notes**
+
+
+
+
+**Changed/Fixed**
+
+- Resonant Wand from Astral Sorcery not using 
+
+
+**Added**
+
+
+
+**Removed**
+
+
+**Updated**
+
+- 
