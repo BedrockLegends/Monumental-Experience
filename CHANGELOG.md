@@ -255,11 +255,12 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 
 
-**Changed/Fixed**
+**Changes**
 
-- Resonant Wand from Astral Sorcery not using forge:marble
-- The Easy Metal Barrel Recipes
-- way to easy Quantum Tank recipe
+- Fixed Resonant Wand from Astral Sorcery not using forge:marble
+- Change The Easy Metal Barrel Recipes
+- Change way to easy Quantum Tank recipe
+- Disabled Sleep Mechanics from Survive as another mod is conflicting with it
 
 
 **Added**
