@@ -268,7 +268,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 
 **Removed**
-
+- Botany Pot support for industrialagriculture as its now added to the new Botany pots update
 
 **Updated**
 
@@ -277,3 +277,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Snow Under Trees
 - Auto Oredict Conv
 - Iron Furnaces
+- Botany Pots
