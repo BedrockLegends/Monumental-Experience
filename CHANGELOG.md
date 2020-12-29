@@ -232,3 +232,10 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 - Pneumaticcraft Repressurized
 - Jellyfishing
+- All The Ores
+- Potions Master
+- Allthemodium
+- Thermal Mods
+- Iron Furnaces
+- Botany Trees
+- CoFH Core
