@@ -281,3 +281,29 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Corail Tombstone
 - Cyclops Core
 - Travelers Backpack
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+6.7
+
+
+**Notes**
+-
+
+
+**Changes**
+
+- 
+
+
+**Added**
+- 
+
+
+**Removed**
+- 
+
+
+**Updated**
+
+- 
