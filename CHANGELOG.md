@@ -264,7 +264,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 
 **Added**
-
+- Inventory Pets(https://www.curseforge.com/minecraft/mc-mods/inventory-pets)
 
 
 **Removed**
