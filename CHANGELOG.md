@@ -224,7 +224,6 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Ravager Seeds and Hop Graphite Essence missing from Botany Pots
 - Survive(https://www.curseforge.com/minecraft/mc-mods/survive)
 - Flopper(https://www.curseforge.com/minecraft/mc-mods/flopper)
-- Capability(https://www.curseforge.com/minecraft/mc-mods/capabilityproxy)
 - Common Capabilities(https://www.curseforge.com/minecraft/mc-mods/common-capabilities/files/3151332)
 
 
@@ -265,6 +264,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Added**
 - Inventory Pets(https://www.curseforge.com/minecraft/mc-mods/inventory-pets)
+- Capability Proxy(https://www.curseforge.com/minecraft/mc-mods/capabilityproxy)
 
 
 **Removed**
