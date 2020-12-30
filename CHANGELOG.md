@@ -298,7 +298,13 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Added**
 
-- 
+- **Capability Proxy**
+- **Common Capabilities**
+- **Cyclops Core**
+- **MC Doom Mod**
+- **Mystical World**
+- **Portable Stonecutter**
+- **Rftools Utility
 
 
 **Removed**
