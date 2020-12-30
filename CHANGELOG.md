@@ -304,7 +304,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **MC Doom Mod**
 - **Mystical World**
 - **Portable Stonecutter**
-- **Rftools Utility
+- **Rftools Utility**
 - **Aquaculture 2**
 
 **Removed**
