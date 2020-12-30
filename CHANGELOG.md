@@ -264,7 +264,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Added**
 - Inventory Pets(https://www.curseforge.com/minecraft/mc-mods/inventory-pets)
-- Capability Proxy(https://www.curseforge.com/minecraft/mc-mods/capabilityproxy)
+- Advanced Peripherals(https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals)
 
 
 **Removed**
@@ -279,3 +279,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Iron Furnaces
 - Botany Pots
 - Corail Tombstone
+- Cyclops Core
+- Travelers Backpack
