@@ -344,3 +344,27 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Randompatches(Forge)**
 - **Pedestals**
 - **Endermail**
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+6.9
+
+**Notes**
+-
+
+
+**Changes**
+
+- 
+
+
+**Added**
+- 
+
+**Removed**
+- 
+
+
+**Updated**
+
+- 
