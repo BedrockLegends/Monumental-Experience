@@ -353,9 +353,9 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 -
 
 
-**Changes**
+**Changes/fixed**
 
-- 
+- some tool recipes being way to gated
 
 
 **Added**
