@@ -370,3 +370,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Blame(Forge)
 - Konkrete(Forge)
 - Cyclops Core
+- Cyclic
