@@ -306,6 +306,10 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Portable Stonecutter**
 - **Rftools Utility**
 - **Aquaculture 2**
+- **All The Ores**
+- **All The Modium**
+- **Ars Nouveau**
+- **Extreme Sound Muffler(Forge)**
 
 **Removed**
 - 
