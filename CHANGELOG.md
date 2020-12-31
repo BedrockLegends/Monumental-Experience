@@ -322,3 +322,24 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Modpack Version**
 6.8
+
+**Notes**
+-
+
+
+**Changes**
+
+- 
+
+
+**Added**
+- 
+
+**Removed**
+- 
+
+
+**Updated**
+
+- **Randompatches(Forge)**
+- **Pedestals**
