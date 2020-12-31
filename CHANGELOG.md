@@ -297,6 +297,13 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 
 **Added**
+- 
+
+**Removed**
+- 
+
+
+**Updated**
 
 - **Capability Proxy**
 - **Common Capabilities**
@@ -310,12 +317,8 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **All The Modium**
 - **Ars Nouveau**
 - **Extreme Sound Muffler(Forge)**
-- **Global Data and ResourcePacks**
+- **Global Data and ResourcePacks** 
+---------------------------------------------------------------------------------------------
 
-**Removed**
-- 
-
-
-**Updated**
-
-- 
+**Modpack Version**
+6.8
