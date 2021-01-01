@@ -396,9 +396,9 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Added**
 - Spark
+- **Marcaw's Furniture**
 
 **Removed**
-- 
 
 
 **Updated**
@@ -408,4 +408,3 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Traveler's Backpack**
 - **Woot**
 - **TellMe**
-- **Marcaw's Furniture**
