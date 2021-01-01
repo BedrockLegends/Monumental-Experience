@@ -371,3 +371,6 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Konkrete(Forge)
 - Cyclops Core
 - Cyclic
+- Botany Pots
+- Botany Trees
+- Ars Nouveau
