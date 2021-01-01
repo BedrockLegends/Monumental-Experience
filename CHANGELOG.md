@@ -397,6 +397,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 **Added**
 - Spark
 - **Marcaw's Furniture**
+- **Undead Infection**(https://www.curseforge.com/minecraft/mc-mods/undead-infection)
 
 **Removed**
 
