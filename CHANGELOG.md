@@ -380,3 +380,27 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Culinary Construct
 - Curios API
 - JEI
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.0
+
+**Notes**
+-
+
+
+**Changes/fixed**
+
+- 
+
+
+**Added**
+- 
+
+**Removed**
+- 
+
+
+**Updated**
+
+- **Valkyrie Lib
