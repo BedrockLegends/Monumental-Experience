@@ -411,3 +411,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Woot**
 - **TellMe**
 - **Thermal Expansion**
+- **Botany Pots**
+- **Botany Trees**
