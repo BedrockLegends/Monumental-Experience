@@ -425,7 +425,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Changes/fixed**
 
-- none
+- Chancecube Config
 
 
 **Added**
