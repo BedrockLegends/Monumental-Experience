@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "result": "minecraft:air",
-    "ingredient": {
-        "tag": "forge:ores/nickel"
-    },
-    "cookingtime": 200,
-    "experience": 1
-}

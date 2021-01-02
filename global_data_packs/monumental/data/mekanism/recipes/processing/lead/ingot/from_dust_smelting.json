@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "result": "minecraft:air",
-    "ingredient": {
-        "tag": "forge:dusts/lead"
-    },
-    "cookingtime": 200,
-    "experience": 0.5
-}

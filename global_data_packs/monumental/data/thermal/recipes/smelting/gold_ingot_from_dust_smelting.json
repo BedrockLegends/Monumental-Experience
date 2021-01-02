@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "thermal:gold_dust"
-  },
-  "result": "minecraft:air"
-}

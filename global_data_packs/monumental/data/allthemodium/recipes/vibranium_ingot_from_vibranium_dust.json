@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "allthemodium:vibranium_dust"
-  },
-  "result": "allthemodium:vibranium_ingot",
-  "experience": 2.0,
-  "cookingtime": 200
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "allthemodium:unobtainium_allthemodium_alloy_dust"
-  },
-  "result": "minecraft:air",
-  "experience": 3.0,
-  "cookingtime": 200
-}

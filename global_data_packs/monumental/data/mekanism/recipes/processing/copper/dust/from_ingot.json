@@ -1,8 +1,0 @@
-{
-"type": "mekanism:crushing",
-"conditions": [
-{
-"type": "forge:false"
-}
-]
-}

@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "result": "minecraft:air",
-    "ingredient": {
-        "tag": "forge:ores/lead"
-    },
-    "cookingtime": 100,
-    "experience": 1
-}

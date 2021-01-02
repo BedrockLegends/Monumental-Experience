@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "iceandfire:sapphire_ore"
-  },
-  "result": "minecraft:air",
-  "experience": 0.35,
-  "cookingtime": 200
-}

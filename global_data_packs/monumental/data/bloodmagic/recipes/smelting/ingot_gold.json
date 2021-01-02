@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "forge:dusts/gold"
-  },
-  "result": "minecraft:air"
-}

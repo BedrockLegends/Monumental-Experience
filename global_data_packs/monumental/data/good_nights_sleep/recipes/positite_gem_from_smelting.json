@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "tag": "good_nights_sleep:ores/positite"
-  },
-  "result": "good_nights_sleep:positite_gem",
-  "experience": 0.9,
-  "cookingtime": 200
-}

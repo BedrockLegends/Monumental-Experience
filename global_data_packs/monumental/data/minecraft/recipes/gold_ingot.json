@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "minecraft:gold_ores"
-  },
-  "result": "minecraft:air",
-  "experience": 1.0,
-  "cookingtime": 200
-}

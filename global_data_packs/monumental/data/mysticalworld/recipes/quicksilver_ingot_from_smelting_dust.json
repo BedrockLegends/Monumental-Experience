@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "forge:dusts/quicksilver"
-  },
-  "result": "minecraft:air",
-  "experience": 0.125,
-  "cookingtime": 200
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "bigreactors:yellorium_dust"
-  },
-  "result": "minecraft:air",
-  "experience": 1.0,
-  "cookingtime": 200
-}

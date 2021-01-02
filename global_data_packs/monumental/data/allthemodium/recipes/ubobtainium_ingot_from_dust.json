@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "tag": "forge:dusts/unobtainium"
-  },
-  "result": "allthemodium:unobtainium_ingot",
-  "experience": 3.0,
-  "cookingtime": 400
-}

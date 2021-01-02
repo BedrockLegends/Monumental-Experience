@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "create:crushed_iron_ore"
-  },
-  "result": "minecraft:air"
-}

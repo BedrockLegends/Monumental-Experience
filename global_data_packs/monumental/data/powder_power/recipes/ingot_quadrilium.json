@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "powder_power:blend_quadrilium"
-  },
-  "result": "powder_power:ingot_quadrilium",
-  "experience": 0.35,
-  "cookingtime": 200
-}
