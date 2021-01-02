@@ -456,3 +456,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Refined Storage**
 - **TIPS**
 - **Environmental Tech**
+- **Mystical Agradditions**
+- **Astral Sorcery**
+- **ObserverLib**
+- **Aquaculture 2**
