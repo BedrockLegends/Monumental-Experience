@@ -414,3 +414,36 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Thermal Expansion**
 - **Botany Pots**
 - **Botany Trees**
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.1
+
+**Notes**
+-
+
+
+**Changes/fixed**
+
+- none
+
+
+**Added**
+- none
+
+**Removed**
+
+- none
+
+**Updated**
+
+- **Thermal Locomotion**
+- **Thermal Innovation**
+- **Thermal Expansion**
+- **Thermal Cultivation**
+- **Thermal Foundation**
+- **Quark**
+- **Ars Nouveau**
+- **Archers Paradox**
+- **CoFh Core**
+- **Polymorph(Forge)**
