@@ -401,7 +401,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 **Removed**
 
-- **Mr. Crayfishes Furniture mod, In favor of Marcaw's Furniture mod
+- **Mr. Crayfishes Furniture mod, In favor of Marcaw's Furniture mod**
 
 
 **Updated**
