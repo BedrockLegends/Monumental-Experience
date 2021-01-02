@@ -447,3 +447,12 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Archers Paradox**
 - **CoFh Core**
 - **Polymorph(Forge)**
+- **Ae2**
+- **Advanced Peripherals**
+- **Cyclops Core**
+- **Trash Cans**
+- **Extreme Reactors 2**
+- **ZeroCore2**
+- **Refined Storage**
+- **TIPS**
+- **Environmental Tech**
