@@ -1,0 +1,215 @@
+{
+	id: 2060,
+	filename: "botania",
+	order_index: 8,
+	title: "Botania",
+	icon: "botania:lexicon",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2061,
+			tasks: [{
+				id: 2062,
+				type: "item",
+				item: "botania:mana_pool"
+			}],
+			rewards: [{
+				id: 4000,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;2061],
+			id: 2065,
+			tasks: [
+				{
+					id: 2066,
+					type: "item",
+					item: "botania:mana_pearl"
+				},
+				{
+					id: 2103,
+					type: "item",
+					item: "botania:mana_diamond"
+				}
+			],
+			rewards: [{
+				id: 4003,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: [I;2065],
+			id: 2067,
+			tasks: [{
+				id: 2068,
+				type: "item",
+				item: "botania:runic_altar"
+			}],
+			rewards: [{
+				id: 4006,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;2061],
+			id: 2069,
+			tasks: [{
+				id: 2070,
+				type: "item",
+				item: "botania:mana_powder",
+				count: 4L
+			}],
+			rewards: [{
+				id: 4009,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: [I;2067],
+			id: 2081,
+			tasks: [
+				{
+					id: 2088,
+					type: "item",
+					item: "botania:rune_mana"
+				},
+				{
+					id: 2089,
+					type: "item",
+					item: "botania:rune_air"
+				},
+				{
+					id: 2090,
+					type: "item",
+					item: "botania:rune_earth"
+				},
+				{
+					id: 2091,
+					type: "item",
+					item: "botania:rune_fire"
+				},
+				{
+					id: 2092,
+					type: "item",
+					item: "botania:rune_water"
+				}
+			],
+			rewards: [{
+				id: 4005,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 10.0d,
+			shape: "gear",
+			dependencies: [I;2081],
+			id: 2085,
+			tasks: [{
+				id: 2086,
+				type: "item",
+				item: "botania:terra_plate"
+			}],
+			rewards: [{
+				id: 4007,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 12.0d,
+			shape: "gear",
+			dependencies: [I;2081],
+			id: 2093,
+			tasks: [{
+				id: 2094,
+				type: "item",
+				item: "botania:thermalily"
+			}],
+			rewards: [{
+				id: 4008,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;2081],
+			id: 2095,
+			tasks: [{
+				id: 2096,
+				type: "item",
+				item: "botania:rosa_arcana"
+			}],
+			rewards: [{
+				id: 4004,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;2061],
+			id: 2097,
+			tasks: [{
+				id: 2098,
+				type: "item",
+				item: "botania:manasteel_ingot",
+				count: 4L
+			}],
+			rewards: [{
+				id: 4001,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;2065],
+			id: 2104,
+			tasks: [{
+				id: 2105,
+				type: "item",
+				item: {
+					id: "botania:mana_tablet",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 4002,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+
+[general]
+	#Size of the icons relative to the overlay size
+	#Range: 0.001 ~ 1000.0
+	icon_scale = 0.6
+	#Items to ignore when finding changes
+	ignore_items = []
+	#Number of items to show progressively faded, when the soft limit is reached
+	#Range: 0 ~ 15
+	fade_limit = 5
+	#Which corner/edge of the screen to base the overlay position on
+	draw_position = "BottomRight"
+	#Draw item icon in the overlay
+	draw_icon = true
+	#Horizontal offset from the chosen position to draw the overlay on
+	#Range: > -2147483648
+	draw_offset_horizontal = 0
+	#Size of the overlay relative to the GUI scale
+	#Range: 0.001 ~ 1000.0
+	draw_scale = 1.0
+	#Number items to show in the overlay before older items start to get forcefully faded
+	#Range: 1 ~ 30
+	soft_limit = 10
+	#Show lost items in the overlay
+	show_item_removals = true
+	#Draw item name in the overlay
+	draw_name = true
+	#Vertical offset from the chosen position to draw the overlay on
+	#Range: > -2147483648
+	draw_offset_vertical = 0
+	#Show gained items in the overlay
+	show_item_additions = true
+	#Items for which to ignore NBT changes
+	ignore_subitem_changes = []
+

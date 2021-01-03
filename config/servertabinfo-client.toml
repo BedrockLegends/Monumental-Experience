@@ -1,0 +1,6 @@
+
+#Client settings
+[client]
+	#Replace the vanilla player list
+	replacePlayerList = true
+

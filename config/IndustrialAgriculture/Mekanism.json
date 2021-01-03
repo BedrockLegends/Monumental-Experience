@@ -1,0 +1,24 @@
+{
+  "tierMap": {
+    "steel": "FOUR",
+    "salt": "ONE",
+    "refined_glowstone": "FOUR",
+    "tin": "TWO",
+    "copper": "TWO",
+    "osmium": "THREE",
+    "sulfur": "TWO",
+    "refined_obsidian": "FOUR",
+    "bronze": "THREE"
+  },
+  "cruxMap": {
+    "steel": "",
+    "salt": "",
+    "refined_glowstone": "",
+    "tin": "",
+    "copper": "",
+    "osmium": "",
+    "sulfur": "",
+    "refined_obsidian": "",
+    "bronze": ""
+  }
+}

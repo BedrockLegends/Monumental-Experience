@@ -1,0 +1,1383 @@
+{
+	id: 24,
+	filename: "gobber",
+	order_index: 16,
+	title: "Gobber",
+	icon: "gobber2:gobber2_globette",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 1362,
+			tasks: [{
+				id: 1363,
+				type: "item",
+				item: "gobber2:gobber2_glob"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;1362],
+			id: 1364,
+			tasks: [{
+				id: 1365,
+				type: "item",
+				item: "gobber2:gobber2_ingot"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			dependencies: [I;1364],
+			id: 1366,
+			tasks: [{
+				id: 1367,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.5d,
+			dependencies: [I;1366],
+			id: 1368,
+			tasks: [{
+				id: 1369,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.5d,
+			dependencies: [I;1368],
+			id: 1370,
+			tasks: [{
+				id: 1371,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -4.5d,
+			dependencies: [I;1370],
+			id: 1372,
+			tasks: [{
+				id: 1373,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			dependencies: [I;1364],
+			id: 1374,
+			tasks: [{
+				id: 1375,
+				type: "item",
+				item: "gobber2:block_healer"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.5d,
+			dependencies: [I;1364],
+			id: 1376,
+			tasks: [{
+				id: 1377,
+				type: "item",
+				item: "gobber2:gobber2_ring"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -7.5d,
+			dependencies: [I;1376],
+			id: 1378,
+			tasks: [{
+				id: 1379,
+				type: "item",
+				item: "gobber2:gobber2_ring_sunshine"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.5d,
+			dependencies: [I;1376],
+			id: 1380,
+			tasks: [{
+				id: 1381,
+				type: "item",
+				item: "gobber2:gobber2_ring_swiftness"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -6.5d,
+			dependencies: [I;1376],
+			id: 1382,
+			tasks: [{
+				id: 1383,
+				type: "item",
+				item: "gobber2:gobber2_ring_husbandry"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -8.5d,
+			dependencies: [I;1376],
+			id: 1384,
+			tasks: [{
+				id: 1385,
+				type: "item",
+				item: "gobber2:gobber2_ring_farmer"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.5d,
+			dependencies: [I;1376],
+			id: 1386,
+			tasks: [{
+				id: 1387,
+				type: "item",
+				item: "gobber2:gobber2_ring_attraction"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.5d,
+			dependencies: [I;1376],
+			id: 1388,
+			tasks: [{
+				id: 1389,
+				type: "item",
+				item: "gobber2:gobber2_ring_return"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -6.5d,
+			dependencies: [I;1376],
+			id: 1390,
+			tasks: [{
+				id: 1391,
+				type: "item",
+				item: "gobber2:gobber2_ring_ascent"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -7.5d,
+			dependencies: [I;1376],
+			id: 1392,
+			tasks: [{
+				id: 1393,
+				type: "item",
+				item: "gobber2:gobber2_ring_above"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.5d,
+			dependencies: [I;1376],
+			id: 1394,
+			tasks: [{
+				id: 1395,
+				type: "item",
+				item: "gobber2:gobber2_ring_miner"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: [I;1362],
+			id: 1398,
+			tasks: [{
+				id: 1399,
+				type: "item",
+				item: "gobber2:gobber2_glob_nether"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: [I;1398],
+			id: 1400,
+			tasks: [{
+				id: 1401,
+				type: "item",
+				item: "gobber2:gobber2_glob_end"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			dependencies: [I;1398],
+			id: 1402,
+			tasks: [{
+				id: 1403,
+				type: "item",
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			dependencies: [I;1400],
+			id: 1404,
+			tasks: [{
+				id: 1405,
+				type: "item",
+				item: "gobber2:gobber2_ingot_end"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.5d,
+			dependencies: [I;1364],
+			id: 1406,
+			tasks: [{
+				id: 1407,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 1.5d,
+			dependencies: [I;1364],
+			id: 1408,
+			tasks: [{
+				id: 1409,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_bow",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			dependencies: [I;1364],
+			id: 1410,
+			tasks: [{
+				id: 1411,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: [I;1364],
+			id: 1412,
+			tasks: [{
+				id: 1413,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			dependencies: [I;1364],
+			id: 1414,
+			tasks: [{
+				id: 1415,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			dependencies: [I;1364],
+			id: 1416,
+			tasks: [{
+				id: 1417,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_tree_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			dependencies: [I;1364],
+			id: 1418,
+			tasks: [{
+				id: 1419,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hoe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;1364],
+			id: 1420,
+			tasks: [{
+				id: 1421,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 1.5d,
+			dependencies: [I;1364],
+			id: 1422,
+			tasks: [{
+				id: 1423,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_excavator",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			dependencies: [I;1364],
+			id: 1424,
+			tasks: [{
+				id: 1425,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			dependencies: [I;1364],
+			id: 1426,
+			tasks: [{
+				id: 1427,
+				type: "item",
+				item: "gobber2:gobber2_medallion"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			dependencies: [I;1402],
+			id: 1428,
+			tasks: [{
+				id: 1429,
+				type: "item",
+				item: "gobber2:gobber2_medallion_nether"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.5d,
+			dependencies: [I;1404],
+			id: 1430,
+			tasks: [{
+				id: 1431,
+				type: "item",
+				item: "gobber2:gobber2_medallion_end"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.5d,
+			dependencies: [I;1426],
+			id: 1432,
+			tasks: [{
+				id: 1433,
+				type: "item",
+				item: "gobber2:gobber2_medallion_stepping"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -6.5d,
+			dependencies: [I;1426],
+			id: 1434,
+			tasks: [{
+				id: 1435,
+				type: "item",
+				item: "gobber2:gobber2_medallion_breathing"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.5d,
+			dependencies: [I;1426],
+			id: 1436,
+			tasks: [{
+				id: 1437,
+				type: "item",
+				item: "gobber2:gobber2_medallion_hero"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			dependencies: [I;1428],
+			id: 1438,
+			tasks: [{
+				id: 1439,
+				type: "item",
+				item: "gobber2:gobber2_medallion_glowing"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 7.5d,
+			dependencies: [I;1430],
+			id: 1440,
+			tasks: [{
+				id: 1441,
+				type: "item",
+				item: "gobber2:gobber2_medallion_conduit"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 7.5d,
+			dependencies: [I;1430],
+			id: 1442,
+			tasks: [{
+				id: 1443,
+				type: "item",
+				item: "gobber2:gobber2_medallion_dolphin"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.5d,
+			dependencies: [I;1374],
+			id: 1446,
+			tasks: [{
+				id: 1447,
+				type: "item",
+				item: "gobber2:block_protector"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.5d,
+			dependencies: [I;1446],
+			id: 1448,
+			tasks: [{
+				id: 1449,
+				type: "item",
+				item: "gobber2:block_defender"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: [I;1402],
+			id: 1450,
+			tasks: [{
+				id: 1451,
+				type: "item",
+				item: "gobber2:block_maturator"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			dependencies: [I;1404],
+			id: 1452,
+			tasks: [{
+				id: 1453,
+				type: "item",
+				item: "gobber2:block_looter"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			dependencies: [I;1402],
+			id: 1454,
+			tasks: [{
+				id: 1455,
+				type: "item",
+				item: "gobber2:gobber2_ring_nether"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			dependencies: [I;1402],
+			id: 1456,
+			tasks: [{
+				id: 1457,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 3.5d,
+			dependencies: [I;1402],
+			id: 1458,
+			tasks: [{
+				id: 1459,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 4.5d,
+			dependencies: [I;1402],
+			id: 1460,
+			tasks: [{
+				id: 1461,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_excavator_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 3.5d,
+			dependencies: [I;1402],
+			id: 1462,
+			tasks: [{
+				id: 1463,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_bow_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 3.5d,
+			dependencies: [I;1402],
+			id: 1464,
+			tasks: [{
+				id: 1465,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_pickaxe_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.5d,
+			dependencies: [I;1402],
+			id: 1466,
+			tasks: [{
+				id: 1467,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_shovel_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 4.5d,
+			dependencies: [I;1402],
+			id: 1468,
+			tasks: [{
+				id: 1469,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_axe_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 4.5d,
+			dependencies: [I;1402],
+			id: 1470,
+			tasks: [{
+				id: 1471,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_tree_axe_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.5d,
+			dependencies: [I;1402],
+			id: 1472,
+			tasks: [{
+				id: 1473,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hoe_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.5d,
+			dependencies: [I;1402],
+			id: 1474,
+			tasks: [{
+				id: 1475,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hammer_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -1.5d,
+			dependencies: [I;1454],
+			id: 1476,
+			tasks: [{
+				id: 1477,
+				type: "item",
+				item: "gobber2:gobber2_ring_vision"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			dependencies: [I;1454],
+			id: 1478,
+			tasks: [{
+				id: 1479,
+				type: "item",
+				item: "gobber2:gobber2_ring_acceleration"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.5d,
+			dependencies: [I;1454],
+			id: 1480,
+			tasks: [{
+				id: 1481,
+				type: "item",
+				item: "gobber2:gobber2_ring_leaping"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.5d,
+			dependencies: [I;1454],
+			id: 1482,
+			tasks: [{
+				id: 1483,
+				type: "item",
+				item: "gobber2:gobber2_ring_curing"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -1.5d,
+			dependencies: [I;1454],
+			id: 1486,
+			tasks: [{
+				id: 1487,
+				type: "item",
+				item: "gobber2:gobber2_ring_phoenix"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -1.5d,
+			dependencies: [I;1454],
+			id: 1488,
+			tasks: [{
+				id: 1489,
+				type: "item",
+				item: "gobber2:gobber2_ring_haste"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 0.5d,
+			dependencies: [I;1454],
+			id: 1490,
+			tasks: [{
+				id: 1491,
+				type: "item",
+				item: "gobber2:gobber2_ring_blaze"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -0.5d,
+			dependencies: [I;1454],
+			id: 1492,
+			tasks: [{
+				id: 1493,
+				type: "item",
+				item: "gobber2:gobber2_ring_repair"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.5d,
+			dependencies: [I;1402],
+			id: 1494,
+			tasks: [{
+				id: 1495,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_helmet_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.5d,
+			dependencies: [I;1494],
+			id: 1496,
+			tasks: [{
+				id: 1497,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 2.5d,
+			dependencies: [I;1496],
+			id: 1498,
+			tasks: [{
+				id: 1499,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_leggings_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 2.5d,
+			dependencies: [I;1498],
+			id: 1500,
+			tasks: [{
+				id: 1501,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_boots_nether",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.5d,
+			dependencies: [I;1404],
+			id: 1502,
+			tasks: [{
+				id: 1503,
+				type: "item",
+				item: "gobber2:gobber2_ring_end"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 4.5d,
+			dependencies: [I;1502],
+			id: 1504,
+			tasks: [{
+				id: 1505,
+				type: "item",
+				item: "gobber2:gobber2_ring_dismissal"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 2.5d,
+			dependencies: [I;1502],
+			id: 1506,
+			tasks: [{
+				id: 1507,
+				type: "item",
+				item: "gobber2:gobber2_ring_pyro"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.5d,
+			dependencies: [I;1502],
+			id: 1508,
+			tasks: [{
+				id: 1509,
+				type: "item",
+				item: "gobber2:gobber2_ring_traveler"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.5d,
+			dependencies: [I;1502],
+			id: 1510,
+			tasks: [{
+				id: 1511,
+				type: "item",
+				item: "gobber2:gobber2_ring_void"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 3.5d,
+			dependencies: [I;1502],
+			id: 1512,
+			tasks: [{
+				id: 1513,
+				type: "item",
+				item: "gobber2:gobber2_ring_airwalking"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			dependencies: [I;1502],
+			id: 1514,
+			tasks: [{
+				id: 1515,
+				type: "item",
+				item: "gobber2:gobber2_ring_stealth"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 3.5d,
+			dependencies: [I;1502],
+			id: 1516,
+			tasks: [{
+				id: 1517,
+				type: "item",
+				item: "gobber2:gobber2_ring_teleport"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			dependencies: [I;1502],
+			id: 1518,
+			tasks: [{
+				id: 1519,
+				type: "item",
+				item: "gobber2:gobber2_ring_blink"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.5d,
+			dependencies: [I;1502],
+			id: 1520,
+			tasks: [{
+				id: 1521,
+				type: "item",
+				item: "gobber2:gobber2_ring_enderchest"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 5.5d,
+			dependencies: [I;1404],
+			id: 1522,
+			tasks: [{
+				id: 1523,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 5.5d,
+			dependencies: [I;1522],
+			id: 5137,
+			tasks: [{
+				id: 5138,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword_sniper",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 5.5d,
+			dependencies: [I;1522],
+			id: 1526,
+			tasks: [{
+				id: 1527,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_sword_traveler",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			dependencies: [I;1404],
+			id: 1528,
+			tasks: [{
+				id: 1529,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_bow_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 5.5d,
+			dependencies: [I;1404],
+			id: 5139,
+			tasks: [{
+				id: 5140,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_pickaxe_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.5d,
+			dependencies: [I;1404],
+			id: 5141,
+			tasks: [{
+				id: 1533,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_shovel_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 6.5d,
+			dependencies: [I;1404],
+			id: 5142,
+			tasks: [{
+				id: 1535,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_axe_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 7.5d,
+			dependencies: [I;1404],
+			id: 1536,
+			tasks: [{
+				id: 1537,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_tree_axe_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 7.5d,
+			dependencies: [I;1404],
+			id: 5143,
+			tasks: [{
+				id: 1539,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hoe_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 6.5d,
+			dependencies: [I;1404],
+			id: 1540,
+			tasks: [{
+				id: 1541,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_hammer_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 7.5d,
+			dependencies: [I;1404],
+			id: 1542,
+			tasks: [{
+				id: 1543,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_excavator_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 6.5d,
+			dependencies: [I;1404],
+			id: 1544,
+			tasks: [{
+				id: 1545,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 7.5d,
+			dependencies: [I;1544],
+			id: 1546,
+			tasks: [{
+				id: 1547,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_paxel_stars",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.5d,
+			dependencies: [I;1404],
+			id: 1548,
+			tasks: [{
+				id: 1549,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_helmet_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.5d,
+			dependencies: [I;1548],
+			id: 1550,
+			tasks: [{
+				id: 1551,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 8.5d,
+			dependencies: [I;1550],
+			id: 1552,
+			tasks: [{
+				id: 1553,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_leggings_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 8.5d,
+			dependencies: [I;1552],
+			id: 1554,
+			tasks: [{
+				id: 1555,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_boots_end",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.0d,
+			dependencies: [I;1548],
+			id: 1556,
+			tasks: [{
+				id: 1557,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_helmet_dragon",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.0d,
+			dependencies: [I;1550],
+			id: 1558,
+			tasks: [{
+				id: 1559,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 10.0d,
+			dependencies: [I;1552],
+			id: 1560,
+			tasks: [{
+				id: 1561,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_leggings_dragon",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 10.0d,
+			dependencies: [I;1554],
+			id: 1562,
+			tasks: [{
+				id: 1563,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_boots_dragon",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

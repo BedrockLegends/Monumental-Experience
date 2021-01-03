@@ -1,0 +1,247 @@
+{
+	id: 3294,
+	filename: "simplestoragenetwork",
+	order_index: 43,
+	title: "Simple Storage Network",
+	icon: "storagenetwork:inventory",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 452,
+			tasks: [{
+				id: 453,
+				type: "item",
+				item: "storagenetwork:master"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;452],
+			id: 454,
+			tasks: [{
+				id: 455,
+				type: "item",
+				item: "storagenetwork:request"
+			}],
+			rewards: [
+				{
+					id: 4548,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4549,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;452],
+			id: 456,
+			tasks: [{
+				id: 457,
+				type: "item",
+				item: "storagenetwork:kabel",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: 4554,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4555,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;456],
+			id: 458,
+			tasks: [{
+				id: 459,
+				type: "item",
+				item: "storagenetwork:storage_kabel"
+			}],
+			rewards: [
+				{
+					id: 4556,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4557,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: [I;458],
+			id: 460,
+			tasks: [{
+				id: 461,
+				type: "item",
+				item: "storagenetwork:filter_kabel"
+			}],
+			rewards: [
+				{
+					id: 4558,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4559,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;456],
+			id: 462,
+			tasks: [{
+				id: 463,
+				type: "item",
+				item: "storagenetwork:import_kabel"
+			}],
+			rewards: [
+				{
+					id: 4560,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4561,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;462],
+			id: 464,
+			tasks: [{
+				id: 465,
+				type: "item",
+				item: "storagenetwork:import_filter_kabel"
+			}],
+			rewards: [
+				{
+					id: 4562,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4563,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;456],
+			id: 466,
+			tasks: [{
+				id: 467,
+				type: "item",
+				item: "storagenetwork:export_kabel"
+			}],
+			rewards: [
+				{
+					id: 4552,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4553,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;452],
+			id: 468,
+			tasks: [{
+				id: 469,
+				type: "item",
+				item: "storagenetwork:inventory_remote"
+			}],
+			rewards: [
+				{
+					id: 4546,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4547,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "Upgrade's",
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [I;452],
+			id: 470,
+			tasks: [
+				{
+					id: 471,
+					type: "item",
+					item: "storagenetwork:stack_upgrade"
+				},
+				{
+					id: 472,
+					type: "item",
+					item: "storagenetwork:speed_upgrade"
+				}
+			],
+			rewards: [
+				{
+					id: 4550,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4551,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

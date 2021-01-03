@@ -1,0 +1,318 @@
+{
+	id: 10,
+	filename: "industrialforegoing",
+	order_index: 19,
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:mob_slaughter_factory",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			size: 2.0d,
+			id: 614,
+			tasks: [{
+				id: 615,
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [{
+				id: 4054,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 616,
+			tasks: [{
+				id: 617,
+				type: "item",
+				item: "industrialforegoing:animal_rancher"
+			}],
+			rewards: [{
+				id: 4062,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 618,
+			tasks: [{
+				id: 619,
+				type: "item",
+				item: "industrialforegoing:animal_feeder"
+			}],
+			rewards: [{
+				id: 4060,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 620,
+			tasks: [{
+				id: 621,
+				type: "item",
+				item: "industrialforegoing:animal_baby_separator"
+			}],
+			rewards: [{
+				id: 4058,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 624,
+			tasks: [{
+				id: 625,
+				type: "item",
+				item: "industrialforegoing:sewer"
+			}],
+			rewards: [{
+				id: 4059,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 626,
+			tasks: [{
+				id: 627,
+				type: "item",
+				item: "industrialforegoing:sewage_composter"
+			}],
+			rewards: [{
+				id: 4061,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 628,
+			tasks: [{
+				id: 629,
+				type: "item",
+				item: "industrialforegoing:plant_sower"
+			}],
+			rewards: [{
+				id: 4055,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 630,
+			tasks: [{
+				id: 631,
+				type: "item",
+				item: "industrialforegoing:plant_fertilizer"
+			}],
+			rewards: [{
+				id: 4056,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 634,
+			tasks: [{
+				id: 635,
+				type: "item",
+				item: "industrialforegoing:plant_gatherer"
+			}],
+			rewards: [{
+				id: 4057,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 644,
+			tasks: [{
+				id: 645,
+				type: "item",
+				item: "industrialforegoing:mob_slaughter_factory"
+			}],
+			rewards: [{
+				id: 4069,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: [I;644],
+			id: 646,
+			tasks: [{
+				id: 647,
+				type: "item",
+				item: "industrialforegoing:meat_feeder"
+			}],
+			rewards: [{
+				id: 4070,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 648,
+			tasks: [{
+				id: 649,
+				type: "item",
+				item: "industrialforegoing:biofuel_generator"
+			}],
+			rewards: [{
+				id: 4067,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 652,
+			tasks: [{
+				id: 653,
+				type: "item",
+				item: "industrialforegoing:bioreactor"
+			}],
+			rewards: [{
+				id: 4066,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 654,
+			tasks: [{
+				id: 655,
+				type: "item",
+				item: "industrialforegoing:water_condensator"
+			}],
+			rewards: [{
+				id: 4071,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 656,
+			tasks: [{
+				id: 657,
+				type: "item",
+				item: "industrialforegoing:spores_recreator"
+			}],
+			rewards: [{
+				id: 4068,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: [I;662],
+			id: 660,
+			tasks: [{
+				id: 661,
+				type: "item",
+				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: 4064,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: [I;614],
+			id: 662,
+			tasks: [{
+				id: 663,
+				type: "item",
+				item: "industrialforegoing:fluid_extractor",
+				count: 4L
+			}],
+			rewards: [{
+				id: 4063,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: [I;660],
+			id: 664,
+			tasks: [{
+				id: 665,
+				type: "item",
+				item: "industrialforegoing:plastic",
+				count: 64L
+			}],
+			rewards: [{
+				id: 4065,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

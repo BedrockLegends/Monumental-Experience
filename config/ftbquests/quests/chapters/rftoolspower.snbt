@@ -1,0 +1,262 @@
+{
+	id: 2252,
+	filename: "rftoolspower",
+	order_index: 39,
+	title: "Rftools Power",
+	icon: "rftoolspower:power_core1",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: 2253,
+			tasks: [{
+				id: 2254,
+				type: "item",
+				item: "rftoolsbase:machine_frame"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: [I;2253],
+			id: 2255,
+			tasks: [{
+				id: 2256,
+				type: "item",
+				item: "rftoolspower:coalgenerator"
+			}],
+			rewards: [
+				{
+					id: 4664,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4665,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;2261],
+			id: 2257,
+			tasks: [{
+				id: 2258,
+				type: "item",
+				item: "rftoolspower:dimensionalcell"
+			}],
+			rewards: [
+				{
+					id: 4660,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4661,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;2257],
+			id: 2259,
+			tasks: [{
+				id: 2260,
+				type: "item",
+				item: "rftoolspower:dimensionalcell_advanced"
+			}],
+			rewards: [
+				{
+					id: 4662,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4663,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;2253],
+			id: 2261,
+			tasks: [{
+				id: 2262,
+				type: "item",
+				item: "rftoolspower:dimensionalcell_simple"
+			}],
+			rewards: [
+				{
+					id: 4658,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4659,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [I;2253],
+			id: 2265,
+			tasks: [{
+				id: 2266,
+				type: "item",
+				item: "rftoolspower:power_core1"
+			}],
+			rewards: [
+				{
+					id: 4650,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4651,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;2265],
+			id: 2267,
+			tasks: [{
+				id: 2268,
+				type: "item",
+				item: "rftoolspower:cell1"
+			}],
+			rewards: [
+				{
+					id: 4652,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4653,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;2253],
+			id: 2269,
+			tasks: [{
+				id: 2270,
+				type: "item",
+				item: "rftoolspower:power_core2"
+			}],
+			rewards: [
+				{
+					id: 4654,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4655,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: [I;2269],
+			id: 2271,
+			tasks: [{
+				id: 2272,
+				type: "item",
+				item: "rftoolspower:cell2"
+			}],
+			rewards: [
+				{
+					id: 4656,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4657,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;2253],
+			id: 2273,
+			tasks: [{
+				id: 2274,
+				type: "item",
+				item: "rftoolspower:power_core3"
+			}],
+			rewards: [
+				{
+					id: 4648,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4649,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [I;2273],
+			id: 2275,
+			tasks: [{
+				id: 2276,
+				type: "item",
+				item: "rftoolspower:cell3"
+			}],
+			rewards: [
+				{
+					id: 4646,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4647,
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

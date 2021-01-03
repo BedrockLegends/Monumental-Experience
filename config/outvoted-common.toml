@@ -1,0 +1,31 @@
+
+#Hovering Inferno
+[inferno]
+	#Blue coloration to *both* Blazes and Infernos in Soul Sand Valleys. Disabled by default to keep it Vanilla
+	"Biome Variants" = false
+	#Restrict Inferno groups to spawn only in Nether Wastes or not
+	"Restrict Spawning" = true
+	#This will affect all Inferno spawns (natural + spawner)
+	"Natural Spawning" = true
+	#Range: 1.0 ~ 1000.0
+	"Max Health" = 50.0
+	#Range: 1 ~ 100
+	"Inferno Spawn Weight" = 1
+
+#Great Hunger
+[hunger]
+	#Range: 1 ~ 100
+	"Spawn Weight" = 5
+	"Maximum Stored Enchantments" = 5
+	"Natural Spawning" = true
+	#Range: 1.0 ~ 1000.0
+	"Max Health" = 20.0
+
+#Monster of the Ocean Depths
+[kraken]
+	#Range: 1 ~ 100
+	"Spawn Weight" = 2
+	"Natural Spawning" = true
+	#Range: 1.0 ~ 1000.0
+	"Max Health" = 40.0
+

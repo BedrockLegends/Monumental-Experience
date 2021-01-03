@@ -1,0 +1,19 @@
+
+[Spawning]
+	#Should Diamond Jellyfish Spawn?
+	diamond_jellyfish_spawn = true
+	#Should Emerald Jellyfish Spawn?
+	emerald_jellyfish_spawn = true
+	#Should Redstone Jellyfish Spawn?
+	redstone_jellyfish_spawn = true
+	#Should Coal Jellyfish Spawn?
+	coal_jellyfish_spawn = true
+	#Should Lapis Lazuli Jellyfish Spawn?
+	lapis_jellyfish_spawn = true
+	#Should Gold Jellyfish Spawn?
+	gold_jellyfish_spawn = true
+	#Should Nether Quartz Jellyfish Spawn?
+	quartz_jellyfish_spawn = true
+	#Should Iron Jellyfish Spawn?
+	iron_jellyfish_spawn = true
+

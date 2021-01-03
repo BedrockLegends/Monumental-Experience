@@ -1,0 +1,35 @@
+#Show startup Baubles message.
+baubles_msg = false
+
+["Wooden Solar Panel Configuration"]
+	#Solar panel energy output.
+	#Range: > 1
+	solar_panel_output = 10
+	#Internal solar panel capacity.
+	#Range: > 1
+	max_capacity = 5000
+	#Time that the solar panel takes to recharge.
+	#Range: > 1
+	work_time = 20
+
+["Wooden Tnt Configuration"]
+	#Explosion damage.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	tnt_power = 1.0
+
+["Woodcutter Configuration"]
+	#When enabled the woodcutter requires a minimum axe tier to work. (0 to 3)
+	#Range: 0 ~ 3
+	minimum_axe_tier = 2
+	#When enabled the woodcutter requires some sort of axe to work.
+	need_axe = true
+
+["Wooden Shears Configuration"]
+	#When enabled the Wooden Shears will behave the same as the iron shears.
+	drop_shears_products = false
+
+["Wooden Rings Configuration (Don't change if the current modpack doesn't contain Baubles)"]
+	#Lumberjack speed modifier.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	ring_lumberjack_speed = 10.0
+

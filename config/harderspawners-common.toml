@@ -1,0 +1,19 @@
+
+["Spawners Spawn in Light Control Values"]
+	#Spawner Break Speed Modifier: 0 = Off, 1 = 50% slower, 2-11 times slower
+	#Range: 0 ~ 11
+	spawnerBreakSpeedMultiplier = 4
+	#Explode percentage when Spawners Break
+	#Range: 0.0 ~ 100.0
+	spawnersExplodePercentage = 33.0
+	#Spawner Revenge Level: 0 = Off, Over 1 spawner takes revenge on player.
+	#Range: 0 ~ 11
+	spawnerRevengeLevel = 1
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+
+["No Break Mobs Values 6464"]
+	#Trail Block String 6464
+	defaultNoBreakMobsActual = "harderspawners:default,0.2;minecraft:pig,0.0;minecraft:cow,0.0;minecraft:sheep,0.0;minecraft:parrot,0.0;minecraft:blaze,0.0;"
+

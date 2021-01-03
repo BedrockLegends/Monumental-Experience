@@ -1,0 +1,250 @@
+{
+  "AUTUMN": {
+    "start": {
+      "tempModifier": -0.1,
+      "humidityModifier": 0.0,
+      "weatherEventChanceMultiplier": 0.7,
+      "cropGrowthChanceMultiplier": 0.7,
+      "weatherEventController": {
+        "blizzardChance": 0.0,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ff9b673c",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff9b673c",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff9b673c",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff9b673c",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "mid": {
+      "tempModifier": -0.2,
+      "humidityModifier": 0.0,
+      "weatherEventChanceMultiplier": 0.7,
+      "cropGrowthChanceMultiplier": 0.65,
+      "weatherEventController": {
+        "blizzardChance": 0.05,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ff9b673c",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff9b673c",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff9b673c",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff9b673c",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "end": {
+      "tempModifier": -0.3,
+      "humidityModifier": 0.1,
+      "weatherEventChanceMultiplier": 0.75,
+      "cropGrowthChanceMultiplier": 0.6,
+      "weatherEventController": {
+        "blizzardChance": 0.1,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ff9b673c",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff9b673c",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff9b673c",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff9b673c",
+        "fogColorBlendStrength": 0.0
+      }
+    }
+  },
+  "SPRING": {
+    "start": {
+      "tempModifier": -0.15,
+      "humidityModifier": 0.5,
+      "weatherEventChanceMultiplier": 1.5,
+      "cropGrowthChanceMultiplier": 2.0,
+      "weatherEventController": {
+        "blizzardChance": 0.1,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ff336132",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff336132",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff336132",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff336132",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "mid": {
+      "tempModifier": 0.1,
+      "humidityModifier": 0.5,
+      "weatherEventChanceMultiplier": 2.0,
+      "cropGrowthChanceMultiplier": 2.0,
+      "weatherEventController": {
+        "blizzardChance": 0.05,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ff295702",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff295702",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff295702",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff295702",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "end": {
+      "tempModifier": 0.25,
+      "humidityModifier": 0.4,
+      "weatherEventChanceMultiplier": 1.5,
+      "cropGrowthChanceMultiplier": 1.5,
+      "weatherEventController": {
+        "blizzardChance": 0.0,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ff145702",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff145702",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff145702",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff145702",
+        "fogColorBlendStrength": 0.0
+      }
+    }
+  },
+  "SUMMER": {
+    "start": {
+      "tempModifier": 0.35,
+      "humidityModifier": -0.1,
+      "weatherEventChanceMultiplier": 0.75,
+      "cropGrowthChanceMultiplier": 1.0,
+      "weatherEventController": {
+        "blizzardChance": 0.0,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "",
+        "foliageColorBlendStrength": 0.0,
+        "targetGrassHexColor": "",
+        "grassColorBlendStrength": 0.0,
+        "targetSkyHexColor": "",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "mid": {
+      "tempModifier": 0.5,
+      "humidityModifier": -0.3,
+      "weatherEventChanceMultiplier": 0.2,
+      "cropGrowthChanceMultiplier": 1.0,
+      "weatherEventController": {
+        "blizzardChance": 0.0,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "",
+        "foliageColorBlendStrength": 0.0,
+        "targetGrassHexColor": "",
+        "grassColorBlendStrength": 0.0,
+        "targetSkyHexColor": "",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "end": {
+      "tempModifier": 0.15,
+      "humidityModifier": -0.1,
+      "weatherEventChanceMultiplier": 0.5,
+      "cropGrowthChanceMultiplier": 0.8,
+      "weatherEventController": {
+        "blizzardChance": 0.0,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "",
+        "foliageColorBlendStrength": 0.0,
+        "targetGrassHexColor": "",
+        "grassColorBlendStrength": 0.0,
+        "targetSkyHexColor": "",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "",
+        "fogColorBlendStrength": 0.0
+      }
+    }
+  },
+  "WINTER": {
+    "start": {
+      "tempModifier": -0.4,
+      "humidityModifier": 0.2,
+      "weatherEventChanceMultiplier": 1.0,
+      "cropGrowthChanceMultiplier": 0.5,
+      "weatherEventController": {
+        "blizzardChance": 0.3,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ffa52a2a",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ffa52a2a",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ffa52a2a",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ffa52a2a",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "mid": {
+      "tempModifier": -0.5,
+      "humidityModifier": 0.2,
+      "weatherEventChanceMultiplier": 1.0,
+      "cropGrowthChanceMultiplier": 0.4,
+      "weatherEventController": {
+        "blizzardChance": 0.5,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ffa52a2a",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ffa52a2a",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ffa52a2a",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ffa52a2a",
+        "fogColorBlendStrength": 0.0
+      }
+    },
+    "end": {
+      "tempModifier": -0.35,
+      "humidityModifier": 0.2,
+      "weatherEventChanceMultiplier": 1.25,
+      "cropGrowthChanceMultiplier": 0.4,
+      "weatherEventController": {
+        "blizzardChance": 0.3,
+        "acidRainChance": 0.25
+      },
+      "client": {
+        "targetFoliageHexColor": "ffa52a2a",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ffa52a2a",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ffa52a2a",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ffa52a2a",
+        "fogColorBlendStrength": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+
+[core]
+
+	[core.general]
+		#If mod compatibility loader should crash hard if errors occur in that process.
+		crashOnModCompatCrash = false
+		#Set 'true' to enable development debug mode. This will result in a lower performance!
+		debug = false
+		#If the recipe loader should crash when finding invalid recipes.
+		crashOnInvalidRecipe = false
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = true
+		#If the version checker should be enabled.
+		versionChecker = true
+
+[machine]
+
+	[machine.flopper]
+		#The maximum capacity in mB.
+		capacityMb = 5000
+		#If fluids should be pushed into the world.
+		pushFluidsWorld = true
+		#If sounds should be placed when placing or picking up fluids to/from the world.
+		worldPullPushSounds = true
+		#If neighbour-change events should be triggered when placing or picking up fluids to/from the world.
+		worldPullPushNeighbourEvents = true
+		#If a status message with the flopper contents should be shown to the player on right click without an item.
+		showContentsStatusMessageOnClick = true
+		#The rate at which fluids can be pushed to other tanks.
+		pushFluidRate = 100
+		#The number of ticks each flopper should sleep after picking up or placing fluids.
+		workWorldCooldown = 20
+		#The rate at which fluids can be pulled from other tanks.
+		pullFluidRate = 100
+		#If fluids should be pulled from the world.
+		pullFluidsWorld = true
+		#The number of ticks each flopper should sleep after interacting with tanks
+		workCooldown = 8
+		#If the contained fluid should be rendered.
+		renderFluid = true
+

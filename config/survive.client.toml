@@ -1,0 +1,11 @@
+
+[temperature]
+	#The x offset from the center of the screen where the temperature should render
+	#Range: -200 ~ 200
+	"Temperature X Offset" = -66
+	#The y offset from the top of the screen where the temperature should render
+	#Range: -200 ~ 200
+	"Temperature Y Offset" = 5
+	#Allowed Values: HOTBAR, NUMBERS, BAR
+	"Temperature Display Mode" = "HOTBAR"
+

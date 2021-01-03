@@ -1,0 +1,10 @@
+{
+  "tierMap": {
+    "plastic": "TWO",
+    "pink_slime": "FOUR"
+  },
+  "cruxMap": {
+    "plastic": "",
+    "pink_slime": ""
+  }
+}

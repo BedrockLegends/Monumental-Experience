@@ -1,0 +1,44 @@
+
+[spawning]
+
+	#This is a list of spawner data that will used to add spawn entries to biomes as they load.
+	#CHANGES TO THIS CONFIG REQUIRE A SERVER RESTART TO TAKE EFFECT
+	#Each entry has the following fields:
+	#weight -- Spawning weight in the biome; higher number == spawn more often relative to other mobs (zombies have 100, usually)
+	#min -- Minimum group size to attempt to spawn (typically 1)
+	#max -- Maximum group size to attempt to spawn (typically 4)
+	#include -- A mandatory list of biome identifiers (more info below)
+	#exclude -- An optional list of biome identifiers
+	#require -- An optional list of biome identifiers
+	#For each biome defined in the include list, this spawn entry will be added to that biome as they load, UNLESS:
+	#  the biome is in the exclude list, or the require list is non-empty and the biome is not in the require list
+	#A biome identifier can either be a resource location identifying a single biome (e.g. minecraft:swamp)
+	#OR a Forge BiomeDictionary identifier identifying a set of biomes, in all caps (e.g. WET)
+	#A list of the default BiomeDictionary keys is available here:
+	#https://github.com/MinecraftForge/MinecraftForge/blob/1.16.x/src/main/java/net/minecraftforge/common/BiomeDictionary.java
+	#Be aware that adding multiple spawn entries that permit spawning in the same biome will cause a spawn entry
+	#  to be added to that biome twice, likely causing froglins to spawn more often
+	[[spawning.entries]]
+		include = ["SWAMP"]
+		min = 1
+		max = 2
+		weight = 25
+		exclude = ["OCEAN", "DRY", "COLD"]
+		require = ["OVERWORLD"]
+
+	[[spawning.entries]]
+		include = ["RIVER"]
+		min = 1
+		max = 2
+		weight = 15
+		exclude = ["OCEAN", "DRY", "COLD", "SWAMP"]
+		require = ["OVERWORLD"]
+
+	[[spawning.entries]]
+		include = ["WET"]
+		min = 1
+		max = 2
+		weight = 25
+		exclude = ["OCEAN", "DRY", "COLD", "SWAMP", "RIVER"]
+		require = ["OVERWORLD"]
+

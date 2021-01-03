@@ -1,0 +1,6 @@
+┏╸ma:boules_and_wafers
+┃┏╸bo:enabled
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┗╸
