@@ -426,6 +426,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 **Changes/fixed**
 
 - Chancecube Config
+- Keybindings, Plese Not I disabled any that where causing Conflicts and you may have to reset your keys to whatever u need them to be.
 
 
 **Added**
@@ -456,3 +457,8 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Refined Storage**
 - **TIPS**
 - **Environmental Tech**
+- **Mystical Agradditions**
+- **Astral Sorcery**
+- **ObserverLib**
+- **Aquaculture 2**
+- **RandomPatches**
