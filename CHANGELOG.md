@@ -429,6 +429,8 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Keybindings, Plese Not I disabled any that where causing Conflicts and you may have to reset your keys to whatever u need them to be
 - The datapack recipes again
 - Having more then one Iron plate, All mods that require Iron Plates will use the Thermal Iron Plate only now.(Some mods are working on fixing their mods to use forge:plates/iron)
+- Fixing Furnace showing Ore/ingot/dust to ingot smelting recipes, Blast furnace is the way to go
+- The Abiility to make Steel in a Furnace using Steel Blend from Clib
 
 
 **Added**
