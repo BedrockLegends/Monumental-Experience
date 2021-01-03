@@ -472,3 +472,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Redstone Gauges**
 - **Forge**
 - **Speedy Ladders**
+- **Speedy Hoppers**
