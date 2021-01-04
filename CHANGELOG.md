@@ -484,3 +484,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **All The Ores**
 - **JEI**
 - **The One Probe**
+- **Portable Stonecutter**
+- **Pneumaticcraft Repressurized**
+- **Pedestals**
+- **Create**
