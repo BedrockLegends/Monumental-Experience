@@ -434,6 +434,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Fixed having Double Electrum Ingots
 - Fixed having Double Constantan Ingots
 - Fixed having Double Obsidian Ingots
+- Options.txt
 
 
 **Added**
