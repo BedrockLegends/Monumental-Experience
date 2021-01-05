@@ -431,6 +431,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Fixing Furnace showing Ore/ingot/dust to ingot smelting recipes, Blast furnace is the way to go
 - The Abiility to make Steel in a Furnace using Steel Blend from Clib
 - Options.txt
+- JEI to hide items that should be hidden
 
 
 **Added**
