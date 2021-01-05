@@ -500,3 +500,5 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **Create**
 - **Enchant With Mob**
 - **SmoothBoot**
+- **LibX**
+- **Jellyfishing**
