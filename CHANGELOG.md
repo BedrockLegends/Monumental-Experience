@@ -444,6 +444,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Added Woot Dye Plate support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
 - Added Macaw's furnitures Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
 - Added Wooden Utilities Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
+- Added Ceramics Plate support to Thermal Press, Immersive Engineering Metal Press, and Create Pressing
 
 
 **Removed**
