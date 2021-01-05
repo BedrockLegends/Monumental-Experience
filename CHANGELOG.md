@@ -438,8 +438,11 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 
 **Added**
+
 - Spawner Fix(https://www.curseforge.com/minecraft/mc-mods/spawner-fix)
 - Dynmap for BedrockLegends Official server(http://monumental.bedrocklegends.com:8123/)
+- Added Woot Dye Plate support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
+
 
 **Removed**
 
