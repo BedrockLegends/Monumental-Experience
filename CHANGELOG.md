@@ -455,6 +455,7 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - Having Double Obsidian Ingots
 - Having more then one Iron plate, All mods that require Iron Plates will use the Thermal Iron Plate only now.(Some mods are working on fixing their mods to use forge:plates/iron)
 
+
 **Updated**
 
 - **Thermal Locomotion**
@@ -503,3 +504,4 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 - **LibX**
 - **Jellyfishing**
 - **Oh The Biomes You'll Go**
+- Creative Recipes to use Create Mechanical Crafting
