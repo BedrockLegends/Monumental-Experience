@@ -438,12 +438,12 @@ Last Updated hopefully till the New Year, I have no plans to play Minecraft duri
 
 - Spawner Fix(https://www.curseforge.com/minecraft/mc-mods/spawner-fix)
 - Dynmap for BedrockLegends Official server(http://monumental.bedrocklegends.com:8123/)
-- Added Woot Dye Plate support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
-- Added Macaw's furnitures Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
-- Added Wooden Utilities Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
-- Added Ceramics Plate support to Thermal Press, Immersive Engineering Metal Press, and Create Pressing
-- Added Gear Support Thermal Press, Immersive Engineering Metal Press, and Create Pressing
-- Added Yellorium Garden Cloche Support
+- Woot Dye Plate support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
+- Macaw's furnitures Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
+- Wooden Utilities Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
+- Ceramics Plate support to Thermal Press, Immersive Engineering Metal Press, and Create Pressing
+- Gear Support Thermal Press, Immersive Engineering Metal Press, and Create Pressing
+- Yellorium Garden Cloche Support
 
 
 **Removed**
