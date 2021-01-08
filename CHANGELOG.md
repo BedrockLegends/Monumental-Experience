@@ -30,6 +30,7 @@
 - Gear Support Thermal Press, Immersive Engineering Metal Press, and Create Pressing
 - Yellorium Garden Cloche Support
 - Quark and Mcw bridges Iron rods to the forge:rods/iron
+- Conditions to custom recipes to prevent people posting bugs about broken recipes, if said user has removed mods from the pack and not realizing that it can break things
 
 
 **Removed**
