@@ -16,6 +16,7 @@
 - The Abiility to make Steel in a Furnace using Steel Blend from Clib
 - Options.txt
 - JEI to hide items that should be hidden
+- How all custom tool recipes are made, They no longer require Extended Crafting
 
 
 **Added**
