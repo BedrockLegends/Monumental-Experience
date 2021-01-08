@@ -21,6 +21,7 @@
 
 **Added**
 
+- Supplementaries(https://www.curseforge.com/minecraft/mc-mods/supplementaries)
 - Spawner Fix(https://www.curseforge.com/minecraft/mc-mods/spawner-fix)
 - Dynmap for BedrockLegends Official server(http://monumental.bedrocklegends.com:8123/)
 - Woot Dye Plate support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
