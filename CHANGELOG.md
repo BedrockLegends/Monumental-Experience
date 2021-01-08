@@ -28,6 +28,7 @@
 - Ceramics Plate support to Thermal Press, Immersive Engineering Metal Press, and Create Pressing
 - Gear Support Thermal Press, Immersive Engineering Metal Press, and Create Pressing
 - Yellorium Garden Cloche Support
+- Quark and Mcw bridges Iron rods to the forge:rods/iron
 
 
 **Removed**
