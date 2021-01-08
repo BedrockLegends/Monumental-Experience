@@ -29,6 +29,7 @@
 - Gear Support Thermal Press, Immersive Engineering Metal Press, and Create Pressing
 - Yellorium Garden Cloche Support
 - Quark and Mcw bridges Iron rods to the forge:rods/iron
+- Added Refined Storage for Computercraft(https://www.curseforge.com/minecraft/mc-mods/refined-storage-for-computercraft)
 
 
 **Removed**
