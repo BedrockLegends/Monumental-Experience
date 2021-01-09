@@ -29,7 +29,8 @@
 - Wooden Utilities Plate Support to Thermal Press, Create pressing, and Immersive Engineering Metal Press
 - Ceramics Plate support to Thermal Press, Immersive Engineering Metal Press, and Create Pressing
 - Gear Support Thermal Press, Immersive Engineering Metal Press, and Create Pressing
-- Yellorium Garden Cloche Support
+- Yellorium Garden Cloche Seed Support
+- Cyanite Garden Cloche Seed Support
 - Quark and Mcw bridges Iron rods to the forge:rods/iron
 - Conditions to custom recipes to prevent people posting bugs about broken recipes, because of said users removing mods from the pack and not realizing that it can break a ton of things
 
