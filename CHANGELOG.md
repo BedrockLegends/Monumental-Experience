@@ -102,24 +102,20 @@
 - **Psi*
 - **Recipe buffers**
 
+
+![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+[Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
+
+
 ---------------------------------------------------------------------------------------------
 
 **Modpack Version**
-7.5
-
-**Notes**
+7.2
 
 **Changes/fixed**
-- Monster Box from Quarks Loot Table to have mysticalagriculture essence
 
-**Added**
+- Broken Quest Book
 
-- Quark Saplings to Farming For Block Heads Market
-
-
-**Removed**
-- A file that got put inside the datafolder
 
 **Updated**
-
-- Bookshelf
+- **Traveler's Backpack**
