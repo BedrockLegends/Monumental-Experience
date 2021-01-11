@@ -101,3 +101,25 @@
 - **Prefab**
 - **Psi*
 - **Recipe buffers**
+
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.5
+
+**Notes**
+
+**Changes/fixed**
+- Monster Box from Quarks Loot Table to have mysticalagriculture essence
+
+**Added**
+
+- Quark Saplings to Farming For Block Heads Market
+
+
+**Removed**
+- Nothing
+
+**Updated**
+
+- 
