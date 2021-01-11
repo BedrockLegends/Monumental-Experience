@@ -118,7 +118,7 @@
 
 
 **Removed**
-- Nothing
+- A file that got put inside the datafolder
 
 **Updated**
 
