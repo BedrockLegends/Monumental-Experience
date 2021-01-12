@@ -117,6 +117,8 @@
 
 **Added**
 - **Iron Furnace Quest Line**
+- **Color Quest Titles**
+- **Color Quest Lines**
 
 **Updated**
 - **Traveler's Backpack**
