@@ -112,10 +112,19 @@
 **Modpack Version**
 7.2
 
-**Changes/fixed**
+**Notes**
+- Check version 7.1()
 
-- Broken Quest Book
-
+**Added**
+- **Iron Furnace Quest Line**
 
 **Updated**
 - **Traveler's Backpack**
+- **Iron Furnaces**
+- **MC Doom Mod**
+- **Decorative Blocks**
+- **Quark**
+- **Portable StoneCutter**
+- **Curios**
+- **Lollipop**
+- **LostTrinkets**
