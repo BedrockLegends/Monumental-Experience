@@ -118,7 +118,6 @@
 **Added**
 - **Iron Furnace Quest Line**
 - **Color Quest Titles**
-- **Color Quest Lines**
 
 **Updated**
 - **Traveler's Backpack**
@@ -130,3 +129,5 @@
 - **Curios**
 - **Lollipop**
 - **LostTrinkets**
+- **Just Enough Resources**
+- **Better Advancements**
