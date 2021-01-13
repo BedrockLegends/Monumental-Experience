@@ -132,3 +132,22 @@
 - **Just Enough Resources**
 - **Better Advancements**
 - **Chocolate Fix**
+---------------------------------------------------------------------------------------------
+
+![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+[Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
+
+
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.3
+
+**Notes**
+- Old worlds from version 7.0 and below may not work with new 7.1 and above
+
+**Added**
+
+**Updated**
+- **Create**
+- **PneumaticCraft**
