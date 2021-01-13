@@ -131,3 +131,4 @@
 - **LostTrinkets**
 - **Just Enough Resources**
 - **Better Advancements**
+- **Chocolate Fix**
