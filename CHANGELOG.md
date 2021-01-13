@@ -151,3 +151,6 @@
 **Updated**
 - **Create**
 - **PneumaticCraft**
+- **Industrial Foregoing**
+- **Chisels & Bits, Fixes Memory Leak**
+- **Botany Pots
