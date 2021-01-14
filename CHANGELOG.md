@@ -154,3 +154,14 @@
 - **Industrial Foregoing**
 - **Chisels & Bits, Fixes Memory Leak**
 - **Botany Pots
+- **Trash Cans**
+- **Blame**
+- **Engineers Decor**
+- **Iron Furnaces**
+- **JEI**
+- **Mantle**
+- **Pedestals**
+- **Polymorph**
+- **Gauges and Switches**
+- **Snow Real Magic**
+- **Traveler's Backpack**
