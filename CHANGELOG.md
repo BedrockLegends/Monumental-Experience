@@ -165,3 +165,9 @@
 - **Gauges and Switches**
 - **Snow Real Magic**
 - **Traveler's Backpack**
+- **Applied Energistics 2**
+- **Astral Sorcery**
+- **Botanical Machinery**
+- **Oh Biomes Ya Go**
+- **Camera**
+- **Ceramics**
