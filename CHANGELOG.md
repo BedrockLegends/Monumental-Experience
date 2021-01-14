@@ -153,7 +153,7 @@
 - **PneumaticCraft**
 - **Industrial Foregoing**
 - **Chisels & Bits, Fixes Memory Leak**
-- **Botany Pots
+- **Botany Pots**
 - **Trash Cans**
 - **Blame**
 - **Engineers Decor**
