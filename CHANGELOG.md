@@ -209,3 +209,9 @@
 - **PSI**
 - **MC Doom Mod**
 - **YUNG's Better Caves**
+- **Forge**
+- **FTB Chunks**
+- **Obfuscate**
+- **Corail Tombstone**
+- **Transport**
+- **Recipe Buffers**
