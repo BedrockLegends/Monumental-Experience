@@ -171,3 +171,33 @@
 - **Oh Biomes Ya Go**
 - **Camera**
 - **Ceramics**
+
+![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+[Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
+
+
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.3
+
+**Notes**
+- This might be the last 1.16.4 update as 1.16.5 release tomorrow aka Friday
+
+**Added**
+
+**Updated**
+- **Advanced Peripherals**
+- **All The Modium**
+- **All The Ores**
+- **Cyclic**
+- **Enchantment Descriptions**
+- **Extreme Reactors 2**
+- **Gobber2**
+- **Iron Age Furniture**
+- **Lost Trinkets**
+- **Powder Power**
+- **Quark**
+- **Structure Gel**
+- ** UnionLib**
+- **Zero Core 2**
