@@ -190,6 +190,7 @@
 - Broken Iron/Gold not smelting in Blast Furnace
 - More Broken Blasting Recipes
 - messy JEI
+- Broken Chest Recipe
 
 **Updated**
 - **Advanced Peripherals**
