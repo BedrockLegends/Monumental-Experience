@@ -215,3 +215,6 @@
 - **Corail Tombstone**
 - **Transport**
 - **Recipe Buffers**
+
+**Removed**
+- **Quartz Grindstone, should have been removed in a past version.
