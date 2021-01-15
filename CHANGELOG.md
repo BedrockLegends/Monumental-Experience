@@ -192,6 +192,10 @@
 - messy JEI
 - Broken Chest Recipe
 
+**Added**
+- More Manuals and Books to the Library of All Mods Quest Line.(Example Added Immersive Railroading Manual)
+
+
 **Updated**
 - **Advanced Peripherals**
 - **All The Modium**
