@@ -189,6 +189,7 @@
 - The Broken Solar Flux Reborn Quest Ling
 - Broken Iron/Gold not smelting in Blast Furnace
 - More Broken Blasting Recipes
+- messy JEI
 
 **Updated**
 - **Advanced Peripherals**
