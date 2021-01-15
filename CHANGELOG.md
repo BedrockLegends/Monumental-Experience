@@ -179,12 +179,14 @@
 ---------------------------------------------------------------------------------------------
 
 **Modpack Version**
-7.3
+7.4
 
 **Notes**
 - This might be the last 1.16.4 update as 1.16.5 release tomorrow aka Friday
 
-**Added**
+**Changes/fixed**
+- The Iron Jetpack Quest Line being Broken
+- The Broken Solar Flux Reborn Quest Ling
 
 **Updated**
 - **Advanced Peripherals**
