@@ -187,7 +187,8 @@
 **Changes/fixed**
 - The Iron Jetpack Quest Line being Broken
 - The Broken Solar Flux Reborn Quest Ling
-- Fixed Broken Iron/Gold not smelting in Blast Furnace
+- Broken Iron/Gold not smelting in Blast Furnace
+- More Broken Blasting Recipes
 
 **Updated**
 - **Advanced Peripherals**
