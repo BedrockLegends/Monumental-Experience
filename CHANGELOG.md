@@ -206,3 +206,5 @@
 - **Curios API**
 - **supplementaries**
 - **PSI**
+- **MC Doom Mod**
+- **YUNG's Better Caves**
