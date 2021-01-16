@@ -194,6 +194,7 @@
 
 **Added**
 - More Manuals and Books to the Library of All Mods Quest Line.(Example Added Immersive Railroading Manual)
+- Coal to Coal Dust in Thermal Pulverizer 
 
 
 **Updated**
