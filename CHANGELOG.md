@@ -228,3 +228,4 @@
 **Removed**
 - **Quartz Grindstone, should have been removed in a past version.**
 - **Ae2 easy Shapeless Cell Recipes**
+- **AllTheModium Items being able to be Recycled in the Arc Furnace**
