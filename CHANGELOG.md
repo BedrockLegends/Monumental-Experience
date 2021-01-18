@@ -195,6 +195,7 @@
 **Added**
 - More Manuals and Books to the Library of All Mods Quest Line.(Example Added Immersive Railroading Manual)
 - Coal to Coal Dust in Thermal Pulverizer 
+- Compressed Iron Gear support to Create, Thermal, and Immersive. This will alow the compressed gear to be made with those mods.
 
 
 **Updated**
