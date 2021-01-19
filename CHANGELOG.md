@@ -191,6 +191,7 @@
 - More Broken Blasting Recipes
 - messy JEI
 - Broken Chest Recipe
+- FTB Chunk loading being active well a player is offline, this means no longer will FTB Chunks be loaded after you log off
 
 **Added**
 - More Manuals and Books to the Library of All Mods Quest Line.(Example Added Immersive Railroading Manual)
@@ -229,3 +230,4 @@
 **Removed**
 - **Quartz Grindstone, should have been removed in a past version.**
 - **Ae2 easy Shapeless Cell Recipes**
+- **Ae2 Tool Recipes**
