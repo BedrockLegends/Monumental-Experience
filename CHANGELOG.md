@@ -231,3 +231,4 @@
 - **Quartz Grindstone, should have been removed in a past version.**
 - **Ae2 easy Shapeless Cell Recipes**
 - **Ae2 Tool Recipes**
+- Mystical and iceandfire from Lootbags, To OP
