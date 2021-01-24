@@ -130,4 +130,10 @@
 
 - Obfuscate
 
+- PSI
+
+- Tips
+
+- TravelersBackpack
+
 **Removed**
