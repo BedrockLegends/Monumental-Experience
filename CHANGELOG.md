@@ -91,3 +91,28 @@
 
 
 **Removed**
+
+
+![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+[Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
+
+
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.5
+
+**Notes**
+
+**Changes/fixed**
+- More broken quest lines
+
+
+**Added**
+- PSI quest line
+
+**Updated**
+- Ae2
+
+
+**Removed**
