@@ -114,5 +114,14 @@
 **Updated**
 - Ae2
 
+- Bed Benefits
+
+- Better Advancements
+
+- Blood Magic
+
+- CC Tweaked
+
+- Enchantment Descriptions
 
 **Removed**
