@@ -143,3 +143,33 @@
 - Useful Railroads
 
 **Removed**
+
+
+
+
+![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+[Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
+
+
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+7.5
+
+**Notes**
+
+**Changes/fixed**
+- None
+
+
+**Added**
+- PSI quest line
+
+**Updated**
+
+- PSI, Fixes Client crash to desktop, when right clicking on programmer 
+
+-
+
+**Removed**
+- None
