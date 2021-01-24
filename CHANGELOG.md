@@ -81,5 +81,13 @@
 - Supplementaries
 - Auto Ore Dictionary Converter
 - Snad - Back to the Past
+- Architectury API
+- Openblock Elevator
+- Ceiling Torch
+- Gauges and Switches
+- Harder Spawners 
+- Engineer's Tools
+- Engineer's Decor
+
 
 **Removed**
