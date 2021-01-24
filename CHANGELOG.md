@@ -124,4 +124,10 @@
 
 - Enchantment Descriptions
 
+- Just Enough Resources
+
+- More Overlays Updated
+
+- Obfuscate
+
 **Removed**
