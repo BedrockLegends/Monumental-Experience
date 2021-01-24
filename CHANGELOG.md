@@ -136,4 +136,10 @@
 
 - TravelersBackpack
 
+- U-Team-Core
+
+- Upsizer
+
+- Useful Railroads
+
 **Removed**
