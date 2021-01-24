@@ -71,12 +71,14 @@
 **Notes**
 
 **Changes/fixed**
+- More broken quest lines
 
 
 **Added**
 
 
 **Updated**
-- 
+- Supplementaries
+- Auto Ore Dictionary Converter
 
 **Removed**
