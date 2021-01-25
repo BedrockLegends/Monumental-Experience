@@ -186,5 +186,31 @@
 
 - More Jellyfishing and JellyFishing
 
+- Better Beacon Placement
+
+- Better Spawner Control
+
+- Configurable Despawn Timer
+
+- Naturally Charged Creepers
+
+- No Hostiles Around Campfire
+
+- Starter Kit
+
+- Tree Harvester
+
+- Collective
+
+- Storage Drawers
+
+- Tinker's Mechworks
+
+- Mantle
+
+- BYG
+
+- MC Doom Mod
+
 **Removed**
 - None
