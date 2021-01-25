@@ -160,6 +160,8 @@
 
 **Changes/fixed**
 - Tag issues
+- Plant Gatherer recipe, Now uses tags for some items
+- Plant Sower recipe, Now ues tags for some items
 
 - Debug items being dropped in loot bags
 
@@ -177,6 +179,8 @@
 - Immersive Engineering
 
 - Supplementaries
+
+- More Jellyfishing and JellyFishing
 
 **Removed**
 - None
