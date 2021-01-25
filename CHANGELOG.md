@@ -154,22 +154,26 @@
 ---------------------------------------------------------------------------------------------
 
 **Modpack Version**
-7.5
+7.8
 
 **Notes**
 
 **Changes/fixed**
 - Tag issues
+
 - Debug items being dropped in loot bags
-- compressium not being blacklisted from Loot Bags
+
+- Compressium not being blacklisted from Loot Bags
 
 
 **Added**
-- PSI quest line
+
+- Mana and Artifice
 
 **Updated**
 
 - PSI, Fixes Client crash to desktop, when right clicking on programmer 
+
 - Immersive Engineering
 
 - Supplementaries
