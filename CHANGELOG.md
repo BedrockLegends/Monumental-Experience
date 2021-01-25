@@ -160,6 +160,8 @@
 
 **Changes/fixed**
 - Tag issues
+- Debug items being dropped in loot bags
+- compressium not being blacklisted from Loot Bags
 
 
 **Added**
