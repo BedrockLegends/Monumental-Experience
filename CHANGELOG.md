@@ -160,12 +160,16 @@
 
 **Changes/fixed**
 - Tag issues
+
 - Plant Gatherer recipe, Now uses tags for some items
+
 - Plant Sower recipe, Now ues tags for some items
 
 - Debug items being dropped in loot bags
 
 - Compressium not being blacklisted from Loot Bags
+
+- Mob Crusher Recipe, Now uses Tags for some items
 
 
 **Added**
