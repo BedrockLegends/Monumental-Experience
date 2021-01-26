@@ -212,5 +212,9 @@
 
 - MC Doom Mod
 
+- Blame
+
+- Auto Ore Dictionary
+
 **Removed**
 - None
