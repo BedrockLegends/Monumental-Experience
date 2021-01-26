@@ -216,5 +216,9 @@
 
 - Auto Ore Dictionary
 
+- Better Burning
+
+- Many More
+
 **Removed**
 - None
