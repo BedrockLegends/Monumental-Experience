@@ -18,6 +18,8 @@
 
 - Mana and Artifice
 
+- use of right tags in quest lines
+
 **Updated**
 
 - Gecko Lib
