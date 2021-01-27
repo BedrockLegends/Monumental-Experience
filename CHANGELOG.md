@@ -52,5 +52,9 @@
 
 - Architechtury API
 
+- Better Weather
+
+- FTB Teams
+
 **Removed**
 - chocolate fix
