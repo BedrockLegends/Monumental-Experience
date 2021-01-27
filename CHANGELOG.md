@@ -18,9 +18,10 @@
 
 - Mana and Artifice
 
-- use of right tags in quest lines
+- Scannable
 
 - New way to get Gobber Goo using NaturesAura Offering
+
 
 **Updated**
 
