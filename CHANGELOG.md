@@ -8,7 +8,7 @@
 8.0
 
 **Notes**
-- This update will remove Cchocolate fix and will cause Map wipes because of a new forge update
+- This update will remove Chocolate fix and will cause Map wipes because of a new forge update
 
 **Changes/fixed**
 - More Industrail Foregoing Recipes not using tags/custom tags
