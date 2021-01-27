@@ -22,6 +22,8 @@
 
 - New way to get Gobber Goo using NaturesAura Offering
 
+- Natura's Aura Quest Line
+
 
 **Updated**
 
