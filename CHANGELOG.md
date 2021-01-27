@@ -12,6 +12,7 @@
 
 **Changes/fixed**
 - More Industrail Foregoing Recipes not using tags/custom tags
+- Ore gen for some Mods genning that did not need to be
 
 
 **Added**
