@@ -5,9 +5,10 @@
 ---------------------------------------------------------------------------------------------
 
 **Modpack Version**
-7.8
+8.0
 
 **Notes**
+- This update will remove Cchocolate fix and will cause Map wipes because of a new forge update
 
 **Changes/fixed**
 - More Industrail Foregoing Recipes not using tags/custom tags
@@ -19,11 +20,37 @@
 
 **Updated**
 
-- Gecko
+- Gecko Lib
 
 - Loot Bag Mod
 
 - Better Weather
 
+- Supplementaries
+
+- FTB GUI Library
+
+- FTB Ultimine
+
+- Oh Biomes Ya Go
+
+- Jellyfishing
+
+- Quark
+
+- Macaw's mods
+
+- Neat
+
+- PneumaticCraft
+
+- Mc Doom Mod
+
+- Better Shields
+
+- Dark Utilities
+
+- Architechtury API
+
 **Removed**
-()
+- chocolate fix
