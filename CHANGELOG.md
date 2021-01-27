@@ -24,6 +24,12 @@
 
 - Natura's Aura Quest Line
 
+- Environmental Tech Quest Line
+
+- Extreme Reactors Quest Line
+
+- Building Gadgets Items to the Mining Gadgets Quest Line
+
 
 **Updated**
 
