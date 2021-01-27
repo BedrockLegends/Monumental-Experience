@@ -61,6 +61,18 @@
 
 - FTB Teams
 
+- Forge, to support the latest Java 15 update
+
+- AllTheModium
+
+- Architechtury
+
+- Item Filters
+
+- KubeJS
+
+- Mekanism
+
 **Removed**
 
 - chocolate fix
