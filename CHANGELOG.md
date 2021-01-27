@@ -12,7 +12,6 @@
 
 **Changes/fixed**
 - More Industrail Foregoing Recipes not using tags/custom tags
-- Ore gen for some Mods genning that did not need to be
 
 
 **Added**
@@ -20,6 +19,8 @@
 - Mana and Artifice
 
 - use of right tags in quest lines
+
+- New way to get Gobber Goo using NaturesAura Offering
 
 **Updated**
 
@@ -60,4 +61,9 @@
 - FTB Teams
 
 **Removed**
+
 - chocolate fix
+
+- Ore gen for some Mods genning that did not need to be
+
+- Gobber Ore gen, see under add how to get goo
