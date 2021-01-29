@@ -30,6 +30,7 @@
 
 - Building Gadgets Items to the Mining Gadgets Quest Line
 
+- Server Utils Back in
 
 **Updated**
 
@@ -81,6 +82,20 @@
 
 - Mekanism
 
+- Alex's Mobs
+
+- Industrial Foregoing
+
+- AIOT Botania
+
+- Advanced Peripherals
+
+- Titanium
+
+- Quark
+
+- Many Mods
+
 **Removed**
 
 - chocolate fix
@@ -88,3 +103,5 @@
 - Ore gen for some Mods genning that did not need to be
 
 - Gobber Ore gen, see under add how to get goo
+
+- FTB Essentials 
