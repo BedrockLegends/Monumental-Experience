@@ -12,6 +12,7 @@
 
 **Changes/fixed**
 - More Industrail Foregoing Recipes not using tags/custom tags
+- Some new recipes and what not
 
 
 **Added**
@@ -31,6 +32,16 @@
 - Building Gadgets Items to the Mining Gadgets Quest Line
 
 - Server Utils Back in
+
+- Lagg Removal
+
+- Ferritecore
+
+- Curious Armor Stands
+
+- Modular Routers
+
+- Infernal Expansion
 
 **Updated**
 
@@ -105,3 +116,5 @@
 - Gobber Ore gen, see under add how to get goo
 
 - FTB Essentials 
+
+- FTB Ranks
