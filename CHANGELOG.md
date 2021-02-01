@@ -156,3 +156,7 @@
 - Cosmetic Armor Reworked
 
 - Architechtury API
+
+- KubeJS
+
+- Immersive Engineering
