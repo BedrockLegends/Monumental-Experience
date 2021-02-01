@@ -118,3 +118,25 @@
 - FTB Essentials 
 
 - FTB Ranks
+
+---------------------------------------------------------------------------------------------
+
+![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+[Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
+
+
+---------------------------------------------------------------------------------------------
+
+**Modpack Version**
+8.1
+
+**Added**
+
+- New Fluid to Item Recipes for aquamarine
+- New Fluid to Item Recipes for Netherrack & Endstone
+
+
+**Updated**
+
+- Collection
+
