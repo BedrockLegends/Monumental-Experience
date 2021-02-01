@@ -143,3 +143,13 @@
 - JEI
 
 - Ae2
+
+- FTB Chunks
+
+- Farmer's Delight
+
+- Cyclic
+
+- Cosmetic Armor Reworked
+
+- Architechtury API
