@@ -133,7 +133,10 @@
 **Added**
 
 - New Fluid to Item Recipes for aquamarine
+
 - New Fluid to Item Recipes for Netherrack & Endstone
+
+- New Fluid to Item Recipes for concrete
 
 
 **Updated**
