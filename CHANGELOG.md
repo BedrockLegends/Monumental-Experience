@@ -187,3 +187,7 @@
 - Starter Kit
 
 - Tree Harvester
+
+- Morph O Tool
+
+- Akashic Tome
