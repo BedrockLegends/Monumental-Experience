@@ -193,3 +193,15 @@
 - Akashic Tome
 
 - Forge
+
+- Artifacts
+
+- Enchantment Descriptions
+
+- FancyMenu
+
+- Konkrete
+
+- Mythic Botany
+
+- Pam's Food Extended
