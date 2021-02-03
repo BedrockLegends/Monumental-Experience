@@ -138,6 +138,8 @@
 
 - New Fluid to Item Recipes for concrete
 
+- New Create Milling Recipes
+
 
 **Updated**
 
