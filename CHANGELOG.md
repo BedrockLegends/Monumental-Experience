@@ -207,3 +207,7 @@
 - Mythic Botany
 
 - Pam's Food Extended
+
+- Gobber
+
+- Lost Tinker's
