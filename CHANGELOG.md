@@ -138,7 +138,7 @@
 
 - New Fluid to Item Recipes for concrete
 
-- New Create Milling Recipes
+- New Create Milling Recipes(This also Adds some mod support)
 
 
 **Updated**
