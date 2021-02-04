@@ -140,6 +140,8 @@
 
 - New Create Milling Recipes(This also Adds some mod support)
 
+- New way to get Mystical seed Essence using Create Milling
+
 
 **Updated**
 
@@ -211,3 +213,11 @@
 - Gobber
 
 - Lost Tinker's
+
+- Collective
+
+- Cyclops Core
+
+- Extreme Sound Muffler
+
+- MultiBeds
