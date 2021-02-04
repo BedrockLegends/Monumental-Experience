@@ -221,3 +221,7 @@
 - Extreme Sound Muffler
 
 - MultiBeds
+
+- Scuba Gear
+
+- JEI
