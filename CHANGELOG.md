@@ -69,3 +69,6 @@
 - Scuba Gear
 
 - JEI
+
+**Removed**
+- Undead Infections, this is cause of people crying about the mods world gen and what not and by removing this mod, it will most likely cause another map reset as it removed a biome
