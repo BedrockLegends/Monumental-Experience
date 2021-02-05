@@ -91,6 +91,14 @@
 
 - TrashCans
 
+- Auto Ore Dictionary Converter
+
+- FTB GUI Lib
+
+- FTB Quest, Major Update/bug fixes
+
+- Titanium
+
 **Removed**
 
 - Undead Infections, this is cause of people crying about the mods world gen and what not and by removing this mod, it will most likely cause another map reset as it removed a biome
