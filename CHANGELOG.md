@@ -95,8 +95,6 @@
 
 - FTB GUI Lib
 
-- FTB Quest, Major Update/bug fixes
-
 - Titanium
 
 - Industrial Foregoing
