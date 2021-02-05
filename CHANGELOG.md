@@ -99,6 +99,10 @@
 
 - Industrial Foregoing
 
+- FTB Quests
+
+- Architechtury API
+
 **Removed**
 
 - Undead Infections, this is cause of people crying about the mods world gen and what not and by removing this mod, it will most likely cause another map reset as it removed a biome
@@ -106,3 +110,7 @@
 **Changed**
 
 - Mekanism Power a little
+
+- Apotheosis config
+
+- Better Weather Config
