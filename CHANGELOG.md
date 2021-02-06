@@ -44,6 +44,8 @@
 
 - Bamboo Everything
 
+- Create Powdered Obsidian to the forge:dusts/obsidian tag
+
 
 **Updated**
 
