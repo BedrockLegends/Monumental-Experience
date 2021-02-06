@@ -24,11 +24,17 @@
 
 - New way to get starmetal dust from Create Milling
 
+- New way to get flux Dust using Create
+
+- New way to get dye using Create
+
 - Exotic Birds
 
 - Mighty Architect
 
 - Wall Jump(Forge)
+
+- RFtools Storage & Custom Recipes for it
 
 
 **Updated**
@@ -107,6 +113,9 @@
 
 - Undead Infections, this is cause of people crying about the mods world gen and what not and by removing this mod, it will most likely cause another map reset as it removed a biome
 
+- a few other broken and unused mods
+
+
 **Changed**
 
 - Mekanism Power a little
@@ -114,3 +123,5 @@
 - Apotheosis config
 
 - Better Weather Config
+
+- a few other configs that I quite dont remember
