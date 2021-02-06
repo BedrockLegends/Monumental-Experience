@@ -36,6 +36,14 @@
 
 - RFtools Storage & Custom Recipes for it
 
+- Occultism
+
+- Meet Your Fight
+
+- Clockout
+
+- Bamboo Everything
+
 
 **Updated**
 
@@ -108,6 +116,7 @@
 - FTB Quests
 
 - Architechtury API
+
 
 **Removed**
 
