@@ -13,6 +13,8 @@
 
 **Added**
 
+- New Extreme Reactors recipes
+
 - New Rftools Crafter Recipes
 
 - New Rftools Builder Recipe
