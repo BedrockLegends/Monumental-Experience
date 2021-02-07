@@ -10,6 +10,7 @@
 
 - 8.2
 
+
 **Added**
 
 - New Fluid to Item Recipes for aquamarine
@@ -49,6 +50,7 @@
 - New obsidian recipe using Spirt Fire
 
 - Obsidian ingot unification, This means there is only one Obsidian ingot going forward instead of many of them.
+
 
 
 **Updated**
