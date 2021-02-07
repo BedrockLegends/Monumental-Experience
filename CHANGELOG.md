@@ -55,6 +55,8 @@
 
 - A new forge:tools/hopper tag to allow all Hoppers inside the modpack to be tagged and used in feature recipes
 
+- New waterstrainer recipes
+
 **Updated**
 
 - TwerkItMeal, to support 1.16.5
