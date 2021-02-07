@@ -53,6 +53,8 @@
 
 - Diamond Dust unification, This means there is only one Type of Diamond Dust going forward instead of many of them.
 
+- A new forge:tools/hopper tag to allow all Hoppers inside the modpack to be tagged and used in feature recipes
+
 **Updated**
 
 - TwerkItMeal, to support 1.16.5
