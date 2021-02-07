@@ -13,6 +13,8 @@
 
 **Added**
 
+- New Flux Network Recipes
+
 - New Extreme Reactors recipes
 
 - New Rftools Crafter Recipes
