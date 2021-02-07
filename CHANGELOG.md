@@ -13,6 +13,8 @@
 
 **Added**
 
+- New Rftools Builder Recipe
+
 - New Fluid to Item Recipes for aquamarine
 
 - New Fluid to Item Recipes for Netherrack & Endstone
