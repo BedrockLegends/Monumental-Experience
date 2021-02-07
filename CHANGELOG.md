@@ -49,9 +49,9 @@
 
 - New obsidian recipe using Spirt Fire
 
-- Obsidian ingot unification, This means there is only one Obsidian ingot going forward instead of many of them.
+- Obsidian ingot unification, This means there is only one Type of Obsidian ingot going forward instead of many of them.
 
-
+- Diamond Dust unification, This means there is only one Type of Diamond Dust going forward instead of many of them.
 
 **Updated**
 
