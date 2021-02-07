@@ -48,6 +48,8 @@
 
 - New obsidian recipe using Spirt Fire
 
+- Obsidian ingot unification, This means there is only one Obsidian ingot going forward instead of many of them.
+
 
 **Updated**
 
