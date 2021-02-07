@@ -13,6 +13,8 @@
 
 **Added**
 
+- New Rftools Crafter Recipes
+
 - New Rftools Builder Recipe
 
 - New Fluid to Item Recipes for aquamarine
