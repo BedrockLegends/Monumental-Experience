@@ -46,6 +46,8 @@
 
 - Create Powdered Obsidian to the forge:dusts/obsidian tag
 
+- New obsidian recipe using Spirt Fire
+
 
 **Updated**
 
