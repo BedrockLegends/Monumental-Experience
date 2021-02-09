@@ -38,6 +38,19 @@
 
 - For RFtools Recipes
 
+- Create Powdered Obsidian to the forge:dusts/obsidian tag
+
+- New obsidian recipe using Spirt Fire
+
+- Obsidian ingot unification, This means there is only one Type of Obsidian ingot going forward instead of many of them.
+
+- Diamond Dust unification, This means there is only one Type of Diamond Dust going forward instead of many of them.
+
+- A new forge:tools/hopper tag to allow all Hoppers inside the modpack to be tagged and used in feature recipes
+
+- New waterstrainer recipes
+
+
 **Added**
 
 - Druidcraft
@@ -57,18 +70,6 @@
 - Clockout
 
 - Bamboo Everything
-
-- Create Powdered Obsidian to the forge:dusts/obsidian tag
-
-- New obsidian recipe using Spirt Fire
-
-- Obsidian ingot unification, This means there is only one Type of Obsidian ingot going forward instead of many of them.
-
-- Diamond Dust unification, This means there is only one Type of Diamond Dust going forward instead of many of them.
-
-- A new forge:tools/hopper tag to allow all Hoppers inside the modpack to be tagged and used in feature recipes
-
-- New waterstrainer recipes
 
 - CompactStorage
 
