@@ -13,6 +13,8 @@
 
 **Added**
 
+- Druidcraft
+
 - New Flux Network Recipes
 
 - New Extreme Reactors recipes
