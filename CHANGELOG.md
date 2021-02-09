@@ -61,7 +61,7 @@
 
 - Wall Jump(Forge)
 
-- RFtools Storage & Custom Recipes for it
+- RFtools Storage
 
 - Occultism
 
@@ -72,6 +72,22 @@
 - Bamboo Everything
 
 - CompactStorage
+
+- Itemzoom
+
+- Simple Planes
+
+- Guns without Roses
+
+- Connected Glass
+
+- Glassential
+
+- Extra Storage
+
+- Emojiful
+
+- and maybe others I forgot
 
 **Updated**
 
@@ -154,9 +170,7 @@
 
 - Iron Chest & Metal Barrels and replaced Them with CompactStorage
 
-- a few other broken and unused mods
-
-
+- a whole bunch of other broken and unused mods
 
 
 **Changed**
