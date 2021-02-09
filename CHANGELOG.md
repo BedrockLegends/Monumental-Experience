@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------
 
-![](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PromoCard.png "")
+![](https://www.bisecthosting.com/partners/custom-banners/22012cac-397d-406e-9f7e-c8fa8762c588.png"")
 [Get 25% off First Purchase](https://bisecthosting.com/BedrockLegends "")
 
 
@@ -125,8 +125,6 @@
 
 - Collective
 
-- Cyclops Core
-
 - Extreme Sound Muffler
 
 - MultiBeds
@@ -161,7 +159,25 @@
 
 - Architechtury API
 
-- 
+- Citadel
+
+- Alex's Mobs
+
+- Aquaculture
+
+- Refined Storage
+
+- Inventory Pets, Fixes crashes
+
+- JEI
+
+- Quark
+
+- Iron Furnaces
+
+- Geckolib
+
+- and much more
 
 
 **Removed**
