@@ -10,10 +10,7 @@
 
 - 8.2
 
-
-**Added**
-
-- Druidcraft
+**New Content**
 
 - New Flux Network Recipes
 
@@ -38,6 +35,12 @@
 - New way to get flux Dust using Create
 
 - New way to get dye using Create
+
+- For RFtools Recipes
+
+**Added**
+
+- Druidcraft
 
 - Exotic Birds
 
@@ -137,9 +140,11 @@
 
 - Industrial Foregoing
 
-- FTB Quests
+- FTB Quests, should fix alot of issues
 
 - Architechtury API
+
+- 
 
 
 **Removed**
