@@ -25,6 +25,10 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 
 ModernGamingWorld
 
+Lect
+
+Deathstar - Quest Book Lead Developer and Recipe Helper
+
 
 ## Additional Credits:
 
