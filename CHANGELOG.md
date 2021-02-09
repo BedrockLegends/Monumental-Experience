@@ -65,6 +65,8 @@
 
 - New waterstrainer recipes
 
+- CompactStorage
+
 **Updated**
 
 - TwerkItMeal, to support 1.16.5
@@ -142,7 +144,11 @@
 
 - Undead Infections, this is cause of people crying about the mods world gen and what not and by removing this mod, it will most likely cause another map reset as it removed a biome
 
+- Iron Chest & Metal Barrels and replaced Them with CompactStorage
+
 - a few other broken and unused mods
+
+
 
 
 **Changed**
