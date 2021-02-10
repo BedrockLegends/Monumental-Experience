@@ -51,6 +51,8 @@
 
 - LootBagMod Config as it was a mess and had multiply items
 
+- Quark Config to not allow Tallow to Drop, This fixes a Conflict with occultism tallow
+
 
 **Added**
 
