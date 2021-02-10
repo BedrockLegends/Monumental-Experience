@@ -192,6 +192,8 @@
 
 - PackedUp, Use CompactStorage
 
+- UsefulBackpacks, Use CompactStorage
+
 - a whole bunch of other broken and unused mods
 
 
