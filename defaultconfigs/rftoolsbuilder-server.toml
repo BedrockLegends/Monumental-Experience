@@ -22,7 +22,7 @@
 	#Range: 0.0 ~ 1000000.0
 	dimensionCostFactor = 5.0
 	#If true we allow the clearing quarry cards to be crafted (these can be heavier on the server)
-	clearingQuarryAllowed = false
+	clearingQuarryAllowed = true
 	#The cost of collecting 1 XP level (builder 'collect items' mode))
 	#Range: 0.0 ~ 1000000.0
 	collectRFPerXP = 2.0
@@ -42,7 +42,7 @@
 	#Range: > 0
 	maxBuilderDimension = 512
 	#If true we allow quarry cards to be crafted
-	quarryAllowed = false
+	quarryAllowed = true
 	#Multiply the infusion factor with this value and add that to the quarry base speed
 	#Range: > 0
 	quarryInfusionSpeedFactor = 20
@@ -63,7 +63,7 @@
 	#Range: 0.0 ~ 1000000.0
 	silkquarryShapeCardFactor = 3.0
 	#If true the quarry will chunkload a chunk at a time. If false the quarry will stop if a chunk is not loaded
-	quarryChunkloads = false
+	quarryChunkloads = true
 	#RF per entity move operation for the builder
 	#Range: > 0
 	builderRfPerEntity = 5000
@@ -77,7 +77,7 @@
 	#Range: > 0
 	collectRFPerItem = 20
 	#If true we allow shape cards to be crafted. Note that in order to use the quarry system you must also enable this
-	shapeCardAllowed = false
+	shapeCardAllowed = true
 	#Maximum RF storage that the builder can hold
 	#Range: > 0
 	builderMaxRF = 1000000

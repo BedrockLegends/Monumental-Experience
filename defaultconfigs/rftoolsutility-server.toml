@@ -9,10 +9,10 @@
 	crafterRFPerTick = 500
 	#Amount of RF used per crafting operation
 	#Range: > 0
-	rfPerOperation = 600
+	rfPerOperation = 100
 	#How many operations to do at once in fast mode
 	#Range: > 0
-	speedOperations = 4
+	speedOperations = 5
 
 #Settings for the screen system
 [screen]
@@ -109,10 +109,10 @@
 	#Range: > 0
 	dialerMaxRF = 50000
 	#Set this to false to disable the 'whoosh' message on teleport
-	whooshMessage = false
+	whooshMessage = true
 	#The amount of RF that is consumed by the matter transmitter when a dial is active
 	#Range: > 0
-	rfDialedConnectionPerTick = 20
+	rfDialedConnectionPerTick = 10
 	#The speed bonus for the advanced charged porter (compared to the normal one)
 	#Range: > 0
 	advancedSpeedBonus = 4
@@ -135,7 +135,7 @@
 	timeTeleportBaseLocal = 5
 	#RF per tick that the dialing device can receive
 	#Range: > 0
-	dialerRFPerTick = 200
+	dialerRFPerTick = 100
 	#Maximum RF storage that the matter transmitter can hold. This should be at least equal to 'rfStartTeleportDim'
 	#Range: > 0
 	transmitterMaxRF = 200000

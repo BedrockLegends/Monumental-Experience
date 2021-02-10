@@ -473,562 +473,275 @@
 			spawnRf = 20000
 			item3 = "100.0:<living>"
 
-	[mobdata.more_jellyfish]
+	[mobdata.resourcefulbees]
 
-		[mobdata.more_jellyfish.red_fungal_jellyfish]
+		[mobdata.resourcefulbees.copper_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.netherite_jellyfish]
+		[mobdata.resourcefulbees.gold_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.diamond_jellyfish]
+		[mobdata.resourcefulbees.iron_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.warped_fungal_jellyfish]
+		[mobdata.resourcefulbees.alf_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.lapis_lazuli_jellyfish]
+		[mobdata.resourcefulbees.ghast_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.quartz_jellyfish]
+		[mobdata.resourcefulbees.lapis_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.honey_jellyfish]
+		[mobdata.resourcefulbees.icy_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.emerald_jellyfish]
+		[mobdata.resourcefulbees.tainted_gold_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.slime_jellyfish]
+		[mobdata.resourcefulbees.coal_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.creeper_jellyfish]
+		[mobdata.resourcefulbees.lead_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.iron_jellyfish]
+		[mobdata.resourcefulbees.obsidian_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.skellyfish]
+		[mobdata.resourcefulbees.skeleton_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.gold_jellyfish]
+		[mobdata.resourcefulbees.oreo_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.sponge_jellyfish]
+		[mobdata.resourcefulbees.pigman_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.redstone_jellyfish]
+		[mobdata.resourcefulbees.refined_obsidian_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.crimson_fungal_jellyfish]
+		[mobdata.resourcefulbees.blaze_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.cow_jellyfish]
+		[mobdata.resourcefulbees.emerald_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.coal_jellyfish]
+		[mobdata.resourcefulbees.steel_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.brown_fungal_jellyfish]
+		[mobdata.resourcefulbees.slimy_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.clay_jellyfish]
+		[mobdata.resourcefulbees.elementium_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.guardian_jellyfish]
+		[mobdata.resourcefulbees.manasteel_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.more_jellyfish.glowstone_jellyfish]
+		[mobdata.resourcefulbees.osmium_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.forbidden_arcanus]
-
-		[mobdata.forbidden_arcanus.pixie]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.botania]
-
-		[mobdata.botania.doppleganger]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.doggytalents]
-
-		[mobdata.doggytalents.dog]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.eyesinthedarkness]
-
-		[mobdata.eyesinthedarkness.eyes]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.jellyfishing]
-
-		[mobdata.jellyfishing.jellyfish]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.jellyfishing.blue_jellyfish]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.doomweapon]
-
-		[mobdata.doomweapon.hellknight]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.painelemental]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.gore_nest]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.possessed_scientist]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.unwilling]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.nightmare_imp]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.zombieman]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.cacodemon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.imp]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.marauder]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.mancubus]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.possessed_soldier]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.spiderdemon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.pinky]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.cyberdemon2016]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.imp2016]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.baron]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.revenant]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.shotgunguy]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.hellknight2016]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.mechazombie]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.cyberdemon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.iconofsin]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.chaingunner]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.archvile]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.doomweapon.arachnotron]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.thermal]
-
-		[mobdata.thermal.blitz]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.thermal.blizz]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.thermal.basalz]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.quark]
-
-		[mobdata.quark.frog]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.quark.toretoise]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.quark.stoneling]
+		[mobdata.resourcefulbees.wither_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.quark.foxhound]
+		[mobdata.resourcefulbees.redstone_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.quark.wrapped]
+		[mobdata.resourcefulbees.tin_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.quark.crab]
+		[mobdata.resourcefulbees.nickel_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.lava_monster]
-
-		[mobdata.lava_monster.lava_monster]
+		[mobdata.resourcefulbees.silver_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.nasty]
 
-		[mobdata.nasty.skeleton]
+		[mobdata.resourcefulbees.diamond_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.nasty.wolf]
+		[mobdata.resourcefulbees.refined_glowstone_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.artifacts]
-
-		[mobdata.artifacts.mimic]
+		[mobdata.resourcefulbees.creeper_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.froglins]
 
-		[mobdata.froglins.froglin]
+		[mobdata.resourcefulbees.infused_iron_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.good_nights_sleep]
-
-		[mobdata.good_nights_sleep.gummy_bear]
+		[mobdata.resourcefulbees.clay_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.good_nights_sleep.herobrine]
+		[mobdata.resourcefulbees.terrasteel_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.good_nights_sleep.baby_creeper]
+		[mobdata.resourcefulbees.ender_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.good_nights_sleep.unicorn]
+		[mobdata.resourcefulbees.netherite_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.good_nights_sleep.tormenter]
+		[mobdata.resourcefulbees.rgbee_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.good_nights_sleep.gns_spawner]
+		[mobdata.resourcefulbees.sky_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.combustivefishing]
 
-		[mobdata.combustivefishing.searing_swordfish]
+		[mobdata.resourcefulbees.nether_quartz_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.combustivefishing.combustive_cod]
+		[mobdata.resourcefulbees.zombie_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
@@ -1086,246 +799,86 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.waddles]
+	[mobdata.undergarden]
 
-		[mobdata.waddles.adelie_penguin]
+		[mobdata.undergarden.rotdweller]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.hornets]
-
-		[mobdata.hornets.hornet]
+		[mobdata.undergarden.stoneborn]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.iceandfire]
-
-		[mobdata.iceandfire.stymphalian_bird]
+		[mobdata.undergarden.rotwalker]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.lightning_dragon]
+		[mobdata.undergarden.gloomper]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.siren]
+		[mobdata.undergarden.rotling]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.dread_ghoul]
+		[mobdata.undergarden.rotbeast]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.dread_scuttler]
+		[mobdata.undergarden.gwibling]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.dread_lich]
+		[mobdata.undergarden.brute]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.dread_horse]
+		[mobdata.undergarden.dweller]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.myrmex_royal]
+		[mobdata.undergarden.nargoyle]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.hydra]
+		[mobdata.undergarden.masticator]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.iceandfire.ghost]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.cyclops]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.sea_serpent]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.pixie]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.cockatrice]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.dread_beast]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.dread_thrall]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.hippocampus]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.myrmex_queen]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.myrmex_sentinel]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.hippogryph]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.gorgon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.troll]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.fire_dragon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.dread_knight]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.myrmex_soldier]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.ice_dragon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.deathworm]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.stone_statue]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.amphithere]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.myrmex_worker]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.iceandfire.myrmex_swarmer]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.hostilewatermobs]
-
-		[mobdata.hostilewatermobs.river_guardian]
+		[mobdata.undergarden.scintling]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
@@ -1558,6 +1111,15 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
+	[mobdata.botania]
+
+		[mobdata.botania.doppleganger]
+			item2 = "1.0:{'item':'minecraft:bedrock'}"
+			item1 = "1.0:{'item':'minecraft:bedrock'}"
+			#Range: > 0
+			spawnRf = 50000
+			item3 = "1.0:{'item':'minecraft:bedrock'}"
+
 	[mobdata.ars_nouveau]
 
 		[mobdata.ars_nouveau.sylph]
@@ -1574,128 +1136,92 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.deextinction]
+	[mobdata.losttrinkets]
 
-		[mobdata.deextinction.entity_kelenken]
+		[mobdata.losttrinkets.dark_vex]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_pliosaurus]
+	[mobdata.thermal]
+
+		[mobdata.thermal.blitz]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_egg_large]
+		[mobdata.thermal.blizz]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_cuvieronius]
+		[mobdata.thermal.basalz]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_livyatan]
+	[mobdata.quark]
+
+		[mobdata.quark.frog]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_egg_long]
+		[mobdata.quark.toretoise]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_kimmerosaurus]
+		[mobdata.quark.stoneling]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_pelagornis]
+		[mobdata.quark.foxhound]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_thylacosmilus]
+		[mobdata.quark.wrapped]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_canis_nehringi]
+		[mobdata.quark.crab]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_sebecus]
+	[mobdata.meetyourfight]
+
+		[mobdata.meetyourfight.bellringer]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.deextinction.entity_basilosaurus]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.deextinction.entity_anthropornis]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.deextinction.entity_egg_small]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.deextinction.entity_arctotherium]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.deextinction.entity_macrauchenia]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.deextinction.entity_smilodon]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.deextinction.entity_theriodictis]
+		[mobdata.meetyourfight.dame_fortuna]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
@@ -1711,93 +1237,9 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.farlanders]
+	[mobdata.artifacts]
 
-		[mobdata.farlanders.mystic_enderminion]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.fanmade_enderman]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.rebel]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.enderminion]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.mystic_enderman]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.ender_golem]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.elder_farlander]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.classic_enderman]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.looter]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.wanderer]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.titan]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.ender_guardian]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.farlanders.farlander]
+		[mobdata.artifacts.mimic]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
