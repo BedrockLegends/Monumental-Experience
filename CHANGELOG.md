@@ -187,6 +187,10 @@
 
 - Iron Chest & Metal Barrels and replaced Them with CompactStorage
 
+- Travelers Backpacks, Use CompactStorage
+
+- PackedUp, Use CompactStorage
+
 - a whole bunch of other broken and unused mods
 
 
