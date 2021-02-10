@@ -209,7 +209,7 @@
 		"Min Drop" = 1
 		#
 		#Allowed values: [0,)
-		"Max Drop" = 3
+		"Max Drop" = 0
 		#
 		#Allowed values: [0,)
 		"Tallow Burn Time" = 200
