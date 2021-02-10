@@ -9,202 +9,41 @@
 
 **Modpack Version**
 
-- 8.2
-
-**New Content**
-
-- New Flux Network Recipes
-
-- New Extreme Reactors recipes
-
-- New Rftools Crafter Recipes
-
-- New Rftools Builder Recipe
-
-- New Fluid to Item Recipes for aquamarine
-
-- New Fluid to Item Recipes for Netherrack & Endstone
-
-- New Fluid to Item Recipes for concrete
-
-- New Create Milling Recipes(This also Adds some mod support)
-
-- New way to get Mystical seed Essence using Create Milling
-
-- New way to get starmetal dust from Create Milling
-
-- New way to get flux Dust using Create
-
-- New way to get dye using Create
-
-- For RFtools Recipes
-
-- Create Powdered Obsidian to the forge:dusts/obsidian tag
-
-- New obsidian recipe using Spirt Fire
-
-- Obsidian ingot unification, This means there is only one Type of Obsidian ingot going forward instead of many of them.
-
-- Diamond Dust unification, This means there is only one Type of Diamond Dust going forward instead of many of them.
-
-- A new forge:tools/hopper tag to allow all Hoppers inside the modpack to be tagged and used in feature recipes
-
-- New waterstrainer recipes
-
-
-**Added**
-
-- Druidcraft
-
-- Exotic Birds
-
-- Mighty Architect
-
-- Wall Jump(Forge)
-
-- RFtools Storage
-
-- Occultism
-
-- Meet Your Fight
-
-- Clockout
-
-- Bamboo Everything
-
-- CompactStorage
-
-- Itemzoom
-
-- Simple Planes
-
-- Guns without Roses
-
-- Connected Glass
-
-- Glassential
-
-- Extra Storage
-
-- Emojiful
-
-- and maybe others I forgot
+- 8.3
 
 
 **Updated**
 
-- TwerkItMeal, to support 1.16.5
+- FTB Quest Chapters & FTB Quest Lines
 
-- Naturally Charged Creepers
+- Compact Machines
 
-- Set World Spawn Point
+- KubeJS
 
-- Starter Kit
+- Botany Trees
 
-- Tree Harvester
+- Botany Pots
 
-- Morph O Tool
+- AllTheModium
 
-- Akashic Tome
+- Just Enough Professions
 
 - Forge
-
-- Artifacts
-
-- Enchantment Descriptions
-
-- FancyMenu
-
-- Konkrete
-
-- Mythic Botany
-
-- Pam's Food Extended
-
-- Gobber
-
-- Lost Tinker's
-
-- Collective
-
-- Extreme Sound Muffler
-
-- MultiBeds
-
-- Scuba Gear
-
-- JEI
-
-- Enviro Tech
-
-- Valkyrielib
-
-- Transport
-
-- JellyFishing
-
-- Extended Crafting
-
-- Botanypots
-
-- TrashCans
-
-- Auto Ore Dictionary Converter
-
-- FTB GUI Lib
-
-- Titanium
-
-- Industrial Foregoing
-
-- FTB Quests, should fix alot of issues
-
-- Architechtury API
-
-- Citadel
-
-- Alex's Mobs
-
-- Aquaculture
-
-- Refined Storage
-
-- Inventory Pets, Fixes crashes
-
-- JEI
-
-- Quark
-
-- Iron Furnaces
-
-- Geckolib
-
-- and much more
-
-
-**Removed**
-
-- Undead Infections, this is cause of people crying about the mods world gen and what not and by removing this mod, it will most likely cause another map reset as it removed a biome
-
-- Iron Chest & Metal Barrels and replaced Them with CompactStorage
-
-- Travelers Backpacks, Use CompactStorage
-
-- PackedUp, Use CompactStorage
-
-- UsefulBackpacks, Use CompactStorage
-
-- a whole bunch of other broken and unused mods
 
 
 **Changed**
 
-- Mekanism Power a little
+- FTB Mob Killing Quest Line & Moved it into its Own Quest Lines, see under added
 
-- Apotheosis config
+- Full Screen Mode being Turned on after updates, This is now turn off by default and can be turn back on in video settings
 
-- Better Weather Config
 
-- a few other configs that I quite dont remember
+**Added**
 
-- Around Broken Quest lines
+- Nether Quest Line with Mob Killing Quests for Nether Mobs
+
+- End Mob Killing Quests to End Quest Line
+
+- Overworld Quest Line with Mob Killing Quests Lines for Overworld Mobs
+
+- Animal Killing Quest line to Overworld Quest Line
