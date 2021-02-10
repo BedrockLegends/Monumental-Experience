@@ -42,6 +42,12 @@
 
 - Compressed Chest Recipe From Prefab
 
+- JEI Integration to 1.16.5
+
+- ZeroCore 2
+
+- Extreme Reactors 2
+
 
 **Changed**
 
