@@ -15,4 +15,6 @@
 	generateShortStools = true
 	#Generate tall stools.
 	generateTallStools = true
+	#Generate benches.
+	generateBenches = true
 

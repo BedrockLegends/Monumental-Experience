@@ -2,7 +2,7 @@
 #Settings affecting the logical server side.
 [server]
 
-	#Opt-out settings
+	#Server dev opt-out settings !WARNING THE OPT-OUTs will be moved to common-config.toml in the next MC version!
 	[server.optout]
 		#Disable check valve, and redstone controlled valves.
 		without_valves = false
@@ -82,8 +82,6 @@
 		without_ladder_speed_boost = false
 		#Disable the small fluid collection funnel.
 		without_fluid_funnel = false
-		#Disable all internal recipes, allowing to use alternative pack recipes.
-		without_recipes = false
 		#Disable small electrical pass-through furnace.
 		without_electrical_furnace = false
 
@@ -91,19 +89,12 @@
 	[server.miscellaneous]
 		#Disable directly picking up layers from slabs and slab  slices by left clicking while looking up/down.
 		without_direct_slab_pickup = false
-		#Enables experimental features. Use at own risk.
-		with_experimental = false
-		#Enable that devices are dropped as item also in creative mode, allowing  to relocate them with contents and settings.
-		with_creative_mode_device_drops = false
 
 	#Tweaks
 	[server.tweaks]
 		#Defines how much time the Small Block Breaker needs at least, better said it's an offset: 'reluctance' * hardness + min_time, you change the 'min_time' here, value in ticks.The config value can be changed on-the-fly for tuning.
 		#Range: 10 ~ 100
 		block_breaker_min_breaking_time = 15
-		#Defines how much RF power the Small Tree Cutter requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
-		#Range: 4 ~ 1024
-		tree_cuttter_energy_consumption = 64
 		#Defines, in percent, how fast the electrical furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the electrical furnace is faster. The value can be changed on-the-fly for tuning.
 		#Range: 50 ~ 800
 		e_furnace_speed_percent = 200
@@ -130,9 +121,6 @@
 		#Defines the peak power production (at noon) of the Small Solar Panel. Note that the agerage power is much less, as no power is produced at all during the night, and the power curve is nonlinear rising/falling during the day. Bad weather conditions also decrease the production. The config value can be changed on-the-fly for tuning.
 		#Range: 2 ~ 4096
 		small_solar_panel_peak_production = 40
-		#Defines how much time the Small Tree Cutter needs to cut a tree without RF power. The value is in seconds. With energy it is 6 times faster. The config value can be changed on-the-fly for tuning.
-		#Range: 10 ~ 240
-		tree_cuttter_cutting_time_needed = 60
 		#Defines how many millibuckets per redstone signal strength can be transferred per tick through the analog redstone controlled valves. Note: power 0 is always off, power 15 is always the max flow rate. Between power 1 and 14 this scaler will result in a flow = 'redstone slope' * 'current redstone power'. The value can be changed on-the-fly for tuning. 
 		#Range: 1 ~ 32000
 		pipevalve_redstone_gain = 20
@@ -155,6 +143,12 @@
 		#Defines how much time the Small Block Breaker needs per block hardness, means: 'reluctance' * hardness + min_time, you change the 'reluctance' here.The unit is ticks/hardness. The config value can be changed on-the-fly for tuning.
 		#Range: 5 ~ 50
 		block_breaker_reluctance = 17
+		#Defines how much RF power the Small Tree Cutter requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
+		#Range: 4 ~ 1024
+		tree_cutter_energy_consumption = 64
+		#Defines how much time the Small Tree Cutter needs to cut a tree without RF power. The value is in seconds. With energy it is 6 times faster. The config value can be changed on-the-fly for tuning.
+		#Range: 10 ~ 240
+		tree_cutter_cutting_time_needed = 60
 		#Defines if the Small Tree Cutter does not work without RF power.
-		tree_cuttter_requires_power = false
+		tree_cutter_requires_power = false
 

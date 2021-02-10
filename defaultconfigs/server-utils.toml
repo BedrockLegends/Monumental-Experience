@@ -32,6 +32,16 @@ tag = "&8[&9S&aU&8]"
 				August = ["6", "c", "a"]
 				November = ["c", "6", "e"]
 
+	[Features."Auto Clearlag"]
+		enabled = false
+		#Range: > 0
+		frequency = 5
+
+		[Features."Auto Clearlag".Entities]
+			item = true
+			passive = true
+			hostile = true
+
 [Commands]
 
 	[Commands.msg]
@@ -449,18 +459,13 @@ tag = "&8[&9S&aU&8]"
 		other-perm = "serverutils.god.other"
 
 	[Commands.clearlag]
-		item = false
 		#Range: > 0
 		delay = 0
 		aliases = ["clearlag"]
 		perm = "serverutils.clearlag"
 		enable = true
-		hostile = true
 		#Range: > 0
 		cooldown = 0
-		passive = false
-		#Range: > 0
-		frequency = 30
 
 	[Commands.msgtoggle]
 		#Range: > 0

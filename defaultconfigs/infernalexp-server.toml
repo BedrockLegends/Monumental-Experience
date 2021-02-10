@@ -1,0 +1,71 @@
+
+["Mob Interactions"]
+	#Determines if Piglins will run away from Warpbeetles
+	piglinFearWarpbeetle = true
+	#Determines if Piglins will run away from Embodies
+	piglinFearEmbody = true
+	#Determines if Hoglins will run away from Warpbeetles
+	hoglinFearWarpbeetle = true
+	#Determines if Hoglins will run away from Embodies
+	hoglinFearEmbody = true
+	#Determines if Spiders will attack Warpbeetles
+	spiderAttackWarpbeetle = true
+	#Determines if Skeletons will attack Piglins
+	skeletonAttackPiglin = true
+	#Determines if Skeletons will attack Piglin Brutes
+	skeletonAttackBrute = true
+	#Determines if Skeletons and Embodies will fight
+	skeletonAttackEmbody = true
+	#Determines if Skeletons and Basalt Giants will fight
+	skeletonAttackGiant = true
+	#Determines if Piglins will attack Skeletons
+	piglinAttackSkeleton = true
+	#Determines if Piglins will attack Voline
+	piglinAttackVoline = true
+	#Determines if Piglin Brutes will attack Skeletons
+	bruteAttackSkeleton = true
+	#Determines if Piglin Brutes will attack Voline
+	bruteAttackVoline = true
+	#Determines if Ghasts will shoot at Embodies
+	ghastAttackEmbody = false
+	#Determines if Ghasts will shoot at Voline
+	ghastAttackVoline = false
+	#Determines if Ghasts will shoot at Skeletons
+	ghastAttackSkeleton = false
+
+["Mob Spawning"]
+
+	["Mob Spawning"."Toggle Spawns"]
+		#Determines if Voline will spawn in Nether Wastes
+		volineInWastes = true
+		#Determines if Shroomloins will spawn in the Crimson Forests
+		shroomloinInCrimson = true
+		#Determines if Voline will spawn in Crimson Forests
+		volineInCrimson = true
+		#Determines if Warpbeetles will spawn in Warped Forests
+		warpbeetleInWarped = true
+		#Determines if Basalt Giants will spawn in Basalt Deltas
+		giantInDeltas = true
+		#Determines if Embodies will spawn in the Soul Sand Valleys
+		embodyInSSV = true
+
+	["Mob Spawning"."Spawn Rates"]
+		#Determines the rate at which Voline spawn in the Nether Wastes
+		#Range: > 0
+		volineWastesRate = 50
+		#Determines the rate at which Shroomloins spawn in the Crimson Forests
+		#Range: > 0
+		shroomloinCrimsonRate = 5
+		#Determines the rate at which Voline spawn in the Crimson Forests
+		#Range: > 0
+		volineCrimsonRate = 1
+		#Determines the rate at which Warpbeetles spawn in the Warped Forests
+		#Range: > 0
+		warpbeetleWarpedRate = 5
+		#Determines the rate at which Basalt Giants spawn in the Basalt Deltas
+		#Range: > 0
+		giantDeltasRate = 30
+		#Determines the rate at which Embodies spawn in the Soul Sand Valleys
+		#Range: > 0
+		embodySSVRate = 60
+

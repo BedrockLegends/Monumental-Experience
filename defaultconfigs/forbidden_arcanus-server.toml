@@ -62,7 +62,7 @@
 		generate = true
 
 	[gen.yellow_orchid]
-		#Generate Yellow Orchid? [default: true]
+		#Generate Yellow Orchids? [default: true]
 		generate = true
 
 	[gen.arcane_gilded_darkstone]
@@ -97,6 +97,10 @@
 		#Range: 1 ~ 256
 		max_height = 20
 		#Generate Runestone? [default: true]
+		generate = true
+
+	[gen.petrified_root]
+		#Generate Petrified Roots? [default: true]
 		generate = true
 
 [block]

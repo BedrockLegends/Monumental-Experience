@@ -65,6 +65,13 @@
 		#Range: 2 ~ 72000
 		speed = 120
 
+	[furnaces.rainbow_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 200
+		#Range: 2 ~ 72000
+		speed = 50
+
 #Modded Furnace Settings
 [modded_furnaces]
 
@@ -74,6 +81,10 @@
 		# Default: 3
 		#Range: 1 ~ 72000
 		speed = 3
+		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
+		# Default: 32
+		#Range: 1 ~ 64
+		mult = 32
 
 	[modded_furnaces.allthemodium_furnace]
 		# Number of ticks to complete one smelting operation.
@@ -81,6 +92,10 @@
 		# Default: 5
 		#Range: 1 ~ 72000
 		speed = 5
+		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
+		# Default: 16
+		#Range: 1 ~ 64
+		mult = 16
 
 	[modded_furnaces.unobtanium_furnace]
 		# Number of ticks to complete one smelting operation.
@@ -88,6 +103,10 @@
 		# Default: 1
 		#Range: 1 ~ 72000
 		speed = 1
+		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
+		# Default: 64
+		#Range: 1 ~ 64
+		mult = 64
 
 #JEI Settings
 [jei]
@@ -99,4 +118,15 @@
 		enable_jei_catalysts = true
 		# Enable or disable the JeiPlugin of Iron Furnaces.
 		enable_jei = true
+
+#Misc
+[misc]
+
+	[misc.misc]
+		# Given or not given the Rainbow Coal to our champion
+		coal = false
+		# Enable or disable the Rainbow Content
+		rainbow = true
+		# Show furnace settings errors in chat, used for debugging
+		errors = false
 
