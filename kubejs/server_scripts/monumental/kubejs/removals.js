@@ -205,9 +205,6 @@ events.listen('recipes', p => {
         'cyclic:crafting_bag',
         'cyclic:uncrafter',
 
-        //chest recipe removed
-        'minecraft:chest',
-
         //crystaltine recipe removed
         'extendedcrafting:crystaltine_catalyst',
 
