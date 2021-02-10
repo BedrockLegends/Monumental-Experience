@@ -36,6 +36,12 @@
 
 - Dark Utilities
 
+- ValkyrieLib
+
+- Statues
+
+- Compressed Chest Recipe From Prefab
+
 
 **Changed**
 
