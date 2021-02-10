@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "item": "industrialforegoing:plant_gatherer",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PHP",
+          "AMA",
+          "GRG"
+        ],
+        "key": {
+          "P": {
+            "tag": "forge:plastic"
+          },
+          "H": {
+            "tag": "forge:hoes"
+          },
+          "A": {
+            "tag": "forge:axes"
+          },
+          "M": {
+            "tag": "industrialforegoing:machine_frame/pity"
+          },
+          "G": {
+            "tag": "forge:gears/gold"
+          },
+          "R": {
+            "tag": "forge:dusts/redstone"
+          }
+        },
+        "result": {
+          "item": "industrialforegoing:plant_gatherer"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+[Configuration]
+	#Activate whether the message should be sent or not.
+	enableChatBox = true
+	#This deactivates the methods and the event of the chat box.
+	#Range: > 1
+	chatBoxCooldown = 10
+	#Activate the me bridge or not.
+	enableMeBridge = true
+

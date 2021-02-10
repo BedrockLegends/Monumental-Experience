@@ -1,0 +1,8 @@
+{
+  "type": "mekanism:purifying",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

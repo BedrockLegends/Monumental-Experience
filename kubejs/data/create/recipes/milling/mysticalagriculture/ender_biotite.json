@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:ender_biotite_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:ender_biotite_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

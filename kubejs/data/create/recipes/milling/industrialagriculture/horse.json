@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:horse_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:horse_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

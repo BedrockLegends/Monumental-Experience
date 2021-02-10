@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:lumium_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:lumium_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

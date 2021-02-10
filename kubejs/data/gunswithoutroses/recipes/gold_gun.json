@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I  ",
+		" IF",
+		" SI"
+	],
+	"key": {
+		"I": { "tag": "forge:ingots/gold" },
+		"S": { "item": "gunswithoutroses:iron_gun"},
+		"F": { "item": "minecraft:flint" }
+	},
+	"result": { "item": "gunswithoutroses:gold_gun" }
+}

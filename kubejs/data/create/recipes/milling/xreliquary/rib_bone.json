@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:skeleton_skull"
+    }
+  ],
+  "results": [
+    {
+      "item": "xreliquary:rib_bone",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

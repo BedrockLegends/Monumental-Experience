@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BoB",
+    "rFr",
+    "BrB"
+  ],
+  "key": {
+    "B": {
+      "tag": "ceramics:bricks"
+    },
+    "r": {
+      "item": "mekanism:enriched_redstone"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "o": {
+      "item": "notenoughwands:building_wand"
+    }
+  },
+  "result": {
+    "item": "rftoolsbuilder:builder"
+  }
+}

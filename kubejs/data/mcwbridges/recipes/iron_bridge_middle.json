@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IAI"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:plates/iron"
+        },
+        "I": {
+            "item": "mcwbridges:iron_armrest"
+        }
+    },
+    "result": {
+        "item": "mcwbridges:most1",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "logisticslasers"
+        }
+    ]
+}

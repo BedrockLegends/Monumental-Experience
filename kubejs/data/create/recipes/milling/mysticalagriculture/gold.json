@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:gold_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:gold_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/allthemodium"
+    }
+  ],
+  "results": [
+    {
+      "item": "allthemodium:allthemodium_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

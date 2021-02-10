@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ACA",
+        "AQA",
+        "ACA"
+    ],
+    "key": {
+        "A": [
+            {
+                "tag": "forge:ingots/compressed_iron"
+            }
+        ],
+        "Q": [
+            {
+                "item": "quantumstorage:chestdiamond"
+            }
+        ],
+        "C": [
+            {
+                "tag": "forge:chests/wooden"
+            }
+        ]
+    },
+    "result": {
+        "item": "quantumstorage:qsu"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quantumstorage"
+        }
+    ]
+}

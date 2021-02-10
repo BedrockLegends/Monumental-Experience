@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "alltheores:gold_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

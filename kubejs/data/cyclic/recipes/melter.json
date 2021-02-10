@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rlr",
+        "gqg",
+        "hhh"
+    ],
+    "key": {
+        "l": {
+            "tag": "forge:gems/quartz"
+        },
+        "g": {
+            "tag": "forge:glass"
+        },
+        "r": {
+            "tag": "forge:dusts/redstone"
+        },
+        "h": {
+            "tag": "forge:obsidian"
+        },
+        "q": {
+            "item": "cookingforblockheads:heating_unit"
+        }
+    },
+    "result": {
+        "item": "cyclic:melter"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cookingforblockheads"
+        }
+    ]
+}

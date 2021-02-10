@@ -1,0 +1,33 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "  A  ",
+        " AAA ",
+        " ABA ",
+        "AACAA",
+        "  C  "
+    ],
+    "key": {
+        "A": {
+            "item": "powder_power:powder_emerald"
+        },
+        "B": {
+            "type": "forge:nbt",
+            "item": "minecraft:golden_sword",
+            "count": 1,
+            "nbt": "{Damage:0}"
+        },
+        "C": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "cyclic:emerald_sword"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "tag": "forge:dusts/redstone"
+    },
+    "ingredients": [
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "item": "extradisks:256k_storage_part"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "item": "extradisks:256k_storage_part"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "item": "extradisks:256k_storage_part"
+        }
+    ],
+    "result": {
+        "item": "extradisks:1024k_storage_part"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extradisks"
+        }
+    ]
+}

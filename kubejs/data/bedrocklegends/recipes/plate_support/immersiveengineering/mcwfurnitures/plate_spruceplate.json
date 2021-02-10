@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "mcwfurnitures:spruce_plate"
+  },
+  "input": {
+    "tag": "minecraft:spruce_logs"
+  },
+  "energy": 2400
+}

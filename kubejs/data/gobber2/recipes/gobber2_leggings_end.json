@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAAAAAA",
+        "AAAAAAAAA",
+        "AAAABAAAA",
+        "AAA   AAA",
+        "AA     AA",
+        "AA     AA",
+        "AA     AA",
+        "AA     AA",
+        "AA     AA"
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_links_end"
+        },
+        "B": {
+            "item": "allthemodium:vibranium_leggings"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_leggings_end"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

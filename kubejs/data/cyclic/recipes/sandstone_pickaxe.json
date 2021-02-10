@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJJ",
+        " K ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "J": {
+            "tag": "forge:sandstone"
+        },
+        "K": {
+            "item": "minecraft:wooden_pickaxe"
+        }
+    },
+    "result": {
+        "item": "cyclic:sandstone_pickaxe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/platinum"
+        }
+    },
+    "output": {
+        "item": "alltheores:platinum_dust",
+        "count": 2
+    }
+}

@@ -1,0 +1,29 @@
+
+#Settings for Edible Bugs
+[ediblebugs]
+	#Time Vegetable oil will cook. Default is same as coal
+	#Range: > 0
+	vegetableOilBurnTime = 1600
+	#Amount of healing uncooked bugs will give
+	#Range: > 0
+	rawHealthReceived = 2
+	#Amount of saturation uncooked bugs will give
+	#Range: 0.0 ~ 15.0
+	rawSaturationReceived = 0.5
+	#Amount of healing cooked bugs will give
+	#Range: > 0
+	cookedHealthReceived = 6
+	#Amount of saturation cooked bugs will give
+	#Range: 0.0 ~ 15.0
+	cookedSaturationReceived = 1.2
+	#Turn on or off termite mound generation in forests. They are rare.
+	allowForest = true
+	#Allow bugs to drop from dirt. If false, dirt will not drop dirt bugs.
+	allowDirtBugs = true
+	#Allow bugs to drop from grass. If false, grass will not drop grass bugs.
+	allowGrassBugs = true
+	#Allow bugs to drop from sand. If false, sand will not drop sand bugs.
+	allowSandBugs = true
+	#Allow bugs to drop from wood. If false, wood will not drop wood bugs.
+	allowWoodBugs = true
+

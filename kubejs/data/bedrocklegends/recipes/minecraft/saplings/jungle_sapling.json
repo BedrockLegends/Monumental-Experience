@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " C "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "C": {
+            "tag": "minecraft:jungle_logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:jungle_sapling",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

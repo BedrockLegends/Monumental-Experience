@@ -1,0 +1,28 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/gold"
+    },
+    "B": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "C": {
+      "item": "mysticalagriculture:inferium_block"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:infusion_altar"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

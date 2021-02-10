@@ -1,0 +1,11 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+

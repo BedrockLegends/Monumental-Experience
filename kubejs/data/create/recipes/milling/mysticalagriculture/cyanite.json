@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:cyanite_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:cyanite_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

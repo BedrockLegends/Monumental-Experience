@@ -1,0 +1,34 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "   ABA   ",
+        "  AAAAA  ",
+        " AA C AA ",
+        "AA  C  AA",
+        "A   C   A",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    "
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_ingot_end"
+        },
+        "B": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "C": {
+            "item": "gobber2:gobber2_rod_end"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_pickaxe_end"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

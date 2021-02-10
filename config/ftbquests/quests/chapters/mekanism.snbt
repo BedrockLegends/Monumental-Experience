@@ -1,0 +1,1692 @@
+{
+	id: "000000000000141E",
+	group: "",
+	order_index: 31,
+	filename: "mekanism",
+	title: "&9Mekanism",
+	icon: "mekanism:robit",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["0000000000001796"],
+			id: "000000000000141F",
+			tasks: [{
+				id: "0000000000001420",
+				type: "item",
+				item: {
+					id: "mekanism:metallurgic_infuser",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010E4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["000000000000141F"],
+			id: "0000000000001421",
+			tasks: [{
+				id: "0000000000001422",
+				type: "item",
+				item: "mekanism:basic_control_circuit"
+			}],
+			rewards: [{
+				id: "00000000000014E7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			shape: "gear",
+			dependencies: ["000000000000141F"],
+			id: "0000000000001423",
+			tasks: [{
+				id: "0000000000001793",
+				type: "item",
+				item: "mekanism:enriched_iron"
+			}]
+		},
+		{
+			title: "Steel Dust",
+			x: 0.0d,
+			y: 6.5d,
+			shape: "gear",
+			dependencies: ["0000000000001423"],
+			id: "0000000000001794",
+			tasks: [{
+				id: "0000000000001795",
+				type: "item",
+				title: "Steel Dust & Steel Nuggets",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:dusts/steel"
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010FD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000001796",
+			tasks: [{
+				id: "0000000000001797",
+				type: "item",
+				title: "osmium",
+				item: "alltheores:osmium_ingot"
+			}],
+			rewards: [{
+				id: "00000000000014EA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			dependencies: ["0000000000001421"],
+			id: "0000000000001798",
+			tasks: [{
+				id: "0000000000001799",
+				type: "item",
+				item: "mekanism:advanced_control_circuit"
+			}],
+			rewards: [{
+				id: "00000000000014E8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.5d,
+			dependencies: ["0000000000001798"],
+			id: "000000000000179A",
+			tasks: [{
+				id: "000000000000179B",
+				type: "item",
+				item: "mekanism:elite_control_circuit"
+			}],
+			rewards: [{
+				id: "0000000000001105",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.5d,
+			dependencies: ["000000000000179A"],
+			id: "000000000000179C",
+			tasks: [{
+				id: "000000000000179D",
+				type: "item",
+				item: "mekanism:ultimate_control_circuit"
+			}],
+			rewards: [{
+				id: "0000000000001103",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 9.5d,
+			shape: "gear",
+			dependencies: ["000000000000179C"],
+			id: "000000000000179E",
+			tasks: [{
+				id: "000000000000179F",
+				type: "item",
+				item: "mekanism:quantum_entangloporter"
+			}],
+			rewards: [{
+				id: "0000000000001102",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "00000000000017A0",
+			tasks: [{
+				id: "00000000000017A1",
+				type: "item",
+				item: {
+					id: "mekanism:enrichment_chamber",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000110B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000017A0"],
+			id: "00000000000017A2",
+			tasks: [{
+				id: "00000000000017A3",
+				type: "item",
+				item: {
+					id: "mekanism:basic_enriching_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000110C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000017A2"],
+			id: "0000000000000412",
+			tasks: [{
+				id: "0000000000000413",
+				type: "item",
+				item: {
+					id: "mekanism:advanced_enriching_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000110D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["0000000000000412"],
+			id: "0000000000000414",
+			tasks: [{
+				id: "00000000000017A4",
+				type: "item",
+				item: {
+					id: "mekanism:elite_enriching_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000110E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["0000000000000414"],
+			id: "00000000000017A5",
+			tasks: [{
+				id: "00000000000017A6",
+				type: "item",
+				item: {
+					id: "mekanism:ultimate_enriching_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000110F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["000000000000141F"],
+			id: "00000000000017A7",
+			tasks: [{
+				id: "00000000000017A8",
+				type: "item",
+				item: "mekanism:alloy_infused"
+			}],
+			rewards: [{
+				id: "00000000000010E3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000017A7"],
+			id: "00000000000017A9",
+			tasks: [{
+				id: "00000000000017AA",
+				type: "item",
+				item: "mekanism:alloy_reinforced"
+			}],
+			rewards: [{
+				id: "00000000000010E2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000017A9"],
+			dependency_requirement: "all_started",
+			id: "00000000000017AB",
+			tasks: [{
+				id: "00000000000017AC",
+				type: "item",
+				item: "mekanism:alloy_atomic"
+			}],
+			rewards: [{
+				id: "00000000000010E1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.5d,
+			dependencies: ["00000000000017A7"],
+			id: "00000000000017AD",
+			tasks: [{
+				id: "00000000000017AE",
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: "00000000000010E5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.5d,
+			shape: "gear",
+			dependencies: [
+				"00000000000017A7",
+				"00000000000017AD"
+			],
+			id: "00000000000017AF",
+			tasks: [{
+				id: "00000000000017B0",
+				type: "item",
+				item: {
+					id: "mekanismgenerators:wind_generator",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010E9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 6.5d,
+			shape: "gear",
+			dependencies: ["00000000000017AD"],
+			id: "00000000000017B1",
+			tasks: [{
+				id: "00000000000017B2",
+				type: "item",
+				item: "mekanism:basic_energy_cube"
+			}],
+			rewards: [{
+				id: "00000000000010EE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.5d,
+			shape: "gear",
+			dependencies: ["00000000000017B1"],
+			id: "00000000000017B3",
+			tasks: [{
+				id: "00000000000017B4",
+				type: "item",
+				item: "mekanism:advanced_energy_cube"
+			}],
+			rewards: [{
+				id: "00000000000010EF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 6.5d,
+			shape: "gear",
+			dependencies: ["00000000000017B3"],
+			id: "0000000000000440",
+			tasks: [{
+				id: "0000000000000441",
+				type: "item",
+				item: "mekanism:elite_energy_cube"
+			}],
+			rewards: [{
+				id: "00000000000010F0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 6.5d,
+			shape: "gear",
+			dependencies: ["0000000000000440"],
+			id: "0000000000000442",
+			tasks: [{
+				id: "0000000000000443",
+				type: "item",
+				item: "mekanism:ultimate_energy_cube"
+			}],
+			rewards: [{
+				id: "00000000000010F1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.5d,
+			shape: "gear",
+			dependencies: ["00000000000017AD"],
+			id: "0000000000000444",
+			tasks: [{
+				id: "0000000000000445",
+				type: "item",
+				item: "mekanism:basic_induction_cell"
+			}],
+			rewards: [{
+				id: "00000000000010E6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 4.5d,
+			shape: "gear",
+			dependencies: ["0000000000000444"],
+			id: "0000000000000446",
+			tasks: [{
+				id: "0000000000000447",
+				type: "item",
+				item: "mekanism:advanced_induction_cell"
+			}],
+			rewards: [{
+				id: "00000000000010EB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 4.5d,
+			shape: "gear",
+			dependencies: ["0000000000000446"],
+			id: "0000000000000448",
+			tasks: [{
+				id: "0000000000000449",
+				type: "item",
+				item: "mekanism:elite_induction_cell"
+			}],
+			rewards: [{
+				id: "00000000000010EC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000448"],
+			id: "000000000000044A",
+			tasks: [{
+				id: "000000000000044B",
+				type: "item",
+				item: "mekanism:ultimate_induction_cell"
+			}],
+			rewards: [{
+				id: "00000000000010ED",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 8.5d,
+			shape: "gear",
+			dependencies: ["00000000000017B1"],
+			id: "000000000000044C",
+			tasks: [{
+				id: "000000000000044D",
+				type: "item",
+				item: "mekanism:basic_induction_provider"
+			}],
+			rewards: [{
+				id: "00000000000010F7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.5d,
+			shape: "gear",
+			dependencies: [
+				"00000000000017B3",
+				"000000000000044C"
+			],
+			id: "000000000000044E",
+			tasks: [{
+				id: "000000000000044F",
+				type: "item",
+				item: "mekanism:advanced_induction_provider"
+			}],
+			rewards: [{
+				id: "00000000000010F4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 8.5d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000440",
+				"000000000000044E"
+			],
+			id: "0000000000000450",
+			tasks: [{
+				id: "0000000000000451",
+				type: "item",
+				item: "mekanism:elite_induction_provider"
+			}],
+			rewards: [{
+				id: "00000000000010F3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 8.5d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000442",
+				"0000000000000450"
+			],
+			id: "0000000000000452",
+			tasks: [{
+				id: "0000000000000453",
+				type: "item",
+				item: "mekanism:ultimate_induction_provider"
+			}],
+			rewards: [{
+				id: "00000000000010F2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["000000000000045E"],
+			id: "0000000000000454",
+			tasks: [{
+				id: "0000000000000455",
+				type: "item",
+				item: "mekanism:basic_universal_cable",
+				count: 6L
+			}],
+			rewards: [{
+				id: "00000000000010FE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["0000000000000454"],
+			id: "0000000000000456",
+			tasks: [{
+				id: "0000000000000457",
+				type: "item",
+				item: "mekanism:advanced_universal_cable",
+				count: 6L
+			}],
+			rewards: [{
+				id: "00000000000010FF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["0000000000000456"],
+			id: "0000000000000458",
+			tasks: [{
+				id: "0000000000000459",
+				type: "item",
+				item: "mekanism:elite_universal_cable",
+				count: 6L
+			}],
+			rewards: [{
+				id: "0000000000001100",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["0000000000000458"],
+			id: "000000000000045A",
+			tasks: [{
+				id: "000000000000045B",
+				type: "item",
+				item: "mekanism:ultimate_universal_cable",
+				count: 6L
+			}],
+			rewards: [{
+				id: "0000000000001101",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["000000000000045E"],
+			id: "000000000000045C",
+			tasks: [{
+				id: "000000000000045D",
+				type: "item",
+				item: "mekanism:basic_mechanical_pipe",
+				count: 6L
+			}],
+			rewards: [{
+				id: "00000000000010FB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.5d,
+			shape: "gear",
+			dependencies: ["0000000000001794"],
+			id: "000000000000045E",
+			tasks: [{
+				id: "000000000000045F",
+				type: "item",
+				title: "Steel Ingot",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010FC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			shape: "gear",
+			dependencies: ["00000000000017AD"],
+			id: "0000000000000460",
+			tasks: [{
+				id: "0000000000000461",
+				type: "item",
+				item: {
+					id: "mekanism:atomic_disassembler",
+					Count: 1b,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010E7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000001798"],
+			id: "0000000000000466",
+			tasks: [{
+				id: "0000000000000467",
+				type: "item",
+				item: {
+					id: "mekanism:osmium_compressor",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001110",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["000000000000179A"],
+			id: "0000000000000468",
+			tasks: [{
+				id: "0000000000000469",
+				type: "item",
+				item: {
+					id: "mekanism:combiner",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001116",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "000000000000046A",
+			tasks: [{
+				id: "000000000000046B",
+				type: "item",
+				item: {
+					id: "mekanism:crusher",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000111B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -5.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "000000000000046C",
+			tasks: [{
+				id: "000000000000046D",
+				type: "item",
+				item: {
+					id: "mekanism:energized_smelter",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001120",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000017AB"],
+			id: "0000000000000474",
+			tasks: [{
+				id: "0000000000000475",
+				type: "item",
+				item: "mekanism:robit"
+			}],
+			rewards: [{
+				id: "00000000000010E0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 5.5d,
+			shape: "gear",
+			dependencies: ["00000000000017AD"],
+			id: "0000000000000476",
+			tasks: [{
+				id: "0000000000000477",
+				type: "item",
+				item: "mekanism:network_reader"
+			}],
+			rewards: [{
+				id: "00000000000010E8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 5.5d,
+			shape: "gear",
+			dependencies: ["00000000000017AD"],
+			id: "0000000000000478",
+			tasks: [{
+				id: "0000000000000479",
+				type: "item",
+				item: "mekanism:configurator"
+			}],
+			rewards: [{
+				id: "00000000000010EA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["00000000000017A7"],
+			id: "000000000000047A",
+			tasks: [{
+				id: "000000000000047B",
+				type: "item",
+				item: "mekanismgenerators:solar_panel"
+			}],
+			rewards: [{
+				id: "00000000000010DC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["000000000000047A"],
+			id: "000000000000047C",
+			tasks: [{
+				id: "000000000000047D",
+				type: "item",
+				item: {
+					id: "mekanismgenerators:solar_generator",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010DD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["000000000000047C"],
+			id: "000000000000047E",
+			tasks: [{
+				id: "000000000000047F",
+				type: "item",
+				item: {
+					id: "mekanismgenerators:advanced_solar_generator",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010DE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000466"],
+			id: "0000000000000480",
+			tasks: [{
+				id: "0000000000000481",
+				type: "item",
+				item: {
+					id: "mekanism:basic_compressing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001111",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000480"],
+			id: "0000000000000482",
+			tasks: [{
+				id: "0000000000000483",
+				type: "item",
+				item: {
+					id: "mekanism:advanced_compressing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001112",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000482"],
+			id: "0000000000000484",
+			tasks: [{
+				id: "0000000000000485",
+				type: "item",
+				item: {
+					id: "mekanism:elite_compressing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001113",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["000000000000045C"],
+			id: "0000000000000486",
+			tasks: [{
+				id: "0000000000000487",
+				type: "item",
+				item: "mekanism:advanced_mechanical_pipe",
+				count: 6L
+			}],
+			rewards: [{
+				id: "00000000000010FA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["0000000000000486"],
+			id: "0000000000000488",
+			tasks: [{
+				id: "0000000000000489",
+				type: "item",
+				item: "mekanism:elite_mechanical_pipe",
+				count: 6L
+			}],
+			rewards: [{
+				id: "00000000000010F9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 10.5d,
+			shape: "gear",
+			dependencies: ["0000000000000488"],
+			id: "000000000000048A",
+			tasks: [{
+				id: "000000000000048B",
+				type: "item",
+				item: "mekanism:ultimate_mechanical_pipe",
+				count: 6L
+			}],
+			rewards: [{
+				id: "00000000000010F8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 7.5d,
+			shape: "gear",
+			dependencies: ["000000000000179A"],
+			id: "000000000000048C",
+			tasks: [{
+				id: "000000000000048D",
+				type: "item",
+				item: "mekanism:induction_port",
+				count: 2L
+			}],
+			rewards: [{
+				id: "0000000000001104",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.5d,
+			shape: "gear",
+			dependencies: ["0000000000001798"],
+			id: "000000000000048E",
+			tasks: [{
+				id: "000000000000048F",
+				type: "item",
+				item: "mekanism:flamethrower"
+			}],
+			rewards: [{
+				id: "00000000000010DB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.5d,
+			shape: "gear",
+			dependencies: ["0000000000001798"],
+			id: "0000000000000490",
+			tasks: [{
+				id: "0000000000000491",
+				type: "item",
+				item: "mekanism:thermal_evaporation_controller"
+			}],
+			rewards: [{
+				id: "0000000000001107",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "0000000000000492",
+			tasks: [
+				{
+					id: "0000000000000493",
+					type: "item",
+					item: {
+						id: "mekanism:scuba_tank",
+						Count: 1b,
+						tag: {
+							HideFlags: 2
+						}
+					}
+				},
+				{
+					id: "0000000000000A85",
+					type: "item",
+					item: {
+						id: "mekanism:scuba_mask",
+						Count: 1b,
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "00000000000010D8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "0000000000000494",
+			tasks: [{
+				id: "0000000000000495",
+				type: "item",
+				item: {
+					id: "mekanism:jetpack",
+					Count: 1b,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010DA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -5.5d,
+			shape: "gear",
+			dependencies: ["0000000000000494"],
+			id: "0000000000000496",
+			tasks: [{
+				id: "0000000000000497",
+				type: "item",
+				item: "mekanism:jetpack_armored"
+			}],
+			rewards: [{
+				id: "00000000000010D9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["0000000000000468"],
+			id: "000000000000049A",
+			tasks: [{
+				id: "000000000000049B",
+				type: "item",
+				item: {
+					id: "mekanism:basic_combining_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001117",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["000000000000049A"],
+			id: "000000000000049C",
+			tasks: [{
+				id: "000000000000049D",
+				type: "item",
+				item: {
+					id: "mekanism:advanced_combining_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001118",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["000000000000049C"],
+			id: "000000000000049E",
+			tasks: [{
+				id: "000000000000049F",
+				type: "item",
+				item: {
+					id: "mekanism:elite_combining_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001119",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["000000000000049E"],
+			id: "00000000000004A0",
+			tasks: [{
+				id: "00000000000004A1",
+				type: "item",
+				item: {
+					id: "mekanism:ultimate_combining_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000111A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000484"],
+			id: "00000000000004A2",
+			tasks: [{
+				id: "00000000000004A3",
+				type: "item",
+				item: {
+					id: "mekanism:ultimate_compressing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001115",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["000000000000046A"],
+			id: "00000000000004A4",
+			tasks: [{
+				id: "00000000000004A5",
+				type: "item",
+				item: {
+					id: "mekanism:basic_crushing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000111C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["00000000000004A4"],
+			id: "00000000000004A6",
+			tasks: [{
+				id: "00000000000004A7",
+				type: "item",
+				item: {
+					id: "mekanism:advanced_crushing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000111D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["00000000000004A6"],
+			id: "00000000000004A8",
+			tasks: [{
+				id: "00000000000004A9",
+				type: "item",
+				item: {
+					id: "mekanism:elite_crushing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000111E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["00000000000004A8"],
+			id: "00000000000004AA",
+			tasks: [{
+				id: "00000000000004AB",
+				type: "item",
+				item: {
+					id: "mekanism:ultimate_crushing_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000111F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -5.5d,
+			shape: "gear",
+			dependencies: ["000000000000046C"],
+			id: "00000000000004AC",
+			tasks: [{
+				id: "00000000000004AD",
+				type: "item",
+				item: {
+					id: "mekanism:basic_smelting_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001121",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -5.5d,
+			shape: "gear",
+			dependencies: ["00000000000004B2"],
+			id: "00000000000004B0",
+			tasks: [{
+				id: "00000000000004B1",
+				type: "item",
+				item: {
+					id: "mekanism:elite_smelting_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001123",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -5.5d,
+			shape: "gear",
+			dependencies: ["00000000000004AC"],
+			id: "00000000000004B2",
+			tasks: [{
+				id: "00000000000004B3",
+				type: "item",
+				item: {
+					id: "mekanism:advanced_smelting_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001122",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -5.5d,
+			shape: "gear",
+			dependencies: ["00000000000004B0"],
+			id: "00000000000004B4",
+			tasks: [{
+				id: "00000000000004B5",
+				type: "item",
+				item: {
+					id: "mekanism:ultimate_smelting_factory",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001124",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			shape: "gear",
+			dependencies: ["0000000000001798"],
+			id: "0000000000000CDC",
+			tasks: [{
+				id: "0000000000000CDD",
+				type: "item",
+				item: "mekanism:thermal_evaporation_valve",
+				count: 2L
+			}],
+			rewards: [{
+				id: "0000000000001108",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000474"],
+			id: "00000000000004CC",
+			tasks: [{
+				id: "00000000000004CD",
+				type: "item",
+				item: {
+					id: "mekanism:digital_miner",
+					Count: 1b,
+					tag: {
+						mekData: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000010DF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 7.5d,
+			shape: "gear",
+			dependencies: ["00000000000017B1"],
+			id: "00000000000008E5",
+			tasks: [{
+				id: "00000000000008E6",
+				type: "item",
+				item: "mekanism:laser_amplifier"
+			}],
+			rewards: [{
+				id: "00000000000010F5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 9.5d,
+			shape: "gear",
+			dependencies: ["00000000000008E5"],
+			id: "00000000000008E7",
+			tasks: [{
+				id: "00000000000008E8",
+				type: "item",
+				item: "mekanism:laser_tractor_beam"
+			}],
+			rewards: [{
+				id: "00000000000010F6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "0000000000000A76",
+			tasks: [{
+				id: "0000000000001424",
+				type: "item",
+				item: "mekanism:teleporter"
+			}],
+			rewards: [{
+				id: "0000000000001109",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			shape: "gear",
+			dependencies: ["0000000000001421"],
+			id: "0000000000000A78",
+			tasks: [{
+				id: "0000000000000A79",
+				type: "item",
+				item: "mekanism:logistical_sorter"
+			}],
+			rewards: [{
+				id: "000000000000110A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 5.5d,
+			shape: "gear",
+			dependencies: ["0000000000001798"],
+			id: "0000000000000A7A",
+			tasks: [{
+				id: "0000000000000A7B",
+				type: "item",
+				item: "mekanismgenerators:turbine_valve",
+				count: 2L
+			}],
+			rewards: [{
+				id: "0000000000001106",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 8.5d,
+			dependencies: ["000000000000179C"],
+			id: "00000000000022AA",
+			tasks: [{
+				id: "00000000000022AB",
+				type: "item",
+				item: {
+					id: "mekanism:mekasuit_helmet",
+					Count: 1b,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 8.5d,
+			dependencies: ["00000000000022AA"],
+			id: "00000000000022AC",
+			tasks: [{
+				id: "00000000000022AD",
+				type: "item",
+				item: {
+					id: "mekanism:mekasuit_bodyarmor",
+					Count: 1b,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			dependencies: ["00000000000017A0"],
+			id: "00000000000022AE",
+			tasks: [{
+				id: "00000000000022AF",
+				type: "item",
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 8.5d,
+			dependencies: ["00000000000022AC"],
+			id: "00000000000022B4",
+			tasks: [{
+				id: "00000000000022B5",
+				type: "item",
+				item: {
+					id: "mekanism:mekasuit_pants",
+					Count: 1b,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 8.5d,
+			dependencies: ["00000000000022B4"],
+			id: "00000000000022B6",
+			tasks: [{
+				id: "00000000000022B7",
+				type: "item",
+				item: {
+					id: "mekanism:mekasuit_boots",
+					Count: 1b,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+	]
+}

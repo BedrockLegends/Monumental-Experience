@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:washing",
+    "conditions": [
+        {
+            "type": "forge:false"
+        }
+    ]
+}

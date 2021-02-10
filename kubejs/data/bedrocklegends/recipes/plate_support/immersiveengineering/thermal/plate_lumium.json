@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "thermal:lumium_plate"
+  },
+  "input": {
+    "tag": "forge:ingots/lumium"
+  },
+  "energy": 2400
+}

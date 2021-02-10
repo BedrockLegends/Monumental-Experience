@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:coal_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:coal_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

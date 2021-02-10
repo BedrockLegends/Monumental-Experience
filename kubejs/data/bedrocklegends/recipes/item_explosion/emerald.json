@@ -1,0 +1,22 @@
+{
+  "type": "interactio:item_explode",
+  "inputs": [
+    {
+      "item": "minecraft:emerald_block",
+      "count": 1
+    }
+  ],
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "item": "minecraft:emerald",
+          "count": 6
+        },
+        "weight": 1
+      }
+    ],
+    "empty_weight": 0,
+    "rolls": 1
+  }
+}

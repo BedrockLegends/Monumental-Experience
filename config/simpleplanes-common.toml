@@ -1,0 +1,16 @@
+
+#Planes settings
+[general]
+	#Version, do not change
+	#Range: > 0
+	Version = 5
+	#For controllers, a threshold for the joystick movement of the plane
+	#Range: 0 ~ 90
+	turnThreshold = 20
+	#easier flight mode, disables the extreme movements
+	easyFlight = false
+	#planes crash on bad landings
+	planeCrash = true
+	#can players steal planes
+	plane_heist = true
+

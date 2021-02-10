@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SQS",
+        " S "
+    ],
+    "key": {
+        "Q": {
+            "tag": "forge:chests/wooden"
+        },
+        "S": {
+            "item": "cyclic:spikes_iron"
+        }
+    },
+    "result": {
+        "item": "minecraft:trapped_chest"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

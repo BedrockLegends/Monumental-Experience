@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "A   A",
+        "AA AA",
+        " ABA ",
+        " AAA ",
+        " AAA "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "minecraft:iron_chestplate"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_chestplate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

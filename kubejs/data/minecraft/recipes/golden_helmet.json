@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAA",
+        "AABAA",
+        "A   A",
+        "     ",
+        "     "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "minecraft:iron_helmet"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_helmet"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

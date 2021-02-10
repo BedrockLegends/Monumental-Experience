@@ -1,0 +1,42 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        " 1 ",
+        "2A3",
+        " 4 "
+    ],
+    "key": {
+        "1": {
+            "item": "forbidden_arcanus:bottle_block"
+        },
+        "2": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "3": {
+            "item": "mysticalagriculture:glowstone_essence"
+        },
+        "4": {
+            "item": "extendedcrafting:redstone_ingot_block"
+        },
+        "A": {
+            "item": "mysticalagriculture:enderium_essence"
+        }
+    },
+    "result": {
+        "item": "gateways:small_gate_opener",
+        "gateway": {
+            "name": "gateways.small_witch_gate",
+            "entity": "minecraft:witch",
+            "completion_xp": 700,
+            "max_wave_time": 1400,
+            "color": "pink",
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "gateways"
+                }
+            ]
+        }
+    }
+}

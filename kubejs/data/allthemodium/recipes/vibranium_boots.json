@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "         ",
+        "         ",
+        "         ",
+        "  AA AA  ",
+        "  AA AA  ",
+        "  AA AA  ",
+        "  AABAA  ",
+        "AAAA AAAA",
+        "AAAA AAAA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/vibranium"
+        },
+        "B": {
+            "item": "gobber2:gobber2_boots_nether"
+        }
+    },
+    "result": {
+        "item": "allthemodium:vibranium_boots"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+        }
+    ]
+}

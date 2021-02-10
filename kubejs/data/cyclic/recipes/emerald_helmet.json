@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ccc",
+        "cbc"
+    ],
+    "key": {
+        "c": {
+            "tag": "forge:storage_blocks/emerald"
+        },
+        "b": {
+            "item": "minecraft:iron_helmet"
+        }
+    },
+    "result": {
+        "item": "cyclic:emerald_helmet",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+
+[general]
+	#Enables degrading nether blocks into soulsand when aura runs out
+	enableNetherDegradeEffect = true
+	#Range: 0.0 ~ 1.7976931348623157E308
+	witherProoferRange = 20.0
+	#Makes beacons with a RainbowBeacon on top of them update their beam color 4x as often
+	smoothRainbowBeacon = true
+
+[aura]
+	#Range: 0 ~ 2147483647
+	autoWrathPulseCost = 1000
+	#Range: 0 ~ 2147483647
+	autoWrathMobDamageCost = 1000
+	#Range: 0 ~ 2147483647
+	dampeningFeatherAuraPerMeter = 4000
+	#Range: 0 ~ 2147483647
+	potionEnhancerCostPerLevel = 5000
+	#Range: 0 ~ 2147483647
+	witherProoferCost = 10000
+	#Range: 1.0 ~ 1.7976931348623157E308
+	auraTransporterRange = 60.0
+	#Range: -2147483648 ~ 2147483647
+	auraTransporterDrainRange = 15
+	#Range: -2147483648 ~ 2147483647
+	auraTransporterStoreRange = 15
+	#Range: 1 ~ 2147483647
+	auraTransporterAuraAmount = 100000
+	#Range: 0.0 ~ 1.0
+	auraTransporterAuraMultiplierPerBlock = 0.99
+

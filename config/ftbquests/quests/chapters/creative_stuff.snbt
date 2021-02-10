@@ -1,0 +1,186 @@
+{
+	id: "00000000000002F3",
+	group: "",
+	order_index: 11,
+	filename: "creative_stuff",
+	title: "&9Creative Stuff",
+	icon: "storagedrawers:creative_storage_upgrade",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: -0.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000002F4",
+			tasks: [{
+				id: "00000000000002F5",
+				type: "item",
+				item: "mekanism:creative_bin"
+			}],
+			rewards: [
+				{
+					id: "00000000000007FF",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "0000000000000F86",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -0.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000002F6",
+			tasks: [{
+				id: "00000000000002F7",
+				type: "item",
+				item: "mekanism:creative_energy_cube"
+			}],
+			rewards: [
+				{
+					id: "00000000000007FB",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "000000000000195E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 3.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000002F8",
+			tasks: [{
+				id: "00000000000002F9",
+				type: "item",
+				item: "pneumaticcraft:creative_compressor"
+			}],
+			rewards: [
+				{
+					id: "0000000000000801",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "0000000000000F89",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000002FA",
+			tasks: [{
+				id: "00000000000002FB",
+				type: "item",
+				item: "immersiveengineering:capacitor_creative"
+			}],
+			rewards: [
+				{
+					id: "00000000000007FD",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "0000000000000F8A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 1.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000002FC",
+			tasks: [{
+				id: "00000000000002FD",
+				type: "item",
+				item: "storagedrawers:creative_storage_upgrade"
+			}],
+			rewards: [
+				{
+					id: "0000000000000800",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "0000000000000F87",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000002FE",
+			tasks: [{
+				id: "00000000000002FF",
+				type: "item",
+				item: "botania:creative_pool"
+			}],
+			rewards: [
+				{
+					id: "00000000000007FC",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "0000000000000F88",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			shape: "gear",
+			size: 2.0d,
+			id: "00000000000007DB",
+			tasks: [{
+				id: "00000000000007DC",
+				type: "item",
+				item: "mysticalagradditions:creative_essence"
+			}],
+			rewards: [
+				{
+					id: "00000000000007FE",
+					type: "command",
+					command: "/say congratulations!",
+					player_command: false
+				},
+				{
+					id: "0000000000000F85",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+	]
+}

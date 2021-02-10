@@ -1,0 +1,33 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "ABBBA",
+        " CDC ",
+        "BBDBB",
+        " BBB ",
+        "  B  "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "B": {
+            "tag": "forge:dusts/gold"
+        },
+        "C": {
+            "tag": "forge:storage_blocks/emerald"
+        },
+        "D": {
+            "tag": "forge:ingots/gold"
+        }
+    },
+    "result": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

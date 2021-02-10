@@ -1,0 +1,29 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "   A   ",
+        "  AAA  ",
+        " AABAA ",
+        "  AAA  ",
+        "   A   ",
+        "   A   ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/neptunium"
+        },
+        "B": {
+            "item": "minecraft:golden_shovel"
+        }
+    },
+    "result": {
+        "item": "aquaculture:neptunium_shovel"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "aquaculture"
+        }
+    ]
+}

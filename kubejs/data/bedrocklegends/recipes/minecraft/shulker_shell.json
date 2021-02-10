@@ -1,0 +1,48 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAAAA",
+        "AAB BAA",
+        "AB   BA",
+        "   CDEE",
+        "AB F BA",
+        "AABGBAA",
+        "AAAAAAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:chorus_plant"
+        },
+        "B": {
+            "item": "botania:endoflame"
+        },
+        "C": {
+            "item": "minecraft:end_crystal"
+        },
+        "D": {
+            "type": "forge:nbt",
+            "item": "minecraft:firework_rocket",
+            "count": 1,
+            "nbt": "{Fireworks:{Flight:3b,Explosions:[{Type:3b,Colors:[I;11250603,4408131,14188952,4312372,14602026,6719955,12801229],FadeColors:[I;2651799,8073150,3887386,5320730,2437522,11743532,1973019]},{Type:3b,Colors:[I;11250603,4408131,14188952,4312372,14602026,6719955,12801229],FadeColors:[I;2651799,8073150,3887386,5320730,2437522,11743532,1973019]},{Type:3b,Colors:[I;11250603,4408131,14188952,4312372,14602026,6719955,12801229],FadeColors:[I;2651799,8073150,3887386,5320730,2437522,11743532,1973019]},{Type:3b,Colors:[I;11250603,4408131,14188952,4312372,14602026,6719955,12801229],FadeColors:[I;2651799,8073150,3887386,5320730,2437522,11743532,1973019]},{Type:3b,Colors:[I;11250603,4408131,14188952,4312372,14602026,6719955,12801229],FadeColors:[I;2651799,8073150,3887386,5320730,2437522,11743532,1973019]}]}}"
+        },
+        "E": {
+            "item": "minecraft:chorus_flower"
+        },
+        "F": {
+            "tag": "forge:end_stones"
+        },
+        "G": {
+            "item": "minecraft:respawn_anchor"
+        }
+    },
+    "result": {
+        "item": "minecraft:shulker_shell",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

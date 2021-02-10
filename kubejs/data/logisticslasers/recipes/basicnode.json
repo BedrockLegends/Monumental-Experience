@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "igi",
+        "gbg",
+        "igi"
+    ],
+    "key": {
+        "g": {
+            "tag": "forge:glass"
+        },
+        "b": {
+            "item": "logisticslasers:routing_logic_module"
+        },
+        "i": {
+            "tag": "forge:plates/iron"
+        }
+    },
+    "result": {
+        "item": "logisticslasers:basicnode"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "logisticslasers"
+        }
+    ]
+}

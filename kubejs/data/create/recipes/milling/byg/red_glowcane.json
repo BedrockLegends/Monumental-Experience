@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "byg:red_glowcane"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:red_glowcane_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

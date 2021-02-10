@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/lead"
+        }
+    },
+    "output": {
+        "item": "alltheores:lead_dust",
+        "count": 2
+    }
+}

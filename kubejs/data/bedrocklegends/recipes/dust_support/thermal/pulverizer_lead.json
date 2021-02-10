@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/lead"
+  },
+  "result": [
+    {
+      "item": "alltheores:lead_dust",
+      "count": 1
+    }
+  ]
+}

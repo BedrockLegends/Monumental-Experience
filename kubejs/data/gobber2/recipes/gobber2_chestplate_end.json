@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AA     AA",
+        "AAA   AAA",
+        "AAA   AAA",
+        "  AABAA  ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "  AAAAA  "
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_links_end"
+        },
+        "B": {
+            "item": "allthemodium:vibranium_chestplate"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_chestplate_end"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QTQ",
+    "CFC",
+    "QTQ"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:gems/quartz"
+    },
+    "T": {
+      "item": "minecraft:comparator"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "Q": {
+      "item": "occultism:iesnium_ingot"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:crafter1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "ABA",
+        "CDE",
+        "AFA"
+    ],
+    "key": {
+        "A": {
+            "item": "compressium:obsidian_2"
+        },
+        "B": {
+            "tag": "forge:cookedmutton"
+        },
+        "C": {
+            "item": "minecraft:ink_sac"
+        },
+        "D": {
+            "item": "torchmaster:megatorch"
+        },
+        "E": {
+            "tag": "forge:cookedbeef/cookedbeef"
+        },
+        "F": {
+            "tag": "forge:cookedpork/cookedpork"
+        }
+    },
+    "result": {
+        "item": "torchmaster:dreadlamp"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "torchmaster"
+        }
+    ]
+}

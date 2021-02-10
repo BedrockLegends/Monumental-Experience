@@ -1,0 +1,154 @@
+
+[control]
+	#INTERNAL. Development messages enabled.
+	debug_mode = false
+	#Set to true to enable upsizer to DOWN-size an item's max stack size. Disabled by default.
+	allow_downsizing = false
+	#Set to true for upsizer to fix issues with stacked standard soups and stews. Does not affect modded items behaviors.
+	fix_bowl_food = true
+	#Set to true to enable upsizer for raw eggs. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_eggs = true
+	#Set to true to enable upsizer for snow balls. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_snowballs = true
+	#Set to true to enable upsizer for signs. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_signs = true
+	#Set to true to enable upsizer for records. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_records = true
+	#Set to true to enable upsizer for empty buckets. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_buckets = true
+	#Set to true to enable upsizer for ender pearls. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_ender_pearls = true
+	#Set to true to enable upsizer for filled water buckets. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_water_buckets = false
+	#Set to true to enable upsizer for filled milk buckets. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_milk_buckets = false
+	#Set to true to enable upsizer for filled lava buckets. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_lava_buckets = false
+	#Set to true to enable upsizer for baked cakes. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_cakes = true
+	#Set to true to enable upsizer for stews and soups. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_stews = true
+	#Set to true to enable upsizer for honey bottles. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_honey_bottles = true
+	#Set to true to enable upsizer for tools. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_tools = false
+	#Set to true to enable upsizer for horse armor. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_horse_armor = true
+	#Set to true to enable upsizer for weapons. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_weapons = false
+	#Set to true to enable upsizer for shields. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_shields = false
+	#Set to true to enable upsizer for empty minecarts. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_minecarts = true
+	#Set to true to enable upsizer for wooden boats. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_boats = true
+	#Set to true to enable upsizer for saddles. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_saddles = true
+	#Set to true to enable upsizer for banners. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_banners = true
+	#Set to true to enable upsizer for banner patterns. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_banner_patterns = false
+	#Set to true to enable upsizer for armor stands. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_armorstands = true
+	#Set to true to enable upsizer for beds. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_beds = true
+	#Set to true to enable upsizer for potion bottles. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_potions = false
+	#Set to true to enable upsizer for writable books. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_writable_books = true
+	#Set to true to enable upsizer for enchanted books. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_enchanted_books = true
+	#Set to true to enable upsizer for empty shulker boxes. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_shulkerboxes = false
+	#Set to true to enable upsizer for other objects. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_other_objects = true
+
+[upsized]
+	#New stack size for raw eggs; default is 64.
+	#Range: 1 ~ 64
+	eggs_upsized_stack = 64
+	#New stack size for snow balls; default is 64.
+	#Range: 1 ~ 64
+	snowballs_upsized_stack = 64
+	#New stack size for signs; default is 64.
+	#Range: 1 ~ 64
+	signs_upsized_stack = 64
+	#New stack size for empty buckets; default is 32.
+	#Range: 1 ~ 64
+	buckets_upsized_stack = 32
+	#New stack size for ender pearls; default is 64.
+	#Range: 1 ~ 64
+	ender_pearls_upsized_stack = 64
+	#New stack size for honey bottles; default is 64.
+	#Range: 1 ~ 64
+	honey_bottles_upsized_stack = 64
+	#New stack size for banners; default is 32.
+	#Range: 1 ~ 64
+	banners_upsized_stack = 32
+	#New stack size for banner patterns; default is 4.
+	#Range: 1 ~ 64
+	banner_patterns_upsized_stack = 4
+	#New stack size for armor stands; default is 64.
+	#Range: 1 ~ 64
+	armorstands_upsized_stack = 64
+
+[storage]
+	#New storage stack for records; default is 16.
+	#Range: 1 ~ 64
+	records_storage_stack = 16
+	#New storage stack for filled water buckets; default is 1.
+	#Range: 1 ~ 64
+	water_buckets_storage_stack = 1
+	#New storage stack for filled milk buckets; default is 1.
+	#Range: 1 ~ 64
+	milk_buckets_storage_stack = 1
+	#New storage stack for filled lava buckets; default is 1.
+	#Range: 1 ~ 64
+	lava_buckets_storage_stack = 1
+	#New storage stack for baked cakes; default is 4.
+	#Range: 1 ~ 64
+	cakes_storage_stack = 4
+	#New storage stack for stews and soups; default is 16.
+	#Range: 1 ~ 64
+	stews_storage_stack = 16
+	#New storage stack for tools; default is 1.
+	#Range: 1 ~ 64
+	tools_storage_stack = 1
+	#New storage stack for horse armor; default is 16.
+	#Range: 1 ~ 64
+	horse_armor_storage_stack = 16
+	#New storage stack for weapons; default is 1.
+	#Range: 1 ~ 64
+	weapons_storage_stack = 1
+	#New storage stack for shields; default is 1.
+	#Range: 1 ~ 64
+	shields_storage_stack = 1
+	#New storage stack for empty minecarts; default is 4.
+	#Range: 1 ~ 64
+	minecarts_storage_stack = 4
+	#New storage stack for wooden boats; default is 4.
+	#Range: 1 ~ 64
+	boats_storage_stack = 4
+	#New storage stack for saddles; default is 16.
+	#Range: 1 ~ 64
+	saddles_storage_stack = 16
+	#New storage stack for beds; default is 4.
+	#Range: 1 ~ 64
+	beds_storage_stack = 4
+	#New storage stack for potion bottles; default is 4.
+	#Range: 1 ~ 64
+	potions_storage_stack = 4
+	#New storage stack for writable books; default is 16.
+	#Range: 1 ~ 64
+	writable_books_storage_stack = 16
+	#New storage stack for enchanted books; default is 4.
+	#Range: 1 ~ 64
+	enchanted_books_storage_stack = 4
+	#New storage stack for empty shulker boxes; default is 1.
+	#Range: 1 ~ 64
+	shulkerboxes_storage_stack = 1
+
+[integration]
+	#Set to the fully qualified item or block names with stack sizes mappings for additional up-sized objects. The expected format for each string is NAME=MAXSTACK.
+	other_maxstack_sizes = ["minecraft:totem_of_undying=1", "minecraft:shulker_box=1"]
+

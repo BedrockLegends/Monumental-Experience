@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "    A    ",
+        "   ABA   ",
+        "   AAA   ",
+        "   AAA   ",
+        "   AAA   ",
+        "   AAA   ",
+        "  AAAAA  ",
+        "    A    ",
+        "    A    "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:bones/wither"
+        },
+        "B": {
+            "item": "minecraft:diamond_sword"
+        }
+    },
+    "result": {
+        "item": "iceandfire:dragonbone_sword"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}

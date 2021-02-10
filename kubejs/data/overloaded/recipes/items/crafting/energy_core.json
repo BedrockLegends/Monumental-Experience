@@ -1,0 +1,25 @@
+{
+    "result": {
+        "item": "overloaded:energy_core"
+    },
+    "pattern": [
+        "NNN",
+        "NRN",
+        "NNN"
+    ],
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "R": {
+            "item": "extendedcrafting:redstone_ingot_block"
+        },
+        "N": {
+            "tag": "forge:storage_blocks/nether_star"
+        }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "overloaded"
+        }
+    ]
+}

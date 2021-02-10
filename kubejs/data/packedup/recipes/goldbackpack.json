@@ -1,0 +1,28 @@
+{
+    "type": "packedup:backpackrecipe",
+    "pattern": [
+        "ILI",
+        "ICI",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/gold"
+        },
+        "C": {
+            "item": "packedup:ironbackpack"
+        },
+        "L": {
+            "item": "ironchest:gold_chest"
+        }
+    },
+    "result": {
+        "item": "packedup:goldbackpack"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "packedup"
+        }
+    ]
+}

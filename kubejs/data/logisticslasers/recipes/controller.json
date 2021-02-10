@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gdg",
+        "dbd",
+        "gdg"
+    ],
+    "key": {
+        "b": {
+            "item": "logisticslasers:basicnode"
+        },
+        "g": {
+            "tag": "forge:plates/gold"
+        },
+        "d": {
+            "tag": "forge:gems/mana_diamond"
+        }
+    },
+    "result": {
+        "item": "logisticslasers:controller"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "logisticslasers"
+        }
+    ]
+}

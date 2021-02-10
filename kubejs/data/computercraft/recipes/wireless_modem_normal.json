@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:stone"
+    },
+    "E": {
+      "item": "mysticalagriculture:enderman_essence"
+    }
+  },
+  "result": {
+    "item": "computercraft:wireless_modem_normal"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAA",
+        "BCB",
+        "DCD"
+    ],
+    "key": {
+        "A": {
+            "tag": "minecraft:piglin_repellents"
+        },
+        "B": {
+            "item": "ironcoals:diamond_coal"
+        },
+        "C": {
+            "tag": "minecraft:logs"
+        },
+        "D": {
+            "tag": "forge:storage_blocks/gold"
+        }
+    },
+    "result": {
+        "item": "torchmaster:megatorch"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "torchmaster"
+        }
+    ]
+}

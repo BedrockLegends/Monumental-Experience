@@ -1,0 +1,24 @@
+{
+  "ma:null": {},
+  "ma:amplification": {},
+  "ma:bandwidth": {},
+  "ma:frequency": {},
+  "ma:radiant": {},
+  "ma:thermal": {},
+  "ma:piezo": {},
+  "ma:electrostatic": {},
+  "ma:dimensional": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:interdimensional": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "allthemodium:unobtainium_leggings"
+    },
+    "addition": {
+        "item": "gobber2:dragon_star"
+    },
+    "result": {
+        "item": "gobber2:gobber2_leggings_dragon"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

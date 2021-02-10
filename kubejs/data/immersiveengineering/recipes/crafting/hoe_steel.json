@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " AA",
+        "A B",
+        "  C"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/steel"
+        },
+        "B": {
+            "item": "minecraft:stone_hoe"
+        },
+        "C": {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    "result": {
+        "item": "immersiveengineering:hoe_steel"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
+}

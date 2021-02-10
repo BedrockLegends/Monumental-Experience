@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "AAAAAAAAA",
+        "AAAAAAAAA",
+        "AAA B AAA",
+        "AA     AA",
+        "A       A",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/vibranium"
+        },
+        "B": {
+            "item": "gobber2:gobber2_helmet_nether"
+        }
+    },
+    "result": {
+        "item": "allthemodium:vibranium_helmet"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAA",
+        "ABA",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:nether_bricks"
+        },
+        "B": {
+            "item": "minecraft:stone_shovel"
+        },
+        "C": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "cyclic:netherbrick_shovel"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

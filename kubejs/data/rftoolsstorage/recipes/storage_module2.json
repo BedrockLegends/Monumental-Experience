@@ -1,0 +1,28 @@
+{
+  "type": "mcjtylib:copy_nbt",
+  "pattern": [
+    " C ",
+    "gXg",
+    "QRQ"
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "X": {
+      "item": "rftoolsstorage:storage_module1"
+    },
+    "Q": {
+      "tag": "forge:storage_blocks/quartz"
+    },
+    "R": {
+      "item": "compressium:redstone_1"
+    },
+    "C": {
+      "tag": "forge:chests"
+    }
+  },
+  "result": {
+    "item": "rftoolsstorage:storage_module2"
+  }
+}

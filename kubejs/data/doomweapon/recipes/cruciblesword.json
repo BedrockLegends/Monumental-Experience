@@ -1,0 +1,31 @@
+{
+    "result": {
+        "item": "doomweapon:cruciblesword"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m#m",
+        " / ",
+        " I "
+    ],
+    "key": {
+        "#": {
+            "item": "overloaded:nether_star_block"
+        },
+        "m": {
+            "item": "mysticalagriculture:ghast_essence"
+        },
+        "/": {
+            "item": "doomweapon:argent_block"
+        },
+        "I": {
+            "item": "doomweapon:cruciblesword_closed"
+        }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "doomweapon"
+        }
+    ]
+}

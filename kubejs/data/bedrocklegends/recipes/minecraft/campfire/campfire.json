@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SCS",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "tag": "minecraft:logs"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "C": {
+            "item": "ironcoals:iron_coal_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:campfire"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironcoals"
+        }
+    ]
+}

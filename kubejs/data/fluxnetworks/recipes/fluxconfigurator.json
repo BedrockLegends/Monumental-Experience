@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    " fe",
+    " of",
+    "o  "
+  ],
+  "key": {
+    "o": {
+      "tag": "forge:obsidian"
+    },
+    "f": {
+      "item": "fluxnetworks:flux_dust"
+    },
+    "e": {
+      "item": "greater_eye:greater_eye"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_configurator"
+  }
+}

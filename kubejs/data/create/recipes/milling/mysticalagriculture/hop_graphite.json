@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:hop_graphite_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:hop_graphite_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

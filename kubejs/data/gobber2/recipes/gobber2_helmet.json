@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAAAAAA",
+        "AAAAAAAAA",
+        "AAA B AAA",
+        "AA     AA",
+        "A       A",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_ingot"
+        },
+        "B": {
+            "item": "minecraft:netherite_helmet"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_helmet"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

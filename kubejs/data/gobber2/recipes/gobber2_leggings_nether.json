@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAAAAAA",
+        "AAAAAAAAA",
+        "AAAABAAAA",
+        "AAA   AAA",
+        "AA     AA",
+        "AA     AA",
+        "AA     AA",
+        "AA     AA",
+        "AA     AA"
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        "B": {
+            "item": "allthemodium:allthemodium_leggings"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_leggings_nether"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

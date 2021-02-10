@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IDI",
+        "IEI",
+        "EIE"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:plates/iron"
+        },
+        "D": {
+            "tag": "psi:psidust"
+        },
+        "E": {
+            "item": "minecraft:dark_oak_slab"
+        }
+    },
+    "result": {
+        "item": "psi:programmer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "psi"
+        }
+    ]
+}

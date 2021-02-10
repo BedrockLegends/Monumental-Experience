@@ -1,0 +1,27 @@
+
+#Client-only settings
+[client]
+	#Displays warning about item deletion after updating from older version
+	displayWarning = false
+	#Enables auto message with backpack coords after player dies
+	enableBackpackCoordsMessage = true
+	#Enables tool cycling via shift + scroll combination, while backpack is worn
+	enableToolCycling = true
+	#Enables tip, how to obtain a backpack, if there's no crafting recipe for it
+	obtainTips = true
+	#Render tools in tool slots on the backpack, while worn
+	renderTools = true
+	#Render backpack if elytra is present
+	renderBackpackWithElytra = true
+
+	#The position of the Overlay on the screen
+	[client.overlay]
+		#Enables tanks and tool slots overlay, while backpack is worn
+		enableOverlay = true
+		#Offsets to left side
+		#Range: > -2147483648
+		offsetX = 20
+		#Offsets to up
+		#Range: > -2147483648
+		offsetY = 30
+

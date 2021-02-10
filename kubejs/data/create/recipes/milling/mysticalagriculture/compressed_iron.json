@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:compressed_iron_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:compressed_iron_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

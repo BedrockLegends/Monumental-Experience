@@ -1,0 +1,11 @@
+{
+    "type": "pneumaticcraft:assembly_drill",
+    "input": {
+        "item": "mysticalagriculture:inferium_block"
+    },
+    "result": {
+        "item": "mysticalagriculture:inferium_essence",
+        "count": 9
+    },
+    "program": "drill"
+}

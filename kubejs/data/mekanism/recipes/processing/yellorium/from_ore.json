@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "bigreactors:yellorite_ore"
+        }
+    },
+    "output": {
+        "item": "bigreactors:yellorium_dust",
+        "count": 2
+    }
+}

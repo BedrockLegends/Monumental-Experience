@@ -1,0 +1,31 @@
+{
+    "type": "packedup:backpackrecipe",
+    "pattern": [
+        "ILI",
+        "ICI",
+        "GGG"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:gems/diamond"
+        },
+        "C": {
+            "item": "packedup:goldbackpack"
+        },
+        "L": {
+            "item": "ironchest:diamond_chest"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "packedup:diamondbackpack"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "packedup"
+        }
+    ]
+}

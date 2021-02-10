@@ -1,0 +1,29 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "A     A",
+        "AA   AA",
+        "AAA AAA",
+        " AABAA ",
+        " AAAAA ",
+        " AAAAA ",
+        " AAAAA "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/mana_diamond"
+        },
+        "B": {
+            "item": "minecraft:golden_chestplate"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_chestplate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

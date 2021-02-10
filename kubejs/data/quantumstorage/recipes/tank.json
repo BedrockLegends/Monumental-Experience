@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AEA",
+        "ACA",
+        "AEA"
+    ],
+    "key": {
+        "A": [
+            {
+                "item": "mysticalagriculture:iron_essence"
+            }
+        ],
+        "C": [
+            {
+                "item": "minecraft:bucket"
+            }
+        ],
+        "E": [
+            {
+                "item": "mekanism:elite_fluid_tank"
+            }
+        ]
+    },
+    "result": {
+        "item": "quantumstorage:tank"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quantumstorage"
+        }
+    ]
+}

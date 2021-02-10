@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " AA",
+        "A B",
+        "  C"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:nether_bricks"
+        },
+        "B": {
+            "item": "minecraft:stone_hoe"
+        },
+        "C": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "cyclic:netherbrick_hoe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

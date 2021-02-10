@@ -1,0 +1,25 @@
+{
+
+  "type": "thermal:press",
+  "input": [
+    {
+      "tag": "minecraft:planks",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_packing_2x2_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "woodenutilities:wooden_plate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woodenutilities"
+    }
+  ],
+  "energy": 400
+}

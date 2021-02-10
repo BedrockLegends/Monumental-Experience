@@ -1,0 +1,33 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " AABA",
+        "A  C ",
+        "   C ",
+        "   C ",
+        "   C "
+    ],
+    "key": {
+        "A": {
+            "item": "powder_power:powder_emerald"
+        },
+        "B": {
+            "type": "forge:nbt",
+            "item": "minecraft:golden_hoe",
+            "count": 1,
+            "nbt": "{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}"
+        },
+        "C": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "cyclic:emerald_hoe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

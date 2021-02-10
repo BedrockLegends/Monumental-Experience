@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:coal_coke"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:dust_coke",
+      "count": 1
+    }
+  ]
+}

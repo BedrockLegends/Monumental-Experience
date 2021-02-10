@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "botania:mana_pearl"
+  },
+  "result": [
+    {
+      "item": "botania:pixie_dust",
+      "count": 1
+    }
+  ]
+}

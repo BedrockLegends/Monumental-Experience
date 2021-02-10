@@ -1,0 +1,263 @@
+{
+	id: "00000000000008CC",
+	group: "",
+	order_index: 51,
+	filename: "rftoolspower",
+	title: "&9Rftools Power",
+	icon: "rftoolspower:power_core1",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "00000000000008CD",
+			tasks: [{
+				id: "00000000000008CE",
+				type: "item",
+				item: "rftoolsbase:machine_frame"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["00000000000008CD"],
+			id: "00000000000008CF",
+			tasks: [{
+				id: "00000000000008D0",
+				type: "item",
+				item: "rftoolspower:coalgenerator"
+			}],
+			rewards: [
+				{
+					id: "0000000000001238",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001239",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000008D5"],
+			id: "00000000000008D1",
+			tasks: [{
+				id: "00000000000008D2",
+				type: "item",
+				item: "rftoolspower:dimensionalcell"
+			}],
+			rewards: [
+				{
+					id: "0000000000001234",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001235",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000008D1"],
+			id: "00000000000008D3",
+			tasks: [{
+				id: "00000000000008D4",
+				type: "item",
+				item: "rftoolspower:dimensionalcell_advanced"
+			}],
+			rewards: [
+				{
+					id: "0000000000001236",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001237",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000008CD"],
+			id: "00000000000008D5",
+			tasks: [{
+				id: "00000000000008D6",
+				type: "item",
+				item: "rftoolspower:dimensionalcell_simple"
+			}],
+			rewards: [
+				{
+					id: "0000000000001232",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001233",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000008CD"],
+			id: "00000000000008D9",
+			tasks: [{
+				id: "00000000000008DA",
+				type: "item",
+				item: "rftoolspower:power_core1"
+			}],
+			rewards: [
+				{
+					id: "000000000000122A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000122B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["00000000000008D9"],
+			id: "00000000000008DB",
+			tasks: [{
+				id: "00000000000008DC",
+				type: "item",
+				item: "rftoolspower:cell1"
+			}],
+			rewards: [
+				{
+					id: "000000000000122C",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000122D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["00000000000008CD"],
+			id: "00000000000008DD",
+			tasks: [{
+				id: "00000000000008DE",
+				type: "item",
+				item: "rftoolspower:power_core2"
+			}],
+			rewards: [
+				{
+					id: "000000000000122E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000122F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["00000000000008DD"],
+			id: "00000000000008DF",
+			tasks: [{
+				id: "00000000000008E0",
+				type: "item",
+				item: "rftoolspower:cell2"
+			}],
+			rewards: [
+				{
+					id: "0000000000001230",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001231",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000008CD"],
+			id: "00000000000008E1",
+			tasks: [{
+				id: "00000000000008E2",
+				type: "item",
+				item: "rftoolspower:power_core3"
+			}],
+			rewards: [
+				{
+					id: "0000000000001228",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001229",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000008E1"],
+			id: "00000000000008E3",
+			tasks: [{
+				id: "00000000000008E4",
+				type: "item",
+				item: "rftoolspower:cell3"
+			}],
+			rewards: [
+				{
+					id: "0000000000001226",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001227",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

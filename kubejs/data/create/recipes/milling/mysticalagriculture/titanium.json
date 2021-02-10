@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:titanium_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:titanium_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "infernalexp:glowstone_sandstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "infernalexp:glowdust_sand",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

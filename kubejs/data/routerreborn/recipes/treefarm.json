@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "cbc",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "b": {
+            "item": "engineersdecor:small_tree_cutter"
+        },
+        "c": {
+            "item": "routerreborn:coppercoil"
+        }
+    },
+    "result": {
+        "item": "routerreborn:treefarm",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "routerreborn"
+        }
+    ]
+}

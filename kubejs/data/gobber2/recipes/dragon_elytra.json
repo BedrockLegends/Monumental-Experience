@@ -1,0 +1,38 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "A  B  A",
+        " CBBBC ",
+        "DBBBBBD",
+        "DBBEBBD",
+        "DBB BBD",
+        " D   D ",
+        "  B B  "
+    ],
+    "key": {
+        "A": {
+            "item": "cyclic:charm_home"
+        },
+        "B": {
+            "tag": "forge:ingots/unobtainium"
+        },
+        "C": {
+            "item": "iceandfire:pixie_wings"
+        },
+        "D": {
+            "item": "forbidden_arcanus:bat_wing"
+        },
+        "E": {
+            "item": "minecraft:elytra"
+        }
+    },
+    "result": {
+        "item": "gobber2:dragon_elytra"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

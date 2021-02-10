@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/X/",
+        "///",
+        "/X/"
+    ],
+    "key": {
+        "/": {
+            "item": "storagedrawers:spruce_trim"
+        },
+        "X": {
+            "item": "immersiveengineering:crate"
+        }
+    },
+    "result": {
+        "item": "storagedrawers:spruce_full_drawers_2",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "storagedrawers"
+        }
+    ]
+}

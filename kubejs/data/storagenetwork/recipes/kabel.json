@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sss",
+        "i i",
+        "sss"
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:stone_slab",
+            "data": 0
+        },
+        "i": {
+            "item": "refinedstorage:quartz_enriched_iron"
+        }
+    },
+    "result": {
+        "item": "storagenetwork:kabel",
+        "count": 8
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "storagenetwork"
+        }
+    ]
+}

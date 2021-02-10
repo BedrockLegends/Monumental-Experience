@@ -1,0 +1,25 @@
+{
+    "result": {
+        "item": "doomweapon:argent_sword"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " $ ",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "item": "forbidden_arcanus:edelwood_stick"
+        },
+        "$": {
+            "item": "doomweapon:argent_block"
+        }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "doomweapon"
+        }
+    ]
+}

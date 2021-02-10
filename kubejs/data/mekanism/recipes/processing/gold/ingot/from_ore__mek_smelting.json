@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:smelting",
+    "conditions": [
+        {
+            "type": "forge:false"
+        }
+    ]
+}

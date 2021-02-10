@@ -1,0 +1,36 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        "B#B",
+        "#A#",
+        "B#B"
+    ],
+    "key": {
+        "#": {
+            "item": "mysticalagriculture:enderium_essence"
+        },
+        "A": {
+            "item": "mysticalagriculture:enderium_essence"
+        },
+        "B": {
+            "item": "mysticalagriculture:enderium_essence"
+        }
+    },
+    "result": {
+        "item": "gateways:small_gate_opener",
+        "gateway": {
+            "name": "gateways.small_enderman_gate",
+            "entity": "minecraft:enderman",
+            "completion_xp": 500,
+            "max_wave_time": 1200,
+            "color": "purple",
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "gateways"
+                }
+            ]
+        }
+    }
+}

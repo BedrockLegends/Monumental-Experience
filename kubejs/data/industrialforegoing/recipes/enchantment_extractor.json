@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "item": "industrialforegoing:enchantment_extractor",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PSP",
+          "BMB",
+          "DGD"
+        ],
+        "key": {
+          "P": {
+            "tag": "forge:plastic"
+          },
+          "S": {
+            "tag": "forge:bricknether"
+          },
+          "B": {
+            "item": "minecraft:book"
+          },
+          "M": {
+            "tag": "industrialforegoing:machine_frame/advanced"
+          },
+          "G": {
+            "tag": "forge:gears/gold"
+          },
+          "D": {
+            "tag": "forge:gems/diamond"
+          }
+        },
+        "result": {
+          "item": "industrialforegoing:enchantment_extractor"
+        }
+      }
+    }
+  ]
+}

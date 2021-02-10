@@ -1,0 +1,19 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "A A",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/iron"
+        },
+        "B": {
+            "item": "minecraft:chainmail_chestplate"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_chestplate"
+    }
+}

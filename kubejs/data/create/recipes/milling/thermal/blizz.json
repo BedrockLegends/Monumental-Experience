@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "thermal:blizz_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:blizz_powder",
+      "count": 1
+    },
+    {
+      "item": "minecraft:snowball",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

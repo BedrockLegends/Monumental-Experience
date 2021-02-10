@@ -1,0 +1,39 @@
+
+[General]
+	#Biome Weight of Jellyfish Fields
+	#Range: 1 ~ 100
+	jellyfish_fields_weight = 6
+	#Should Jellyfish sting?
+	jellyfish_sting = true
+	#Should Caught and Released Jellyfish sting?
+	caught_jellyfish_sting = false
+	#Should Jellyfish be fishable with a fishing rod?
+	jellyfish_fishable = true
+	#Should Jellyfish Nets be fishable with a fishing rod?
+	nets_fishable = true
+
+	[General."Attack Damages"]
+		#Damage of the Spatula
+		#Range: 1 ~ 1000
+		spatula_damage = 6
+		#Damage of the Golden Spatula
+		#Range: 1 ~ 1000
+		golden_spatula_damage = 8
+		#Damage of the Karate Glove
+		#Range: 1 ~ 1000
+		karate_damage = 3
+		#Damage of the Master Karate Glove
+		#Range: 1 ~ 1000
+		master_karate_damage = 5
+		#Damage of the Power Karate Glove
+		#Range: 1 ~ 1000
+		power_karate_damage = 18
+
+	[General.Biome]
+		#Enable Flower Clouds?
+		flower_clouds = true
+
+	[General.Optimization]
+		#With this enabled, right clicking will produce a few of the jellyfish's jelly item and destroy the jellyfish item
+		no_place_jellyfish = false
+

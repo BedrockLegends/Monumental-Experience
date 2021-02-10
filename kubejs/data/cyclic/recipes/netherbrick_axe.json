@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AA ",
+        "ABA",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:nether_bricks"
+        },
+        "B": {
+            "item": "minecraft:stone_axe"
+        },
+        "C": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "cyclic:netherbrick_axe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

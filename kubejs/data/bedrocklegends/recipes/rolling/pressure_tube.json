@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/compressed_iron"
+	},
+	"result": {
+		"item": "pneumaticcraft:pressure_tube",
+		"count": 2
+	},
+	"conditions": [ {
+		"type": "forge:mod_loaded",
+		"modid": "mekanism"
+    } ]
+}

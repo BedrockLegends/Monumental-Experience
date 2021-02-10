@@ -1,0 +1,39 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 16, 2021, 10:23:25 PM
+
+#mekanism:dirty
+- alltheores:dirty_aluminum
+- alltheores:dirty_copper
+- alltheores:dirty_lead
+- alltheores:dirty_nickel
+- alltheores:dirty_osmium
+- alltheores:dirty_platinum
+- alltheores:dirty_silver
+- alltheores:dirty_tin
+- alltheores:dirty_uranium
+- alltheores:dirty_zinc
+- mekanism:dirty_iron
+- mekanism:dirty_gold
+- mekanism:dirty_osmium
+- mekanism:dirty_copper
+- mekanism:dirty_tin
+- mekanism:dirty_lead
+- mekanism:dirty_uranium
+
+#mekanism:clean
+- alltheores:clean_aluminum
+- alltheores:clean_copper
+- alltheores:clean_lead
+- alltheores:clean_nickel
+- alltheores:clean_osmium
+- alltheores:clean_platinum
+- alltheores:clean_silver
+- alltheores:clean_tin
+- alltheores:clean_uranium
+- alltheores:clean_zinc
+- mekanism:clean_iron
+- mekanism:clean_gold
+- mekanism:clean_osmium
+- mekanism:clean_copper
+- mekanism:clean_tin
+- mekanism:clean_lead
+- mekanism:clean_uranium

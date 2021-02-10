@@ -1,0 +1,33 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        " # ",
+        "#A#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "mysticalagriculture:zombie_essence"
+        },
+        "A": {
+            "item": "mysticalagriculture:enderium_essence"
+        }
+    },
+    "result": {
+        "item": "gateways:small_gate_opener",
+        "gateway": {
+            "name": "gateways.small_zombie_gate",
+            "entity": "minecraft:zombie",
+            "completion_xp": 150,
+            "max_wave_time": 600,
+            "color": "blue",
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "gateways"
+                }
+            ]
+        }
+    }
+}

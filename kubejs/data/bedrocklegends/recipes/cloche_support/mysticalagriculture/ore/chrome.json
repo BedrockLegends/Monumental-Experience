@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:chrome_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:chrome_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:chrome_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

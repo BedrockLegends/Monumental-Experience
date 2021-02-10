@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "TXT",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "immersiveengineering:concrete"
+        },
+        "T": {
+            "item": "minecraft:sticky_piston"
+        },
+        "X": {
+            "tag": "storagedrawers:drawers"
+        },
+        "I": {
+            "tag": "forge:sheetmetals/iron"
+        }
+    },
+    "result": {
+        "item": "storagedrawers:compacting_drawers_3"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "storagedrawers"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "astralsorcery:starmetal"
+    }
+  ],
+  "results": [
+    {
+      "item": "astralsorcery:stardust",
+      "count": 9
+    }
+  ],
+  "processingTime": 200
+}

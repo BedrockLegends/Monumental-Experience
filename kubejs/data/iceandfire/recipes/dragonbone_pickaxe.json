@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "   ABA   ",
+        "  AAAAA  ",
+        " AA A AA ",
+        "AA  A  AA",
+        "A   A   A",
+        "    A    ",
+        "    A    ",
+        "    A    ",
+        "    A    "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:bones/wither"
+        },
+        "B": {
+            "item": "minecraft:diamond_pickaxe"
+        }
+    },
+    "result": {
+        "item": "iceandfire:dragonbone_pickaxe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}

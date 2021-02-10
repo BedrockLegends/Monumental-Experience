@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:creeper_head"
+    }
+  ],
+  "results": [
+    {
+      "item": "xreliquary:catalyzing_gland",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

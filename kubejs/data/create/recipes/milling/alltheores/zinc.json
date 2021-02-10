@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/zinc"
+    }
+  ],
+  "results": [
+    {
+      "item": "alltheores:zinc_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

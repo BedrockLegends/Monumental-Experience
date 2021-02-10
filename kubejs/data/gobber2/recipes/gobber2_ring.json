@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "HIH",
+        "IHI",
+        "HIH"
+    ],
+    "key": {
+        "I": {
+            "item": "gobber2:gobber2_ingot"
+        },
+        "H": {
+            "item": "gobber2:gobber2_goo"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_ring",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

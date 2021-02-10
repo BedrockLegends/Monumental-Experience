@@ -1,0 +1,22 @@
+{
+  "type": "interactio:item_anvil_smashing",
+  "inputs": [
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 9
+    }
+  ],
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "item": "minecraft:iron_ingot"
+        },
+        "weight": 10
+      }
+    ],
+    "rolls": 2,
+    "empty_weight": 1
+  },
+  "damage": 1
+}

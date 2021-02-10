@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:netherite_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:netherite_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

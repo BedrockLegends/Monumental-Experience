@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/aluminum"
+  },
+  "result": [
+    {
+      "item": "alltheores:aluminum_dust",
+      "count": 1
+    }
+  ]
+}

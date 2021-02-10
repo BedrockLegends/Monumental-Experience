@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:silver_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:silver_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

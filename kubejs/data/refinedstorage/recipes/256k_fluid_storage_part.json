@@ -1,0 +1,41 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "item": "minecraft:bucket"
+    },
+    "ingredients": [
+        {
+            "item": "refinedstorage:basic_processor"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron"
+        },
+        {
+            "item": "refinedstorage:basic_processor"
+        },
+        {
+            "item": "refinedstorage:64k_fluid_storage_part"
+        },
+        {
+            "item": "refinedstorage:basic_processor"
+        },
+        {
+            "item": "refinedstorage:64k_fluid_storage_part"
+        },
+        {
+            "item": "refinedstorage:basic_processor"
+        },
+        {
+            "item": "refinedstorage:64k_fluid_storage_part"
+        }
+    ],
+    "result": {
+        "item": "refinedstorage:256k_fluid_storage_part"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "refinedstorage"
+        }
+    ]
+}

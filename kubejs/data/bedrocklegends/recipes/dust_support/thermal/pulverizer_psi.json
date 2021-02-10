@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:dusts/redstone"
+  },
+  "result": [
+    {
+      "item": "psi:psidust",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "   A   ",
+        "  ABA  ",
+        "  AAA  ",
+        "  AAA  ",
+        " AAAAA ",
+        "   A   ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/neptunium"
+        },
+        "B": {
+            "item": "minecraft:golden_sword"
+        }
+    },
+    "result": {
+        "item": "aquaculture:neptunium_sword"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "aquaculture"
+        }
+    ]
+}

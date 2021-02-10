@@ -1,0 +1,366 @@
+{
+	id: "0000000000001DF3",
+	group: "",
+	order_index: 45,
+	filename: "psi",
+	title: "&9PSI",
+	icon: "psi:cad_assembly_ivory_psimetal",
+	default_quest_shape: "gear",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000001DF4",
+			tasks: [{
+				id: "0000000000001DF5",
+				type: "item",
+				item: "psi:cad_assembly_iron"
+			}],
+			rewards: [{
+				id: "0000000000001E0C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["0000000000001E00"],
+			id: "0000000000001DF6",
+			tasks: [{
+				id: "0000000000001DF7",
+				type: "item",
+				item: "psi:psidust",
+				count: 16L
+			}],
+			rewards: [{
+				id: "0000000000001E0F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			dependencies: ["0000000000001DF6"],
+			id: "0000000000001DF8",
+			tasks: [{
+				id: "0000000000001DF9",
+				type: "item",
+				item: {
+					id: "psi:spell_bullet",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001E11",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.5d,
+			dependencies: ["0000000000001DF6"],
+			id: "0000000000001DFA",
+			tasks: [{
+				id: "0000000000001DFB",
+				type: "item",
+				item: "psi:cad_core_basic"
+			}],
+			rewards: [{
+				id: "0000000000001E12",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.0d,
+			dependencies: ["0000000000001DF6"],
+			id: "0000000000001DFC",
+			tasks: [{
+				id: "0000000000001DFD",
+				type: "item",
+				item: "psi:cad_socket_basic"
+			}],
+			rewards: [{
+				id: "0000000000001E10",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			dependencies: ["0000000000001DF6"],
+			id: "0000000000001DFE",
+			tasks: [{
+				id: "0000000000001DFF",
+				type: "item",
+				item: "psi:programmer"
+			}],
+			rewards: [{
+				id: "0000000000001E13",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			dependencies: ["0000000000001DF4"],
+			id: "0000000000001E00",
+			tasks: [{
+				id: "0000000000001E01",
+				type: "item",
+				item: "psi:cad_assembler"
+			}],
+			rewards: [{
+				id: "0000000000001E0E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			dependencies: [
+				"0000000000001E00",
+				"0000000000001DFE",
+				"0000000000001E04"
+			],
+			id: "0000000000001E02",
+			tasks: [{
+				id: "0000000000001E03",
+				type: "item",
+				item: "psi:cad_assembly_psimetal"
+			}],
+			rewards: [{
+				id: "0000000000001E14",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			dependencies: ["0000000000001DFE"],
+			id: "0000000000001E04",
+			tasks: [{
+				id: "0000000000001E05",
+				type: "item",
+				item: "psi:psimetal"
+			}],
+			rewards: [{
+				id: "0000000000001E15",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.0d,
+			dependencies: ["0000000000001E02"],
+			id: "0000000000001E06",
+			tasks: [{
+				id: "0000000000001E07",
+				type: "item",
+				item: "psi:psigem"
+			}],
+			rewards: [{
+				id: "0000000000001E16",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["0000000000001DF4"],
+			id: "0000000000001E0A",
+			tasks: [{
+				id: "0000000000001E0B",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001E0D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 3.0d,
+			dependencies: ["0000000000001E02"],
+			id: "0000000000001E17",
+			tasks: [
+				{
+					id: "0000000000001E18",
+					type: "item",
+					item: "psi:ebony_psimetal"
+				},
+				{
+					id: "0000000000001E19",
+					type: "item",
+					item: "psi:ivory_psimetal"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001E1A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001E1B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.3999999999999986d,
+			y: 4.5d,
+			dependencies: [
+				"0000000000001E06",
+				"0000000000001E04"
+			],
+			id: "0000000000001E1C",
+			tasks: [
+				{
+					id: "0000000000001E1D",
+					type: "item",
+					item: "psi:cad_socket_transmissive"
+				},
+				{
+					id: "0000000000001E20",
+					type: "item",
+					item: "psi:cad_socket_huge"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001E2D",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001E2E",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.114285714285714d,
+			y: 4.5d,
+			dependencies: [
+				"0000000000001E06",
+				"0000000000001E04"
+			],
+			id: "0000000000001E21",
+			tasks: [
+				{
+					id: "0000000000001E22",
+					type: "item",
+					item: "psi:cad_core_hyperclocked"
+				},
+				{
+					id: "0000000000001E23",
+					type: "item",
+					item: "psi:cad_core_radiative"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001E29",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				},
+				{
+					id: "0000000000001E2A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.25714285714286d,
+			y: 4.5d,
+			dependencies: [
+				"0000000000001E06",
+				"0000000000001E04"
+			],
+			id: "0000000000001E24",
+			tasks: [
+				{
+					id: "0000000000001E25",
+					type: "item",
+					item: {
+						id: "psi:psimetal_exosuit_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000001E26",
+					type: "item",
+					item: {
+						id: "psi:psimetal_exosuit_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000001E27",
+					type: "item",
+					item: {
+						id: "psi:psimetal_exosuit_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000001E28",
+					type: "item",
+					item: {
+						id: "psi:psimetal_exosuit_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001E2B",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001E2C",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

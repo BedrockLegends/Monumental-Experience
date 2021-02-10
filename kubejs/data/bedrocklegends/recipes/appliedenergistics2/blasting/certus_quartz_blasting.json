@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "result": "appliedenergistics2:certus_quartz_dust",
+    "ingredient": {
+        "tag": "forge:gems/certus_quartz"
+    },
+    "cookingtime": 100,
+    "experience": 0.35
+}

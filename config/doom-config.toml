@@ -1,0 +1,891 @@
+
+[spawn_weight]
+
+	[spawn_weight.individual_spawning]
+
+		[spawn_weight.individual_spawning.Arachnotron]
+			#Spawn weight of Arachnotrons. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			ARACHNOTRON_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			ARACHNOTRON_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			ARACHNOTRON_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			ARACHNOTRON_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			ARACHNOTRON_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Archvile]
+			#Spawn weight of Archviles. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			ARCHVILE_SPAWN_WEIGHT = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			ARCHVILE_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			ARCHVILE_MAX_GROUP = 2
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			ARCHVILE_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			ARCHVILE_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Baron]
+			#Spawn weight of Barons. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			BARON_SPAWN_WEIGHT = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			BARON_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			BARON_MAX_GROUP = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			BARON_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			BARON_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Cacodemon]
+			#Spawn weight of Cacodemons. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			CACODEMON_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			CACODEMON_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			CACODEMON_MAX_GROUP = 2
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			CACODEMON_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			CACODEMON_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Chaingunner]
+			#Spawn weight of Chaingunners. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			CHAINGUNNER_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			CHAINGUNNER_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			CHAINGUNNER_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			CHAINGUNNER_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			CHAINGUNNER_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Cueball]
+			#Spawn weight of Cueballs. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			CUEBALL_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			CUEBALL_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			CUEBALL_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			CUEBALL_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			CUEBALL_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Cyber Demon 2016"]
+			#Spawn weight of Cyber Demon 2016s. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"CYBER DEMON 2016_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"CYBER DEMON 2016_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"CYBER DEMON 2016_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"CYBER DEMON 2016_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"CYBER DEMON 2016_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Cyber Demon"]
+			#Spawn weight of Cyber Demons. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"CYBER DEMON_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"CYBER DEMON_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"CYBER DEMON_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"CYBER DEMON_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"CYBER DEMON_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Gargoyle]
+			#Spawn weight of Gargoyles. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			GARGOYLE_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			GARGOYLE_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			GARGOYLE_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			GARGOYLE_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			GARGOYLE_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Gore Nest"]
+			#Spawn weight of Gore Nests. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"GORE NEST_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"GORE NEST_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"GORE NEST_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"GORE NEST_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"GORE NEST_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Hell Knight 2016"]
+			#Spawn weight of Hell Knight 2016s. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"HELL KNIGHT 2016_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"HELL KNIGHT 2016_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"HELL KNIGHT 2016_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"HELL KNIGHT 2016_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"HELL KNIGHT 2016_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Hell Knight"]
+			#Spawn weight of Hell Knights. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"HELL KNIGHT_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"HELL KNIGHT_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"HELL KNIGHT_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"HELL KNIGHT_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"HELL KNIGHT_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Icon of Sin"]
+			#Spawn weight of Icon of Sins. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"ICON OF SIN_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"ICON OF SIN_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"ICON OF SIN_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"ICON OF SIN_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"ICON OF SIN_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Imp 2016"]
+			#Spawn weight of Imp 2016s. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"IMP 2016_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"IMP 2016_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"IMP 2016_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"IMP 2016_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"IMP 2016_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Imp]
+			#Spawn weight of Imps. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			IMP_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			IMP_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			IMP_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			IMP_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			IMP_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Lost Soul"]
+			#Spawn weight of Lost Souls. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"LOST SOUL_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"LOST SOUL_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"LOST SOUL_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"LOST SOUL_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"LOST SOUL_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Mancubus]
+			#Spawn weight of Mancubuss. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			MANCUBUS_SPAWN_WEIGHT = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			MANCUBUS_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			MANCUBUS_MAX_GROUP = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			MANCUBUS_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			MANCUBUS_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Marauder]
+			#Spawn weight of Marauders. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			MARAUDER_SPAWN_WEIGHT = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			MARAUDER_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			MARAUDER_MAX_GROUP = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			MARAUDER_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			MARAUDER_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Mecha Zombie"]
+			#Spawn weight of Mecha Zombies. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"MECHA ZOMBIE_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"MECHA ZOMBIE_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"MECHA ZOMBIE_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"MECHA ZOMBIE_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"MECHA ZOMBIE_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Nightmare Imp"]
+			#Spawn weight of Nightmare Imps. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"NIGHTMARE IMP_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"NIGHTMARE IMP_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"NIGHTMARE IMP_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"NIGHTMARE IMP_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"NIGHTMARE IMP_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Pain]
+			#Spawn weight of Pains. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			PAIN_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			PAIN_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			PAIN_MAX_GROUP = 2
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			PAIN_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			PAIN_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Pinky]
+			#Spawn weight of Pinkys. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			PINKY_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			PINKY_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			PINKY_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			PINKY_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			PINKY_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Possessed Scientist"]
+			#Spawn weight of Possessed Scientists. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"POSSESSED SCIENTIST_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"POSSESSED SCIENTIST_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"POSSESSED SCIENTIST_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"POSSESSED SCIENTIST_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"POSSESSED SCIENTIST_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning."Possessed Soldier"]
+			#Spawn weight of Possessed Soldiers. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"POSSESSED SOLDIER_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"POSSESSED SOLDIER_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"POSSESSED SOLDIER_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"POSSESSED SOLDIER_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"POSSESSED SOLDIER_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Revenant]
+			#Spawn weight of Revenants. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			REVENANT_SPAWN_WEIGHT = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			REVENANT_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			REVENANT_MAX_GROUP = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			REVENANT_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			REVENANT_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Shotgun Guy"]
+			#Spawn weight of Shotgun Guys. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"SHOTGUN GUY_SPAWN_WEIGHT" = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"SHOTGUN GUY_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"SHOTGUN GUY_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"SHOTGUN GUY_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"SHOTGUN GUY_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.spectre]
+			#Spawn weight of spectres. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			SPECTRE_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			SPECTRE_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			SPECTRE_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			SPECTRE_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			SPECTRE_MAX_Y = 255
+
+		[spawn_weight.individual_spawning."Spider Mastermind"]
+			#Spawn weight of Spider Masterminds. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"SPIDER MASTERMIND_SPAWN_WEIGHT" = 10
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"SPIDER MASTERMIND_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"SPIDER MASTERMIND_MAX_GROUP" = 1
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"SPIDER MASTERMIND_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"SPIDER MASTERMIND_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Unwilling]
+			#Spawn weight of Unwillings. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			UNWILLING_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			UNWILLING_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			UNWILLING_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			UNWILLING_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			UNWILLING_MAX_Y = 255
+
+		[spawn_weight.individual_spawning.Zombieman]
+			#Spawn weight of Zombiemans. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			ZOMBIEMAN_SPAWN_WEIGHT = 30
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			ZOMBIEMAN_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			ZOMBIEMAN_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			ZOMBIEMAN_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			ZOMBIEMAN_MAX_Y = 255
+
+[attributes]
+
+	[attributes.Arachnotron]
+		#Health of Arachnotrons
+		#Range: 0.5 ~ 1.7976931348623157E308
+		ARACHNOTRON_MAX_HEALTH = 100.0
+		#Average melee damaged caused by Arachnotrons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ARACHNOTRON_MELEE_ATTACK_DAMAGE = 8.0
+		#Average RANGED damaged caused by Arachnotrons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ARACHNOTRON_RANGED_ATTACK_DAMAGE = 10.0
+		#General (most likely walking) movement speed of Arachnotrons
+		#Range: 0.0 ~ 10.0
+		ARACHNOTRON_GROUND_SPEED = 0.25
+
+	[attributes.Archvile]
+		#Health of Archviles
+		#Range: 0.5 ~ 1.7976931348623157E308
+		ARCHVILE_MAX_HEALTH = 100.0
+		#Average melee damaged caused by Archviles when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ARCHVILE_MELEE_ATTACK_DAMAGE = 7.0
+		#General (most likely walking) movement speed of Archviles
+		#Range: 0.0 ~ 10.0
+		ARCHVILE_GROUND_SPEED = 0.25
+
+	[attributes.Baron]
+		#Health of Barons
+		#Range: 0.5 ~ 1.7976931348623157E308
+		BARON_MAX_HEALTH = 180.0
+		#Average melee damaged caused by Barons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		BARON_MELEE_ATTACK_DAMAGE = 15.0
+		#Average RANGED damaged caused by Barons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		BARON_RANGED_ATTACK_DAMAGE = 12.0
+		#General (most likely walking) movement speed of Barons
+		#Range: 0.0 ~ 10.0
+		BARON_GROUND_SPEED = 0.25
+
+	[attributes.Cacodemon]
+		#Health of Cacodemons
+		#Range: 0.5 ~ 1.7976931348623157E308
+		CACODEMON_MAX_HEALTH = 80.0
+		#Average RANGED damaged caused by Cacodemons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		CACODEMON_RANGED_ATTACK_DAMAGE = 10.0
+		#General (most likely walking) movement speed of Cacodemons
+		#Range: 0.0 ~ 10.0
+		CACODEMON_GROUND_SPEED = 0.25
+
+	[attributes.Chaingunner]
+		#Health of Chaingunners
+		#Range: 0.5 ~ 1.7976931348623157E308
+		CHAINGUNNER_MAX_HEALTH = 15.0
+		#Average melee damaged caused by Chaingunners when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		CHAINGUNNER_MELEE_ATTACK_DAMAGE = 4.0
+		#Average RANGED damaged caused by Chaingunners when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		CHAINGUNNER_RANGED_ATTACK_DAMAGE = 4.0
+		#General (most likely walking) movement speed of Chaingunners
+		#Range: 0.0 ~ 10.0
+		CHAINGUNNER_GROUND_SPEED = 0.25
+
+	[attributes.Cueball]
+		#Health of Cueballs
+		#Range: 0.5 ~ 1.7976931348623157E308
+		CUEBALL_MAX_HEALTH = 1.0
+
+	[attributes."Cyber Demon 2016"]
+		#Health of Cyber Demon 2016s
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"CYBER DEMON 2016_MAX_HEALTH" = 300.0
+		#Average melee damaged caused by Cyber Demon 2016s when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"CYBER DEMON 2016_MELEE_ATTACK_DAMAGE" = 15.0
+		#Average RANGED damaged caused by Cyber Demon 2016s when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"CYBER DEMON 2016_RANGED_ATTACK_DAMAGE" = 18.0
+		#General (most likely walking) movement speed of Cyber Demon 2016s
+		#Range: 0.0 ~ 10.0
+		"CYBER DEMON 2016_GROUND_SPEED" = 0.25
+
+	[attributes."Cyber Demon"]
+		#Health of Cyber Demons
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"CYBER DEMON_MAX_HEALTH" = 300.0
+		#Average melee damaged caused by Cyber Demons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"CYBER DEMON_MELEE_ATTACK_DAMAGE" = 15.0
+		#Average RANGED damaged caused by Cyber Demons when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"CYBER DEMON_RANGED_ATTACK_DAMAGE" = 18.0
+		#General (most likely walking) movement speed of Cyber Demons
+		#Range: 0.0 ~ 10.0
+		"CYBER DEMON_GROUND_SPEED" = 0.25
+
+	[attributes.Gargoyle]
+		#Health of Gargoyles
+		#Range: 0.5 ~ 1.7976931348623157E308
+		GARGOYLE_MAX_HEALTH = 30.0
+		#Average melee damaged caused by Gargoyles when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		GARGOYLE_MELEE_ATTACK_DAMAGE = 4.0
+		#Average RANGED damaged caused by Gargoyles when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		GARGOYLE_RANGED_ATTACK_DAMAGE = 10.0
+		#General (most likely walking) movement speed of Gargoyles
+		#Range: 0.0 ~ 10.0
+		GARGOYLE_GROUND_SPEED = 0.25
+		#Flying speed of Gargoyles
+		#Range: 0.0 ~ 10.0
+		GARGOYLE_FLY_SPEED = 2.25
+
+	[attributes."Gore Nest"]
+		#Health of Gore Nests
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"GORE NEST_MAX_HEALTH" = 5.0
+
+	[attributes."Hell Knight 2016"]
+		#Health of Hell Knight 2016s
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"HELL KNIGHT 2016_MAX_HEALTH" = 90.0
+		#Average melee damaged caused by Hell Knight 2016s when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"HELL KNIGHT 2016_MELEE_ATTACK_DAMAGE" = 8.0
+		#General (most likely walking) movement speed of Hell Knight 2016s
+		#Range: 0.0 ~ 10.0
+		"HELL KNIGHT 2016_GROUND_SPEED" = 0.25
+
+	[attributes."Hell Knight"]
+		#Health of Hell Knights
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"HELL KNIGHT_MAX_HEALTH" = 90.0
+		#Average melee damaged caused by Hell Knights when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"HELL KNIGHT_MELEE_ATTACK_DAMAGE" = 8.0
+		#General (most likely walking) movement speed of Hell Knights
+		#Range: 0.0 ~ 10.0
+		"HELL KNIGHT_GROUND_SPEED" = 0.25
+
+	[attributes."Icon of Sin"]
+		#Health of Icon of Sins
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"ICON OF SIN_MAX_HEALTH" = 1000.0
+		#Average melee damaged caused by Icon of Sins when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"ICON OF SIN_MELEE_ATTACK_DAMAGE" = 30.0
+		#General (most likely walking) movement speed of Icon of Sins
+		#Range: 0.0 ~ 10.0
+		"ICON OF SIN_GROUND_SPEED" = 0.25
+
+	[attributes."Imp 2016"]
+		#Health of Imp 2016s
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"IMP 2016_MAX_HEALTH" = 30.0
+		#Average melee damaged caused by Imp 2016s when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"IMP 2016_MELEE_ATTACK_DAMAGE" = 4.0
+		#Average RANGED damaged caused by Imp 2016s when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"IMP 2016_RANGED_ATTACK_DAMAGE" = 8.0
+		#General (most likely walking) movement speed of Imp 2016s
+		#Range: 0.0 ~ 10.0
+		"IMP 2016_GROUND_SPEED" = 0.25
+
+	[attributes.Imp]
+		#Health of Imps
+		#Range: 0.5 ~ 1.7976931348623157E308
+		IMP_MAX_HEALTH = 30.0
+		#Average melee damaged caused by Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		IMP_MELEE_ATTACK_DAMAGE = 4.0
+		#Average RANGED damaged caused by Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		IMP_RANGED_ATTACK_DAMAGE = 8.0
+		#General (most likely walking) movement speed of Imps
+		#Range: 0.0 ~ 10.0
+		IMP_GROUND_SPEED = 0.25
+
+	[attributes."Lost Soul"]
+		#Health of Lost Souls
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"LOST SOUL_MAX_HEALTH" = 10.0
+		#Average melee damaged caused by Lost Souls when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"LOST SOUL_MELEE_ATTACK_DAMAGE" = 1.0
+		#General (most likely walking) movement speed of Lost Souls
+		#Range: 0.0 ~ 10.0
+		"LOST SOUL_GROUND_SPEED" = 0.25
+
+	[attributes.Mancubus]
+		#Health of Mancubuss
+		#Range: 0.5 ~ 1.7976931348623157E308
+		MANCUBUS_MAX_HEALTH = 80.0
+		#Average melee damaged caused by Mancubuss when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		MANCUBUS_MELEE_ATTACK_DAMAGE = 8.0
+		#Average RANGED damaged caused by Mancubuss when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		MANCUBUS_RANGED_ATTACK_DAMAGE = 13.0
+		#General (most likely walking) movement speed of Mancubuss
+		#Range: 0.0 ~ 10.0
+		MANCUBUS_GROUND_SPEED = 0.25
+
+	[attributes.Marauder]
+		#Health of Marauders
+		#Range: 0.5 ~ 1.7976931348623157E308
+		MARAUDER_MAX_HEALTH = 300.0
+		#Average melee damaged caused by Marauders when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		MARAUDER_MELEE_ATTACK_DAMAGE = 12.0
+		#General (most likely walking) movement speed of Marauders
+		#Range: 0.0 ~ 10.0
+		MARAUDER_GROUND_SPEED = 0.25
+
+	[attributes."Mecha Zombie"]
+		#Health of Mecha Zombies
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"MECHA ZOMBIE_MAX_HEALTH" = 25.0
+		#Average melee damaged caused by Mecha Zombies when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"MECHA ZOMBIE_MELEE_ATTACK_DAMAGE" = 15.0
+		#Average RANGED damaged caused by Mecha Zombies when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"MECHA ZOMBIE_RANGED_ATTACK_DAMAGE" = 5.0
+		#General (most likely walking) movement speed of Mecha Zombies
+		#Range: 0.0 ~ 10.0
+		"MECHA ZOMBIE_GROUND_SPEED" = 0.25
+
+	[attributes."Nightmare Imp"]
+		#Health of Nightmare Imps
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"NIGHTMARE IMP_MAX_HEALTH" = 30.0
+		#Average melee damaged caused by Nightmare Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"NIGHTMARE IMP_MELEE_ATTACK_DAMAGE" = 4.0
+		#Average RANGED damaged caused by Nightmare Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"NIGHTMARE IMP_RANGED_ATTACK_DAMAGE" = 8.0
+		#General (most likely walking) movement speed of Nightmare Imps
+		#Range: 0.0 ~ 10.0
+		"NIGHTMARE IMP_GROUND_SPEED" = 0.25
+
+	[attributes.Pain]
+		#Health of Pains
+		#Range: 0.5 ~ 1.7976931348623157E308
+		PAIN_MAX_HEALTH = 80.0
+		#General (most likely walking) movement speed of Pains
+		#Range: 0.0 ~ 10.0
+		PAIN_GROUND_SPEED = 0.25
+
+	[attributes.Pinky]
+		#Health of Pinkys
+		#Range: 0.5 ~ 1.7976931348623157E308
+		PINKY_MAX_HEALTH = 75.0
+		#Average melee damaged caused by Pinkys when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		PINKY_MELEE_ATTACK_DAMAGE = 6.0
+		#General (most likely walking) movement speed of Pinkys
+		#Range: 0.0 ~ 10.0
+		PINKY_GROUND_SPEED = 0.25
+
+	[attributes."Possessed Scientist"]
+		#Health of Possessed Scientists
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"POSSESSED SCIENTIST_MAX_HEALTH" = 15.0
+		#Average melee damaged caused by Possessed Scientists when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"POSSESSED SCIENTIST_MELEE_ATTACK_DAMAGE" = 4.0
+		#General (most likely walking) movement speed of Possessed Scientists
+		#Range: 0.0 ~ 10.0
+		"POSSESSED SCIENTIST_GROUND_SPEED" = 0.15
+
+	[attributes."Possessed Soldier"]
+		#Health of Possessed Soldiers
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"POSSESSED SOLDIER_MAX_HEALTH" = 15.0
+		#Average melee damaged caused by Possessed Soldiers when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"POSSESSED SOLDIER_MELEE_ATTACK_DAMAGE" = 4.0
+		#Average RANGED damaged caused by Possessed Soldiers when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"POSSESSED SOLDIER_RANGED_ATTACK_DAMAGE" = 3.0
+		#General (most likely walking) movement speed of Possessed Soldiers
+		#Range: 0.0 ~ 10.0
+		"POSSESSED SOLDIER_GROUND_SPEED" = 0.25
+
+	[attributes.Revenant]
+		#Health of Revenants
+		#Range: 0.5 ~ 1.7976931348623157E308
+		REVENANT_MAX_HEALTH = 45.0
+		#Average melee damaged caused by Revenants when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		REVENANT_MELEE_ATTACK_DAMAGE = 6.0
+		#Average RANGED damaged caused by Revenants when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		REVENANT_RANGED_ATTACK_DAMAGE = 10.0
+		#General (most likely walking) movement speed of Revenants
+		#Range: 0.0 ~ 10.0
+		REVENANT_GROUND_SPEED = 0.25
+
+	[attributes."Shotgun Guy"]
+		#Health of Shotgun Guys
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"SHOTGUN GUY_MAX_HEALTH" = 15.0
+		#Average melee damaged caused by Shotgun Guys when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"SHOTGUN GUY_MELEE_ATTACK_DAMAGE" = 4.0
+		#Average RANGED damaged caused by Shotgun Guys when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"SHOTGUN GUY_RANGED_ATTACK_DAMAGE" = 4.0
+		#General (most likely walking) movement speed of Shotgun Guys
+		#Range: 0.0 ~ 10.0
+		"SHOTGUN GUY_GROUND_SPEED" = 0.25
+
+	[attributes.spectre]
+		#Health of spectres
+		#Range: 0.5 ~ 1.7976931348623157E308
+		SPECTRE_MAX_HEALTH = 75.0
+		#Average melee damaged caused by spectres when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		SPECTRE_MELEE_ATTACK_DAMAGE = 6.0
+		#General (most likely walking) movement speed of spectres
+		#Range: 0.0 ~ 10.0
+		SPECTRE_GROUND_SPEED = 0.25
+
+	[attributes."Spider Mastermind"]
+		#Health of Spider Masterminds
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"SPIDER MASTERMIND_MAX_HEALTH" = 300.0
+		#Average melee damaged caused by Spider Masterminds when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"SPIDER MASTERMIND_MELEE_ATTACK_DAMAGE" = 8.0
+		#Average RANGED damaged caused by Spider Masterminds when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"SPIDER MASTERMIND_RANGED_ATTACK_DAMAGE" = 15.0
+		#General (most likely walking) movement speed of Spider Masterminds
+		#Range: 0.0 ~ 10.0
+		"SPIDER MASTERMIND_GROUND_SPEED" = 0.25
+
+	[attributes.Unwilling]
+		#Health of Unwillings
+		#Range: 0.5 ~ 1.7976931348623157E308
+		UNWILLING_MAX_HEALTH = 15.0
+		#Average melee damaged caused by Unwillings when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		UNWILLING_MELEE_ATTACK_DAMAGE = 4.0
+		#General (most likely walking) movement speed of Unwillings
+		#Range: 0.0 ~ 10.0
+		UNWILLING_GROUND_SPEED = 0.25
+
+	[attributes.Zombieman]
+		#Health of Zombiemans
+		#Range: 0.5 ~ 1.7976931348623157E308
+		ZOMBIEMAN_MAX_HEALTH = 15.0
+		#Average melee damaged caused by Zombiemans when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ZOMBIEMAN_MELEE_ATTACK_DAMAGE = 4.0
+		#Average RANGED damaged caused by Zombiemans when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ZOMBIEMAN_RANGED_ATTACK_DAMAGE = 4.0
+		#General (most likely walking) movement speed of Zombiemans
+		#Range: 0.0 ~ 10.0
+		ZOMBIEMAN_GROUND_SPEED = 0.25
+
+[gear]
+	#Crucible Sword/Marauder Axe Max Damage
+	CRUCIBLE_MARAUDER_MAX_DAMAGE = 5
+
+[extra]
+	#You can disable disable the lockon feature here.
+	ENABLE_LOCKON = true
+

@@ -1,0 +1,24 @@
+{
+    "type": "mythicbotany:infusion",
+    "group": "infuser",
+    "output": {
+        "item": "aquaculture:neptunium_bow"
+    },
+    "mana": 500000,
+    "ingredients": [
+        {
+            "item": "minecraft:bow"
+        },
+        {
+            "tag": "forge:ingots/neptunium"
+        }
+    ],
+    "fromColor": 255,
+    "toColor": 65280,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "aquaculture"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ASA",
+        "LCL",
+        "LLL"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "S": {
+            "item": "woodenutilities:wooden_backpack"
+        },
+        "C": {
+            "tag": "forge:chests/wooden"
+        },
+        "L": {
+            "tag": "forge:leather"
+        }
+    },
+    "result": {
+        "item": "packedup:basicbackpack"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "packedup"
+        }
+    ]
+}

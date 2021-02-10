@@ -1,0 +1,28 @@
+{
+    "type": "packedup:backpackrecipe",
+    "pattern": [
+        "ILI",
+        "ICI",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/copper"
+        },
+        "C": {
+            "item": "packedup:basicbackpack"
+        },
+        "L": {
+            "item": "ironchest:copper_chest"
+        }
+    },
+    "result": {
+        "item": "packedup:copperbackpack"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "packedup"
+        }
+    ]
+}

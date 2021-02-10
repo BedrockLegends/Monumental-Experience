@@ -1,0 +1,24 @@
+{
+    "type": "mythicbotany:infusion",
+    "group": "infuser",
+    "output": {
+        "item": "iceandfire:armor_silver_metal_chestplate"
+    },
+    "mana": 500000,
+    "ingredients": [
+        {
+            "item": "iceandfire:armor_copper_metal_chestplate"
+        },
+        {
+            "tag": "forge:ingots/silver"
+        }
+    ],
+    "fromColor": 255,
+    "toColor": 65280,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mythicbotany"
+        }
+    ]
+}

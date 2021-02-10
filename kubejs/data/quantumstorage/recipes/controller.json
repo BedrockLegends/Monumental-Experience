@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " E ",
+        " Q ",
+        "NBN"
+    ],
+    "key": {
+        "E": [
+            {
+                "item": "minecraft:ender_pearl"
+            }
+        ],
+        "Q": [
+            {
+                "item": "quantumstorage:qsu"
+            }
+        ],
+        "N": [
+            {
+                "tag": "forge:gems/mana_diamond"
+            }
+        ],
+        "B": [
+            {
+                "item": "mysticalagriculture:emerald_essence"
+            }
+        ]
+    },
+    "result": {
+        "item": "quantumstorage:controller"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quantumstorage"
+        }
+    ]
+}

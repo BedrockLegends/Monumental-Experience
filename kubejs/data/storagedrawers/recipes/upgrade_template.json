@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "/X/",
+        "///"
+    ],
+    "key": {
+        "/": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "X": {
+            "item": "pneumaticcraft:upgrade_matrix"
+        }
+    },
+    "result": {
+        "item": "storagedrawers:upgrade_template",
+        "count": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "storagedrawers"
+        }
+    ]
+}

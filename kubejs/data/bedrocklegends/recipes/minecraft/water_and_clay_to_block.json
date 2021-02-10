@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#CC",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:water/water"
+        },
+        "C": {
+            "tag": "forge:clay"
+        }
+    },
+    "result": {
+        "item": "minecraft:clay",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

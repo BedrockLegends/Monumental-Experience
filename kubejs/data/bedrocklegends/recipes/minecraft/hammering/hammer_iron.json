@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ores/iron"
+    },
+    {
+      "item": "pneumaticcraft:jackhammer"
+    }
+  ],
+  "result": {
+    "item": "alltheores:iron_dust",
+    "count": 2,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "minecraft"
+      }
+    ]
+  }
+}

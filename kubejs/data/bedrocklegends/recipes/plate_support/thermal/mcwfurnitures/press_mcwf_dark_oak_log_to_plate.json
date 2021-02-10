@@ -1,0 +1,17 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "tag": "minecraft:dark_oak_logs"
+  },
+  "result": [
+    {
+      "item": "mcwfurnitures:dark_oak_plate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mcwfurnitures"
+    }
+  ]
+}

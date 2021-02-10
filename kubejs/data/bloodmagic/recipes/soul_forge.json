@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "sgs",
+        "sos"
+    ],
+    "key": {
+        "s": {
+            "tag": "forge:stone"
+        },
+        "g": {
+            "item": "cyclic:charm_fire"
+        },
+        "i": {
+            "tag": "forge:ingots/iron"
+        },
+        "o": {
+            "tag": "forge:storage_blocks/iron"
+        }
+    },
+    "result": {
+        "item": "bloodmagic:soulforge"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "bloodmagic"
+        }
+    ]
+}

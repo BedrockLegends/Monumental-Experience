@@ -1,0 +1,5 @@
+
+[Sounds]
+	#If TRUE, 'Thermal Series' Mobs will have ambient sounds.
+	"Ambient Mob Sounds" = true
+

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "thermal:sawdust_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "powder_power:powder_wood",
+      "count": 9
+    }
+  ],
+  "processingTime": 200
+}

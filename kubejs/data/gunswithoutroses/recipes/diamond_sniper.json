@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DG ",
+		" DF",
+		" SI"
+	],
+	"key": {
+		"D": { "tag": "forge:gems/diamond" },
+		"I": { "tag": "forge:ingots/iron" },
+		"S": { "item": "gunswithoutroses:gold_gun" },
+		"F": { "item": "minecraft:flint" },
+		"G": { "item": "immersiveengineering:toolupgrade_railgun_scope" }
+	},
+	"result": { "item": "gunswithoutroses:diamond_sniper" }
+}

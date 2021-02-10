@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AABAA",
+        "ACDCA",
+        "EDFDE",
+        "ACDCA",
+        "AABAA"
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_foo_end"
+        },
+        "B": {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        "C": {
+            "item": "gobber2:gobber2_glob_end"
+        },
+        "D": {
+            "item": "gobber2:gobber2_ingot_end"
+        },
+        "E": {
+            "item": "gobber2:gobber2_ingot"
+        },
+        "F": {
+            "tag": "forge:nether_stars"
+        }
+    },
+    "result": {
+        "item": "gobber2:dragon_star"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

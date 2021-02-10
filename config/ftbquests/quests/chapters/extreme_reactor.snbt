@@ -1,0 +1,466 @@
+{
+	id: "0000000000001F70",
+	group: "",
+	order_index: 15,
+	filename: "extreme_reactor",
+	title: "&9Extreme Reactors",
+	icon: "bigreactors:reinforced_reactorcontroller",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000001F71",
+			tasks: [{
+				id: "0000000000001F72",
+				type: "item",
+				item: "bigreactors:graphite_ingot",
+				count: 16L
+			}],
+			rewards: [{
+				id: "0000000000001FA9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["0000000000001F71"],
+			id: "0000000000001F73",
+			tasks: [{
+				id: "0000000000001F74",
+				type: "item",
+				item: "bigreactors:basic_reactorcasing"
+			}],
+			rewards: [{
+				id: "0000000000001FB4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: ["0000000000001F71"],
+			id: "0000000000001F75",
+			tasks: [{
+				id: "0000000000001F76",
+				type: "item",
+				item: "bigreactors:reinforced_reactorcasing"
+			}],
+			rewards: [{
+				id: "0000000000001FAE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			dependencies: ["0000000000001F73"],
+			id: "0000000000001F77",
+			tasks: [{
+				id: "0000000000001F78",
+				type: "item",
+				item: "bigreactors:basic_reactorcontroller"
+			}],
+			rewards: [{
+				id: "0000000000001FB2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.0d,
+			dependencies: ["0000000000001F73"],
+			id: "0000000000001F79",
+			tasks: [{
+				id: "0000000000001F7A",
+				type: "item",
+				item: "bigreactors:basic_reactorcontrolrod"
+			}],
+			rewards: [{
+				id: "0000000000001FB3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			dependencies: ["0000000000001F73"],
+			id: "0000000000001F7B",
+			tasks: [{
+				id: "0000000000001F7C",
+				type: "item",
+				item: "bigreactors:basic_reactorsolidaccessport"
+			}],
+			rewards: [{
+				id: "0000000000001FB5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: ["0000000000001F73"],
+			id: "0000000000001F7D",
+			tasks: [{
+				id: "0000000000001F7E",
+				type: "item",
+				item: "bigreactors:basic_reactorpowertapfe_passive"
+			}],
+			rewards: [{
+				id: "0000000000001FB6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			dependencies: ["0000000000001F75"],
+			id: "0000000000001F7F",
+			tasks: [{
+				id: "0000000000001F80",
+				type: "item",
+				item: "bigreactors:reinforced_reactorcontroller"
+			}],
+			rewards: [{
+				id: "0000000000001FAD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 1.0d,
+			dependencies: ["0000000000001F75"],
+			id: "0000000000001F81",
+			tasks: [{
+				id: "0000000000001F82",
+				type: "item",
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+			}],
+			rewards: [{
+				id: "0000000000001FB0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -1.0d,
+			dependencies: ["0000000000001F75"],
+			id: "0000000000001F83",
+			tasks: [{
+				id: "0000000000001F84",
+				type: "item",
+				item: "bigreactors:reinforced_reactorcontrolrod"
+			}],
+			rewards: [{
+				id: "0000000000001FAF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: ["0000000000001F75"],
+			id: "0000000000001F85",
+			tasks: [{
+				id: "0000000000001F86",
+				type: "item",
+				item: "bigreactors:reinforced_reactorpowertapfe_passive"
+			}],
+			rewards: [{
+				id: "0000000000001FB1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			dependencies: ["0000000000001F71"],
+			id: "0000000000001F87",
+			tasks: [{
+				id: "0000000000001F88",
+				type: "item",
+				item: "bigreactors:reinforced_reactorfuelrod"
+			}],
+			rewards: [{
+				id: "0000000000001FAB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.0d,
+			dependencies: ["0000000000001F71"],
+			id: "0000000000001F89",
+			tasks: [{
+				id: "0000000000001F8A",
+				type: "item",
+				item: "bigreactors:basic_reactorfuelrod"
+			}],
+			rewards: [{
+				id: "0000000000001FAA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			dependencies: ["0000000000001F71"],
+			id: "0000000000001F8B",
+			tasks: [{
+				id: "0000000000001F8C",
+				type: "item",
+				item: "bigreactors:reinforced_reactorfluidport_forge_active"
+			}],
+			rewards: [{
+				id: "0000000000001FAC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 5.5d,
+			dependencies: ["0000000000001F8F"],
+			id: "0000000000001F8D",
+			tasks: [{
+				id: "0000000000001F8E",
+				type: "item",
+				item: "bigreactors:basic_turbinecasing"
+			}],
+			rewards: [{
+				id: "0000000000001FBF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			shape: "diamond",
+			dependencies: ["0000000000001F71"],
+			size: 1.5d,
+			id: "0000000000001F8F",
+			tasks: [{
+				id: "0000000000001F90",
+				type: "item",
+				item: "bigreactors:cyanite_ingot"
+			}],
+			rewards: [{
+				id: "0000000000001FB7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.5d,
+			dependencies: [
+				"0000000000001F8D",
+				"0000000000001F8F"
+			],
+			id: "0000000000001F91",
+			tasks: [{
+				id: "0000000000001F92",
+				type: "item",
+				item: "bigreactors:reinforced_turbinecasing"
+			}],
+			rewards: [{
+				id: "0000000000001FB8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: ["0000000000001F91"],
+			id: "0000000000001F93",
+			tasks: [
+				{
+					id: "0000000000001F94",
+					type: "item",
+					item: "bigreactors:reinforced_turbinerotorshaft"
+				},
+				{
+					id: "0000000000001F95",
+					type: "item",
+					item: "bigreactors:reinforced_turbinerotorblade",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: "0000000000001FB9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			dependencies: ["0000000000001F8D"],
+			id: "0000000000001F96",
+			tasks: [
+				{
+					id: "0000000000001F97",
+					type: "item",
+					item: "bigreactors:basic_turbinerotorshaft"
+				},
+				{
+					id: "0000000000001F98",
+					type: "item",
+					item: "bigreactors:basic_turbinerotorblade",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: "0000000000001FC0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 5.5d,
+			dependencies: ["0000000000001F91"],
+			id: "0000000000001F99",
+			tasks: [{
+				id: "0000000000001F9A",
+				type: "item",
+				item: "bigreactors:reinforced_turbinerotorbearing"
+			}],
+			rewards: [{
+				id: "0000000000001FBB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 5.5d,
+			dependencies: ["0000000000001F8D"],
+			id: "0000000000001F9B",
+			tasks: [{
+				id: "0000000000001F9C",
+				type: "item",
+				item: "bigreactors:basic_turbinerotorbearing"
+			}],
+			rewards: [{
+				id: "0000000000001FC2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.0d,
+			dependencies: ["0000000000001F91"],
+			id: "0000000000001F9D",
+			tasks: [{
+				id: "0000000000001F9E",
+				type: "item",
+				item: "bigreactors:reinforced_turbinefluidport_forge_passive"
+			}],
+			rewards: [{
+				id: "0000000000001FBE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 7.0d,
+			dependencies: ["0000000000001F8D"],
+			id: "0000000000001F9F",
+			tasks: [{
+				id: "0000000000001FA0",
+				type: "item",
+				item: "bigreactors:basic_turbinefluidport_forge_passive"
+			}],
+			rewards: [{
+				id: "0000000000001FC4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 7.0d,
+			dependencies: ["0000000000001F8D"],
+			id: "0000000000001FA1",
+			tasks: [{
+				id: "0000000000001FA2",
+				type: "item",
+				item: "bigreactors:basic_turbinepowertapfe_passive"
+			}],
+			rewards: [{
+				id: "0000000000001FC3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 7.0d,
+			dependencies: ["0000000000001F91"],
+			id: "0000000000001FA3",
+			tasks: [{
+				id: "0000000000001FA4",
+				type: "item",
+				item: "bigreactors:reinforced_turbinepowertapfe_passive"
+			}],
+			rewards: [{
+				id: "0000000000001FBD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 4.0d,
+			dependencies: ["0000000000001F91"],
+			id: "0000000000001FA5",
+			tasks: [{
+				id: "0000000000001FA6",
+				type: "item",
+				item: "bigreactors:reinforced_turbinecontroller"
+			}],
+			rewards: [{
+				id: "0000000000001FBA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 4.0d,
+			dependencies: ["0000000000001F8D"],
+			id: "0000000000001FA7",
+			tasks: [{
+				id: "0000000000001FA8",
+				type: "item",
+				item: "bigreactors:basic_turbinecontroller"
+			}],
+			rewards: [{
+				id: "0000000000001FC1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

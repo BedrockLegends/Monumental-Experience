@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "ABA",
+        "BCB",
+        "ABA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:treated_wood"
+        },
+        "B": {
+            "tag": "forge:plates/iron"
+        },
+        "C": {
+            "item": "immersiveengineering:rs_engineering"
+        }
+    },
+    "result": {
+        "item": "industrialforegoing:machine_frame_pity"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "industrialforegoing"
+        }
+    ]
+}

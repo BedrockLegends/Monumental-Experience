@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "appliedenergistics2:crystals/certus"
+  },
+  "result": [
+    {
+      "item": "appliedenergistics2:certus_quartz_dust",
+      "count": 1
+    }
+  ]
+}

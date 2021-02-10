@@ -1,0 +1,33 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        " # ",
+        "#A#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "mysticalagriculture:creeper_essence"
+        },
+        "A": {
+            "item": "mysticalagriculture:enderium_essence"
+        }
+    },
+    "result": {
+        "item": "gateways:small_gate_opener",
+        "gateway": {
+            "name": "gateways.small_creeper_gate",
+            "entity": "minecraft:creeper",
+            "completion_xp": 100,
+            "max_wave_time": 350,
+            "color": "green",
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "gateways"
+                }
+            ]
+        }
+    }
+}

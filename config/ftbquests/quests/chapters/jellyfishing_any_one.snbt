@@ -1,0 +1,306 @@
+{
+	id: "00000000000013BC",
+	group: "",
+	order_index: 28,
+	filename: "jellyfishing_any_one",
+	title: "&9Jellyfishing any one?",
+	icon: {
+		id: "jellyfishing:jellyfish_net",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Let's go Jellyfishing!",
+			icon: {
+				id: "jellyfishing:jellyfish_net",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "00000000000013BD",
+			tasks: [{
+				id: "00000000000013C5",
+				type: "biome",
+				title: "Jellyfish Fields",
+				icon: "jellyfishing:jellyfish_spawn_egg",
+				biome: "jellyfishing:jellyfish_fields"
+			}],
+			rewards: [{
+				id: "0000000000001633",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Jellyfishing the Squidward way!",
+			x: -2.5d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["kill 10 Pink Jellyfish and 10 Blue Jellyfish"],
+			dependencies: ["00000000000013BD"],
+			id: "00000000000013C0",
+			tasks: [
+				{
+					id: "00000000000013C1",
+					type: "kill",
+					title: "Pink Jellyfish",
+					icon: "jellyfishing:jellyfish",
+					entity: "jellyfishing:jellyfish",
+					value: 10L
+				},
+				{
+					id: "00000000000013C3",
+					type: "kill",
+					title: "Blue Jellyfish",
+					icon: "jellyfishing:blue_jellyfish",
+					entity: "jellyfishing:blue_jellyfish",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000013C2",
+					type: "random"
+				},
+				{
+					id: "0000000000001636",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			title: "Jellyfishing the Spongbob way!",
+			x: 0.0d,
+			y: 2.5d,
+			shape: "gear",
+			description: [""],
+			dependencies: ["00000000000013C9"],
+			id: "00000000000013C6",
+			tasks: [
+				{
+					id: "00000000000013C7",
+					type: "item",
+					item: "jellyfishing:jellyfish",
+					count: 10L
+				},
+				{
+					id: "00000000000013C8",
+					type: "item",
+					item: "jellyfishing:blue_jellyfish",
+					count: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000013D1",
+					type: "random"
+				},
+				{
+					id: "0000000000001638",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000013C0"],
+			id: "00000000000013C9",
+			tasks: [{
+				id: "00000000000013CA",
+				type: "item",
+				item: {
+					id: "jellyfishing:jellyfish_net",
+					Count: 1b,
+					tag: {
+						Damage: 1,
+						AS_Amulet_Holder: [I;
+							-1886865986,
+							-155169161,
+							-1243543431,
+							-349440791
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000013D2",
+					type: "random"
+				},
+				{
+					id: "0000000000001637",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			title: "Let's become Sandy Cheeks",
+			x: 2.5d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["00000000000013C6"],
+			id: "00000000000013CB",
+			tasks: [
+				{
+					id: "00000000000013CC",
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				},
+				{
+					id: "00000000000013CD",
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				},
+				{
+					id: "00000000000013CE",
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				},
+				{
+					id: "00000000000013CF",
+					type: "item",
+					item: {
+						id: "jellyfishing:air_suit_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								-1886865986,
+								-155169161,
+								-1243543431,
+								-349440791
+							]
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0000000000001639",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Karate anyone?",
+			x: 2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000013CB"],
+			id: "00000000000013D3",
+			tasks: [{
+				id: "00000000000013D4",
+				type: "item",
+				item: {
+					id: "jellyfishing:karate_glove",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000163A",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				},
+				{
+					id: "000000000000163B",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			title: "Can anyone find the secret formula",
+			x: -2.5d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["00000000000013D7"],
+			id: "00000000000013D5",
+			tasks: [{
+				id: "00000000000013D6",
+				type: "item",
+				item: "jellyfishing:krabby_patty"
+			}],
+			rewards: [{
+				id: "0000000000001635",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["00000000000013BD"],
+			id: "00000000000013D7",
+			tasks: [{
+				id: "00000000000013D8",
+				type: "item",
+				item: {
+					id: "jellyfishing:spatula",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001634",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

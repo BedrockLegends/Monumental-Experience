@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "     A   ",
+        "    AA   ",
+        "   AAA   ",
+        "  AAAAA  ",
+        " AAAABAA ",
+        "    AAAA ",
+        "   A AAA ",
+        "  A      ",
+        " A       "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/netherite"
+        },
+        "B": {
+            "item": "minecraft:diamond_axe"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_axe"
+    }
+}

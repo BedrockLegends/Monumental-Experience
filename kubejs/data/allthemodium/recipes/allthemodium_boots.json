@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "         ",
+        "         ",
+        "         ",
+        "  AA AA  ",
+        "  AA AA  ",
+        "  AA AA  ",
+        "  AABAA  ",
+        "AAAA AAAA",
+        "AAAA AAAA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/allthemodium"
+        },
+        "B": {
+            "item": "gobber2:gobber2_boots"
+        }
+    },
+    "result": {
+        "item": "allthemodium:allthemodium_boots"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+        }
+    ]
+}

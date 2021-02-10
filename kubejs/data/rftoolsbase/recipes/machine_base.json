@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "ABA",
+        "BAB",
+        "ABA"
+    ],
+    "key": {
+        "A": {
+            "item": "extendedcrafting:black_iron_slate"
+        },
+        "B": {
+            "item": "compressium:stone_2"
+        }
+    },
+    "result": {
+        "item": "rftoolsbase:machine_base"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rftoolsbase"
+        }
+    ]
+}

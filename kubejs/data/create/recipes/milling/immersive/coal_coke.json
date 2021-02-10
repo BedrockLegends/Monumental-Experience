@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:dust_coke",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

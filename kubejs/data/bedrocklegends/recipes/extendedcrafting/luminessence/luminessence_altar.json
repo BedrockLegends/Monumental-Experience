@@ -1,0 +1,22 @@
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "thermal:lightning_charge"
+    },
+    "output": {
+        "item": "extendedcrafting:luminessence",
+        "count": 2
+    },
+    "aura_type": "naturesaura:overworld",
+    "catalyst": {
+        "item": "minecraft:tnt"
+    },
+    "aura": 150,
+    "time": 150,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

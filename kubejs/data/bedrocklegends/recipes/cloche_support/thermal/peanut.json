@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:peanut"
+        },
+        {
+            "item": "thermal:peanut_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:peanut_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "thermal:peanut"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

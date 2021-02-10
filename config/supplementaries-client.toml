@@ -1,0 +1,102 @@
+
+#Tweak and change the various block animations +
+#only cosmetic stuff here. Lots of maths to tweak every aspect of the animation. leave default if not interested 
+#remember to delete this and server configs and let it refresh every once in a while cause I might have tweaked it
+[blocks]
+
+	[blocks.globe]
+		#enable a random globe texture for each world
+		random_world = true
+
+	[blocks.clock_block]
+		#display 24h time format. False for 12h format
+		24h_format = true
+
+	[blocks.firefly_jar]
+		#particle spawn if this equation is true: time%period==0 and randomfloat>chance  where random float is a random number between 0.0 and 1.0
+		#how often they try to spawn
+		#Range: 1 ~ 20
+		spawn_period = 8
+		#spawn chance every period
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.3
+
+	[blocks.pedestal]
+		#enable displayed item spin
+		spin = true
+		#spin speed
+		#Range: 0.0 ~ 100.0
+		speed = 2.0
+		#enable swords to display inserted into the block
+		fancy_swords = true
+
+	[blocks.item_shelf]
+		#translate down displayed 3d blocks so that they are touching the shelf. they will not be centered vertically this way
+		supported_blocks = true
+
+	[blocks.wind_vane]
+		#wind vane swings according to this equation: 
+		#+angle(time) = max_angle_1*sin(2pi*time*pow/period_1) + max_angle_2*sin(wpi*time*pow/period_2) 
+		#+where pow=max(1,redstone_power*power_scaling)
+		#how much frequency changes depending on power. 2 means it spins twice as fast each power level (2* for rain, 4* for thunder)
+		#+increase to have more distinct indication when weather changes
+		#Range: 1.0 ~ 100.0
+		power_scaling = 3.0
+		#amplitude (maximum angle) of first sine wave
+		#Range: 0.0 ~ 360.0
+		max_angle_1 = 30.0
+		#Range: 0.0 ~ 360.0
+		max_angle_2 = 10.0
+		#base period in ticks at 0 power of first sine wave
+		#Range: 0.0 ~ 2000.0
+		period_1 = 450.0
+		#this should be kept period_1/3 for a symmetric animation
+		#Range: 0.0 ~ 2000.0
+		period_2 = 150.0
+
+	[blocks.flag]
+		#I don't remember what these are, I'll adde proper descriptions later. names may be a bit random and non descriptive
+		#Range: 0.0 ~ 10.0
+		speed = 1.0
+		#Range: 0.001 ~ 100.0
+		wavelenght = 15.0
+		#Range: 0.0 ~ 100.0
+		amplitude = 1.0
+		#how much the wave amplitude increases each pixel
+		#Range: 0.0 ~ 10.0
+		amplitude_increment = 0.3
+
+#particle parameters
+[particles]
+
+	#firefly jar particle
+	[particles.firefly_glow]
+		#scale multiplier
+		#Range: 0.0 ~ 1.0
+		scale = 0.075
+		#max age. Note that actual max age with be this + a random number between 0 and 10
+		#Range: 1 ~ 256
+		max_age = 40
+
+#entities parameters
+[entities]
+
+	[entities.firefly]
+		#glow animation uses following euation:
+		#alpha = scale = {max[(1-intensity)*sin(time*2pi/period)+intensity, 0]}^exponent
+		#period variable is located in common configs
+		#scale multiplier
+		#Range: 0.0 ~ 1.0
+		scale = 0.15
+		#affects how long the pulse last, not how frequently it occurs. 0.5 for normal sin wave. higher and it won't turn off completely
+		#Range: -100.0 ~ 1.0
+		intensity = 0.2
+		#affects the shape of the wave. stay under 0.5 for sharper transitions
+		#Range: 0.0 ~ 10.0
+		exponent = 0.5
+
+#general settings
+[general]
+	#show some tooltip hints to guide player through the mod
+	tooltip_hints = true
+

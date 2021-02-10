@@ -1,0 +1,24 @@
+{
+    "type": "mythicbotany:infusion",
+    "group": "infuser",
+    "output": {
+        "item": "naturesaura:infused_iron_shovel"
+    },
+    "mana": 500000,
+    "ingredients": [
+        {
+            "item": "minecraft:stone_shovel"
+        },
+        {
+            "item": "naturesaura:infused_iron"
+        }
+    ],
+    "fromColor": 255,
+    "toColor": 65280,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mythicbotany"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": {
+        "item": "extradisks:16384k_storage_part"
+    },
+    "ingredients": [
+        {
+            "tag": "forge:glass"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron"
+        },
+        {
+            "tag": "forge:glass"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron"
+        },
+        {
+            "item": "refinedstorage:improved_processor"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "item": "refinedstorage:improved_processor"
+        },
+        {
+            "item": "refinedstorage:quartz_enriched_iron"
+        }
+    ],
+    "result": {
+        "item": "extradisks:16384k_storage_disk"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extradisks"
+        }
+    ]
+}

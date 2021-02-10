@@ -1,0 +1,16 @@
+
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:fluix_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:fluix_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

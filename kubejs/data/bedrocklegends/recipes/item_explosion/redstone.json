@@ -1,0 +1,22 @@
+{
+  "type": "interactio:item_explode",
+  "inputs": [
+    {
+      "item": "minecraft:redstone_block",
+      "count": 1
+    }
+  ],
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "item": "minecraft:redstone",
+          "count": 6
+        },
+        "weight": 1
+      }
+    ],
+    "empty_weight": 0,
+    "rolls": 1
+  }
+}

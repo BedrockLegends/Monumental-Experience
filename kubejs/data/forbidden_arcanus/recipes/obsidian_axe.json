@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJ ",
+        "JK ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "J": {
+            "item": "cyclic:gem_obsidian"
+        },
+        "K": {
+            "item": "minecraft:wooden_axe"
+        }
+    },
+    "result": {
+        "item": "forbidden_arcanus:obsidian_axe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

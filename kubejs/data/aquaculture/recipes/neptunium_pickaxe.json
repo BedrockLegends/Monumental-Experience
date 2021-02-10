@@ -1,0 +1,29 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " AAAAA ",
+        "A  B  A",
+        "A  A  A",
+        "   A   ",
+        "   A   ",
+        "   A   ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/neptunium"
+        },
+        "B": {
+            "item": "minecraft:golden_pickaxe"
+        }
+    },
+    "result": {
+        "item": "aquaculture:neptunium_pickaxe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "aquaculture"
+        }
+    ]
+}

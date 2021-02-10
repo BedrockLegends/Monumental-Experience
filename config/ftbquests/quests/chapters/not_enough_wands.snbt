@@ -1,0 +1,277 @@
+{
+	id: "000000000000106A",
+	group: "",
+	order_index: 42,
+	filename: "not_enough_wands",
+	title: "&9Not Enough Wands",
+	icon: "notenoughwands:illumination_wand",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "000000000000106B",
+			tasks: [{
+				id: "000000000000106C",
+				type: "item",
+				item: "notenoughwands:wand_core"
+			}],
+			rewards: [
+				{
+					id: "0000000000001071",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001072",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["000000000000106B"],
+			id: "000000000000106D",
+			tasks: [{
+				id: "000000000000106E",
+				type: "item",
+				item: "notenoughwands:illumination_wand"
+			}],
+			rewards: [
+				{
+					id: "000000000000106F",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001070",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["000000000000106B"],
+			id: "0000000000001073",
+			tasks: [{
+				id: "0000000000001074",
+				type: "item",
+				item: "notenoughwands:acceleration_wand"
+			}],
+			rewards: [
+				{
+					id: "0000000000001075",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001076",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["000000000000106B"],
+			id: "0000000000001077",
+			tasks: [{
+				id: "0000000000001078",
+				type: "item",
+				item: "notenoughwands:swapping_wand"
+			}],
+			rewards: [
+				{
+					id: "0000000000001079",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000107A",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["000000000000106B"],
+			id: "000000000000107B",
+			tasks: [{
+				id: "000000000000107C",
+				type: "item",
+				item: "notenoughwands:advanced_wand_core"
+			}],
+			rewards: [
+				{
+					id: "000000000000107D",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000107E",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["000000000000107B"],
+			id: "000000000000107F",
+			tasks: [{
+				id: "0000000000001080",
+				type: "item",
+				item: "notenoughwands:capturing_wand"
+			}],
+			rewards: [
+				{
+					id: "0000000000001081",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001082",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["000000000000107B"],
+			id: "0000000000001083",
+			tasks: [{
+				id: "0000000000001084",
+				type: "item",
+				item: {
+					id: "notenoughwands:protection_wand",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000001085",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001086",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["000000000000106B"],
+			id: "0000000000001087",
+			tasks: [{
+				id: "0000000000001088",
+				type: "item",
+				item: "notenoughwands:teleportation_wand"
+			}],
+			rewards: [
+				{
+					id: "0000000000001089",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000108A",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["000000000000106B"],
+			id: "000000000000108B",
+			tasks: [{
+				id: "000000000000108C",
+				type: "item",
+				item: "notenoughwands:moving_wand"
+			}],
+			rewards: [
+				{
+					id: "000000000000108D",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000108E",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["000000000000106B"],
+			id: "000000000000108F",
+			tasks: [{
+				id: "0000000000001090",
+				type: "item",
+				item: "notenoughwands:displacement_wand"
+			}],
+			rewards: [
+				{
+					id: "0000000000001091",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001092",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			dependencies: ["000000000000106B"],
+			id: "0000000000001093",
+			tasks: [{
+				id: "0000000000001094",
+				type: "item",
+				item: "notenoughwands:building_wand"
+			}],
+			rewards: [
+				{
+					id: "0000000000001095",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001096",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

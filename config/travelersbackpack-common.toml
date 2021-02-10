@@ -1,0 +1,12 @@
+
+#Common config settings
+[common]
+	#If true, backpack can only be worn by placing it in curios 'Back' slot
+	curiosIntegration = false
+	enableBackpackAbilities = true
+	#Places backpack at place where player died
+	backpackDeathPlace = true
+	#Enables button in backpack gui, which allows to empty tank
+	enableEmptyTankButton = true
+	enableSleepingBagSpawnPoint = false
+

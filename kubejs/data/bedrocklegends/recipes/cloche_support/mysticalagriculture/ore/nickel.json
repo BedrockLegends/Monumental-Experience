@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:nickel_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:nickel_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:nickel_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

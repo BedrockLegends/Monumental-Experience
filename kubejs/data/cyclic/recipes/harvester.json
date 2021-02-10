@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "r r",
+        "gbg",
+        "sss"
+    ],
+    "key": {
+        "r": {
+            "tag": "forge:gems/emerald"
+        },
+        "g": {
+            "tag": "forge:gems/quartz"
+        },
+        "b": {
+            "item": "industrialforegoing:plant_gatherer"
+        },
+        "s": {
+            "tag": "quark:slime_blocks"
+        }
+    },
+    "result": {
+        "item": "cyclic:harvester",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "industrialforegoing"
+        }
+    ]
+}

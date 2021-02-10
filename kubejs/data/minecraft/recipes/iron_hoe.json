@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " AA",
+        "A B",
+        "  C"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/iron"
+        },
+        "B": {
+            "item": "minecraft:stone_hoe"
+        },
+        "C": {
+            "tag": "forge:rods/iron"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_hoe"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "mythicbotany:infusion",
+    "group": "infuser",
+    "output": {
+        "item": "immersiveengineering:pickaxe_steel"
+    },
+    "mana": 500000,
+    "ingredients": [
+        {
+            "item": "minecraft:iron_pickaxe"
+        },
+        {
+            "tag": "forge:ingots/steel"
+        }
+    ],
+    "fromColor": 255,
+    "toColor": 65280,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "powder_power:powder_emerald"
+    },
+    "result": "minecraft:emerald",
+    "experience": 0.35,
+    "cookingtime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powder_power"
+        }
+    ]
+}

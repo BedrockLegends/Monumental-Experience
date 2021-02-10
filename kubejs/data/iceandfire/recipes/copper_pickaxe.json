@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAA",
+        "BCB",
+        " D "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/copper"
+        },
+        "B": {
+            "tag": "forge:nuggets/copper"
+        },
+        "C": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "D": {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    "result": {
+        "item": "iceandfire:copper_pickaxe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AA ",
+        "ABA",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/steel"
+        },
+        "B": {
+            "item": "minecraft:stone_axe"
+        },
+        "C": {
+            "tag": "forge:rods/treated_wood"
+        }
+    },
+    "result": {
+        "item": "immersiveengineering:axe_steel"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
+}

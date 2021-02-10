@@ -1,0 +1,29 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "   A   ",
+        "  AAA  ",
+        " AABAA ",
+        "  AAA  ",
+        "   A   ",
+        "   A   ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:gems/emerald"
+        },
+        "B": {
+            "item": "minecraft:golden_shovel"
+        }
+    },
+    "result": {
+        "item": "cyclic:emerald_shovel"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

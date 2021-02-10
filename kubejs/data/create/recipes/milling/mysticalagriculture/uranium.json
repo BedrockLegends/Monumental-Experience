@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:uranium_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:uranium_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

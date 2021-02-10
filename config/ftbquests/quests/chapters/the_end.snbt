@@ -1,0 +1,256 @@
+{
+	id: "0000000000000BAB",
+	group: "",
+	order_index: 57,
+	filename: "the_end",
+	title: "&9The End",
+	icon: "minecraft:end_portal_frame",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.0d,
+			y: 1.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000000BAC",
+			tasks: [{
+				id: "0000000000000BAD",
+				type: "item",
+				item: "minecraft:dragon_head"
+			}],
+			rewards: [
+				{
+					id: "000000000000105A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000105B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000BAE",
+			tasks: [{
+				id: "0000000000000BAF",
+				type: "item",
+				item: "minecraft:end_stone",
+				count: 32L
+			}],
+			rewards: [
+				{
+					id: "000000000000105C",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000105D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BAE"],
+			id: "0000000000000BB0",
+			tasks: [{
+				id: "0000000000000CF1",
+				type: "item",
+				item: "minecraft:end_stone_bricks",
+				count: 32L
+			}],
+			rewards: [
+				{
+					id: "000000000000105E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000105F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000CF2",
+			tasks: [{
+				id: "0000000000000BB3",
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: "0000000000001062",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001063",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000BB4",
+			tasks: [{
+				id: "0000000000000BB5",
+				type: "item",
+				item: "minecraft:shulker_box"
+			}],
+			rewards: [
+				{
+					id: "0000000000001066",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001067",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000BB6",
+			tasks: [{
+				id: "0000000000000BB7",
+				type: "item",
+				item: "minecraft:shulker_shell"
+			}],
+			rewards: [
+				{
+					id: "0000000000001064",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001065",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 5.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000BB8",
+			tasks: [{
+				id: "0000000000000BB9",
+				type: "item",
+				item: "minecraft:end_crystal"
+			}],
+			rewards: [
+				{
+					id: "0000000000001056",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001057",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 5.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000CF3",
+			tasks: [{
+				id: "0000000000000BBB",
+				type: "item",
+				item: "minecraft:dragon_breath",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "0000000000001058",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001059",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000CF4",
+			tasks: [{
+				id: "0000000000000BBD",
+				type: "item",
+				item: "minecraft:purpur_block"
+			}],
+			rewards: [
+				{
+					id: "0000000000001068",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001069",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BAC"],
+			id: "0000000000000BBE",
+			tasks: [{
+				id: "0000000000000BBF",
+				type: "item",
+				item: "minecraft:ender_eye",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: "0000000000001060",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001061",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

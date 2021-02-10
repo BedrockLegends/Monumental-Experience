@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:water_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:water_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

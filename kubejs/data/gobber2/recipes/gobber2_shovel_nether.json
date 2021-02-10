@@ -1,0 +1,34 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "    A    ",
+        "   ABA   ",
+        "  AAAAA  ",
+        "   AAA   ",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    "
+    ],
+    "key": {
+        "A": {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        "B": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "C": {
+            "item": "gobber2:gobber2_rod_nether"
+        }
+    },
+    "result": {
+        "item": "gobber2:gobber2_shovel_nether"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

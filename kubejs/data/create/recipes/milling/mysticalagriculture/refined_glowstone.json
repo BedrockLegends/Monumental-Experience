@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:refined_glowstone_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:refined_glowstone_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

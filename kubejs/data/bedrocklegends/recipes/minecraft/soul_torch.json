@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X",
+        "#",
+        "S"
+    ],
+    "key": {
+        "X": [
+            {
+                "item": "ironcoals:diamond_coal"
+            }
+        ],
+        "#": {
+            "tag": "forge:rods/treated_wood"
+        },
+        "S": {
+            "tag": "minecraft:soul_fire_base_blocks"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_torch",
+        "count": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironcoals"
+        }
+    ]
+}

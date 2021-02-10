@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAA",
+        "BCB",
+        " D "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:nether_bricks"
+        },
+        "B": {
+            "tag": "forge:crops/nether_wart"
+        },
+        "C": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "D": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "cyclic:netherbrick_pickaxe"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
+}

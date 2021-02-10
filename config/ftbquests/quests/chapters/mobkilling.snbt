@@ -1,0 +1,603 @@
+{
+	id: "000000000000025D",
+	group: "",
+	order_index: 32,
+	filename: "mobkilling",
+	title: "&9Mob Killing",
+	icon: "minecraft:zombie_head",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 1.0d,
+			y: -1.0d,
+			dependencies: ["00000000000003A3"],
+			id: "00000000000003A1",
+			tasks: [{
+				id: "00000000000003A2",
+				type: "kill",
+				title: "Let's Kill a Nasty Blaze!!!!",
+				entity: "minecraft:blaze",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001016",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "00000000000003A3",
+			tasks: [{
+				id: "00000000000003A4",
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.0d,
+			dependencies: ["00000000000003A3"],
+			id: "00000000000003A7",
+			tasks: [{
+				id: "00000000000003A8",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001017",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["00000000000003A3"],
+			id: "0000000000001425",
+			tasks: [{
+				id: "0000000000001426",
+				type: "kill",
+				title: "Let's Kill a Zombie Pigman!!!!",
+				entity: "minecraft:zombie_pigman",
+				value: 50L
+			}],
+			rewards: [{
+				id: "0000000000001030",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			dependencies: ["00000000000003A3"],
+			id: "0000000000001427",
+			tasks: [{
+				id: "0000000000001428",
+				type: "kill",
+				title: "Let's Kill a Magma Slime",
+				entity: "minecraft:magma_cube",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001031",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 5.0d,
+			dependencies: ["00000000000017BF"],
+			id: "00000000000004FF",
+			tasks: [{
+				id: "0000000000000500",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001020",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000505",
+			tasks: [{
+				id: "0000000000000506",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001024",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 3.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000507",
+			tasks: [{
+				id: "0000000000000508",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001028",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000509",
+			tasks: [{
+				id: "000000000000050A",
+				type: "kill",
+				entity: "minecraft:elder_guardian",
+				value: 15L
+			}],
+			rewards: [{
+				id: "0000000000001023",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			icon: "minecraft:dragon_head",
+			x: -10.5d,
+			y: 3.0d,
+			shape: "gear",
+			dependencies: ["00000000000017BD"],
+			id: "000000000000050B",
+			tasks: [{
+				id: "000000000000050C",
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 5L
+			}],
+			rewards: [{
+				id: "0000000000001013",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -5.0d,
+			shape: "gear",
+			dependencies: ["00000000000017BD"],
+			id: "000000000000050D",
+			tasks: [{
+				id: "000000000000050E",
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001014",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -1.0d,
+			shape: "gear",
+			dependencies: ["00000000000017BD"],
+			id: "000000000000050F",
+			tasks: [{
+				id: "0000000000000510",
+				type: "kill",
+				entity: "minecraft:endermite",
+				value: 15L
+			}],
+			rewards: [{
+				id: "0000000000001011",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 2.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000511",
+			tasks: [{
+				id: "0000000000000512",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000102F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["00000000000003A3"],
+			id: "0000000000000515",
+			tasks: [{
+				id: "0000000000000516",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 15L
+			}],
+			rewards: [{
+				id: "0000000000001018",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 5.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000519",
+			tasks: [{
+				id: "000000000000051A",
+				type: "kill",
+				entity: "minecraft:guardian",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001022",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 3.0d,
+			dependencies: ["00000000000017BF"],
+			id: "000000000000051B",
+			tasks: [{
+				id: "000000000000051C",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000102A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -1.0d,
+			shape: "gear",
+			dependencies: ["00000000000017BD"],
+			id: "0000000000000523",
+			tasks: [{
+				id: "0000000000000524",
+				type: "kill",
+				entity: "minecraft:shulker",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001012",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 6.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000525",
+			tasks: [{
+				id: "0000000000000526",
+				type: "kill",
+				entity: "minecraft:silverfish",
+				value: 15L
+			}],
+			rewards: [{
+				id: "000000000000101B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 5.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000527",
+			tasks: [{
+				id: "0000000000000528",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000101F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 3.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000529",
+			tasks: [{
+				id: "000000000000052A",
+				type: "kill",
+				entity: "minecraft:slime",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001029",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 3.0d,
+			dependencies: ["00000000000017BF"],
+			id: "000000000000052B",
+			tasks: [{
+				id: "000000000000052C",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001027",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 4.0d,
+			dependencies: ["00000000000017BF"],
+			id: "000000000000052D",
+			tasks: [{
+				id: "000000000000052E",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001025",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			dependencies: ["00000000000017BF"],
+			id: "000000000000052F",
+			tasks: [{
+				id: "0000000000000530",
+				type: "kill",
+				entity: "minecraft:vex",
+				value: 15L
+			}],
+			rewards: [{
+				id: "0000000000001026",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000531",
+			tasks: [{
+				id: "0000000000000532",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000102E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 5.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000533",
+			tasks: [{
+				id: "0000000000000534",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 30L
+			}],
+			rewards: [{
+				id: "0000000000001021",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000535",
+			tasks: [{
+				id: "0000000000000536",
+				type: "kill",
+				entity: "minecraft:witch",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000102D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			icon: "minecraft:wither_skeleton_skull",
+			x: -1.5d,
+			y: 0.0d,
+			dependencies: ["00000000000003A3"],
+			id: "0000000000000537",
+			tasks: [{
+				id: "0000000000000538",
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 5L
+			}],
+			rewards: [{
+				id: "0000000000001015",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 6.0d,
+			dependencies: ["00000000000017BF"],
+			id: "00000000000017B5",
+			tasks: [{
+				id: "00000000000017B6",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000101A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.0d,
+			dependencies: ["00000000000017BF"],
+			id: "00000000000017B7",
+			tasks: [{
+				id: "00000000000017B8",
+				type: "kill",
+				entity: "minecraft:zombie_villager",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000101E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 3.0d,
+			dependencies: ["00000000000017BF"],
+			id: "00000000000017B9",
+			tasks: [{
+				id: "00000000000017BA",
+				type: "kill",
+				entity: "minecraft:phantom",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000102B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 6.0d,
+			dependencies: ["00000000000017BF"],
+			id: "00000000000017BB",
+			tasks: [{
+				id: "00000000000017BC",
+				type: "kill",
+				entity: "minecraft:ravager",
+				value: 15L
+			}],
+			rewards: [{
+				id: "000000000000101C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -1.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "00000000000017BD",
+			tasks: [{
+				id: "00000000000017BE",
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 4.0d,
+			shape: "heart",
+			id: "00000000000017BF",
+			tasks: [{
+				id: "00000000000017C0",
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 6.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000BF8",
+			tasks: [{
+				id: "0000000000000BF9",
+				type: "kill",
+				title: "Let's Kill a Nasty Skelly",
+				entity: "nasty:skeleton",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000101D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: ["00000000000017BF"],
+			id: "0000000000000BFC",
+			tasks: [{
+				id: "0000000000000BFD",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 30L
+			}],
+			rewards: [{
+				id: "000000000000102C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

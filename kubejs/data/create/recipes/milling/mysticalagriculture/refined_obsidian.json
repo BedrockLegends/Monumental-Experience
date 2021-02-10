@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:refined_obsidian_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:refined_obsidian_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

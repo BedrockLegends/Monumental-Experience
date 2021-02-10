@@ -1,0 +1,8 @@
+{
+    "type": "mekanism:dissolution",
+    "conditions": [
+        {
+            "type": "forge:false"
+        }
+    ]
+}

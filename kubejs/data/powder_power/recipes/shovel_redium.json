@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        " B ",
+        " B "
+    ],
+    "key": {
+        "A": {
+            "item": "powder_power:ingot_redium"
+        },
+        "B": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "powder_power:shovel_redium",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powder_power"
+        }
+    ]
+}

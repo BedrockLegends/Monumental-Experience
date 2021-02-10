@@ -1,0 +1,9 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "tag": "forge:workbench"
+  },
+  "result": {
+    "item": "astralsorcery:altar_discovery"
+  }
+}

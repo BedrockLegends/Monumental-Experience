@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "CXC",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "immersiveengineering:concrete"
+        },
+        "C": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        "X": {
+            "tag": "storagedrawers:drawers"
+        },
+        "G": {
+            "tag": "forge:sheetmetals/gold"
+        }
+    },
+    "result": {
+        "item": "storagedrawers:controller_slave"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "storagedrawers"
+        }
+    ]
+}

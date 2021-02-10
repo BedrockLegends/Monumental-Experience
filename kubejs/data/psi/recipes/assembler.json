@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IPI",
+        "IEI",
+        "EIE"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:plates/iron"
+        },
+        "P": {
+            "item": "create:mechanical_piston"
+        },
+        "E": {
+            "item": "minecraft:dark_oak_slab"
+        }
+    },
+    "result": {
+        "item": "psi:cad_assembler"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "psi"
+        }
+    ]
+}

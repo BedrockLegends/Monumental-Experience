@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:air_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:air_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}

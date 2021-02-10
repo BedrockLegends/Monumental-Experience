@@ -1,0 +1,1487 @@
+{
+	id: "0000000000000007",
+	group: "",
+	order_index: 37,
+	filename: "tier4mysticalagriculture",
+	title: "&4(Tier4) &9Mystical Agriculture",
+	icon: "mysticalagriculture:gold_seeds",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000000149"],
+			id: "0000000000000D15",
+			tasks: [{
+				id: "0000000000000D16",
+				type: "item",
+				item: "mysticalagradditions:imperium_coal"
+			}],
+			rewards: [{
+				id: "00000000000013BE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000000D17",
+			tasks: [{
+				id: "0000000000000D18",
+				type: "item",
+				item: "mysticalagriculture:imperium_essence",
+				count: 16L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [
+				"00000000000000F1",
+				"0000000000000D17"
+			],
+			id: "0000000000000147",
+			tasks: [{
+				id: "0000000000000148",
+				type: "item",
+				item: "mysticalagriculture:imperium_growth_accelerator"
+			}],
+			rewards: [{
+				id: "00000000000013E6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: [
+				"00000000000000F3",
+				"0000000000000D17"
+			],
+			id: "0000000000000149",
+			tasks: [{
+				id: "000000000000014A",
+				type: "item",
+				item: "mysticalagriculture:imperium_ingot"
+			}],
+			rewards: [{
+				id: "00000000000013E7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000149",
+				"00000000000000F7"
+			],
+			id: "000000000000014D",
+			tasks: [{
+				id: "000000000000014E",
+				type: "item",
+				item: {
+					id: "mysticalagradditions:imperium_paxel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000149",
+				"00000000000000F9"
+			],
+			id: "000000000000014F",
+			tasks: [{
+				id: "0000000000000150",
+				type: "item",
+				item: "mysticalagriculture:imperium_furnace"
+			}],
+			rewards: [{
+				id: "00000000000013E8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: [
+				"00000000000000FD",
+				"0000000000000149"
+			],
+			id: "0000000000000151",
+			tasks: [{
+				id: "0000000000000152",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.0d,
+			dependencies: [
+				"0000000000000151",
+				"00000000000000FF"
+			],
+			id: "0000000000000153",
+			tasks: [{
+				id: "0000000000000154",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000153",
+				"0000000000000101"
+			],
+			id: "0000000000000155",
+			tasks: [{
+				id: "0000000000000156",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000013E9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -8.0d,
+			dependencies: [
+				"0000000000000155",
+				"0000000000000103"
+			],
+			id: "0000000000000157",
+			tasks: [{
+				id: "0000000000000158",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000149",
+				"00000000000000FB"
+			],
+			id: "0000000000000159",
+			tasks: [{
+				id: "000000000000015A",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_watering_can",
+					Count: 1b,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000013EA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			dependency_requirement: "one_completed",
+			id: "00000000000001DD",
+			tasks: [{
+				id: "00000000000001DE",
+				type: "item",
+				item: "mysticalagriculture:gold_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018C8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001DD"],
+			dependency_requirement: "one_completed",
+			id: "00000000000001DF",
+			tasks: [{
+				id: "00000000000001E0",
+				type: "item",
+				item: "mysticalagriculture:gold_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B6",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000001E1",
+			tasks: [{
+				id: "00000000000001E2",
+				type: "item",
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018C9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001E1"],
+			id: "00000000000001E3",
+			tasks: [{
+				id: "00000000000001E4",
+				type: "item",
+				item: "mysticalagriculture:lapis_lazuli_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B7",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000001E5",
+			tasks: [{
+				id: "00000000000001E6",
+				type: "item",
+				item: "mysticalagriculture:end_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018CA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001E5"],
+			id: "00000000000001E7",
+			tasks: [{
+				id: "00000000000001E8",
+				type: "item",
+				item: "mysticalagriculture:end_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B8",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000001E9",
+			tasks: [{
+				id: "00000000000001EA",
+				type: "item",
+				item: "mysticalagriculture:experience_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018CB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001E9"],
+			id: "00000000000001ED",
+			tasks: [{
+				id: "00000000000001EE",
+				type: "item",
+				item: "mysticalagriculture:experience_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B9",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000001EF",
+			tasks: [{
+				id: "00000000000001F0",
+				type: "item",
+				item: "mysticalagriculture:steel_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018CD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001EF"],
+			id: "00000000000001F1",
+			tasks: [{
+				id: "00000000000001F2",
+				type: "item",
+				item: "mysticalagriculture:steel_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018BB",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -1.0d,
+			id: "00000000000001F3",
+			tasks: [{
+				id: "00000000000001F4",
+				type: "item",
+				item: "mysticalagriculture:soul_jar"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "00000000000001F5",
+			tasks: [{
+				id: "00000000000001F6",
+				type: "item",
+				item: "mysticalagriculture:blaze_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "00000000000001F7",
+			tasks: [{
+				id: "00000000000001F8",
+				type: "item",
+				item: "mysticalagriculture:ghast_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 3.0d,
+			shape: "heart",
+			dependencies: ["00000000000001F3"],
+			size: 1.5d,
+			id: "00000000000001F9",
+			tasks: [{
+				id: "00000000000001FA",
+				type: "item",
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F5"],
+			id: "00000000000001FB",
+			tasks: [{
+				id: "00000000000001FC",
+				type: "item",
+				item: "mysticalagriculture:blaze_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "00000000000018AF",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000001FF",
+			tasks: [{
+				id: "0000000000000200",
+				type: "item",
+				item: "mysticalagriculture:refined_glowstone_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018CC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001FF"],
+			id: "0000000000000201",
+			tasks: [{
+				id: "0000000000000202",
+				type: "item",
+				item: "mysticalagriculture:refined_glowstone_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018BA",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000000203",
+			tasks: [{
+				id: "0000000000000204",
+				type: "item",
+				item: "mysticalagriculture:electrum_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018CE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000000207",
+			tasks: [{
+				id: "0000000000000208",
+				type: "item",
+				item: "mysticalagriculture:refined_obsidian_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018C7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000000203"],
+			id: "0000000000000209",
+			tasks: [{
+				id: "000000000000020A",
+				type: "item",
+				item: "mysticalagriculture:electrum_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018BD",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000000207"],
+			id: "000000000000020D",
+			tasks: [{
+				id: "000000000000020E",
+				type: "item",
+				item: "mysticalagriculture:refined_obsidian_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B5",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 3.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000213",
+			tasks: [{
+				id: "0000000000000214",
+				type: "item",
+				item: "mysticalagriculture:enderman_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 6.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000215",
+			tasks: [{
+				id: "0000000000000216",
+				type: "item",
+				item: "mysticalagriculture:phantom_seeds"
+			}],
+			rewards: [{
+				id: "000000000000189E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -1.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000217",
+			tasks: [{
+				id: "0000000000000218",
+				type: "item",
+				item: "mysticalagriculture:pillager_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000219",
+			tasks: [{
+				id: "000000000000021A",
+				type: "item",
+				item: "mysticalagriculture:ravager_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "000000000000021B",
+			tasks: [{
+				id: "000000000000021C",
+				type: "item",
+				item: "mysticalagriculture:endermite_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "000000000000021D",
+			tasks: [{
+				id: "000000000000021E",
+				type: "item",
+				item: "mysticalagriculture:villager_seeds"
+			}],
+			rewards: [{
+				id: "000000000000189C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -3.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "000000000000021F",
+			tasks: [{
+				id: "0000000000000220",
+				type: "item",
+				item: "mysticalagriculture:shulker_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 5.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000221",
+			tasks: [{
+				id: "0000000000000222",
+				type: "item",
+				item: "mysticalagriculture:mooshroom_seeds"
+			}],
+			rewards: [{
+				id: "000000000000189F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000223",
+			tasks: [{
+				id: "0000000000000224",
+				type: "item",
+				item: "mysticalagriculture:magma_cube_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018A3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 7.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F9"],
+			id: "0000000000000225",
+			tasks: [{
+				id: "0000000000000226",
+				type: "item",
+				item: "mysticalagriculture:vindicator_seeds"
+			}],
+			rewards: [{
+				id: "000000000000189D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 3.0d,
+			shape: "gear",
+			dependencies: ["0000000000000213"],
+			id: "0000000000000227",
+			tasks: [{
+				id: "0000000000000228",
+				type: "item",
+				item: "mysticalagriculture:enderman_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "00000000000018AE",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["0000000000000219"],
+			id: "0000000000000229",
+			tasks: [{
+				id: "000000000000022A",
+				type: "item",
+				item: "mysticalagriculture:ravager_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018AD",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 1.0d,
+			shape: "gear",
+			dependencies: ["0000000000000223"],
+			id: "000000000000022B",
+			tasks: [{
+				id: "000000000000022C",
+				type: "item",
+				item: "mysticalagriculture:magma_cube_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018AC",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000001F7"],
+			id: "000000000000022D",
+			tasks: [{
+				id: "000000000000022E",
+				type: "item",
+				item: "mysticalagriculture:ghast_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "00000000000018AB",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -1.0d,
+			shape: "gear",
+			dependencies: ["0000000000000217"],
+			id: "000000000000022F",
+			tasks: [{
+				id: "0000000000001499",
+				type: "item",
+				item: "mysticalagriculture:pillager_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018AA",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["000000000000021B"],
+			id: "000000000000149A",
+			tasks: [{
+				id: "0000000000000232",
+				type: "item",
+				item: "mysticalagriculture:endermite_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018A9",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -3.0d,
+			shape: "gear",
+			dependencies: ["000000000000021F"],
+			id: "0000000000000233",
+			tasks: [{
+				id: "0000000000000234",
+				type: "item",
+				item: "mysticalagriculture:shulker_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018A8",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["000000000000021D"],
+			id: "0000000000000235",
+			tasks: [{
+				id: "0000000000000236",
+				type: "item",
+				item: "mysticalagriculture:villager_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B3",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 7.0d,
+			shape: "gear",
+			dependencies: ["0000000000000225"],
+			id: "0000000000000237",
+			tasks: [{
+				id: "0000000000000238",
+				type: "item",
+				item: "mysticalagriculture:vindicator_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B2",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 6.0d,
+			shape: "gear",
+			dependencies: ["0000000000000215"],
+			id: "0000000000000239",
+			tasks: [{
+				id: "000000000000023A",
+				type: "item",
+				item: "mysticalagriculture:phantom_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B1",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 5.0d,
+			shape: "gear",
+			dependencies: ["0000000000000221"],
+			id: "000000000000023B",
+			tasks: [{
+				id: "000000000000023C",
+				type: "item",
+				item: "mysticalagriculture:mooshroom_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018B0",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000000D3",
+			tasks: [{
+				id: "00000000000000D4",
+				type: "item",
+				item: "mysticalagriculture:nickel_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018CF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000000D5",
+			tasks: [{
+				id: "00000000000000D6",
+				type: "item",
+				item: "mysticalagriculture:constantan_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000000D7",
+			tasks: [{
+				id: "00000000000000D8",
+				type: "item",
+				item: "mysticalagriculture:uranium_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000000D9",
+			tasks: [{
+				id: "00000000000013A1",
+				type: "item",
+				item: "mysticalagriculture:hop_graphite_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "00000000000013A2",
+			tasks: [{
+				id: "0000000000000177",
+				type: "item",
+				item: "mysticalagriculture:elementium_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000000178",
+			tasks: [{
+				id: "000000000000018D",
+				type: "item",
+				item: "mysticalagriculture:osmium_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "000000000000018E",
+			tasks: [{
+				id: "0000000000000197",
+				type: "item",
+				item: "mysticalagriculture:compressed_iron_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000000199",
+			tasks: [{
+				id: "000000000000019A",
+				type: "item",
+				item: "mysticalagriculture:fluix_seeds"
+			}],
+			rewards: [{
+				id: "00000000000018D6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000000D3"],
+			id: "000000000000034C",
+			tasks: [{
+				id: "000000000000034D",
+				type: "item",
+				item: "mysticalagriculture:nickel_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018BE",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000000D5"],
+			id: "000000000000034E",
+			tasks: [{
+				id: "000000000000034F",
+				type: "item",
+				item: "mysticalagriculture:constantan_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018BF",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000000D7"],
+			id: "000000000000149B",
+			tasks: [{
+				id: "000000000000149C",
+				type: "item",
+				item: "mysticalagriculture:uranium_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018C0",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["00000000000000D9"],
+			id: "000000000000149D",
+			tasks: [{
+				id: "000000000000149E",
+				type: "item",
+				item: "mysticalagriculture:hop_graphite_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018C1",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: [
+				"000000000000010A",
+				"00000000000013A2"
+			],
+			id: "000000000000149F",
+			tasks: [{
+				id: "00000000000014A0",
+				type: "item",
+				item: "mysticalagriculture:elementium_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018C2",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000000178"],
+			id: "00000000000014A1",
+			tasks: [{
+				id: "0000000000000357",
+				type: "item",
+				item: "mysticalagriculture:osmium_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018C3",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["000000000000018E"],
+			id: "0000000000000358",
+			tasks: [{
+				id: "00000000000014A2",
+				type: "item",
+				item: "mysticalagriculture:compressed_iron_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018C4",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000000199"],
+			id: "00000000000014A3",
+			tasks: [{
+				id: "00000000000014A4",
+				type: "item",
+				item: "mysticalagriculture:fluix_essence",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000018C5",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000001906",
+			tasks: [{
+				id: "0000000000001907",
+				type: "item",
+				item: "mysticalagriculture:invar_seeds"
+			}],
+			rewards: [{
+				id: "0000000000001921",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000001906"],
+			id: "0000000000001908",
+			tasks: [{
+				id: "0000000000001909",
+				type: "item",
+				item: "mysticalagriculture:invar_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "0000000000001926",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "000000000000190A",
+			tasks: [{
+				id: "000000000000190B",
+				type: "item",
+				item: "mysticalagriculture:tungsten_seeds"
+			}],
+			rewards: [{
+				id: "0000000000001922",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["000000000000190A"],
+			id: "000000000000190C",
+			tasks: [{
+				id: "000000000000190D",
+				type: "item",
+				item: "mysticalagriculture:tungsten_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "0000000000001925",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "000000000000190E",
+			tasks: [{
+				id: "000000000000190F",
+				type: "item",
+				item: "mysticalagriculture:titanium_seeds"
+			}],
+			rewards: [{
+				id: "0000000000001923",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["000000000000190E"],
+			id: "0000000000001910",
+			tasks: [{
+				id: "0000000000001911",
+				type: "item",
+				item: "mysticalagriculture:titanium_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "0000000000001924",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000001912",
+			tasks: [{
+				id: "0000000000001913",
+				type: "item",
+				item: "mysticalagriculture:lumium_seeds"
+			}],
+			rewards: [{
+				id: "0000000000001920",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000001912"],
+			id: "0000000000001914",
+			tasks: [{
+				id: "0000000000001915",
+				type: "item",
+				item: "mysticalagriculture:lumium_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "0000000000001927",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "0000000000001916",
+			tasks: [{
+				id: "0000000000001917",
+				type: "item",
+				item: "mysticalagriculture:starmetal_seeds"
+			}],
+			rewards: [{
+				id: "000000000000191F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000001916"],
+			id: "0000000000001918",
+			tasks: [{
+				id: "0000000000001919",
+				type: "item",
+				item: "mysticalagriculture:starmetal_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "0000000000001928",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000D17"],
+			id: "000000000000191A",
+			tasks: [{
+				id: "000000000000191B",
+				type: "item",
+				item: "mysticalagriculture:glob_seeds"
+			}],
+			rewards: [{
+				id: "000000000000191E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["000000000000191A"],
+			id: "000000000000191C",
+			tasks: [{
+				id: "000000000000191D",
+				type: "item",
+				item: "mysticalagriculture:glob_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "0000000000001929",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 9.0d,
+			shape: "gear",
+			id: "000000000000192A",
+			tasks: [{
+				id: "000000000000192B",
+				type: "item",
+				item: "mysticalagriculture:pink_slime_seeds"
+			}],
+			rewards: [{
+				id: "000000000000192E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["000000000000192A"],
+			id: "000000000000192C",
+			tasks: [{
+				id: "000000000000192D",
+				type: "item",
+				item: "mysticalagriculture:pink_slime_essence",
+				count: 8L
+			}],
+			rewards: [{
+				id: "000000000000192F",
+				type: "item",
+				item: "chancecubes:chance_cube"
+			}]
+		}
+	]
+}

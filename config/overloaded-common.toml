@@ -1,0 +1,11 @@
+
+[development]
+	#Stuff not deemed to be safe yet. IE World Corrupting / Crashing. [Default: false]
+	wipStuff = false
+
+[special]
+	#Fix for rending while noClip is active. May cause issues with some other mods. [Default: true]
+	noClipRenderFix = true
+	#Do not change without reading https://github.com/CJ-MC-Mods/Overloaded/wiki/Minecraft-Inventory-Mechanic-Bugs#slots-for-infinity-barrel. Reduces performance for compatibility. [Default:: false]
+	infinityBarrelAdditionalSlot = false
+

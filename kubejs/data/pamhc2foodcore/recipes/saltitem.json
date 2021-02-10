@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "tag": "forge:water/freshwater"
+        },
+        {
+            "tag": "forge:sand/colorless"
+        }
+    ],
+    "result": {
+        "item": "pamhc2foodcore:saltitem",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ]
+}
