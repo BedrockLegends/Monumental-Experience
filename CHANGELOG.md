@@ -48,8 +48,11 @@
 
 - Extreme Reactors 2
 
+- The FarLanders
+
 
 **Changed**
+
 
 - FTB Mob Killing Quest Line & Moved it into its Own Quest Lines, see under added
 
