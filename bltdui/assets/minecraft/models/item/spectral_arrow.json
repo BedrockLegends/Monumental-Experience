@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/_parent_arrow",
+  "textures": {
+    "layer0": "minecraft:item/spectral_arrow"
+  }
+}
