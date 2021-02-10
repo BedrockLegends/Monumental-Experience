@@ -30,12 +30,26 @@
 
 - Forge
 
+- Enviromental Tech, Removes Console Spam
+
+- Enchantment Descriptions
+
+- Dark Utilities
+
+- ValkyrieLib
+
+- Statues
+
+- Compressed Chest Recipe From Prefab
+
 
 **Changed**
 
 - FTB Mob Killing Quest Line & Moved it into its Own Quest Lines, see under added
 
 - Full Screen Mode being Turned on after updates, This is now turn off by default and can be turn back on in video settings
+
+- LootBagMod Config as it was a mess and had multiply items
 
 
 **Added**
