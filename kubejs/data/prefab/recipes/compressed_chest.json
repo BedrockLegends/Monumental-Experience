@@ -7,19 +7,19 @@
     ],
     "key": {
         "A": {
-            "item": "ironchest:dirt_chest"
+            "item": "minecraft:chest_minecart"
         },
         "B": {
-            "item": "minecraft:chest"
+            "item": "routerreborn:specialchest"
         },
         "C": {
-            "item": "ironchest:copper_chest"
+            "item": "iceandfire:ghost_chest"
         },
         "D": {
-            "item": "ironchest:iron_chest"
+            "item": "compactstorage:compact_chest_white"
         },
         "E": {
-            "item": "ironchest:silver_chest"
+            "item": "minecraft:chest_minecart"
         }
     },
     "result": {
