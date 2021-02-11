@@ -72,3 +72,5 @@
 - Overworld Quest Line with Mob Killing Quests Lines for Overworld Mobs
 
 - Animal Killing Quest line to Overworld Quest Line
+
+- New Computercraft Recipes
