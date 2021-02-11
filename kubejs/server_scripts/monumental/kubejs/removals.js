@@ -191,6 +191,7 @@ events.listen('recipes', p => {
         'computercraft:computer_advanced_upgrade',
         'computercraft:turtle_advanced_upgrade',
         'computercraft:computer_command',
+        'computercraft:wired_modem_full_to',
 
         //chancecube recipes removed
         'chancecubes:tier_1_pendant_crafting',
