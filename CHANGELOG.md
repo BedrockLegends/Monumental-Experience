@@ -50,6 +50,8 @@
 
 - The FarLanders
 
+- Tool Recipes to Work right with create
+
 
 **Changed**
 
@@ -74,3 +76,5 @@
 - Animal Killing Quest line to Overworld Quest Line
 
 - New Computercraft Recipes
+
+- New CookingForBlockhead recipes to use tag system and made some recipes harder
