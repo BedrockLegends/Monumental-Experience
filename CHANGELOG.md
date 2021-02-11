@@ -67,6 +67,10 @@
 
 **Added**
 
+- New Clockout Recipe
+
+- More Cyclic Recipes
+
 - Nether Quest Line with Mob Killing Quests for Nether Mobs
 
 - End Mob Killing Quests to End Quest Line
