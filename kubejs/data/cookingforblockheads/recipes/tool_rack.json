@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "cookingforblockheads:tool_rack"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "I I"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  }
+}

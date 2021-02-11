@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "cookingforblockheads:corner"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:stone"
+    },
+    "C": {
+      "tag": "forge:terracotta"
+    }
+  }
+}

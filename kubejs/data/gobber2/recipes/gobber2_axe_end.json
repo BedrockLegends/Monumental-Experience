@@ -7,9 +7,9 @@
         "  AAAAA  ",
         " AAAABAA ",
         "    AAAA ",
-        "   C AAA ",
-        "  C      ",
-        " C       "
+        "    CAAA ",
+        "    C    ",
+        "    C    "
     ],
     "key": {
         "A": {
@@ -21,9 +21,6 @@
         "C": {
             "item": "gobber2:gobber2_rod_end"
         }
-    },
-    "result": {
-        "item": "gobber2:gobber2_axe_end"
     },
     "result": {
         "item": "gobber2:dragon_star"

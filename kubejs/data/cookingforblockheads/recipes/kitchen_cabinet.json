@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "cookingforblockheads:cabinet"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CBC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:terracotta"
+    },
+    "B": {
+      "tag": "forge:chests/wooden"
+    }
+  }
+}

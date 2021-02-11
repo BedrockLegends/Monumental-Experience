@@ -2,8 +2,8 @@
     "type": "create:mechanical_crafting",
     "pattern": [
         "   AAAAA ",
-        " AA   B  ",
-        "A     C  ",
+        "  AA  B  ",
+        "  A   C  ",
         "      C  ",
         "      C  ",
         "      C  ",

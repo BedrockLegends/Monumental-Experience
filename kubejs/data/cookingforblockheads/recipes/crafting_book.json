@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "cookingforblockheads:crafting_book"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "CBC",
+    " D "
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:workbench"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "B": {
+      "item": "cookingforblockheads:recipe_book"
+    }
+  }
+}
