@@ -72,6 +72,8 @@
 
 - Advanced Peripherals
 
+- MC Doom Mod
+
 
 **Changed**
 
