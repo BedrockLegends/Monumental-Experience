@@ -138,3 +138,5 @@
 - Unification of lettuce to allow one type of lettuce instead of many different ones
 
 - Unification of Onion to allow one type of Onion instead of many different ones
+
+- Unification of Peanut to allow one type of Peanut instead of many different ones
