@@ -129,4 +129,6 @@
 
 - Unification of Plum to allow one type of Plum instead of many different ones
 
-- Unification of Corn to allow one type of Plum instead of many different ones
+- Unification of Corn to allow one type of Corn instead of many different ones
+
+- Unification of Eggplant to allow one type of Eggplant instead of many different ones
