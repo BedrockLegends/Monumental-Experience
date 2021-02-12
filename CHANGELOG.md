@@ -52,6 +52,26 @@
 
 - Tool Recipes to Work right with create
 
+- TipTheScales
+
+- Supplementaries
+
+- No Hostiles Around Campfire
+
+- MythicBotany
+
+- Macaw's Windows
+
+- Controlling
+
+- Compactmachines
+
+- Architectury API
+
+- Camera Mod
+
+- Advanced Peripherals
+
 
 **Changed**
 
