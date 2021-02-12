@@ -140,3 +140,9 @@
 - Unification of Onion to allow one type of Onion instead of many different ones
 
 - Unification of Peanut to allow one type of Peanut instead of many different ones
+
+- Unification of Radish to allow one type of Radish instead of many different ones
+
+- Add tags to Basic Crafting Table to allow any workbench
+
+- Removed several tagged smelting recipes from new mods

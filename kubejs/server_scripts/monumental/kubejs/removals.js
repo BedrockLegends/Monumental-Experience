@@ -183,7 +183,7 @@ events.listen('recipes', p => {
 
         //computercraft recipes removed
         'computercraft:pocket_computer_normal',
-		'computercraft:pocket_normal/computercraft/wireless_modem_normal',
+	'computercraft:pocket_normal/computercraft/wireless_modem_normal',
         'computercraft:pocket_normal/computercraft/wireless_modem_advanced',
         'computercraft:pocket_normal/computercraft/speaker',
         'computercraft:pocket_computer_advanced_upgrade',
@@ -230,15 +230,20 @@ events.listen('recipes', p => {
 		'create:smelting/copper_ingot_from_ore',
 		'mekanism:processing/copper/ingot/from_ore_smelting',
 		'routerreborn:copper_ingot',
+	    	'occultism:smelting/copper_ingot',
+	    	'occultism:smelting/copper_ingot_from_dust',
 
 		//copper blasting recipes removed
 		'alltheores:blasting_dust/copper_ingot',
 		'mekanism:processing/copper/ingot/from_dust_blasting',
+	    	'occultism:blasting/copper_ingot',
+	    	'occultism:blasting/copper_ingot_from_dust',
 
 		//diamond smelting recipes removed
 		'clib:diamond_dust_smelting',
 		'minecraft:diamond_from_smelting',
 		'powder_power:diamond_from_powder',
+		'undergarden:smelt_undergarden_diamond',
 
 		//diamond recipe removed
 		'inventorypets:diamond',
@@ -364,12 +369,15 @@ events.listen('recipes', p => {
         'clib:gold_dust_smelting',
         'thermal:smelting/gold_ingot_from_dust_smelting',
         'powder_power:powder_gold',
+	'occultism:smelting/gold_ingot_from_dust',
+	'undergarden:smelt_undergarden_gold',
 
         //gold blasting recipes removed
         'thermal:smelting/gold_ingot_from_dust_blasting',
         'powder_power:powder_gold_blasting',
         'mekanism:processing/gold/ingot/from_dust_blasting',
         'immersiveengineering:crafting/gold_ingot_from_dust_from_blasting',
+	    	'occultism:blasting/gold_ingot_from_dust',
 
         //heart of the sea removed
         'mysticalagriculture:essence/heart_of_the_sea',
@@ -414,12 +422,15 @@ events.listen('recipes', p => {
         'clib:iron_dust_smelting',
         'thermal:smelting/iron_ingot_from_dust_smelting',
         'powder_power:powder_iron',
+	'occultism:smelting/iron_ingot_from_dust',
+	'undergarden:smelt_undergarden_iron',
 
         //iron blasting recipes removed
         'thermal:smelting/iron_ingot_from_dust_blasting',
         'powder_power:powder_iron_blasting',
         'mekanism:processing/iron/ingot/from_dust_blasting',
         'immersiveengineering:crafting/iron_ingot_from_dust_from_blasting',
+	    	'occultism:blasting/iron_ingot_from_dust',
 
 		//immersiveengineering nugget recipes removed
 		'immersiveengineering:crafting/nugget_nickel_to_ingot_nickel',
@@ -504,8 +515,8 @@ events.listen('recipes', p => {
 		'forbidden_arcanus:obsidian_ingot_from_blasting',
 		'forbidden_arcanus:obsidian_ingot',
 
-        //dust from obsidian furance recipes removed
-        'occultism:smelting/obsidian_from_dust',
+        	//dust from obsidian furance recipes removed
+       		'occultism:smelting/obsidian_from_dust',
 
 		//platinum smelting recipes removed
 		'alltheores:smelting_dust/platinum_ingot',
@@ -604,12 +615,17 @@ events.listen('recipes', p => {
 		'alltheores:silver_ingot',
 		'alltheores:smelting_dust/silver_ingot',
 		'immersiveengineering:crafting/ingot_silver',
+	    	'occultism:smelting/silver_ingot_from_dust',
+	    	'occultism:smelting/silver_ingot',
+		'undergarden:smelt_undergarden_gold',
 
         //starmetal smelting recipe removed
         'astralsorcery:smelting/starmetal_ingot',
 
 		//silver blasting recipes removed
 		'alltheores:blasting_dust/silver_ingot',
+	    	'occultism:blasting/silver_ingot',
+	    	'occultism:blasting/silver_ingot_from_dust',
 
 		//steel smelting recipes removed
 		'mekanism:processing/steel/ingot/from_dust_smelting',
