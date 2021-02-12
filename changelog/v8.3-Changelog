@@ -122,3 +122,5 @@
 - Unification of Tomato to allow one type of Tomato instead of many different ones
 
 - Unification of Banana to allow one type of Banana instead of many different ones
+
+- Unification of Orange to allow one type of Orange instead of many different ones
