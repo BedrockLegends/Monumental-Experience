@@ -30,15 +30,66 @@
 
 - Forge
 
+- Enviromental Tech, Removes Console Spam
+
+- Enchantment Descriptions
+
+- Dark Utilities
+
+- ValkyrieLib
+
+- Statues
+
+- Compressed Chest Recipe From Prefab
+
+- JEI Integration to 1.16.5
+
+- ZeroCore 2
+
+- Extreme Reactors 2
+
+- The FarLanders
+
+- Tool Recipes to Work right with create
+
+- TipTheScales
+
+- Supplementaries
+
+- No Hostiles Around Campfire
+
+- MythicBotany
+
+- Macaw's Windows
+
+- Controlling
+
+- Compactmachines
+
+- Architectury API
+
+- Camera Mod
+
+- Advanced Peripherals
+
 
 **Changed**
+
 
 - FTB Mob Killing Quest Line & Moved it into its Own Quest Lines, see under added
 
 - Full Screen Mode being Turned on after updates, This is now turn off by default and can be turn back on in video settings
 
+- LootBagMod Config as it was a mess and had multiply items
+
+- Quark Config to not allow Tallow to Drop, This fixes a Conflict with occultism tallow
+
 
 **Added**
+
+- New Clockout Recipe
+
+- More Cyclic Recipes
 
 - Nether Quest Line with Mob Killing Quests for Nether Mobs
 
@@ -47,3 +98,7 @@
 - Overworld Quest Line with Mob Killing Quests Lines for Overworld Mobs
 
 - Animal Killing Quest line to Overworld Quest Line
+
+- New Computercraft Recipes
+
+- New CookingForBlockhead recipes to use tag system and made some recipes harder
