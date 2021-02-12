@@ -542,7 +542,7 @@
 			}]
 		},
 		{
-			title: "Mob Killing",
+			title: "Overworld Quests",
 			icon: "minecraft:zombie_head",
 			x: -0.5d,
 			y: 8.0d,

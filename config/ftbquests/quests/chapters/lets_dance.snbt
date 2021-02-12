@@ -465,6 +465,17 @@
 				type: "item",
 				item: "undergarden:music_disc_relict"
 			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.0d,
+			dependencies: ["0000000000000D6D"],
+			id: "16BAE9B8134D00A6",
+			tasks: [{
+				id: "1D230B080AB806F3",
+				type: "item",
+				item: "undergarden:music_disc_gloomper_anthem"
+			}]
 		}
 	]
 }

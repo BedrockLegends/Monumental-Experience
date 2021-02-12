@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 32,
 	filename: "mobkilling",
-	title: "&9Mob Killing",
+	title: "&9Overworld Quests",
 	icon: "minecraft:zombie_head",
 	default_quest_shape: "",
 	quests: [
@@ -161,61 +161,6 @@
 			}]
 		},
 		{
-			icon: "minecraft:dragon_head",
-			x: -10.5d,
-			y: 3.0d,
-			shape: "gear",
-			dependencies: ["00000000000017BD"],
-			id: "000000000000050B",
-			tasks: [{
-				id: "000000000000050C",
-				type: "kill",
-				entity: "minecraft:ender_dragon",
-				value: 5L
-			}],
-			rewards: [{
-				id: "0000000000001013",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -10.5d,
-			y: -5.0d,
-			shape: "gear",
-			dependencies: ["00000000000017BD"],
-			id: "000000000000050D",
-			tasks: [{
-				id: "000000000000050E",
-				type: "kill",
-				entity: "minecraft:enderman",
-				value: 30L
-			}],
-			rewards: [{
-				id: "0000000000001014",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -6.5d,
-			y: -1.0d,
-			shape: "gear",
-			dependencies: ["00000000000017BD"],
-			id: "000000000000050F",
-			tasks: [{
-				id: "0000000000000510",
-				type: "kill",
-				entity: "minecraft:endermite",
-				value: 15L
-			}],
-			rewards: [{
-				id: "0000000000001011",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
 			x: -7.0d,
 			y: 2.0d,
 			dependencies: ["00000000000017BF"],
@@ -279,24 +224,6 @@
 			}],
 			rewards: [{
 				id: "000000000000102A",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -14.5d,
-			y: -1.0d,
-			shape: "gear",
-			dependencies: ["00000000000017BD"],
-			id: "0000000000000523",
-			tasks: [{
-				id: "0000000000000524",
-				type: "kill",
-				entity: "minecraft:shulker",
-				value: 30L
-			}],
-			rewards: [{
-				id: "0000000000001012",
 				type: "item",
 				item: "lootbagmod:lootbag"
 			}]
@@ -538,18 +465,6 @@
 				id: "000000000000101C",
 				type: "item",
 				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -10.5d,
-			y: -1.0d,
-			shape: "heart",
-			size: 1.5d,
-			id: "00000000000017BD",
-			tasks: [{
-				id: "00000000000017BE",
-				type: "dimension",
-				dimension: "minecraft:the_end"
 			}]
 		},
 		{
