@@ -134,3 +134,5 @@
 - Unification of Eggplant to allow one type of Eggplant instead of many different ones
 
 - Unification of ginger to all one type of ginger instead of many different ones
+
+- Unification of lettuce to all one type of lettuce instead of many different ones
