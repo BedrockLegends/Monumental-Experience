@@ -132,3 +132,5 @@
 - Unification of Corn to allow one type of Corn instead of many different ones
 
 - Unification of Eggplant to allow one type of Eggplant instead of many different ones
+
+- Unification of ginger to all one type of ginger instead of many different ones
