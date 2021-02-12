@@ -1,8 +1,8 @@
 {
     "type": "create:mechanical_crafting",
     "pattern": [
-        " ACA ",
-        "A B A",
+        "AACAA",
+        "  B  ",
         "  B  ",
         "  B  ",
         "  B  "

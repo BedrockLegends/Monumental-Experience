@@ -2,7 +2,7 @@
     "type": "create:mechanical_crafting",
     "pattern": [
         " AABA",
-        "A  C ",
+        " A C ",
         "   C ",
         "   C ",
         "   C "
