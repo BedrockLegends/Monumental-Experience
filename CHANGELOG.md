@@ -124,3 +124,7 @@
 - Unification of Banana to allow one type of Banana instead of many different ones
 
 - Unification of Orange to allow one type of Orange instead of many different ones
+
+- Unification of Pear to allow one type of Pear instead of many different ones
+
+- Unification of Plum to allow one type of Plum instead of many different ones
