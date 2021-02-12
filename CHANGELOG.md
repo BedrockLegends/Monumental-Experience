@@ -117,4 +117,6 @@
 
 - Unification of Barley to allow one type of Barley instead of many different ones
 
-- - Unification of Tomato to allow one type of Tomato instead of many different ones
+- Unification of Tomato to allow one type of Tomato instead of many different ones
+
+- Unification of Banana to allow one type of Banana instead of many different ones
