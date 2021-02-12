@@ -109,4 +109,6 @@
 
 - Unification of Tin Gears to allow one type of Tin Gears instead of many different 
 
-- Unification of Steel Plate to allow one type of Steel Platess instead of many different ones
+- Unification of Steel Plate to allow one type of Steel Plates instead of many different ones
+
+- Unification of Bronze Plate to allow one type of Bronze Plates instead of many different ones
