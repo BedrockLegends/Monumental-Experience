@@ -102,3 +102,5 @@
 - New Computercraft Recipes
 
 - New CookingForBlockhead recipes to use tag system and made some recipes harder
+
+- Unification of Iron plates to allow one type of Iron plate instead of many different ones
