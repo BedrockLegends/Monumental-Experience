@@ -107,4 +107,6 @@
 
 - Unification of Copper Gears to allow one type of Copper Gears instead of many different ones
 
-- Unification of Tin Gears to allow one type of Tin Gears instead of many different ones
+- Unification of Tin Gears to allow one type of Tin Gears instead of many different 
+
+- Unification of Steel Plate to allow one type of Steel Platess instead of many different ones
