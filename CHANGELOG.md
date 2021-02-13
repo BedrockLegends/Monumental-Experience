@@ -151,6 +151,8 @@
 
 - Unification of Turnip to allow one type of Turnip instead of many different ones
 
+- Unification of Zucchini to allow one type of zucchini instead of many different ones
+
 - Add tags to Basic Crafting Table to allow any workbench
 
 - Removed several tagged smelting recipes from new mods
