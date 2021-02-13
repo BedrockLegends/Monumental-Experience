@@ -1,98 +1,15 @@
 {
 	id: "000000000000025D",
 	group: "",
-	order_index: 32,
+	order_index: 58,
 	filename: "mobkilling",
-	title: "&9Overworld Quests",
-	icon: "minecraft:zombie_head",
+	title: "&9The Overworld",
+	icon: "minecraft:grass_block",
 	default_quest_shape: "",
 	quests: [
 		{
-			x: 1.0d,
-			y: -1.0d,
-			dependencies: ["00000000000003A3"],
-			id: "00000000000003A1",
-			tasks: [{
-				id: "00000000000003A2",
-				type: "kill",
-				title: "Let's Kill a Nasty Blaze!!!!",
-				entity: "minecraft:blaze",
-				value: 30L
-			}],
-			rewards: [{
-				id: "0000000000001016",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
 			x: 0.0d,
-			y: 0.0d,
-			shape: "heart",
-			size: 1.5d,
-			id: "00000000000003A3",
-			tasks: [{
-				id: "00000000000003A4",
-				type: "dimension",
-				dimension: "minecraft:the_nether"
-			}]
-		},
-		{
-			x: -1.0d,
 			y: 1.0d,
-			dependencies: ["00000000000003A3"],
-			id: "00000000000003A7",
-			tasks: [{
-				id: "00000000000003A8",
-				type: "kill",
-				entity: "minecraft:wither_skeleton",
-				value: 30L
-			}],
-			rewards: [{
-				id: "0000000000001017",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: 0.0d,
-			y: 1.5d,
-			dependencies: ["00000000000003A3"],
-			id: "0000000000001425",
-			tasks: [{
-				id: "0000000000001426",
-				type: "kill",
-				title: "Let's Kill a Zombie Pigman!!!!",
-				entity: "minecraft:zombie_pigman",
-				value: 50L
-			}],
-			rewards: [{
-				id: "0000000000001030",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: 1.0d,
-			y: 1.0d,
-			dependencies: ["00000000000003A3"],
-			id: "0000000000001427",
-			tasks: [{
-				id: "0000000000001428",
-				type: "kill",
-				title: "Let's Kill a Magma Slime",
-				entity: "minecraft:magma_cube",
-				value: 30L
-			}],
-			rewards: [{
-				id: "0000000000001031",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -6.0d,
-			y: 5.0d,
 			dependencies: ["00000000000017BF"],
 			id: "00000000000004FF",
 			tasks: [{
@@ -108,8 +25,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 4.0d,
+			x: 1.0d,
+			y: 0.0d,
 			shape: "gear",
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000505",
@@ -126,8 +43,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 3.0d,
+			x: 1.0d,
+			y: -1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000507",
 			tasks: [{
@@ -143,8 +60,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 4.0d,
+			x: 2.0d,
+			y: 0.0d,
 			shape: "gear",
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000509",
@@ -161,8 +78,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 2.0d,
+			x: -1.0d,
+			y: -2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000511",
 			tasks: [{
@@ -178,25 +95,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 0.0d,
-			dependencies: ["00000000000003A3"],
-			id: "0000000000000515",
-			tasks: [{
-				id: "0000000000000516",
-				type: "kill",
-				entity: "minecraft:ghast",
-				value: 15L
-			}],
-			rewards: [{
-				id: "0000000000001018",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -8.0d,
-			y: 5.0d,
+			x: -2.0d,
+			y: 1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000519",
 			tasks: [{
@@ -212,8 +112,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 3.0d,
+			x: -1.0d,
+			y: -1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "000000000000051B",
 			tasks: [{
@@ -229,8 +129,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 6.0d,
+			x: 0.0d,
+			y: 2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000525",
 			tasks: [{
@@ -246,8 +146,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 5.0d,
+			x: 1.0d,
+			y: 1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000527",
 			tasks: [{
@@ -263,8 +163,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 3.0d,
+			x: 0.0d,
+			y: -1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000529",
 			tasks: [{
@@ -280,8 +180,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 3.0d,
+			x: 2.0d,
+			y: -1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "000000000000052B",
 			tasks: [{
@@ -297,8 +197,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 4.0d,
+			x: -1.0d,
+			y: 0.0d,
 			dependencies: ["00000000000017BF"],
 			id: "000000000000052D",
 			tasks: [{
@@ -314,8 +214,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 4.0d,
+			x: -2.0d,
+			y: 0.0d,
 			dependencies: ["00000000000017BF"],
 			id: "000000000000052F",
 			tasks: [{
@@ -331,8 +231,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 2.0d,
+			x: 0.0d,
+			y: -2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000531",
 			tasks: [{
@@ -348,8 +248,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 5.0d,
+			x: -1.0d,
+			y: 1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000533",
 			tasks: [{
@@ -365,8 +265,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 2.0d,
+			x: 1.0d,
+			y: -2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000535",
 			tasks: [{
@@ -382,26 +282,8 @@
 			}]
 		},
 		{
-			icon: "minecraft:wither_skeleton_skull",
-			x: -1.5d,
-			y: 0.0d,
-			dependencies: ["00000000000003A3"],
-			id: "0000000000000537",
-			tasks: [{
-				id: "0000000000000538",
-				type: "kill",
-				entity: "minecraft:wither",
-				value: 5L
-			}],
-			rewards: [{
-				id: "0000000000001015",
-				type: "item",
-				item: "lootbagmod:lootbag"
-			}]
-		},
-		{
-			x: -5.0d,
-			y: 6.0d,
+			x: 1.0d,
+			y: 2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "00000000000017B5",
 			tasks: [{
@@ -417,8 +299,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 5.0d,
+			x: 2.0d,
+			y: 1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "00000000000017B7",
 			tasks: [{
@@ -434,8 +316,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 3.0d,
+			x: -2.0d,
+			y: -1.0d,
 			dependencies: ["00000000000017BF"],
 			id: "00000000000017B9",
 			tasks: [{
@@ -451,8 +333,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 6.0d,
+			x: -1.0d,
+			y: 2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "00000000000017BB",
 			tasks: [{
@@ -469,8 +351,8 @@
 		},
 		{
 			disable_toast: true,
-			x: -6.0d,
-			y: 4.0d,
+			x: 0.0d,
+			y: 0.0d,
 			shape: "heart",
 			id: "00000000000017BF",
 			tasks: [{
@@ -480,8 +362,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 6.0d,
+			x: -2.0d,
+			y: 2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000BF8",
 			tasks: [{
@@ -498,8 +380,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 2.0d,
+			x: 2.0d,
+			y: -2.0d,
 			dependencies: ["00000000000017BF"],
 			id: "0000000000000BFC",
 			tasks: [{
