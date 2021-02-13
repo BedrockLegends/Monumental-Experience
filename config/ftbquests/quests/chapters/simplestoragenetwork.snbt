@@ -1,7 +1,7 @@
 {
 	id: "0000000000000CDE",
 	group: "",
-	order_index: 53,
+	order_index: 52,
 	filename: "simplestoragenetwork",
 	title: "&9Simple Storage Network",
 	icon: "storagenetwork:inventory",

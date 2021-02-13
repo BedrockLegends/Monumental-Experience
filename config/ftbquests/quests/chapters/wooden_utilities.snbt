@@ -1,7 +1,7 @@
 {
 	id: "0000000000000A99",
 	group: "",
-	order_index: 59,
+	order_index: 60,
 	filename: "wooden_utilities",
 	title: "&9Wooden Utilities",
 	icon: "woodenutilities:wooden_plate",

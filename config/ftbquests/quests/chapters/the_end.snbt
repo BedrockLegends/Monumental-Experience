@@ -1,10 +1,10 @@
 {
 	id: "0000000000000BAB",
 	group: "",
-	order_index: 57,
+	order_index: 56,
 	filename: "the_end",
 	title: "&9The End",
-	icon: "minecraft:end_portal_frame",
+	icon: "minecraft:end_stone",
 	default_quest_shape: "",
 	quests: [
 		{

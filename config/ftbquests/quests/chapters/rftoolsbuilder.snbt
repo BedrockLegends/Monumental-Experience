@@ -1,7 +1,7 @@
 {
 	id: "000000000000099C",
 	group: "",
-	order_index: 49,
+	order_index: 48,
 	filename: "rftoolsbuilder",
 	title: "&9Rftools Builder",
 	icon: "rftoolsbuilder:builder",

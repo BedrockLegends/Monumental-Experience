@@ -1,7 +1,7 @@
 {
 	id: "0000000000000D24",
 	group: "",
-	order_index: 60,
+	order_index: 61,
 	filename: "xnet",
 	title: "&9Xnet",
 	icon: "xnet:connector_upgrade",

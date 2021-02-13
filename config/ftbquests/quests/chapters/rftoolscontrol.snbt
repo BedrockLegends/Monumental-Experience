@@ -1,7 +1,7 @@
 {
 	id: "00000000000009B8",
 	group: "",
-	order_index: 50,
+	order_index: 49,
 	filename: "rftoolscontrol",
 	title: "&9Rftools Control",
 	icon: "rftoolscontrol:graphics_card",

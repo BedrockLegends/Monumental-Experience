@@ -1,7 +1,7 @@
 {
 	id: "0000000000002295",
 	group: "",
-	order_index: 55,
+	order_index: 54,
 	filename: "scanable",
 	title: "Scanable",
 	icon: "scannable:module_blank",

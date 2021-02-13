@@ -1,7 +1,7 @@
 {
 	id: "000000000000106A",
 	group: "",
-	order_index: 42,
+	order_index: 41,
 	filename: "not_enough_wands",
 	title: "&9Not Enough Wands",
 	icon: "notenoughwands:illumination_wand",
