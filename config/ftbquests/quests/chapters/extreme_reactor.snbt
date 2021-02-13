@@ -113,7 +113,7 @@
 			tasks: [{
 				id: "0000000000001F7E",
 				type: "item",
-				item: "bigreactors:basic_reactorpowertapfe_passive"
+				item: "bigreactors:basic_reactorpowertapfe_active"
 			}],
 			rewards: [{
 				id: "0000000000001FB6",
@@ -177,7 +177,7 @@
 			tasks: [{
 				id: "0000000000001F86",
 				type: "item",
-				item: "bigreactors:reinforced_reactorpowertapfe_passive"
+				item: "bigreactors:reinforced_reactorpowertapfe_active"
 			}],
 			rewards: [{
 				id: "0000000000001FB1",
@@ -406,7 +406,7 @@
 			tasks: [{
 				id: "0000000000001FA2",
 				type: "item",
-				item: "bigreactors:basic_turbinepowertapfe_passive"
+				item: "bigreactors:basic_turbinepowertapfe_active"
 			}],
 			rewards: [{
 				id: "0000000000001FC3",
@@ -422,7 +422,7 @@
 			tasks: [{
 				id: "0000000000001FA4",
 				type: "item",
-				item: "bigreactors:reinforced_turbinepowertapfe_passive"
+				item: "bigreactors:reinforced_turbinepowertapfe_active"
 			}],
 			rewards: [{
 				id: "0000000000001FBD",
