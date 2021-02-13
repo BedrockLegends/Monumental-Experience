@@ -71,7 +71,7 @@
 	#Default: 100
 	#-------------------------------------------
 	#Range: -1 ~ 1000
-	"Integer: Idle Thrist Tick Rate" = 6000
+	"Integer: Idle Thrist Tick Rate" = 1000
 
 [Hunger]
 	#
@@ -89,7 +89,7 @@
 	#Default: 120
 	#-------------------------------------------
 	#Range: -1 ~ 1000
-	"Integer: Idle Hunger Tick Rate" = 12000
+	"Integer: Idle Hunger Tick Rate" = 1000
 
 [Sleep]
 	#
