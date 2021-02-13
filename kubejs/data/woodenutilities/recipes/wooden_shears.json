@@ -1,12 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " #",
-    "# "
+    "# ",
+    "S#"
   ],
   "key": {
     "#": {
-      "tag": "forge:plates/wooden"
+      "tag": "minecraft:planks"
+    },
+	"S": {
+      "tag": "forge:rods"
     }
   },
   "result": {
