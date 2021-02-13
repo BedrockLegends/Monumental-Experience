@@ -1,0 +1,107 @@
+{
+	id: "2243E6C17F1E2C1C",
+	group: "",
+	order_index: 57,
+	filename: "the_nether",
+	title: "&9The Nether",
+	icon: "minecraft:netherrack",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "7C589F0EA108BF7D",
+			tasks: [{
+				id: "17380F7B82AD13A1",
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "0261976A6E83F231",
+			tasks: [{
+				id: "6D4BCACDBB648BA9",
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 5L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "53EBDC8015AC3E6F",
+			tasks: [{
+				id: "6413458CCC5030FB",
+				type: "kill",
+				entity: "minecraft:magma_cube",
+				value: 20L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "17A32840FC34D935",
+			tasks: [{
+				id: "212B75FE49D4584A",
+				type: "kill",
+				entity: "minecraft:zombified_piglin",
+				value: 50L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "138762F8094F1F23",
+			tasks: [{
+				id: "6B916236E638949F",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 30L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "2031DEB10E960374",
+			tasks: [{
+				id: "5AB9B3EDDFC3F6D0",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 10L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -1.5d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "697A5C843D1FE360",
+			tasks: [{
+				id: "15AB089461B40E08",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 30L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: ["7C589F0EA108BF7D"],
+			id: "2E74DD71F67952FD",
+			tasks: [{
+				id: "133D9CD2181A8C5F",
+				type: "advancement",
+				advancement: "",
+				criterion: ""
+			}]
+		}
+	]
+}
