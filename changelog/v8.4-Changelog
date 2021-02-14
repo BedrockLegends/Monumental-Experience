@@ -52,7 +52,13 @@
 
 - Some quest lines, added Nether Quests
 
-- Some Recipes
+- Netherite Tools Recipes
+
+- Netherite Aromor Recipes
+
+- Changed RftoolsBuilder Frame Recipe
+
+- Changed ShockMetal Diamond Frame Recipe
 
 
 **Added**
@@ -67,4 +73,5 @@
 
 
 **Removed**
+
 - Black Iron Frame Recipe and Item From JEI as it is No Longer used for Anything
