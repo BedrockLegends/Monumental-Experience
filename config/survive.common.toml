@@ -32,7 +32,7 @@
 	#Default: 0.001
 	#-------------------------------------------
 	#Range: 1.0E-4 ~ 1.0
-	"Double: Temperature Update Speed" = 0.001
+	"Double: Temperature Update Speed" = 0.0001
 
 [Thirst]
 	#
