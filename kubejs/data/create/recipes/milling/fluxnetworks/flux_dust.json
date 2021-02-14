@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "fluxnetworks:flux_dust"
+    }
+  ]
+}
