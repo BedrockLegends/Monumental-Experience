@@ -372,6 +372,7 @@ events.listen('recipes', p => {
         'powder_power:powder_gold',
 		'occultism:smelting/gold_ingot_from_dust',
 		'undergarden:smelt_undergarden_gold',
+		'electrodynamics:ingotgold_dust_smelting',
 
         //gold blasting recipes removed
         'thermal:smelting/gold_ingot_from_dust_blasting',
@@ -425,6 +426,9 @@ events.listen('recipes', p => {
         'powder_power:powder_iron',
 		'occultism:smelting/iron_ingot_from_dust',
 		'undergarden:smelt_undergarden_iron',
+		'undergarden:smelt_catalyst',
+		'electrodynamics:ingotiron_dust_smelting',
+
 
         //iron blasting recipes removed
         'thermal:smelting/iron_ingot_from_dust_blasting',
