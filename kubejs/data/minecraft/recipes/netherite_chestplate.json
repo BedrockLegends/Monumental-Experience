@@ -16,7 +16,7 @@
             "tag": "forge:ingots/netherite"
         },
         "B": {
-            "item": "minecraft:diamond_chestplate"
+            "item": "shockmetal:shockmetal_chestplate"
         }
     },
     "result": {

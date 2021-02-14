@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CSC",
+        "SDS",
+        "CSC"
+    ],
+    
+    "key":
+    {
+        "C": [
+      {
+        "item": "compressium:coal_1"
+      }
+        ],
+        
+        "S":
+        {
+            "tag": "forge:rods/wooden"
+        },
+        
+        "D":
+        {
+            "tag": "forge:gems/mana_diamond"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shockmetal:frame_diamond",
+        "count": 1
+    }
+}

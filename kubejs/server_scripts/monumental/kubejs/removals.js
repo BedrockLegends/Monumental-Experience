@@ -155,6 +155,7 @@ events.listen('recipes', p => {
         //black iron recipes removed
         'extendedcrafting:black_iron_ingot',
         'extendedcrafting:black_iron_ingot_recraft',
+        'extendedcrafting:frame',
 
         //bucket recipe removed
         'minecraft:bucket',

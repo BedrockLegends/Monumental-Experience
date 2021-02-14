@@ -16,7 +16,7 @@
             "tag": "forge:ingots/netherite"
         },
         "B": {
-            "item": "minecraft:diamond_helmet"
+            "item": "shockmetal:shockmetal_helmet"
         }
     },
     "result": {
