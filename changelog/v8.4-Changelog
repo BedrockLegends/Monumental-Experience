@@ -44,11 +44,15 @@
 
 - Platforms
 
+- Mystical Agriculture
+
 **Changed**
 
 - Survive Config to stop Crying
 
-- Updated some quest lines, added Nether Quests
+- Some quest lines, added Nether Quests
+
+- Some Recipes
 
 
 **Added**
@@ -58,3 +62,9 @@
 - Unification of Rye to allow one type of Rye instead of many different ones
 
 - Unification of Rice to allow one type of Rice instead of many different ones
+
+- ShockMetal
+
+
+**Removed**
+- Black Iron Frame Recipe and Item From JEI as it is No Longer used for Anything
