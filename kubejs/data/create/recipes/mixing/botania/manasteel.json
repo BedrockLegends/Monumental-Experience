@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    },
+    {
+      "tag": "forge:nuggets/manasteel"
+    }
+  ],
+  "results": [
+    {
+      "item": "botania:manasteel_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}
