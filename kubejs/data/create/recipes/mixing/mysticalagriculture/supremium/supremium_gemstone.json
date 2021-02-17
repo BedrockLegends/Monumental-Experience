@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_gemstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:supremium_gemstone",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "tag": "forge:hoes"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:supremium_farmland",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}
