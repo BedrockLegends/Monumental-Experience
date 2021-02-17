@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagradditions:prudentium_apple",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}
