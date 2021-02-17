@@ -562,6 +562,18 @@ events.listen('recipes', p => {
 		//platinum blasting recipes removed
 		'alltheores:blasting_dust/platinum_ingot',
 
+        //prudentium apple recipe removed
+        'mysticalagradditions:prudentium_apple',
+
+        //prudentium coal recipe removed
+        'mysticalagradditions:prudentium_coal',
+
+        //prudentium gemstone recipe removed
+        'mysticalagriculture:prudentium_gemstone',
+
+        //prudentium watering can recipe removed
+        'mysticalagriculture:prudentium_watering_can',
+
 		//quartz smelting recipes removed
 		'powder_power:quartz_from_powder',
 		'minecraft:quartz',
