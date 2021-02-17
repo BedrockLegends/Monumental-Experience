@@ -242,7 +242,7 @@ events.listen('recipes', p => {
 			
         //dust from obsidian furance recipes removed
         'occultism:smelting/obsidian_from_dust',
-        
+
 		//diamond smelting recipes removed
 		'clib:diamond_dust_smelting',
 		'minecraft:diamond_from_smelting',
@@ -604,6 +604,9 @@ events.listen('recipes', p => {
 
         //supremium gemstone recipe removed
         'mysticalagriculture:supremium_gemstone',
+        
+        //supremium watering can recipe removed
+        'mysticalagriculture:supremium_watering_can',
 
         //storage drawers half drawers recipes removed
         'storagedrawers:dark_oak_half_drawers_4',
