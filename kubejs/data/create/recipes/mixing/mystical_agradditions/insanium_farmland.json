@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "tag": "forge:hoes"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagradditions:insanium_farmland",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}

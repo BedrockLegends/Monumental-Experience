@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_nugget"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:prosperity_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}

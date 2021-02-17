@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_gemstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagradditions:insanium_gemstone",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

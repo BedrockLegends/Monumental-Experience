@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "tag": "mysticalagriculture:infusion_crystals"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagradditions:insanium_essence",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}
