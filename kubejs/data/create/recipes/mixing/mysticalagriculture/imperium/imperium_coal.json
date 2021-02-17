@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagradditions:imperium_coal",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

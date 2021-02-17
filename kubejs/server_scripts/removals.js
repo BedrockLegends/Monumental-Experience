@@ -454,6 +454,21 @@ events.listen('recipes', p => {
         //insanium farland recipe removed
         'mysticalagradditions:insanium_farmland',
 
+        //imperium farmland recipe removed
+        'mysticalagriculture:imperium_farmland',
+
+        //imperium apple recipe removed
+        'mysticalagradditions:imperium_apple',
+
+        //imperium coal recipe removed
+        'mysticalagradditions:imperium_coal',
+
+        //imperium gemstone recipe removed
+        'mysticalagriculture:imperium_gemstone',
+
+        //imperium watering can recipe removed
+        'mysticalagriculture:imperium_watering_can',
+
 		//lead smelting recipes removed
 		'mekanism:processing/lead/ingot/from_dust_smelting',
 		'alltheores:smelting_dust/lead_ingot',
