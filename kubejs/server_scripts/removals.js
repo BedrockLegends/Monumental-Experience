@@ -240,7 +240,9 @@ events.listen('recipes', p => {
 	    'occultism:blasting/copper_ingot',
 	    'occultism:blasting/copper_ingot_from_dust',
 			
-
+        //dust from obsidian furance recipes removed
+        'occultism:smelting/obsidian_from_dust',
+        
 		//diamond smelting recipes removed
 		'clib:diamond_dust_smelting',
 		'minecraft:diamond_from_smelting',
@@ -440,7 +442,6 @@ events.listen('recipes', p => {
 		//immersiveengineering nugget recipes removed
 		'immersiveengineering:crafting/nugget_nickel_to_ingot_nickel',
 
-
         //insanium apple recipe removed
         'mysticalagradditions:insanium_apple',
 
@@ -498,58 +499,6 @@ events.listen('recipes', p => {
 		'mekanism:processing/refined_obsidian/ingot/from_nuggets',
 		'mekanism:processing/refined_glowstone/ingot/from_nuggets',
 
-		//metalbarrels recipes removed
-		'metalbarrels:upgrades/diamond_to_crystal_upgrade',
-		'metalbarrels:upgrades/nested/gold_to_crystal_upgrade',
-		'metalbarrels:upgrades/nested/silver_to_crystal_upgrade',
-		'metalbarrels:upgrades/nested/iron_to_crystal_upgrade',
-		'metalbarrels:upgrades/nested/copper_to_crystal_upgrade',
-		'metalbarrels:upgrades/nested/wood_to_crystal_upgrade',
-		'metalbarrels:upgrades/diamond_to_obsidian_upgrade',
-		'metalbarrels:upgrades/nested/gold_to_obsidian_upgrade',
-		'metalbarrels:upgrades/gold_to_diamond_upgrade',
-		'metalbarrels:upgrades/nested/silver_to_obsidian_upgrade',
-		'metalbarrels:upgrades/silver_to_diamond_upgrade',
-		'metalbarrels:upgrades/silver_to_gold_upgrade',
-		'metalbarrels:upgrades/nested/iron_to_obsidian_upgrade',
-		'metalbarrels:upgrades/nested/iron_to_diamond_upgrade',
-		'metalbarrels:upgrades/iron_to_gold_upgrade',
-		'metalbarrels:upgrades/iron_to_silver_upgrade',
-		'metalbarrels:upgrades/nested/copper_to_obsidian_upgrade',
-		'metalbarrels:upgrades/nested/copper_to_diamond_upgrade',
-		'metalbarrels:upgrades/nested/copper_to_gold_upgrade2',
-		'metalbarrels:upgrades/nested/copper_to_gold_upgrade',
-		'metalbarrels:upgrades/copper_to_silver_upgrade',
-		'metalbarrels:upgrades/copper_to_iron_upgrade',
-		'metalbarrels:upgrades/combine/wood_to_obsidian/wood_to_obsidian',
-		'metalbarrels:upgrades/combine/wood_to_obsidian/wood_to_obsidian2',
-		'metalbarrels:upgrades/nested/wood_to_obsidian_upgrade',
-		'metalbarrels:upgrades/combine/wood_to_diamond/wood_to_diamond',
-		'metalbarrels:upgrades/combine/wood_to_diamond/wood_to_diamond2',
-		'metalbarrels:upgrades/combine/wood_to_diamond/wood_to_diamond5',
-		'metalbarrels:upgrades/combine/wood_to_diamond/wood_to_diamond3',
-		'metalbarrels:upgrades/combine/wood_to_diamond/wood_to_diamond4',
-		'metalbarrels:upgrades/nested/wood_to_diamond_upgrade',
-		'metalbarrels:upgrades/nested/wood_to_gold_upgrade',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold6',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold5',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold7',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold2',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold4',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold3',
-		'metalbarrels:upgrades/combine/wood_to_gold/wood_to_gold',
-		'metalbarrels:upgrades/combine/wood_to_silver/wood_to_silver',
-		'metalbarrels:upgrades/nested/wood_to_silver/wood_to_silver',
-		'metalbarrels:upgrades/combine/wood_to_silver/wood_to_silver3',
-		'metalbarrels:upgrades/combine/wood_to_silver/wood_to_silver2',
-		'metalbarrels:upgrades/nested/wood_to_silver_upgrade',
-		'metalbarrels:upgrades/wood_to_iron_upgrade',
-		'metalbarrels:upgrades/wood_to_copper_upgrade',
-		'metalbarrels:barrels/wood_to_iron_barrel',
-		'metalbarrels:barrels/wood_to_gold_barrel',
-		'metalbarrels:barrels/silver_to_gold_barrel',
-		'metalbarrels:barrels/gold_to_diamond_barrel',
-
         //niter crafting removed
         'thermal:earth_charge/niter_dust_from_niter',
 
@@ -584,9 +533,6 @@ events.listen('recipes', p => {
 		//obsidian with iron to ingot recipe removed
 		'forbidden_arcanus:obsidian_ingot_from_blasting',
 		'forbidden_arcanus:obsidian_ingot',
-
-        //dust from obsidian furance recipes removed
-        'occultism:smelting/obsidian_from_dust',
 
 		//platinum smelting recipes removed
 		'alltheores:smelting_dust/platinum_ingot',
@@ -646,6 +592,18 @@ events.listen('recipes', p => {
 
         //rainbow ingot furance recipe removed
         'good_nights_sleep:rainbow_ingot_from_smelting',
+
+        //supremium farmland recipe removed
+        'mysticalagriculture:supremium_farmland',
+
+        //supremium apple recipe removed
+        'mysticalagradditions:supremium_apple',
+
+        //supremium coal recipe removed
+        'mysticalagradditions:supremium_coal',
+
+        //supremium gemstone recipe removed
+        'mysticalagriculture:supremium_gemstone',
 
         //storage drawers half drawers recipes removed
         'storagedrawers:dark_oak_half_drawers_4',
