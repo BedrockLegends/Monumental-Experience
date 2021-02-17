@@ -713,6 +713,21 @@ events.listen('recipes', p => {
         'appliedenergistics2:tools/nether_quartz_pickaxe',
         'appliedenergistics2:tools/nether_quartz_sword',
 
+        //tertium farmland recipe removed
+        'mysticalagriculture:tertium_farmland',
+
+        //tertium apple recipe removed
+        'mysticalagradditions:tertium_apple',
+
+        //tertium coal recipe removed
+        'mysticalagradditions:tertium_coal',
+
+        //tertium gemstone recipe removed
+        'mysticalagriculture:tertium_gemstone',
+
+        //tertium watering can recipe removed
+        'mysticalagriculture:tertium_watering_can',
+
 		//uranium smelting recipes removed
 		'alltheores:uranium_ingot',
 		'alltheores:smelting_dust/uranium_ingot',
