@@ -49,8 +49,12 @@
 
 - Simple Planes
 
+- JourneyMap
+
 **Fixed**
 
 - Overlapping Keybindings & Full Screen Mod again
 
 **Removed**
+
+- FTB Minimap in favor of JourneyMap
