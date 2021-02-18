@@ -469,6 +469,21 @@ events.listen('recipes', p => {
         //imperium watering can recipe removed
         'mysticalagriculture:imperium_watering_can',
 
+        //inferium apple recipe removed
+        'mysticalagradditions:inferium_apple',
+
+        //inferium coal recipe removed
+        'mysticalagradditions:inferium_coal',
+
+        //inferium gemstone recipe removed
+        'mysticalagriculture:inferium_gemstone',
+
+        //inferium farland recipe removed
+        'mysticalagriculture:inferium_farmland',
+
+        //inferium watering can recipe removed
+        'mysticalagriculture:inferium_watering_can',
+
 		//lead smelting recipes removed
 		'mekanism:processing/lead/ingot/from_dust_smelting',
 		'alltheores:smelting_dust/lead_ingot',
@@ -619,6 +634,9 @@ events.listen('recipes', p => {
 
         //rainbow ingot furance recipe removed
         'good_nights_sleep:rainbow_ingot_from_smelting',
+
+        //soulium gemstone recipe removed
+        'mysticalagriculture:soulium_gemstone',
 
         //supremium farmland recipe removed
         'mysticalagriculture:supremium_farmland',
