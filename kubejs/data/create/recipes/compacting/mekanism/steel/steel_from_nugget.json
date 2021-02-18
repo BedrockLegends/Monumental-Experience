@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/steel"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:dust_steel"
+        }
+    ],
+    "heatRequirement": "heated"
+}

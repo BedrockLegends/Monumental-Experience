@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:ingot_bronze",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}

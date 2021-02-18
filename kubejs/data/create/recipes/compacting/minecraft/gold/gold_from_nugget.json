@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/gold"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "heatRequirement": "heated"
+}

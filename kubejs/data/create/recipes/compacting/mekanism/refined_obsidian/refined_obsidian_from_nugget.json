@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/refined_obsidian"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:ingot_refined_obsidian"
+        }
+    ],
+    "heatRequirement": "heated"
+}

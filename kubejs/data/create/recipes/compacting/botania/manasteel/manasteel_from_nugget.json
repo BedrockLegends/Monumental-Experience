@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/manasteel"
+        }
+    ],
+    "results": [
+        {
+            "item": "botania:manasteel_ingot"
+        }
+    ],
+    "heatRequirement": "heated"
+}
