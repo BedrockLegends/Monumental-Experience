@@ -27,7 +27,7 @@ map_mode = "NONE"
 water_height_factor = 8
 #Enables minimap to show up in corner
 #Allowed Values: DISABLED, BOTTOM_LEFT, LEFT, TOP_LEFT, TOP_RIGHT, RIGHT, BOTTOM_RIGHT
-minimap = "TOP_RIGHT"
+minimap = "DISABLED"
 #Scale of minimap
 #Range: 0.25 ~ 4.0
 minimap_scale = 1.0
