@@ -14,24 +14,24 @@
             "item": "mysticalagriculture:mystical_fertilizer"
         },
         {
-            "item": "mysticalagriculture:prudentium_ingot"
+            "item": "mysticalagriculture:inferium_ingot"
         },
         {
-            "item": "mysticalagriculture:prudentium_ingot"
+            "item": "mysticalagriculture:inferium_ingot"
         },
         {
-            "item": "mysticalagriculture:prudentium_ingot"
+            "item": "mysticalagriculture:inferium_ingot"
         },
         {
-            "item": "mysticalagriculture:prudentium_ingot"
+            "item": "mysticalagriculture:inferium_ingot"
         },
         {
-            "item": "mysticalagriculture:inferium_watering_can"
+            "item": "mysticalagriculture:watering_can"
         }
     ],
     "results": [
         {
-            "item": "mysticalagriculture:prudentium_watering_can",
+            "item": "mysticalagriculture:inferium_watering_can",
             "count": 1
         }
     ],
