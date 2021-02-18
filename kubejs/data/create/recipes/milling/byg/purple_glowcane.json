@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "byg:purple_glowcane"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:purple_glowcane_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 200
+}
