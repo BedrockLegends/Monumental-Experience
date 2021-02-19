@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:prosperity_gemstone",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

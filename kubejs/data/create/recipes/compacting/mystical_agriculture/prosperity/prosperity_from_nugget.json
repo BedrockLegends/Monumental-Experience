@@ -1,0 +1,14 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:prosperity_nugget"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:prosperity_ingot"
+        }
+    ],
+    "heatRequirement": "heated"
+}
