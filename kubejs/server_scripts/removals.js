@@ -589,6 +589,9 @@ events.listen('recipes', p => {
         //prudentium watering can recipe removed
         'mysticalagriculture:prudentium_watering_can',
 
+        //prosperity gemstone recipe removed
+        'mysticalagriculture:prosperity_gemstone',
+
 		//quartz smelting recipes removed
 		'powder_power:quartz_from_powder',
 		'minecraft:quartz',
