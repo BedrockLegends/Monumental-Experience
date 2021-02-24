@@ -22,8 +22,6 @@
 
 - Enchant With Mobs
 
-- Electrodynamics
-
 - Cosmetic Armor Rewroked
 
 - Supplementaries
@@ -37,8 +35,6 @@
 - Camera Mod
 
 - FTB Quests
-
-- Nuclear Science
 
 - Connected Glass
 
