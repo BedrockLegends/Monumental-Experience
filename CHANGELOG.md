@@ -9,150 +9,88 @@
 
 **Modpack Version**
 
-- 8.3
+- 9.0
 
 
 **Updated**
 
-- FTB Quest Chapters & FTB Quest Lines
+- Mekanism
 
-- Compact Machines
+- Lost Trinkets
 
-- KubeJS
+- Item Filters
 
-- Botany Trees
+- Enchant With Mobs
 
-- Botany Pots
+- Electrodynamics
 
-- AllTheModium
-
-- Just Enough Professions
-
-- Forge
-
-- Enviromental Tech, Removes Console Spam
-
-- Enchantment Descriptions
-
-- Dark Utilities
-
-- ValkyrieLib
-
-- Statues
-
-- Compressed Chest Recipe From Prefab
-
-- JEI Integration to 1.16.5
-
-- ZeroCore 2
-
-- Extreme Reactors 2
-
-- The FarLanders
-
-- Tool Recipes to Work right with create
-
-- TipTheScales
+- Cosmetic Armor Rewroked
 
 - Supplementaries
 
-- No Hostiles Around Campfire
+- Carry On
 
-- MythicBotany
+- Rftools Base
 
-- Macaw's Windows
-
-- Controlling
-
-- Compactmachines
-
-- Architectury API
+- Trashcans
 
 - Camera Mod
 
+- FTB Quests
+
+- Nuclear Science
+
+- Connected Glass
+
+- Shock Metal
+
+- Quark
+
+- KubeJS
+
+- Good Night Sleep
+
+- Artifacts
+
+- Architectury API
+
 - Advanced Peripherals
 
-- MC Doom Mod
+- CompactStorage
 
+- EngineersDecor
 
-**Changed**
+- LolliPop
 
-
-- FTB Mob Killing Quest Line & Moved it into its Own Quest Lines, see under added
-
-- Full Screen Mode being Turned on after updates, This is now turn off by default and can be turn back on in video settings
-
-- LootBagMod Config as it was a mess and had multiply items
-
-- Quark Config to not allow Tallow to Drop, This fixes a Conflict with occultism tallow
+- Much More
 
 
 **Added**
 
-- New Clockout Recipe
+- More Create Support, I went through and redid most of the create support
 
-- More Cyclic Recipes
+- More Unify Items to prevent double items in game.
 
-- Nether Quest Line with Mob Killing Quests for Nether Mobs
+- Simple Planes
 
-- End Mob Killing Quests to End Quest Line
+- JourneyMap
 
-- Overworld Quest Line with Mob Killing Quests Lines for Overworld Mobs
+- Doggy Talents
 
-- Animal Killing Quest line to Overworld Quest Line
+**Fixed**
 
-- New Computercraft Recipes
+- Overlapping Keybindings & Full Screen Mod again
 
-- New CookingForBlockhead recipes to use tag system and made some recipes harder
+- The Datapack by pretty much going through and redoing it top to bottom
 
-- Unification of Iron plates to allow one type of Iron plate instead of many different ones
+- More Recipes
 
-- Unification of Copper Gears to allow one type of Copper Gears instead of many different ones
+**Removed**
 
-- Unification of Tin Gears to allow one type of Tin Gears instead of many different 
+- FTB Minimap in favor of JourneyMap
 
-- Unification of Steel Plate to allow one type of Steel Plates instead of many different ones
+- Powder Power
 
-- Unification of Bronze Plate to allow one type of Bronze Plates instead of many different ones
+- Pedstals
 
-- Unification of Bronze Gear to allow one type of Bronze Gears instead of many different ones
-
-- Unification of Barley to allow one type of Barley instead of many different ones
-
-- Unification of Tomato to allow one type of Tomato instead of many different ones
-
-- Unification of Banana to allow one type of Banana instead of many different ones
-
-- Unification of Orange to allow one type of Orange instead of many different ones
-
-- Unification of Pear to allow one type of Pear instead of many different ones
-
-- Unification of Plum to allow one type of Plum instead of many different ones
-
-- Unification of Corn to allow one type of Corn instead of many different ones
-
-- Unification of Eggplant to allow one type of Eggplant instead of many different ones
-
-- Unification of ginger to allow one type of ginger instead of many different ones
-
-- Unification of lettuce to allow one type of lettuce instead of many different ones
-
-- Unification of Onion to allow one type of Onion instead of many different ones
-
-- Unification of Peanut to allow one type of Peanut instead of many different ones
-
-- Unification of Radish to allow one type of Radish instead of many different ones
-
-- Unification of Soybean to allow one type of Soybean instead of many different ones
-
-- Unification of Spinach to allow one type of Spinach instead of many different ones
-
-- Unification of Sweet Potato to allow one type of Sweet Potato instead of many different ones
-
-- Unification of Turnip to allow one type of Turnip instead of many different ones
-
-- Unification of Zucchini to allow one type of zucchini instead of many different ones
-
-- Add tags to Basic Crafting Table to allow any workbench
-
-- Removed several tagged smelting recipes from new mods
+- Ice & Fire, This will cause Maps wipes
