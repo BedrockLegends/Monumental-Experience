@@ -73,20 +73,17 @@
 
 - Doggy Talents
 
-**Fixed**
-
+**Fixed/changed**
 - Overlapping Keybindings & Full Screen Mod again
-
 - The Datapack by pretty much going through and redoing it top to bottom
-
 - More Recipes
+- Lost Tinkers Max slots from 40 to 20
+- Fixed Mek Power requirements again
+- 
 
 **Removed**
 
 - FTB Minimap in favor of JourneyMap
-
 - Powder Power
-
 - Pedstals
-
 - Ice & Fire, This will cause Maps wipes
