@@ -1,5 +1,0 @@
-
-[items]
-	#Whether the Kitty Slippers and Bunny Hoppers should modify the player's hurt sounds
-	modify_hurt_sounds = true
-
