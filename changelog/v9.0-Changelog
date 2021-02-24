@@ -9,7 +9,7 @@
 
 **Modpack Version**
 
-- 8.7
+- 9.0
 
 
 **Updated**
@@ -62,14 +62,20 @@
 
 - LolliPop
 
+- Much More
+
 
 **Added**
 
 - More Create Support, I went through and redid most of the create support
 
+- More Unify Items to prevent double items in game.
+
 - Simple Planes
 
 - JourneyMap
+
+- Doggy Talents
 
 **Fixed**
 
@@ -77,6 +83,13 @@
 
 - The Datapack by pretty much going through and redoing it top to bottom
 
+
 **Removed**
 
 - FTB Minimap in favor of JourneyMap
+
+- Powder Power
+
+- Pedstals
+
+- Ice & Fire, This will cause Maps wipes
