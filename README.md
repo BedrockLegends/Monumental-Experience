@@ -34,5 +34,3 @@ The Feed The Beast Team for use of their mods in Curseforge packs.
 
 
 ## Other Projects
-
-![alt text](https://media.forgecdn.net/avatars/323/124/637436145990428061.png)
