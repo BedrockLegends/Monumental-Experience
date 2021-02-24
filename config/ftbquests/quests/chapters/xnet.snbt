@@ -1,0 +1,300 @@
+{
+	id: "0000000000000D24",
+	group: "",
+	order_index: 61,
+	filename: "xnet",
+	title: "&9Xnet",
+	icon: "xnet:connector_upgrade",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "00000000000002D1",
+			tasks: [{
+				id: "00000000000002D2",
+				type: "item",
+				item: "xnet:controller"
+			}],
+			rewards: [
+				{
+					id: "0000000000001818",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001819",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["00000000000002D1"],
+			id: "00000000000003D1",
+			tasks: [{
+				id: "00000000000003D2",
+				type: "item",
+				item: "xnet:connector_blue"
+			}],
+			rewards: [
+				{
+					id: "0000000000001054",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001055",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000002D1"],
+			id: "00000000000014AB",
+			tasks: [{
+				id: "00000000000014AC",
+				type: "item",
+				item: "xnet:netcable_blue"
+			}],
+			rewards: [
+				{
+					id: "000000000000181A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000181B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["00000000000003D1"],
+			id: "00000000000014AD",
+			tasks: [{
+				id: "00000000000014AE",
+				type: "item",
+				item: "xnet:connector_upgrade"
+			}],
+			rewards: [
+				{
+					id: "0000000000001052",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001053",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			shape: "gear",
+			id: "00000000000014AF",
+			tasks: [{
+				id: "00000000000003D8",
+				type: "item",
+				item: "xnet:router",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "0000000000001042",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001043",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 4.0d,
+			shape: "gear",
+			id: "00000000000003D9",
+			tasks: [{
+				id: "00000000000003DA",
+				type: "item",
+				item: "xnet:wireless_router",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "0000000000001044",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001045",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			id: "00000000000014B0",
+			tasks: [{
+				id: "00000000000014B1",
+				type: "item",
+				item: "xnet:connector_routing"
+			}],
+			rewards: [
+				{
+					id: "0000000000001040",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001041",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			shape: "gear",
+			id: "00000000000014B2",
+			tasks: [{
+				id: "00000000000014B3",
+				type: "item",
+				item: "xnet:advanced_connector_routing"
+			}],
+			rewards: [
+				{
+					id: "000000000000103E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000103F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["00000000000002D1"],
+			id: "00000000000014B4",
+			tasks: [{
+				id: "00000000000003E0",
+				type: "item",
+				item: "xnet:netcable_routing"
+			}],
+			rewards: [
+				{
+					id: "0000000000001046",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001047",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000003D9"],
+			id: "00000000000003E1",
+			tasks: [{
+				id: "00000000000014B5",
+				type: "item",
+				item: "xnet:antenna_base",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "000000000000104E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000104F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["00000000000003E1"],
+			id: "00000000000003E3",
+			tasks: [{
+				id: "00000000000003E4",
+				type: "item",
+				item: "xnet:antenna",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "0000000000001050",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001051",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000003E1"],
+			id: "00000000000003E5",
+			tasks: [{
+				id: "00000000000003E6",
+				type: "item",
+				item: "xnet:antenna_dish",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: "000000000000181C",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000104D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

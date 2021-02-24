@@ -1,0 +1,155 @@
+{
+	id: "0000000000001402",
+	group: "",
+	order_index: 14,
+	filename: "extendedcrafting",
+	title: "&9Extended Crafting",
+	icon: "extendedcrafting:basic_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "&6Black Iron Ingot x2",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 2.0d,
+			id: "0000000000001403",
+			tasks: [{
+				id: "0000000000001404",
+				type: "item",
+				item: "extendedcrafting:black_iron_ingot",
+				count: 2L
+			}],
+			rewards: [{
+				id: "0000000000000FB3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&6Basic Crafting Table",
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["0000000000001403"],
+			id: "0000000000001405",
+			tasks: [{
+				id: "0000000000001406",
+				type: "item",
+				item: "extendedcrafting:basic_table"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FB5",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000156C",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "&6Luminessence",
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000001403"],
+			id: "0000000000001407",
+			tasks: [{
+				id: "0000000000001408",
+				type: "item",
+				item: "extendedcrafting:luminessence"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FB4",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000156D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "&6Advanced Crafting Table",
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000001403"],
+			id: "0000000000001409",
+			tasks: [{
+				id: "000000000000140A",
+				type: "item",
+				item: "extendedcrafting:advanced_table"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FB6",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000156B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			title: "&6Elite Crafting Table",
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000001403"],
+			id: "000000000000140B",
+			tasks: [{
+				id: "000000000000140C",
+				type: "item",
+				item: "extendedcrafting:elite_table"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FB7",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000156A",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000001403"],
+			id: "000000000000140D",
+			tasks: [{
+				id: "000000000000140E",
+				type: "item",
+				title: "&6Ultimate Crafting Table",
+				item: "extendedcrafting:ultimate_table"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FB8",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001569",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,410 @@
+{
+	id: "0000000000001CFC",
+	group: "",
+	order_index: 10,
+	filename: "create",
+	title: "&9Create",
+	icon: "create:crushing_wheel",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000001CFD",
+			tasks: [{
+				id: "0000000000001CFE",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 16L
+			}],
+			rewards: [{
+				id: "0000000000001D30",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Casings and Cogwheels",
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["0000000000001CFD"],
+			id: "0000000000001CFF",
+			tasks: [
+				{
+					id: "0000000000001D00",
+					type: "item",
+					item: "create:cogwheel"
+				},
+				{
+					id: "0000000000001D01",
+					type: "item",
+					item: "create:andesite_casing"
+				},
+				{
+					id: "0000000000001D2A",
+					type: "item",
+					item: "create:large_cogwheel"
+				},
+				{
+					id: "0000000000001D2D",
+					type: "item",
+					item: "create:shaft"
+				}
+			],
+			rewards: [{
+				id: "0000000000001D31",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D02",
+			tasks: [{
+				id: "0000000000001D03",
+				type: "item",
+				item: "create:mechanical_press"
+			}],
+			rewards: [{
+				id: "0000000000001D37",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D04",
+			tasks: [
+				{
+					id: "0000000000001D05",
+					type: "item",
+					item: "create:mechanical_mixer"
+				},
+				{
+					id: "0000000000001D27",
+					type: "item",
+					item: "create:basin"
+				}
+			],
+			rewards: [{
+				id: "0000000000001D38",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.0d,
+			dependencies: ["0000000000001D0A"],
+			id: "0000000000001D06",
+			tasks: [{
+				id: "0000000000001D07",
+				type: "item",
+				item: "create:blaze_burner"
+			}],
+			rewards: [{
+				id: "0000000000001D3C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 2.0d,
+			dependencies: [
+				"0000000000001D04",
+				"0000000000001D06"
+			],
+			id: "0000000000001D08",
+			tasks: [{
+				id: "0000000000001D09",
+				type: "item",
+				item: "create:brass_ingot"
+			}],
+			rewards: [{
+				id: "0000000000001D3B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -2.0d,
+			id: "0000000000001D0A",
+			tasks: [{
+				id: "0000000000001D0B",
+				type: "item",
+				item: "create:empty_blaze_burner"
+			}],
+			rewards: [{
+				id: "0000000000001D3A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			id: "0000000000001D0C",
+			tasks: [{
+				id: "0000000000001D0D",
+				type: "item",
+				item: {
+					id: "create:sand_paper",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001D45",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			dependencies: ["0000000000001D0C"],
+			id: "0000000000001D0F",
+			tasks: [{
+				id: "0000000000001D10",
+				type: "item",
+				item: "create:rose_quartz"
+			}],
+			rewards: [{
+				id: "0000000000001D44",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.0d,
+			dependencies: ["0000000000001D0F"],
+			id: "0000000000001D11",
+			tasks: [{
+				id: "0000000000001D12",
+				type: "item",
+				item: "create:polished_rose_quartz"
+			}],
+			rewards: [{
+				id: "0000000000001D43",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 6.0d,
+			dependencies: ["0000000000001D11"],
+			id: "0000000000001D13",
+			tasks: [{
+				id: "0000000000001D14",
+				type: "item",
+				item: "create:electron_tube"
+			}],
+			rewards: [{
+				id: "0000000000001D42",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			dependencies: [
+				"0000000000001D08",
+				"0000000000001D02"
+			],
+			id: "0000000000001D15",
+			tasks: [{
+				id: "0000000000001D16",
+				type: "item",
+				title: "Any forge:plates/brass",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:plates/brass"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001D3D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.0d,
+			dependencies: [
+				"0000000000001D13",
+				"0000000000001D19"
+			],
+			id: "0000000000001D17",
+			tasks: [{
+				id: "0000000000001D18",
+				type: "item",
+				item: "create:mechanical_crafter"
+			}],
+			rewards: [{
+				id: "0000000000001D41",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.0d,
+			dependencies: ["0000000000001D15"],
+			id: "0000000000001D19",
+			tasks: [{
+				id: "0000000000001D1A",
+				type: "item",
+				item: "create:brass_casing"
+			}],
+			rewards: [{
+				id: "0000000000001D3F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			dependencies: ["0000000000001D08"],
+			id: "0000000000001D1B",
+			tasks: [{
+				id: "0000000000001D1C",
+				type: "item",
+				item: "create:crafter_slot_cover"
+			}],
+			rewards: [{
+				id: "0000000000001D3E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 6.0d,
+			dependencies: ["0000000000001D17"],
+			id: "0000000000001D1D",
+			tasks: [{
+				id: "0000000000001D1E",
+				type: "item",
+				item: "create:crushing_wheel"
+			}],
+			rewards: [{
+				id: "0000000000001D40",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D1F",
+			tasks: [{
+				id: "0000000000001D20",
+				type: "item",
+				item: "create:gearshift"
+			}],
+			rewards: [{
+				id: "0000000000001D35",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D21",
+			tasks: [{
+				id: "0000000000001D22",
+				type: "item",
+				item: "create:clutch"
+			}],
+			rewards: [{
+				id: "0000000000001D34",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D23",
+			tasks: [{
+				id: "0000000000001D24",
+				type: "item",
+				item: "create:gearbox"
+			}],
+			rewards: [{
+				id: "0000000000001D33",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D25",
+			tasks: [{
+				id: "0000000000001D26",
+				type: "item",
+				item: "create:vertical_gearbox"
+			}],
+			rewards: [{
+				id: "0000000000001D32",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D28",
+			tasks: [{
+				id: "0000000000001D29",
+				type: "item",
+				item: "create:water_wheel"
+			}],
+			rewards: [{
+				id: "0000000000001D39",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: ["0000000000001CFF"],
+			id: "0000000000001D2B",
+			tasks: [{
+				id: "0000000000001D2C",
+				type: "item",
+				item: "create:windmill_bearing"
+			}],
+			rewards: [{
+				id: "0000000000001D36",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

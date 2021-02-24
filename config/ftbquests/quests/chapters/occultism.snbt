@@ -1,0 +1,46 @@
+{
+	id: "50B320AF33BC346F",
+	group: "",
+	order_index: 43,
+	filename: "occultism",
+	title: "Occultism",
+	icon: "occultism:dictionary_of_spirits",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.5d,
+			y: -2.5d,
+			shape: "heart",
+			size: 1.5d,
+			id: "444BD809DE0649EF",
+			tasks: [{
+				id: "77DC0D91908387EC",
+				type: "item",
+				item: "occultism:dictionary_of_spirits"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: 4.5d,
+			y: -2.5d,
+			dependencies: ["444BD809DE0649EF"],
+			id: "5A24F6BDCE5C7812",
+			tasks: [{
+				id: "221AF8DF66E559F3",
+				type: "item",
+				item: "occultism:datura"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.5d,
+			dependencies: ["5A24F6BDCE5C7812"],
+			id: "21E0599FB8426B11",
+			tasks: [{
+				id: "0F58A0C79561C1C5",
+				type: "item",
+				item: "occultism:spirit_attuned_gem"
+			}]
+		}
+	]
+}
