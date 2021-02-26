@@ -160,6 +160,15 @@ onEvent('jei.hide.items', event => {
   //brass
   event.hide('create:crushed_brass')
 
+  //bookshelfs
+  event.hide('quark:spruce_bookshelf')
+  event.hide('quark:birch_bookshelf')
+  event.hide('quark:jungle_bookshelf')
+  event.hide('quark:acacia_bookshelf')
+  event.hide('quark:dark_oak_bookshelf')
+  event.hide('quark:crimson_bookshelf')
+  event.hide('quark:warped_bookshelf')
+
   //blocks
   event.hide('immersiveengineering:storage_copper')
   event.hide('mekanism:block_copper')
@@ -181,6 +190,32 @@ onEvent('jei.hide.items', event => {
   event.hide('mekanism:block_uranium')
   event.hide('create:copper_block')
   event.hide('occultism:copper_block')
+
+  //chests
+  event.hide('quark:oak_chest')
+  event.hide('quark:spruce_chest')
+  event.hide('quark:birch_chest')
+  event.hide('quark:jungle_chest')
+  event.hide('quark:acacia_chest')
+  event.hide('quark:dark_oak_chest')
+  event.hide('quark:crimson_chest')
+  event.hide('quark:warped_chest')
+  event.hide('quark:nether_brick_chest')
+  event.hide('quark:purpur_chest')
+  event.hide('quark:prismarine_chest')
+  event.hide('quark:mushroom_chest')
+  event.hide('quark:oak_trapped_chest')
+  event.hide('quark:spruce_trapped_chest')
+  event.hide('quark:birch_trapped_chest')
+  event.hide('quark:jungle_trapped_chest')
+  event.hide('quark:acacia_trapped_chest')
+  event.hide('quark:dark_oak_trapped_chest')
+  event.hide('quark:crimson_trapped_chest')
+  event.hide('quark:warped_trapped_chest')
+  event.hide('quark:nether_brick_trapped_chest')
+  event.hide('quark:purpur_trapped_chest')
+  event.hide('quark:prismarine_trapped_chest')
+  event.hide('quark:mushroom_trapped_chest')
 
   //clumps
   event.hide('mekanism:clump_osmium')
@@ -932,6 +967,14 @@ onEvent('jei.hide.items', event => {
   //stick
   event.hide('immersiveposts:stick_copper')
 
+  //sapling
+  event.hide('quark:blue_blossom_sapling')
+  event.hide('quark:lavender_blossom_sapling')
+  event.hide('quark:orange_blossom_sapling')
+  event.hide('quark:pink_blossom_sapling')
+  event.hide('quark:yellow_blossom_sapling')
+  event.hide('quark:red_blossom_sapling')
+
   //shards
   event.hide('mekanism:shard_osmium')
   event.hide('mekanism:shard_uranium')
@@ -946,6 +989,24 @@ onEvent('jei.hide.items', event => {
   event.hide('alltheores:tin_shard')
   event.hide('alltheores:uranium_shard')
   event.hide('alltheores:zinc_shard')
+  event.hide('quark:clear_shard')
+  event.hide('quark:dirty_shard')
+  event.hide('quark:white_shard')
+  event.hide('quark:orange_shard')
+  event.hide('quark:magenta_shard')
+  event.hide('quark:light_blue_shard')
+  event.hide('quark:yellow_shard')
+  event.hide('quark:lime_shard')
+  event.hide('quark:pink_shard')
+  event.hide('quark:gray_shard')
+  event.hide('quark:light_gray_shard')
+  event.hide('quark:cyan_shard')
+  event.hide('quark:purple_shard')
+  event.hide('quark:blue_shard')
+  event.hide('quark:brown_shard')
+  event.hide('quark:green_shard')
+  event.hide('quark:red_shard')
+  event.hide('quark:black_shard')
 
   //die transmitter
   event.hide('refinedstorage:white_network_transmitter')
