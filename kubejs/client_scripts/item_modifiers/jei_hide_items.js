@@ -507,6 +507,23 @@ onEvent('jei.hide.items', event => {
   event.hide('immersiveengineering:aluminum_ingot')
 
   //die manager
+  event.hide('refinedstorage:white_crafting_monitor')
+  event.hide('refinedstorage:orange_crafting_monitor')
+  event.hide('refinedstorage:magenta_crafting_monitor')
+  event.hide('refinedstorage:yellow_crafting_monitor')
+  event.hide('refinedstorage:lime_crafting_monitor')
+  event.hide('refinedstorage:pink_crafting_monitor')
+  event.hide('refinedstorage:gray_crafting_monitor')
+  event.hide('refinedstorage:light_gray_crafting_monitor')
+  event.hide('refinedstorage:cyan_crafting_monitor')
+  event.hide('refinedstorage:purple_crafting_monitor')
+  event.hide('refinedstorage:blue_crafting_monitor')
+  event.hide('refinedstorage:brown_crafting_monitor')
+  event.hide('refinedstorage:green_crafting_monitor')
+  event.hide('refinedstorage:red_crafting_monitor')
+  event.hide('refinedstorage:black_crafting_monitor')
+
+  //die manager
   event.hide('refinedstorage:white_crafter_manager')
   event.hide('refinedstorage:orange_crafter_manager')
   event.hide('refinedstorage:magenta_crafter_manager')
