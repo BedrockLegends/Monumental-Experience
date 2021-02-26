@@ -43,7 +43,6 @@
 
 - More Create Support, I went through and redid most of the create support
 - More Unify Items to prevent double items in game.
-- Simple Planes
 - JourneyMap
 - Doggy Talents
 - Back Extended Crafting Auto Tables, Enjoy
