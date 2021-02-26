@@ -46,6 +46,7 @@
 - JourneyMap
 - Doggy Talents
 - Back Extended Crafting Auto Tables, Enjoy
+- Betterportals
 
 **Fixed/changed**
 - Overlapping Keybindings & Full Screen Mod again
