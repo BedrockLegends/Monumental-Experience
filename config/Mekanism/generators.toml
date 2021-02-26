@@ -36,13 +36,13 @@
 	#Wind Generator Settings
 	[generators.wind_generator]
 		#Minimum base generation value of the Wind Generator.
-		windGenerationMin = "30"
+		windGenerationMin = "60"
 		#Maximum base generation value of the Wind Generator.
 		windGenerationMax = "240"
 		#The minimum Y value that affects the Wind Generators Power generation.
-		windGenerationMinY = 24
+		windGenerationMinY = 40
 		#The maximum Y value that affects the Wind Generators Power generation.
-		windGenerationMaxY = 100
+		windGenerationMaxY = 80
 		#The list of dimension ids that the Wind Generator will not generate power in.
 		windGenerationDimBlacklist = []
 
