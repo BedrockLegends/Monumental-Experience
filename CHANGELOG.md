@@ -54,6 +54,13 @@
 - Lost Tinkers Max slots from 40 to 20
 - Fixed Mek Power requirements again
 - Morph-o-tools config
+- the number items stored in bins from Mek(They are not doubled instead of what they were before)
+- the Output rate of Chemical tanks by doubling the amount of of output rate
+- the minimum Y value that affects the Wind Generators Power generation.
+- the maximum Y value that affects the Wind Generators Power generation.
+- the Maximum base generation value of the Wind Generator.
+- the Minimum base generation value of the Wind Generator
+
 
 **Removed**
 
