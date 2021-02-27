@@ -67,6 +67,7 @@
 - Torchmaster config
 - Tombstone Config
 - Total Darkness being turned on in the Nether and End
+- Trashslot config
 
 **Removed**
 
