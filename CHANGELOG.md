@@ -47,6 +47,7 @@
 - Doggy Talents
 - Back Extended Crafting Auto Tables, Enjoy
 - Betterportals
+- Create Plus
 
 **Fixed/changed**
 - Overlapping Keybindings & Full Screen Mod again
