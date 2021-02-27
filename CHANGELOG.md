@@ -62,6 +62,7 @@
 - the Maximum base generation value of the Wind Generator.
 - the Minimum base generation value of the Wind Generator
 - waystones client config
+- fix torchmaster config
 
 
 **Removed**
