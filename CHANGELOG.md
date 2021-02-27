@@ -61,6 +61,7 @@
 - the maximum Y value that affects the Wind Generators Power generation.
 - the Maximum base generation value of the Wind Generator.
 - the Minimum base generation value of the Wind Generator
+- waystones client config
 
 
 **Removed**
