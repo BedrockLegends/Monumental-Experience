@@ -55,18 +55,18 @@
 - The Datapack by pretty much going through and redoing it top to bottom
 - More Recipes
 - Lost Tinkers Max slots from 40 to 20
-- Fixed Mek Power requirements again
+- Mek Power requirements again
 - Morph-o-tools config
-- the number items stored in bins from Mek(They are not doubled instead of what they were before)
-- the Output rate of Chemical tanks by doubling the amount of of output rate
-- the minimum Y value that affects the Wind Generators Power generation.
-- the maximum Y value that affects the Wind Generators Power generation.
-- the Maximum base generation value of the Wind Generator.
-- the Minimum base generation value of the Wind Generator
-- waystones client config
-- fix torchmaster config
-- Fix Tombstone Config
-
+- The number items stored in bins from Mek(They are not doubled instead of what they were before)
+- The Output rate of Chemical tanks by doubling the amount of of output rate
+- The minimum Y value that affects the Wind Generators Power generation.
+- The maximum Y value that affects the Wind Generators Power generation.
+- The Maximum base generation value of the Wind Generator.
+- The Minimum base generation value of the Wind Generator
+- Waystones client config
+- Torchmaster config
+- Tombstone Config
+- Total Darkness being turned on in the Nether and End
 
 **Removed**
 
