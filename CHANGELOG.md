@@ -64,6 +64,7 @@
 - the Minimum base generation value of the Wind Generator
 - waystones client config
 - fix torchmaster config
+- Fix Tombstone Config
 
 
 **Removed**
@@ -71,4 +72,3 @@
 - FTB Minimap in favor of JourneyMap
 - Powder Power
 - Pedstals
-- Ice & Fire, This will cause Maps wipes
