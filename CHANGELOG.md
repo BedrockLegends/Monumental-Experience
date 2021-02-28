@@ -76,4 +76,4 @@
 - FTB Minimap in favor of JourneyMap
 - Powder Power
 - Pedstals
-- All Auto Crafters In Favor of Extended Crafting Auto Tables(These Require a set amount of Power to Use)
+- Cyclic Crafting Machine
