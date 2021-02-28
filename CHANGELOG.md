@@ -76,3 +76,4 @@
 - FTB Minimap in favor of JourneyMap
 - Powder Power
 - Pedstals
+- Cyclic Crafting Machine
