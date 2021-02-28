@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:dark_oak_logs"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mcwfurnitures"
+        }
+    ],
+    "result": {
+        "item": "mcwfurnitures:dark_oak_plate"
+    }
+}

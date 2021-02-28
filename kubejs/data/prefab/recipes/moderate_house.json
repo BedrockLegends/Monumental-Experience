@@ -13,7 +13,7 @@
             "item": "mysticalagriculture:inferium_furnace"
         },
         "C": {
-            "item": "ironchest:silver_chest"
+            "item": "compactstorage:compact_chest_white"
         },
         "D": {
             "item": "ironagefurniture:chair_wood_ironage_classic_spruce"
@@ -33,5 +33,11 @@
     },
     "result": {
         "item": "prefab:item_moderate_house"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "prefab"
+        }
+    ]
 }

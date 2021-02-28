@@ -1,36 +1,42 @@
 {
-    "type": "botania:runic_altar",
-    "output": {
-        "item": "refinedstorage:upgrade"
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "refinedstorage:upgrade"
+  },
+  "mana": 20000,
+  "ingredients": [
+    {
+      "tag": "forge:glass"
     },
-    "mana": 20000,
-    "ingredients": [
-        {
-            "tag": "forge:glass"
-        },
-        {
-            "tag": "forge:glass"
-        },
-        {
-            "item": "refinedstorage:improved_processor"
-        },
-        {
-            "item": "refinedstorage:quartz_enriched_iron"
-        },
-        {
-            "item": "refinedstorage:quartz_enriched_iron"
-        },
-        {
-            "item": "refinedstorage:quartz_enriched_iron"
-        },
-        {
-            "item": "refinedstorage:quartz_enriched_iron"
-        },
-        {
-            "item": "refinedstorage:quartz_enriched_iron"
-        },
-        {
-            "item": "refinedstorage:quartz_enriched_iron"
-        }
-    ]
+    {
+      "tag": "forge:glass"
+    },
+    {
+      "item": "refinedstorage:improved_processor"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

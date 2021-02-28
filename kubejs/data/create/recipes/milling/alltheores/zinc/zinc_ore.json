@@ -1,0 +1,27 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ores/zinc"
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:zinc_dust"
+        }
+    ],
+    "processingTime": 350,
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ores/zinc",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

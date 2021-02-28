@@ -1,0 +1,24 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+        {
+            "item": "minecraft:dark_oak_sapling",
+            "count": 1,
+            "return_chance": 0
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ],
+    "fluid": {
+        "fluid": "minecraft:water"
+    },
+    "output": {
+        "item": "minecraft:dark_oak_leaves",
+        "count": 2
+    },
+    "consume_fluid": 0
+}

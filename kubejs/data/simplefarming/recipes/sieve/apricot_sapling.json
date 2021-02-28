@@ -1,0 +1,30 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "rolls": [
+        {
+            "chance": 0.05,
+            "mesh": "string"
+        },
+        {
+            "chance": 0.1,
+            "mesh": "flint"
+        },
+        {
+            "chance": 0.15,
+            "mesh": "iron"
+        }
+    ],
+    "input": {
+        "item": "minecraft:grass_block"
+    },
+    "result": {
+        "item": "simplefarming:apricot_sapling"
+    },
+    "waterlogged": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "exnihilosequentia"
+        }
+    ]
+}

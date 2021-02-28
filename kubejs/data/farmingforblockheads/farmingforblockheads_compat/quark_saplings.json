@@ -39,5 +39,11 @@
                 "item": "quark:red_blossom_sapling"
             }
         }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quark"
+        }
     ]
 }

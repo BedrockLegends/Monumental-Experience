@@ -1,0 +1,19 @@
+{
+    "type": "interactio:item_anvil_smashing",
+    "inputs": [
+        {
+            "tag": "forge:ingots/iron",
+            "count": 1
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
+    "output": {
+        "item": "thermal:iron_plate",
+        "count": 1
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:tea"
+        },
+        {
+            "item": "thermal:tea_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:tea_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "thermal:tea"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

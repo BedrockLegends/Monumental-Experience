@@ -1,0 +1,19 @@
+{
+    "type": "interactio:item_anvil_smashing",
+    "inputs": [
+        {
+            "tag": "forge:ingots/steel",
+            "count": 1
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ],
+    "output": {
+        "item": "immersiveengineering:plate_steel",
+        "count": 1
+    }
+}

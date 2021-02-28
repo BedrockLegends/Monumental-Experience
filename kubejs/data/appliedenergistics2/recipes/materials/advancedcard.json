@@ -1,7 +1,13 @@
 {
     "type": "botania:runic_altar",
     "output": {
-        "item": "appliedenergistics2:advanced_card"
+        "item": "appliedenergistics2:advanced_card",
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "botania"
+            }
+        ]
     },
     "mana": 20000,
     "ingredients": [

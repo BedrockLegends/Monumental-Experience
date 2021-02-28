@@ -1,22 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "a a",
-    "cbc",
-    "a a"
-  ],
-  "key": {
-    "a": {
-      "item": "compressium:netherite_1"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a a",
+        "cbc",
+        "a a"
+    ],
+    "key": {
+        "a": {
+            "item": "compressium:netherite_1"
+        },
+        "b": {
+            "item": "extrastorage:diamond_crafter"
+        },
+        "c": {
+            "item": "refinedstorage:advanced_processor"
+        }
     },
-    "b": {
-      "item": "extrastorage:diamond_crafter"
+    "result": {
+        "item": "extrastorage:netherite_crafter"
     },
-    "c": {
-      "item": "refinedstorage:advanced_processor"
-    }
-  },
-  "result": {
-    "item": "extrastorage:netherite_crafter"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extrastorage"
+        }
+    ]
 }

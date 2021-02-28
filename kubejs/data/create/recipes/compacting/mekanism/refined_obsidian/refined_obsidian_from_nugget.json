@@ -10,5 +10,11 @@
             "item": "mekanism:ingot_refined_obsidian"
         }
     ],
-    "heatRequirement": "heated"
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
 }

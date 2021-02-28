@@ -1,23 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "bigreactors:reactor",
-  "pattern": [
-    "IGI",
-    "GCG",
-    "IGI"
-  ],
-  "key": {
-    "I": {
-      "tag": "forge:ingots/steel"
+    "type": "minecraft:crafting_shaped",
+    "group": "bigreactors:reactor",
+    "pattern": [
+        "IGI",
+        "GCG",
+        "IGI"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/steel"
+        },
+        "C": {
+            "tag": "forge:sandstone"
+        },
+        "G": {
+            "tag": "forge:ingots/graphite"
+        }
     },
-    "C": {
-      "tag": "forge:sandstone"
+    "result": {
+        "item": "bigreactors:basic_reactorcasing"
     },
-    "G": {
-      "tag": "forge:ingots/graphite"
-    }
-  },
-  "result": {
-    "item": "bigreactors:basic_reactorcasing"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "bigreactors"
+        }
+    ]
 }

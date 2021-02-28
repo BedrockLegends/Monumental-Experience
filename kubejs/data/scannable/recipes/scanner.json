@@ -1,29 +1,35 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "scanner",
-  "pattern": [
-    "i i",
-    "brb",
-    "gqg"
-  ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/iron"
+    "type": "minecraft:crafting_shaped",
+    "group": "scanner",
+    "pattern": [
+        "i i",
+        "brb",
+        "gqg"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/iron"
+        },
+        "b": {
+            "item": "minecraft:iron_bars"
+        },
+        "r": {
+            "tag": "forge:dusts/redstone"
+        },
+        "g": {
+            "tag": "forge:plates/gold"
+        },
+        "q": {
+            "tag": "forge:gems/quartz"
+        }
     },
-    "b": {
-      "tag": "forge:barsiron"
+    "result": {
+        "item": "scannable:scanner"
     },
-    "r": {
-      "tag": "forge:dusts/redstone"
-    },
-    "g": {
-      "tag": "forge:plates/gold"
-    },
-    "q": {
-      "tag": "forge:gems/quartz"
-    }
-  },
-  "result": {
-    "item": "scannable:scanner"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "scannable"
+        }
+    ]
 }

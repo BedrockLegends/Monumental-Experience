@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "ABA",
+        " A "
+    ],
+    "key": {
+        "A": {
+            "item": "compressium:obsidian_1"
+        },
+        "B": {
+            "tag": "forge:storage_blocks/iron"
+        }
+    },
+    "result": {
+        "item": "extendedcrafting:black_iron_ingot"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

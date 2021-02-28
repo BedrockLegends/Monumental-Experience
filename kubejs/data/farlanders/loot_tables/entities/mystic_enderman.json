@@ -21,6 +21,12 @@
                     "type": "minecraft:item",
                     "name": "mysticalagriculture:enderman_essence"
                 }
+            ],
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "farlanders"
+                }
             ]
         }
     ]

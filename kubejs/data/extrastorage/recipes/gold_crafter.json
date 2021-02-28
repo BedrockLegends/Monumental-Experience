@@ -1,22 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "a a",
-    "cbc",
-    "a a"
-  ],
-  "key": {
-    "a": {
-      "item": "compressium:gold_1"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a a",
+        "cbc",
+        "a a"
+    ],
+    "key": {
+        "a": {
+            "item": "compressium:gold_1"
+        },
+        "b": {
+            "item": "extrastorage:iron_crafter"
+        },
+        "c": {
+            "item": "refinedstorage:advanced_processor"
+        }
     },
-    "b": {
-      "item": "extrastorage:iron_crafter"
+    "result": {
+        "item": "extrastorage:gold_crafter"
     },
-    "c": {
-      "item": "refinedstorage:advanced_processor"
-    }
-  },
-  "result": {
-    "item": "extrastorage:gold_crafter"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extrastorage"
+        }
+    ]
 }

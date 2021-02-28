@@ -1,0 +1,19 @@
+{
+    "type": "interactio:item_anvil_smashing",
+    "inputs": [
+        {
+            "tag": "forge:ingots/uranium",
+            "count": 1
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ],
+    "output": {
+        "item": "immersiveengineering:plate_uranium",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "interactio:item_anvil_smashing",
+    "inputs": [
+        {
+            "item": "minecraft:dark_oak_planks",
+            "count": 2
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ],
+    "output": {
+        "item": "minecraft:dark_oak_pressure_plate",
+        "count": 1
+    }
+}

@@ -1,35 +1,31 @@
 {
     "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
+    "pattern": [
         "CSC",
         "SDS",
         "CSC"
     ],
-    
-    "key":
-    {
+    "key": {
         "C": [
-      {
-        "item": "compressium:coal_1"
-      }
+            {
+                "item": "compressium:coal_1"
+            }
         ],
-        
-        "S":
-        {
+        "S": {
             "tag": "forge:rods/wooden"
         },
-        
-        "D":
-        {
+        "D": {
             "tag": "forge:gems/mana_diamond"
         }
     },
-    
-    "result":
-    {
+    "result": {
         "item": "shockmetal:frame_diamond",
         "count": 1
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "shockmetal"
+        }
+    ]
 }

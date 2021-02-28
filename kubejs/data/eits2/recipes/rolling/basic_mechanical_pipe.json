@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/steel"
+	},
+	"result": {
+		"item": "mekanism:basic_mechanical_pipe",
+		"count": 2
+	},
+	"conditions": [ {
+		"type": "forge:mod_loaded",
+		"modid": "mekanism"
+    } ]
+}

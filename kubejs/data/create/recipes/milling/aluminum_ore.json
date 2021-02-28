@@ -1,0 +1,27 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ores/aluminum"
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:aluminum_dust"
+        }
+    ],
+    "processingTime": 300,
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ores/aluminum",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

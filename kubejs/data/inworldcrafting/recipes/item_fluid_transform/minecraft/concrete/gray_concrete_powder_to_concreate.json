@@ -1,0 +1,19 @@
+{
+  "type": "interactio:item_fluid_transform",
+  "inputs": [
+    {
+      "item": "minecraft:gray_concrete_powder",
+      "count": 1,
+      "return_chance": 0
+    }
+  ],
+  "fluid": {
+    "fluid": "water"
+  },
+  "output": {
+    "item": "minecraft:gray_concrete",
+    "count": 1
+    }
+  },
+  "consume_fluid": 1
+}

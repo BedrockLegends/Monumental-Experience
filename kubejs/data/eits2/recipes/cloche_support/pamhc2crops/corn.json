@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "pamhc2crops:cornseeditem"
+    },
+    {
+      "item": "pamhc2crops:cornitem"
+    }
+  ],
+  "input": {
+    "item": "pamhc2crops:cornseeditem"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 1200,
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamcorncrop"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

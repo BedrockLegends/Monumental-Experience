@@ -1,13 +1,13 @@
 {
     "type": "create:mechanical_crafting",
     "pattern": [
-        " AAAAA ",
-        " A B A",
-        " A A A",
-        "   A   ",
-        "   A   ",
-        "   A   ",
-        "   A   "
+        "AAAAA",
+        "  ABA",
+        "  AAA",
+        "   A ",
+        "   A ",
+        "   A ",
+        "   A "
     ],
     "key": {
         "A": {

@@ -1,25 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ToT",
-    "gFg",
-    "ToT"
-  ],
-  "key": {
-    "g": {
-      "tag": "forge:plates/gold"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ToT",
+        "gFg",
+        "ToT"
+    ],
+    "key": {
+        "g": {
+            "tag": "forge:plates/gold"
+        },
+        "T": {
+            "item": "minecraft:redstone_torch"
+        },
+        "F": {
+            "item": "rftoolsbase:machine_frame"
+        },
+        "o": {
+            "tag": "forge:ender_pearls"
+        }
     },
-    "T": {
-      "item": "minecraft:redstone_torch"
+    "result": {
+        "item": "rftoolsstorage:storage_scanner"
     },
-    "F": {
-      "item": "rftoolsbase:machine_frame"
-    },
-    "o": {
-      "tag": "forge:ender_pearls"
-    }
-  },
-  "result": {
-    "item": "rftoolsstorage:storage_scanner"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rftoolsstorage"
+        }
+    ]
 }

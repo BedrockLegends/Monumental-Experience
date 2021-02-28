@@ -18,5 +18,11 @@
     "B": {
       "item": "cookingforblockheads:crafting_book"
     }
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cookingforblockheads"
+    }
+  ]
 }

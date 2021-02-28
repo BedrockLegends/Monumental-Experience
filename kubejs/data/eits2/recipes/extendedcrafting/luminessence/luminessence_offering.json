@@ -1,0 +1,19 @@
+{
+    "type": "naturesaura:offering",
+    "input": {
+        "item": "thermal:lightning_charge"
+    },
+    "start_item": {
+        "item": "naturesaura:calling_spirit"
+    },
+    "output": {
+        "item": "extendedcrafting:luminessence",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

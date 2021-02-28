@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:onionseeditem"
+        },
+        {
+            "item": "pamhc2crops:onionitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:onionseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamonioncrop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2crops"
+        }
+    ]
+}

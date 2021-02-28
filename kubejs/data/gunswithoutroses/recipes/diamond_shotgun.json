@@ -1,15 +1,32 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"D  ",
-		" DF",
-		" SL"
-	],
-	"key": {
-		"D": { "tag": "forge:gems/diamond" },
-		"S": { "item": "gunswithoutroses:gold_gun" },
-		"F": { "item": "minecraft:flint" },
-		"L": { "tag": "minecraft:logs" }
-	},
-	"result": { "item": "gunswithoutroses:diamond_shotgun" }
+    "type": "minecraft:crafting_shaped",
+    "group": "bigreactors:reactor",
+    "pattern": [
+        "D  ",
+        " DF",
+        " SL"
+    ],
+    "key": {
+        "D": {
+            "tag": "forge:gems/diamond"
+        },
+        "L": {
+            "tag": "minecraft:logs"
+        },
+        "S": {
+            "item": "gunswithoutroses:gold_gun"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        }
+    },
+    "result": {
+        "item": "gunswithoutroses:diamond_shotgun"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gunswithoutroses"
+        }
+    ]
 }

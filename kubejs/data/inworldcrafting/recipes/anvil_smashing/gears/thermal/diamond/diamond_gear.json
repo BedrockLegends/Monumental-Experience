@@ -1,0 +1,19 @@
+{
+    "type": "interactio:item_anvil_smashing",
+    "inputs": [
+        {
+            "tag": "forge:gems/diamond",
+            "count": 4
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
+    "output": {
+        "item": "thermal:diamond_gear",
+        "count": 1
+    }
+}

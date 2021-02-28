@@ -7,5 +7,11 @@
         "item": "mysticalagriculture:inferium_essence",
         "count": 9
     },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pneumaticcraft"
+        }
+    ],
     "program": "drill"
 }

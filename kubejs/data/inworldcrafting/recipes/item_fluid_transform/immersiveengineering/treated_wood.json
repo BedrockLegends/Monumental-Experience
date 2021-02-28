@@ -1,0 +1,24 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+        {
+            "tag": "minecraft:planks",
+            "count": 8,
+            "return_chance": 0
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ],
+    "fluid": {
+        "fluid": "thermal:creosote"
+    },
+    "output": {
+        "item": "immersiveengineering:treated_wood_horizontal",
+        "count": 4
+    },
+    "consume_fluid": 1
+}

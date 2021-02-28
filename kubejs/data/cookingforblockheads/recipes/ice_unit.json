@@ -1,21 +1,27 @@
 {
-  "result": {
-    "item": "cookingforblockheads:ice_unit"
-  },
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "ICI"
-  ],
-  "key": {
-    "S": {
-      "tag": "forge:ices/snowball"
+    "result": {
+        "item": "cookingforblockheads:ice_unit"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "ICI"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:ices/snowball"
+        },
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+        "C": {
+            "item": "mysticalagriculture:ice_essence"
+        }
     },
-    "C": {
-      "item": "mysticalagriculture:ice_essence"
-    }
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
 }

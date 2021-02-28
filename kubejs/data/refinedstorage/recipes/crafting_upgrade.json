@@ -1,25 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "EOE",
-    "CUC",
-    "EEE"
-  ],
-  "key": {
-    "E": {
-      "item": "refinedstorage:quartz_enriched_iron"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EOE",
+        "CUC",
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "refinedstorage:quartz_enriched_iron"
+        },
+        "C": {
+            "tag": "forge:workbench"
+        },
+        "O": {
+            "item": "refinedstorage:construction_core"
+        },
+        "U": {
+            "item": "refinedstorage:upgrade"
+        }
     },
-    "C": {
-      "tag": "forge:workbench"
+    "result": {
+        "item": "refinedstorage:crafting_upgrade"
     },
-    "O": {
-      "item": "refinedstorage:construction_core"
-    },
-    "U": {
-      "item": "refinedstorage:upgrade"
-    }
-  },
-  "result": {
-    "item": "refinedstorage:crafting_upgrade"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "refinedstorage"
+        }
+    ]
 }

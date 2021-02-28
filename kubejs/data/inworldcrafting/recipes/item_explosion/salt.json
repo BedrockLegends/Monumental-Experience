@@ -1,0 +1,22 @@
+{
+  "type": "interactio:item_explode",
+  "inputs": [
+    {
+      "item": "mekanism:block_salt",
+      "count": 1
+    }
+  ],
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "item": "mekanism:salt",
+          "count": 6
+        },
+        "weight": 1
+      }
+    ],
+    "empty_weight": 0,
+    "rolls": 1
+  }
+}

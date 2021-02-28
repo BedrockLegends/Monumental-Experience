@@ -32,5 +32,11 @@
     "count": 1,
     "nbt": "{TitaniumAugment:{Efficiency:0.9f}}"
   },
-  "type": "industrialforegoing:dissolution_chamber"
+  "type": "industrialforegoing:dissolution_chamber",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ]
 }

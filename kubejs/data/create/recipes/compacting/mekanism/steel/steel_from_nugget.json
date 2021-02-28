@@ -10,5 +10,11 @@
             "item": "mekanism:dust_steel"
         }
     ],
-    "heatRequirement": "heated"
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
 }

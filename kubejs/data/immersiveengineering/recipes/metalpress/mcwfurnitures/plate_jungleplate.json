@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "mcwfurnitures:jungle_plate"
+  },
+  "input": {
+    "tag": "minecraft:jungle_logs"
+  },
+  "energy": 2400
+}

@@ -1,0 +1,19 @@
+{
+    "type": "interactio:item_anvil_smashing",
+    "inputs": [
+        {
+            "tag": "forge:ingots/tin",
+            "count": 1
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
+    "output": {
+        "item": "thermal:tin_gear",
+        "count": 1
+    }
+}

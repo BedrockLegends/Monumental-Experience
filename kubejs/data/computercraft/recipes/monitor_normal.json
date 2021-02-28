@@ -1,19 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "tag": "forge:stone"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:stone"
+        },
+        "G": {
+            "item": "rftoolsutility:screen"
+        }
     },
-    "G": {
-      "item": "rftoolsutility:screen"
-    }
-  },
-  "result": {
-    "item": "computercraft:monitor_normal"
-  }
+    "result": {
+        "item": "computercraft:monitor_normal"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "computercraft"
+        }
+    ]
 }

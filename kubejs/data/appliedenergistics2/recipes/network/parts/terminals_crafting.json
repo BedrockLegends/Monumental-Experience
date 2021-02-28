@@ -1,17 +1,23 @@
 {
-  "result": {
-    "item": "appliedenergistics2:crafting_terminal"
-  },
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "appliedenergistics2:terminal"
+    "result": {
+        "item": "appliedenergistics2:crafting_terminal",
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "appliedenergistics2"
+            }
+        ]
     },
-    {
-      "tag": "forge:workbench"
-    },
-    {
-      "item": "appliedenergistics2:calculation_processor"
-    }
-  ]
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "appliedenergistics2:terminal"
+        },
+        {
+            "tag": "forge:workbench"
+        },
+        {
+            "item": "appliedenergistics2:calculation_processor"
+        }
+    ]
 }

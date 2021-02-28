@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/tin"
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:tin_dust",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

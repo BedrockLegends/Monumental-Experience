@@ -1,19 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#r#",
-    "###"
-  ],
-  "key": {
-    "r": {
-      "item": "create:cuckoo_clock"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#r#",
+        "###"
+    ],
+    "key": {
+        "r": {
+            "item": "create:cuckoo_clock"
+        },
+        "#": {
+            "tag": "forge:cobblestone"
+        }
     },
-    "#": {
-      "tag": "forge:cobblestone"
-    }
-  },
-  "result": {
-    "item": "clockout:clockout_block"
-  }
+    "result": {
+        "item": "clockout:clockout_block"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "clockout"
+        }
+    ]
 }

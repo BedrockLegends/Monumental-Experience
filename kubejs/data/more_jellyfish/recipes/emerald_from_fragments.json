@@ -12,5 +12,11 @@
     },
     "result": {
         "item": "minecraft:emerald"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "more_jellyfish"
+        }
+    ]
 }

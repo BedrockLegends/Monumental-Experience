@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/osmium"
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:osmium_dust",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

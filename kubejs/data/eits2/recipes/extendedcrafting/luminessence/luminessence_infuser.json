@@ -1,0 +1,24 @@
+{
+    "type": "woot:infuser",
+    "ingredient": {
+        "item": "thermal:lightning_charge"
+    },
+    "augment": {
+        "item": "minecraft:tnt"
+    },
+    "infuse": {
+        "fluid": "woot:enchant_fluid",
+        "amount": 1000
+    },
+    "result": {
+        "item": "extendedcrafting:luminessence",
+        "count": 2
+    },
+    "energy": 1000,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

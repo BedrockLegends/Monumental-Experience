@@ -1,8 +1,8 @@
 {
     "conditions": [
         {
-            "type": "prefab:config_recipe",
-            "recipeKey": "Saloon"
+            "type": "forge:mod_loaded",
+            "modid": "prefab"
         }
     ],
     "type": "minecraft:crafting_shaped",

@@ -1,22 +1,28 @@
 {
-  "result": {
-    "item": "cookingforblockheads:sink"
-  },
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "CBC",
-    "CCC"
-  ],
-  "key": {
-    "I": {
-      "tag": "forge:plates/iron"
+    "result": {
+        "item": "cookingforblockheads:sink"
     },
-    "C": {
-      "tag": "forge:terracotta"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "CBC",
+        "CCC"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:plates/iron"
+        },
+        "C": {
+            "tag": "forge:terracotta"
+        },
+        "B": {
+            "item": "mysticalagriculture:water_essence"
+        }
     },
-    "B": {
-      "item": "mysticalagriculture:water_essence"
-    }
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
 }

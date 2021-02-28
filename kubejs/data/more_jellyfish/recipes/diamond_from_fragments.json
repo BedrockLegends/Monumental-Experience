@@ -12,5 +12,11 @@
     },
     "result": {
         "item": "minecraft:diamond"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "more_jellyfish"
+        }
+    ]
 }

@@ -1,22 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#R#",
-    "#T#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "tag": "forge:stone"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "#T#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:stone"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "T": {
+            "item": "computercraft:cable"
+        }
     },
-    "R": {
-      "tag": "forge:dusts/redstone"
+    "result": {
+        "item": "computercraft:wired_modem"
     },
-    "T": {
-      "item": "computercraft:cable"
-    }
-  },
-  "result": {
-    "item": "computercraft:wired_modem"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "computercraft"
+        }
+    ]
 }

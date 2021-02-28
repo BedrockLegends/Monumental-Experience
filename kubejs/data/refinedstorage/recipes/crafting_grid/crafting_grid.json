@@ -1,17 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "refinedstorage:grid"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "refinedstorage:grid"
+        },
+        {
+            "item": "refinedstorage:advanced_processor"
+        },
+        {
+            "tag": "forge:workbench"
+        }
+    ],
+    "result": {
+        "item": "refinedstorage:crafting_grid"
     },
-    {
-      "item": "refinedstorage:advanced_processor"
-    },
-    {
-      "tag": "forge:workbench"
-    }
-  ],
-  "result": {
-    "item": "refinedstorage:crafting_grid"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "refinedstorage"
+        }
+    ]
 }

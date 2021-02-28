@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:strawberry"
+        },
+        {
+            "item": "thermal:strawberry_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:strawberry_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "thermal:strawberry"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

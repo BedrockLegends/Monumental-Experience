@@ -28,7 +28,7 @@
             "tag": "forge:swords"
           },
           "B": {
-            "tag": "forge:book"
+            "item": "minecraft:book"
           },
           "M": {
             "tag": "industrialforegoing:machine_frame/advanced"

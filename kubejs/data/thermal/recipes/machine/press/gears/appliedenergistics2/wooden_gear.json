@@ -1,0 +1,25 @@
+{
+
+  "type": "thermal:press",
+  "input": [
+    {
+      "tag": "forge:rods/wooden",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_gear_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "appliedenergistics2:wooden_gear"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appliedenergistics2"
+    }
+  ],
+  "energy": 400
+}

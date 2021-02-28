@@ -1,0 +1,26 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "rolls": [
+        {
+            "chance": 0.03,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.06,
+            "mesh": "emerald"
+        }
+    ],
+    "input": {
+        "item": "minecraft:grass_block"
+    },
+    "result": {
+        "item": "undergarden:smogstem_sapling"
+    },
+    "waterlogged": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "exnihilosequentia"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:frost_melon"
+        },
+        {
+            "item": "thermal:frost_melon_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:frost_melon_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "stem",
+        "block": "thermal:frost_melon"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

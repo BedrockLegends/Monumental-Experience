@@ -11,5 +11,11 @@
     },
     "output": {
         "item": "immersiveengineering:ingot_electrum"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
 }

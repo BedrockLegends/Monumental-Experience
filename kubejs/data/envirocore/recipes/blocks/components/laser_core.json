@@ -15,10 +15,15 @@
         "j": {
             "item": "auraddons:block_rainbow_beacon"
         }
-
     },
     "result": {
         "item": "envirocore:laser_core",
         "count": 1
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "bigreactors"
+        }
+    ]
 }

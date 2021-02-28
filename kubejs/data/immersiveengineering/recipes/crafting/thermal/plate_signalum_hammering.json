@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/signalum"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
+    "result": {
+        "item": "thermal:signalum_plate"
+    }
+}

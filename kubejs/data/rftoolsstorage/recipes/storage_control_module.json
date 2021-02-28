@@ -18,5 +18,11 @@
   },
   "result": {
     "item": "rftoolsstorage:storage_control_module"
-  }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rftoolsstorage"
+        }
+    ]
 }

@@ -1,25 +1,31 @@
 {
-  "type": "mcjtylib:copy_nbt",
-  "pattern": [
-    "QTQ",
-    "CMC",
-    "QTQ"
-  ],
-  "key": {
-    "C": {
-      "tag": "forge:gems/quartz"
+    "type": "mcjtylib:copy_nbt",
+    "pattern": [
+        "QTQ",
+        "CMC",
+        "QTQ"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:gems/quartz"
+        },
+        "M": {
+            "item": "rftoolsutility:crafter2"
+        },
+        "T": {
+            "item": "minecraft:comparator"
+        },
+        "Q": {
+            "item": "astralsorcery:starmetal_ingot"
+        }
     },
-    "M": {
-      "item": "rftoolsutility:crafter2"
+    "result": {
+        "item": "rftoolsutility:crafter3"
     },
-    "T": {
-      "item": "minecraft:comparator"
-    },
-    "Q": {
-      "item": "astralsorcery:starmetal_ingot"
-    }
-  },
-  "result": {
-    "item": "rftoolsutility:crafter3"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rftoolsutility"
+        }
+    ]
 }

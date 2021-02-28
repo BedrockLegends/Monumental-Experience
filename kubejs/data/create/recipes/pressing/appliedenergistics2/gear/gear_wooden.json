@@ -1,0 +1,19 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "results": [
+    {
+      "item": "appliedenergistics2:wooden_gear"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appliedenergistics2"
+    }
+  ]
+}

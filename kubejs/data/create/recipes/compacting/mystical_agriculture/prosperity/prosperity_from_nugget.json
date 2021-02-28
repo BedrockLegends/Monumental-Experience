@@ -10,5 +10,11 @@
             "item": "mysticalagriculture:prosperity_ingot"
         }
     ],
-    "heatRequirement": "heated"
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
 }

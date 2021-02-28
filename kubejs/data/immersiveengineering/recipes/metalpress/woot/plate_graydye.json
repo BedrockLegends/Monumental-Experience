@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "woot:gray_dyeplate"
+  },
+  "input": {
+    "item": "minecraft:gray_wool"
+  },
+  "energy": 2400
+}

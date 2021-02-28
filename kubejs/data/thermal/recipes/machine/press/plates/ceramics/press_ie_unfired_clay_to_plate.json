@@ -1,0 +1,17 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "ceramics:unfired_clay_plate"
+  },
+  "result": [
+    {
+      "item": "ceramics:clay_plate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ceramics"
+    }
+  ]
+}

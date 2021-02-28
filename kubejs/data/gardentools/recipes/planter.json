@@ -6,7 +6,7 @@
     "s  "
   ],
   "key": {
-    "h": {    
+    "h": {
       "item": "pedestals:coin/planter"
     },
     "s": {
@@ -16,5 +16,11 @@
   "result": {
     "item": "gardentools:planter",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gardentools"
+    }
+  ]
 }

@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:turnipseeditem"
+        },
+        {
+            "item": "pamhc2crops:turnipitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:turnipseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamturnipcrop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2crops"
+        }
+    ]
+}

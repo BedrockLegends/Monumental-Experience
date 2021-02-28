@@ -1,26 +1,32 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "blank_module",
-  "pattern": [
-    "ggg",
-    "crc",
-    "cnc"
-  ],
-  "key": {
-    "g": {
-      "tag": "forge:dyes/green"
+    "type": "minecraft:crafting_shaped",
+    "group": "blank_module",
+    "pattern": [
+        "ggg",
+        "crc",
+        "cnc"
+    ],
+    "key": {
+        "g": {
+            "tag": "forge:dyes/green"
+        },
+        "c": {
+            "tag": "forge:clay"
+        },
+        "r": {
+            "tag": "forge:glowstone"
+        },
+        "n": {
+            "tag": "forge:plates/gold"
+        }
     },
-    "c": {
-      "tag": "forge:clay"
+    "result": {
+        "item": "scannable:module_blank"
     },
-    "r": {
-      "tag": "forge:glowstone"
-    },
-    "n": {
-      "tag": "forge:plates/gold"
-    }
-  },
-  "result": {
-    "item": "scannable:module_blank"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "scannable"
+        }
+    ]
 }

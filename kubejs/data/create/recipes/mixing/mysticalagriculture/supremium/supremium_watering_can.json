@@ -35,5 +35,11 @@
             "count": 1
         }
     ],
-    "heatRequirement": "superheated"
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
 }

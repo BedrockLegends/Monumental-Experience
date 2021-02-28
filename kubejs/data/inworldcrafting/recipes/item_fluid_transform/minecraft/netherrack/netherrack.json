@@ -1,0 +1,19 @@
+{
+  "type": "interactio:item_fluid_transform",
+  "inputs": [
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 1,
+      "return_chance": 0
+    }
+  ],
+  "fluid": {
+    "fluid": "lava"
+  },
+  "output": {
+    "item": "minecraft:netherrack",
+    "count": 1
+    }
+  },
+  "consume_fluid": 1
+}

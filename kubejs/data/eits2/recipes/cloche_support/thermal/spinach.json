@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:spinach"
+        },
+        {
+            "item": "thermal:spinach_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:spinach_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "thermal:spinach"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

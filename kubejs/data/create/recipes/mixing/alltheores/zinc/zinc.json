@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:zinc_ingot",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

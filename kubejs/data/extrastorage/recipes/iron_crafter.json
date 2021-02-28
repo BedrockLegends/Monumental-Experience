@@ -1,22 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "a a",
-    "cbc",
-    "a a"
-  ],
-  "key": {
-    "a": {
-      "item": "compressium:iron_1"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a a",
+        "cbc",
+        "a a"
+    ],
+    "key": {
+        "a": {
+            "item": "compressium:iron_1"
+        },
+        "b": {
+            "item": "refinedstorage:crafter"
+        },
+        "c": {
+            "item": "refinedstorage:improved_processor"
+        }
     },
-    "b": {
-      "item": "refinedstorage:crafter"
+    "result": {
+        "item": "extrastorage:iron_crafter"
     },
-    "c": {
-      "item": "refinedstorage:improved_processor"
-    }
-  },
-  "result": {
-    "item": "extrastorage:iron_crafter"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extrastorage"
+        }
+    ]
 }

@@ -25,7 +25,7 @@
             "tag": "forge:plastic"
           },
           "S": {
-            "tag": "forge:bricknether"
+            "item": "minecraft:red_nether_bricks"
           },
           "B": {
             "item": "minecraft:book"

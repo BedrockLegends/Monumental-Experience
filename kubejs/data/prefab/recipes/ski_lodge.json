@@ -1,8 +1,8 @@
 {
     "conditions": [
         {
-            "type": "prefab:config_recipe",
-            "recipeKey": "Ski Lodge"
+            "type": "forge:mod_loaded",
+            "modid": "prefab"
         }
     ],
     "type": "minecraft:crafting_shaped",

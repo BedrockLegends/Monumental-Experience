@@ -35,7 +35,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "appliedenergistics2"
+            "modid": "industrialforegoing"
         }
     ]
 }

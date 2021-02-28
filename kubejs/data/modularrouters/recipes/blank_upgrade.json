@@ -1,23 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "PPG",
-    "PLG",
-    " PG"
-  ],
-  "key": {
-    "P": {
-      "item": "pamhc2trees:pampaperbark"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPG",
+        "PLG",
+        " PG"
+    ],
+    "key": {
+        "P": {
+            "item": "pamhc2trees:pampaperbark"
+        },
+        "L": {
+            "tag": "forge:gems/lapis"
+        },
+        "G": {
+            "tag": "forge:nuggets/gold"
+        }
     },
-    "L": {
-      "tag": "forge:gems/lapis"
+    "result": {
+        "item": "modularrouters:blank_upgrade",
+        "count": 4
     },
-    "G": {
-      "tag": "forge:nuggets/gold"
-    }
-  },
-  "result": {
-    "item": "modularrouters:blank_upgrade",
-    "count": 4
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "modularrouters"
+        }
+    ]
 }

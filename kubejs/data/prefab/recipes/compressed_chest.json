@@ -24,5 +24,11 @@
     },
     "result": {
         "item": "prefab:item_compressed_chest"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "prefab"
+        }
+    ]
 }

@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:uranium_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:uranium_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:uranium_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}
