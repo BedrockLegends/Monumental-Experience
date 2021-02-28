@@ -35,7 +35,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "industrialforegoing"
+            "modid": "ceramics"
         }
     ]
 }
