@@ -1,9 +1,15 @@
 {
-  "type": "occultism:spirit_fire",
-  "ingredient": {
-    "tag": "forge:workbench"
-  },
-  "result": {
-    "item": "astralsorcery:altar_discovery"
-  }
+    "type": "occultism:spirit_fire",
+    "ingredient": {
+        "tag": "forge:workbench"
+    },
+    "result": {
+        "item": "astralsorcery:altar_discovery"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "astralsorcery"
+        }
+    ]
 }

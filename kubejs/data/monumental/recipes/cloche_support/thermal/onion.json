@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:onion"
+        },
+        {
+            "item": "thermal:onion_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:onion_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "thermal:onion"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

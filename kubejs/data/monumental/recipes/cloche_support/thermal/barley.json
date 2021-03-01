@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "thermal:barley"
+        },
+        {
+            "item": "thermal:barley_seeds"
+        }
+    ],
+    "input": {
+        "item": "thermal:barley_seeds"
+    },
+    "soil": {
+        "item": "minecraft:farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "stem",
+        "block": "thermal:barley"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}
