@@ -70,6 +70,7 @@
 - Total Darkness being turned on in the Nether and End
 - Trashslot config
 - itemzoom config
+- Akashictome config
 
 **Removed**
 
