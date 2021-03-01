@@ -6,6 +6,12 @@
   "result": {
     "item": "woodenutilities:wooden_plate"
   },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woodenutilities"
+    }
+  ],
   "input": {
     "tag": "minecraft:planks"
   },
