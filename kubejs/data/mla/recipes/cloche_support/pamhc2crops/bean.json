@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:beanseeditem"
+        },
+        {
+            "item": "pamhc2crops:beanitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:beanseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pambeancrop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2crops"
+        }
+    ]
+}

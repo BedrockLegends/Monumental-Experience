@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:inferium_nugget"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:inferium_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}

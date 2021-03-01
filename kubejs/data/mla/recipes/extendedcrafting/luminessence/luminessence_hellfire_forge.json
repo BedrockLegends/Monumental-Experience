@@ -1,0 +1,27 @@
+{
+    "type": "bloodmagic:soulforge",
+    "input0": {
+        "item": "thermal:lightning_charge"
+    },
+    "input1": {
+        "item": "minecraft:tnt"
+    },
+    "input2": {
+        "item": "minecraft:tnt"
+    },
+    "input3": {
+        "item": "thermal:lightning_charge"
+    },
+    "output": {
+        "item": "extendedcrafting:luminessence",
+        "count": 4
+    },
+    "minimumDrain": 400,
+    "drain": 100,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

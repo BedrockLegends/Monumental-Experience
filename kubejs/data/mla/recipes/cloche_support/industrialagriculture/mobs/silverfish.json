@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:silverfish_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:silverfish_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:tertium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:silverfish_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "industrialagriculture"
+        }
+    ]
+}

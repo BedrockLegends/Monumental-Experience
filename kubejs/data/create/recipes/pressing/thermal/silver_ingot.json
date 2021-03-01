@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:silver_plate"
+    }
+  ]
+}

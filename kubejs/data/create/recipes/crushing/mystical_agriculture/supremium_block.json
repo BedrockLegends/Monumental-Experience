@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:supremium_essence",
+      "count": 5
+    }
+  ],
+  "processingTime": 400
+}

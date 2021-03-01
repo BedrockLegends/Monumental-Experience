@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:parsnipseeditem"
+        },
+        {
+            "item": "pamhc2crops:parsnipitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:parsnipseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamparsnipcrop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2crops"
+        }
+    ]
+}

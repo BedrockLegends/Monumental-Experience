@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2crops:garlicseeditem"
+        },
+        {
+            "item": "pamhc2crops:garlicitem"
+        }
+    ],
+    "input": {
+        "item": "pamhc2crops:garlicseeditem"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "pamhc2crops:pamgarliccrop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2crops"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:rock_crystal_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:rock_crystal_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:rock_crystal_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "astralsorcery"
+        }
+    ]
+}

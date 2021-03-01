@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:parrot_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:parrot_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:prudentium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:parrot_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "industrialagriculture"
+        }
+    ]
+}

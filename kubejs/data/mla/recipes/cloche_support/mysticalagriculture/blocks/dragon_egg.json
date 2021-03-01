@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:dragon_egg_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:dragon_egg_seeds"
+    },
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:dragon_egg_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prudentium_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:prudentium_essence",
+      "count": 5
+    }
+  ],
+  "processingTime": 400
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "item": "alltheores:copper_dust",
+      "count": 2,
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/copper",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

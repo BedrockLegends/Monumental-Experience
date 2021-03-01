@@ -1,0 +1,19 @@
+{
+    "type": "naturesaura:offering",
+    "input": {
+        "item": "compressium:obsidian_1"
+    },
+    "start_item": {
+        "item": "naturesaura:calling_spirit"
+    },
+    "output": {
+        "item": "extendedcrafting:black_iron_ingot",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

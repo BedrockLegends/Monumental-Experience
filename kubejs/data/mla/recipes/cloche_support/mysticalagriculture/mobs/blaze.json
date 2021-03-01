@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:blaze_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:blaze_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:blaze_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

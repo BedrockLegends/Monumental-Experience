@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:endermite_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:endermite_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:endermite_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "industrialagriculture"
+        }
+    ]
+}

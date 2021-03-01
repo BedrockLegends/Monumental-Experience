@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/lapis"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_lapis_lazuli"
+    },
+    {
+      "item": "mekanism:dust_lapis_lazuli",
+      "count": 2,
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/lapis",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

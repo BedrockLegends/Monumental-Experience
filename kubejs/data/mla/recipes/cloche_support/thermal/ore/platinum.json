@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:platinum_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:platinum_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:prudentium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:platinum_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

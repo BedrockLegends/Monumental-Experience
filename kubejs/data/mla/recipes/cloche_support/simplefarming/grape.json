@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "pamhc2crops:grapeseeditem"
+    },
+    {
+      "item": "pamhc2crops:grapeitem"
+    }
+  ],
+  "input": {
+    "item": "pamhc2crops:grapeseeditem"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 1200,
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamgrapecrop"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

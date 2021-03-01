@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "mysticalagriculture:chicken_essence"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:chicken_seeds"
+    },
+    "soil": {
+        "item": "mysticalagriculture:prudentium_farmland"
+    },
+    "time": 1200,
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:chicken_crop"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

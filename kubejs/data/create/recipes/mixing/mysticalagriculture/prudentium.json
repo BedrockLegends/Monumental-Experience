@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_nugget"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:prudentium_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}

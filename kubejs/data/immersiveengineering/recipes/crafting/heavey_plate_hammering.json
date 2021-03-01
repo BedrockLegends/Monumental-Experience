@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

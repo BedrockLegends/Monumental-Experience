@@ -1,0 +1,19 @@
+{
+    "type": "psi:trick_crafting",
+    "input": {
+        "item": "thermal:lightning_charge"
+    },
+    "output": {
+        "item": "extendedcrafting:luminessence",
+        "count": 2
+    },
+    "cad": {
+        "item": "psi:cad_assembly_iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "extendedcrafting"
+        }
+    ]
+}

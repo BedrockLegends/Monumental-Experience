@@ -1,0 +1,19 @@
+{
+    "type": "naturesaura:offering",
+    "input": {
+        "item": "compressium:netherrack_2"
+    },
+    "start_item": {
+        "item": "naturesaura:calling_spirit"
+    },
+    "output": {
+        "item": "gobber2:gobber2_glob_nether",
+        "count": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gobber2"
+        }
+    ]
+}

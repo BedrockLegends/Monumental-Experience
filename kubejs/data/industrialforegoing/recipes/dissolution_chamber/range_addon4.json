@@ -13,16 +13,16 @@
             "tag": "forge:glass_panes"
         },
         {
-            "tag": "forge:dusts/blaze_powder"
+            "item": "minecraft:blaze_powder"
         },
         {
-            "tag": "forge:dusts/blaze_powder"
+            "item": "minecraft:blaze_powder"
         },
         {
-            "tag": "forge:dusts/blaze_powder"
+            "item": "minecraft:blaze_powder"
         },
         {
-            "tag": "forge:dusts/blaze_powder"
+            "item": "item"
         }
     ],
     "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
