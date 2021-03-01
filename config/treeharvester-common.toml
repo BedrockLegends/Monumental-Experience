@@ -1,0 +1,17 @@
+
+[General]
+	#If enabled, automatically replaces the sapling from the drops when the bottom log is broken and the player is not holding the sneak button.
+	replaceSaplingIfBottomLogIsBroken = true
+	#If enabled, tree harvesting only works when a player is holding an axe in the main hand.
+	mustHoldAxeForTreeHarvest = true
+	#If enabled, tree harvesting works when not holding the sneak button. If disabled it's reversed, and only works when sneaking.
+	treeHarvestWithoutSneak = false
+	#If enabled, for every log harvested, the axe held loses durability.
+	loseDurabilityPerHarvestedLog = true
+	#If enabled, players' exhaustion level increases 0.005 per harvested log (Minecraft's default per broken block).
+	increaseExhaustionPerHarvestedLog = true
+	#If enabled, players instantly break the leaves as well as all logs of the tree when a bottom log is broken.
+	instantBreakLeavesAround = false
+	#If enabled, the leaves around a broken tree will quickly disappear. Only works with 'instantBreakLeavesAround' disabled.
+	enableFastLeafDecay = true
+

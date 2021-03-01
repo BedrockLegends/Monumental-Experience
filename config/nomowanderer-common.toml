@@ -1,0 +1,8 @@
+#NOTE: "Trader" refers to both the Wandering Trader and the Plague Doctor from the Rats mod.
+#
+#Trader spawn prevention radius (in chunks)
+#Range: 4 ~ 12
+radius = 8
+#Disable all natural Trader spawns?
+disableSpawns = false
+

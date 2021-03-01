@@ -1,0 +1,7 @@
+#Set this to true to disable the loading of auto sieve skins from a remote server.
+skipAutoSieveSkins = false
+#Set this to true if you're a modpack dev to see Ex Compressum registry warnings in chat. Errors will always display.
+showRegistryWarnings = false
+#Setting this to true will disable particles from the Sieves and Auto Hammers from Ex Compressum.
+disableParticles = false
+

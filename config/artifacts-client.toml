@@ -1,0 +1,7 @@
+
+[items]
+	#Whether the Kitty Slippers and Bunny Hoppers should modify the player's hurt sounds
+	modify_hurt_sounds = true
+	#Whether models for gloves should display on the player's hand in in first person
+	show_first_person_glove = true
+

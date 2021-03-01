@@ -1,0 +1,14 @@
+
+[resolution]
+	#Resolution for Blocks. [Default: 256]
+	#Range: > 1
+	blockResolution = 256
+	#Resolution for Items. [Default: 256]
+	#Range: > 1
+	itemResolution = 256
+	#Resolution for Multi-Armor. [Default: 256]
+	#Range: > 1
+	multiArmorResolution = 256
+	#To use the fancy armor model or not. [Default: false]
+	multiArmorFancyModel = false
+

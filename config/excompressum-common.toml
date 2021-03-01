@@ -1,0 +1,154 @@
+
+[general]
+	#If set to true, wood can be hammered into wood chippings, which can be composted into dirt.
+	enableWoodChippings = true
+	#Set to false if you need the Ex Nihilo Creatio wooden crucible for some reason. Note it'll cause a recipe conflict you'll have to fix via other means.
+	disableCreatioWoodenCrucible = true
+	#If enabled, all meshes can obtain the results from the lower tier meshes. Note if the same item is registered in multiple tiers, then the higher tier will have a chance to drop multiples.
+	flattenSieveRecipes = false
+	#The amount of times the heavy sieve should roll for compressed entries. For example, a value of 7 means for every compressed gravel you only get the equivalent drops of 7 sifted gravel blocks (2 loss). A value of 9 would therefore mean no loss.
+	#Range: > 1
+	heavySieveDefaultRolls = 7
+
+[baits]
+	#The chance (per second) that a wolf bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	wolfChance = 0.009999999776482582
+	#The chance (per second) that a ocelot bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	ocelotChance = 0.009999999776482582
+	#The chance (per second) that a cow bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	cowChance = 0.009999999776482582
+	#The chance (per second) that a pig bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	pigChance = 0.009999999776482582
+	#The chance (per second) that a chicken bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	chickenChance = 0.009999999776482582
+	#The chance (per second) that a sheep bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	sheepChance = 0.009999999776482582
+	#The chance (per second) that a squid bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	squidChance = 0.009999999776482582
+	#The chance (per second) that a rabbit bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	rabbitChance = 0.009999999776482582
+	#The chance (per second) that a horse bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	horseChance = 0.009999999776482582
+	#The chance (per second) that a donkey bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	donkeyChance = 0.009999999776482582
+	#The chance (per second) that a parrot bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	parrotChance = 0.009999999776482582
+	#The chance (per second) that a polar bear bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	polarBearChance = 0.009999999776482582
+	#The chance (per second) that a llama bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	llamaChance = 0.009999999776482582
+	#The chance (per second) that a cat bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	catChance = 0.009999999776482582
+	#The chance (per second) that a fox bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	foxChance = 0.009999999776482582
+	#The chance (per second) that a turtle bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	turtleChance = 0.009999999776482582
+	#The chance (per second) that a mooshroom bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	mooshroomChance = 0.009999999776482582
+	#The chance (per second) that an animal spawned from a bait will result in a child.
+	#Range: 0.0 ~ 1.0
+	childChance = 0.5
+
+[compressedMobs]
+	#The chance for mobs to spawn as Compressed Mobs. Set to 0 to disable.
+	#Range: 0.0 ~ 1.0
+	compressedMobChance = 0.009999999776482582
+	#The amount of mobs that will spawn upon death of a compressed mob.
+	#Range: > 1
+	compressedMobSize = 9
+	#Should the allowed mobs list be treated as a blacklist instead of a whitelist?
+	compressedMobAllowedMobsIsBlacklist = false
+	#A list of entity registry names that can spawn as compressed entities.
+	compressedMobAllowedMobs = ["minecraft:zombie", "minecraft:creeper", "minecraft:skeleton", "minecraft:spider", "minecraft:cave_spider", "minecraft:silverfish", "minecraft:witch", "minecraft:enderman", "minecraft:pig_zombie", "minecraft:blaze", "minecraft:bee", "minecraft:chicken", "minecraft:sheep", "minecraft:cow", "minecraft:mooshroom", "minecraft:pig", "minecraft:ghast", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:endermite", "minecraft:cat", "minecraft:evoker", "minecraft:husk", "minecraft:hoglin", "minecraft:guardian", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:pillager", "minecraft:shulker", "minecraft:stray", "minecraft:vindicator", "minecraft:wither_skeleton", "minecraft:zoglin", "minecraft:zombie_villager", "minecraft:zombified_piglin"]
+
+[tools]
+	#If true, hitting a chicken with a stick will turn it into an Angry Chicken, which will drop a Chicken Stick when killed.
+	allowChickenStickCreation = true
+	#The chance for the chicken stick to make sounds when breaking blocks. Set to 0 to disable.
+	#Range: 0.0 ~ 1.0
+	chickenStickSoundChance = 0.20000000298023224
+	#The chance for the chicken stick to spawn a chicken. Set to 0 to disable.
+	#Range: 0.0 ~ 1.0
+	chickenStickSpawnChance = 0.00800000037997961
+	#The sound names the chicken stick will randomly play.
+	chickenStickSounds = ["entity.chicken.ambient", "entity.chicken.hurt", "entity.chicken.egg", "entity.chicken.step"]
+	#The multiplier applied to the Compressed Crook's durability (based on the normal wooden crook)
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	compressedCrookDurabilityMultiplier = 2.0
+	#The multiplier applied to the Compressed Crook's speed (based on the normal wooden crook)
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	compressedCrookSpeedMultiplier = 4.0
+
+[compat]
+	#Setting this to false will disable the Evolved Orechid.
+	enableEvolvedOrechid = false
+	#The mana cost of the Mana Sieve per Tick.
+	#Range: > 0
+	manaSieveCost = 1
+	#The mana cost of the Evolved Orechid. GoG Orechid is 700, vanilla Orechid is 17500.
+	#Range: > 0
+	evolvedOrechidCost = 700
+	#The ore generation delay for the Evolved Orechid in ticks. GoG Orechid is 2, vanilla Orechid is 100.
+	#Range: > 0
+	evolvedOrechidDelay = 2
+
+[automation]
+	#The energy cost of the auto hammer per tick.
+	#Range: > 0
+	autoHammerEnergy = 40
+	#The speed at which the auto hammer will smash stuff.
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	autoHammerSpeed = 0.00800000037997961
+	#The chance for the upgrade hammers in an auto hammer to lose durability (per operation)
+	#Range: 0.0 ~ 1.0
+	autoHammerDecay = 0.5
+	#The energy cost of the auto compressed hammer per tick.
+	#Range: > 0
+	autoCompressedHammerEnergy = 120
+	#The speed at which the auto compressed hammer will smash stuff.
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	autoCompressedHammerSpeed = 0.003800000064074993
+	#The energy cost of the auto sieve per tick.
+	#Range: > 0
+	autoSieveEnergy = 40
+	#The speed at which the auto sieve will sift stuff.
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	autoSieveSpeed = 0.007499999832361937
+	#The energy cost of the auto heavy sieve per tick.
+	#Range: > 0
+	autoHeavySieveEnergy = 120
+	#The speed at which the auto heavy sieve will sift stuff.
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	autoHeavySieveSpeed = 0.0037499999161809683
+	#The energy cost of the auto compressor per tick.
+	#Range: > 0
+	autoCompressorEnergy = 5
+	#The speed at which the auto compressor will compress stuff.
+	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	autoCompressorSpeed = 0.10000000149011612
+	#Set this to true if you want to allow automation of the heavy sieve through fake players (i.e. Autonomous Activator)
+	allowHeavySieveAutomation = false
+	#The maximum amount of clicks per second on a heavy sieve. Clicks above this will be ignored.
+	#Range: > 1
+	heavySieveClicksPerSecond = 6
+	#The rate at which the wooden crucible extracts water. Measured in liquid per second.
+	#Range: > 1
+	woodenCrucibleSpeed = 8
+

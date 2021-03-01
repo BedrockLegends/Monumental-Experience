@@ -1,0 +1,11 @@
+#If you don't think it is working, turn on debug mode
+debugMode = false
+#At what height is it a nerdpole? Default: 10
+#Range: 0 ~ 256
+poleHeight = 10
+#List of blockID's to allow in making poles.
+#Recommend adding scaffolding, gravel, and sand variants as those can
+#easily be taken down.
+#use the format modid:blockid
+whiteList = ["minecraft:sand", "minecraft:red_sand", "minecraft:gravel"]
+

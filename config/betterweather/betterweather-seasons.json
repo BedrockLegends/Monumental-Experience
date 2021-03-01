@@ -1,0 +1,310 @@
+{
+  "AUTUMN": {
+    "start": {
+      "tempModifier": -0.1,
+      "humidityModifier": 0.0,
+      "weatherEventChanceMultiplier": 0.7,
+      "cropGrowthChanceMultiplier": 0.8,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ff9b673c",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff9b673c",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff9b673c",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff9b673c",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "mid": {
+      "tempModifier": -0.2,
+      "humidityModifier": 0.0,
+      "weatherEventChanceMultiplier": 0.7,
+      "cropGrowthChanceMultiplier": 0.75,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ff9b673c",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff9b673c",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff9b673c",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff9b673c",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "end": {
+      "tempModifier": -0.3,
+      "humidityModifier": 0.1,
+      "weatherEventChanceMultiplier": 0.75,
+      "cropGrowthChanceMultiplier": 0.65,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ff9b673c",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff9b673c",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff9b673c",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff9b673c",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    }
+  },
+  "SPRING": {
+    "start": {
+      "tempModifier": -0.15,
+      "humidityModifier": 0.5,
+      "weatherEventChanceMultiplier": 1.5,
+      "cropGrowthChanceMultiplier": 1.3,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ff336132",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff336132",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff336132",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff336132",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "mid": {
+      "tempModifier": 0.1,
+      "humidityModifier": 0.5,
+      "weatherEventChanceMultiplier": 2.0,
+      "cropGrowthChanceMultiplier": 2.0,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ff295702",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff295702",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff295702",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff295702",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "end": {
+      "tempModifier": 0.25,
+      "humidityModifier": 0.4,
+      "weatherEventChanceMultiplier": 1.5,
+      "cropGrowthChanceMultiplier": 1.7,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ff145702",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ff145702",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ff145702",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ff145702",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    }
+  },
+  "SUMMER": {
+    "start": {
+      "tempModifier": 0.35,
+      "humidityModifier": -0.1,
+      "weatherEventChanceMultiplier": 0.75,
+      "cropGrowthChanceMultiplier": 1.15,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "",
+        "foliageColorBlendStrength": 0.0,
+        "targetGrassHexColor": "",
+        "grassColorBlendStrength": 0.0,
+        "targetSkyHexColor": "",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "mid": {
+      "tempModifier": 0.5,
+      "humidityModifier": -0.3,
+      "weatherEventChanceMultiplier": 0.2,
+      "cropGrowthChanceMultiplier": 1.0,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "",
+        "foliageColorBlendStrength": 0.0,
+        "targetGrassHexColor": "",
+        "grassColorBlendStrength": 0.0,
+        "targetSkyHexColor": "",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "end": {
+      "tempModifier": 0.15,
+      "humidityModifier": -0.1,
+      "weatherEventChanceMultiplier": 0.5,
+      "cropGrowthChanceMultiplier": 1.0,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "",
+        "foliageColorBlendStrength": 0.0,
+        "targetGrassHexColor": "",
+        "grassColorBlendStrength": 0.0,
+        "targetSkyHexColor": "",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    }
+  },
+  "WINTER": {
+    "start": {
+      "tempModifier": -0.4,
+      "humidityModifier": 0.2,
+      "weatherEventChanceMultiplier": 1.0,
+      "cropGrowthChanceMultiplier": 0.6,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ffa52a2a",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ffa52a2a",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ffa52a2a",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ffa52a2a",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "mid": {
+      "tempModifier": -0.5,
+      "humidityModifier": 0.2,
+      "weatherEventChanceMultiplier": 1.0,
+      "cropGrowthChanceMultiplier": 0.5,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ffa52a2a",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ffa52a2a",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ffa52a2a",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ffa52a2a",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    },
+    "end": {
+      "tempModifier": -0.35,
+      "humidityModifier": 0.2,
+      "weatherEventChanceMultiplier": 1.25,
+      "cropGrowthChanceMultiplier": 0.75,
+      "weatherEventController": {
+        "betterweather-ACID_RAIN": 0.0,
+        "betterweather-DEFAULT": 0.0,
+        "betterweather-DEFAULT_THUNDER": 0.0,
+        "betterweather-BLIZZARD": 0.0,
+        "betterweather-CLOUDED": 0.0,
+        "betterweather-LIGHT_RAIN": 0.0
+      },
+      "client": {
+        "targetFoliageHexColor": "ffa52a2a",
+        "foliageColorBlendStrength": 0.5,
+        "targetGrassHexColor": "ffa52a2a",
+        "grassColorBlendStrength": 0.5,
+        "targetSkyHexColor": "ffa52a2a",
+        "skyColorBlendStrength": 0.0,
+        "targetFogHexColor": "ffa52a2a",
+        "fogColorBlendStrength": 0.0
+      },
+      "entityBreedingBlacklist": []
+    }
+  }
+}

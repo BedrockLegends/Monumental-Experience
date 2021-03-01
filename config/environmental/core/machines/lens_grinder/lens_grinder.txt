@@ -1,0 +1,6 @@
+┏╸ma:lens_grinder
+┃┏╸bo:enabled
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┗╸

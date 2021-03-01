@@ -1,0 +1,12 @@
+
+#General settings
+[General]
+	#This setting limits the slab furnace max stacksize to what's filled in [default: 64]
+	#Range: 0 ~ 64
+	slabFurnaceSlotLimit = 64
+	#This setting limits the slab chest max stacksize to what's filled in [default: 64]
+	#Range: 0 ~ 64
+	slabChestSlotLimit = 64
+	#Changing this to true will cause the Etho slab to also drop onto Villagers [default: false]
+	ethoSlabVillagers = false
+
