@@ -9,7 +9,7 @@
     ],
     "key": {
         "A": {
-            "item": "powder_power:powder_emerald"
+            "tag": "forge:gems/emerald"
         },
         "B": {
             "type": "forge:nbt",
