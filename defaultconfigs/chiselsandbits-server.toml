@@ -1,20 +1,22 @@
 
 [server]
 
-	#mod.chiselsandbits.config.server.troubleshooting.comment
-	[server.troubleshooting]
-
-		[server.troubleshooting.server]
-
-			[server.troubleshooting.server.troubleshooting]
-
-				[server.troubleshooting.server.troubleshooting.logging]
-					#mod.chiselsandbits.config.server.troubleshooting.server.troubleshooting.logging.tile-errors.comment
-					tile-errors = true
-					#mod.chiselsandbits.config.server.troubleshooting.server.troubleshooting.logging.eligibility-errors.comment
-					eligibility-errors = true
-
 	[server.server]
+
+		[server.server.server]
+
+			#mod.chiselsandbits.config.server.performance.comment
+			[server.server.server.performance]
+
+				[server.server.server.performance.server]
+
+					[server.server.server.performance.server.performance]
+
+						[server.server.server.performance.server.performance.memory]
+
+							[server.server.server.performance.server.performance.memory.low-mode]
+								#mod.chiselsandbits.config.server.performance.server.performance.memory.low-mode.enabled.comment
+								enabled = false
 
 		#mod.chiselsandbits.config.server.balancing.comment
 		[server.server.balancing]
@@ -60,7 +62,7 @@
 					[server.server.balancing.server.balancing.bag]
 						#mod.chiselsandbits.config.server.balancing.server.balancing.bag.stack-size.comment
 						#Range: > -2147483648
-						stack-size = 12048
+						stack-size = 16384
 
 					[server.server.balancing.server.balancing.chisel-uses]
 						#mod.chiselsandbits.config.server.balancing.server.balancing.chisel-uses.stone.comment
@@ -117,18 +119,16 @@
 						#mod.chiselsandbits.config.server.balancing.server.balancing.revertible.blocks.comment
 						blocks = ["*"]
 
-		[server.server.server]
+	#mod.chiselsandbits.config.server.troubleshooting.comment
+	[server.troubleshooting]
 
-			#mod.chiselsandbits.config.server.performance.comment
-			[server.server.server.performance]
+		[server.troubleshooting.server]
 
-				[server.server.server.performance.server]
+			[server.troubleshooting.server.troubleshooting]
 
-					[server.server.server.performance.server.performance]
-
-						[server.server.server.performance.server.performance.memory]
-
-							[server.server.server.performance.server.performance.memory.low-mode]
-								#mod.chiselsandbits.config.server.performance.server.performance.memory.low-mode.enabled.comment
-								enabled = false
+				[server.troubleshooting.server.troubleshooting.logging]
+					#mod.chiselsandbits.config.server.troubleshooting.server.troubleshooting.logging.tile-errors.comment
+					tile-errors = true
+					#mod.chiselsandbits.config.server.troubleshooting.server.troubleshooting.logging.eligibility-errors.comment
+					eligibility-errors = true
 

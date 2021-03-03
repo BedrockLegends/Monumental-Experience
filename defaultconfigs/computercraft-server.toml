@@ -35,9 +35,9 @@ command_require_creative = true
 #Controls the HTTP API
 [http]
 	#Enable the "http" API on Computers (see "rules" for more fine grained control than this).
-	enabled = false
+	enabled = true
 	#Enable use of http websockets. This requires the "http_enable" option to also be true.
-	websocket_enabled = false
+	websocket_enabled = true
 	#The number of http requests a computer can make at one time. Additional requests will be queued, and sent when the running requests have finished. Set to 0 for unlimited.
 	#Range: > 0
 	max_requests = 16
@@ -49,27 +49,7 @@ command_require_creative = true
 	#Each rule is an item with a 'host' to match against, and a series of properties. The host may be a domain name ("pastebin.com"),
 	#wildcard ("*.pastebin.com") or CIDR notation ("127.0.0.0/8"). If no rules, the domain is blocked.
 	[[http.rules]]
-		host = "127.0.0.0/8"
-		action = "deny"
-
-	[[http.rules]]
-		host = "0.0.0.0/8"
-		action = "deny"
-
-	[[http.rules]]
-		host = "10.0.0.0/8"
-		action = "deny"
-
-	[[http.rules]]
-		host = "172.16.0.0/12"
-		action = "deny"
-
-	[[http.rules]]
-		host = "192.168.0.0/16"
-		action = "deny"
-
-	[[http.rules]]
-		host = "fd00::/8"
+		host = "$private"
 		action = "deny"
 
 	[[http.rules]]

@@ -20,5 +20,5 @@
 
 [miscellaneous]
 	#Whether or not to reset the food list on death, effectively losing all bonus hearts.
-	resetOnDeath = false
+	resetOnDeath = true
 
