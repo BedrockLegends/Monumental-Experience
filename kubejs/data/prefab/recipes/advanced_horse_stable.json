@@ -1,12 +1,8 @@
 {
     "conditions": [
         {
-            "type": "prefab:config_recipe",
-            "recipeKey": "Advanced Horse Stable"
-        },
-        {
             "type": "forge:mod_loaded",
-            "modid": "prefab"
+            "modid": "woodenutilities"
         }
     ],
     "type": "minecraft:crafting_shaped",

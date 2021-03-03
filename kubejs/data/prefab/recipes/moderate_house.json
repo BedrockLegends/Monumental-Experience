@@ -37,7 +37,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "prefab"
+            "modid": "ironagefurniture"
         }
     ]
 }

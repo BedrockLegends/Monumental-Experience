@@ -9,7 +9,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "astralsorcery"
+            "modid": "occultism"
         }
     ]
 }

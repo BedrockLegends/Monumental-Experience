@@ -1,12 +1,8 @@
 {
     "conditions": [
         {
-            "type": "prefab:config_recipe",
-            "recipeKey": "Advanced Warehouse"
-        },
-        {
             "type": "forge:mod_loaded",
-            "modid": "prefab"
+            "modid": "toolbelt"
         }
     ],
     "type": "minecraft:crafting_shaped",

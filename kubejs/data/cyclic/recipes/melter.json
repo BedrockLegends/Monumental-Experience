@@ -28,7 +28,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "cookingforblockheads"
+            "modid": "cyclic"
         }
     ]
 }

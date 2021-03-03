@@ -1,18 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "# ",
-    "S#"
-  ],
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# ",
+        "S#"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "S": {
+            "tag": "forge:rods"
+        }
     },
-	"S": {
-      "tag": "forge:rods"
-    }
-  },
-  "result": {
-    "item": "woodenutilities:wooden_shears"
-  }
+    "result": {
+        "item": "woodenutilities:wooden_shears"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "woodenutilities"
+        }
+    ]
 }

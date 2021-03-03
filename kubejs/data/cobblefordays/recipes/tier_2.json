@@ -1,25 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "RRR",
-    "WGL",
-    "RRR"
-  ],
-  "key": {
-    "W": {
-      "item": "minecraft:water_bucket"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR",
+        "WGL",
+        "RRR"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:water_bucket"
+        },
+        "L": {
+            "item": "minecraft:lava_bucket"
+        },
+        "G": {
+            "item": "cobblefordays:tier_1"
+        },
+        "R": {
+            "tag": "forge:cobblestone"
+        }
     },
-    "L": {
-      "item": "minecraft:lava_bucket"
+    "result": {
+        "item": "cobblefordays:tier_2"
     },
-    "G": {
-      "item": "cobblefordays:tier_1"
-    },
-    "R": {
-      "tag": "forge:cobblestone"
-    }
-  },
-  "result": {
-    "item": "cobblefordays:tier_2"
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cobblefordays"
+        }
+    ]
 }

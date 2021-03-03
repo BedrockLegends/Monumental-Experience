@@ -8,7 +8,7 @@
     ],
     "key": {
         "1": {
-            "item": "forbidden_arcanus:bottle_block"
+            "item": "minecraft:glass_bottle"
         },
         "2": {
             "tag": "forge:rods/treated_wood"
@@ -17,7 +17,7 @@
             "item": "mysticalagriculture:glowstone_essence"
         },
         "4": {
-            "item": "extendedcrafting:redstone_ingot_block"
+            "item": "compressium:redstone_2"
         },
         "A": {
             "item": "mysticalagriculture:enderium_essence"
@@ -34,7 +34,7 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "gateways"
+                    "modid": "forbidden_arcanus"
                 }
             ]
         }

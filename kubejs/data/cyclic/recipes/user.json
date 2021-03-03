@@ -1,29 +1,35 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "rsr",
-    "lml",
-    "ooo"
-  ],
-  "key": {
-    "o": {
-      "item": "compressium:obsidian_1"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rsr",
+        "lml",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "compressium:obsidian_1"
+        },
+        "s": {
+            "item": "advancedperipherals:player_detector"
+        },
+        "l": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "m": {
+            "item": "minecraft:magma_block"
+        },
+        "r": {
+            "tag": "forge:storage_blocks/gold"
+        }
     },
-    "s": {
-      "item": "advancedperipherals:player_detector"
+    "result": {
+        "item": "cyclic:user",
+        "count": 1
     },
-    "l": {
-      "item": "minecraft:iron_pickaxe"
-    },
-    "m": {
-      "item": "minecraft:magma_block"
-    },
-    "r": {
-      "tag": "forge:storage_blocks/gold"
-    }
-  },
-  "result": {
-    "item": "cyclic:user",
-    "count": 1
-  }
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cyclic"
+        }
+    ]
 }
