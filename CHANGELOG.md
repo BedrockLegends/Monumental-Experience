@@ -73,6 +73,7 @@
 - itemzoom config
 - Akashictome config
 - Journeymap config to have JourneyMap in the bottom right
+- Botania Config
 
 **Removed**
 
