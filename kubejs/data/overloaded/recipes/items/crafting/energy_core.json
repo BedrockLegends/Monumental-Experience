@@ -10,7 +10,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "R": {
-            "item": "extendedcrafting:redstone_ingot_block"
+            "item": "compressium:redstone_2"
         },
         "N": {
             "tag": "forge:storage_blocks/nether_star"
