@@ -38,6 +38,7 @@
 - LolliPop
 - Ice and Fire, Should fix a ton of issues I hope
 - Better Advancements, first 1.16.5 update
+- Forge
 - Much More
 
 
