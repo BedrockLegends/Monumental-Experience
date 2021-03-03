@@ -9,7 +9,7 @@
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
 	cardboardModBlacklist = ["refinedstorage", "tetra", "storagedrawers", "lootr", "extrastorage"]
 	#Disable to make the anchor upgrade not do anything.
-	allowChunkloading = true
+	allowChunkloading = false
 	#How much heat energy is created from one Joule of regular energy in the Resistive Heater.
 	#Range: 0.0 ~ 1.0
 	resistiveHeaterEfficiency = 0.6
@@ -114,7 +114,7 @@
 		#Enable the security system for players to prevent others from accessing their machines. Does NOT affect Frequencies.
 		allowProtection = true
 		#Ops can bypass the block security restrictions if enabled.
-		opsBypassRestrictions = false
+		opsBypassRestrictions = true
 
 	#Laser Settings
 	[general.laser]
@@ -149,7 +149,7 @@
 		#Range: 0.0 ~ 1.0
 		negativeEffectsMinSeverity = 0.1
 		#Enable worldwide radiation effects. Don't be a downer and disable this.
-		radiationEnabled = true
+		radiationEnabled = false
 
 	#SPS Settings
 	[general.sps]
