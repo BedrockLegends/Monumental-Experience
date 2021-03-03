@@ -91,15 +91,15 @@
 	#Prefilled Tanks
 	[general.prefilled]
 		#Add filled creative gas tanks to creative/JEI.
-		gasTanks = true
+		gasTanks = false
 		#Add filled creative infusion tanks to creative/JEI.
-		infusionTanks = true
+		infusionTanks = false
 		#Add filled creative fluid tanks to creative/JEI.
-		fluidTanks = true
+		fluidTanks = false
 		#Add filled creative pigment tanks to creative/JEI.
-		pigmentTanks = true
+		pigmentTanks = false
 		#Add filled creative slurry tanks to creative/JEI.
-		slurryTanks = true
+		slurryTanks = false
 
 	#Auto Eject Settings
 	[general.auto_eject]
