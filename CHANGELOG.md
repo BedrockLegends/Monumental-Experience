@@ -72,6 +72,7 @@
 - Trashslot config
 - itemzoom config
 - Akashictome config
+- Journeymap config to have JourneyMap in the bottom right
 
 **Removed**
 
