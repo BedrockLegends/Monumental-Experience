@@ -13,8 +13,15 @@
 <add><strainer>strainer_survivalist</strainer> <chance>30</chance> <item>minecraft:sand</item></add>
 <add><strainer>strainer_survivalist</strainer> <chance>20</chance> <item>minecraft:dirt</item></add>
 <add><strainer>strainer_survivalist</strainer> <chance>20</chance> <item>minecraft:stick</item></add>
-<add><strainer>strainer_survivalist</strainer> <chance>15</chance> <item>minecraft:clay_ball</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>10</chance> <item>minecraft:clay_ball</item></add>
 <add><strainer>strainer_survivalist</strainer> <chance>13</chance> <item>minecraft:gravel</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>13</chance> <item>minecraft:string</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>6</chance> <item>minecraft:wheat_seeds</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>6</chance> <item>exnihilosequentia:grass_seeds</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>4</chance> <item>minecraft:bone_meal</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>4</chance> <item>exnihilosequentia:silkworm</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>2</chance> <item>minecraft:stone</item></add>
+<add><strainer>strainer_survivalist</strainer> <chance>2</chance> <item>minecraft:obsidian</item></add>
 <add><strainer>strainer_survivalist</strainer> <group>NUGGET</group> <chance>2</chance> <item>minecraft:iron_nugget</item> <subchance>75</subchance></add>
 <add><strainer>strainer_survivalist</strainer> <group>NUGGET</group> <chance>2</chance> <item>minecraft:gold_nugget</item> <subchance>25</subchance></add>
 
