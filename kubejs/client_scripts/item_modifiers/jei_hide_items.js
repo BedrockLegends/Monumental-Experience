@@ -834,6 +834,9 @@ onEvent('jei.hide.items', event => {
   event.hide('thermal:tin_nugget')
 
   //Ore blocks hidden from jei
+  event.hide('tconstruct:cobalt_ore')
+  event.hide('tconstruct:ardite_ore')
+  event.hide('tconstruct:copper_ore')
   event.hide('bigreactors:yellorite_ore')
   event.hide('bigreactors:anglesite_ore')
   event.hide('bigreactors:benitoite_ore')
