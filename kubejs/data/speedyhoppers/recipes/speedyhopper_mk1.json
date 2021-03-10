@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A A",
+        "ASA",
+        " A "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:plates/iron"
+        },
+        "S": {
+            "item": "minecraft:hopper"
+        }
+    },
+    "result": {
+        "item": "speedyhoppers:speedyhopper_mk1"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "speedyhoppers"
+        }
+    ]
+}
