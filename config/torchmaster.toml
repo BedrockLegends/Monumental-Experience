@@ -11,7 +11,7 @@
 	megaTorchRadius = 32
 	#The radius of the dread lamp in each direction (cube) with the torch at its center
 	#Range: > 0
-	dreadLampRadius = 64
+	dreadLampRadius = 32
 	#Use this setting to override the internal lists for entity blocking
 	#You can use this to block more entities or even allow certain entities to still spawn
 	#The + prefix will add the entity to the list, effectivly denying its spawns
