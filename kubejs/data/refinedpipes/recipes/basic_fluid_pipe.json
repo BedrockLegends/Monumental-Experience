@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "SGS",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:plates/steel"
+        },
+        "G": {
+            "item": "immersiveengineering:insulating_glass"
+        },
+        "S": {
+            "tag": "quark:slime_blocks"
+        }
+    },
+    "result": {
+        "item": "refinedpipes:basic_fluid_pipe",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "refinedpipes"
+        }
+    ]
+}
