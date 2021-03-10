@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:gems/diamond"
+        },
+        {
+            "item": "ironcoals:gold_coal"
+        }
+    ],
+    "results": [
+        {
+            "item": "ironcoals:diamond_coal",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}
