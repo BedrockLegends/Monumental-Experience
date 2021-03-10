@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PPP",
+        "CBC",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:ingots/iron"
+        },
+        "B": {
+            "item": "minecraft:furnace"
+        },
+        "C": {
+            "tag": "forge:storage_blocks/iron"
+        }
+    },
+    "result": {
+        "item": "ironfurnaces:iron_furnace"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironfurnaces"
+        }
+    ]
+}
