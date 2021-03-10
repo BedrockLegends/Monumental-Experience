@@ -13,10 +13,10 @@
       "item": "create:polished_rose_quartz"
     },
     "G": {
-      "item": "refinedpipes:improved_item_pipe"
+      "item": "immersiveengineering:insulating_glass"
     },
     "W": {
-      "item": "immersiveengineering:insulating_glass"
+      "item": "refinedpipes:improved_item_pipe"
     }
   },
   "result": {
