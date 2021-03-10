@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NLN",
+    "NLN",
+    "NLN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:rods/gold"
+    },
+    "L": {
+      "item": "speedyladders:iron_ladder"
+    }
+  },
+  "result": {
+    "item": "speedyladders:gold_ladder",
+    "count": 2
+  }
+}
