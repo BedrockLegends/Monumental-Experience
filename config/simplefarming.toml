@@ -38,7 +38,7 @@
 	#Allowed Values: DISABLED, ENABLED_DROP, ENABLED_SMART
 	"Right-Click Harvest" = "ENABLED_DROP"
 	#Configures if Double Crops (i.e. Corn, Sorghum, Kenaf) slow down living entities (Default: false)
-	"Double Crops Slow Down Motion" = false
+	"Double Crops Slow Down Motion" = true
 
 ["Right-click Harvesting Settings"]
 	#Indicates whether right-click harvesting crops should be enabled
