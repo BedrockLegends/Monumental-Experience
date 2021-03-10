@@ -1,8 +1,0 @@
-{
-	"type":"mekanism:crystallizing",
-	"conditions":[
-		{
-			"type":"forge:false"
-		}
-	]
-}

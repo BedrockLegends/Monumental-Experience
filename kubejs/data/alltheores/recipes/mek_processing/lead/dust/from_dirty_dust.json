@@ -1,8 +1,0 @@
-{
-"type": "mekanism:enriching",
-"conditions": [
-{
-"type": "forge:false"
-}
-]
-}
