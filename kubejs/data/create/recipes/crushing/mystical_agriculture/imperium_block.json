@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:imperium_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:imperium_essence",
+      "count": 5
+    }
+  ],
+  "processingTime": 400
+}

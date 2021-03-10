@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    },
+    {
+      "tag": "forge:nuggets/osmium"
+    }
+  ],
+  "results": [
+    {
+      "item": "alltheores:osmium_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}

@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        },
+        {
+            "tag": "forge:nuggets/steel"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:ingot_steel",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    }
+  ],
+  "results": [
+    {
+      "item": "alltheores:nickel_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}

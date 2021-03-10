@@ -1,0 +1,20 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

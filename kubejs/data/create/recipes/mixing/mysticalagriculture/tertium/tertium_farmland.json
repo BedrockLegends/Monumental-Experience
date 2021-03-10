@@ -1,0 +1,27 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:tertium_essence"
+        },
+        {
+            "tag": "forge:hoes"
+        },
+        {
+            "item": "minecraft:dirt"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:tertium_farmland",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

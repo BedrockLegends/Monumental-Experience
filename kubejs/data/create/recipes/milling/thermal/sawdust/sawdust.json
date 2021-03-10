@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "thermal:sawdust_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:sawdust",
+            "count": 9
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:ingot_refined_glowstone"
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}
