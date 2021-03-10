@@ -31,7 +31,7 @@
 	#Temporarily reduces excavation speed if TPS begins to slow down
 	"TPS Guard" = true
 	#Skips spawning drops in world adding them directly to your inventory
-	"Auto Pickup" = false
+	"Auto Pickup" = true
 	#Allow players to use shape mining
 	"Allow Shapes" = true
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
