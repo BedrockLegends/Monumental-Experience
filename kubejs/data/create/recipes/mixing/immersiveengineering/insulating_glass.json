@@ -2,7 +2,7 @@
     "type": "create:mixing",
     "ingredients": [
         {
-            "item": "mysticalagriculture:imperium_essence"
+            "tag": "forge:dyes/green"
         },
         {
             "tag": "forge:dusts/iron"
