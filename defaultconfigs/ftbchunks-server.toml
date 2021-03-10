@@ -3,11 +3,11 @@ disable_fake_players = false
 #Max claimed chunks.
 #You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
 #Range: > 0
-max_claimed_chunks = 130
+max_claimed_chunks = 160
 #Max force loaded chunks.
 #You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
 #Range: > 0
-max_force_loaded_chunks = 2
+max_force_loaded_chunks = 4
 #Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for forceloading.
 disable_protection = false
 #Forced modes won't let players change their ally settings.
