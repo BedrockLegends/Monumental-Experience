@@ -1,0 +1,18 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:plates/steel"
+        },
+        {
+            "item": "immersiveengineering:blastbrick"
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:blastbrick_reinforced",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "superheated"
+}

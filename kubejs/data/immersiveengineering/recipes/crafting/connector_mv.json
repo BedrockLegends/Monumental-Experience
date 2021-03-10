@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " P ",
+        "CBC",
+        "CBC"
+    ],
+    "key": {
+        "P": {
+            "item": "immersiveengineering:wirecoil_electrum"
+        },
+        "B": {
+            "tag": "forge:rods/electrum"
+        },
+        "C": {
+            "item": "immersiveengineering:concrete"
+        }
+    },
+    "result": {
+        "item": "immersiveengineering:connector_mv",
+        "count": 2
+    }
+}

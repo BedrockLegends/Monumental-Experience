@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "results": [
+        {
+            "item": "alltheores:lead_ingot"
+        }
+    ],
+    "additives": [],
+    "input": {
+        "tag": "forge:dusts/lead"
+    },
+    "time": 100,
+    "energy": 51200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ]
+}

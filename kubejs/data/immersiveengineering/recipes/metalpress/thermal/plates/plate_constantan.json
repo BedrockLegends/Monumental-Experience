@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:metal_press",
+    "mold": {
+        "item": "immersiveengineering:mold_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
+    "result": {
+        "item": "thermal:constantan_plate"
+    },
+    "input": {
+        "tag": "forge:ingots/constantan"
+    },
+    "energy": 2400
+}

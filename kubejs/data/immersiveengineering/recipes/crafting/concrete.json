@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:light_gray_concrete_powder"
+        },
+        {
+            "item": "buildinggadgets:construction_block_powder"
+        },
+        {
+            "tag": "forge:dyes/green"
+        },
+        {
+            "fluidTag": "forge:water",
+            "amount": 250
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:concrete",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}
