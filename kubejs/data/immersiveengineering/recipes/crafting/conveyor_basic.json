@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "   ",
+    "XXX",
+    "CTC"
+  ],
+  "key": {
+    "X": {
+      "item": "create:belt_connector"
+    },
+    "C": {
+      "tag": "forge:sheetmetals/iron"
+    },
+    "T": {
+      "item": "immersiveengineering:electron_tube"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:conveyor_basic",
+    "count": 4
+  }
+}
