@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#i#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:plates/signalum"
+        },
+        "i": {
+            "item": "create:andesite_alloy"
+        }
+    },
+    "result": {
+        "item": "thermal:signalum_gear"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}

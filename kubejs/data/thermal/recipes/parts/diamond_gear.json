@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#i#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/diamond"
+        },
+        "i": {
+            "item": "create:andesite_alloy"
+        }
+    },
+    "result": {
+        "item": "thermal:diamond_gear"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}
