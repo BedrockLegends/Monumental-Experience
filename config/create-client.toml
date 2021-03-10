@@ -7,7 +7,7 @@
 	enableTooltips = true
 	#
 	#Display a tooltip when looking at overstressed components.
-	enableOverstressedTooltip = true
+	enableOverstressedTooltip = false
 	#
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false

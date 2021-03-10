@@ -14,4 +14,7 @@ minCrouchesToApplyBonemeal = 5
 effectRadius = 5
 #When true only saplings are allowed to grow with twerking
 saplingsOnly = false
+#The chance of growth effect being applied from sprinting
+#Range: 0.0 ~ 1.0
+sprintGrowChance = 0.15
 

@@ -40,6 +40,9 @@
 	auto_equip_on_death_respawn = true
 	#Allows to fill an existing grave instead of creating a new one [false/true|default:true]
 	allow_to_fill_existing_grave = true
+	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
+	#Range: 0 ~ 100
+	pvp_stolen_xp = 30
 
 #Options related to player's alignment
 [alignment]
@@ -207,6 +210,8 @@
 	chance_grave_dust = 100
 	#Defines the allowed loottables having a chance to contain a magic item from Tombstone
 	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
+	#The magic items from Tombstone can only be found as creature loot if the player is the killer [false/true|default:true]
+	drop_only_on_player_kill = true
 
 #Allows to enable some features related to others mods
 [compatibility]

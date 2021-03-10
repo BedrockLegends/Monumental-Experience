@@ -3,7 +3,7 @@
 
 	[itemzoom.toggled]
 		#If set to "false", Item Zoom will be disabled.
-		enabled = true
+		enabled = false
 
 	[itemzoom.zoom]
 		#Set lower amount to make the item zoom less.

@@ -71,7 +71,7 @@
 	gobberLuckyBlockGeneration = true
 	#Size of Gobber Lucky Block pockets [0-100, default: 3]
 	#Range: 0 ~ 100
-	gobberLuckyBlockSize = 3
+	gobberLuckyBlockSize = 2
 	#Chances of Gobber Lucky Block pocket being generated [0-100, default: 20]
 	#Range: 0 ~ 100
 	gobberLuckyBlockChance = 20
@@ -85,7 +85,7 @@
 	gobberOreGeneration = false
 	#Size of Gobber Ore pockets [0-100, default: 4]
 	#Range: 0 ~ 100
-	gobberOreSize = 4
+	gobberOreSize = 2
 	#Chances of Gobber Ore pocket being generated [0-100, default: 15]
 	#Range: 0 ~ 100
 	gobberOreChance = 15
@@ -110,7 +110,7 @@
 #Gobber End Ore Generation
 [gobber2_ore_end]
 	#Generate Gobber End Ore in the world [true / false]
-	gobberOreEndGeneration = false
+	gobberOreEndGeneration = true
 
 #Item Cooldown Settings
 [item_cooldown_settings]

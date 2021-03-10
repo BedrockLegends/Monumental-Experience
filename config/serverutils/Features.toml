@@ -1,0 +1,63 @@
+#The tag used by the mod, leave empty for no tag.
+tag = "&8[&9S&aU&8]"
+#enabling global permissions will attempt to change all commands to use permissions generated dynamically by ServerUtils. If disabled, only the commands from ServerUtils will have the permissions.
+"global perms" = true
+#disabling translations will force all messages to be in english.
+translations = true
+
+["Welcome Message"]
+	enabled = true
+	#{player} will be replaced with the player name.
+	text = "&hWelcome {player} to the server!"
+
+#enabling the economy will apply the cost for commands, and other money related features.
+[Economy]
+	economy = false
+
+	[Economy.Currency]
+		singular = "Dollar"
+		plural = "Dollars"
+		symbol = "$"
+
+["Auto Clearlag"]
+	enabled = false
+	#Range: > 0
+	frequency = 5
+
+	["Auto Clearlag".Entities]
+		item = true
+		passive = true
+		hostile = true
+
+["Color Chat"]
+	perm = "serverutils.colorchat"
+	link-perm = "serverutils.linkchat"
+	enabled = true
+
+	["Color Chat"."Command Help"]
+		#KEY will be replaced with the sub command, and VALUE will be replaced with the info about the sub command.
+		entry-format = "&8[&9KEY&8]&7:&aVALUE"
+		#INFO will be replaced with the info about a command.
+		info-format = "&7INFO"
+		spacer-format = "&6===================="
+
+	["Color Chat"."Color Codes"]
+		#This will enable the &g color code, which will change text to rainbow.
+		"rainbow enabled" = true
+		#This will enable the &h color code, which will change text based on the month it is.
+		"holiday enabled" = true
+
+		["Color Chat"."Color Codes"."Holiday Colors"]
+			January = "876f"
+			February = "fd5c"
+			March = "2af6"
+			April = "ba9f"
+			May = "aeb9"
+			June = "7fc"
+			July = "cf9"
+			August = "6ca"
+			September = "8ce"
+			October = "86f"
+			November = "c6e"
+			December = "afc"
+

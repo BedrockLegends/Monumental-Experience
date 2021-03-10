@@ -4,10 +4,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 1.0
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.follow_range attribute.
@@ -15,10 +15,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.knockback_resistance attribute.
@@ -26,10 +26,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.movement_speed attribute.
@@ -37,10 +37,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.flying_speed attribute.
@@ -48,10 +48,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.attack_damage attribute.
@@ -59,10 +59,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.attack_knockback attribute.
@@ -70,10 +70,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.attack_speed attribute.
@@ -81,10 +81,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.armor attribute.
@@ -92,10 +92,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.armor_toughness attribute.
@@ -103,10 +103,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:generic.luck attribute.
@@ -114,10 +114,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:zombie.spawn_reinforcements attribute.
@@ -125,10 +125,10 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 
 #Values for the minecraft:horse.jump_strength attribute.
@@ -136,207 +136,9 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	min = 4.9E-324
 	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the botania:pixie_spawn_chance attribute.
-[botania_pixie_spawn_chance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:swim_speed attribute.
-[forge_swim_speed]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:nametag_distance attribute.
-[forge_nametag_distance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:entity_gravity attribute.
-[forge_entity_gravity]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:reach_distance attribute.
-[forge_reach_distance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:draw_speed attribute.
-[apotheosis_draw_speed]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:snipe_damage attribute.
-[apotheosis_snipe_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:fire_damage attribute.
-[apotheosis_fire_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:cold_damage attribute.
-[apotheosis_cold_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:life_steal attribute.
-[apotheosis_life_steal]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:piercing_damage attribute.
-[apotheosis_piercing_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:current_hp_damage attribute.
-[apotheosis_current_hp_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:crit_chance attribute.
-[apotheosis_crit_chance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:crit_damage attribute.
-[apotheosis_crit_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the apotheosis:overhealing attribute.
-[apotheosis_overhealing]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the unionlib:dig_speed attribute.
-[unionlib_dig_speed]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the survive:generic.cold_resistance attribute.
-[survive_generic_cold_resistance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the survive:generic.heat_resistance attribute.
-[survive_generic_heat_resistance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
 

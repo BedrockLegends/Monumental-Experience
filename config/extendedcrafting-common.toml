@@ -20,18 +20,18 @@
 	#Should the Extended Crafting Tables be enabled?
 	enabled = true
 	#Should the Auto Crafting Tables be enabled?
-	autoTablesEnabled = false
+	autoTablesEnabled = true
 	#Should the Basic Crafting Table inherit vanilla crafting recipes?
-	useVanillaRecipes = false
+	useVanillaRecipes = true
 	#How much FE the Auto Crafting Tables should hold. Higher tiers use double the previous tier.
 	#Range: > 0
 	autoTablePowerCapacity = 500000
 	#How much FE the Auto Crafting Tables should use when crafting.
 	#Range: > 0
-	autoTablePowerRate = 500
+	autoTablePowerRate = 1000
 	#How much FE the Auto Crafting Tables should use when auto inserting items.
 	#Range: > 0
-	autoTableInsertPowerRate = 100
+	autoTableInsertPowerRate = 200
 
 #Settings for the Quantum Compressor.
 ["Quantum Compression"]

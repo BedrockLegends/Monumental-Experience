@@ -20,4 +20,8 @@
 	#
 	# Set to false to disable the automatic focus of the searchbar - client gui screen
 	enableAutoSearchFocus = true
+	#
+	# Maximum range of the Storage Remote and Crafting Remote.   -1 means unlimited.
+	#Range: -1 ~ 8388607
+	remoteMaxRange = -1
 

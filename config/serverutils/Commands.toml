@@ -1,0 +1,615 @@
+
+#New Config
+[Back]
+	enable = true
+	enable-on-death = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 30
+	perm = "serverutils.back"
+	aliases = ["back", "return"]
+	#Range: > 0
+	cost = 0
+
+[Bal]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.bal"
+	other-perm = "serverutils.bal-other"
+	aliases = ["bal"]
+	#Range: > 0
+	cost = 0
+	#Range: > 0
+	other-cost = 0
+
+[Bomb]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.bomb"
+	aliases = ["bomb", "boom"]
+	#Range: > 0
+	cost = 0
+
+[Bypass]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.bypass"
+	aliases = ["bypass"]
+	#Range: > 0
+	cost = 0
+
+[Claim]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	max-perm = "serverutils.max_claims_"
+	perm = "serverutils.claim"
+	bypass-perm = "serverutils.claim-bypass"
+	aliases = ["claim"]
+	#Range: > 0
+	cost = 0
+
+[Claimflag]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.claimflag"
+	aliases = ["claimflag"]
+	#Range: > 0
+	cost = 0
+
+[Clearlag]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.clearlag"
+	aliases = ["clearlag"]
+	#Range: > 0
+	cost = 0
+
+[Delhome]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.delhome"
+	aliases = ["delhome"]
+	#Range: > 0
+	cost = 0
+
+[Delwarp]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.delwarp"
+	aliases = ["delwarp"]
+	#Range: > 0
+	cost = 0
+
+[Econ]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.econ"
+	aliases = ["econ"]
+	#Range: > 0
+	cost = 0
+
+[Endchest]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.endchest"
+	aliases = ["endchest", "ec"]
+	#Range: > 0
+	cost = 0
+
+[Feed]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.feed.self"
+	other-perm = "serverutils.feed.other"
+	aliases = ["feed"]
+	#Range: > 0
+	cost = 0
+
+[Flood]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.flood"
+	aliases = ["drown"]
+	#Range: > 0
+	cost = 0
+
+[Fly]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.fly.self"
+	other-perm = "serverutils.fly.other"
+	aliases = ["fly"]
+	#Range: > 0
+	cost = 0
+
+[Gamemode]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.gamemode"
+	aliases = ["gamemode", "gm"]
+	#Range: > 0
+	cost = 0
+
+[God]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.god.self"
+	other-perm = "serverutils.god.other"
+	aliases = ["god", "tgm"]
+	#Range: > 0
+	cost = 0
+
+[Heal]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.heal.self"
+	other-perm = "serverutils.heal.other"
+	aliases = ["heal"]
+	#Range: > 0
+	cost = 0
+
+[Home]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.home"
+	home-max-perm = "serverutils.maxhome_"
+	aliases = ["home"]
+	#Range: > 0
+	cost = 0
+
+[Homes]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.homes"
+	aliases = ["homes"]
+	#Range: > 0
+	cost = 0
+
+[Invsee]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.invsee"
+	aliases = ["invsee"]
+	#Range: > 0
+	cost = 0
+
+[Kit]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.kit.base"
+	"modfiy perm" = "serverutils.kit.modify"
+	aliases = ["kit"]
+	#Range: > 0
+	cost = 0
+
+[Msg]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.msg"
+	aliases = ["message", "pm"]
+	#Range: > 0
+	cost = 0
+
+[Msgtoggle]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.msg.toggle"
+	aliases = ["msgtoggle"]
+	#Range: > 0
+	cost = 0
+
+[Motd]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.motd"
+	modify-perm = "serverutils.motd.modify"
+	aliases = ["motd"]
+	#Range: > 0
+	cost = 0
+
+[Mute]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.sudo"
+	aliases = ["sudo"]
+	#Range: > 0
+	cost = 0
+
+[Nick]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.nick.self"
+	other-perm = "serverutils.nick.other"
+	aliases = ["nickname", "nick"]
+	#Range: > 0
+	cost = 0
+
+[Pay]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.pay"
+	aliases = ["pay"]
+	#Range: > 0
+	cost = 0
+
+[Permission]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.permission"
+	aliases = ["permission", "perms", "p"]
+	#Range: > 0
+	cost = 0
+
+[Price]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.price"
+	aliases = ["price"]
+	#Range: > 0
+	cost = 0
+
+[Rank]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.rank.self"
+	modify-perm = "serverutils.rank.modify"
+	aliases = ["rank"]
+	#Range: > 0
+	cost = 0
+
+[Rankup]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.rankup"
+	aliases = ["rankup"]
+	#Range: > 0
+	cost = 0
+
+[Reload]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 5
+	perm = "serverutils.reload"
+	aliases = ["sureload"]
+	#Range: > 0
+	cost = 0
+
+[Repair]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 5
+	perm = "serverutils.repair.hand"
+	"repair all perm" = "serverutils.repair.all"
+	aliases = ["repair"]
+	#Range: > 0
+	cost = 0
+
+[Respond]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.respond"
+	aliases = ["r"]
+	#Range: > 0
+	cost = 0
+
+[Rules]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.rules"
+	aliases = ["rules"]
+	#Range: > 0
+	cost = 0
+
+[Rtp]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.rtp"
+	aliases = ["rtp"]
+	#Range: > 0
+	max = 5000
+	#Range: > -2147483648
+	origin_x = 0
+	#Range: > -2147483648
+	origin_z = 0
+	#Range: > 0
+	cost = 0
+
+[Rtpfar]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.rtpfar"
+	aliases = ["rtpfar"]
+	#Range: > 0
+	max = 10000
+	#Range: > 0
+	cost = 0
+
+[Rtpnear]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.rtpnear"
+	aliases = ["rtpnear"]
+	#Range: > 0
+	min = 100
+	#Range: > 0
+	max = 1000
+	#Range: > 0
+	cost = 0
+
+[Sell]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.sell"
+	aliases = ["sell"]
+	#Range: > 0
+	cost = 0
+
+[Sethome]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.sethome"
+	aliases = ["sethome"]
+	#Range: > 0
+	cost = 0
+
+[Setspawn]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.setspawn"
+	aliases = ["setspawn"]
+	#Range: > 0
+	cost = 0
+
+[Setwarp]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.setwarp"
+	aliases = ["setwarp"]
+	#Range: > 0
+	cost = 0
+
+[Smite]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.smite"
+	aliases = ["smite"]
+	#Range: > 0
+	cost = 0
+
+[Spawn]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.spawn"
+	aliases = ["spawn"]
+	#Range: > 0
+	cost = 0
+
+[Tpa]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.tpa.base"
+	#Range: > 0
+	"tp time" = 5
+	aliases = ["tpa", "call"]
+	#Range: > 0
+	cost = 0
+
+[TpaAccept]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.tpa.accept"
+	aliases = ["tpaccept"]
+	#Range: > 0
+	cost = 0
+
+[TpaDeny]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.tpa.deny"
+	aliases = ["tpdeny"]
+	#Range: > 0
+	cost = 0
+
+[TpaHere]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.tpa.here"
+	aliases = ["tpahere"]
+	#Range: > 0
+	cost = 0
+
+[Unclaim]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.claim"
+	aliases = ["unclaim"]
+	#Range: > 0
+	cost = 0
+
+[Untrust]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.trust"
+	aliases = ["untrust"]
+	#Range: > 0
+	cost = 0
+
+[Trust]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.trust"
+	aliases = ["trust"]
+	#Range: > 0
+	cost = 0
+
+[Warp]
+	enable = true
+	#Range: > 0
+	delay = 5
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.warp"
+	aliases = ["warp"]
+	#Range: > 0
+	cost = 0
+
+[Warps]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.warps"
+	aliases = ["warps"]
+	#Range: > 0
+	cost = 0
+

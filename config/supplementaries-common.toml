@@ -79,8 +79,6 @@
 		allow_any_item = false
 
 	[blocks.sack]
-		#additional blocks that can support a sack
-		whitelist = ["farmersdelight:rope"]
 		#penalize the player with slowness effect when carrying too many sacks
 		sack_penality = true
 		#maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
@@ -173,6 +171,10 @@
 		bound_distance = 64
 		#additional non tameable entities that you can bind to flutes
 		flute_extra_mobs = ["minecraft:horse", "minecraft:llama", "minecraft:donkey", "minecraft:fox"]
+
+	[items.rope_arrow]
+		#If you really don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
+		rope_arrow_override = "supplementaries:rope"
 
 [comment]
 	#This config is synced server side. If you are on a server you'll get its own version
