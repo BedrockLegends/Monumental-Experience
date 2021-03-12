@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PQP",
+        "QBQ",
+        "PQP"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:sheetmetals/electrum"
+        },
+        "B": {
+            "item": "storagenetwork:inventory"
+        },
+        "Q": {
+            "tag": "forge:gears/constantan"
+        }
+    },
+    "result": {
+        "item": "storagenetwork:request"
+    }
+}

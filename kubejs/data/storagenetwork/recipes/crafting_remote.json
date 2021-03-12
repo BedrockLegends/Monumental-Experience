@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PSP",
+        "QBQ",
+        "PTP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:sea_lantern"
+        },
+        "B": {
+            "item": "storagenetwork:inventory_remote"
+        },
+        "Q": {
+            "item": "immersiveengineering:coil_mv"
+        },
+        "T": {
+            "tag": "forge:storage_blocks/steel"
+        },
+        "S": {
+            "item": "immersiveengineering:insulating_glass"
+        }
+    },
+    "result": {
+        "item": "storagenetwork:crafting_remote"
+    }
+}
