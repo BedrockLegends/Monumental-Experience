@@ -1,0 +1,17 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "minecraft:gray_wool"
+  },
+  "result": [
+    {
+      "item": "woot:gray_dyeplate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woot"
+    }
+  ]
+}

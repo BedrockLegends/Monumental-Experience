@@ -1,0 +1,17 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "minecraft:pink_wool"
+  },
+  "result": [
+    {
+      "item": "woot:pink_dyeplate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woot"
+    }
+  ]
+}

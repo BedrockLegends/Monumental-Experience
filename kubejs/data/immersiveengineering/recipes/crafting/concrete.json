@@ -11,7 +11,7 @@
             "tag": "forge:dyes/green"
         },
         {
-            "fluidTag": "forge:water",
+            "fluid": "minecraft:water",
             "amount": 250
         }
     ],
