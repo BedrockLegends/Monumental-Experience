@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "forbidden_arcanus:silver_dragon_scale",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "superheated",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}
