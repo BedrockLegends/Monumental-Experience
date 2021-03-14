@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"SLL",
+  	"SPP",
+  	"SLL"
+  ],
+  "key": {
+  	"S": {
+  		"item": "botania:mana_string"
+  	},
+  	"P": {
+  		"tag": "forge:paper"
+  	},
+  	"L": {
+  		"item": "quark:ravager_hide"
+  	}
+  },
+  "result": {
+    "item": "mana-and-artifice:spell_book"
+  }
+}
