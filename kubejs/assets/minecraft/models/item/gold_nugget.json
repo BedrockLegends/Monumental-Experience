@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/_parent_nugget",
-  "textures": {
-    "layer0": "minecraft:item/gold_nugget"
-  }
-}

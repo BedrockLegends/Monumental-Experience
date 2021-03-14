@@ -1,6 +1,0 @@
-
-#General configuration options.
-[General]
-	#Should jetpacks be enachantable?
-	enchantableJetpacks = false
-

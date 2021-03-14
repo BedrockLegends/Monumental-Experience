@@ -1,8 +1,0 @@
-{
-  "category/SWAMP": {
-    "client": {
-      "targetFoliageHexColor": "#964B00",
-      "targetGrassHexColor": "#964B00"
-    }
-  }
-}
