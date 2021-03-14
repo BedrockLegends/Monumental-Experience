@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "forbidden_arcanus:chorus_pearl"
+  },
+  "output": {
+    "item": "botania:mana_pearl"
+  },
+  "mana": 6000
+}
