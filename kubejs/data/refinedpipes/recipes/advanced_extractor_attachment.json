@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "PIP",
+    "SPS"
+  ],
+  "key": {
+    "I": {
+      "item": "refinedpipes:improved_extractor_attachment"
+    },
+    "P": {
+      "tag": "forge:gears/diamond"
+    },
+    "S": {
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "result": {
+    "item": "refinedpipes:advanced_extractor_attachment"
+  }
+}
