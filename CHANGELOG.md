@@ -49,9 +49,9 @@
 - JourneyMap
 - Doggy Talents
 - Back Extended Crafting Auto Tables, Enjoy
-- Betterportals
 - Create Plus
 - a new cleaner JEI, I removed most of the stuff like spawn eggs, ect
+- a better lag clear
 
 **Fixed/changed**
 - Overlapping Keybindings & Full Screen Mod again
