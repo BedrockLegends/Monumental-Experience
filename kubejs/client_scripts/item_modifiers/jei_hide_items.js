@@ -203,6 +203,19 @@ onEvent('jei.hide.items', event => {
   event.hide('minecraft:strider_spawn_egg')
   event.hide('minecraft:trader_llama_spawn_egg')
   event.hide('minecraft:tropical_fish_spawn_egg')
+  event.hide('minecraft:turtle_spawn_egg')
+  event.hide('minecraft:vex_spawn_egg')
+  event.hide('minecraft:villager_spawn_egg')
+  event.hide('minecraft:vindicator_spawn_egg')
+  event.hide('minecraft:wandering_trader_spawn_egg')
+  event.hide('minecraft:witch_spawn_egg')
+  event.hide('minecraft:wither_skeleton_spawn_egg')
+  event.hide('minecraft:wolf_spawn_egg')
+  event.hide('minecraft:zoglin_spawn_egg')
+  event.hide('minecraft:zombie_spawn_egg')
+  event.hide('minecraft:zombie_horse_spawn_egg')
+  event.hide('minecraft:zombie_villager_spawn_egg')
+  event.hide('minecraft:zombified_piglin_spawn_egg')
 
 
 //ores
