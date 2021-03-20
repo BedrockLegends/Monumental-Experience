@@ -1,0 +1,801 @@
+{
+	id: "0000000000000A8C",
+	group: "570AEC24DD8505B2",
+	order_index: 6,
+	filename: "pneumaticcraft",
+	title: "&9Pneumaticcraft",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: 1b,
+		tag: {
+			"patchouli:book": "pneumaticcraft:book"
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000000A8D",
+			tasks: [{
+				id: "0000000000000A8E",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000A8D"],
+			id: "000000000000144B",
+			tasks: [{
+				id: "000000000000144C",
+				type: "item",
+				item: "pneumaticcraft:ingot_iron_compressed",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "00000000000012F2",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "00000000000012F3",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["000000000000144B"],
+			id: "000000000000144D",
+			tasks: [{
+				id: "000000000000144E",
+				type: "item",
+				item: "pneumaticcraft:crop_support",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000012F4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["000000000000144B"],
+			id: "000000000000144F",
+			tasks: [{
+				id: "0000000000001450",
+				type: "item",
+				item: "pneumaticcraft:spawner_agitator"
+			}],
+			rewards: [
+				{
+					id: "00000000000012F5",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "00000000000012F7",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["000000000000144B"],
+			id: "0000000000001451",
+			tasks: [{
+				id: "0000000000001452",
+				type: "item",
+				item: "pneumaticcraft:pressure_tube",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "00000000000012F8",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "00000000000012F9",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000001451"],
+			id: "0000000000001453",
+			tasks: [{
+				id: "0000000000001454",
+				type: "item",
+				item: "pneumaticcraft:air_compressor"
+			}],
+			rewards: [
+				{
+					id: "00000000000012FA",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "00000000000012FB",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000001453"],
+			id: "0000000000001455",
+			tasks: [{
+				id: "0000000000001456",
+				type: "item",
+				item: "pneumaticcraft:advanced_air_compressor"
+			}],
+			rewards: [
+				{
+					id: "00000000000012FC",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "00000000000012FD",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000001451"],
+			id: "0000000000001457",
+			tasks: [{
+				id: "0000000000001458",
+				type: "item",
+				item: "pneumaticcraft:liquid_compressor"
+			}],
+			rewards: [
+				{
+					id: "00000000000012FE",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "00000000000012FF",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000001457"],
+			id: "0000000000001459",
+			tasks: [{
+				id: "000000000000145A",
+				type: "item",
+				item: "pneumaticcraft:advanced_liquid_compressor"
+			}],
+			rewards: [
+				{
+					id: "0000000000001300",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001301",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			shape: "gear",
+			id: "000000000000145B",
+			tasks: [
+				{
+					id: "0000000000000318",
+					type: "item",
+					item: "pneumaticcraft:refinery_output",
+					count: 4L
+				},
+				{
+					id: "0000000000000319",
+					type: "item",
+					item: "pneumaticcraft:refinery"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001302",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001303",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			shape: "gear",
+			id: "000000000000145C",
+			tasks: [{
+				id: "000000000000145D",
+				type: "item",
+				item: "pneumaticcraft:lpg_bucket"
+			}],
+			rewards: [
+				{
+					id: "0000000000001304",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001305",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000001451"],
+			id: "000000000000145E",
+			tasks: [{
+				id: "000000000000145F",
+				type: "item",
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}],
+			rewards: [
+				{
+					id: "0000000000001306",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001307",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 8.0d,
+			shape: "gear",
+			id: "0000000000001460",
+			tasks: [{
+				id: "0000000000001461",
+				type: "item",
+				item: "pneumaticcraft:plastic_bucket"
+			}],
+			rewards: [
+				{
+					id: "0000000000001308",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001309",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 12.0d,
+			shape: "gear",
+			id: "0000000000000320",
+			tasks: [
+				{
+					id: "0000000000000321",
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_gray",
+					count: 7L
+				},
+				{
+					id: "0000000000000322",
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_red",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000130A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000130B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 12.0d,
+			shape: "gear",
+			dependencies: ["0000000000000320"],
+			id: "0000000000000323",
+			tasks: [{
+				id: "0000000000000324",
+				type: "item",
+				item: "pneumaticcraft:charging_station"
+			}],
+			rewards: [
+				{
+					id: "000000000000130C",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000130D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 12.0d,
+			shape: "gear",
+			dependencies: ["0000000000000323"],
+			id: "0000000000000325",
+			tasks: [{
+				id: "0000000000000326",
+				type: "item",
+				item: {
+					id: "pneumaticcraft:amadron_tablet",
+					Count: 1b,
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000130E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000130F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 12.0d,
+			shape: "gear",
+			dependencies: ["0000000000000325"],
+			id: "0000000000000327",
+			tasks: [{
+				id: "0000000000000328",
+				type: "item",
+				item: "pneumaticcraft:assembly_program_laser"
+			}],
+			rewards: [
+				{
+					id: "0000000000001314",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001315",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 10.0d,
+			shape: "gear",
+			dependencies: ["0000000000000325"],
+			id: "0000000000000329",
+			tasks: [{
+				id: "000000000000032A",
+				type: "item",
+				item: "pneumaticcraft:assembly_program_drill"
+			}],
+			rewards: [
+				{
+					id: "0000000000001310",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001311",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 10.0d,
+			shape: "gear",
+			dependencies: ["0000000000000325"],
+			id: "0000000000001462",
+			tasks: [{
+				id: "000000000000032C",
+				type: "item",
+				item: "pneumaticcraft:pcb_blueprint"
+			}],
+			rewards: [
+				{
+					id: "0000000000001312",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001313",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 16.0d,
+			shape: "gear",
+			dependencies: ["0000000000000325"],
+			id: "0000000000001463",
+			tasks: [{
+				id: "0000000000001464",
+				type: "item",
+				item: {
+					id: "pneumaticcraft:pneumatic_wrench",
+					Count: 1b,
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000001326",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001327",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 16.0d,
+			dependencies: ["0000000000000323"],
+			id: "0000000000001465",
+			tasks: [{
+				id: "0000000000001466",
+				type: "item",
+				item: "pneumaticcraft:plastic_brick_green",
+				count: 8L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 16.0d,
+			shape: "gear",
+			id: "0000000000001467",
+			tasks: [
+				{
+					id: "0000000000001468",
+					type: "item",
+					item: "pneumaticcraft:empty_pcb",
+					count: 8L
+				},
+				{
+					id: "0000000000000335",
+					type: "item",
+					item: {
+						id: "pneumaticcraft:empty_pcb",
+						Count: 1b,
+						tag: {
+							"pneumaticcraft:uv_exposure": 100
+						}
+					},
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001318",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001319",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			shape: "gear",
+			dependencies: ["000000000000144B"],
+			id: "0000000000001469",
+			tasks: [{
+				id: "000000000000146A",
+				type: "item",
+				item: "pneumaticcraft:uv_light_box"
+			}],
+			rewards: [
+				{
+					id: "0000000000001316",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001317",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 20.0d,
+			shape: "gear",
+			id: "0000000000000336",
+			tasks: [{
+				id: "0000000000000337",
+				type: "item",
+				item: "pneumaticcraft:etching_acid_bucket"
+			}],
+			rewards: [
+				{
+					id: "000000000000131A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000131B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 20.0d,
+			shape: "gear",
+			dependencies: ["0000000000000336"],
+			id: "0000000000000338",
+			tasks: [
+				{
+					id: "000000000000146B",
+					type: "item",
+					item: "pneumaticcraft:unassembled_pcb",
+					count: 8L
+				},
+				{
+					id: "000000000000146C",
+					type: "item",
+					item: "pneumaticcraft:transistor",
+					count: 24L
+				},
+				{
+					id: "000000000000033B",
+					type: "item",
+					item: "pneumaticcraft:capacitor",
+					count: 24L
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000131C",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000131D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 20.0d,
+			shape: "gear",
+			dependencies: ["0000000000000338"],
+			id: "000000000000033C",
+			tasks: [
+				{
+					id: "000000000000146D",
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_blue",
+					count: 42L
+				},
+				{
+					id: "000000000000146E",
+					type: "item",
+					item: "pneumaticcraft:plastic_brick_orange",
+					count: 3L
+				},
+				{
+					id: "000000000000146F",
+					type: "item",
+					item: "pneumaticcraft:printed_circuit_board",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000131E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000131F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 20.0d,
+			shape: "gear",
+			dependencies: ["000000000000033C"],
+			id: "0000000000001470",
+			tasks: [
+				{
+					id: "0000000000001471",
+					type: "item",
+					item: "pneumaticcraft:assembly_platform"
+				},
+				{
+					id: "0000000000000342",
+					type: "item",
+					item: "pneumaticcraft:assembly_io_unit_export",
+					count: 2L
+				},
+				{
+					id: "0000000000000343",
+					type: "item",
+					item: "pneumaticcraft:assembly_io_unit_import",
+					count: 2L
+				},
+				{
+					id: "0000000000000344",
+					type: "item",
+					item: "pneumaticcraft:assembly_drill"
+				},
+				{
+					id: "0000000000000345",
+					type: "item",
+					item: "pneumaticcraft:assembly_laser"
+				},
+				{
+					id: "0000000000000346",
+					type: "item",
+					item: "pneumaticcraft:assembly_controller"
+				},
+				{
+					id: "0000000000000347",
+					type: "item",
+					title: "Any forge:chests/wooden",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001320",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001321",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 16.0d,
+			shape: "gear",
+			dependencies: ["0000000000000327"],
+			id: "0000000000000348",
+			tasks: [{
+				id: "0000000000000349",
+				type: "item",
+				item: "pneumaticcraft:advanced_pressure_tube",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: "0000000000001322",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001323",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 18.0d,
+			shape: "gear",
+			dependencies: ["0000000000000348"],
+			id: "000000000000034A",
+			tasks: [{
+				id: "000000000000034B",
+				type: "item",
+				item: "pneumaticcraft:flux_compressor"
+			}],
+			rewards: [
+				{
+					id: "0000000000001324",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001325",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

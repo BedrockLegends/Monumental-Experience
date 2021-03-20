@@ -1,0 +1,256 @@
+{
+	id: "0000000000000551",
+	group: "58428D7875B5E24E",
+	order_index: 2,
+	filename: "overloaded",
+	title: "&9Overloaded",
+	icon: "overloaded:almost_infinite_barrel",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000000574",
+			tasks: [{
+				id: "0000000000000575",
+				type: "item",
+				item: "overloaded:item_core"
+			}],
+			rewards: [{
+				id: "0000000000001035",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000574"],
+			id: "00000000000005A4",
+			tasks: [{
+				id: "00000000000005A5",
+				type: "item",
+				item: "overloaded:almost_infinite_barrel"
+			}],
+			rewards: [{
+				id: "0000000000001039",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "00000000000005CC",
+			tasks: [{
+				id: "00000000000005CD",
+				type: "item",
+				item: "overloaded:energy_core"
+			}],
+			rewards: [{
+				id: "0000000000001032",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["00000000000005CC"],
+			id: "000000000000061C",
+			tasks: [{
+				id: "000000000000061D",
+				type: "item",
+				item: {
+					id: "overloaded:railgun",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001038",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000005CC"],
+			id: "000000000000061E",
+			tasks: [
+				{
+					id: "000000000000061F",
+					type: "item",
+					item: {
+						id: "overloaded:multi_helmet",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "0000000000000620",
+					type: "item",
+					item: {
+						id: "overloaded:multi_chestplate",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "0000000000000621",
+					type: "item",
+					item: {
+						id: "overloaded:multi_leggings",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "0000000000000622",
+					type: "item",
+					item: {
+						id: "overloaded:multi_boots",
+						Count: 1b,
+						tag: {}
+					}
+				}
+			],
+			rewards: [{
+				id: "0000000000001033",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["00000000000005CC"],
+			id: "0000000000000623",
+			tasks: [{
+				id: "0000000000000624",
+				type: "item",
+				item: "overloaded:almost_infinite_capacitor"
+			}],
+			rewards: [{
+				id: "0000000000001036",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -8.0d,
+			shape: "gear",
+			dependencies: ["0000000000000623"],
+			id: "0000000000000625",
+			tasks: [{
+				id: "0000000000000626",
+				type: "item",
+				item: "overloaded:true_infinite_capacitor"
+			}],
+			rewards: [{
+				id: "0000000000001037",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			shape: "gear",
+			dependencies: ["00000000000005A4"],
+			id: "0000000000000627",
+			tasks: [{
+				id: "0000000000000628",
+				type: "item",
+				item: "overloaded:true_infinite_barrel"
+			}],
+			rewards: [{
+				id: "000000000000103D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["00000000000005CC"],
+			id: "0000000000000629",
+			tasks: [{
+				id: "000000000000062A",
+				type: "item",
+				item: {
+					id: "overloaded:multi_tool",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001034",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "000000000000062B",
+			tasks: [{
+				id: "000000000000062C",
+				type: "item",
+				item: "overloaded:fluid_core"
+			}],
+			rewards: [{
+				id: "000000000000103A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["000000000000062B"],
+			id: "000000000000062D",
+			tasks: [{
+				id: "000000000000062E",
+				type: "item",
+				item: "overloaded:almost_infinite_tank"
+			}],
+			rewards: [{
+				id: "000000000000103B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.0d,
+			shape: "gear",
+			dependencies: ["000000000000062D"],
+			id: "000000000000062F",
+			tasks: [{
+				id: "0000000000000630",
+				type: "item",
+				item: "overloaded:true_infinite_tank"
+			}],
+			rewards: [{
+				id: "000000000000103C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

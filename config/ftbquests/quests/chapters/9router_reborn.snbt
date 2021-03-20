@@ -1,0 +1,126 @@
+{
+	id: "0000000000001FC5",
+	group: "7E54189F6BA49858",
+	order_index: 4,
+	filename: "9router_reborn",
+	title: "&9Router Reborn",
+	icon: "routerreborn:router",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: "0000000000001FC6",
+			tasks: [{
+				id: "0000000000001FC7",
+				type: "item",
+				item: "routerreborn:barrel_t1"
+			}],
+			rewards: [{
+				id: "0000000000001FD8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			id: "0000000000001FC8",
+			tasks: [{
+				id: "0000000000001FC9",
+				type: "item",
+				item: "routerreborn:barrel_t2"
+			}],
+			rewards: [{
+				id: "0000000000001FD9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			id: "0000000000001FCA",
+			tasks: [{
+				id: "0000000000001FCB",
+				type: "item",
+				item: "routerreborn:barrel_t3"
+			}],
+			rewards: [{
+				id: "0000000000001FDA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			id: "0000000000001FCC",
+			tasks: [{
+				id: "0000000000001FCD",
+				type: "item",
+				item: "routerreborn:router"
+			}],
+			rewards: [{
+				id: "0000000000001FD5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: [
+				"0000000000001FD0",
+				"0000000000001FCC"
+			],
+			id: "0000000000001FCE",
+			tasks: [{
+				id: "0000000000001FCF",
+				type: "item",
+				item: "routerreborn:controller"
+			}],
+			rewards: [{
+				id: "0000000000001FD6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			id: "0000000000001FD0",
+			tasks: [{
+				id: "0000000000001FD1",
+				type: "item",
+				item: "routerreborn:coppercoil"
+			}],
+			rewards: [{
+				id: "0000000000001FD7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			id: "0000000000001FD2",
+			tasks: [{
+				id: "0000000000001FD3",
+				type: "item",
+				item: {
+					id: "routerreborn:pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000001FD4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

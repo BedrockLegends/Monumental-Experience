@@ -1,0 +1,285 @@
+{
+	id: "000000000000099C",
+	group: "570AEC24DD8505B2",
+	order_index: 7,
+	filename: "rftoolsbuilder",
+	title: "&9Rftools Builder",
+	icon: "rftoolsbuilder:builder",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "000000000000099D",
+			tasks: [{
+				id: "000000000000099E",
+				type: "item",
+				item: "rftoolsbase:machine_frame"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000099D"],
+			id: "000000000000099F",
+			tasks: [{
+				id: "00000000000009A0",
+				type: "item",
+				item: "rftoolsbuilder:builder"
+			}],
+			rewards: [
+				{
+					id: "000000000000126E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000126F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["000000000000099D"],
+			id: "00000000000009A1",
+			tasks: [{
+				id: "00000000000009A2",
+				type: "item",
+				item: "rftoolsbuilder:shield_block1"
+			}],
+			rewards: [
+				{
+					id: "000000000000125E",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000125F",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000009A1"],
+			id: "00000000000009A3",
+			tasks: [{
+				id: "00000000000009A4",
+				type: "item",
+				item: "rftoolsbuilder:blue_shield_template_block"
+			}],
+			rewards: [
+				{
+					id: "0000000000001260",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001261",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000009A1"],
+			id: "00000000000009A5",
+			tasks: [{
+				id: "00000000000009A6",
+				type: "item",
+				item: "rftoolsbuilder:shield_block2"
+			}],
+			rewards: [
+				{
+					id: "0000000000001268",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001269",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000009A5"],
+			id: "00000000000009A7",
+			tasks: [{
+				id: "00000000000009A9",
+				type: "item",
+				item: "rftoolsbuilder:red_shield_template_block"
+			}],
+			rewards: [
+				{
+					id: "0000000000001262",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001263",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000009A5"],
+			id: "00000000000009AA",
+			tasks: [{
+				id: "00000000000009AB",
+				type: "item",
+				item: "rftoolsbuilder:shield_block3"
+			}],
+			rewards: [
+				{
+					id: "000000000000126A",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000126B",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000009AA"],
+			id: "00000000000009AC",
+			tasks: [{
+				id: "00000000000009AD",
+				type: "item",
+				item: "rftoolsbuilder:green_shield_template_block"
+			}],
+			rewards: [
+				{
+					id: "0000000000001264",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001265",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.5d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["00000000000009AA"],
+			id: "00000000000009AE",
+			tasks: [{
+				id: "00000000000009AF",
+				type: "item",
+				item: "rftoolsbuilder:shield_block4"
+			}],
+			rewards: [
+				{
+					id: "000000000000126C",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "000000000000126D",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: -8.5d,
+			y: -2.0d,
+			shape: "gear",
+			dependencies: ["00000000000009AE"],
+			id: "00000000000009B0",
+			tasks: [{
+				id: "00000000000009B1",
+				type: "item",
+				item: "rftoolsbuilder:yellow_shield_template_block"
+			}],
+			rewards: [
+				{
+					id: "0000000000001266",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001267",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			shape: "gear",
+			dependencies: ["000000000000099F"],
+			id: "00000000000009B2",
+			tasks: [
+				{
+					id: "00000000000009B3",
+					type: "item",
+					item: "rftoolsbuilder:shape_card_def"
+				},
+				{
+					id: "00000000000009B4",
+					type: "item",
+					item: "rftoolsbuilder:shape_card_liquid"
+				},
+				{
+					id: "00000000000009B5",
+					type: "item",
+					item: "rftoolsbuilder:shape_card_pump_clear"
+				},
+				{
+					id: "00000000000009B6",
+					type: "item",
+					item: "rftoolsbuilder:shape_card_pump"
+				},
+				{
+					id: "00000000000009B7",
+					type: "item",
+					item: "rftoolsbuilder:shape_card_void"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000001270",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000001271",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

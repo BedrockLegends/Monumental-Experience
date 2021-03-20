@@ -1,0 +1,908 @@
+{
+	id: "000000000000246B",
+	group: "7E54189F6BA49858",
+	order_index: 2,
+	filename: "9modular_router",
+	title: "&9Modular Router",
+	icon: "modularrouters:item_router",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "000000000000246C",
+			tasks: [{
+				id: "000000000000246D",
+				type: "item",
+				item: "modularrouters:item_router"
+			}],
+			rewards: [{
+				id: "00000000000024F2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			shape: "heart",
+			dependencies: ["000000000000246C"],
+			size: 1.5d,
+			id: "000000000000246E",
+			tasks: [{
+				id: "000000000000246F",
+				type: "item",
+				item: "modularrouters:blank_module"
+			}],
+			rewards: [{
+				id: "00000000000024F3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "heart",
+			dependencies: ["000000000000246C"],
+			size: 1.5d,
+			id: "0000000000002470",
+			tasks: [{
+				id: "0000000000002471",
+				type: "item",
+				item: "modularrouters:blank_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024CB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			shape: "heart",
+			dependencies: ["000000000000246C"],
+			size: 1.5d,
+			id: "0000000000002472",
+			tasks: [{
+				id: "0000000000002473",
+				type: "item",
+				item: "modularrouters:augment_core"
+			}],
+			rewards: [{
+				id: "00000000000024ED",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.5d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002474",
+			tasks: [{
+				id: "0000000000002475",
+				type: "item",
+				item: "modularrouters:bulk_item_filter"
+			}],
+			rewards: [{
+				id: "00000000000024E3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.0d,
+			dependencies: [
+				"000000000000246E",
+				"0000000000002474"
+			],
+			id: "0000000000002476",
+			tasks: [{
+				id: "0000000000002477",
+				type: "item",
+				item: "modularrouters:inspection_filter"
+			}],
+			rewards: [{
+				id: "00000000000024E6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			dependencies: [
+				"000000000000246E",
+				"0000000000002474"
+			],
+			id: "0000000000002478",
+			tasks: [{
+				id: "0000000000002479",
+				type: "item",
+				item: "modularrouters:mod_filter"
+			}],
+			rewards: [{
+				id: "00000000000024E2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -4.0d,
+			dependencies: ["000000000000246E"],
+			id: "000000000000247A",
+			tasks: [{
+				id: "000000000000247B",
+				type: "item",
+				item: {
+					id: "modularrouters:activator_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.0d,
+			dependencies: ["000000000000246E"],
+			id: "000000000000247C",
+			tasks: [{
+				id: "000000000000247D",
+				type: "item",
+				item: {
+					id: "modularrouters:breaker_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024DB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.5d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002480",
+			tasks: [{
+				id: "0000000000002481",
+				type: "item",
+				item: {
+					id: "modularrouters:detector_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							StrongSignal: 0b,
+							SignalLevel: 15,
+							Flags: 13b,
+							ModuleFilter: {}
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -3.0d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002482",
+			tasks: [{
+				id: "0000000000002483",
+				type: "item",
+				item: {
+					id: "modularrouters:distributor_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002484",
+			tasks: [{
+				id: "0000000000002485",
+				type: "item",
+				item: {
+					id: "modularrouters:dropper_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D3",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -2.0d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002486",
+			tasks: [{
+				id: "0000000000002487",
+				type: "item",
+				item: {
+					id: "modularrouters:extruder_module_1",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.0d,
+			dependencies: ["0000000000002486"],
+			id: "0000000000002488",
+			tasks: [{
+				id: "0000000000002489",
+				type: "item",
+				item: {
+					id: "modularrouters:extruder_module_2",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 3.0d,
+			dependencies: ["000000000000246E"],
+			id: "000000000000248A",
+			tasks: [{
+				id: "000000000000248B",
+				type: "item",
+				item: {
+					id: "modularrouters:flinger_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							Pitch: 0.0f,
+							Speed: 0.0f,
+							Flags: 13b,
+							ModuleFilter: {},
+							Yaw: 0.0f
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024E1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.0d,
+			dependencies: ["000000000000246E"],
+			id: "000000000000248C",
+			tasks: [{
+				id: "000000000000248D",
+				type: "item",
+				item: {
+					id: "modularrouters:fluid_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							FluidDir: 0b,
+							Flags: 13b,
+							MaxTransfer: 1000,
+							ModuleFilter: {}
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024E0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.0d,
+			dependencies: ["000000000000248C"],
+			id: "000000000000248E",
+			tasks: [{
+				id: "000000000000248F",
+				type: "item",
+				item: {
+					id: "modularrouters:fluid_module_2",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							FluidDir: 0b,
+							Flags: 13b,
+							MaxTransfer: 1000,
+							ModuleFilter: {}
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024DF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -4.0d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002490",
+			tasks: [{
+				id: "0000000000002491",
+				type: "item",
+				item: {
+					id: "modularrouters:placer_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -3.0d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002492",
+			tasks: [{
+				id: "0000000000002493",
+				type: "item",
+				item: {
+					id: "modularrouters:player_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.0d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002494",
+			tasks: [{
+				id: "0000000000002495",
+				type: "item",
+				item: {
+					id: "modularrouters:puller_module_1",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024D9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.0d,
+			dependencies: ["0000000000002494"],
+			id: "0000000000002496",
+			tasks: [{
+				id: "0000000000002497",
+				type: "item",
+				item: {
+					id: "modularrouters:puller_module_2",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024DA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			dependencies: ["000000000000246E"],
+			id: "0000000000002498",
+			tasks: [{
+				id: "0000000000002499",
+				type: "item",
+				item: {
+					id: "modularrouters:sender_module_1",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024DE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 1.0d,
+			dependencies: ["0000000000002498"],
+			id: "000000000000249A",
+			tasks: [{
+				id: "000000000000249B",
+				type: "item",
+				item: {
+					id: "modularrouters:sender_module_2",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024DD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 0.0d,
+			dependencies: ["000000000000249A"],
+			id: "000000000000249C",
+			tasks: [{
+				id: "000000000000249D",
+				type: "item",
+				item: {
+					id: "modularrouters:sender_module_3",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024DC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.0d,
+			dependencies: ["000000000000246E"],
+			id: "000000000000249E",
+			tasks: [{
+				id: "000000000000249F",
+				type: "item",
+				item: {
+					id: "modularrouters:vacuum_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024E4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.5d,
+			dependencies: ["000000000000246E"],
+			id: "00000000000024A0",
+			tasks: [{
+				id: "00000000000024A1",
+				type: "item",
+				item: {
+					id: "modularrouters:void_module",
+					Count: 1b,
+					tag: {
+						modularrouters: {
+							ModuleFilter: {},
+							Flags: 13b
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000024E5",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -4.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024A2",
+			tasks: [{
+				id: "00000000000024A3",
+				type: "item",
+				item: "modularrouters:blast_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024CC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -4.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024A4",
+			tasks: [{
+				id: "00000000000024A5",
+				type: "item",
+				item: "modularrouters:camouflage_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024CA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024A6",
+			tasks: [{
+				id: "00000000000024A7",
+				type: "item",
+				item: "modularrouters:fluid_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024CE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024A8",
+			tasks: [{
+				id: "00000000000024A9",
+				type: "item",
+				item: "modularrouters:muffler_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024C9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024AA",
+			tasks: [{
+				id: "00000000000024AB",
+				type: "item",
+				item: "modularrouters:security_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024CF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024AC",
+			tasks: [{
+				id: "00000000000024AD",
+				type: "item",
+				item: "modularrouters:speed_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024D0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024AE",
+			tasks: [{
+				id: "00000000000024AF",
+				type: "item",
+				item: "modularrouters:stack_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024C8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			dependencies: ["0000000000002470"],
+			id: "00000000000024B2",
+			tasks: [{
+				id: "00000000000024B3",
+				type: "item",
+				item: "modularrouters:sync_upgrade"
+			}],
+			rewards: [{
+				id: "00000000000024CD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 4.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024B4",
+			tasks: [{
+				id: "00000000000024B5",
+				type: "item",
+				item: "modularrouters:fast_pickup_augment"
+			}],
+			rewards: [{
+				id: "00000000000024EC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024B6",
+			tasks: [{
+				id: "00000000000024B7",
+				type: "item",
+				item: "modularrouters:mimic_augment"
+			}],
+			rewards: [{
+				id: "00000000000024E9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024B8",
+			tasks: [{
+				id: "00000000000024B9",
+				type: "item",
+				item: "modularrouters:pickup_delay_augment"
+			}],
+			rewards: [{
+				id: "00000000000024F1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024BA",
+			tasks: [{
+				id: "00000000000024BB",
+				type: "item",
+				item: "modularrouters:pushing_augment"
+			}],
+			rewards: [{
+				id: "00000000000024E8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024BC",
+			tasks: [{
+				id: "00000000000024BD",
+				type: "item",
+				item: "modularrouters:range_down_augment"
+			}],
+			rewards: [{
+				id: "00000000000024EA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024BE",
+			tasks: [{
+				id: "00000000000024BF",
+				type: "item",
+				item: "modularrouters:range_up_augment"
+			}],
+			rewards: [{
+				id: "00000000000024F0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024C0",
+			tasks: [{
+				id: "00000000000024C1",
+				type: "item",
+				item: "modularrouters:redstone_augment"
+			}],
+			rewards: [{
+				id: "00000000000024EF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024C2",
+			tasks: [{
+				id: "00000000000024C3",
+				type: "item",
+				item: "modularrouters:regulator_augment"
+			}],
+			rewards: [{
+				id: "00000000000024EB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024C4",
+			tasks: [{
+				id: "00000000000024C5",
+				type: "item",
+				item: "modularrouters:stack_augment"
+			}],
+			rewards: [{
+				id: "00000000000024E7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			dependencies: ["0000000000002472"],
+			id: "00000000000024C6",
+			tasks: [{
+				id: "00000000000024C7",
+				type: "item",
+				item: "modularrouters:xp_vacuum_augment"
+			}],
+			rewards: [{
+				id: "00000000000024EE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

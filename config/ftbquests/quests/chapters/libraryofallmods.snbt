@@ -1,0 +1,422 @@
+{
+	id: "000000000000083A",
+	group: "68BD27E8D0136E3E",
+	order_index: 6,
+	filename: "libraryofallmods",
+	title: "&9Library of all mods",
+	icon: "minecraft:writable_book",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "000000000000083B",
+			tasks: [{
+				id: "000000000000083C",
+				type: "item",
+				title: "Book",
+				icon: "minecraft:book",
+				item: "minecraft:book"
+			}],
+			rewards: [{
+				id: "0000000000000FED",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "000000000000083D",
+			tasks: [{
+				id: "000000000000083E",
+				type: "item",
+				item: "ftbquests:book"
+			}],
+			rewards: [{
+				id: "0000000000000FF7",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "000000000000083F",
+			tasks: [{
+				id: "0000000000000840",
+				type: "item",
+				item: "solcarrot:food_book"
+			}],
+			rewards: [{
+				id: "0000000000000FF4",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000843",
+			tasks: [{
+				id: "0000000000000844",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "rftoolsbase:manual"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FF8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000845",
+			tasks: [{
+				id: "0000000000000846",
+				type: "item",
+				item: "rftoolsbase:manual"
+			}],
+			rewards: [{
+				id: "0000000000000FE8",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A6E",
+			tasks: [{
+				id: "0000000000000A6F",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FE9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A74",
+			tasks: [{
+				id: "0000000000000A75",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "extendedcrafting:guide"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FEA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -0.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A7D",
+			tasks: [{
+				id: "0000000000000A7E",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FEE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A7F",
+			tasks: [{
+				id: "0000000000000A80",
+				type: "item",
+				item: "golems:info_book"
+			}],
+			rewards: [{
+				id: "0000000000000FEB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A81",
+			tasks: [{
+				id: "0000000000000A82",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FEC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A93",
+			tasks: [{
+				id: "0000000000000A94",
+				type: "item",
+				item: "immersiveengineering:manual"
+			}],
+			rewards: [{
+				id: "0000000000000FF6",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A95",
+			tasks: [{
+				id: "0000000000000A96",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "woot:wootguide"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FF0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000A97",
+			tasks: [{
+				id: "0000000000000A98",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FEF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			shape: "gear",
+			dependencies: ["000000000000083B"],
+			id: "0000000000000C29",
+			tasks: [{
+				id: "0000000000000C2B",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FF9",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			dependencies: ["000000000000083B"],
+			id: "2C900A6A5D63CCDB",
+			tasks: [{
+				id: "0A273B7DAF92A968",
+				type: "item",
+				item: "occultism:dictionary_of_spirits"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.5d,
+			dependencies: ["000000000000083B"],
+			id: "0257273CD2228C89",
+			tasks: [{
+				id: "691F404D3D4E5580",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "doomweapon:doom"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["000000000000083B"],
+			id: "04D659D677B97825",
+			tasks: [{
+				id: "08642C377DF76A16",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: ["000000000000083B"],
+			id: "5F54A16286F274DE",
+			tasks: [{
+				id: "7B9F64B53C921B5D",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.5d,
+			dependencies: ["000000000000083B"],
+			id: "7CC6BF07686EA840",
+			tasks: [{
+				id: "7DA5C5A290742C61",
+				type: "item",
+				item: "mana-and-artifice:cantrip_book"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: ["000000000000083B"],
+			id: "7FBFA3EF878717C1",
+			tasks: [{
+				id: "45BE07548B1220FC",
+				type: "item",
+				item: "mana-and-artifice:flat_lands_book"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.5d,
+			dependencies: ["000000000000083B"],
+			id: "3A4CD93778B8157A",
+			tasks: [{
+				id: "4A200302DF21EB07",
+				type: "item",
+				item: "mana-and-artifice:book_of_rote"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			dependencies: ["000000000000083B"],
+			id: "59E8BEB5C4409230",
+			tasks: [{
+				id: "36076F400D72247B",
+				type: "item",
+				item: "mana-and-artifice:spell_book"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.5d,
+			dependencies: ["000000000000083B"],
+			id: "6174FCBDE31FBA5C",
+			tasks: [{
+				id: "262DE0D8C905799C",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+			}]
+		}
+	]
+}

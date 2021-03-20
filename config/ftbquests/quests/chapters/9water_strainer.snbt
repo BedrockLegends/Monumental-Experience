@@ -1,0 +1,264 @@
+{
+	id: "000000000000204A",
+	group: "68BD27E8D0136E3E",
+	order_index: 9,
+	filename: "9water_strainer",
+	title: "&9Water Strainer",
+	icon: "waterstrainer:strainer_base",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: -2.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "000000000000204B",
+			tasks: [{
+				id: "000000000000204C",
+				type: "item",
+				item: "waterstrainer:strainer_base"
+			}],
+			rewards: [{
+				id: "0000000000002394",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["0000000000002053"],
+			id: "000000000000204D",
+			tasks: [{
+				id: "000000000000204E",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_fisherman",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000002399",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			dependencies: ["0000000000002055"],
+			id: "000000000000204F",
+			tasks: [{
+				id: "0000000000002050",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_fisherman_solid",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000239A",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			dependencies: ["0000000000002057"],
+			id: "0000000000002051",
+			tasks: [{
+				id: "0000000000002052",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_fisherman_reinforced",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000239F",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: ["000000000000204B"],
+			id: "0000000000002053",
+			tasks: [{
+				id: "0000000000002054",
+				type: "item",
+				item: "waterstrainer:string_mesh"
+			}],
+			rewards: [{
+				id: "0000000000002396",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: ["000000000000204B"],
+			id: "0000000000002055",
+			tasks: [{
+				id: "0000000000002056",
+				type: "item",
+				item: "waterstrainer:iron_mesh"
+			}],
+			rewards: [{
+				id: "000000000000239B",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: ["000000000000204B"],
+			id: "0000000000002057",
+			tasks: [{
+				id: "0000000000002058",
+				type: "item",
+				item: "waterstrainer:obsidian_mesh"
+			}],
+			rewards: [{
+				id: "000000000000239E",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: ["0000000000002053"],
+			id: "0000000000002059",
+			tasks: [{
+				id: "000000000000205A",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000002397",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			dependencies: ["0000000000002055"],
+			id: "000000000000205B",
+			tasks: [{
+				id: "000000000000205C",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist_solid",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000239C",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.0d,
+			dependencies: ["0000000000002057"],
+			id: "000000000000205D",
+			tasks: [{
+				id: "000000000000205E",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist_reinforced",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000239D",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			id: "000000000000205F",
+			tasks: [
+				{
+					id: "0000000000002060",
+					type: "item",
+					item: "waterstrainer:worm_bin"
+				},
+				{
+					id: "0000000000002061",
+					type: "item",
+					item: "waterstrainer:worm"
+				}
+			],
+			rewards: [{
+				id: "0000000000002393",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			id: "0000000000002062",
+			tasks: [
+				{
+					id: "0000000000002063",
+					type: "item",
+					item: {
+						id: "waterstrainer:bait_pot",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000002064",
+					type: "item",
+					item: {
+						id: "waterstrainer:garden_trowel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0000000000002395",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

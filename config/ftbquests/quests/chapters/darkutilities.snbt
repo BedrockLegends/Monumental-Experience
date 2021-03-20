@@ -1,0 +1,390 @@
+{
+	id: "0000000000000A22",
+	group: "6B2D545E7A3D7242",
+	order_index: 0,
+	filename: "darkutilities",
+	title: "&9Dark Utilities",
+	icon: "darkutils:blank_plate",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "heart",
+			size: 1.5d,
+			id: "0000000000000A23",
+			tasks: [{
+				id: "0000000000000A24",
+				type: "item",
+				item: "darkutils:blank_plate",
+				count: 24L
+			}],
+			rewards: [{
+				id: "0000000000000FB0",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000A23"],
+			id: "0000000000000A2B",
+			tasks: [
+				{
+					id: "0000000000000A2C",
+					type: "item",
+					item: "darkutils:vector_plate_fast",
+					count: 6L
+				},
+				{
+					id: "0000000000000A38",
+					type: "item",
+					item: "darkutils:export_plate_fast",
+					count: 6L
+				},
+				{
+					id: "0000000000000A39",
+					type: "item",
+					item: "darkutils:import_plate_fast",
+					count: 6L
+				}
+			],
+			rewards: [{
+				id: "0000000000000FB2",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "gear",
+			dependencies: ["0000000000000A23"],
+			id: "0000000000000A31",
+			tasks: [
+				{
+					id: "0000000000000A32",
+					type: "item",
+					item: "darkutils:vector_plate_extreme",
+					count: 6L
+				},
+				{
+					id: "0000000000000A3A",
+					type: "item",
+					item: "darkutils:export_plate_extreme",
+					count: 6L
+				},
+				{
+					id: "0000000000000A3B",
+					type: "item",
+					item: "darkutils:import_plate_extreme",
+					count: 6L
+				}
+			],
+			rewards: [{
+				id: "0000000000000FAD",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000000A23"],
+			id: "0000000000000A34",
+			tasks: [
+				{
+					id: "0000000000000A35",
+					type: "item",
+					item: "darkutils:vector_plate",
+					count: 6L
+				},
+				{
+					id: "0000000000000A36",
+					type: "item",
+					item: "darkutils:export_plate",
+					count: 6L
+				},
+				{
+					id: "0000000000001401",
+					type: "item",
+					item: "darkutils:import_plate",
+					count: 6L
+				}
+			],
+			rewards: [{
+				id: "0000000000000FAF",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Many types of Traps!!!",
+			x: -4.0d,
+			y: 0.0d,
+			shape: "gear",
+			dependencies: ["0000000000000A23"],
+			id: "0000000000000A3C",
+			tasks: [
+				{
+					id: "0000000000000A3D",
+					type: "item",
+					item: "darkutils:rune_damage",
+					count: 3L
+				},
+				{
+					id: "0000000000000A3E",
+					type: "item",
+					item: "darkutils:rune_damage_player",
+					count: 3L
+				},
+				{
+					id: "0000000000000A3F",
+					type: "item",
+					item: "darkutils:rune_poison",
+					count: 3L
+				},
+				{
+					id: "0000000000000A40",
+					type: "item",
+					item: "darkutils:rune_weakness",
+					count: 3L
+				},
+				{
+					id: "0000000000000A41",
+					type: "item",
+					item: "darkutils:rune_slowness",
+					count: 3L
+				},
+				{
+					id: "0000000000000A42",
+					type: "item",
+					item: "darkutils:rune_wither",
+					count: 3L
+				},
+				{
+					id: "0000000000000A43",
+					type: "item",
+					item: "darkutils:rune_fire",
+					count: 3L
+				},
+				{
+					id: "0000000000000A44",
+					type: "item",
+					item: "darkutils:rune_fatigue",
+					count: 3L
+				},
+				{
+					id: "0000000000000A45",
+					type: "item",
+					item: "darkutils:rune_glowing",
+					count: 3L
+				},
+				{
+					id: "0000000000000A46",
+					type: "item",
+					item: "darkutils:rune_hunger",
+					count: 3L
+				},
+				{
+					id: "0000000000000A47",
+					type: "item",
+					item: "darkutils:rune_blindness",
+					count: 3L
+				},
+				{
+					id: "0000000000000A48",
+					type: "item",
+					item: "darkutils:rune_nausea",
+					count: 3L
+				},
+				{
+					id: "0000000000000A49",
+					type: "item",
+					item: "darkutils:anchor_plate",
+					count: 3L
+				}
+			],
+			rewards: [{
+				id: "0000000000000FAB",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Many types of Filters!!!",
+			x: -4.0d,
+			y: 4.0d,
+			shape: "gear",
+			id: "0000000000000A4A",
+			tasks: [
+				{
+					id: "0000000000000A4B",
+					type: "item",
+					item: "darkutils:filter_player"
+				},
+				{
+					id: "0000000000000A4C",
+					type: "item",
+					item: "darkutils:filter_undead"
+				},
+				{
+					id: "0000000000000A4D",
+					type: "item",
+					item: "darkutils:filter_arthropod"
+				},
+				{
+					id: "0000000000000A4E",
+					type: "item",
+					item: "darkutils:filter_illager"
+				},
+				{
+					id: "0000000000000A4F",
+					type: "item",
+					item: "darkutils:filter_raid"
+				},
+				{
+					id: "0000000000000A50",
+					type: "item",
+					item: "darkutils:filter_hostile"
+				},
+				{
+					id: "0000000000000A51",
+					type: "item",
+					item: "darkutils:filter_animal"
+				},
+				{
+					id: "0000000000000A52",
+					type: "item",
+					item: "darkutils:filter_child"
+				},
+				{
+					id: "0000000000000A53",
+					type: "item",
+					item: "darkutils:filter_pet"
+				},
+				{
+					id: "0000000000000A54",
+					type: "item",
+					item: "darkutils:filter_slime"
+				},
+				{
+					id: "0000000000000A55",
+					type: "item",
+					item: "darkutils:filter_boss"
+				},
+				{
+					id: "0000000000000A56",
+					type: "item",
+					item: "darkutils:filter_villager"
+				},
+				{
+					id: "0000000000000A57",
+					type: "item",
+					item: "darkutils:filter_fire_immune"
+				},
+				{
+					id: "0000000000000A58",
+					type: "item",
+					item: "darkutils:filter_explosion_immune"
+				},
+				{
+					id: "0000000000000A59",
+					type: "item",
+					item: "darkutils:filter_golem"
+				},
+				{
+					id: "0000000000000A5A",
+					type: "item",
+					item: "darkutils:filter_water"
+				},
+				{
+					id: "0000000000000A5B",
+					type: "item",
+					item: "darkutils:filter_named"
+				}
+			],
+			rewards: [{
+				id: "0000000000000FAC",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			shape: "gear",
+			id: "0000000000000A5C",
+			tasks: [{
+				id: "0000000000000A5D",
+				type: "item",
+				item: "darkutils:item_grate"
+			}],
+			rewards: [{
+				id: "0000000000000FAA",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			shape: "gear",
+			id: "0000000000000A5E",
+			tasks: [
+				{
+					id: "0000000000000A5F",
+					type: "item",
+					item: "darkutils:redstone_randomizer"
+				},
+				{
+					id: "0000000000000A60",
+					type: "item",
+					item: "darkutils:shielded_redstone"
+				}
+			],
+			rewards: [{
+				id: "0000000000000FB1",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Many kinds of Charms!!!",
+			x: 4.0d,
+			y: 4.0d,
+			shape: "gear",
+			id: "0000000000000A65",
+			tasks: [
+				{
+					id: "0000000000000A66",
+					type: "item",
+					item: "darkutils:charm_portal"
+				},
+				{
+					id: "0000000000000A67",
+					type: "item",
+					item: "darkutils:charm_sleep"
+				},
+				{
+					id: "0000000000000A68",
+					type: "item",
+					item: "darkutils:charm_experience"
+				},
+				{
+					id: "0000000000000A69",
+					type: "item",
+					item: "darkutils:charm_gluttony"
+				}
+			],
+			rewards: [{
+				id: "0000000000000FAE",
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

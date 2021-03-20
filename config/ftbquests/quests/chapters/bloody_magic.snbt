@@ -1,0 +1,544 @@
+{
+	id: "0000000000000BC4",
+	group: "4814F40AB34427B6",
+	order_index: 1,
+	filename: "bloody_magic",
+	title: "&6Bloody Magic",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: 1b,
+		tag: {
+			"patchouli:book": "bloodmagic:guide"
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 9.0d,
+			y: 5.0d,
+			shape: "gear",
+			id: "0000000000000BC5",
+			tasks: [{
+				id: "0000000000000BC6",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F6B",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F6C",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: 2.5d,
+			shape: "gear",
+			id: "0000000000000BC7",
+			tasks: [{
+				id: "0000000000000BC8",
+				type: "item",
+				item: "bloodmagic:soulsnare",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "0000000000000F71",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F72",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BC7"],
+			id: "0000000000000BC9",
+			tasks: [{
+				id: "0000000000000BCA",
+				type: "item",
+				item: {
+					id: "bloodmagic:basemonstersoul",
+					Count: 1b,
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F73",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F74",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 5.0d,
+			shape: "gear",
+			id: "0000000000000BCB",
+			tasks: [{
+				id: "0000000000000BCC",
+				type: "item",
+				item: "bloodmagic:soulforge"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F69",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F6A",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BC9"],
+			id: "0000000000000BCD",
+			tasks: [{
+				id: "0000000000000BCE",
+				type: "item",
+				item: "bloodmagic:altar"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F75",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F76",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 2.5d,
+			shape: "gear",
+			id: "0000000000000BCF",
+			tasks: [{
+				id: "0000000000000BD0",
+				type: "item",
+				item: {
+					id: "bloodmagic:sacrificialdagger",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F6F",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F70",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: [
+				"0000000000000BCD",
+				"0000000000000BCF"
+			],
+			id: "0000000000000BD1",
+			tasks: [{
+				id: "0000000000000BD2",
+				type: "item",
+				item: "bloodmagic:blankslate",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: "0000000000000F77",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F78",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 15.5d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BD1"],
+			id: "0000000000000BD3",
+			tasks: [{
+				id: "0000000000000BD4",
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: "0000000000000F79",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F7A",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 17.5d,
+			y: 0.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BD3"],
+			id: "0000000000000BD5",
+			tasks: [{
+				id: "0000000000000BD6",
+				type: "item",
+				item: "bloodmagic:daggerofsacrifice"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F7B",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F7C",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 2.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BCB"],
+			id: "0000000000000BD7",
+			tasks: [{
+				id: "0000000000000BD8",
+				type: "item",
+				item: "bloodmagic:demoncrystallizer"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F6D",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F6E",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 5.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BCB"],
+			id: "0000000000000BD9",
+			tasks: [{
+				id: "0000000000000BDA",
+				type: "item",
+				item: "bloodmagic:demoncrucible"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F67",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F68",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BCD"],
+			id: "0000000000000BDB",
+			tasks: [{
+				id: "0000000000000BDC",
+				type: "item",
+				item: "bloodmagic:weakbloodorb"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F7F",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F80",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 15.5d,
+			y: -1.5d,
+			dependencies: ["0000000000000BD3"],
+			id: "0000000000000BDD",
+			tasks: [{
+				id: "0000000000000BDE",
+				type: "item",
+				item: "bloodmagic:apprenticebloodorb"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F7D",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F7E",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BDB"],
+			id: "0000000000000BDF",
+			tasks: [{
+				id: "0000000000000BE0",
+				type: "item",
+				item: "bloodmagic:alchemytable"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F81",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F82",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 7.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BCB"],
+			id: "0000000000000BE1",
+			tasks: [{
+				id: "0000000000000BE2",
+				type: "item",
+				item: {
+					id: "bloodmagic:soulgempetty",
+					Count: 1b,
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F65",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F66",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 16.0d,
+			y: 7.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BE1"],
+			id: "0000000000000BE3",
+			tasks: [{
+				id: "0000000000000BE4",
+				type: "item",
+				item: {
+					id: "bloodmagic:soulsword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F63",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F64",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 16.0d,
+			y: 8.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BE1"],
+			id: "0000000000000BE5",
+			tasks: [{
+				id: "0000000000000BE6",
+				type: "item",
+				item: {
+					id: "bloodmagic:soulaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F61",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F62",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 16.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BE1"],
+			id: "0000000000000BE7",
+			tasks: [{
+				id: "0000000000000BE8",
+				type: "item",
+				item: {
+					id: "bloodmagic:soulpickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F5F",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F60",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 16.0d,
+			y: 10.0d,
+			shape: "gear",
+			dependencies: ["0000000000000BE1"],
+			id: "0000000000000BE9",
+			tasks: [{
+				id: "0000000000000BEA",
+				type: "item",
+				item: {
+					id: "bloodmagic:soulshovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000F5D",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F5E",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: -3.5d,
+			shape: "gear",
+			dependencies: ["0000000000000BDB"],
+			id: "0000000000000BEB",
+			tasks: [{
+				id: "0000000000000BEC",
+				type: "item",
+				item: "bloodmagic:incensealtar"
+			}],
+			rewards: [
+				{
+					id: "0000000000000F83",
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: "0000000000000F84",
+					type: "item",
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}
