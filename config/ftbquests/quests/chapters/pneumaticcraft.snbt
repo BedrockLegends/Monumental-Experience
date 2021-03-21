@@ -40,7 +40,14 @@
 			tasks: [{
 				id: "000000000000144C",
 				type: "item",
-				item: "pneumaticcraft:ingot_iron_compressed",
+				title: "Any #forge:ingots/compressed_iron",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/compressed_iron"
+					}
+				},
 				count: 4L
 			}],
 			rewards: [
