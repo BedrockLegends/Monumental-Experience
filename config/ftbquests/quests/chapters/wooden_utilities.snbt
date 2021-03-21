@@ -29,7 +29,14 @@
 				{
 					id: "0000000000000AA6",
 					type: "item",
-					item: "woodenutilities:wooden_plate"
+					title: "Wooden Plates",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:plates/wooden"
+						}
+					}
 				}
 			],
 			rewards: [
