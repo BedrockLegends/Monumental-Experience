@@ -1,6 +1,6 @@
 {
 	version: 11,
-	icon: "xreliquary:holy_hand_grenade",
+	icon: "minecraft:beacon",
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",
