@@ -16,7 +16,14 @@
 			tasks: [{
 				id: "0000000000001F72",
 				type: "item",
-				item: "bigreactors:graphite_ingot",
+				title: "Any #forge:ingots/graphite",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/graphite"
+					}
+				},
 				count: 16L
 			}],
 			rewards: [{
@@ -259,7 +266,14 @@
 			tasks: [{
 				id: "0000000000001F90",
 				type: "item",
-				item: "bigreactors:cyanite_ingot"
+				title: "Any #forge:ingots/cyanite",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/cyanite"
+					}
+				}
 			}],
 			rewards: [{
 				id: "0000000000001FB7",
