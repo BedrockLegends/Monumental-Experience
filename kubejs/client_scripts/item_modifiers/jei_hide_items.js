@@ -408,7 +408,7 @@ onEvent('jei.hide.items', event => {
   event.hide('jellyfishing:blue_jellyfish_spawn_egg')
   event.hide('lava_monster:lava_monster_spawn_egg')
   event.hide('meetyourfight:bellringer_spawn_egg')
-  event.hide('meetyourfight:dam_fortuna_spawn_egg')
+  event.hide('meetyourfight:dame_fortuna_spawn_egg')
   event.hide('meetyourfight:swampjaw_spawn_egg')
   event.hide('more_jellyfish:diamond_jellyfish_spawn_egg')
   event.hide('more_jellyfish:emerald_jellyfish_spawn_egg')
@@ -432,6 +432,14 @@ onEvent('jei.hide.items', event => {
   event.hide('more_jellyfish:skellyfish_spawn_egg')
   event.hide('more_jellyfish:cow_jellyfish_spawn_egg')
   event.hide('more_jellyfish:netherite_jellyfish_spawn_egg')
+  event.hide('mutantbeasts:mutant_creeper_spawn_egg')
+  event.hide('mutantbeasts:mutant_skeleton_spawn_egg')
+  event.hide('mutantbeasts:mutant_zombie_spawn_egg')
+  event.hide('mutantbeasts:creeper_minion_spawn_egg')
+  event.hide('mutantbeasts:mutant_enderman_spawn_egg')
+  event.hide('mutantbeasts:spider_pig_spawn_egg')
+  event.hide('mutantbeasts:mutant_snow_golem_spawn_egg')
+
 
 //obsidian dust
   event.hide('occultism:obsidian_dust')
