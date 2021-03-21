@@ -393,6 +393,17 @@ onEvent('jei.hide.items', event => {
   event.hide('doomweapon:gargoyle_spawn_egg')
   event.hide('doomweapon:spectre_spawn_egg')
   event.hide('doomweapon:cueball_spawn_egg')
+  event.hide('infernalexp:voline_spawn_egg')
+  event.hide('infernalexp:shroomloin_spawn_egg')
+  event.hide('infernalexp:warpbeetle_spawn_egg')
+  event.hide('infernalexp:embody_spawn_egg')
+  event.hide('infernalexp:basalt_giant_spawn_egg')
+  event.hide('instrumentalmobs:cymbal_husk_spawn_egg')
+  event.hide('instrumentalmobs:drum_zombie_spawn_egg')
+  event.hide('instrumentalmobs:maraca_spider_spawn_egg')
+  event.hide('instrumentalmobs:microphone_ghast_spawn_egg')
+  event.hide('instrumentalmobs:tuba_enderman_spawn_egg')
+  event.hide('instrumentalmobs:xylophone_skeleton_spawn_egg')
 
 //obsidian dust
   event.hide('occultism:obsidian_dust')
