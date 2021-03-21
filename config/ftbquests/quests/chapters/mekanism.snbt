@@ -94,7 +94,14 @@
 				id: "0000000000001797",
 				type: "item",
 				title: "osmium",
-				item: "alltheores:osmium_ingot"
+				icon: "emendatusenigmatica:osmium_ingot",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/osmium"
+					}
+				}
 			}],
 			rewards: [{
 				id: "00000000000014EA",
