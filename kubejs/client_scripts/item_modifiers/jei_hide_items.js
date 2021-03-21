@@ -404,6 +404,9 @@ onEvent('jei.hide.items', event => {
   event.hide('instrumentalmobs:microphone_ghast_spawn_egg')
   event.hide('instrumentalmobs:tuba_enderman_spawn_egg')
   event.hide('instrumentalmobs:xylophone_skeleton_spawn_egg')
+  event.hide('jellyfishing:jellyfish_spawn_egg')
+  event.hide('jellyfishing:blue_jellyfish_spawn_egg')
+  event.hide('lava_monster:lava_monster_spawn_egg')
 
 //obsidian dust
   event.hide('occultism:obsidian_dust')
