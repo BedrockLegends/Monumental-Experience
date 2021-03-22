@@ -1,6 +1,7 @@
 onEvent('jei.hide.items', event => {
 
 //buckets
+
   event.hide('minecraft:water_bucket')
   event.hide('minecraft:lava_bucket')
   event.hide('minecraft:milk_bucket')
@@ -151,6 +152,7 @@ onEvent('jei.hide.items', event => {
   event.hide('allthemodium:molten_bluelava_bucket')
 
 //copper(These are not needed due to Ore Convert)
+
   event.hide('create:copper_block')
   event.hide('create:copper_nugget')
   event.hide('create:copper_sheet')
@@ -185,6 +187,7 @@ onEvent('jei.hide.items', event => {
   event.hide('createaddition:copper_rod')
 
 //eggs
+
   event.hide('minecraft:bat_spawn_egg')
   event.hide('minecraft:bee_spawn_egg')
   event.hide('minecraft:blaze_spawn_egg')
@@ -529,7 +532,31 @@ onEvent('jei.hide.items', event => {
   event.hide('inventorypets:easter_egg')
   event.hide('minecraft:turtle_egg')
 
+//iron furnaces upgrades
+
+  event.hide('ironfurnaces:upgrade_allthemodium')
+  event.hide('ironfurnaces:upgrade_copper')
+  event.hide('ironfurnaces:upgrade_crystal')
+  event.hide('ironfurnaces:upgrade_diamond')
+  event.hide('ironfurnaces:upgrade_emerald')
+  event.hide('ironfurnaces:upgrade_gold2')
+  event.hide('ironfurnaces:upgrade_gold')
+  event.hide('ironfurnaces:upgrade_iron2')
+  event.hide('ironfurnaces:upgrade_iron')
+  event.hide('ironfurnaces:upgrade_netherite')
+  event.hide('ironfurnaces:upgrade_obsidian2')
+  event.hide('ironfurnaces:upgrade_obsidian')
+  event.hide('ironfurnaces:upgrade_silver2')
+  event.hide('ironfurnaces:upgrade_silver')
+  event.hide('ironfurnaces:upgrade_unobtainium')
+  event.hide('ironfurnaces:upgrade_vibranium')
+  event.hide('ironjetpacks:creative_capacitor')
+  event.hide('ironjetpacks:creative_cell')
+  event.hide('ironjetpacks:creative_jetpack')
+  event.hide('ironjetpacks:creative_thruster')
+
 //leaves
+
   event.hide('druidcraft:darkwood_leaves')
   event.hide('druidcraft:elder_leaves')
   event.hide('forbidden_arcanus:cherrywood_leaves')
@@ -606,11 +633,13 @@ onEvent('jei.hide.items', event => {
   event.hide('undergarden:wigglewood_leaves')
 
 //obsidian dust
+
   event.hide('occultism:obsidian_dust')
   event.hide('create:powdered_obsidian')
   event.hide('mekanism:dust_obsidian')
 
 //ores
+
   event.hide('minecraft:gold_ore')
   event.hide('minecraft:iron_ore')
   event.hide('minecraft:coal_ore')
@@ -1585,6 +1614,7 @@ onEvent('jei.hide.items', event => {
   event.hide('tconstruct:cobalt_ore')
   
 //misc
+
   event.hide('pamhc2foodcore:doughitem')
   event.hide('alexsmobs:banana')
   event.hide('alexsmobs:banana_peel')
@@ -1611,6 +1641,7 @@ onEvent('jei.hide.items', event => {
   event.hide('alexsmobs:soul_heart')
 
 //refined Storage
+
   event.hide('refinedstorage:black_controller')
   event.hide('refinedstorage:black_crafter_manager')
   event.hide('refinedstorage:black_crafting_grid')
