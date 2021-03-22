@@ -1551,6 +1551,7 @@ onEvent('jei.hide.items', event => {
   event.hide('tconstruct:cobalt_ore')
   
 //misc
+  event.hide('pamhc2foodcore:doughitem')
   event.hide('alexsmobs:banana')
   event.hide('alexsmobs:banana_peel')
   event.hide('alexsmobs:bear_fur')
