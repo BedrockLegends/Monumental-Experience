@@ -562,6 +562,14 @@ onEvent('jei.hide.items', event => {
   event.hide('byg:yellow_birch_leaves')
   event.hide('byg:yellow_spruce_leaves')
   event.hide('byg:orchard_leaves')
+  event.hide('quark:blue_blossom_leaves')
+  event.hide('quark:lavender_blossom_leaves')
+  event.hide('quark:orange_blossom_leaves')
+  event.hide('quark:pink_blossom_leaves')
+  event.hide('quark:yellow_blossom_leaves')
+  event.hide('quark:red_blossom_leaves')
+  event.hide('undergarden:smogstem_leaves')
+  event.hide('undergarden:wigglewood_leaves')
 
 //obsidian dust
   event.hide('occultism:obsidian_dust')
