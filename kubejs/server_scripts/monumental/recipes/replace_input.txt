@@ -1,0 +1,1 @@
+    event.replaceInput({}, 'minecraft:stone', '#forge:stone', true);
