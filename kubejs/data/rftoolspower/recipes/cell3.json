@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "rKr",
+        "KPK",
+        "rKr"
+    ],
+    "key": {
+        "K": {
+            "item": "rftoolspower:power_core3"
+        },
+        "P": {
+            "item": "rftoolspower:cell2"
+        },
+        "r": {
+            "item": "extendedcrafting:redstone_component"
+        }
+    },
+    "result": {
+        "item": "rftoolspower:cell3"
+    }
+}

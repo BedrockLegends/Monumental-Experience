@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "GGG",
+        "bFb",
+        "iii"
+    ],
+    "key": {
+        "b": {
+            "tag": "forge:buckets"
+        },
+        "F": {
+            "item": "cyclic:tank"
+        },
+        "G": {
+            "item": "immersiveengineering:insulating_glass"
+        },
+        "i": {
+            "tag": "forge:plates/steel"
+        }
+    },
+    "result": {
+        "item": "rftoolsutility:tank"
+    }
+}
