@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PXP",
+        "XBX",
+        "PCP"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:ingots/netherite"
+        },
+        "B": {
+            "item": "ironfurnaces:obsidian_furnace"
+        },
+        "X": {
+            "tag": "forge:magma_block"
+        },
+        "C": {
+            "tag": "forge:soul_sand"
+        }
+    },
+    "result": {
+        "item": "ironfurnaces:netherite_furnace"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironfurnaces"
+        }
+    ]
+}

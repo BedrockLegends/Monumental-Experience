@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSS",
+    "CXC",
+    "CTC"
+  ],
+  "key": {
+    "X": {
+      "item": "create:integrated_circuit"
+    },
+    "C": {
+      "tag": "forge:sheetmetals/constantan"
+    },
+    "T": {
+      "item": "immersiveengineering:coil_hv"
+    },
+    "S": {
+      "tag": "forge:sheetmetals/steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:thermoelectric_generator"
+  }
+}

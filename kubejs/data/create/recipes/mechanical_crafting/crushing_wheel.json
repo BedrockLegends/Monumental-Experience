@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAA ",
+    "AQPQA",
+    "APSPA",
+    "AQPQA",
+    " AAA "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:treated_wood"
+    },
+    "S": {
+      "item": "create:large_cogwheel"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "Q": {
+      "tag": "forge:sheetmetals/iron"
+    }
+  },
+  "result": {
+    "item": "create:crushing_wheel",
+    "count": 2
+  }
+}

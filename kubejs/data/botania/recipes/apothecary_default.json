@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    " C ",
+    "CCC"
+  ],
+  "key": {
+    "P": {
+      "tag": "botania:petals"
+    },
+    "S": {
+      "item": "pneumaticcraft:reinforced_stone_slab"
+    },
+    "C": {
+      "item": "pneumaticcraft:reinforced_stone"
+    }
+  },
+  "result": {
+    "item": "botania:apothecary_default"
+  }
+}

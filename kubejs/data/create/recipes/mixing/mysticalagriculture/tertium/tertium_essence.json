@@ -1,0 +1,33 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "tag": "mysticalagriculture:infusion_crystals"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:tertium_essence",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

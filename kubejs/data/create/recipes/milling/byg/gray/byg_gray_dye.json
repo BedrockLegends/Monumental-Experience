@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "byg:gray_dye"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:gray_dye",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

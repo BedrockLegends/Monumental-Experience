@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:blizz_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:blizz_essence",
+      "count": 1
+    }
+  ],
+  "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "RzR",
+        "zFz",
+        "RzR"
+    ],
+    "key": {
+        "z": {
+            "item": "extendedcrafting:luminessence"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "F": {
+            "item": "rftoolsbase:machine_frame"
+        }
+    },
+    "result": {
+        "item": "rftoolsutility:matter_beamer"
+    }
+}

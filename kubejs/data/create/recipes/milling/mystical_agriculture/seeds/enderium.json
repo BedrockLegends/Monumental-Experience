@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:enderium_seeds"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:enderium_essence",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CPC",
+        "XBX",
+        "CWC"
+    ],
+    "key": {
+        "P": {
+            "item": "create:electron_tube"
+        },
+        "X": {
+            "item": "immersiveengineering:insulating_glass"
+        },
+        "C": {
+            "tag": "forge:ingots/obsidian"
+        },
+        "W": {
+            "item": "createaddition:capacitor"
+        },
+        "B": {
+            "item": "minecraft:blast_furnace"
+        }
+    },
+    "result": {
+        "item": "cyclic:melter"
+    }
+}

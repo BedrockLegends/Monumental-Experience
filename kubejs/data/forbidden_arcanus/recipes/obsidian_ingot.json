@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:obsidian"
+        },
+        {
+            "item": "create:andesite_alloy"
+        }
+    ],
+    "results": [
+        {
+            "item": "forbidden_arcanus:obsidian_ingot",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:gems/quartz"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:rose_quartz",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
+}

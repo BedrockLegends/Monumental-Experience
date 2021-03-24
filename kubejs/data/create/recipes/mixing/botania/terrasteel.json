@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        },
+        {
+            "tag": "forge:nuggets/terrasteel"
+        }
+    ],
+    "results": [
+        {
+            "item": "botania:terrasteel_ingot",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

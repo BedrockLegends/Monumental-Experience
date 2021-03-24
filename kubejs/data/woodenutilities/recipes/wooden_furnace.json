@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BIB",
+        "ISI",
+        "BIB"
+    ],
+    "key": {
+        "B": {
+            "tag": "minecraft:logs"
+        },
+        "S": {
+            "tag": "minecraft:coals"
+        },
+        "I": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "woodenutilities:wooden_furnace"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "woodenutilities"
+        }
+    ]
+}

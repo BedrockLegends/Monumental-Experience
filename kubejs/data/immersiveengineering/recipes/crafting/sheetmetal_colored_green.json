@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "woot:green_dyeplate"
+        },
+        {
+            "item": "minecraft:smooth_stone"
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:sheetmetal_colored_green"
+        }
+    ],
+    "heatRequirement": "heated"
+}

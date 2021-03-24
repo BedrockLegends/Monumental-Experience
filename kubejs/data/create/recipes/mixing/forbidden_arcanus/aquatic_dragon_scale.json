@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/prismarine"
+    },
+    {
+      "tag": "forge:gems/prismarine"
+    },
+    {
+      "tag": "forge:dusts/arcane_crystal"
+    },
+    {
+      "item": "forbidden_arcanus:dragon_scale"
+    }
+  ],
+  "results": [
+    {
+      "item": "forbidden_arcanus:aquatic_dragon_scale",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "superheated",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

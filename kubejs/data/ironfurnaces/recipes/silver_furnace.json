@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PPP",
+        "PBP",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:plates/silver"
+        },
+        "B": {
+            "item": "ironfurnaces:copper_furnace"
+        }
+    },
+    "result": {
+        "item": "ironfurnaces:silver_furnace"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironfurnaces"
+        }
+    ]
+}

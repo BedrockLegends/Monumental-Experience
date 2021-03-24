@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "rRr",
+        "TAT",
+        "rRr"
+    ],
+    "key": {
+        "A": {
+            "item": "rftoolsbase:machine_base"
+        },
+        "r": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "T": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "result": {
+        "item": "rftoolsutility:simple_dialer"
+    }
+}

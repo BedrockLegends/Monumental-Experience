@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " T ",
+        "SPS",
+        "SQS"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:chests/wooden"
+        },
+        "T": {
+            "item": "tconstruct:pattern"
+        },
+        "S": {
+            "tag": "forge:plates/lapis_lazuli"
+        },
+        "Q": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "tconstruct:modifier_chest"
+    }
+}

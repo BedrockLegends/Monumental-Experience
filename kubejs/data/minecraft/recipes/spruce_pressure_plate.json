@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:spruce_planks"
+        },
+        "$": {
+            "item": "immersiveengineering:hammer"
+        }
+    },
+    "result": {
+        "item": "minecraft:spruce_pressure_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ores/prosperity"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:prosperity_shard"
+        }
+    ],
+    "processingTime": 350,
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ores/prosperity",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

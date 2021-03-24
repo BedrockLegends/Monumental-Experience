@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PQP",
+        "SBS",
+        "PQP"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:plates/steel"
+        },
+        "B": {
+            "item": "storagenetwork:kabel"
+        },
+        "Q": {
+            "item": "extendedcrafting:redstone_ingot"
+        },
+        "S": {
+            "tag": "forge:plates/electrum"
+        }
+    },
+    "result": {
+        "item": "storagenetwork:speed_upgrade"
+    }
+}

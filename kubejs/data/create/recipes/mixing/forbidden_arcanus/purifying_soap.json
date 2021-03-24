@@ -1,0 +1,33 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:slimeballs"
+        },
+        {
+            "tag": "forge:gems/prismarine"
+        },
+        {
+            "tag": "minecraft:small_flowers"
+        },
+        {
+            "tag": "forge:dusts/arcane_crystal"
+        },
+        {
+            "item": "forbidden_arcanus:wax"
+        }
+    ],
+    "results": [
+        {
+            "item": "forbidden_arcanus:purifying_soap",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

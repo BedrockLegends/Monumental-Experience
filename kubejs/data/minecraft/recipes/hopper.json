@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "L L",
+        "LXL",
+        " L "
+    ],
+    "key": {
+        "X": {
+            "item": "woodenutilities:wooden_hopper"
+        },
+        "L": {
+            "tag": "forge:plates/iron"
+        }
+    },
+    "result": {
+        "item": "minecraft:hopper"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

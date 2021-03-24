@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "item": "minecraft:coal"
+        }
+    ],
+    "results": [
+        {
+            "item": "ironcoals:iron_coal",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironcoals"
+        }
+    ]
+}

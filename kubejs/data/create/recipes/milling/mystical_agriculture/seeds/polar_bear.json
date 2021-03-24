@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:polar_bear_seeds"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:polar_bear_essence",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

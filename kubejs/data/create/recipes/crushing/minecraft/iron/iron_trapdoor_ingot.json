@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_trapdoor"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:iron_ingot",
+            "count": 2
+        }
+    ],
+    "processingTime": 400,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

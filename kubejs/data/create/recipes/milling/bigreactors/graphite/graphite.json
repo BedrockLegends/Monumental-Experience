@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/graphite"
+        }
+    ],
+    "results": [
+        {
+            "item": "bigreactors:graphite_dust",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "bigreactors"
+        }
+    ]
+}

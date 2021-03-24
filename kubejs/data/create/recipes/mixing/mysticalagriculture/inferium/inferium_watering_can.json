@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:mystical_fertilizer"
+        },
+        {
+            "item": "mysticalagriculture:mystical_fertilizer"
+        },
+        {
+            "item": "mysticalagriculture:mystical_fertilizer"
+        },
+        {
+            "item": "mysticalagriculture:mystical_fertilizer"
+        },
+        {
+            "item": "mysticalagriculture:inferium_ingot"
+        },
+        {
+            "item": "mysticalagriculture:inferium_ingot"
+        },
+        {
+            "item": "mysticalagriculture:inferium_ingot"
+        },
+        {
+            "item": "mysticalagriculture:inferium_ingot"
+        },
+        {
+            "item": "mysticalagriculture:watering_can"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:inferium_watering_can",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

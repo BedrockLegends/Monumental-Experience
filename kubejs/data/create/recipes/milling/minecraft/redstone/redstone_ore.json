@@ -1,0 +1,27 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ores/redstone"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:redstone"
+        }
+    ],
+    "processingTime": 350,
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ores/redstone",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ]
+}

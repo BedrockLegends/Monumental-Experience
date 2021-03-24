@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PWP",
+        "QBQ",
+        "PWP"
+    ],
+    "key": {
+        "P": {
+            "item": "extendedcrafting:redstone_ingot"
+        },
+        "B": {
+            "tag": "forge:gears/diamond"
+        },
+        "W": {
+            "tag": "forge:plates/lapis_lazuli"
+        },
+        "Q": {
+            "item": "immersiveengineering:insulating_glass"
+        }
+    },
+    "result": {
+        "item": "mininggadgets:upgrade_empty"
+    }
+}

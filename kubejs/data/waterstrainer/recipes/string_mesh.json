@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "w#w",
+        "#w#",
+        "w#w"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:string"
+        },
+        "w": {
+            "tag": "forge:leather"
+        }
+    },
+    "result": {
+        "item": "waterstrainer:string_mesh"
+    }
+}

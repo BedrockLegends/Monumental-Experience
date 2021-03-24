@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "astralsorcery:starmetal_ingot"
+        }
+    ],
+    "results": [
+        {
+            "item": "astralsorcery:stardust",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "astralsorcery"
+        }
+    ]
+}
