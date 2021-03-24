@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:tertium_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:tertium_essence",
+            "count": 5
+        }
+    ],
+    "processingTime": 400,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

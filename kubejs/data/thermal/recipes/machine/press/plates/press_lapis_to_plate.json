@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "tag": "forge:gems/lapis"
+  },
+  "result": [
+    {
+      "item": "emendatusenigmatica:lapis_plate"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ores/zinc"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
+    },
+    "result": {
+        "item": "emendatusenigmatica:zinc_dust"
+    }
+}

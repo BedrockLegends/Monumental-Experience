@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "tag": "forge:dusts/obsidian"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "fluxnetworks"
+        }
+    ],
+    "results": [
+        {
+            "item": "fluxnetworks:flux_dust"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:inferium_essence"
+        },
+        {
+            "tag": "forge:hoes"
+        },
+        {
+            "item": "minecraft:dirt"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:inferium_farmland",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

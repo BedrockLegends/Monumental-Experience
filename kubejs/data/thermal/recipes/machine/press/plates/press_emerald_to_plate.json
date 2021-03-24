@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "tag": "forge:gems/emerald"
+  },
+  "result": [
+    {
+      "item": "emendatusenigmatica:emerald_plate"
+    }
+  ]
+}

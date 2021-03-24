@@ -1,0 +1,19 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/copper"
+        }
+    ],
+    "results": [
+        {
+            "item": "emendatusenigmatica:copper_gear"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "emendatusenigmatica"
+        }
+    ]
+}

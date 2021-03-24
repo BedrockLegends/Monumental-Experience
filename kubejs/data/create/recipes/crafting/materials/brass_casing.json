@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "CSC",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:plates/wooden"
+        },
+        "C": {
+            "tag": "forge:plates/brass"
+        },
+        "S": {
+            "item": "prefab:item_bundle_of_timber"
+        }
+    },
+    "result": {
+        "item": "create:brass_casing",
+        "count": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}

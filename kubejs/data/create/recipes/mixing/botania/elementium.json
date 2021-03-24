@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        },
+        {
+            "tag": "forge:nuggets/elementium"
+        }
+    ],
+    "results": [
+        {
+            "item": "botania:elementium_ingot",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

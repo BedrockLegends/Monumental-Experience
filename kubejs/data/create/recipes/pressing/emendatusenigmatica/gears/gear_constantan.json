@@ -1,0 +1,19 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/constantan"
+        }
+    ],
+    "results": [
+        {
+            "item": "emendatusenigmatica:constantan_gear"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "emendatusenigmatica"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "botania:yellow_double_flower"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:yellow_dye",
+      "count": 2
+    }
+  ],
+  "processingTime": 200
+}

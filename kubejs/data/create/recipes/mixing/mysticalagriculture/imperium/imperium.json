@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        },
+        {
+            "item": "mysticalagriculture:imperium_nugget"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:imperium_ingot",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

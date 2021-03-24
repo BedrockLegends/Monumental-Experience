@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:metal_press",
+    "mold": {
+        "item": "immersiveengineering:mold_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "emendatusenigmatica"
+        }
+    ],
+    "result": {
+        "item": "emendatusenigmatica:lapis_plate"
+    },
+    "input": {
+        "tag": "forge:gems/lapis"
+    },
+    "energy": 2400
+}

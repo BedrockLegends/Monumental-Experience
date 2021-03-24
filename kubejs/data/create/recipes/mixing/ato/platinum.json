@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    },
+    {
+      "tag": "forge:nuggets/platinum"
+    }
+  ],
+  "results": [
+    {
+      "item": "alltheores:platinum_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated"
+}
