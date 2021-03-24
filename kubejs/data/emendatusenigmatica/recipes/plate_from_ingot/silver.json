@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "emendatusenigmatica",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:silver_ingot"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/silver"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
     },
-    {
-      "item": "emendatusenigmatica:enigmatic_hammer"
+    "result": {
+        "item": "emendatusenigmatica:silver_plate"
     }
-  ],
-  "result": {
-    "item": "emendatusenigmatica:silver_plate"
-  }
 }

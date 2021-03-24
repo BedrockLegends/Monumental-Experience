@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "emendatusenigmatica",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:osmium_ingot"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/osmium"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
     },
-    {
-      "item": "emendatusenigmatica:enigmatic_hammer"
+    "result": {
+        "item": "emendatusenigmatica:osmium_plate"
     }
-  ],
-  "result": {
-    "item": "emendatusenigmatica:osmium_plate"
-  }
 }

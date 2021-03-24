@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "emendatusenigmatica",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:nickel_ingot"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/nickel"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
     },
-    {
-      "item": "emendatusenigmatica:enigmatic_hammer"
+    "result": {
+        "item": "emendatusenigmatica:nickel_plate"
     }
-  ],
-  "result": {
-    "item": "emendatusenigmatica:nickel_plate"
-  }
 }

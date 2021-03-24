@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "emendatusenigmatica",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:invar_ingot"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/invar"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
     },
-    {
-      "item": "emendatusenigmatica:enigmatic_hammer"
+    "result": {
+        "item": "emendatusenigmatica:invar_plate"
     }
-  ],
-  "result": {
-    "item": "emendatusenigmatica:invar_plate"
-  }
 }

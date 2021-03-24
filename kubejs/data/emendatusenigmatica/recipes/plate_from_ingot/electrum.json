@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "emendatusenigmatica",
-  "ingredients": [
-    {
-      "item": "emendatusenigmatica:electrum_ingot"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/electrum"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
     },
-    {
-      "item": "emendatusenigmatica:enigmatic_hammer"
+    "result": {
+        "item": "emendatusenigmatica:electrum_plate"
     }
-  ],
-  "result": {
-    "item": "emendatusenigmatica:electrum_plate"
-  }
 }

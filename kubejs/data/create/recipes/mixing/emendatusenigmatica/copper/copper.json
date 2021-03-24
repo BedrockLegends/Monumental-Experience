@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "tag": "forge:nuggets/copper"
+        }
+    ],
+    "results": [
+        {
+            "item": "emendatusenigmatica:copper_ingot",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "emendatusenigmatica"
+        }
+    ]
+}
