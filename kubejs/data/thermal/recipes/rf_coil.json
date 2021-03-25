@@ -1,17 +1,17 @@
 {
-  "type": "mekanism:metallurgic_infusing",
-  "itemInput": {
-    "ingredient": {
-      "tag": "forge:ingots/gold"
-    }
-  },
-  "infusionInput": {
-    "amount": 20,
-    "tag": "mekanism:redstone"
-  },
-  "output": {
-    "item": "thermal:rf_coil"
-  },
-  "experience": 0.5,
-  "modid": "thermal"
+    "type": "mekanism:metallurgic_infusing",
+    "itemInput": {
+        "ingredient": {
+            "tag": "forge:ingots/gold"
+        }
+    },
+    "infusionInput": {
+        "amount": 20,
+        "tag": "mekanism:redstone"
+    },
+    "output": {
+        "item": "thermal:rf_coil"
+    },
+    "experience": 0.5,
+    "modid": "thermal"
 }

@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " C ",
+        "IGI",
+        "YXY"
+    ],
+    "key": {
+        "C": {
+            "item": "thermal:rf_coil"
+        },
+        "I": {
+            "tag": "forge:plates/steel"
+        },
+        "G": {
+            "tag": "forge:gears/gold"
+        },
+        "X": {
+            "item": "immersiveengineering:circuit_board"
+        },
+        "Y": {
+            "tag": "forge:gears/lapis"
+        }
+    },
+    "result": {
+        "item": "thermal:dynamo_lapidary"
+    }
+}

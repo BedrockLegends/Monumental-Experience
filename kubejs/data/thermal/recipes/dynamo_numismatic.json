@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " C ",
+        "IGI",
+        "YXY"
+    ],
+    "key": {
+        "C": {
+            "item": "thermal:rf_coil"
+        },
+        "I": {
+            "tag": "forge:plates/steel"
+        },
+        "G": {
+            "tag": "forge:gears/bronze"
+        },
+        "X": {
+            "tag": "forge:dusts/redstone"
+        },
+        "Y": {
+            "tag": "forge:gears/constantan"
+        }
+    },
+    "result": {
+        "item": "thermal:dynamo_numismatic"
+    }
+}

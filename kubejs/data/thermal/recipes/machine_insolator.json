@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "SXS",
+        "YCY",
+        "IPI"
+    ],
+    "key": {
+        "C": {
+            "item": "thermal:machine_frame"
+        },
+        "I": {
+            "tag": "forge:gears/lumium"
+        },
+        "P": {
+            "item": "thermal:rf_coil"
+        },
+        "X": {
+            "item": "gardentools:irrigation_core"
+        },
+        "Y": {
+            "tag": "thermal:glass/hardened"
+        },
+        "S": {
+            "item": "cyclic:terra_preta"
+        }
+    },
+    "result": {
+        "item": "thermal:machine_insolator"
+    }
+}
