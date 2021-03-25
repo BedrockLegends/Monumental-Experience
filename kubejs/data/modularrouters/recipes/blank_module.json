@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " R ",
+        "PPP",
+        "GGG"
+    ],
+    "key": {
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "P": {
+            "item": "create:sand_paper"
+        },
+        "G": {
+            "tag": "forge:plates/gold"
+        }
+    },
+    "result": {
+        "item": "modularrouters:blank_module",
+        "count": 3
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " X ",
+        "sFs",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "item": "botania:blaze_block"
+        },
+        "s": {
+            "item": "rftoolsbase:dimensionalshard"
+        },
+        "F": {
+            "item": "rftoolsbase:machine_frame"
+        }
+    },
+    "result": {
+        "item": "rftoolspower:blazing_infuser"
+    }
+}
