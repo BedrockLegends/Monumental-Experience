@@ -151,6 +151,35 @@ onEvent('jei.hide.items', event => {
   event.hide('allthemodium:vapor_unobtainium_bucket')
   event.hide('allthemodium:molten_bluelava_bucket')
 
+//chest
+
+  event.hide('quark:acacia_chest')
+  event.hide('quark:acacia_trapped_chest')
+  event.hide('quark:birch_chest')
+  event.hide('quark:birch_trapped_chest')
+  event.hide('quark:crimson_chest')
+  event.hide('quark:crimson_trapped_chest')
+  event.hide('quark:dark_oak_chest')
+  event.hide('quark:dark_oak_trapped_chest')
+  event.hide('quark:jungle_chest')
+  event.hide('quark:jungle_trapped_chest')
+  event.hide('quark:mushroom_chest')
+  event.hide('quark:mushroom_trapped_chest')
+  event.hide('quark:nether_brick_chest')
+  event.hide('quark:nether_brick_trapped_chest')
+  event.hide('quark:oak_chest')
+  event.hide('quark:oak_trapped_chest')
+  event.hide('quark:prismarine_chest')
+  event.hide('quark:prismarine_trapped_chest')
+  event.hide('quark:purpur_chest')
+  event.hide('quark:purpur_trapped_chest')
+  event.hide('quark:spruce_chest')
+  event.hide('quark:spruce_trapped_chest')
+  event.hide('quark:warped_chest')
+  event.hide('quark:warped_trapped_chest')
+  event.hide('aquaculture:treasure_chest')
+  event.hide('minecraft:ender_chest')
+
 //copper(These are not needed due to Ore Convert)
 
   event.hide('create:copper_block')
@@ -532,6 +561,24 @@ onEvent('jei.hide.items', event => {
   event.hide('inventorypets:easter_egg')
   event.hide('minecraft:turtle_egg')
 
+//gears
+
+  event.hide('thermal:iron_gear')
+  event.hide('thermal:gold_gear')
+  event.hide('thermal:lapis_gear')
+  event.hide('thermal:diamond_gear')
+  event.hide('thermal:emerald_gear')
+  event.hide('thermal:quartz_gear')
+  event.hide('thermal:tin_gear')
+  event.hide('thermal:lead_gear')
+  event.hide('thermal:nickel_gear')
+  event.hide('thermal:bronze_gear')
+  event.hide('thermal:electrum_gear')
+  event.hide('thermal:constantan_gear')
+  event.hide('thermal:signalum_gear')
+  event.hide('thermal:lumium_gear')
+  event.hide('thermal:enderium_gear')
+
 //iron furnaces upgrades
 
   event.hide('ironfurnaces:upgrade_allthemodium')
@@ -554,6 +601,14 @@ onEvent('jei.hide.items', event => {
   event.hide('ironjetpacks:creative_cell')
   event.hide('ironjetpacks:creative_jetpack')
   event.hide('ironjetpacks:creative_thruster')
+
+//invar
+
+  event.hide('thermal:invar_block')
+  event.hide('thermal:invar_ingot')
+  event.hide('thermal:invar_nugget')
+  event.hide('thermal:invar_gear')
+  event.hide('thermal:invar_plate')
 
 //leaves
 
@@ -703,6 +758,36 @@ onEvent('jei.hide.items', event => {
   event.hide('losttrinkets:turtle_shell')
   event.hide('losttrinkets:warm_void')
   event.hide('losttrinkets:wither_nail')
+
+  
+//misc
+  event.hide('mob_grinding_utils:ender_inhibitor_off')
+  event.hide('pamhc2foodcore:doughitem')
+  event.hide('alexsmobs:banana')
+  event.hide('alexsmobs:banana_peel')
+  event.hide('alexsmobs:bear_fur')
+  event.hide('alexsmobs:blobfish')
+  event.hide('alexsmobs:blood_sac')
+  event.hide('alexsmobs:bone_serpent_tooth')
+  event.hide('alexsmobs:centipede_leg')
+  event.hide('alexsmobs:cockroach_ootheca')
+  event.hide('alexsmobs:cockroach_wing_fragment')
+  event.hide('alexsmobs:crocodile_scute')
+  event.hide('alexsmobs:gazelle_horn')
+  event.hide('alexsmobs:komodo_spit')
+  event.hide('alexsmobs:lobster_tail')
+  event.hide('alexsmobs:maggot')
+  event.hide('alexsmobs:mimicream')
+  event.hide('alexsmobs:moose_antler')
+  event.hide('alexsmobs:mosquito_proboscis')
+  event.hide('alexsmobs:raccoon_tail')
+  event.hide('alexsmobs:rattlesnake_rattle')
+  event.hide('alexsmobs:roadrunner_feather')
+  event.hide('alexsmobs:shark_tooth')
+  event.hide('alexsmobs:sombrero')
+  event.hide('alexsmobs:soul_heart')
+  event.hide('chancecubes:creative_pendant')
+  event.hide('chancecubes:single_use_reward_selector_pendant')
 
 //obsidian dust
 
@@ -1684,33 +1769,6 @@ onEvent('jei.hide.items', event => {
   event.hide('tmechworks:copper_ore')
   event.hide('tmechworks:aluminum_ore')
   event.hide('tconstruct:cobalt_ore')
-  
-//misc
-
-  event.hide('pamhc2foodcore:doughitem')
-  event.hide('alexsmobs:banana')
-  event.hide('alexsmobs:banana_peel')
-  event.hide('alexsmobs:bear_fur')
-  event.hide('alexsmobs:blobfish')
-  event.hide('alexsmobs:blood_sac')
-  event.hide('alexsmobs:bone_serpent_tooth')
-  event.hide('alexsmobs:centipede_leg')
-  event.hide('alexsmobs:cockroach_ootheca')
-  event.hide('alexsmobs:cockroach_wing_fragment')
-  event.hide('alexsmobs:crocodile_scute')
-  event.hide('alexsmobs:gazelle_horn')
-  event.hide('alexsmobs:komodo_spit')
-  event.hide('alexsmobs:lobster_tail')
-  event.hide('alexsmobs:maggot')
-  event.hide('alexsmobs:mimicream')
-  event.hide('alexsmobs:moose_antler')
-  event.hide('alexsmobs:mosquito_proboscis')
-  event.hide('alexsmobs:raccoon_tail')
-  event.hide('alexsmobs:rattlesnake_rattle')
-  event.hide('alexsmobs:roadrunner_feather')
-  event.hide('alexsmobs:shark_tooth')
-  event.hide('alexsmobs:sombrero')
-  event.hide('alexsmobs:soul_heart')
 
 //refined Storage
 
@@ -1963,4 +2021,37 @@ onEvent('jei.hide.items', event => {
   event.hide('refinedstorage:yellow_security_manager')
   event.hide('refinedstorage:yellow_wireless_transmitter')
   event.hide('refinedstorageaddons:creative_wireless_crafting_grid')
+
+//silver(These are not needed due to Ore Convert)
+
+  event.hide('iceandfire:silver_ingot')
+  event.hide('iceandfire:silver_nugget')
+  event.hide('iceandfire:silver_block')
+  event.hide('immersiveengineering:plate_silver')
+  event.hide('immersiveengineering:dust_silver')
+  event.hide('immersiveengineering:storage_silver')
+  event.hide('immersiveengineering:nugget_silver')
+  event.hide('immersiveengineering:ingot_silver')
+  event.hide('immersiveposts:stick_silver')
+  event.hide('occultism:silver_ingot')
+  event.hide('occultism:silver_nugget')
+  event.hide('occultism:silver_dust')
+  event.hide('occultism:silver_block')
+  event.hide('thermal:silver_block')
+  event.hide('thermal:silver_ingot')
+  event.hide('thermal:silver_nugget')
+  event.hide('thermal:silver_dust')
+  event.hide('thermal:silver_gear')
+  event.hide('thermal:silver_plate')
+
+//steel
+
+  event.hide('immersiveengineering:plate_steel')
+  event.hide('immersiveengineering:dust_steel')
+  event.hide('immersiveengineering:block_steel')
+  event.hide('immersiveengineering:nugget_steel')
+  event.hide('immersiveengineering:ingot_steel')
+  event.hide('mekanism:dust_steel')
+  event.hide('mekanism:ingot_steel')
+  event.hide('mekanism:block_steel')
 })

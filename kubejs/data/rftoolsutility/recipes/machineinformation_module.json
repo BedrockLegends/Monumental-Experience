@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "rir",
+    " Z "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:furnace"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "i": {
+      "item": "modularrouters:blank_module"
+    },
+    "Z": {
+      "tag": "forge:dyes/black"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:machineinformation_module"
+  }
+}

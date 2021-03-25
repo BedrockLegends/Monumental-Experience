@@ -7,7 +7,7 @@
     ],
     "key": {
         "X": {
-            "item": "minecraft:repeater"
+            "item": "minecraft:stone_button"
         },
         "r": {
             "item": "minecraft:redstone"
@@ -20,6 +20,6 @@
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolsutility:button_module"
     }
 }

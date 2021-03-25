@@ -1,25 +1,28 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " X ",
+        "PMP",
         "rir",
-        " Z "
+        "PzP"
     ],
     "key": {
-        "X": {
-            "item": "minecraft:repeater"
+        "M": {
+            "item": "rftoolscontrol:card_base"
+        },
+        "P": {
+            "tag": "forge:glass_panes"
+        },
+        "z": {
+            "tag": "forge:dyes/black"
         },
         "r": {
             "item": "minecraft:redstone"
         },
         "i": {
             "item": "modularrouters:blank_module"
-        },
-        "Z": {
-            "tag": "forge:dyes/black"
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolscontrol:console_module"
     }
 }

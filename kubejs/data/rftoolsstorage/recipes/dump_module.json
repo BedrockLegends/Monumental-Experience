@@ -3,23 +3,20 @@
     "pattern": [
         " X ",
         "rir",
-        " Z "
+        " X "
     ],
     "key": {
         "X": {
-            "item": "minecraft:repeater"
+            "tag": "minecraft:wooden_buttons"
         },
         "r": {
             "item": "minecraft:redstone"
         },
         "i": {
             "item": "modularrouters:blank_module"
-        },
-        "Z": {
-            "tag": "forge:dyes/black"
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolsstorage:dump_module"
     }
 }

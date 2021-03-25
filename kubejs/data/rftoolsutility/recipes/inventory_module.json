@@ -7,7 +7,7 @@
     ],
     "key": {
         "X": {
-            "item": "minecraft:repeater"
+            "tag": "forge:chests"
         },
         "r": {
             "item": "minecraft:redstone"
@@ -20,6 +20,6 @@
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolsutility:inventory_module"
     }
 }

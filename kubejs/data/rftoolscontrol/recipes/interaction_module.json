@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PMP",
+        "rir",
+        " z "
+    ],
+    "key": {
+        "M": {
+            "item": "rftoolscontrol:card_base"
+        },
+        "z": {
+            "tag": "forge:dyes/black"
+        },
+        "P": {
+            "item": "minecraft:stone_pressure_plate"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "i": {
+            "item": "modularrouters:blank_module"
+        }
+    },
+    "result": {
+        "item": "rftoolscontrol:interaction_module"
+    }
+}

@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " X ",
+        " p ",
         "rir",
         " Z "
     ],
     "key": {
-        "X": {
-            "item": "minecraft:repeater"
+        "p": {
+            "item": "minecraft:paper"
         },
         "r": {
             "item": "minecraft:redstone"
@@ -20,6 +20,6 @@
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolsutility:text_module"
     }
 }

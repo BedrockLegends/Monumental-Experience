@@ -1,25 +1,25 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " X ",
+        " h ",
         "rir",
-        " Z "
+        " p "
     ],
     "key": {
-        "X": {
-            "item": "minecraft:repeater"
+        "h": {
+            "item": "minecraft:hopper"
         },
         "r": {
             "item": "minecraft:redstone"
         },
+        "p": {
+            "item": "minecraft:paper"
+        },
         "i": {
             "item": "modularrouters:blank_module"
-        },
-        "Z": {
-            "tag": "forge:dyes/black"
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolsbase:filter_module"
     }
 }

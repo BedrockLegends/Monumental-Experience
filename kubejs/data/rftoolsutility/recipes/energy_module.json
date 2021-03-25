@@ -1,14 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " X ",
+        " r ",
         "rir",
         " Z "
     ],
     "key": {
-        "X": {
-            "item": "minecraft:repeater"
-        },
         "r": {
             "item": "minecraft:redstone"
         },
@@ -20,6 +17,6 @@
         }
     },
     "result": {
-        "item": "rftoolsutility:redstone_module"
+        "item": "rftoolsutility:energy_module"
     }
 }
