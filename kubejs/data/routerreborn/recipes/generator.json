@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "cbc",
+        "sas"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/steel"
+        },
+        "b": {
+            "tag": "forge:gears/steel"
+        },
+        "s": {
+            "tag": "forge:sheetmetals/steel"
+        },
+        "c": {
+            "item": "routerreborn:coppercoil"
+        },
+        "a": {
+            "item": "immersiveengineering:circuit_board"
+        }
+    },
+    "result": {
+        "item": "routerreborn:generator",
+        "count": 1
+    }
+}

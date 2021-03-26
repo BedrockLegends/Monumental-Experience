@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "lll",
+        "iwi",
+        "lll"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/electrum"
+        },
+        "l": {
+            "tag": "forge:ingots/electrum"
+        },
+        "w": {
+            "item": "routerreborn:barrel_t1"
+        }
+    },
+    "result": {
+        "item": "routerreborn:barrel_t2",
+        "count": 1
+    }
+}

@@ -1,22 +1,21 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "BIB",
-        "IGI",
-        "BIB"
+        "BBB",
+        "IGI"
     ],
     "key": {
         "B": {
-            "tag": "forge:ingots/obsidian"
+            "item": "immersiveengineering:toolupgrade_railgun_capacitors"
         },
         "I": {
             "tag": "forge:ingots/compressed_iron"
         },
         "G": {
-            "item": "cyclic:tank"
+            "tag": "forge:gears/electrum"
         }
     },
     "result": {
-        "item": "pneumaticcraft:small_tank"
+        "item": "pneumaticcraft:heat_sink"
     }
 }

@@ -6,5 +6,8 @@ events.listen('recipes', (event) => {
     event.replaceInput({}, 'minecraft:stone_button', '#minecraft:buttons', true);
     event.replaceInput({}, 'minecraft:bucket', '#forge:buckets', true);
     event.replaceInput({}, 'minecraft:crafting_table', '#forge:workbench', true);
+    event.replaceInput({}, 'immersiveengineering:hammer', '#forge:tools/hammer', true);
+    event.replaceInput({}, 'emendatusenigmatica:enigmatic_hammer', '#forge:tools/hammer', true);
     event.replaceInput({}, 'minecraft:hopper', '#forge:tools/hopper', true);
+    event.replaceInput({}, 'minecraft:piston', '#forge:piston', true);
 });

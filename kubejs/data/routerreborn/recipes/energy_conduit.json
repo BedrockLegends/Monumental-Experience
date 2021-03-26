@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "cRc",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/steel"
+        },
+        "R": {
+            "item": "refinedpipes:basic_energy_pipe"
+        },
+        "c": {
+            "tag": "forge:gears/bronze"
+        }
+    },
+    "result": {
+        "item": "routerreborn:energyconduit",
+        "count": 9
+    }
+}

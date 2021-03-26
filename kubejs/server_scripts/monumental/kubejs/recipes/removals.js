@@ -13,9 +13,7 @@ onEvent('recipes', event => {
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_tin'})
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_zinc'})
   event.remove({id: 'emendatusenigmatica:dust_from_ore/quartz'})
-
-  //fertilizer recipes removed
-  event.remove({id: 'botania:fertilizer_dye'})
+  event.remove({id: 'forbidden_arcanus:arcane_crystal_dust'})
 
   //glass recipes removed
   event.remove({id: 'immersiveengineering:crafting/insulating_glass'})
@@ -42,5 +40,10 @@ onEvent('recipes', event => {
   event.remove({id: 'ironfurnaces:upgrade_unobtainium'})
 
   //misc recipes removed
-  event.remove({id: 'forbidden_arcanus:purifying_soap'})
+  event.remove({id: 'quantumstorage:qsu2'})
+  event.remove({id: 'forbidden_arcanus:arcane_gold_ingot'})
+  
+  //rubber recipes removed
+  event.remove({id: 'thermal:rubber_3'})
+  event.remove({id: 'thermal:rubber_from_vine'})
 })

@@ -578,6 +578,10 @@ onEvent('jei.hide.items', event => {
   event.hide('thermal:signalum_gear')
   event.hide('thermal:lumium_gear')
   event.hide('thermal:enderium_gear')
+  event.hide('titanium:gold_gear')
+  event.hide('titanium:iron_gear')
+  event.hide('titanium:diamond_gear')
+
 
 //iron furnaces upgrades
 
@@ -759,7 +763,6 @@ onEvent('jei.hide.items', event => {
   event.hide('losttrinkets:warm_void')
   event.hide('losttrinkets:wither_nail')
 
-  
 //misc
   event.hide('mob_grinding_utils:ender_inhibitor_off')
   event.hide('pamhc2foodcore:doughitem')
@@ -788,6 +791,19 @@ onEvent('jei.hide.items', event => {
   event.hide('alexsmobs:soul_heart')
   event.hide('chancecubes:creative_pendant')
   event.hide('chancecubes:single_use_reward_selector_pendant')
+
+//nugget
+
+  event.hide('thermal:tin_nugget')
+  event.hide('thermal:lead_nugget')
+  event.hide('thermal:nickel_nugget')
+  event.hide('thermal:bronze_nugget')
+  event.hide('thermal:electrum_nugget')
+  event.hide('thermal:constantan_nugget')
+  event.hide('thermal:signalum_nugget')
+  event.hide('thermal:lumium_nugget')
+  event.hide('thermal:enderium_nugget')
+  event.hide('tmechworks:aluminum_nugget')
 
 //obsidian dust
 
@@ -1769,6 +1785,28 @@ onEvent('jei.hide.items', event => {
   event.hide('tmechworks:copper_ore')
   event.hide('tmechworks:aluminum_ore')
   event.hide('tconstruct:cobalt_ore')
+
+//plates
+
+  event.hide('thermal:iron_plate')
+  event.hide('thermal:gold_plate')
+  event.hide('thermal:tin_plate')
+  event.hide('thermal:lead_plate')
+  event.hide('thermal:nickel_plate')
+  event.hide('thermal:bronze_plate')
+  event.hide('thermal:electrum_plate')
+  event.hide('thermal:constantan_plate')
+  event.hide('thermal:signalum_plate')
+  event.hide('thermal:lumium_plate')
+  event.hide('thermal:enderium_plate')
+  event.hide('immersiveengineering:plate_aluminum')
+  event.hide('immersiveengineering:plate_lead')
+  event.hide('immersiveengineering:plate_nickel')
+  event.hide('immersiveengineering:plate_uranium')
+  event.hide('immersiveengineering:plate_constantan')
+  event.hide('immersiveengineering:plate_electrum')
+  event.hide('immersiveengineering:plate_iron')
+  event.hide('immersiveengineering:plate_gold')
 
 //refined Storage
 

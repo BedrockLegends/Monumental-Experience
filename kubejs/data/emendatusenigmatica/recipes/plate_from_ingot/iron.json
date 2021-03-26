@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/iron"
+        },
+        "$": {
+            "item": "emendatusenigmatica:enigmatic_hammer"
+        }
+    },
+    "result": {
+        "item": "emendatusenigmatica:iron_plate"
+    }
+}

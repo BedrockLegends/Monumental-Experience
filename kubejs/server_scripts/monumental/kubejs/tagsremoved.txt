@@ -21,9 +21,6 @@ onEvent('item.tags', event => {
 // rods tags
   event.add('forge:rods/iron', ['quark:iron_rod'])
 
-// hammer tags
-  event.add('forge:tools/hammer', ['emendatusenigmatica:enigmatic_hammer', 'immersiveengineering:hammer', 'blockcarpentry:hammer', 'engineerstools:crushing_hammer', 'gobber2:gobber2_hammer', 'gobber2:gobber2_hammer_nether', 'gobber2:gobber2_hammer_end', 'woot:hammer', 'quantumstorage:hammer'])
-
 //piston
   event.add('forge:piston', ['create:mechanical_piston', 'minecraft:piston'])
 
