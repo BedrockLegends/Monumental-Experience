@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "SRS",
-        "PPP",
-        "GGG"
+        "PGP",
+        "PDP"
     ],
     "key": {
         "R": {
@@ -13,14 +13,16 @@
             "tag": "forge:paper"
         },
         "G": {
-            "tag": "forge:plates/gold"
+            "item": "immersiveengineering:insulating_glass"
+        },
+        "D": {
+            "tag": "forge:gears/diamond"
         },
         "S": {
-            "item": "create:andesite_alloy"
+            "item": "immersiveengineering:wirecoil_redstone"
         }
     },
     "result": {
-        "item": "modularrouters:blank_module",
-        "count": 2
+        "item": "pneumaticcraft:gps_tool"
     }
 }

@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "conditions": [
+        {
+            "type": "cucumber:enabled",
+            "item": "extendedcrafting:advanced_table"
+        }
+    ],
+    "pattern": [
+        "BAB",
+        "CIC",
+        "BAB"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:plates/gold"
+        },
+        "I": {
+            "item": "extendedcrafting:basic_table"
+        },
+        "B": {
+            "item": "extendedcrafting:advanced_component"
+        },
+        "A": {
+            "item": "extendedcrafting:advanced_catalyst"
+        }
+    },
+    "result": {
+        "item": "extendedcrafting:advanced_table"
+    }
+}

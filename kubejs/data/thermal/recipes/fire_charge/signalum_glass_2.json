@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "thermal:obsidian_glass"
+        },
+        {
+            "item": "thermal:obsidian_glass"
+        },
+        {
+            "tag": "forge:ingots/signalum"
+        }
+    ],
+    "results": [
+        {
+            "item": "thermal:signalum_glass",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "superheated"
+}
