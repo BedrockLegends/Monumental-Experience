@@ -1,0 +1,24 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "extendedcrafting:black_iron_slate"
+        },
+        {
+            "item": "extendedcrafting:luminessence"
+        },
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "tag": "forge:ingots/iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "extendedcrafting:basic_component",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}
