@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WRW",
+        "EIE",
+        "WRW"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:gears/iron"
+        },
+        "R": {
+            "tag": "forge:plates/steel"
+        },
+        "E": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        "W": {
+            "item": "extendedcrafting:redstone_component"
+        }
+    },
+    "result": {
+        "item": "thermal:redstone_servo"
+    }
+}

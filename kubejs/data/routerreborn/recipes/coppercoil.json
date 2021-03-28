@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+        {
+            "item": "immersiveengineering:wirecoil_copper"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_copper"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_copper"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_copper"
+        }
+    ],
+    "category": "components",
+    "result": {
+        "item": "routerreborn:coppercoil",
+        "count": 2
+    }
+}

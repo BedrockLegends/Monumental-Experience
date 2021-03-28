@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "greater_eye:greater_eye"
+        },
+        {
+            "item": "minecraft:chorus_fruit"
+        }
+    ],
+    "results": [
+        {
+            "item": "greater_eye:greater_eye_end"
+        }
+    ],
+    "heatRequirement": "heated"
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:plates/gold"
+        },
+        "G": {
+            "item": "computercraft:monitor_normal"
+        }
+    },
+    "result": {
+        "item": "computercraft:monitor_advanced",
+        "count": 2
+    }
+}
