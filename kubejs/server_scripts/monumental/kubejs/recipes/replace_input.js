@@ -1,5 +1,7 @@
 events.listen('recipes', (event) => {
     event.replaceInput({}, 'minecraft:stone', '#forge:stone', true);
+    event.replaceInput({}, 'minecraft:diamond', '#forge:gems/diamond', true);
+    event.replaceInput({}, 'minecraft:emerald', '#forge:gems/emerald', true);
     event.replaceInput({}, 'minecraft:chest', '#forge:chests/wooden', true);
     event.replaceInput({}, 'minecraft:redstone', '#forge:dusts/redstone', true);
     event.replaceInput({}, 'minecraft:paper', '#forge:paper', true);

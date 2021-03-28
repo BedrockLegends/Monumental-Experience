@@ -1,5 +1,8 @@
 onEvent('recipes', event => {
 
+  //computercraft recipes removed 
+  event.remove({id: 'computercraft:computer_advanced'})
+
   //dust recipes removed
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_iron'})
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_gold'})

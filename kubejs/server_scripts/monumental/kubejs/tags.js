@@ -36,6 +36,9 @@ onEvent('item.tags', event => {
 // dough tags
   event.add('forge:dough/dough', ['create:dough'])
 
+// wrench tags
+  event.add('forge:tools/wrench', ['omegacraft:cave_wrench', 'platforms:wrench'])
+
 // carpet tags
   event.add('forge:carpets', /.+_carpet/)
 

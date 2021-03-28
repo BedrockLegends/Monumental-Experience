@@ -1,17 +1,25 @@
 {
-    "type": "mekanism:metallurgic_infusing",
-    "itemInput": {
-        "ingredient": {
-            "tag": "forge:ingots/gold"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WPQ",
+        "PXP",
+        "QPW"
+    ],
+    "key": {
+        "P": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "X": {
+            "tag": "forge:gears/electrum"
+        },
+        "W": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        "Q": {
+            "tag": "forge:rods/electrum"
         }
     },
-    "infusionInput": {
-        "amount": 20,
-        "tag": "mekanism:redstone"
-    },
-    "output": {
+    "result": {
         "item": "thermal:rf_coil"
-    },
-    "experience": 0.5,
-    "modid": "thermal"
+    }
 }
