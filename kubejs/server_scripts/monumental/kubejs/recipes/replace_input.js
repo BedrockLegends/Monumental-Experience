@@ -1,5 +1,6 @@
 events.listen('recipes', (event) => {
     event.replaceInput({}, 'minecraft:stone', '#forge:stone', true);
+    event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:stone', '#forge:stone', true);
     event.replaceInput({}, 'minecraft:diamond', '#forge:gems/diamond', true);
     event.replaceInput({}, 'minecraft:emerald', '#forge:gems/emerald', true);
     event.replaceInput({}, 'minecraft:chest', '#forge:chests/wooden', true);
@@ -12,4 +13,22 @@ events.listen('recipes', (event) => {
     event.replaceInput({}, 'emendatusenigmatica:enigmatic_hammer', '#forge:tools/hammer', true);
     event.replaceInput({}, 'minecraft:hopper', '#forge:tools/hopper', true);
     event.replaceInput({}, 'minecraft:piston', '#forge:piston', true);
+    event.replaceInput({}, 'thermal:cinnabar', '#forge:gems/cinnabar');
+    event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');
+    event.replaceInput({}, 'thermal:apatite', '#forge:gems/apatite');
+    event.replaceInput({}, 'thermal:niter', '#forge:gems/niter');
+    event.replaceInput({}, 'thermal:bitumen', '#forge:gems/bitumen', true);
+    event.replaceInput({}, 'thermal:coal_coke', '#forge:gems/coal_coke');
+    event.replaceInput({}, 'rftoolsbase:dimensionalshard', '#forge:gems/dimensional');
+    event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen', true);
+    event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
+    event.replaceInput({}, 'thermal:slag', '#forge:slag');
+    event.replaceInput({}, 'minecraft:iron_ore', '#forge:ores/iron');
+    event.replaceInput({}, 'minecraft:gold_ore', '#forge:ores/gold');
+    event.replaceInput({}, 'pneumaticcraft:wheat_flour', '#forge:dusts/flour');
+    event.replaceInput({}, 'create:wheat_flour', '#forge:dusts/flour');
+    event.replaceInput({}, 'minecraft:nether_brick', '#forge:ingots/nether_brick');
+    event.replaceInput({}, 'minecraft:nether_bricks', '#forge:netherbricks');
+    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:netherrack', '#forge:netherrack');
+    event.replaceInput({ mod: 'astralsorcery' }, 'astralsorcery:marble_raw', '#forge:stones/marble');
 });
