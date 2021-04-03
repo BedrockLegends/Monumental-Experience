@@ -1,0 +1,36 @@
+{
+    "type": "astralsorcery:altar",
+    "altar_type": 0,
+    "duration": 100,
+    "starlight": 200,
+    "pattern": [
+        "_____",
+        "_IAI_",
+        "_RIR_",
+        "_ACA_",
+        "_____"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:plates/iron"
+        },
+        "C": {
+            "tag": "forge:plates/copper"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "A": {
+            "tag": "forge:plates/aluminum"
+        }
+    },
+    "output": [
+        {
+            "item": "tmechworks:upgrade_blank",
+            "count": 1
+        }
+    ],
+    "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam"
+    ]
+}

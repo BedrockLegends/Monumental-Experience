@@ -1,19 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " $ ",
-        " # ",
-        " # "
+        "$##",
+        "## ",
+        "   "
     ],
     "key": {
         "#": {
             "tag": "forge:ingots/invar"
         },
         "$": {
-            "item": "emendatusenigmatica:enigmatic_hammer"
+            "tag": "forge:tools/wrench"
         }
     },
     "result": {
-        "item": "emendatusenigmatica:invar_plate"
+        "item": "emendatusenigmatica:invar_plate",
+        "count": 2
     }
 }

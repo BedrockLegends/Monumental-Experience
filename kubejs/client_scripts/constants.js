@@ -96,6 +96,14 @@ var regexHide = [
     /thermal:\w+_plate/,
     /mekanism:\w+_ore/,
     /minecraft:\w+_ore/,
+    /minecraft:\w+_spawn_egg/,
+    /doomweapon:\w+_spawn_egg/,
+    /exoticbirds:\w+_spawn_egg/,
+    /infernalexp:\w+_spawn_egg/,
+    /instrumentalmobs:\w+_spawn_egg/,
+    /alexsmobs:spawn_egg/,
+    /iceandfire:spawn_egg/,
+    /good_nights_sleep:spawn_egg/,
     /immersiveengineering:plate_/,
     /immersiveengineering:stick_/,
     /immersiveengineering:storage_/,
@@ -110,7 +118,6 @@ var regexHide = [
     /emendatusenigmatica:\w+fluix/,
     /rftoolsbase:dimensionalshard/,
 ];
-
 const disabledItems = [];
 const materialsToUnify = [
     'iron',
@@ -212,4 +219,8 @@ const materialsToUnify = [
     'anthracite',
     'vinteum',
     'gobber2',
+    'cobalt'
+];
+const mobsToUnify = [
+    'spawn_egg'
 ];

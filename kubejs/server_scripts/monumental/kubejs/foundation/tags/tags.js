@@ -1,0 +1,53 @@
+// Listen to item tag event
+//priority: 1000
+onEvent('item.tags', event => {
+
+//removed
+  event.remove('forge:leather', 'forbidden_arcanus:rotten_leather')
+  event.remove('forge:nether_stars', 'forbidden_arcanus:dark_nether_star')
+  event.remove('appliedenergistics2:workbench', 'minecraft:crafting_table')
+  event.remove('refinedstorage:crafting_tables', 'minecraft:crafting_table')
+  event.remove('forge:dusts/netherite_scrap', 'bloodmagic:sand_netherite')
+
+//dust tags
+  event.add('forge:dusts/certus_quartz', ['appliedenergistics2:certus_quartz_dust'])
+
+//tool tags
+  event.add('forge:tools/hopper', ['minecraft:hopper', 'engineersdecor:factory_hopper', 'naturesaura:grated_chute', 'pneumaticcraft:omnidirectional_hopper', 'pneumaticcraft:liquid_hopper', 'speedyhoppers:speedyhopper_mk1', 'speedyhoppers:speedyhopper_mk2', 'speedyhoppers:speedyhopper_mk3', 'woodenutilities:wooden_hopper'])
+
+//fence gates
+  event.add('forge:fence_gates/wooden', /.+_fence_gate/)
+
+// rods tags
+  event.add('forge:rods/iron', ['quark:iron_rod'])
+
+// hammer tags
+  event.add('forge:tools/hammer', ['emendatusenigmatica:enigmatic_hammer', 'immersiveengineering:hammer', 'blockcarpentry:hammer', 'engineerstools:crushing_hammer', 'gobber2:gobber2_hammer', 'gobber2:gobber2_hammer_nether', 'gobber2:gobber2_hammer_end', 'woot:hammer', 'quantumstorage:hammer'])
+
+//piston
+  event.add('forge:piston', ['create:mechanical_piston', 'minecraft:piston'])
+
+//piston sticky
+  event.add('forge:piston/sticky', ['create:sticky_mechanical_piston', 'minecraft:sticky_piston'])
+
+// obsidian dust tags
+  event.add('forge:dusts/obsidian', ['create:powdered_obsidian'])
+
+// dough tags
+  event.add('forge:dough/dough', ['create:dough'])
+
+// wrench tags
+  event.add('forge:tools/wrench', ['omegacraft:cave_wrench', 'platforms:wrench'])
+
+// carpet tags
+  event.add('forge:carpets', /.+_carpet/)
+
+//fertilizer
+  event.add('forge:fertilizer', ['create:tree_fertilizer', 'waterstrainer:fertilizer', 'botania:fertilizer', 'gardentools:fertilizer', 'mysticalagriculture:mystical_fertilizer', 'farmingforblockheads:green_fertilizer', 'farmingforblockheads:red_fertilizer', 'farmingforblockheads:yellow_fertilizer'])
+
+// bucket tags
+  event.add('forge:buckets', ['minecraft:bucket', 'ceramics:clay_bucket', 'zycraft:quartz_bucket', 'forbidden_arcanus:edelwood_bucket'])
+
+// heart tags
+  event.add('forge:heart', ['alexsmobs:soul_heart', 'iceandfire:fire_dragon_heart', 'iceandfire:ice_dragon_heart', 'iceandfire:lightning_dragon_heart', 'iceandfire:hydra_heart', 'losttrinkets:blaze_heart', 'losttrinkets:ruby_heart'])
+})

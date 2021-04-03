@@ -1,9 +1,14 @@
 {
-    "type": "create:mechanical_crafting",
+    "type": "astralsorcery:altar",
+    "altar_type": 0,
+    "duration": 100,
+    "starlight": 200,
     "pattern": [
-        "PTP",
-        "TPT",
-        "PTP"
+        "_____",
+        "_PTP_",
+        "_TPT_",
+        "_PTP_",
+        "_____"
     ],
     "key": {
         "P": {
@@ -13,8 +18,13 @@
             "tag": "forge:rods/wooden"
         }
     },
-    "result": {
-        "item": "tconstruct:pattern",
-        "count": 2
-    }
+    "output": [
+        {
+            "item": "tconstruct:pattern",
+            "count": 2
+        }
+    ],
+    "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam"
+    ]
 }

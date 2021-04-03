@@ -1,19 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " $ ",
-        " # ",
-        " # "
+        "$##",
+        "## ",
+        "   "
     ],
     "key": {
         "#": {
             "tag": "forge:ingots/tin"
         },
         "$": {
-            "item": "emendatusenigmatica:enigmatic_hammer"
+            "tag": "forge:tools/wrench"
         }
     },
     "result": {
-        "item": "emendatusenigmatica:tin_plate"
+        "item": "emendatusenigmatica:tin_plate",
+        "count": 2
     }
 }

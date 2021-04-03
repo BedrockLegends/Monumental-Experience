@@ -1,0 +1,24 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+        {
+            "item": "appliedenergistics2:ender_dust"
+        },
+        {
+            "item": "rftoolscontrol:card_base"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_electrum"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    ],
+    "category": "components",
+    "result": {
+        "item": "rftoolscontrol:network_card"
+    }
+}
