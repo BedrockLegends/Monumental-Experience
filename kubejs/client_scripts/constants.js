@@ -103,6 +103,7 @@ var regexHide = [
     /instrumentalmobs:\w+_spawn_egg/,
     /alexsmobs:spawn_egg/,
     /iceandfire:spawn_egg/,
+    /mowziesmobs:spawn_egg/,
     /good_nights_sleep:spawn_egg/,
     /immersiveengineering:plate_/,
     /immersiveengineering:stick_/,

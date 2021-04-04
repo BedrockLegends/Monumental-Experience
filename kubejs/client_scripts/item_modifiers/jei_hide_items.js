@@ -91,7 +91,8 @@ events.listen('jei.hide.items', (event) => {
             'infernalexp:' + mobs + '_spawn_egg',
             'instrumentalmobs:' + mobs + '_spawn_egg',
             'good_nights_sleep:' + mobs + '_spawn_egg',
-            'iceandfire:spawn_egg' + mobs
+            'iceandfire:spawn_egg' + mobs,
+            'mowziesmobs:' + mobs + '_spawn_egg',
         );
     });
 
