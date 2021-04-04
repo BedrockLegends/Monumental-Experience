@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "waystones:return_scroll",
+    "count": 3
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "PPP"
+  ],
+  "key": {
+    "G": {
+      "item": "naturesaura:tainted_gold"
+    },
+    "E": {
+      "tag": "forge:dyes/purple"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  }
+}

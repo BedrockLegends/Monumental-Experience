@@ -1,0 +1,378 @@
+{
+	"credit": "Created by Stridey",
+	"parent": "item/sword_display",
+	"gui_light": "front",
+	"textures": {
+		"particle": "item/sword",
+		"sword": "item/sword"
+	},
+	"elements": [
+		{
+			"name": "sword_0",
+			"from": [13, 15, 7.5],
+			"to": [16, 16, 8.5],
+			"faces": {
+				"north": {"uv": [16, 0, 13, 1], "texture": "#sword"},
+				"east": {"uv": [15, 0, 16, 1], "texture": "#sword"},
+				"south": {"uv": [13, 0, 16, 1], "texture": "#sword"},
+				"west": {"uv": [13, 0, 14, 1], "texture": "#sword"},
+				"up": {"uv": [13, 0, 16, 1], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_1",
+			"from": [12, 14, 7.5],
+			"to": [16, 15, 8.5],
+			"faces": {
+				"north": {"uv": [16, 1, 12, 2], "texture": "#sword"},
+				"east": {"uv": [15, 1, 16, 2], "texture": "#sword"},
+				"south": {"uv": [12, 1, 16, 2], "texture": "#sword"},
+				"west": {"uv": [12, 1, 13, 2], "texture": "#sword"},
+				"up": {"uv": [12, 1, 16, 2], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_2",
+			"from": [11, 13, 7.5],
+			"to": [16, 14, 8.5],
+			"faces": {
+				"north": {"uv": [16, 2, 11, 3], "texture": "#sword"},
+				"east": {"uv": [15, 2, 16, 3], "texture": "#sword"},
+				"south": {"uv": [11, 2, 16, 3], "texture": "#sword"},
+				"west": {"uv": [11, 2, 12, 3], "texture": "#sword"},
+				"up": {"uv": [11, 2, 16, 3], "texture": "#sword"},
+				"down": {"uv": [11, 2, 16, 3], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_3",
+			"from": [10, 11, 7.5],
+			"to": [13, 13, 8.5],
+			"faces": {
+				"north": {"uv": [13, 3, 10, 5], "texture": "#sword"},
+				"east": {"uv": [12, 3, 13, 5], "texture": "#sword"},
+				"south": {"uv": [10, 3, 13, 5], "texture": "#sword"},
+				"west": {"uv": [10, 3, 11, 5], "texture": "#sword"},
+				"up": {"uv": [10, 3, 13, 4], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_5",
+			"from": [8, 10, 7.5],
+			"to": [13, 11, 8.5],
+			"faces": {
+				"north": {"uv": [13, 5, 8, 6], "texture": "#sword"},
+				"east": {"uv": [12, 5, 13, 6], "texture": "#sword"},
+				"south": {"uv": [8, 5, 13, 6], "texture": "#sword"},
+				"west": {"uv": [8, 5, 9, 6], "texture": "#sword"},
+				"up": {"uv": [8, 5, 13, 6], "texture": "#sword"},
+				"down": {"uv": [8, 5, 13, 6], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_7",
+			"from": [7, 9, 7.5],
+			"to": [12, 10, 8.5],
+			"faces": {
+				"north": {"uv": [12, 6, 7, 7], "texture": "#sword"},
+				"east": {"uv": [11, 6, 12, 7], "texture": "#sword"},
+				"south": {"uv": [7, 6, 12, 7], "texture": "#sword"},
+				"west": {"uv": [7, 6, 8, 7], "texture": "#sword"},
+				"up": {"uv": [7, 6, 12, 7], "texture": "#sword"},
+				"down": {"uv": [7, 6, 12, 7], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_8",
+			"from": [4, 8, 7.5],
+			"to": [5, 9, 8.5],
+			"faces": {
+				"north": {"uv": [4, 8, 5, 7], "rotation": 180, "texture": "#sword"},
+				"east": {"uv": [4, 7, 5, 8], "texture": "#sword"},
+				"south": {"uv": [4, 7, 5, 8], "texture": "#sword"},
+				"west": {"uv": [4, 7, 5, 8], "texture": "#sword"},
+				"up": {"uv": [5, 7, 4, 8], "rotation": 180, "texture": "#sword"},
+				"down": {"uv": [4, 7, 5, 8], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_9",
+			"from": [3, 8, 7.5],
+			"to": [4, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 7, 4, 8], "texture": "#sword"},
+				"south": {"uv": [3, 7, 4, 8], "texture": "#sword"},
+				"west": {"uv": [3, 7, 4, 8], "texture": "#sword"},
+				"up": {"uv": [3, 7, 4, 8], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_11",
+			"from": [3, 9, 7.5],
+			"to": [4, 10, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 9, 8]},
+			"faces": {
+				"north": {"uv": [3, 6, 4, 7], "texture": "#sword"},
+				"east": {"uv": [3, 6, 4, 7], "texture": "#sword"},
+				"south": {"uv": [3, 6, 4, 7], "texture": "#sword"},
+				"up": {"uv": [3, 6, 4, 7], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_12",
+			"from": [2, 8, 7.5],
+			"to": [3, 10, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 6, 3, 8], "texture": "#sword"},
+				"south": {"uv": [2, 6, 3, 8], "texture": "#sword"},
+				"west": {"uv": [2, 6, 3, 8], "texture": "#sword"},
+				"up": {"uv": [2, 6, 3, 7], "texture": "#sword"},
+				"down": {"uv": [2, 7, 3, 8], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_13",
+			"from": [6, 8, 7.5],
+			"to": [11, 9, 8.5],
+			"faces": {
+				"north": {"uv": [11, 7, 6, 8], "texture": "#sword"},
+				"east": {"uv": [10, 7, 11, 8], "texture": "#sword"},
+				"south": {"uv": [6, 7, 11, 8], "texture": "#sword"},
+				"west": {"uv": [6, 7, 7, 8], "texture": "#sword"},
+				"up": {"uv": [6, 7, 11, 8], "texture": "#sword"},
+				"down": {"uv": [6, 7, 11, 8], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_14",
+			"from": [3, 7, 7.5],
+			"to": [10, 8, 8.5],
+			"faces": {
+				"north": {"uv": [10, 8, 3, 9], "texture": "#sword"},
+				"east": {"uv": [9, 8, 10, 9], "texture": "#sword"},
+				"south": {"uv": [3, 8, 10, 9], "texture": "#sword"},
+				"west": {"uv": [3, 8, 4, 9], "texture": "#sword"},
+				"up": {"uv": [3, 8, 10, 9], "texture": "#sword"},
+				"down": {"uv": [3, 8, 10, 9], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_15",
+			"from": [3, 6, 7.5],
+			"to": [9, 7, 8.5],
+			"faces": {
+				"north": {"uv": [9, 9, 3, 10], "texture": "#sword"},
+				"east": {"uv": [8, 9, 9, 10], "texture": "#sword"},
+				"south": {"uv": [3, 9, 9, 10], "texture": "#sword"},
+				"west": {"uv": [3, 9, 4, 10], "texture": "#sword"},
+				"up": {"uv": [3, 9, 9, 10], "texture": "#sword"},
+				"down": {"uv": [3, 9, 9, 10], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_16",
+			"from": [4, 5, 7.5],
+			"to": [8, 6, 8.5],
+			"faces": {
+				"north": {"uv": [4, 10, 8, 11], "texture": "#sword"},
+				"east": {"uv": [7, 10, 8, 11], "texture": "#sword"},
+				"south": {"uv": [4, 10, 8, 11], "texture": "#sword"},
+				"west": {"uv": [4, 10, 5, 11], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_17",
+			"from": [3, 4, 7.5],
+			"to": [9, 5, 8.5],
+			"faces": {
+				"north": {"uv": [9, 11, 3, 12], "texture": "#sword"},
+				"east": {"uv": [8, 11, 9, 12], "texture": "#sword"},
+				"south": {"uv": [3, 11, 9, 12], "texture": "#sword"},
+				"west": {"uv": [3, 11, 4, 12], "texture": "#sword"},
+				"up": {"uv": [3, 11, 9, 12], "texture": "#sword"},
+				"down": {"uv": [3, 11, 9, 12], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_18",
+			"from": [2, 3, 7.5],
+			"to": [5, 4, 8.5],
+			"faces": {
+				"north": {"uv": [2, 12, 5, 13], "texture": "#sword"},
+				"east": {"uv": [4, 12, 5, 13], "texture": "#sword"},
+				"south": {"uv": [2, 12, 5, 13], "texture": "#sword"},
+				"west": {"uv": [2, 12, 3, 13], "texture": "#sword"},
+				"up": {"uv": [2, 12, 5, 13], "texture": "#sword"},
+				"down": {"uv": [2, 12, 5, 13], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_19",
+			"from": [6, 3, 7.5],
+			"to": [8, 4, 8.5],
+			"faces": {
+				"north": {"uv": [6, 12, 8, 13], "texture": "#sword"},
+				"south": {"uv": [6, 12, 8, 13], "texture": "#sword"},
+				"west": {"uv": [6, 12, 7, 13], "texture": "#sword"},
+				"down": {"uv": [6, 12, 8, 13], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_20",
+			"from": [8, 3, 7.5],
+			"to": [9, 4, 8.5],
+			"faces": {
+				"north": {"uv": [8, 12, 9, 13], "texture": "#sword"},
+				"east": {"uv": [8, 12, 9, 13], "texture": "#sword"},
+				"south": {"uv": [8, 12, 9, 13], "texture": "#sword"},
+				"down": {"uv": [8, 12, 9, 13], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_21",
+			"from": [8, 2, 7.5],
+			"to": [9, 3, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [8, 13, 9, 14], "texture": "#sword"},
+				"south": {"uv": [8, 13, 9, 14], "texture": "#sword"},
+				"west": {"uv": [8, 13, 9, 14], "texture": "#sword"},
+				"down": {"uv": [8, 13, 9, 14], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_22",
+			"from": [9, 2, 7.5],
+			"to": [10, 4, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 12, 10, 14], "texture": "#sword"},
+				"east": {"uv": [9, 12, 10, 14], "texture": "#sword"},
+				"south": {"uv": [9, 12, 10, 14], "texture": "#sword"},
+				"up": {"uv": [9, 12, 10, 13], "texture": "#sword"},
+				"down": {"uv": [9, 13, 10, 14], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_23",
+			"from": [1, 2, 7.5],
+			"to": [3, 3, 8.5],
+			"faces": {
+				"north": {"uv": [3, 13, 1, 14], "texture": "#sword"},
+				"south": {"uv": [1, 13, 3, 14], "texture": "#sword"},
+				"west": {"uv": [1, 13, 2, 14], "texture": "#sword"},
+				"up": {"uv": [1, 13, 3, 14], "texture": "#sword"},
+				"down": {"uv": [1, 13, 3, 14], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_24",
+			"from": [0, 1, 7.5],
+			"to": [3, 2, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [3, 14, 0, 15], "texture": "#sword"},
+				"east": {"uv": [2, 14, 3, 15], "texture": "#sword"},
+				"south": {"uv": [0, 14, 3, 15], "texture": "#sword"},
+				"west": {"uv": [0, 14, 1, 15], "texture": "#sword"},
+				"up": {"uv": [0, 14, 3, 15], "texture": "#sword"},
+				"down": {"uv": [0, 14, 3, 15], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_25",
+			"from": [0, 0, 7.5],
+			"to": [2, 1, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 15, 2, 16], "texture": "#sword"},
+				"east": {"uv": [1, 15, 2, 16], "texture": "#sword"},
+				"south": {"uv": [0, 15, 2, 16], "texture": "#sword"},
+				"west": {"uv": [0, 15, 1, 16], "texture": "#sword"},
+				"down": {"uv": [0, 15, 2, 16], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_26",
+			"from": [2, 0, 7.5],
+			"to": [3, 1, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 6, 8]},
+			"faces": {
+				"north": {"uv": [2, 15, 3, 16], "texture": "#sword"},
+				"east": {"uv": [2, 15, 3, 16], "texture": "#sword"},
+				"south": {"uv": [2, 15, 3, 16], "texture": "#sword"},
+				"down": {"uv": [2, 15, 3, 16], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_27",
+			"from": [0, 2, 7.5],
+			"to": [1, 3, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 13, 1, 14], "texture": "#sword"},
+				"south": {"uv": [0, 13, 1, 14], "texture": "#sword"},
+				"west": {"uv": [0, 13, 1, 14], "texture": "#sword"},
+				"up": {"uv": [0, 13, 1, 14], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_28",
+			"from": [3, 2, 7.5],
+			"to": [4, 3, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 10, 15]},
+			"faces": {
+				"north": {"uv": [3, 13, 4, 14], "texture": "#sword"},
+				"east": {"uv": [3, 13, 4, 14], "texture": "#sword"},
+				"south": {"uv": [3, 13, 4, 14], "texture": "#sword"},
+				"down": {"uv": [3, 13, 4, 14], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_29",
+			"from": [9, 11, 7.5],
+			"to": [10, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 19, 15]},
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#sword"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#sword"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#sword"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_30",
+			"from": [13, 11, 7.5],
+			"to": [14, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [21, 19, 15]},
+			"faces": {
+				"north": {"uv": [13, 4, 14, 5], "texture": "#sword"},
+				"east": {"uv": [13, 4, 14, 5], "texture": "#sword"},
+				"south": {"uv": [13, 4, 14, 5], "texture": "#sword"},
+				"down": {"uv": [13, 4, 14, 5], "texture": "#sword"}
+			}
+		},
+		{
+			"name": "sword_31",
+			"from": [13, 12, 7.5],
+			"to": [15, 13, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [21, 20, 15]},
+			"faces": {
+				"north": {"uv": [15, 3, 13, 4], "texture": "#sword"},
+				"east": {"uv": [14, 3, 15, 4], "texture": "#sword"},
+				"south": {"uv": [13, 3, 15, 4], "texture": "#sword"},
+				"down": {"uv": [13, 3, 15, 4], "texture": "#sword"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"groups": [
+		{
+			"name": "sword",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+		}
+	]
+}
