@@ -10,7 +10,7 @@
             "tag": "minecraft:acacia_logs"
         },
         "$": {
-            "item": "immersiveengineering:hammer"
+            "tag": "forge:tools/hammer"
         }
     },
     "result": {

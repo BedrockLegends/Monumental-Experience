@@ -10,7 +10,7 @@
             "tag": "minecraft:birch_logs"
         },
         "$": {
-            "item": "immersiveengineering:hammer"
+            "tag": "forge:tools/hammer"
         }
     },
     "result": {

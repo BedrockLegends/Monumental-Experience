@@ -10,7 +10,7 @@
             "item": "minecraft:spruce_planks"
         },
         "$": {
-            "item": "immersiveengineering:hammer"
+            "tag": "forge:tools/hammer"
         }
     },
     "result": {

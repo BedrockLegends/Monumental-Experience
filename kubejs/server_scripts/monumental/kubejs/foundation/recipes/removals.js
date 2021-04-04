@@ -3,6 +3,10 @@ onEvent('recipes', event => {
   //andesite alloy recipes removed
   event.remove({id: 'andesite_alloy_from_zinc'}) 
 
+  //blocks removed
+  event.remove({id: 'botania:manasteel_block'})
+
+
   //computercraft recipes removed 
   event.remove({id: 'computercraft:computer_advanced'})
 
@@ -48,6 +52,10 @@ onEvent('recipes', event => {
   //misc recipes removed
   event.remove({id: 'quantumstorage:qsu2'})
   event.remove({id: 'forbidden_arcanus:arcane_gold_ingot'})
+  event.remove({id: 'thermal:blitz_powder'})
+  event.remove({id: 'thermal:blizz_powder'})
+  event.remove({id: 'thermal:basalz_powder'})
+  event.remove({id: 'minecraft:blaze_powder'})
 
   //pickaxes recipes removed(Use Tinkers)
   event.remove({id: 'undergarden:blast_cloggrum_item'})
