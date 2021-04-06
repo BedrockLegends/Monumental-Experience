@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DQD",
+    "GWG",
+    "DQD"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "Q": {
+      "item": "create:polished_rose_quartz"
+    },
+    "G": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "W": {
+      "item": "refinedpipes:improved_item_pipe"
+    }
+  },
+  "result": {
+    "item": "refinedpipes:advanced_item_pipe",
+    "count": 3
+  }
+}

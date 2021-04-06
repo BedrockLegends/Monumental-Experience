@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "minecraft:charcoal"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:dust_charcoal",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

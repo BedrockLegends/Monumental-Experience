@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "R": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "#": {
+      "item": "immersiveengineering:concrete"
+    },
+    "T": {
+      "tag": "forge:plates/wooden"
+    },
+    "X": {
+      "tag": "forge:gears/iron"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston"
+  }
+}

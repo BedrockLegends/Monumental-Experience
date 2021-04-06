@@ -1,0 +1,44 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 2,
+  "duration": 400,
+  "starlight": 2800,
+  "pattern": [
+    "_____",
+    "_CDC_",
+    "_BEB_",
+    "B_A_B",
+    "_B_B_"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:mana_pearl"
+    },
+    "B": {
+      "tag": "astralsorcery:stardust"
+    },
+    "C": {
+      "item": "naturesaura:tainted_gold"
+    },
+    "D": {
+      "item": "botania:mana_string"
+    },
+    "E": {
+      "item": "astralsorcery:shifting_star"
+    }
+  },
+  "output": [
+    {
+      "item": "astralsorcery:enchantment_amulet",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:large_dust_swirl",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

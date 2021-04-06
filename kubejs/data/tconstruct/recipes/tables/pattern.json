@@ -1,0 +1,30 @@
+{
+    "type": "astralsorcery:altar",
+    "altar_type": 0,
+    "duration": 100,
+    "starlight": 200,
+    "pattern": [
+        "_____",
+        "_PTP_",
+        "_TPT_",
+        "_PTP_",
+        "_____"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:plates/wooden"
+        },
+        "T": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "output": [
+        {
+            "item": "tconstruct:pattern",
+            "count": 2
+        }
+    ],
+    "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam"
+    ]
+}

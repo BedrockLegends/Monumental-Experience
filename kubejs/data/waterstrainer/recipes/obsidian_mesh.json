@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A#A",
+        "#A#",
+        "A#A"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:obsidian"
+        },
+        "A": {
+            "item": "waterstrainer:iron_mesh"
+        }
+    },
+    "result": {
+        "item": "waterstrainer:obsidian_mesh"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " X ",
+        "rir",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:crafting_table"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "i": {
+            "item": "modularrouters:blank_module"
+        }
+    },
+    "result": {
+        "item": "rftoolsstorage:storage_control_module"
+    }
+}

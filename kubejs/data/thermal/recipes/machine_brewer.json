@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "XXX",
+        "YCY",
+        "IPI"
+    ],
+    "key": {
+        "C": {
+            "item": "thermal:machine_frame"
+        },
+        "I": {
+            "tag": "forge:gears/constantan"
+        },
+        "P": {
+            "item": "thermal:rf_coil"
+        },
+        "X": {
+            "item": "minecraft:brewing_stand"
+        },
+        "Y": {
+            "tag": "thermal:glass/hardened"
+        }
+    },
+    "result": {
+        "item": "thermal:machine_brewer"
+    }
+}

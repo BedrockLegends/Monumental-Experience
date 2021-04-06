@@ -1,0 +1,33 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 0,
+  "duration": 100,
+  "starlight": 200,
+  "pattern": [
+    "_____",
+    "_QLL_",
+    "_QPP_",
+    "_QLL_",
+    "_____"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:paper"
+    },
+    "L": {
+      "item": "quark:ravager_hide"
+    },
+    "Q": {
+      "item": "botania:mana_string"
+    }
+  },
+  "output": [
+    {
+      "item": "mana-and-artifice:spell_book",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam"
+  ]
+}

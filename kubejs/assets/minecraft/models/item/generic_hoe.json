@@ -1,0 +1,194 @@
+{
+	"credit": "Created by Stridey",
+	"parent": "item/hoe_display",
+	"gui_light": "front",
+	"textures": {
+		"hoe": "item/hoe",
+		"particle": "item/hoe"
+	},
+	"elements": [
+		{
+			"name": "golden_hoe_0",
+			"from": [7, 12, 7.5],
+			"to": [10, 15, 8.5],
+			"faces": {
+				"north": {"uv": [10, 1, 7, 4], "texture": "#hoe"},
+				"east": {"uv": [9, 1, 10, 4], "texture": "#hoe"},
+				"south": {"uv": [7, 1, 10, 4], "texture": "#hoe"},
+				"west": {"uv": [7, 1, 8, 4], "texture": "#hoe"},
+				"up": {"uv": [7, 1, 10, 2], "texture": "#hoe"},
+				"down": {"uv": [7, 3, 10, 4], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_3",
+			"from": [6, 13, 7.5],
+			"to": [7, 14, 8.5],
+			"faces": {
+				"north": {"uv": [6, 3, 7, 2], "rotation": 180, "texture": "#hoe"},
+				"south": {"uv": [6, 2, 7, 3], "texture": "#hoe"},
+				"west": {"uv": [6, 2, 7, 3], "texture": "#hoe"},
+				"up": {"uv": [7, 2, 6, 3], "rotation": 180, "texture": "#hoe"},
+				"down": {"uv": [6, 2, 7, 3], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_7",
+			"from": [10, 13, 7.5],
+			"to": [11, 14, 8.5],
+			"faces": {
+				"north": {"uv": [10, 3, 11, 2], "rotation": 180, "texture": "#hoe"},
+				"east": {"uv": [10, 2, 11, 3], "texture": "#hoe"},
+				"south": {"uv": [10, 2, 11, 3], "texture": "#hoe"},
+				"up": {"uv": [11, 2, 10, 3], "rotation": 180, "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_14",
+			"from": [10, 10, 7.5],
+			"to": [14, 13, 8.5],
+			"faces": {
+				"north": {"uv": [14, 3, 10, 6], "texture": "#hoe"},
+				"east": {"uv": [13, 3, 14, 6], "texture": "#hoe"},
+				"south": {"uv": [10, 3, 14, 6], "texture": "#hoe"},
+				"west": {"uv": [10, 3, 11, 6], "texture": "#hoe"},
+				"up": {"uv": [10, 3, 14, 4], "texture": "#hoe"},
+				"down": {"uv": [10, 5, 14, 6], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_15",
+			"from": [9, 11, 7.5],
+			"to": [10, 12, 8.5],
+			"faces": {
+				"north": {"uv": [9, 5, 10, 4], "rotation": 180, "texture": "#hoe"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#hoe"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#hoe"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_24",
+			"from": [9, 9, 7.5],
+			"to": [13, 10, 8.5],
+			"faces": {
+				"north": {"uv": [13, 6, 9, 7], "texture": "#hoe"},
+				"east": {"uv": [12, 6, 13, 7], "texture": "#hoe"},
+				"south": {"uv": [9, 6, 13, 7], "texture": "#hoe"},
+				"west": {"uv": [9, 6, 10, 7], "texture": "#hoe"},
+				"up": {"uv": [9, 6, 13, 7], "texture": "#hoe"},
+				"down": {"uv": [9, 6, 13, 7], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_28",
+			"from": [8, 8, 7.5],
+			"to": [11, 9, 8.5],
+			"faces": {
+				"north": {"uv": [11, 7, 8, 8], "texture": "#hoe"},
+				"east": {"uv": [10, 7, 11, 8], "texture": "#hoe"},
+				"south": {"uv": [8, 7, 11, 8], "texture": "#hoe"},
+				"west": {"uv": [8, 7, 9, 8], "texture": "#hoe"},
+				"up": {"uv": [8, 7, 11, 8], "texture": "#hoe"},
+				"down": {"uv": [8, 7, 11, 8], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_31",
+			"from": [7, 7, 7.5],
+			"to": [10, 8, 8.5],
+			"faces": {
+				"north": {"uv": [10, 8, 7, 9], "texture": "#hoe"},
+				"east": {"uv": [9, 8, 10, 9], "texture": "#hoe"},
+				"south": {"uv": [7, 8, 10, 9], "texture": "#hoe"},
+				"west": {"uv": [7, 8, 8, 9], "texture": "#hoe"},
+				"up": {"uv": [7, 8, 10, 9], "texture": "#hoe"},
+				"down": {"uv": [7, 8, 10, 9], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_34",
+			"from": [6, 6, 7.5],
+			"to": [9, 7, 8.5],
+			"faces": {
+				"north": {"uv": [9, 9, 6, 10], "texture": "#hoe"},
+				"east": {"uv": [8, 9, 9, 10], "texture": "#hoe"},
+				"south": {"uv": [6, 9, 9, 10], "texture": "#hoe"},
+				"west": {"uv": [6, 9, 7, 10], "texture": "#hoe"},
+				"up": {"uv": [6, 9, 9, 10], "texture": "#hoe"},
+				"down": {"uv": [6, 9, 9, 10], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_37",
+			"from": [5, 5, 7.5],
+			"to": [8, 6, 8.5],
+			"faces": {
+				"north": {"uv": [8, 10, 5, 11], "texture": "#hoe"},
+				"east": {"uv": [7, 10, 8, 11], "texture": "#hoe"},
+				"south": {"uv": [5, 10, 8, 11], "texture": "#hoe"},
+				"west": {"uv": [5, 10, 6, 11], "texture": "#hoe"},
+				"up": {"uv": [5, 10, 8, 11], "texture": "#hoe"},
+				"down": {"uv": [5, 10, 8, 11], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_40",
+			"from": [4, 4, 7.5],
+			"to": [7, 5, 8.5],
+			"faces": {
+				"north": {"uv": [7, 11, 4, 12], "texture": "#hoe"},
+				"east": {"uv": [6, 11, 7, 12], "texture": "#hoe"},
+				"south": {"uv": [4, 11, 7, 12], "texture": "#hoe"},
+				"west": {"uv": [4, 11, 5, 12], "texture": "#hoe"},
+				"up": {"uv": [4, 11, 7, 12], "texture": "#hoe"},
+				"down": {"uv": [4, 11, 7, 12], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_45",
+			"from": [3, 3, 7.5],
+			"to": [6, 4, 8.5],
+			"faces": {
+				"north": {"uv": [6, 12, 3, 13], "texture": "#hoe"},
+				"east": {"uv": [5, 12, 6, 13], "texture": "#hoe"},
+				"south": {"uv": [3, 12, 6, 13], "texture": "#hoe"},
+				"west": {"uv": [3, 12, 4, 13], "texture": "#hoe"},
+				"up": {"uv": [3, 12, 6, 13], "texture": "#hoe"},
+				"down": {"uv": [3, 12, 6, 13], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_48",
+			"from": [4, 2, 7.5],
+			"to": [5, 3, 8.5],
+			"faces": {
+				"north": {"uv": [4, 14, 5, 13], "rotation": 180, "texture": "#hoe"},
+				"east": {"uv": [4, 13, 5, 14], "texture": "#hoe"},
+				"south": {"uv": [4, 13, 5, 14], "texture": "#hoe"},
+				"down": {"uv": [4, 13, 5, 14], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_49",
+			"from": [2, 1, 7.5],
+			"to": [4, 3, 8.5],
+			"faces": {
+				"north": {"uv": [4, 13, 2, 15], "texture": "#hoe"},
+				"east": {"uv": [3, 13, 4, 15], "texture": "#hoe"},
+				"south": {"uv": [2, 13, 4, 15], "texture": "#hoe"},
+				"west": {"uv": [2, 13, 3, 15], "texture": "#hoe"},
+				"up": {"uv": [2, 13, 4, 14], "texture": "#hoe"},
+				"down": {"uv": [2, 14, 4, 15], "texture": "#hoe"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"groups": [
+		{
+			"name": "golden_hoe",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+		}
+	]
+}

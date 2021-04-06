@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "XTX",
+    "TAT",
+    "XTX"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:sheetmetals/iron"
+    },
+    "T": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "A": {
+      "tag": "forge:gears/bronze"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:light_engineering"
+  }
+}

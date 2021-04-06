@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " P ",
+        "CBC",
+        "CBC"
+    ],
+    "key": {
+        "P": {
+            "item": "immersiveengineering:wirecoil_steel"
+        },
+        "B": {
+            "tag": "forge:rods/aluminum"
+        },
+        "C": {
+            "item": "immersiveengineering:insulating_glass"
+        }
+    },
+    "result": {
+        "item": "immersiveengineering:connector_hv_relay",
+        "count": 4
+    }
+}

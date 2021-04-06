@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "botania:white_double_flower"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:white_dye",
+            "count": 2
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

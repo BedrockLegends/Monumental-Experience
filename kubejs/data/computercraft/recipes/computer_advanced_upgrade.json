@@ -1,0 +1,23 @@
+{
+    "type": "computercraft:computer_upgrade",
+    "pattern": [
+        "###",
+        "#C#",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:plates/electrum"
+        },
+        "C": {
+            "item": "computercraft:computer_normal"
+        },
+        "S": {
+            "tag": "forge:gears/electrum"
+        }
+    },
+    "family": "advanced",
+    "result": {
+        "item": "computercraft:computer_advanced"
+    }
+}

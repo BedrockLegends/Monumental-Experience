@@ -1,0 +1,26 @@
+{
+  "tips.tip.quest_loot_bag":"Loot Bags from Quest rewards can give you something really good or just something really bad.",
+  "tips.tip.get_steel":"An easy but slow way to get Steel is through the Blast Furnace from Immersive Engineering.",
+  "tips.tip.ftb_chunks":"Claim your surrounding area to protect it from griefing- explosions and other players. The claim button is located top left in your inventory.",
+  "tips.tip.max_chunks":"You can claim up to 350 chunks. 8 of those can be forceloaded- chunk loaded.",
+  "tips.tip.starter_quest":"Starting a new world? Be sure to claim the starting kit quest!",
+  "tips.tip.discord_server":"Do you have a question or do you need help? Join our discord here: https://discord.io/TeamTNP!",
+  "tips.tip.world_ores":"Most ores in the pack have a JEI Information tab showing roughly what Y levels they generate on.",
+  "tips.tip.ore_excavate":"Did you know theres Ore Excavation/Vein Mining in the pack? Its called FTB Ultimine, check the controls menu for the keybind.",
+  "tips.tip.jei_previous":"Need to go back to a previous recipe in JEI? Use the backspace key.",
+  "tips.tip.controls_keybind":"Most modded keybinds are unbinded to prevent key conflicts. Head into the controls menu and rebind the button you need.",
+  "tips.tip.creosote_oil":"Creosote Oil can be created in the Coke Oven from Immersive Engineering.",
+  "tips.tip.refined_storage_color":"The Refined Storage Controller and a lot of other RF items can be dyed in lots of different colors!",
+  "tips.tip.grave_stone":"Break or sneak on your gravestone to retrieve your items.",
+  "tips.tip.natures_compass":"The Nature's Compass can help you locate biomes with ease.",
+  "tips.tip.ae2_meteorite":"Craft a Meteorite Compass to locate AE2 meteorites easier.",
+  "tips.tip.ae2_grindstone":"The Quartz Grindstone from Applied Energistics 2 is an easy way to double your ores early game.",
+  "tips.tip.enchantment_table":"Did you know that the Enchantment Table is no longer capped at level 30?",
+  "tips.tip.stay_saturated":"The Fruit Salad & Punch from Pam's HarvestCraft 2 are both very saturating and cheap to make!",
+  "tips.tip.silent_gear":"The mod Silent Gear allows you to neatly customize your tools & armor.",
+  "tips.tip.sol_carrot":"By eating different types of food, you can increase your overall health. Time to chew!",
+  "tips.tip.inv_sorting":"You can sort your inventory or any other container by hovering your mouse in the GUI and then pressing the Middle Mouse Button.",
+  "tips.tip.get_plastic":"Need plastic? Craft a Trash Can from the Rats mod then right click it with blocks & items until a Garbage Pile pops out. Place it and break it until Plastic Waste drops. Use Fortune for increased droprates. Smelt it for Tiny Plastic Pieces, which then can be turned into Plastic!"
+  "tips.tip.sg_glowrose_fertilizer":"Glowroses from Silent Gems can be acquired by using Glowrose Fertilizer on Grass."
+  "tips.tip.loading_world":"Loading into worlds/servers may take awhile. Be patient! Sit back and relax, don't touch anything. You'll get in eventually.."
+}

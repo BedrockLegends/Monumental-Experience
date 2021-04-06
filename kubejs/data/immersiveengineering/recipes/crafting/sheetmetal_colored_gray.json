@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "woot:gray_dyeplate"
+        },
+        {
+            "item": "minecraft:smooth_stone"
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:sheetmetal_colored_gray"
+        }
+    ],
+    "heatRequirement": "heated"
+}

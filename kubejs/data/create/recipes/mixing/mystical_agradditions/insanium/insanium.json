@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    },
+    {
+      "item": "mysticalagradditions:insanium_nugget"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagradditions:insanium_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "superheated",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
+    }
+  ]
+}

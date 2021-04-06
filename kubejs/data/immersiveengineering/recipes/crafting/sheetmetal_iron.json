@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:plates/iron"
+        },
+        {
+            "item": "minecraft:smooth_stone"
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:sheetmetal_iron"
+        }
+    ],
+    "heatRequirement": "heated"
+}

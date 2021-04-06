@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:supremium_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:supremium_essence",
+            "count": 5
+        }
+    ],
+    "processingTime": 400,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

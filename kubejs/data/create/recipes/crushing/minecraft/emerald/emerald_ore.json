@@ -1,0 +1,36 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "tag": "forge:ores/emerald"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:dust_emerald"
+        },
+        {
+            "item": "mekanism:dust_emerald",
+            "count": 2,
+            "chance": 0.3
+        },
+        {
+            "item": "minecraft:cobblestone",
+            "chance": 0.125
+        }
+    ],
+    "processingTime": 350,
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ores/emerald",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:charcoal"
+        },
+        {
+            "tag": "forge:dusts/iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:ingot_steel",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

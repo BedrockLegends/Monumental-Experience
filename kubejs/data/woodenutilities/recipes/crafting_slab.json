@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_e_"
+    ],
+    "key": {
+        "e": {
+            "tag": "forge:plates/wooden"
+        },
+        "_": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "item": "woodenutilities:crafting_slab"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "woodenutilities"
+        }
+    ]
+}

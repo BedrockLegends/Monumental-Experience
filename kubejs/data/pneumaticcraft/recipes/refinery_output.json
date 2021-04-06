@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "GDG",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "pneumaticcraft:reinforced_stone_slab"
+    },
+    "G": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "D": {
+      "tag": "forge:gears/diamond"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:refinery_output"
+  }
+}

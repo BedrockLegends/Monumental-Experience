@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ITI",
+        "GSG",
+        "ITI"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        "T": {
+            "item": "pneumaticcraft:pressure_tube"
+        },
+        "G": {
+            "tag": "forge:plates/gold"
+        },
+        "S": {
+            "item": "pneumaticcraft:compressed_iron_gear"
+        }
+    },
+    "result": {
+        "item": "pneumaticcraft:vortex_tube"
+    }
+}

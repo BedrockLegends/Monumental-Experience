@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PMP",
+        "rIr",
+        "PzP"
+    ],
+    "key": {
+        "M": {
+            "item": "rftoolscontrol:card_base"
+        },
+        "z": {
+            "tag": "forge:dyes/black"
+        },
+        "P": {
+            "tag": "forge:glass_panes"
+        },
+        "I": {
+            "item": "modularrouters:blank_module"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "rftoolscontrol:vectorart_module"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "conditions": [
+        {
+            "type": "cucumber:enabled",
+            "item": "extendedcrafting:basic_table"
+        }
+    ],
+    "pattern": [
+        "BAB",
+        "CIC",
+        "BAB"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:plates/iron"
+        },
+        "I": {
+            "item": "immersiveengineering:craftingtable"
+        },
+        "B": {
+            "item": "extendedcrafting:basic_component"
+        },
+        "A": {
+            "item": "extendedcrafting:basic_catalyst"
+        }
+    },
+    "result": {
+        "item": "extendedcrafting:basic_table"
+    }
+}

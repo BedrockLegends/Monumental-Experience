@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "QRQ",
+        "RFR",
+        "QRQ"
+    ],
+    "key": {
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "F": {
+            "item": "rftoolsbase:machine_frame"
+        },
+        "Q": {
+            "item": "extendedcrafting:redstone_component"
+        }
+    },
+    "result": {
+        "item": "rftoolsutility:matter_booster"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "emendatusenigmatica",
+    "pattern": [
+        " G ",
+        "GNG",
+        " G "
+    ],
+    "key": {
+        "G": {
+            "tag": "forge:gems/emerald"
+        },
+        "N": {
+            "item": "create:andesite_alloy"
+        }
+    },
+    "result": {
+        "item": "emendatusenigmatica:emerald_gear"
+    }
+}

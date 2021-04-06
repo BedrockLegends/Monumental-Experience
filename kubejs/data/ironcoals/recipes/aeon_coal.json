@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PWP",
+        "QBQ",
+        "PWP"
+    ],
+    "key": {
+        "P": {
+            "item": "ironcoals:emerald_coal"
+        },
+        "B": {
+            "tag": "forge:storage_blocks/netherite"
+        },
+        "W": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "Q": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "ironcoals:aeon_coal"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ironcoals"
+        }
+    ]
+}

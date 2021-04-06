@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OPO",
+        "LDL",
+        "OPO"
+    ],
+    "key": {
+        "O": {
+            "tag": "forge:plates/steel"
+        },
+        "P": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "L": {
+            "item": "forbidden_arcanus:obsidian_ingot"
+        },
+        "D": {
+            "item": "immersiveengineering:fluid_pump"
+        }
+    },
+    "result": {
+        "item": "rangedpumps:pump"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rangedpumps"
+        }
+    ]
+}

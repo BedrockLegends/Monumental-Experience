@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "buildinggadgets:gadget_copy_paste"
+  },
+  "pattern": [
+    "iwi",
+    "ere",
+    "ili"
+  ],
+  "type": "create:mechanical_crafting",
+  "key": {
+    "i": {
+      "tag": "forge:plates/iron"
+    },
+    "r": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "l": {
+      "tag": "forge:plates/lapis_lazuli"
+    },
+    "e": {
+      "tag": "forge:gears/emerald"
+    },
+    "w": {
+      "item": "create:electron_tube"
+    }
+  }
+}

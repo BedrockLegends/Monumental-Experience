@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "rir",
+        " z "
+    ],
+    "key": {
+        "M": {
+            "item": "rftoolscontrol:card_base"
+        },
+        "z": {
+            "tag": "forge:dyes/black"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "i": {
+            "item": "modularrouters:blank_module"
+        }
+    },
+    "result": {
+        "item": "rftoolscontrol:variable_module"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "IGI",
+        "RXR",
+        "IGI"
+    ],
+    "key": {
+        "G": {
+            "tag": "thermal:glass/hardened"
+        },
+        "I": {
+            "tag": "forge:plates/invar"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "X": {
+            "tag": "forge:gears/electrum"
+        }
+    },
+    "result": {
+        "item": "thermal:upgrade_augment_1"
+    },
+    "conditions": [
+        {
+            "flag": "upgrade_augments",
+            "type": "thermal:flag"
+        }
+    ]
+}

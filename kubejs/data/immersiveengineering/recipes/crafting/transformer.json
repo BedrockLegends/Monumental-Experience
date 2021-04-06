@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "S T",
+    "CXC",
+    "CCC"
+  ],
+  "key": {
+    "X": {
+      "item": "immersiveengineering:coil_mv"
+    },
+    "C": {
+      "tag": "forge:sheetmetals/iron"
+    },
+    "T": {
+      "item": "immersiveengineering:connector_mv"
+    },
+    "S": {
+      "item": "immersiveengineering:connector_lv"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:transformer"
+  }
+}

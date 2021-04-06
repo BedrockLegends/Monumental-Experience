@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "CCC",
+    "CXC",
+    "CCC"
+  ],
+  "key": {
+    "X": {
+      "item": "createaddition:spool"
+    },
+    "C": {
+      "item": "immersiveengineering:wirecoil_steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:coil_hv"
+  }
+}

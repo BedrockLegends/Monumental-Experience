@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " C ",
+        "IYI",
+        "YXY"
+    ],
+    "key": {
+        "C": {
+            "item": "thermal:rf_coil"
+        },
+        "I": {
+            "tag": "forge:plates/iron"
+        },
+        "X": {
+            "item": "immersiveengineering:circuit_board"
+        },
+        "Y": {
+            "tag": "forge:gears/invar"
+        }
+    },
+    "result": {
+        "item": "thermal:dynamo_magmatic"
+    }
+}

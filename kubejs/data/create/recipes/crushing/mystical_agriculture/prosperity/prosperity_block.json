@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:prosperity_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:prosperity_shard",
+            "count": 5
+        }
+    ],
+    "processingTime": 400,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

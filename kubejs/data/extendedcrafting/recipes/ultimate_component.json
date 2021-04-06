@@ -1,0 +1,24 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "extendedcrafting:black_iron_slate"
+        },
+        {
+            "item": "extendedcrafting:luminessence"
+        },
+        {
+            "tag": "forge:gems/emerald"
+        },
+        {
+            "tag": "forge:gems/emerald"
+        }
+    ],
+    "results": [
+        {
+            "item": "extendedcrafting:ultimate_component",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}

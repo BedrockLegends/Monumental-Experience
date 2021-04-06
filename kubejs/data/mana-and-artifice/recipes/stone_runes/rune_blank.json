@@ -1,0 +1,18 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "botania:livingrock"
+        },
+        {
+            "item": "mana-and-artifice:vinteum_dust"
+        }
+    ],
+    "results": [
+        {
+            "item": "mana-and-artifice:stone_rune_blank",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "heated"
+}

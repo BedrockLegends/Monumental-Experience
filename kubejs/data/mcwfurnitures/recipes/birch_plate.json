@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:birch_logs"
+        },
+        "$": {
+            "tag": "forge:tools/hammer"
+        }
+    },
+    "result": {
+        "item": "mcwfurnitures:birch_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mcwfurnitures"
+        }
+    ]
+}

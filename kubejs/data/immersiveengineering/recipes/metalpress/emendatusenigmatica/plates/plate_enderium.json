@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:metal_press",
+    "mold": {
+        "item": "immersiveengineering:mold_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "emendatusenigmatica"
+        }
+    ],
+    "result": {
+        "item": "emendatusenigmatica:enderium_plate"
+    },
+    "input": {
+        "tag": "forge:ingots/enderium"
+    },
+    "energy": 2400
+}

@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " S ",
+        "QBQ",
+        " T "
+    ],
+    "key": {
+        "B": {
+            "item": "storagenetwork:master"
+        },
+        "Q": {
+            "tag": "forge:gears/electrum"
+        },
+        "T": {
+            "tag": "forge:storage_blocks/glowstone"
+        },
+        "S": {
+            "item": "immersiveengineering:insulating_glass"
+        }
+    },
+    "result": {
+        "item": "storagenetwork:inventory_remote"
+    }
+}

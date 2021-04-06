@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+        {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        {
+            "item": "rftoolsbase:dimensionalshard"
+        },
+        {
+            "item": "rftoolscontrol:cpu_core_1000"
+        }
+    ],
+    "category": "components",
+    "result": {
+        "item": "rftoolscontrol:cpu_core_2000"
+    }
+}

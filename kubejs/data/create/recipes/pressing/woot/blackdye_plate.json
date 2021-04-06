@@ -1,0 +1,19 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    }
+  ],
+  "results": [
+    {
+      "item": "woot:black_dyeplate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woot"
+    }
+  ]
+}

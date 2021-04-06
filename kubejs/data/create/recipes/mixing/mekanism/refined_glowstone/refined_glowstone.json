@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        },
+        {
+            "tag": "forge:nuggets/refined_glowstone"
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:ingot_refined_glowstone",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " p ",
+        "rir",
+        " Z "
+    ],
+    "key": {
+        "p": {
+            "item": "minecraft:paper"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "i": {
+            "item": "modularrouters:blank_module"
+        },
+        "Z": {
+            "tag": "forge:dyes/black"
+        }
+    },
+    "result": {
+        "item": "rftoolsutility:text_module"
+    }
+}

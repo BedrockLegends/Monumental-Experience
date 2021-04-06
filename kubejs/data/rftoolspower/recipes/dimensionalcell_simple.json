@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RdR",
+        "qFq",
+        "RdR"
+    ],
+    "key": {
+        "q": {
+            "item": "create:polished_rose_quartz"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "d": {
+            "tag": "forge:gears/diamond"
+        },
+        "F": {
+            "item": "rftoolsbase:machine_frame"
+        }
+    },
+    "result": {
+        "item": "rftoolspower:dimensionalcell_simple"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " W ",
+        "TPT",
+        "TQT"
+    ],
+    "key": {
+        "W": {
+            "item": "tconstruct:pattern"
+        },
+        "P": {
+            "tag": "forge:chests/wooden"
+        },
+        "T": {
+            "tag": "forge:rods/wooden"
+        },
+        "Q": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "tconstruct:part_chest"
+    }
+}

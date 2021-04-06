@@ -1,0 +1,12 @@
+{
+  "type": "botania:mana_infusion",
+  "input": [
+    {
+      "item": "naturesaura:gold_powder"
+    }
+  ],
+  "output": {
+    "item": "botania:mana_powder"
+  },
+  "mana": 500
+}

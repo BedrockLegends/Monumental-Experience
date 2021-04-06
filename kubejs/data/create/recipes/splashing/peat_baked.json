@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "cyclic:peat_unbaked"
+    }
+  ],
+  "results": [
+    {
+      "item": "cyclic:peat_baked",
+      "count": 1
+    }
+  ]
+}

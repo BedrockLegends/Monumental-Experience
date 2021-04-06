@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rMr",
+        "CFC",
+        "rMr"
+    ],
+    "key": {
+        "M": {
+            "item": "rftoolscontrol:card_base"
+        },
+        "C": {
+            "item": "immersiveengineering:craftingtable"
+        },
+        "r": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        },
+        "F": {
+            "item": "immersiveengineering:heavy_engineering"
+        }
+    },
+    "result": {
+        "item": "rftoolscontrol:craftingstation"
+    }
+}

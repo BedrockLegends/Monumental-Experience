@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "good_nights_sleep:white_planks"
+        },
+        "$": {
+            "item": "immersiveengineering:hammer"
+        }
+    },
+    "result": {
+        "item": "good_nights_sleep:white_pressure_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "immersiveengineering"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IRI",
+        "LWL",
+        "SPS"
+    ],
+    "key": {
+        "L": {
+            "tag": "forge:plates/lead"
+        },
+        "I": {
+            "tag": "forge:plates/steel"
+        },
+        "P": {
+            "item": "thermal:rf_coil"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_catalyst"
+        },
+        "S": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "W": {
+            "tag": "forge:gears/steel"
+        }
+    },
+    "result": {
+        "item": "thermal:flux_magnet"
+    }
+}

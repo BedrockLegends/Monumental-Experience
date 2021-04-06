@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CPC",
+        "XBX",
+        "CWC"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:plates/lapis_lazuli"
+        },
+        "X": {
+            "item": "immersiveengineering:insulating_glass"
+        },
+        "C": {
+            "tag": "forge:ingots/obsidian"
+        },
+        "W": {
+            "item": "create:electron_tube"
+        },
+        "B": {
+            "item": "create:basin"
+        }
+    },
+    "result": {
+        "item": "cyclic:solidifier"
+    }
+}

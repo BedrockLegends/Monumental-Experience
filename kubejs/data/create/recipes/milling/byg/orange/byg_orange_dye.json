@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "byg:orange_dye"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:orange_dye",
+            "count": 1
+        }
+    ],
+    "processingTime": 200,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

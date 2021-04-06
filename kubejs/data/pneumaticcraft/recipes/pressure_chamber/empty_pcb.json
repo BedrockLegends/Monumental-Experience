@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    },
+    {
+      "item": "immersiveengineering:circuit_board"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:empty_pcb"
+    }
+  ]
+}

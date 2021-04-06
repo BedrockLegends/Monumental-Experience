@@ -1,0 +1,30 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:bone_meal"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        },
+        {
+            "tag": "forge:gunpowder"
+        },
+        {
+            "tag": "forge:dusts/arcane_crystal"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        }
+    ],
+    "results": [
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "count": 4
+        }
+    ],
+    "heatRequirement": "heated"
+}

@@ -1,0 +1,23 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "immersiveengineering:cokebrick"
+        },
+        {
+            "item": "minecraft:red_nether_bricks"
+        },
+        {
+            "fluid": "cyclic:magma",
+            "nbt": {},
+            "amount": 250
+        }
+    ],
+    "results": [
+        {
+            "item": "immersiveengineering:blastbrick",
+            "count": 2
+        }
+    ],
+    "heatRequirement": "heated"
+}

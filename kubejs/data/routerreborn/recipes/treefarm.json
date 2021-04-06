@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "cbc",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:plates/steel"
+        },
+        "b": {
+            "item": "minecraft:diamond_axe"
+        },
+        "c": {
+            "item": "routerreborn:coppercoil"
+        }
+    },
+    "result": {
+        "item": "routerreborn:treefarm",
+        "count": 1
+    }
+}

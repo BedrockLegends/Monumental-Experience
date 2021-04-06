@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/enderium"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "extendedcrafting:ender_ingot"
+        }
+    ],
+    "heatRequirement": "superheated"
+}
