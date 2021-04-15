@@ -1,0 +1,18 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "contenttweaker:compressed_plate"
+        },
+        {
+            "item": "minecraft:smooth_stone"
+        }
+    ],
+    "results": [
+        {
+            "item": "pneumaticcraft:reinforced_stone",
+            "count": 4
+        }
+    ],
+    "heatRequirement": "heated"
+}

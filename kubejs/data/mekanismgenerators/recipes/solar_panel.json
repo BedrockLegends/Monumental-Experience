@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanismgenerators:solar_panel"
+    },
+    "pattern": [
+        "GGG",
+        "RAR",
+        "OOO"
+    ],
+    "key": {
+        "G": {
+            "item": "appliedenergistics2:quartz_glass"
+        },
+        "O": {
+            "tag": "forge:plates/osmium"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_ingot"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        }
+    }
+}

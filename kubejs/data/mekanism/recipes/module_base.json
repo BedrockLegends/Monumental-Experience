@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:module_base",
+        "count": 2
+    },
+    "pattern": [
+        "NIN",
+        "I#I",
+        "NIN"
+    ],
+    "key": {
+        "I": {
+            "item": "modularrouters:blank_module"
+        },
+        "N": {
+            "tag": "forge:plates/bronze"
+        },
+        "#": {
+            "item": "mekanism:hdpe_sheet"
+        }
+    }
+}

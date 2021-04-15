@@ -1,0 +1,20 @@
+{
+  "type": "bloodmagic:soulforge",
+  "input0": {
+    "tag": "psi:psidust"
+  },
+  "input1": {
+    "item": "naturesaura:tainted_gold"
+  },
+  "input2": {
+    "item": "mana-and-artifice:chimerite_gem"
+  },
+  "input3": {
+    "item": "potionsmaster:calcinatedlapis_powder"
+  },
+  "output": {
+    "item": "bloodmagic:soulgempetty"
+  },
+  "minimumDrain": 1.0,
+  "drain": 1.0
+}

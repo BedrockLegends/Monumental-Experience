@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDDDB",
+    "CDEDC",
+    "BDDDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "appliedenergistics2:silicon"
+    },
+    "B": {
+      "item": "appliedenergistics2:smooth_sky_stone_block"
+    },
+    "C": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "D": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "E": {
+      "item": "refinedstorage:machine_casing"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:controller"
+  }
+}

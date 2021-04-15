@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UIU",
+    "RMR",
+    "UEU"
+  ],
+  "key": {
+    "I": {
+      "item": "refinedstorage:importer"
+    },
+    "E": {
+      "item": "refinedstorage:exporter"
+    },
+    "M": {
+      "item": "refinedstorage:machine_casing"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "U": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:interface"
+  }
+}

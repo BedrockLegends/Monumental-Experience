@@ -1,8 +1,8 @@
 events.listen('item.tags', (event) => {
     var items = ['minecraft:hopper', 'naturesaura:grated_chute', 'quark:chute'];
     var exceptions = [
-        'botaniafloating_hopperhock',
-        'botaniafloating_hopperhock_chibi',
+        'botania:floating_hopperhock',
+        'botania:floating_hopperhock_chibi',
         'rsgauges:industrial_hopper_switch'
     ];
 

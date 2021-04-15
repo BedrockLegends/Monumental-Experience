@@ -1,0 +1,51 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 200,
+  "starlight": 1400,
+  "pattern": [
+    "A___A",
+    "_ESE_",
+    "_GFD_",
+    "_BCB_",
+    "A___A"
+  ],
+  "key": {
+    "A": {
+      "tag": "botania:livingrock"
+    },
+    "B": {
+      "item": "naturesaura:tainted_gold"
+    },
+    "C": {
+      "tag": "astralsorcery:starmetal"
+    },
+    "D": {
+      "item": "botania:rune_envy"
+    },
+    "G": {
+      "item": "botania:rune_wrath"
+    },
+    "E": {
+      "tag": "forge:dragonblood"
+    },
+    "F": {
+      "item": "jumbofurnace:orthodimensional_hyperfurnace"
+    },
+    "S": {
+      "item": "astralsorcery:rock_crystal"
+    }
+  },
+  "recipe_class": "astralsorcery:constellation_upgrade",
+  "output": [
+    {
+      "item": "bloodmagic:altar",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:upgrade_altar",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

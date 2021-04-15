@@ -1,0 +1,26 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "item": "appliedenergistics2:silicon"
+    }, 
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    {
+      "item": "refinedstorage:processor_binding"
+    },    
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "refinedstorage:raw_improved_processor"
+    }
+  ]
+}

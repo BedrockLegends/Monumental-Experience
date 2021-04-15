@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "mana-and-artifice:infused_silk"
+  },
+  "output": {
+    "item": "bloodmagic:soulsnare"
+  },
+  "upgradeLevel": 0,
+  "altarSyphon": 500,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

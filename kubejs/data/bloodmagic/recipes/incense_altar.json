@@ -1,0 +1,41 @@
+{
+    "type": "astralsorcery:altar",
+    "altar_type": 0,
+    "duration": 100,
+    "starlight": 700,
+    "pattern": [
+        "_____",
+        "_ASA_",
+        "_ADA_",
+        "_BCB_",
+        "_____"
+    ],
+    "key": {
+        "A": {
+            "item": "botania:livingrock"
+        },
+        "S": {
+            "item": "botania:incense_stick"
+        },
+        "C": {
+            "item": "bloodmagic:apprenticebloodorb"
+        },
+        "D": {
+            "item": "botania:ender_air_bottle"
+        },
+        "B": {
+            "item": "bloodmagic:blankrune"
+        }
+    },
+    "recipe_class": "astralsorcery:attunement_upgrade",
+    "output": [
+        {
+            "item": "bloodmagic:incensealtar",
+            "count": 1
+        }
+    ],
+    "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam",
+        "astralsorcery:upgrade_altar"
+    ]
+}

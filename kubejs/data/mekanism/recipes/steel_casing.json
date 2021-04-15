@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "result": {
+        "item": "mekanism:steel_casing"
+    },
+    "pattern": [
+        "SGS",
+        "GOG",
+        "SGS"
+    ],
+    "key": {
+        "G": {
+            "item": "extendedcrafting:black_iron_slate"
+        },
+        "O": {
+            "tag": "forge:gears/osmium"
+        },
+        "S": {
+            "item": "contenttweaker:compressed_plate"
+        }
+    }
+}

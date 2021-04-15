@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "iei",
+        "xgx",
+        "ixi"
+    ],
+    "key": {
+        "e": {
+            "item": "refinedstorage:quartz_enriched_iron"
+        },
+        "g": {
+            "item": "cyclic:tank"
+        },
+        "i": {
+            "item": "refinedstorage:basic_processor"
+        },
+        "x": {
+            "item": "refinedstorage:64k_fluid_storage_part"
+        }
+    },
+    "result": {
+        "item": "refinedstorage:256k_fluid_storage_part"
+    }
+}

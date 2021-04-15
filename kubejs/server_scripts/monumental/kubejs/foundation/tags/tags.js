@@ -13,15 +13,6 @@ onEvent('item.tags', event => {
 //dust tags
   event.add('forge:dusts/certus_quartz', ['appliedenergistics2:certus_quartz_dust'])
 
-//tool tags
-  event.add('forge:tools/hopper', ['minecraft:hopper', 'engineersdecor:factory_hopper', 'naturesaura:grated_chute', 'pneumaticcraft:omnidirectional_hopper', 'pneumaticcraft:liquid_hopper', 'speedyhoppers:speedyhopper_mk1', 'speedyhoppers:speedyhopper_mk2', 'speedyhoppers:speedyhopper_mk3', 'woodenutilities:wooden_hopper'])
-
-//fence gates
-  event.add('forge:fence_gates/wooden', /.+_fence_gate/)
-
-// rods tags
-  event.add('forge:rods/iron', ['quark:iron_rod'])
-
 // hammer tags
   event.add('forge:tools/hammer', ['emendatusenigmatica:enigmatic_hammer', 'immersiveengineering:hammer', 'blockcarpentry:hammer', 'engineerstools:crushing_hammer', 'gobber2:gobber2_hammer', 'gobber2:gobber2_hammer_nether', 'gobber2:gobber2_hammer_end', 'woot:hammer', 'quantumstorage:hammer'])
 

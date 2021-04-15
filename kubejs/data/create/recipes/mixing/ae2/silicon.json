@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:dusts/certus_quartz"
+        },
+        {
+            "tag": "forge:dusts/quartz"
+        }
+    ],
+    "heatRequirement": "superheated",
+    "results": [
+        {
+            "item": "appliedenergistics2:silicon",
+            "count": 2
+        }
+    ]
+}

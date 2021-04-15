@@ -1,7 +1,7 @@
 {
   "type": "botania:mana_infusion",
   "input": {
-    "item": "tombstone:impregnated_diamond"
+    "tag": "forge:gems/psigem"
   },
   "output": {
     "item": "botania:mana_diamond"

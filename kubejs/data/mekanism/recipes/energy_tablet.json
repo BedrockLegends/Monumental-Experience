@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:energy_tablet"
+    },
+    "pattern": [
+        "RIR",
+        "AQA",
+        "RIR"
+    ],
+    "key": {
+        "R": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "I": {
+            "tag": "forge:gears/electrum"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "Q": {
+            "item": "thermal:rf_coil"
+        }
+    }
+}

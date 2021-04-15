@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "result": {
+        "item": "mekanismgenerators:heat_generator"
+    },
+    "pattern": [
+        "III",
+        "WOW",
+        "CFC"
+    ],
+    "key": {
+        "W": {
+            "tag": "forge:plates/osmium"
+        },
+        "I": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "O": {
+            "item": "routerreborn:furnace"
+        },
+        "C": {
+            "tag": "forge:plates/bronze"
+        },
+        "F": {
+            "tag": "forge:circuits/basic"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "astralsorcery:altar",
+    "altar_type": 0,
+    "duration": 100,
+    "starlight": 700,
+    "pattern": [
+        "_____",
+        "_AAA_",
+        "_SDS_",
+        "_BCB_",
+        "_____"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:stone"
+        },
+        "S": {
+            "item": "bloodmagic:infusedslate"
+        },
+        "C": {
+            "tag": "forge:furnaces/iron"
+        },
+        "D": {
+            "item": "bloodmagic:masterbloodorb"
+        },
+        "B": {
+            "tag": "forge:storage_blocks/iron"
+        }
+    },
+    "recipe_class": "astralsorcery:attunement_upgrade",
+    "output": [
+        {
+            "item": "bloodmagic:alchemicalreactionchamber",
+            "count": 1
+        }
+    ],
+    "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam",
+        "astralsorcery:upgrade_altar"
+    ]
+}

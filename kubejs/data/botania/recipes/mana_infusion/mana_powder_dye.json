@@ -2,7 +2,7 @@
   "type": "botania:mana_infusion",
   "input": [
     {
-      "item": "naturesaura:gold_powder"
+      "item": "psi:psidust"
     }
   ],
   "output": {

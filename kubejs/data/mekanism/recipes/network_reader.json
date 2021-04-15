@@ -1,0 +1,25 @@
+{
+    "type": "mekanism:mek_data",
+    "result": {
+        "item": "mekanism:network_reader"
+    },
+    "pattern": [
+        " G ",
+        "AEA",
+        " S "
+    ],
+    "key": {
+        "G": {
+            "item": "appliedenergistics2:quartz_glass"
+        },
+        "S": {
+            "tag": "forge:plates/steel"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        }
+    }
+}

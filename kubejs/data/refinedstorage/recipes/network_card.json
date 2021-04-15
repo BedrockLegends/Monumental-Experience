@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "WQW",
+        "SSS"
+    ],
+    "key": {
+        "Q": [
+            {
+                "item": "refinedstorage:advanced_processor"
+            }
+        ],
+        "W": [
+            {
+                "item": "pneumaticcraft:plastic"
+            }
+        ],
+        "S": [
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            }
+        ]
+    },
+    "result": {
+        "item": "refinedstorage:network_card"
+    }
+}

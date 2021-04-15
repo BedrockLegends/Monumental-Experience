@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:gears/diamond"
+    },    
+    {
+      "item": "appliedenergistics2:silicon"
+    },    
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },    
+    {
+      "item": "refinedstorage:processor_binding"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "refinedstorage:raw_advanced_processor"
+    }
+  ]
+}

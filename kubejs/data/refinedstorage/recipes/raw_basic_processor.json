@@ -1,0 +1,23 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },    
+    {
+      "item": "appliedenergistics2:silicon"
+    },    
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },    
+    {
+      "item": "refinedstorage:processor_binding"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "refinedstorage:raw_basic_processor"
+    }
+  ]
+}

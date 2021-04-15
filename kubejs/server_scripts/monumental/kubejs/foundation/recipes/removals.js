@@ -1,11 +1,32 @@
 onEvent('recipes', event => {
 
   //andesite alloy recipes removed
-  event.remove({id: 'andesite_alloy_from_zinc'}) 
+  event.remove({id: 'andesite_alloy_from_zinc'})
+
+  //Advanced Factory Recipes removed
+  event.remove({id: 'mekanism:factory/advanced/smelting'})
+  event.remove({id: 'mekanism:factory/advanced/enriching'})
+  event.remove({id: 'mekanism:factory/advanced/crushing'})
+  event.remove({id: 'mekanism:factory/advanced/compressing'})
+  event.remove({id: 'mekanism:factory/advanced/combining'})
+  event.remove({id: 'mekanism:factory/advanced/purifying'})
+  event.remove({id: 'mekanism:factory/advanced/injecting'})
+  event.remove({id: 'mekanism:factory/advanced/infusing'})
+  event.remove({id: 'mekanism:factory/advanced/sawing'})
+
+  //Basic Factory Recipes removed
+  event.remove({id: 'mekanism:factory/basic/smelting'})
+  event.remove({id: 'mekanism:factory/basic/enriching'})
+  event.remove({id: 'mekanism:factory/basic/crushing'})
+  event.remove({id: 'mekanism:factory/basic/compressing'})
+  event.remove({id: 'mekanism:factory/basic/combining'})
+  event.remove({id: 'mekanism:factory/basic/purifying'})
+  event.remove({id: 'mekanism:factory/basic/injecting'})
+  event.remove({id: 'mekanism:factory/basic/infusing'})
+  event.remove({id: 'mekanism:factory/basic/sawing'})
 
   //blocks removed
   event.remove({id: 'botania:manasteel_block'})
-
 
   //computercraft recipes removed 
   event.remove({id: 'computercraft:computer_advanced'})
@@ -24,6 +45,17 @@ onEvent('recipes', event => {
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_zinc'})
   event.remove({id: 'emendatusenigmatica:dust_from_ore/quartz'})
   event.remove({id: 'forbidden_arcanus:arcane_crystal_dust'})
+
+  //Elite Factory Recipes removed
+  event.remove({id: 'mekanism:factory/elite/smelting'})
+  event.remove({id: 'mekanism:factory/elite/enriching'})
+  event.remove({id: 'mekanism:factory/elite/crushing'})
+  event.remove({id: 'mekanism:factory/elite/compressing'})
+  event.remove({id: 'mekanism:factory/elite/combining'})
+  event.remove({id: 'mekanism:factory/elite/purifying'})
+  event.remove({id: 'mekanism:factory/elite/injecting'})
+  event.remove({id: 'mekanism:factory/elite/infusing'})
+  event.remove({id: 'mekanism:factory/elite/sawing'})
 
   //Iron Furnace upgrades recipes removed
   event.remove({id: 'ironfurnaces:gold_furnace2'})
@@ -69,5 +101,17 @@ onEvent('recipes', event => {
   event.remove({id: 'thermal:rubber_3'})
   event.remove({id: 'thermal:rubber_from_vine'})
 
-  //treated wood
+  //smelting recipes removed
+  event.remove({id: 'appliedenergistics2:smelting/silicon'})
+
+  //Ultimate Factory Recipes removed
+  event.remove({id: 'mekanism:factory/ultimate/smelting'})
+  event.remove({id: 'mekanism:factory/ultimate/enriching'})
+  event.remove({id: 'mekanism:factory/ultimate/crushing'})
+  event.remove({id: 'mekanism:factory/ultimate/compressing'})
+  event.remove({id: 'mekanism:factory/ultimate/combining'})
+  event.remove({id: 'mekanism:factory/ultimate/purifying'})
+  event.remove({id: 'mekanism:factory/ultimate/injecting'})
+  event.remove({id: 'mekanism:factory/ultimate/infusing'})
+  event.remove({id: 'mekanism:factory/ultimate/sawing'})
 })
