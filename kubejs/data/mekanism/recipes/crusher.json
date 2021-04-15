@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:crusher"
+    },
+    "pattern": [
+        "RCR",
+        "BXB",
+        "RCR"
+    ],
+    "key": {
+        "R": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "C": {
+            "tag": "forge:circuits/basic"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        },
+        "B": {
+            "item": "minecraft:lava_bucket"
+        }
+    }
+}
