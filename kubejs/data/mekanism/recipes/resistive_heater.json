@@ -1,0 +1,25 @@
+{
+    "type": "mekanism:mek_data",
+    "result": {
+        "item": "mekanism:resistive_heater"
+    },
+    "pattern": [
+        "IRI",
+        "RXR",
+        "IEI"
+    ],
+    "key": {
+        "R": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "I": {
+            "tag": "forge:ingots/tin"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    }
+}
