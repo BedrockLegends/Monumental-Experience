@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanismgenerators:fusion_reactor_controller"
+    },
+    "pattern": [
+        "CGC",
+        "FTF",
+        "FFF"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:circuits/ultimate"
+        },
+        "G": {
+            "item": "appliedenergistics2:quartz_vibrant_glass"
+        },
+        "F": {
+            "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "T": {
+            "item": "mekanism:basic_chemical_tank"
+        }
+    }
+}
