@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:thermal_evaporation_controller"
+    },
+    "pattern": [
+        "CGC",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "mekanism:thermal_evaporation_block"
+        },
+        "C": {
+            "tag": "forge:circuits/advanced"
+        },
+        "B": {
+            "item": "mekanism:basic_fluid_tank"
+        },
+        "G": {
+            "item": "appliedenergistics2:quartz_vibrant_glass"
+        }
+    }
+}
