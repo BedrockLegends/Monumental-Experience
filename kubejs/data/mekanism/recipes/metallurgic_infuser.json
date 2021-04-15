@@ -4,8 +4,8 @@
         "item": "mekanism:metallurgic_infuser"
     },
     "pattern": [
-        "I#I",
-        "ROR",
+        "IOI",
+        "RSR",
         "I#I"
     ],
     "key": {
@@ -20,6 +20,9 @@
         },
         "#": {
             "item": "routerreborn:furnace"
+        },
+        "S": {
+            "item": "mekanism:steel_casing"
         }
     }
 }
