@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "result": {
+        "item": "mekanismgenerators:solar_generator"
+    },
+    "pattern": [
+        "###",
+        "AIA",
+        "OEO"
+    ],
+    "key": {
+        "#": {
+            "item": "mekanismgenerators:solar_panel"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "I": {
+            "tag": "forge:circuits/basic"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        },
+        "O": {
+            "tag": "forge:plates/osmium"
+        }
+    }
+}
