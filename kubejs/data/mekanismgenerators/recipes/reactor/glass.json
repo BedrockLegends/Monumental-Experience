@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanismgenerators:reactor_glass",
+        "count": 4
+    },
+    "pattern": [
+        "SIS",
+        "IGI",
+        "SIS"
+    ],
+    "key": {
+        "G": {
+            "item": "appliedenergistics2:quartz_glass"
+        },
+        "I": {
+            "tag": "forge:ingots/lead"
+        },
+        "S": {
+            "item": "mekanism:enriched_iron"
+        }
+    }
+}
