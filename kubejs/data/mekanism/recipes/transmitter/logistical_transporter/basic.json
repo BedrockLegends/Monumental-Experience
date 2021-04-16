@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:basic_logistical_transporter",
+        "count": 8
+    },
+    "pattern": [
+        "   ",
+        "SAS",
+        " # "
+    ],
+    "key": {
+        "S": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "#": {
+            "tag": "forge:circuits/basic"
+        },
+        "A": {
+            "item": "refinedpipes:basic_item_pipe"
+        }
+    }
+}
