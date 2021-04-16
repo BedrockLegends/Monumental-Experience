@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+        {
+            "tag": "appliedenergistics2:crystals/certus"
+        },
+        {
+            "tag": "forge:dusts/fluix"
+        },
+        {
+            "item": "appliedenergistics2:logic_processor"
+        }
+    ],
+    "pressure": 4,
+    "results": [
+        {
+            "item": "appliedenergistics2:formation_core",
+            "count": 2
+        }
+    ]
+}
