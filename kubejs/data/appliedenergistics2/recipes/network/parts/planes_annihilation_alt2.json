@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "appliedenergistics2:annihilation_plane"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ab", "cb", "ab"],
+  "key": {
+    "a": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "b": {
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+    "c": {
+      "item": "appliedenergistics2:annihilation_core"
+    }
+  }
+}

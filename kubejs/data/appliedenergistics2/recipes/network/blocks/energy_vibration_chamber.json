@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "B": {
+      "item": "routerreborn:furnace"
+    },
+    "C": {
+      "item": "appliedenergistics2:energy_acceptor"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:vibration_chamber"
+  }
+}

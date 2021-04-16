@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+    "B": {
+      "item": "cyclic:tank"
+    },
+    "C": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "D": {
+      "item": "appliedenergistics2:formation_core"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:fluid_formation_plane"
+  }
+}

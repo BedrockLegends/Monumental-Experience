@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEC",
+    "ABC"
+  ],
+  "key": {
+    "A": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "B": {
+      "tag": "forge:ingots/refined_glowstone"
+    },
+    "C": {
+      "item": "appliedenergistics2:quartz_glass"
+    },
+    "D": {
+      "item": "pneumaticcraft:compressed_iron_gear"
+    },
+    "E": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:semi_dark_monitor"
+  }
+}

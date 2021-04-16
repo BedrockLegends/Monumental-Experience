@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "B": {
+      "item": "thermal:obsidian_glass"
+    },
+    "C": {
+      "tag": "forge:dusts/fluix"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:condenser"
+  }
+}

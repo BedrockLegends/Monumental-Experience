@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "B": {
+      "item": "appliedenergistics2:quartz_glass"
+    },
+    "C": {
+      "tag": "appliedenergistics2:crystals/fluix"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:energy_acceptor"
+  }
+}

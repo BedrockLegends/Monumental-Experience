@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "appliedenergistics2:export_bus"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["aba", " c "],
+  "key": {
+    "b": {
+      "item": "appliedenergistics2:formation_core"
+    },
+    "a": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "c": {
+      "item": "minecraft:piston"
+    }
+  }
+}

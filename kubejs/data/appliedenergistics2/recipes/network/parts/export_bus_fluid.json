@@ -1,0 +1,24 @@
+{
+    "result": {
+        "item": "appliedenergistics2:fluid_export_bus"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aca",
+        "lbl"
+    ],
+    "key": {
+        "b": {
+            "item": "appliedenergistics2:formation_core"
+        },
+        "a": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "c": {
+            "item": "create:mechanical_piston"
+        },
+        "l": {
+            "item": "cyclic:tank"
+        }
+    }
+}

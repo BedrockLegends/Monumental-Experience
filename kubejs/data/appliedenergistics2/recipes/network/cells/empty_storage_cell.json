@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABA",
+    "B B",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "appliedenergistics2:quartz_glass"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "C": {
+      "item": "contenttweaker:compressed_plate"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:empty_storage_cell"
+  }
+}

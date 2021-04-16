@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AB ",
+    "CDB",
+    "AB "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/electrum"
+    },
+    "B": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "C": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "D": {
+      "item": "appliedenergistics2:calculation_processor"
+    }
+  },
+  "result": {
+    "item": ""
+  }
+}

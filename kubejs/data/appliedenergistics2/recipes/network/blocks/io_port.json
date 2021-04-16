@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "appliedenergistics2:quartz_glass"
+    },
+    "B": {
+      "item": "appliedenergistics2:drive"
+    },
+    "C": {
+      "item": "appliedenergistics2:fluix_glass_cable"
+    },
+    "D": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "E": {
+      "item": "appliedenergistics2:logic_processor"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:io_port"
+  }
+}

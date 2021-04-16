@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABA",
+    "C D",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "B": {
+      "item": "cyclic:tank"
+    },
+    "C": {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+    "D": {
+      "item": "appliedenergistics2:formation_core"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:fluid_interface"
+  }
+}

@@ -13,7 +13,7 @@
       "item": "contenttweaker:compressed_plate"
     },
     "C": {
-      "item": "appliedenergistics2:purified_fluix_crystal"
+      "tag": "appliedenergistics2:crystals/fluix"
     },
     "D": {
       "item": "immersiveengineering:charging_station"
