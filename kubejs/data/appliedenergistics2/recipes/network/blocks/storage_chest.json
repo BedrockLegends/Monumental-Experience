@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "C C",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:obsidian_glass"
+    },
+    "B": {
+      "item": "appliedenergistics2:terminal"
+    },
+    "C": {
+      "item": "appliedenergistics2:fluix_glass_cable"
+    },
+    "D": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "E": {
+      "item": "appliedenergistics2:purified_fluix_crystal"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:chest"
+  }
+}
