@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:obsidian_glass"
+    },
+    "B": {
+      "tag": "forge:dusts/quartz"
+    },
+    "C": {
+      "tag": "forge:dusts/certus_quartz"
+    },
+    "D": {
+      "item": "computercraft:cable"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:quartz_fiber"
+  }
+}

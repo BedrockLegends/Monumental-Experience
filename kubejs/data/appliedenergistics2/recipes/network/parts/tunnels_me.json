@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/enderium"
+    },
+    "B": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "C": {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    "D": {
+      "item": "appliedenergistics2:purified_fluix_crystal"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:me_p2p_tunnel"
+  }
+}

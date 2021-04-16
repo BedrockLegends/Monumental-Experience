@@ -1,5 +1,5 @@
 {
-  "type": "extendedcrafting:shaped_table",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "ABA",
     "BCB",
@@ -10,7 +10,7 @@
       "item": "appliedenergistics2:quartz_glass"
     },
     "B": {
-      "item": "mekanism:ingot_refined_glowstone"
+      "tag": "forge:ingots/refined_glowstone"
     },
     "C": {
       "item": "appliedenergistics2:charged_certus_quartz_crystal"

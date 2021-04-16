@@ -2,7 +2,7 @@
     "result": {
         "item": "appliedenergistics2:drive"
     },
-    "type": "minecraft:crafting_shaped",
+    "type": "create:mechanical_crafting",
     "pattern": [
         "aba",
         "c c",

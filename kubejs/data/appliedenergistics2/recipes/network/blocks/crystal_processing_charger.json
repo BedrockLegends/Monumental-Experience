@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "B": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "C": {
+      "item": "appliedenergistics2:purified_fluix_crystal"
+    },
+    "D": {
+      "item": "immersiveengineering:charging_station"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:charger"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "type": "create:mechanical_crafting",
   "pattern": [
-    "ABA",
-    "C C",
+    "AAA",
+    "BCB",
     "DED"
   ],
   "key": {
@@ -10,19 +10,19 @@
       "item": "thermal:obsidian_glass"
     },
     "B": {
-      "item": "appliedenergistics2:terminal"
+      "item": "appliedenergistics2:fluix_glass_cable"
     },
     "C": {
-      "item": "appliedenergistics2:fluix_glass_cable"
+      "item": "appliedenergistics2:io_port"
     },
     "D": {
       "item": "contenttweaker:compressed_plate"
     },
     "E": {
-      "item": "appliedenergistics2:purified_fluix_crystal"
+      "item": "appliedenergistics2:engineering_processor"
     }
   },
   "result": {
-    "item": "appliedenergistics2:chest"
+    "item": "appliedenergistics2:spatial_io_port"
   }
 }

@@ -2,27 +2,27 @@
   "type": "create:mechanical_crafting",
   "pattern": [
     "ABA",
-    "C C",
-    "DED"
+    "CDC",
+    "AEA"
   ],
   "key": {
     "A": {
-      "item": "thermal:obsidian_glass"
+      "tag": "forge:plates/enderium"
     },
     "B": {
-      "item": "appliedenergistics2:terminal"
+      "item": "create:mechanical_piston"
     },
     "C": {
-      "item": "appliedenergistics2:fluix_glass_cable"
+      "item": "contenttweaker:compressed_plate"
     },
     "D": {
-      "item": "contenttweaker:compressed_plate"
+      "item": "pneumaticcraft:printed_circuit_board"
     },
     "E": {
       "item": "appliedenergistics2:purified_fluix_crystal"
     }
   },
   "result": {
-    "item": "appliedenergistics2:chest"
+    "item": "appliedenergistics2:inscriber"
   }
 }
