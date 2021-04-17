@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    "xcx",
+    "cbc",
+    "xcx"
+  ],
+  "key": {
+    "c": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "b": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "x": {
+      "item": "industrialforegoing:plastic"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_point"
+  }
+}

@@ -89,6 +89,8 @@ onEvent('recipes', event => {
   event.remove({id: 'thermal:basalz_powder'})
   event.remove({id: 'minecraft:blaze_powder'})
   event.remove({id: 'platforms:wrench_alt'})
+  event.remove({id: 'appliedenergistics2:network/parts/planes_formation_fluid_alt'})
+  event.remove({id: 'mysticalagriculture:prosperity_ingot_recraft'})
 
   //pickaxes recipes removed(Use Tinkers)
   event.remove({id: 'undergarden:blast_cloggrum_item'})

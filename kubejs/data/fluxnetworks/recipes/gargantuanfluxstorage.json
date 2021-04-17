@@ -1,0 +1,20 @@
+{
+  "type": "fluxnetworks:flux_storage_recipe",
+  "group": "fluxnetworks",
+  "pattern": [
+    "bbb",
+    "g g",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "fluxnetworks:herculean_flux_storage"
+    },
+    "g": {
+      "item": "thermal:obsidian_glass"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:gargantuan_flux_storage"
+  }
+}

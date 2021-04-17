@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "B": {
+      "item": "appliedenergistics2:quartz_glass"
+    },
+    "C": {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+    "D": {
+      "item": "create:mechanical_crafter"
+    },
+    "E": {
+      "item": "appliedenergistics2:formation_core"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:molecular_assembler"
+  }
+}

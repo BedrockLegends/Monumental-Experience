@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "B": {
+      "item": "contenttweaker:compressed_plate"
+    },
+    "C": {
+      "tag": "forge:gems/certus_quartz"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:sky_compass"
+  }
+}

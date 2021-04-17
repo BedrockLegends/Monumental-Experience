@@ -2,15 +2,15 @@
     "type": "create:mixing",
     "ingredients": [
         {
-            "item": "minecraft:redstone"
+            "tag": "forge:ingots/refined_glowstone"
         },
         {
-            "tag": "forge:dusts/obsidian"
+            "item": "appliedenergistics2:quartz_glass"
         }
     ],
     "results": [
         {
-            "item": "fluxnetworks:flux_dust"
+            "item": "appliedenergistics2:quartz_vibrant_glass"
         }
     ],
     "heatRequirement": "heated"
