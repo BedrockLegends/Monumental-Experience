@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "item": "industrialforegoing:latex_processing_unit",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "extendedcrafting:shaped_ender_crafter",
+        "pattern": [
+          "IGI",
+          "LML",
+          "IFI"
+        ],
+        "key": {
+          "I": {
+            "item": "contenttweaker:compressed_plate"
+          },
+          "G": {
+            "item": "thermal:rf_coil"
+          },
+          "L": {
+            "item": "pneumaticcraft:plastic"
+          },
+          "M": {
+            "tag": "industrialforegoing:machine_frame/pity"
+          },
+          "F": {
+            "item": "routerreborn:furnace"
+          }
+        },
+        "result": {
+          "item": "industrialforegoing:latex_processing_unit"
+        }
+      }
+    }
+  ]
+}

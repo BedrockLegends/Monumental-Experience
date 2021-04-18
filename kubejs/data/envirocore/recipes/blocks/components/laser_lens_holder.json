@@ -1,0 +1,21 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        " c ",
+        "i i",
+        " c "
+    ],
+    "key": {
+        "i": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "c": {
+            "item": "envirocore:laser_core"
+        }
+
+    },
+    "result": {
+        "item": "envirocore:laser_lens_holder",
+        "count": 1
+    }
+}

@@ -2,7 +2,7 @@
   "result": {
     "item": "appliedenergistics2:annihilation_plane"
   },
-  "type": "minecraft:crafting_shaped",
+  "type": "extendedcrafting:shaped_ender_crafter",
   "pattern": ["aaa", "bcb"],
   "key": {
     "b": {

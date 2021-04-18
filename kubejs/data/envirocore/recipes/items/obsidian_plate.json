@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "oo ",
+    "oo ",
+    "   "
+  ],
+  "key": {
+    "o": {
+      "tag": "forge:ingots/obsidian"
+    }
+
+  },
+  "result": {
+    "item": "envirocore:obsidian_plate",
+    "count": 4
+  }
+}

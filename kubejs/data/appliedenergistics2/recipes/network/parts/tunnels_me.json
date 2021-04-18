@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "extendedcrafting:shaped_ender_crafter",
   "pattern": [
     "ABA",
     "BCB",
@@ -16,7 +16,7 @@
       "item": "appliedenergistics2:engineering_processor"
     },
     "D": {
-      "item": "appliedenergistics2:purified_fluix_crystal"
+      "tag": "appliedenergistics2:crystals/fluix"
     }
   },
   "result": {

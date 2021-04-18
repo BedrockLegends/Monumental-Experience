@@ -1,20 +1,20 @@
 {
     "type": "extendedcrafting:shaped_ender_crafter",
     "pattern": [
-        "###",
-        "#G#",
-        "###"
+        " G ",
+        "GXG",
+        " G "
     ],
     "key": {
-        "#": {
-            "item": "pneumaticcraft:reinforced_stone"
-        },
         "G": {
             "item": "immersiveengineering:insulating_glass"
+        },
+        "X": {
+            "item": "botania:lens_normal"
         }
     },
     "result": {
-        "item": "computercraft:monitor_normal",
-        "count": 2
+        "item": "envirocore:lens",
+        "count": 4
     }
 }

@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "fluid": "industrialforegoing:latex_fluid",
+            "amount": 100
+        },
+        {
+            "tag": "forge:slimeballs"
+        }
+    ],
+    "results": [
+        {
+            "item": "thermal:rubber"
+        }
+    ],
+    "heatRequirement": "heated"
+}
