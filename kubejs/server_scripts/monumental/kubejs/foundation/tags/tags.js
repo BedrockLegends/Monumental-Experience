@@ -6,8 +6,6 @@ onEvent('item.tags', event => {
   event.remove('forge:leather', 'forbidden_arcanus:rotten_leather')
   event.remove('forge:clay', 'minecraft:clay')
   event.remove('forge:nether_stars', 'forbidden_arcanus:dark_nether_star')
-  event.remove('appliedenergistics2:workbench', 'minecraft:crafting_table')
-  event.remove('refinedstorage:crafting_tables', 'minecraft:crafting_table')
   event.remove('forge:dusts/netherite_scrap', 'bloodmagic:sand_netherite')
 
 //dust tags

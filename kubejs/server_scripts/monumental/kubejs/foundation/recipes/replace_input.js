@@ -28,5 +28,6 @@ events.listen('recipes', (event) => {
     event.replaceInput({}, 'minecraft:gold_ore', '#forge:ores/gold');
     event.replaceInput({}, 'pneumaticcraft:wheat_flour', '#forge:dusts/flour');
     event.replaceInput({}, 'create:wheat_flour', '#forge:dusts/flour');
+    event.replaceInput({}, 'minecraft:crafting_table', '#forge:workbench', true);
     event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:netherrack', '#forge:netherrack');
 });

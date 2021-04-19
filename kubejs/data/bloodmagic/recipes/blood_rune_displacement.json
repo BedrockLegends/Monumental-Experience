@@ -1,0 +1,21 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "bloodmagic:dislocationrune"
+    },
+    "mana": 8000,
+    "ingredients": [
+        {
+            "item": "bloodmagic:infusedslate"
+        },
+        {
+            "item": "bloodmagic:blankrune"
+        },
+        {
+            "tag": "botania:runes/water"
+        },
+        {
+            "tag": "botania:runes/water"
+        }
+    ]
+}
