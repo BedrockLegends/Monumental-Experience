@@ -1,15 +1,14 @@
-# Monumental Experience
-  <a href="https://discord.gg/kvagXuP">
-    <img alt="Discord" src="https://img.shields.io/discord/554449878282010633?color=purple&label=Discord&style=flat-square">
-  </a>
-  
-  <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
-    <img alt="Modpack Downloads" src="http://cf.way2muchnoise.eu/full_363581_downloads.svg">
-  </a>
-  
-  <a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience">
-    <img alt="Modpack Versions" src="http://cf.way2muchnoise.eu/versions/363581.svg">
-  </a>
+# Monumental Experience [![Curseforge][curseImg]][curseLink]
+
+[![Twitch Status](https://img.shields.io/twitch/status/ModernGamingWorld?label=ModernGamingWorld&style=social)](https://www.twitch.tv/moderngamingworld) [![Discord][discordimg]][discordlink]
+
+[discordImg]: https://img.shields.io/discord/808837174387671090?color=7289DA&label=Discord&style=flat-square
+
+[discordLink]: https://discord.gg/kvagXuP
+
+[curseImg]: http://cf.way2muchnoise.eu/325071.svg
+
+[curseLink]: https://www.curseforge.com/minecraft/modpacks/expedition-in-the-sky
 
 
 ## About the Pack:
