@@ -25,7 +25,9 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
   </a>
   
   <p align="center">
-If you're looking to play Expedition In The Sky with your friends, grab a server from BisectHosting. The modpack can be pre-installed, so there is no need for doing it yourself. Also, 
+I have partnered with BisectHosting!!!
+Use the Code “BedrockLegends”, and you will save 25% OFF on your first purchase as a new client with Bisect Hosting!
+</p>
 
 ## Modpack Developers:
 
