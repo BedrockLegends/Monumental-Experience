@@ -20,9 +20,9 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 
 ![alt tag](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PlayWithFriends.png)
 
-<a href="https://bisecthosting.com/bedrocklegends">
-    <img alt="Modpack Versions" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
-  </a>
+<p align="center">
+  <img width="1123" height="220" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
+</p>
   
   <p align="center">
 I have partnered with BisectHosting!!!
