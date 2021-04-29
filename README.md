@@ -23,7 +23,7 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 
 
 <p align="center">
-  <img width="1124" height="230" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
+  <img width="1124" height="200" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
 </p>
   
   <p align="center">
