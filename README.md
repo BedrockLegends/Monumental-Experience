@@ -32,13 +32,29 @@ Use the Code “BedrockLegends”, and you will save 25% OFF on your first purch
 
 ## Modpack Developers:
 
+  <p align="center">
+ModernGamingWorld
+</p>
+
+  <p align="center">
+TheNimbleNinja
+</p>
+
 <p align="center">
-   Mod
+  <img width="1124" height="230" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_AddiitonalCredits.png">
+</p>
 
+  <p align="center">
+FTB Team - Custom mods in CF packs
+</p>
 
-## Additional Credits:
+  <p align="center">
+BH Team - Illustrations
+</p>
 
-The Feed The Beast Team for use of their mods in Curseforge packs.
+  <p align="center">
+NillerMedDild - KubeJs Scripts
+</p>
 
 
 ## Other Projects
