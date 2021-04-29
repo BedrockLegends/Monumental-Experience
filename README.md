@@ -6,7 +6,7 @@
 
 [discordLink]: https://discord.gg/kvagXuP
 
-[curseImg]: http://cf.way2muchnoise.eu/325071.svg
+[curseImg]: http://cf.way2muchnoise.eu/363581.svg
 
 [curseLink]: https://www.curseforge.com/minecraft/modpacks/expedition-in-the-sky
 
