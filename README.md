@@ -2,7 +2,7 @@
 
 [![Twitch Status](https://img.shields.io/twitch/status/ModernGamingWorld?label=ModernGamingWorld&style=social)](https://www.twitch.tv/moderngamingworld) [![Discord][discordimg]][discordlink]
 
-[discordImg]: https://img.shields.io/discord/808837174387671090?color=7289DA&label=Discord&style=flat-square
+[discordImg]: https://img.shields.io/discord/554449878282010633?color=7289DA&label=BedrockLegends&style=flat-square
 
 [discordLink]: https://discord.gg/kvagXuP
 
