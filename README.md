@@ -57,4 +57,10 @@ NillerMedDild - KubeJs Scripts
 </p>
 
 
-## Other Projects
+<p align="center">
+  <img width="1124" height="230" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_OtherPacks.png">
+</p>
+
+<p align="center">
+  <img width="210" height="210" src="https://media.forgecdn.net/avatars/326/389/637446282492192730.png">
+</p>
