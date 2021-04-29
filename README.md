@@ -18,10 +18,11 @@
 Welcome to Monumental Experience, where everything you ever loved about Minecraft is changed in a new Monumental way. Explore the world looking for the choicest biome both to build your magnificent structures but also to mine the most extraordinary ores! With your home front established, travel the world in search of treasures and untold magic and tech.
 </p>
 
+
 ![alt tag](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PlayWithFriends.png)
 
 <p align="center">
-  <img width="1123" height="220" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
+  <img width="1124" height="230" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
 </p>
   
   <p align="center">
