@@ -13,7 +13,7 @@
 
 ## About the Pack:
 <p align="center">
-  <img width="1124" height="200" src="ttps://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Overview.png">
+  <img width="1124" height="200" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Overview.png">
 </p>
 
 <p align="center">
