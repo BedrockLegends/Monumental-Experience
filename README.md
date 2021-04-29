@@ -21,6 +21,7 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 
 ![alt tag](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PlayWithFriends.png)
 
+
 <p align="center">
   <img width="1124" height="230" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
 </p>
@@ -30,7 +31,9 @@ I have partnered with BisectHosting!!!
 Use the Code “BedrockLegends”, and you will save 25% OFF on your first purchase as a new client with Bisect Hosting!
 </p>
 
+
 ## Modpack Developers:
+
 
   <p align="center">
 ModernGamingWorld
@@ -40,17 +43,21 @@ ModernGamingWorld
 TheNimbleNinja
 </p>
 
+
 <p align="center">
   <img width="1124" height="230" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_AddiitonalCredits.png">
 </p>
+
 
   <p align="center">
 FTB Team - Custom mods in CF packs
 </p>
 
+
   <p align="center">
 BH Team - Illustrations
 </p>
+
 
   <p align="center">
 NillerMedDild - KubeJs Scripts
