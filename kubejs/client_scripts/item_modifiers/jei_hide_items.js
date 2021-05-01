@@ -1,8 +1,5 @@
 events.listen('jei.hide.items', (event) => {
     materialsToUnify.forEach((material) => {
-        if (material == 'iesnium' || material == 'graphite' || material == 'hop_graphite') {
-            return;
-        }
         itemsToHide.push(
             'occultism:' + material + '_ingot',
             'occultism:' + material + '_ore',
@@ -79,9 +76,6 @@ events.listen('jei.hide.items', (event) => {
     });
 });
     mobsToUnify.forEach((mobs) => {
-        if (mobs == 'iesnium' || mobs == 'graphite' || mobs == 'hop_graphite') {
-            return;
-        }
         itemsToHide.push(
             'minecraft:' + mobs + '_spawn_egg',
             'alexsmobs:spawn_egg' + mobs,
@@ -92,7 +86,7 @@ events.listen('jei.hide.items', (event) => {
             'instrumentalmobs:' + mobs + '_spawn_egg',
             'good_nights_sleep:' + mobs + '_spawn_egg',
             'iceandfire:spawn_egg' + mobs,
-            'mowziesmobs:' + mobs + '_spawn_egg',
+            'mowziesmobs:' + mobs + '_spawn_egg'
         );
     });
 

@@ -110,7 +110,7 @@ var regexHide = [
     /alexsmobs:spawn_egg/,
     /emendatusenigmatica:\w+certus/,
     /emendatusenigmatica:\w+fluix/,
-    /rftoolsbase:dimensionalshard/,
+    /rftoolsbase:dimensionalshard/
 ];
 const disabledItems = [];
 const materialsToUnify = [
@@ -216,6 +216,8 @@ const materialsToUnify = [
     'cobalt'
 ];
 const mobsToUnify = [
-    '_spawn_egg',
-    'spawn_egg'
+    'pixie',
+    'fire_dragon',
+    'ice_dragon',
+    'lightning_dragon'
 ];
