@@ -1,5 +1,5 @@
 {
-    "type": "create:mechanical_crafting",
+    "type": "extendedcrafting:shaped_ender_crafter",
     "pattern": [
         " W ",
         "TPT",

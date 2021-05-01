@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "ICI",
+    "rFr",
+    "jgj"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "C": {
+      "item": "immersiveengineering:coil_mv"
+    },
+    "g": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "j": {
+      "item": "contenttweaker:compressed_plate"
+    }
+  },
+  "result": {
+    "item": "xnet:controller"
+  }
+}

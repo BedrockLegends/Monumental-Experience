@@ -1,0 +1,18 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "bloodmagic:selfsacrificerune"
+    },
+    "mana": 8000,
+    "ingredients": [
+        {
+            "item": "bloodmagic:infusedslate"
+        },
+        {
+            "item": "bloodmagic:blankrune"
+        },
+        {
+            "item": "bloodmagic:daggerofsacrifice"
+        }
+    ]
+}

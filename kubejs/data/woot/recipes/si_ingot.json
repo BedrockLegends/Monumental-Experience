@@ -1,0 +1,27 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/netherite_scrap"
+        },
+        {
+            "tag": "forge:netherrack"
+        },
+        {
+            "tag": "forge:netherrack"
+        },
+        {
+            "tag": "forge:soul_sand"
+        },
+        {
+            "tag": "forge:ingots/compressed_iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "woot:si_ingot",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "superheated"
+}

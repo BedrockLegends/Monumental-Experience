@@ -2,7 +2,7 @@
   "result": {
     "item": "appliedenergistics2:export_bus"
   },
-  "type": "minecraft:crafting_shaped",
+  "type": "extendedcrafting:shaped_ender_crafter",
   "pattern": ["aba", " c "],
   "key": {
     "b": {

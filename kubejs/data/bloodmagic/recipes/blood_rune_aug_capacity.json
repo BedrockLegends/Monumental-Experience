@@ -1,0 +1,27 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "bloodmagic:bettercapacityrune"
+    },
+    "mana": 8000,
+    "ingredients": [
+        {
+            "item": "bloodmagic:demonslate"
+        },
+        {
+            "item": "bloodmagic:altarcapacityrune"
+        },
+        {
+            "tag": "forge:ingots/obsidian"
+        },
+        {
+            "tag": "forge:ingots/obsidian"
+        },
+        {
+            "item": "cyclic:tank"
+        },
+        {
+            "item": "cyclic:tank"
+        }
+    ]
+}

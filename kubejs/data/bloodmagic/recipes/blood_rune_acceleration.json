@@ -1,0 +1,18 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "bloodmagic:accelerationrune"
+    },
+    "mana": 8000,
+    "ingredients": [
+        {
+            "item": "bloodmagic:demonslate"
+        },
+        {
+            "item": "bloodmagic:speedrune"
+        },
+        {
+            "item": "bloodmagic:masterbloodorb"
+        }
+    ]
+}

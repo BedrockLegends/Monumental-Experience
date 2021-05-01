@@ -31,6 +31,22 @@ onEvent('recipes', event => {
   //computercraft recipes removed 
   event.remove({id: 'computercraft:computer_advanced'})
 
+  //cables removed
+  event.remove({id: 'xnet:netcable_yellow_dye'})
+  event.remove({id: 'xnet:netcable_red_dye'})
+  event.remove({id: 'xnet:netcable_green_dye'})
+  event.remove({id: 'xnet:netcable_blue_dye'})
+  event.remove({id: 'xnet:connector_blue_dye'})
+  event.remove({id: 'xnet:connector_green_dye'})
+  event.remove({id: 'xnet:connector_red_dye'})
+  event.remove({id: 'xnet:connector_yellow_dye'})
+  event.remove({id: 'xnet:advanced_connector_blue_dye'})
+  event.remove({id: 'xnet:advanced_connector_green_dye'})
+  event.remove({id: 'xnet:advanced_connector_red_dye'})
+  event.remove({id: 'xnet:advanced_connector_yellow_dye'})
+
+
+
   //dust recipes removed
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_iron'})
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_gold'})
@@ -45,6 +61,8 @@ onEvent('recipes', event => {
   event.remove({id: 'immersiveengineering:crafting/hammercrushing_zinc'})
   event.remove({id: 'emendatusenigmatica:dust_from_ore/quartz'})
   event.remove({id: 'forbidden_arcanus:arcane_crystal_dust'})
+  event.remove({id: 'woot:si_dust_2'})
+  event.remove({id: 'woot:si_dust_1'})
 
   //Elite Factory Recipes removed
   event.remove({id: 'mekanism:factory/elite/smelting'})
@@ -91,6 +109,9 @@ onEvent('recipes', event => {
   event.remove({id: 'platforms:wrench_alt'})
   event.remove({id: 'appliedenergistics2:network/parts/planes_formation_fluid_alt'})
   event.remove({id: 'mysticalagriculture:prosperity_ingot_recraft'})
+  event.remove({id: 'envirocore:items/ct_litherite4'})
+  event.remove({id: 'envirocore:items/ct_litherite6'})
+  event.remove({id: 'envirocore:items/ct_litherite8'})
 
   //pickaxes recipes removed(Use Tinkers)
   event.remove({id: 'undergarden:blast_cloggrum_item'})

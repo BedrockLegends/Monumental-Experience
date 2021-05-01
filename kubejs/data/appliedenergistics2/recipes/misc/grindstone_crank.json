@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "appliedenergistics2:crank"
+  },
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": ["aaa", "  a", "  a"],
+  "key": {
+    "a": {
+      "tag": "forge:rods/wooden"
+    }
+  }
+}

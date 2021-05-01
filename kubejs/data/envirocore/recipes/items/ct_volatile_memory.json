@@ -3,7 +3,7 @@
     "inputs": [
         {
             "item": "contenttweaker:compressed_plate"
-        },,
+        },
         {
             "item": "envirocore:litherite_boule"
         },
@@ -12,7 +12,7 @@
         },
         {
             "item": "envirocore:litherite_wafer"
-        }
+        },
         {
             "item": "immersiveengineering:wirecoil_redstone"
         }

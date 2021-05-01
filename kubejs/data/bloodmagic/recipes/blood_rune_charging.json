@@ -1,0 +1,18 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "bloodmagic:chargingrune"
+    },
+    "mana": 8000,
+    "ingredients": [
+        {
+            "item": "bloodmagic:demonslate"
+        },
+        {
+            "item": "bloodmagic:blankrune"
+        },
+        {
+            "item": "immersiveengineering:charging_station"
+        }
+    ]
+}
