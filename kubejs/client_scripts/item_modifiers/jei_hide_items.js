@@ -130,3 +130,24 @@ events.listen('jei.hide.items', (event) => {
     regexHide.forEach((regexExpression) => {
         event.hide(regexExpression);
 });
+    upgradesToUnify.forEach((upgrades) => {
+        itemsToHide.push(
+            'ironfurnaces:upgrade_' + upgrades
+        );
+    });
+
+    itemsToHide.forEach((disabledItem) => {
+        if (!Item.of(disabledItem).isEmpty()) {
+            event.hide(disabledItem);
+        }
+    });
+
+    disabledItems.forEach((disabledItem) => {
+        if (!Item.of(disabledItem).isEmpty()) {
+            event.hide(disabledItem);
+        }
+    });
+
+    regexHide.forEach((regexExpression) => {
+        event.hide(regexExpression);
+});
