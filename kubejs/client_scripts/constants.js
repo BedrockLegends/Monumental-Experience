@@ -18,7 +18,6 @@ const refinedStorageItems = [
     'disk_manipulator',
     'crafter_manager'
 ];
-const generatableBasalt = [];
 
 const colors = [
     'cyan',
@@ -96,7 +95,6 @@ var regexHide = [
     /thermal:\w+_plate/,
     /mekanism:\w+_ore/,
     /minecraft:\w+_ore/,
-    /minecraft:\w+_spawn_egg/,
     /immersiveengineering:plate_/,
     /immersiveengineering:stick_/,
     /immersiveengineering:storage_/,
@@ -107,11 +105,11 @@ var regexHide = [
     /immersiveposts:stick_/,
     /byg:pendorite/,
     /byg:ametrine/,
-    /alexsmobs:spawn_egg/,
     /emendatusenigmatica:\w+certus/,
     /emendatusenigmatica:\w+fluix/,
     /rftoolsbase:dimensionalshard/
 ];
+
 const materialsToUnify = [
     'iron',
     'negatite',
@@ -214,8 +212,11 @@ const materialsToUnify = [
     'gobber2',
     'cobalt'
 ];
+
 const mobsToUnify = [
+    'alf_pixie',
     'pixie',
+    'boss',
     'fire_dragon',
     'ice_dragon',
     'lightning_dragon',
@@ -636,8 +637,118 @@ const mobsToUnify = [
     'tiger',
     'tarantula_hawk'
 ];
+
 const upgradesToUnify = [
+    'iron',
+    'gold',
+    'diamond',
+    'emerald',
+    'obsidian',
+    'crystal',
+    'netherite',
+    'copper',
+    'silver',
+    'obsidian2',
+    'iron2',
+    'gold2',
+    'silver2',
+    'allthemodium',
     'vibranium',
-    'unobtainium',
-    'allthemodium'
+    'unobtainium'
+];
+
+const miscsToUnify = [
+    'damaged',
+    'chipped',
+    'firework'
+];
+
+const leavesToUnify = [
+    'rainboak',
+    'sorting',
+    'mining',
+    'transformation',
+    'time',
+    'dark',
+    'thorn',
+    'beanstalk',
+    'giant',
+    'twilight_oak',
+    'canopy',
+    'mangrove',
+    'wigglewood',
+    'smogstem',
+    'red_blossom',
+    'yellow_blossom',
+    'pink_blossom',
+    'orange_blossom',
+    'lavender_blossom',
+    'blue_blossom',
+    'aspen',
+    'baobab',
+    'blue_enchanted',
+    'pink_cherry',
+    'white_cherry',
+    'cika',
+    'cypress',
+    'ebony',
+    'ether',
+    'fir',
+    'green_enchanted',
+    'holly_berry',
+    'holly',
+    'jacaranda',
+    'flowering_jacaranda',
+    'indigo_jacaranda',
+    'flowering_indigo_jacaranda',
+    'mahogany',
+    'maple',
+    'red_maple',
+    'silver_maple',
+    'flowering_nightshade',
+    'nightshade',
+    'palm',
+    'flowering_palo_verde',
+    'palo_verde',
+    'pine',
+    'rainbow_eucalyptus',
+    'redwood',
+    'green_apple_skyris',
+    'skyris',
+    'willow',
+    'blooming_witch_hazel',
+    'witch_hazel',
+    'zelkova',
+    'withering_oak',
+    'araucaria',
+    'blue_spruce',
+    'brown_birch',
+    'brown_oak',
+    'brown_zelkova',
+    'joshua',
+    'ripe_joshua',
+    'orange_birch',
+    'orange_oak',
+    'orange_spruce',
+    'ripe_orchard',
+    'flowering_orchard',
+    'lament',
+    'orchard',
+    'red_birch',
+    'red_oak',
+    'red_spruce',
+    'yellow_birch',
+    'yellow_spruce',
+    'otherworld_leaves',
+    'otherworld',
+    'ancient',
+    'golden',
+    'decayed',
+    'diamond',
+    'candy',
+    'dream',
+    'mysterywood',
+    'cherrywood',
+    'elder',
+    'darkwood'
 ];
