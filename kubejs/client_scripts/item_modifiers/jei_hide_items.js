@@ -53,7 +53,79 @@ events.listen('jei.hide.items', (event) => {
             'gobber2:' + material + '_ore_end',
             'create:' + material + '_block'
         );
-    });
+});
+
+mobsToUnify.forEach((mobs) => {
+    itemsToHide.push(
+        'minecraft:' + mobs + '_spawn_egg',
+        'alexsmobs:spawn_egg_' + mobs,
+        'doom:' + mobs + '_spawn_egg',
+        'druidcraft:' + mobs + '_spawn_egg',
+        'exoticbirds:' + mobs + '_spawn_egg',
+        'exoticbirds:' + mobs + '_egg',
+        'infernalexp:' + mobs + '_spawn_egg',
+        'instrumentalmobs:' + mobs + '_spawn_egg',
+        'good_nights_sleep:' + mobs + '_spawn_egg',
+        'iceandfire:spawn_egg_' + mobs,
+        'iceandfire:' + mobs + '_spawner',
+        'mowziesmobs:' + mobs + '_spawn_egg',
+        'jellyfishing:' + mobs + '_spawn_egg',
+        'aquaculture:' + mobs + '_spawn_egg',
+        'artifacts:' + mobs + '_spawn_egg',
+        'enchantwithmob:' + mobs + '_spawn_egg',
+        'lava_monster:' + mobs + '_spawn_egg',
+        'meetyourfight:' + mobs + '_spawn_egg',
+        'more_jellyfish:' + mobs + '_spawn_egg',
+        'mutantbeasts:' + mobs + '_spawn_egg',
+        'nasty:' + mobs + '_spawn_egg',
+        'quark:' + mobs + '_spawn_egg',
+        'occultism:spawn_egg/' + mobs,
+        'statues:' + mobs + '_spawn_egg',
+        'supplementaries:' + mobs + '_spawn_egg',
+        'farlanders:' + mobs + '_spawn_egg',
+        'undergarden:' + mobs + '_spawn_egg',
+        'thermal:' + mobs + '_spawn_egg',
+        'waddles:' + mobs + '_spawn_egg',
+        'tconstruct:' + mobs + '_spawn_egg',
+        'twilightforest:' + mobs + '_spawn_egg',
+        'forbidden_arcanus:' + mobs + '_spawn_egg',
+        'hmm:' + mobs + '_spawn_egg',
+        'minecolonies:' + mobs,
+        'inventorypets:' + mobs + '_egg',
+        'mythicbotany:' + mobs + '_spawn_egg',
+        'twilightforest:' + mobs + '_spawner'
+    );
+});
+
+upgradesToUnify.forEach((upgrades) => {
+    itemsToHide.push(
+        'ironfurnaces:upgrade_' + upgrades
+    );
+});
+
+miscsToUnify.forEach((miscs) => {
+    itemsToHide.push(
+        'minecraft:' + miscs + '_anvil',
+        'minecraft:' + miscs + '_rocket',
+        'minecraft:' + miscs + '_star'
+    );
+});
+
+leavesToUnify.forEach((leaves) => {
+    itemsToHide.push(
+        'twilightforest:' + leaves + '_leaves',
+        'quark:' + leaves + '_leaves',
+        'undergarden:' + leaves + '_leaves',
+        'byg:' + leaves + '_leaves',
+        'occultism:' + leaves + '_natural',
+        'occultism:' + leaves + '_leaves',
+        'naturesaura:' + leaves + '_leaves',
+        'forbidden_arcanus:' + leaves + '_leaves',
+        'good_nights_sleep:' + leaves + '_leaves',
+        'druidcraft:' + leaves + '_leaves',
+        'mythicbotany:' + leaves + '_leaves'
+    );
+});
 
     itemsToHide.forEach((disabledItem) => {
         if (!Item.of(disabledItem).isEmpty()) {
@@ -66,88 +138,12 @@ events.listen('jei.hide.items', (event) => {
             event.hide(disabledItem);
         }
     });
+    
+    regexHide.forEach((regexExpression) => {
+        event.hide(regexExpression);
+});
 
     colors.forEach((color) => {
         event.hide('/refinedstorage:' + color + '\\w/');
     });
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
-    });
-});
-    mobsToUnify.forEach((mobs) => {
-        itemsToHide.push(
-            'minecraft:' + mobs + '_spawn_egg',
-            'alexsmobs:spawn_egg_' + mobs,
-            'doom:' + mobs + '_spawn_egg',
-            'druidcraft:' + mobs + '_spawn_egg',
-            'exoticbirds:' + mobs + '_spawn_egg',
-            'exoticbirds:' + mobs + '_egg',
-            'infernalexp:' + mobs + '_spawn_egg',
-            'instrumentalmobs:' + mobs + '_spawn_egg',
-            'good_nights_sleep:' + mobs + '_spawn_egg',
-            'iceandfire:spawn_egg_' + mobs,
-            'iceandfire:' + mobs + '_spawner',
-            'mowziesmobs:' + mobs + '_spawn_egg',
-            'jellyfishing:' + mobs + '_spawn_egg',
-            'aquaculture:' + mobs + '_spawn_egg',
-            'artifacts:' + mobs + '_spawn_egg',
-            'enchantwithmob:' + mobs + '_spawn_egg',
-            'lava_monster:' + mobs + '_spawn_egg',
-            'meetyourfight:' + mobs + '_spawn_egg',
-            'more_jellyfish:' + mobs + '_spawn_egg',
-            'mutantbeasts:' + mobs + '_spawn_egg',
-            'nasty:' + mobs + '_spawn_egg',
-            'quark:' + mobs + '_spawn_egg',
-            'occultism:spawn_egg/' + mobs,
-            'statues:' + mobs + '_spawn_egg',
-            'supplementaries:' + mobs + '_spawn_egg',
-            'farlanders:' + mobs + '_spawn_egg',
-            'undergarden:' + mobs + '_spawn_egg',
-            'thermal:' + mobs + '_spawn_egg',
-            'waddles:' + mobs + '_spawn_egg',
-            'tconstruct:' + mobs + '_spawn_egg',
-            'twilightforest:' + mobs + '_spawn_egg',
-            'forbidden_arcanus:' + mobs + '_spawn_egg',
-            'hmm:' + mobs + '_spawn_egg',
-            'minecolonies:' + mobs,
-            'inventorypets:' + mobs + '_egg'
-        );
-    });
-
-    itemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
-    });
-
-    disabledItems.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
-    });
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
-});
-    upgradesToUnify.forEach((upgrades) => {
-        itemsToHide.push(
-            'ironfurnaces:upgrade_' + upgrades
-        );
-    });
-
-    itemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
-    });
-
-    disabledItems.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
-    });
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
 });
