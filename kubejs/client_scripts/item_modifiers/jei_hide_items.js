@@ -1,6 +1,7 @@
 events.listen('jei.hide.items', (event) => {
     materialsToUnify.forEach((material) => {
         itemsToHide.push(
+            'create:' + material + '_ore',
             'occultism:' + material + '_ingot',
             'occultism:' + material + '_ore',
             'occultism:' + material + '_dust',
@@ -51,7 +52,8 @@ events.listen('jei.hide.items', (event) => {
             'tconstruct:' + material + '_ore',
             'gobber2:' + material + '_ore_nether',
             'gobber2:' + material + '_ore_end',
-            'create:' + material + '_block'
+            'create:' + material + '_block',
+            'quark:' + material + '_ore'
         );
 });
 
@@ -93,7 +95,8 @@ mobsToUnify.forEach((mobs) => {
         'minecolonies:' + mobs,
         'inventorypets:' + mobs + '_egg',
         'mythicbotany:' + mobs + '_spawn_egg',
-        'twilightforest:' + mobs + '_spawner'
+        'twilightforest:' + mobs + '_spawner',
+        'atum:' + mobs + '_spawn_egg'
     );
 });
 
@@ -103,11 +106,33 @@ upgradesToUnify.forEach((upgrades) => {
     );
 });
 
-miscsToUnify.forEach((miscs) => {
+
+bucketsToUnify.forEach((buckets) => {
     itemsToHide.push(
-        'minecraft:' + miscs + '_anvil',
-        'minecraft:' + miscs + '_rocket',
-        'minecraft:' + miscs + '_star'
+        'minecraft:' + buckets + '_bucket',
+        'alexsmobs:' + buckets + '_bucket',
+        'allthemodium:' + buckets + '_bucket',
+        'aquaculture:' + buckets + '_bucket',
+        'astralsorcery:' + buckets + '_bucket',
+        'bloodmagic:' + buckets + '_bucket',
+        'create:' + buckets + '_bucket',
+        'cyclic:' + buckets + '_bucket',
+        'forbidden_arcanus:' + buckets + '_bucket',
+        'envirocore:' + buckets + '_bucket',
+        'bigreactors:' + buckets + '_bucket',
+        'immersiveengineering:' + buckets + '_bucket',
+        'immersivepetroleum:' + buckets + '_bucket',
+        'industrialforegoing:' + buckets + '_bucket',
+        'mekanism:' + buckets + '_bucket',
+        'mekanismgenerators:' + buckets + '_bucket',
+        'mob_grinding_utils:' + buckets + '_bucket',
+        'pneumaticcraft:' + buckets + '_bucket',
+        'thermal:' + buckets + '_bucket',
+        'quark:' + buckets + '_bucket',
+        'undergarden:' + buckets + '_bucket',
+        'woot:' + buckets + '_bucket',
+        'transport:' + buckets + '_bucket',
+        'tconstruct:' + buckets + '_bucket'
     );
 });
 
@@ -128,12 +153,6 @@ leavesToUnify.forEach((leaves) => {
 });
 
     itemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
-    });
-
-    disabledItems.forEach((disabledItem) => {
         if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
         }

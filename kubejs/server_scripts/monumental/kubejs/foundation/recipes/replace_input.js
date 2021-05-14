@@ -7,6 +7,7 @@ events.listen('recipes', (event) => {
     event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
     event.replaceInput({}, 'thermal:slag', '#forge:slag');
     event.replaceInput({}, 'create:dough', '#forge:doughs');
+    event.replaceInput({}, 'emendatusenigmatica:zinc_chunk', '#forge:ores/zinc');
     event.replaceInput({}, 'farmersdelight:wheat_dough', '#forge:doughs');
     event.replaceInput({}, 'pneumaticcraft:wheat_flour', '#forge:dusts/flour');
     event.replaceInput({}, 'create:wheat_flour', '#forge:dusts/flour');
