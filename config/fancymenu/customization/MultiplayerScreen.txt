@@ -1,0 +1,24 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=450948%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -50
+  width = 100
+  action = addbutton
+  y = -52
+  label = Create Your Own!
+  value = https://bisecthosting.com/BedrockLegends
+  height = 20
+}
+
