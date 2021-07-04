@@ -968,111 +968,111 @@ onEvent('recipes', event => {
         M: 'refinedstorage:cable',
         I: 'refinedstorage:improved_processor'
     })
-    event.shaped(Item.of('byg:aspen_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:aspen_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:aspen_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:baobab_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:baobab_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:baobab_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:blue_enchanted_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:blue_enchanted_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:blue_enchanted_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:bulbis_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:bulbis_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:bulbis_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:cherry_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:cherry_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:cherry_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:cika_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:cika_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:cika_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:cypress_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:cypress_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:cypress_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:ebony_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:ebony_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:ebony_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('ether_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:ether_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:ether_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:fir_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:fir_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:fir_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:green_enchanted_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:green_enchanted_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:green_enchanted_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:holly_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:holly_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:holly_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:jacaranda_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:jacaranda_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:jacaranda_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:lament_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:lament_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:lament_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:mahogany_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:mahogany_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:mahogany_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:mangrove_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:mangrove_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:mangrove_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:maple_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:maple_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:maple_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:nightshade_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:nightshade_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:nightshade_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:palm_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:palm_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:palm_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:pine_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:pine_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:pine_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:rainbow_eucalyptus_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:rainbow_eucalyptus_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:rainbow_eucalyptus_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:redwood_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:redwood_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:redwood_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:skyris_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:skyris_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:skyris_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:sythian_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:sythian_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:sythian_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:willow_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:willow_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:willow_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:witch_hazel_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:witch_hazel_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:witch_hazel_planks',
         B: 'immersiveengineering:hammer',
     })
-    event.shaped(Item.of('byg:zelkova_pressure_plate', 1), [" A ", " B ", " B "], {
+    event.shaped(Item.of('byg:zelkova_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:zelkova_planks',
         B: 'immersiveengineering:hammer',
     })
