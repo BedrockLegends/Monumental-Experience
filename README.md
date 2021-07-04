@@ -4,7 +4,7 @@
 
 [discordImg]: https://img.shields.io/discord/554449878282010633?color=7289DA&label=BedrockLegends&style=flat-square
 
-[discordLink]: https://discord.gg/kvagXuP
+[discordLink]: https://discord.gg/wadcxefVA7
 
 [curseImg]: http://cf.way2muchnoise.eu/363581.svg
 
