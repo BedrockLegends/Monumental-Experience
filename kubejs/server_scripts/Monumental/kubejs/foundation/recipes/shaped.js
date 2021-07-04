@@ -1081,5 +1081,252 @@ onEvent('recipes', event => {
         A: '#mekanism:alloys/infused',
         I: '#forge:gears/lapis',
         S: '#forge:rods/steel',
+    })
+    event.shaped(Item.of('createaddition:spool', 8), [" P ", " N ", " P "], {
+        A: '#forge:treated_wood_slab',
+        B: '#forge:rods/iron',
+    })
+    event.shaped(Item.of('buildinggadgets:gadget_building', 1), ["AEA", "DBD", "ACA"], {
+        A: '#forge:plates/iron',
+        B: 'immersiveengineering:insulating_glass',
+        C: '#forge:plates/lapis_lazuli',
+        D: '#forge:gears/diamond',
+        E: 'create:electron_tube',
+    })
+    event.shaped(Item.of('buildinggadgets:gadget_copy_paste', 1), ["AEA", "DBD", "ACA"], {
+        A: '#forge:plates/iron',
+        B: 'immersiveengineering:insulating_glass',
+        C: '#forge:plates/lapis_lazuli',
+        D: '#forge:gears/emerald',
+        E: 'create:electron_tube',
+    })
+    event.shaped(Item.of('buildinggadgets:gadget_destruction', 1), ["AEA", "DBD", "ACA"], {
+        A: '#forge:plates/iron',
+        B: 'immersiveengineering:insulating_glass',
+        C: '#forge:plates/lapis_lazuli',
+        D: '#forge:dusts/ender_pearl',
+        E: 'create:electron_tube',
+    })
+    event.shaped(Item.of('buildinggadgets:gadget_exchanging', 1), ["AEA", "DBD", "ACA"], {
+        A: '#forge:plates/iron',
+        B: 'immersiveengineering:insulating_glass',
+        C: '#forge:plates/lapis_lazuli',
+        D: '#forge:gears/diamond',
+        E: 'create:electron_tube',
+    })
+    event.shaped(Item.of('computercraft:computer_advanced', 1), ["AAA", "ABA", "ACA"], {
+        A: '#forge:plates/electrum',
+        B: 'computercraft:computer_normal',
+        C: '#forge:gears/electrum',
+    })
+    event.shaped(Item.of('NAME', 1), ["AAA", "ABA", "ACA"], {
+        A: 'pneumaticcraft:reinforced_stone',
+        B: 'immersiveengineering:insulating_glass',
+        C: 'immersiveengineering:circuit_board',
+    })
+    event.shaped(Item.of('computercraft:turtle_advanced', 1), ["AAA", "ABA", "ACA"], {
+        A: '#forge:plates/electrum',
+        B: 'computercraft:turtle_normal',
+        C: '#forge:gears/electrum',
+    })
+    event.shaped(Item.of('computercraft:turtle_normal', 1), ["AAA", "ABA", "ACA"], {
+        A: '#forge:plates/steel',
+        B: 'computercraft:computer_normal',
+        C: 'immersiveengineering:reinforced_crate',
+    })
+    event.shaped(Item.of('druidcraft:elder_pressure_plate', 1), [" A ", " B ", " B "], {
+        A: 'druidcraft:elder_planks',
+        B: 'immersiveengineering:hammer',
+    })
+    event.shaped(Item.of('emendatusenigmatica:diamond_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:gems/diamond',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:emerald_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:gems/emerald',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:lapis_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:gems/lapis',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:quartz_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:gems/quartz',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:aluminum_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/aluminum',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:brass_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/brass',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:bronze_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/bronze',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:constantan_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/constantan',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:copper_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/copper',
+        B: 'create:andesite_alloy',
+    })
+event.shaped(Item.of('emendatusenigmatica:electrum_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/electrum',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:enderium_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/enderium',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:gold_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/gold',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:invar_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/invar',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:iron_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/iron',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:lead_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/lead',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:lumium\gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/lumium',
+        B: 'create:andesite_alloy',
+    });
+    event.shaped(Item.of('emendatusenigmatica:nickel_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/nickel',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:osmium_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/osmium',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:signalum_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/signalum',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:silver_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/silver',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:steel_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/steel',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:tin_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/tin',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:uranium_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/uranium',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:zinc_gear', 1), [" A ", "ABA", " A "], {
+        A: '#forge:ingots/zinc',
+        B: 'create:andesite_alloy',
+    })
+    event.shaped(Item.of('emendatusenigmatica:diamond_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:gems/diamond',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:emerald_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:gems/emerald',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:lapis_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:gems/emerald',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:aluminum_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/aluminum',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:brass_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/brass',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:bronze_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/bronze',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:constantan_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/constantan',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:copper_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/copper',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:electrum_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/electrum',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:enderium_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/enderium',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:gold_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/gold',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:invar_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/invar',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:iron_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/iron',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:lead_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/lead',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:lumium_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/lumium',
+        B: '#forge:tools/wrench',
+    });
+    event.shaped(Item.of('emendatusenigmatica:nickel_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/nickel',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:osmium_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/osmium',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:signalum_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/signalum',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:silver_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/silver',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:steel_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/steel',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:tin_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/tin',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:uranium_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/uranium',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('emendatusenigmatica:zinc_plate', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:ingots/zinc',
+        B: '#forge:tools/wrench',
+    })
+    event.shaped(Item.of('envirocore:obsidian_plate', 4), ["AA ", "AA ", "   "], {
+        A: '#forge:ingots/obsidian',
     });
 });

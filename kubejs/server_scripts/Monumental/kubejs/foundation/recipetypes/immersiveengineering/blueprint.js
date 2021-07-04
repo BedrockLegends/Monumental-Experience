@@ -189,6 +189,62 @@ onEvent('recipes', (event) => {
                     item: 'pneumaticcraft:gun_ammo_weighted'
                 },
                 id: 'gun_ammo_weighted'
+            },
+
+
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'immersiveengineering:wirecoil_redstone' } },
+                    { tag:  'forge:plates/electrum' },
+                    { item: 'pneumaticcraft:printed_circuit_board' },
+                    { item: 'envirocore:litherite_boule' },
+                    { item: 'envirocore:litherite_boule' },
+                    { item: 'envirocore:litherite_wafer' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'envirocore:cpu'
+                },
+                id: 'cpu'
+            },
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'immersiveengineering:insulating_glass' } },
+                    { tag:  'forge:plates/electrum' },
+                    { item: 'immersiveengineering:toolupgrade_revolver_electro' },
+                    { item: 'immersiveengineering:wirecoil_redstone' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'envirocore:laser_diode'
+                },
+                id: 'laser_diode'
+            },
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'envirocore:volatile_memory' } },
+                    { item: 'contenttweaker:compressed_plate' },
+                    { item: 'immersiveengineering:wirecoil_redstone' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'envirocore:flash_memory'
+                },
+                id: 'flash_memory'
+            },
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'contenttweaker:compressed_plate' } },
+                    { tag:  'envirocore:litherite_boule' },
+                    { item: 'envirocore:litherite_boule' },
+                    { tag:  'envirocore:litherite_wafer' },
+                    { item: 'immersiveengineering:wirecoil_redstone' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'envirocore:volatile_memory'
+                },
+                id: 'volatile_memory'
             }
         ]
     };

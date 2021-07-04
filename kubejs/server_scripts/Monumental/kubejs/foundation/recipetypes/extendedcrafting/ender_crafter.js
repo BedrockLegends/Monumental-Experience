@@ -347,4 +347,223 @@ onEvent('recipes', (event) => {
             }
         }
     );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "BBB", "AAA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                }
+            },
+            "result": {
+                "item": "computercraft:cable",
+                "count": 3
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "ACA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "immersiveengineering:insulating_glass"
+                },
+                "C": {
+                    "item": "immersiveengineering:circuit_board"
+                    }
+            },
+            "result": {
+                "item": "computercraft:computer_normal",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "AAA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:plastic"
+                },
+                "B": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                }
+            },
+            "result": {
+                "item": "computercraft:disk",
+                "nbt": "{Color:1118481}",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "AAA"
+            ],
+            "key": {
+                "A": {
+                "item": "#forge:plates/gold"
+                },
+                "B": {
+                "item": "computercraft:monitor_normal"
+                }
+            },
+            "result": {
+                "item": "computercraft:monitor_advanced",
+                "count": 2
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "AAA"
+            ],
+            "key": {
+                "A": {
+                "item": "#forge:plates/gold"
+                },
+                "B": {
+                "item": "immersiveengineering:insulating_glass"
+                }
+            },
+            "result": {
+                "item": "computercraft:monitor_normal",
+                "count": 2
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "ACA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "#forge:paper"
+                },
+                "C": {
+                    "item": "immersiveengineering:wirecoil_redstone"
+                }
+            },
+            "result": {
+                "item": "computercraft:printer",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "ACA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "minecraft:note_block"
+                },
+                "C": {
+                    "item": "immersiveengineering:wirecoil_redstone"
+                }
+            },
+            "result": {
+                "item": "computercraft:speaker",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "AAA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "#forge:ender_pearls"
+                }
+            },
+            "result": {
+                "item": "computercraft:wired_modem",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "ABA", "AAA"
+            ],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                }
+            },
+            "result": {
+                "item": "computercraft:wireless_modem_advanced",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": [" B ", "A A", " B "
+            ],
+            "key": {
+                "A": {
+                "item": "contenttweaker:compressed_plate"
+                },
+                "B": {
+                "item": "envirocore:laser_core"
+                }
+            },
+            "result": {
+                "item": "envirocore:laser_lens_holder",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["ABA", "B B", "ABA"
+            ],
+            "key": {
+                "A": {
+                "item": "envirocore:obsidian_plate"
+                },
+                "B": {
+                "item": "contenttweaker:compressed_plate"
+                }
+            },
+            "result": {
+                "item": "computercraft:wireless_modem_advanced",
+                "count": 1
+            }
+        }
+    );
 });

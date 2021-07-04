@@ -653,6 +653,22 @@ events.listen('recipes', (event) => {
                     'extendedcrafting:black_iron_ingot'
                 ],
                 output: Item.of('refinedstorage:quartz_enriched_iron', 4)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/lapis',
+                    '#forge:sand',
+                    '#forge:clay'
+                ],
+                output: Item.of('buildinggadgets:construction_block_powder', 1)
+            },
+            {
+                inputs: [
+                    'create:polished_rose_quartz',
+                    '#forge:dusts/emerald',
+                    'minecraft:ender_eye'
+                ],
+                output: Item.of('envirocore:litherite_crystal', 4)
             }
         ]
     };

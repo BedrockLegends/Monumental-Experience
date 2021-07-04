@@ -1013,6 +1013,28 @@ onEvent('recipes', (event) => {
                     O: '#forge:plates/osmium'
                 },
                 result: Item.of('mekanismgenerators:solar_generator', 1)
+            },
+            {
+                pattern: ["CPC", "XBX", "CWC"],
+                key: {
+                    B: 'minecraft:blast_furnace',
+                    C: '#forge:ingots/obsidian',
+                    P: 'create:electron_tube',
+                    W: 'createaddition:capacitor',
+                    X: 'immersiveengineering:insulating_glass'
+                },
+                result: Item.of('cyclic:melter', 1)
+            },
+            {
+                pattern: ["CPC", "XBX", "CWC"],
+                key: {
+                    B: 'create:basin',
+                    C: '#forge:ingots/obsidian',
+                    P: '#forge:plates/lapis_lazuli',
+                    W: 'create:electron_tube',
+                    X: 'immersiveengineering:insulating_glass'
+                },
+                result: Item.of('cyclic:solidifier', 1)
             }
         ]
     };
