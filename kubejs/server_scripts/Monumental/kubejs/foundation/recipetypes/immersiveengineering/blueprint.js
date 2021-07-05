@@ -235,9 +235,9 @@ onEvent('recipes', (event) => {
             {
                 inputs: [
                     { count: 1, base_ingredient: { item: 'contenttweaker:compressed_plate' } },
-                    { tag:  'envirocore:litherite_boule' },
+                    { item:  'envirocore:litherite_boule' },
                     { item: 'envirocore:litherite_boule' },
-                    { tag:  'envirocore:litherite_wafer' },
+                    { item:  'envirocore:litherite_wafer' },
                     { item: 'immersiveengineering:wirecoil_redstone' }
                 ],
                 category: 'components',
