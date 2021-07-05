@@ -125,6 +125,17 @@ onEvent('recipes', (event) => {
                 pressure: 1.0,
                 output: [{ item: 'pneumaticcraft:ingot_iron_compressed', count: 1 }],
                 id: 'ingot_iron_compressed'
+            },
+            {
+                ingredients: [{ type: 'pneumaticcraft:stacked_item', tag: 'forge:grain', count: 1 }],
+                pressure: 1.5,
+                output: [{ item: 'create:wheat_flour', count: 2 }],
+                id: 'wheat_flour'
+            },
+            {
+                ingredients: [{ type: 'pneumaticcraft:stacked_item', item: 'minecraft:snow_block', count: 4 }],
+                pressure: 2.0,
+                output: [{ item: 'betterendforge:dense_snow', count: 1 }]
             }
         ]
     };
