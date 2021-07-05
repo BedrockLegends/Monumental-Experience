@@ -419,7 +419,7 @@ onEvent('recipes', event => {
 	//Enderium ingots to nugget recipes
   	event.remove({id: 'thermal:storage/enderium_nugget_from_ingot'})
 	
-	//Envirocore Recipes
+	//EnviroCore Recipes
 	event.remove({id: 'envirocore:laser_core'})
 	event.remove({id: 'envirocore:laser_lens_holder'})
 	event.remove({id: 'envirocore:items/ct_diode'})
@@ -430,12 +430,19 @@ onEvent('recipes', event => {
 	event.remove({id: 'envirocore:items/ct_flash_memory'})
 	//event.remove({id: 'envirocore:volatile_memory'})
 	//event.remove({id: 'envirocore:items/ct_volatile_memory'})
+	//Disabled becauese the recipe is broken.
 	event.remove({id: 'envirocore:litherite_crystal'})
 	event.remove({id: 'envirocore:items/ct_litherite2'})
 	event.remove({id: 'envirocore:items/ct_litherite4'})
 	event.remove({id: 'envirocore:items/ct_litherite6'})
 	event.remove({id: 'envirocore:items/ct_litherite8'})
 	event.remove({id: 'envirocore:items/obsidian_plate'})
+
+	//EnviroTech Recipes
+	event.remove({id: 'envirocore:lens_grinder'})
+	event.remove({id: 'envirocore:block/ct_lens_grinder'})
+	event.remove({id: 'envirocore:lens'})
+	event.remove({id: 'envirocore:block/ct_lens'})
 	
 	//Gold blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/gold/ingot/from_dust_blasting'})

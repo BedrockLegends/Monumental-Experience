@@ -566,4 +566,48 @@ onEvent('recipes', (event) => {
             }
         }
     );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["ADA", "ABA", "ACA"
+            ],
+            "key": {
+                "A": {
+                "item": "contenttweaker:compressed_plate"
+                },
+                "B": {
+                "item": "minecraft:piston"
+                },
+                "C": {
+                "item": "envirocore:cpu"
+                },
+                "D": {
+                "item": "envirocore:lens"
+                }
+            },
+            "result": {
+                "item": "envirocore:lens_grinder",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": [" A ", "ABA", " A "
+            ],
+            "key": {
+                "A": {
+                "item": "immersiveengineering:insulating_glass"
+                },
+                "B": {
+                "item": "botania:lens_normal"
+                }
+            },
+            "result": {
+                "item": "envirocore:lens",
+                "count": 4
+            }
+        }
+    );
 });
