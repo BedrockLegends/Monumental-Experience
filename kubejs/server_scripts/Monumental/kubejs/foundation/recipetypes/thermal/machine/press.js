@@ -46,6 +46,11 @@ onEvent('recipes', (event) => {
             energy: 600
         },
         {
+            inputs: [Ingredient.of('#forge:obsidian', 4), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('envirocore:obsidian_plate', 2)],
+            energy: 600
+        },
+        {
             inputs: [Ingredient.of('#minecraft:oak_logs', 4), Ingredient.of('thermal:press_packing_2x2_die')],
             outputs: [Item.of('mcwfurnitures:oak_plate', 2)],
             energy: 600
