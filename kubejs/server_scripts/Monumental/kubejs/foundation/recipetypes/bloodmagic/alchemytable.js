@@ -1,0 +1,221 @@
+onEvent('recipes', (event) => {
+    data = {
+        recipes: [
+            {
+                inputs: ['minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel'],
+                output: 'minecraft:flint',
+                count: 3,
+                syphon: 50,
+                ticks: 20,
+                orbLevel: 0,
+                id: 'flint_from_gravel'
+            },
+            {
+                inputs: [
+                    'minecraft:rotten_flesh',
+                    'minecraft:rotten_flesh',
+                    'minecraft:rotten_flesh',
+                    'minecraft:rotten_flesh'
+                ],
+                output: 'minecraft:leather',
+                count: 4,
+                syphon: 100,
+                ticks: 200,
+                orbLevel: 1,
+                id: 'leather_from_flesh'
+            },
+            {
+                inputs: ['#forge:crops/potato', '#forge:crops/potato', '#forge:crops/potato', 'minecraft:bone_meal'],
+                output: 'bloodmagic:plantoil',
+                count: 1,
+                syphon: 100,
+                ticks: 100,
+                orbLevel: 1,
+                id: 'plantoil_from_taters'
+            },
+            {
+                inputs: ['#forge:crops', '#forge:crops', '#forge:crops', 'minecraft:bone_meal'],
+                output: 'bloodmagic:plantoil',
+                count: 1,
+                syphon: 100,
+                ticks: 100,
+                orbLevel: 1,
+                id: 'plantoil_from_wheat'
+            },
+            {
+                inputs: ['minecraft:coal', 'minecraft:coal'],
+                output: 'emendatusenigmatica:coal_dust',
+                count: 2,
+                syphon: 400,
+                ticks: 200,
+                orbLevel: 1,
+                id: 'sand_coal'
+            },
+            {
+                inputs: ['#minecraft:wool'],
+                output: 'minecraft:string',
+                count: 4,
+                syphon: 100,
+                ticks: 100,
+                orbLevel: 0,
+                id: 'string'
+            },
+            {
+                inputs: ['#forge:sand', '#forge:sand', 'minecraft:water_bucket'],
+                output: 'minecraft:clay',
+                count: 2,
+                syphon: 50,
+                ticks: 100,
+                orbLevel: 2,
+                id: 'clay_from_sand'
+            },
+            {
+                inputs: ['#forge:rods/blaze'],
+                output: 'minecraft:blaze_powder',
+                count: 4,
+                syphon: 50,
+                ticks: 20,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#forge:rods/basalz'],
+                output: 'thermal:basalz_powder',
+                count: 4,
+                syphon: 50,
+                ticks: 20,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#forge:rods/blizz'],
+                output: 'thermal:blizz_powder',
+                count: 4,
+                syphon: 50,
+                ticks: 20,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#forge:rods/blitz'],
+                output: 'thermal:blitz_powder',
+                count: 4,
+                syphon: 50,
+                ticks: 20,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#forge:dirt', '#forge:fertilizer', '#forge:mushrooms'],
+                output: 'minecraft:mycelium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#forge:dirt', '#forge:fertilizer', '#minecraft:leaves'],
+                output: 'minecraft:podzol',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['byg:quartzite_sand', 'byg:quartzite_sand', 'byg:quartzite_sand'],
+                output: 'minecraft:quartz',
+                count: 3,
+                syphon: 50,
+                ticks: 20,
+                orbLevel: 0
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:bulbis_sprouts'],
+                output: 'byg:bulbis_phycelium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:imparius_vine'],
+                output: 'byg:imparius_phylium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
+                output: 'byg:shulkren_phylium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:nightshade_sprouts'],
+                output: 'byg:nightshade_phylium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:ivis_sprout'],
+                output: 'byg:ivis_phylium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['byg:ether_soil', '#forge:fertilizer', 'byg:ether_foliage'],
+                output: 'byg:ether_phylium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#forge:dirt', '#forge:fertilizer', 'byg:ether_foliage'],
+                output: 'byg:ether_soil',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['byg:ether_stone', '#forge:fertilizer', 'byg:vermilion_sculk_growth'],
+                output: 'byg:vermilion_sculk',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#chipped:netherrack', '#forge:fertilizer', '#forge:mushrooms'],
+                output: 'byg:mycelium_netherrack',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', '#forge:mushrooms'],
+                output: 'betterendforge:end_mycelium',
+                count: 1,
+                syphon: 200,
+                ticks: 200,
+                orbLevel: 1
+            }
+        ]
+    };
+
+    data.recipes.forEach((recipe) => {
+        const re = event.recipes.bloodmagic
+            .alchemytable(Item.of(recipe.output, recipe.count), recipe.inputs)
+            .syphon(recipe.syphon)
+            .ticks(recipe.ticks)
+            .upgradeLevel(recipe.orbLevel);
+        if (recipe.id) {
+            re.id(`bloodmagic:alchemytable/${recipe.id}`);
+        }
+    });
+});
