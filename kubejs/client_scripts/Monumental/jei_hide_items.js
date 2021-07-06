@@ -96,7 +96,12 @@ mobsToUnify.forEach((mobs) => {
         'inventorypets:' + mobs + '_egg',
         'mythicbotany:' + mobs + '_spawn_egg',
         'twilightforest:' + mobs + '_spawner',
-        'atum:' + mobs + '_spawn_egg'
+        'atum:' + mobs + '_spawn_egg',
+        'projectvibrantjourneys:' + mobs + '_spawn_egg',
+        'upgrade_aquatic:' + mobs + '_spawn_egg',
+        'eidolon:spawn_' + mobs,
+        'betterendforge:spawn_egg_' + mobs,
+        'goblintraders:' + mobs + '_spawn_egg'
     );
 });
 
