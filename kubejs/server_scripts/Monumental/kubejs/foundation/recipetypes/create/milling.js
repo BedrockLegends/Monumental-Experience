@@ -145,7 +145,117 @@ onEvent('recipes', (event) => {
                 input: '#forge:ingots/netherite',
                 outputs: [Item.of('mekanism:dust_netherite', 1)],
                 processingTime: 400
-            }
+            },
+            {
+                input: '#forge:ingots/graphite',
+                outputs: [Item.of('biggerreactors:graphite_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ingots/aluminum',
+                outputs: [Item.of('emendatusenigmatica:aluminum_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/coal',
+                outputs: [Item.of('emendatusenigmatica:coal_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/copper',
+                outputs: [Item.of('emendatusenigmatica:copper_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/gold',
+                outputs: [Item.of('emendatusenigmatica:gold_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/gold',
+                outputs: [Item.of('emendatusenigmatica:gold_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/iron',
+                outputs: [Item.of('emendatusenigmatica:iron_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/iron',
+                outputs: [Item.of('emendatusenigmatica:iron_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/lead',
+                outputs: [Item.of('emendatusenigmatica:lead_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/lead',
+                outputs: [Item.of('emendatusenigmatica:lead_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/nickel',
+                outputs: [Item.of('emendatusenigmatica:nickel_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/nickel',
+                outputs: [Item.of('emendatusenigmatica:nickel_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/osmium',
+                outputs: [Item.of('emendatusenigmatica:osmium_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/osmium',
+                outputs: [Item.of('emendatusenigmatica:osmium_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/silver',
+                outputs: [Item.of('emendatusenigmatica:silver_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/silver',
+                outputs: [Item.of('emendatusenigmatica:silver_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/tin',
+                outputs: [Item.of('emendatusenigmatica:tin_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/tin',
+                outputs: [Item.of('emendatusenigmatica:tin_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/uranium',
+                outputs: [Item.of('emendatusenigmatica:uranium_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/uranium',
+                outputs: [Item.of('emendatusenigmatica:uranium_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ores/zinc',
+                outputs: [Item.of('emendatusenigmatica:zinc_dust', 1)],
+                processingTime: 350
+            },
+            {
+                input: '#forge:ingots/zinc',
+                outputs: [Item.of('emendatusenigmatica:zinc_dust', 1)],
+                processingTime: 200
+            },
         ]
     };
     data.recipes.forEach((recipe) => {

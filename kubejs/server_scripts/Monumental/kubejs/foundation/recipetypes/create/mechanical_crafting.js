@@ -1035,6 +1035,123 @@ onEvent('recipes', (event) => {
                     X: 'immersiveengineering:insulating_glass'
                 },
                 result: Item.of('cyclic:solidifier', 1)
+            },
+            {
+                pattern: ["CAC", "ABA", "CAC"],
+                key: {
+                    A: '#forge:ingots/allthemodium',
+                    B: 'ironfurnaces:netherite_furnace',
+                    C: '#forge:storage_blocks/allthemodium',
+                },
+                result: Item.of('ironfurnaces:allthemodium_furnace', 1)
+            },
+            {
+                pattern: ["AAA", "ABA", "AAA"],
+                key: {
+                    A: '#forge:plates/copper',
+                    B: 'minecraft:furnace',
+                },
+                result: Item.of('ironfurnaces:copper_furnace', 1)
+            },
+            {
+                pattern: ["AAA", "ABA", "ACA"],
+                key: {
+                    A: '#forge:glass',
+                    B: 'ironfurnaces:diamond_furnace',
+                    C: 'greater_eye:greater_eye',
+                },
+                result: Item.of('ironfurnaces:crystal_furnace', 1)
+            },
+            {
+                pattern: ["AAA", "CBC", "AAA"],
+                key: {
+                    A: '#forge:plates/diamond',
+                    B: 'ironfurnaces:gold_furnace',
+                    C: '#forge:storage_blocks/diamond',
+                },
+                result: Item.of('ironfurnaces:diamond_furnace', 1)
+            },
+            {
+                pattern: ["AAA", "CBC", "AAA"],
+                key: {
+                    A: '#forge:plates/gold',
+                    B: 'ironfurnaces:iron_furnace',
+                    C: '#forge:storage_blocks/gold',
+                },
+                result: Item.of('ironfurnaces:gold_furnace', 1)
+            },
+            {
+                pattern: ["AAA", "CBC", "AAA"],
+                key: {
+                    A: '#forge:plates/iron',
+                    B: 'minecraft:furnace',
+                    C: '#forge:storage_blocks/iron',
+                },
+                result: Item.of('ironfurnaces:iron_furnace', 1)
+            },
+            {
+                pattern: ["ACA", "CBC", "ADA"],
+                key: {
+                    A: '#forge:ingots/netherite',
+                    B: 'ironfurnaces:obsidian_furnace',
+                    C: '#forge:magma_block',
+                    D: '#forge:soul_sand',
+                },
+                result: Item.of('ironfurnaces:netherite_furnace', 1)
+            },
+            {
+                pattern: ["ACA", "CBC", "ACA"],
+                key: {
+                    A: '#forge:obsidian',
+                    B: 'ironfurnaces:emerald_furnace',
+                    C: '#forge:rods/blaze',
+                },
+                result: Item.of('ironfurnaces:obsidian_furnace', 1)
+            },
+            {
+                pattern: ["AAA", "ABA", "AAA"],
+                key: {
+                    A: '#forge:plates/silver',
+                    B: 'ironfurnaces:copper_furnace',
+                },
+                result: Item.of('ironfurnaces:silver_furnace', 1)
+            },
+            {
+                pattern: ["CAC", "ABA", "CAC"],
+                key: {
+                    A: '#forge:ingots/unobtainium',
+                    B: 'ironfurnaces:vibranium_furnace',
+                    C: '#forge:storage_blocks/unobtainium',
+                },
+                result: Item.of('ironfurnaces:unobtainium_furnace', 1)
+            },
+            {
+                pattern: ["CAC", "ABA", "CAC"],
+                key: {
+                    A: '#forge:ingots/vibranium',
+                    B: 'ironfurnaces:allthemodium_furnace',
+                    C: '#forge:storage_blocks/vibranium',
+                },
+                result: Item.of('ironfurnaces:vibranium_furnace', 1)
+            },
+            {
+                pattern: ["ACA", "DBD", "ACA"],
+                key: {
+                    A: 'ironcoals:emerald_coal',
+                    B: '#forge:storage_blocks/netherite',
+                    C: 'minecraft:heart_of_the_sea',
+                    D: 'minecraft:nether_star',
+                },
+                result: Item.of('ironcoals:aeon_coal', 1)
+            },
+            {
+                pattern: ["AAA", "ABA", "AAA"],
+                key: {
+                    A: '#forge:plates/iron',
+                    B: 'immersiveengineering:generator',
+                    C: 'immersiveengineering:capacitor_lv',
+                },
+                result: Item.of('immersivepetroleum:gas_generator', 1)
             }
         ]
     };

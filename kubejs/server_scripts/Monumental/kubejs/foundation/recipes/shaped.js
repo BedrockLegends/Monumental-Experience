@@ -1328,5 +1328,84 @@ event.shaped(Item.of('emendatusenigmatica:electrum_gear', 1), [" A ", "ABA", " A
     })
     event.shaped(Item.of('envirocore:obsidian_plate', 4), ["AA ", "AA ", "   "], {
         A: '#forge:ingots/obsidian',
-    });
+    })
+    event.shaped(Item.of('ironjetpacks:strap', 1), ["AAA", "BCB", "AAA"], {
+        A: '#forge:plates/iron',
+        B: 'minecraft:tripwire_hook',
+        C: 'minecraft:leather_chestplate',
+    })
+    event.shaped(Item.of('ironjetpacks:basic_coil', 1), ["   ", "BAA", " AA"], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'extendedcrafting:redstone_component',
+        C: 'thermal:rf_coil',
+    })
+    event.shaped(Item.of('ironjetpacks:advanced_coil', 1), ["   ", "BAA", " AA"], {
+        A: '#forge:plates/gold',
+        B: 'extendedcrafting:redstone_component',
+        C: 'thermal:rf_coil',
+    })
+    event.shaped(Item.of('ironjetpacks:elite_coil', 1), [" AB", "ACA", "BA "], {
+        A: '#forge:plates/diamond',
+        B: 'extendedcrafting:redstone_component',
+        C: 'thermal:rf_coil',
+    })
+    event.shaped(Item.of('ironjetpacks:ultimate_coil', 1), [" AB", "ACA", "BA "], {
+        A: '#forge:plates/emerald',
+        B: 'extendedcrafting:redstone_component',
+        C: 'thermal:rf_coil',
+    })
+    event.shaped(Item.of('good_nights_sleep:dead_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'good_nights_sleep:dead_planks',
+        B: 'immersiveengineering:hammer',
+    })
+    event.shaped(Item.of('good_nights_sleep:delusion_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'good_nights_sleep:delusion_stone',
+        B: 'immersiveengineering:hammer',
+    })
+    event.shaped(Item.of('good_nights_sleep:dream_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'good_nights_sleep:dream_planks',
+        B: 'immersiveengineering:hammer',
+    })
+    event.shaped(Item.of('good_nights_sleep:white_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'good_nights_sleep:white_planks',
+        B: 'immersiveengineering:hammer',
+    })
+    event.shaped(Item.of('fluxnetworks:basic_flux_storage', 1), ["AAA", "B B", "AAA"], {
+        A: 'fluxnetworks:flux_block',
+        B: 'thermal:obsidian_glass',
+    })
+    event.shaped(Item.of('fluxnetworks:flux_configurator', 1), [" BC", " AB", "A  "], {
+        A: '#forge:ingots/obsidian',
+        B: 'fluxnetworks:flux_dust',
+        C: 'fluxnetworks:flux_core',
+    })
+    event.shaped(Item.of('fluxnetworks:flux_controller', 1), ["BCB", "ADA", "BBB"], {
+        A: 'fluxnetworks:flux_core',
+        B: 'fluxnetworks:flux_block',
+        C: 'thermal:obsidian_glass',
+        D: 'pneumaticcraft:printed_circuit_board',
+    })
+    event.shaped(Item.of('fluxnetworks:flux_core', 4), ["BAB", "ACA", "BAB"], {
+        A: '#forge:ingots/obsidian',
+        B: 'fluxnetworks:flux_dust',
+        C: 'cyclic:ender_eye_reuse',
+    })
+    event.shaped(Item.of('fluxnetworks:flux_plug', 1), ["CAC", "ABA", "CAC"], {
+        A: 'fluxnetworks:flux_core',
+        B: 'fluxnetworks:flux_block',
+        C: 'pneumaticcraft:plastic',
+    })
+    event.shaped(Item.of('fluxnetworks:flux_point', 1), ["CAC", "ABA", "CAC"], {
+        A: 'fluxnetworks:flux_core',
+        B: 'extendedcrafting:redstone_catalyst',
+        C: 'industrialforegoing:plastic',
+    })
+    event.shaped(Item.of('fluxnetworks:gargantuan_flux_storage', 1), ["AAA", "B B", "AAA"], {
+        A: 'fluxnetworks:herculean_flux_storage',
+        B: 'thermal:obsidian_glass',
+    })
+    event.shaped(Item.of('fluxnetworks:herculean_flux_storage', 1), ["AAA", "B B", "AAA"], {
+        A: 'fluxnetworks:basic_flux_storage',
+        B: 'thermal:obsidian_glass',
+    })
 });

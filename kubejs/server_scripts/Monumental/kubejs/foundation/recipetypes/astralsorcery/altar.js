@@ -324,6 +324,55 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam'
             ]
+        },
+        {
+            output: Item.of('mysticalagriculture:infusion_altar', 1),
+            pattern: ['_____', '_ABA_', '_CDC_', '_DDD_', '_____'],
+            key: {
+                A: { item: 'psi:psimetal' },
+                B: { item: 'psi:psigem' },
+                C: { tag:  'thermal:rockwool' },
+                D: { tag:  'botania:livingrock' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 700,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam',
+                'astralsorcery:upgrade_altar'
+            ]
+        },
+        {
+            output: Item.of('mysticalagriculture:infusion_pedestal', 1),
+            pattern: ['_____', '_ABA_', '_CDC_', '_DDD_', '_____'],
+            key: {
+                A: { item: 'psi:psidust' },
+                B: { item: 'psi:psimetal' },
+                C: { tag:  'thermal:rockwool' },
+                D: { tag:  'botania:livingrock' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 700,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam',
+                'astralsorcery:upgrade_altar'
+            ]
+        },
+        {
+            output: Item.of('mysticalagriculture:tinkering_table', 1),
+            pattern: ['_____', '_BBB_', '_ABA_', '_BBB_', '_____'],
+            key: {
+                A: { item: 'mysticalagriculture:soulium_dust' },
+                B: { tag:  'botania:livingrock' },
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 700,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam',
+                'astralsorcery:upgrade_altar'
+            ]
         }
     ];
 
