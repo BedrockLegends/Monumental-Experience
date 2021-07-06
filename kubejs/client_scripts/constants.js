@@ -87,7 +87,9 @@ var itemsToHide = [
     'bloodmagic:ironsand',
     'bloodmagic:goldsand',
     'good_nights_sleep:dream_grass_block',
-    'byg:peat'
+    'byg:peat',
+    'inventorypets:nether_spawn',
+    'phosphophyllite:phosphophyllite_ore'
 ];
 
 var regexHide = [
@@ -161,7 +163,8 @@ var regexHide = [
     /quark:.*_ladder/,      
     /mekanism:creative_chemical_tank/,
     /mekanism:creative_fluid_tank/,      
-    /ceramics:.*_bucket/
+    /ceramics:.*_bucket/,      
+    /resourcefulbees:.*spawn_egg/
 ];
 
 const materialsToUnify = [
@@ -225,6 +228,36 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'void_worm',
+    'greedy_familiar',
+    'marid',
+    'ender_slime',
+    'starfish',
+    'snail',
+    'small_spider',
+    'clam',
+    'slug',
+    'thrasher',
+    'great_thrasher',
+    'goose',
+    'glow_squid',
+    'necromancer',
+    'zombie_brute',
+    'cubozoa',
+    'dragonfly',
+    'end_fish',
+    'end_slime',
+    'frilled_shark',
+    'mimic_octopus',
+    'shadow_walker',
+    'silk_moth',
+    'goblin_trader',
+    'vein_goblin_trader',
+    'flare',
+    'pike',
+    'perch',
+    'nautilus',
+    'lionfish',
     'alf_pixie',
     'pixie',
     'boss',
