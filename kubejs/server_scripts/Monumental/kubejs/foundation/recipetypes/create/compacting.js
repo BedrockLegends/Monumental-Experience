@@ -2,6 +2,10 @@ onEvent('recipes', (event) => {
     var data = {
         recipes_unheated: [
             {
+                inputs: [Fluid.of('resourcefulbees:honey')],
+                output: 'minecraft:honey_block'
+            },
+            {
                 inputs: [
                     '#forge:dusts/wood',
                     '#forge:dusts/wood',
