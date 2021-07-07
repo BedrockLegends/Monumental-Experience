@@ -511,6 +511,41 @@ onEvent('recipes', event => {
 	event.remove({id: 'greater_eye:greater_eye_nether'})
 	event.remove({id: 'greater_eye:greater_eye'})
 
+	//Industrial Agriculre Recipes
+	event.remove({id: 'mysticalagriculture:bat_essence'})
+  	event.remove({id: 'mysticalagriculture:dolphin_essence'})
+	event.remove({id: 'mysticalagriculture:cat_essence'})
+  	event.remove({id: 'mysticalagriculture:drowned_essence'})
+	event.remove({id: 'mysticalagriculture:endermite_essence'})
+  	event.remove({id: 'mysticalagriculture:evoker_essence'})
+	event.remove({id: 'mysticalagriculture:fox_essence'})
+  	event.remove({id: 'mysticalagriculture:glob_end_essence'})
+	event.remove({id: 'mysticalagriculture:glob_nether_essence'})
+  	event.remove({id: 'mysticalagriculture:glob_essence'})
+	event.remove({id: 'mysticalagriculture:guardian_essence'})
+  	event.remove({id: 'mysticalagriculture:horse_essence'})
+	event.remove({id: 'mysticalagriculture:husk_essence'})
+  	event.remove({id: 'mysticalagriculture:llama_essence'})
+	event.remove({id: 'mysticalagriculture:magma_cube_essence'})
+  	event.remove({id: 'mysticalagriculture:mooshroom_essence'})
+	event.remove({id: 'mysticalagriculture:panda_essence'})
+	event.remove({id: 'mysticalagriculture:parrot_essence'})
+  	event.remove({id: 'mysticalagriculture:phantom_essence'})
+	event.remove({id: 'mysticalagriculture:pillager_essence'})
+	event.remove({id: 'mysticalagriculture:pink_slime_essence'})
+  	event.remove({id: 'mysticalagriculture:plastic_essence'})
+	event.remove({id: 'mysticalagriculture:polar_bear_essence'})
+	event.remove({id: 'mysticalagriculture:ravager_essence'})
+  	event.remove({id: 'mysticalagriculture:shulker_essence'})
+	event.remove({id: 'mysticalagriculture:silverfish_essence'})
+	event.remove({id: 'mysticalagriculture:stray_essence'})
+  	event.remove({id: 'mysticalagriculture:vex_essence'})
+	event.remove({id: 'mysticalagriculture:villager_essence'})
+	event.remove({id: 'mysticalagriculture:vindicator_essence'})
+  	event.remove({id: 'mysticalagriculture:witch_essence'})
+	event.remove({id: 'mysticalagriculture:wolf_essence'})
+	event.remove({id: 'mysticalagriculture:zombie_pigman_essence'})
+
 	//Iron ingot to nuggets recipes
   	event.remove({id: 'dustrial_decor:rusty_iron_nugget_from_ingot'})
 
@@ -734,6 +769,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'minecraft:piston'})
   	event.remove({id: 'minecraft:sticky_piston'})
   	event.remove({id: 'minecraft:netherite_ingot'})
+	event.remove({id: 'minecraft:anvil'})
 
 	//MCWFurnitures recipes
   	event.remove({id: 'mcwfurnitures:acacia_plate'})
@@ -788,6 +824,8 @@ onEvent('recipes', event => {
 	event.remove({id: 'mysticalagriculture:imperium_block_uncraft'})
 	event.remove({id: 'mysticalagriculture:supremium_essence'})
 	event.remove({id: 'mysticalagriculture:supremium_block_uncraft'})
+
+	event.remove({output: '#mysticalagriculture:essences'})
 
 	//Nickel blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_from_blasting'})
