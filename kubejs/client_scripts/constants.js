@@ -163,8 +163,7 @@ var regexHide = [
     /quark:.*_ladder/,      
     /mekanism:creative_chemical_tank/,
     /mekanism:creative_fluid_tank/,      
-    /ceramics:.*_bucket/,      
-    /resourcefulbees:.*spawn_egg/
+    /ceramics:.*_bucket/
 ];
 
 const materialsToUnify = [
