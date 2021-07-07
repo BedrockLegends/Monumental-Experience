@@ -1,0 +1,71 @@
+
+[Quarry]
+	#Enforce destroying fluid source block, will disable the option to turn this off in game [false/true|default:false]
+	EnforceDestroyFluid = false
+	#RF to use for breaking a block [0..50000|default:2000]
+	#Range: 0 ~ 50000
+	UseRF = 2000
+	#Fake player name, default: [rr_fakeplayer]
+	FakePlayerName = "[rr_fakeplayer]"
+	#Fake player UUID, default: 68a1ce13-8fc1-449d-b1d0-2218bdbb2279
+	FakePlayerUUID = "68a1ce13-8fc1-449d-b1d0-2218bdbb2279"
+	#Max range for each direction [1..32|default:16]
+	#Range: 1 ~ 32
+	MaxRange = 16
+
+[Harvester]
+	#Fake player name, default: [rr_fakeplayer2]
+	FakePlayerName = "[rr_fakeplayer2]"
+	#Fake player UUID, default: 68a1ce13-8fc1-449d-b1d0-2218bdbb2277
+	FakePlayerUUID = "68a1ce13-8fc1-449d-b1d0-2218bdbb2277"
+	#Max range for each direction [1..32|default:16]
+	#Range: 1 ~ 32
+	MaxRange = 16
+	#RF to use while scanning for trees [0..50000|default:20]
+	#Range: 0 ~ 50000
+	RF_Scan = 20
+	#RF to use while planting [0..50000|default:100]
+	#Range: 0 ~ 50000
+	RF_Plant = 100
+	#RF to use while harvesting [0..50000|default:400]
+	#Range: 0 ~ 50000
+	RF_Harvest = 400
+
+[Rendering]
+	#Enables/Disables alternative rendering on the barrel, good for more fps [false/true|default:true]
+	EnableAlternativeRendering = true
+
+[Blocks]
+	#Interface that exposes all connected storage units to any system that can interact with a inventory like AE2 [false/true|default:true]
+	EnableStorageUnitInterface = true
+	#Enables/Disables Quarry [false/true|default:true]
+	EnableQuarry = true
+	#Enables/Disables Tree Farm [false/true|default:true]
+	EnableTreeFarm = true
+	#Enables/Disables Harvester [false/true|default:true]
+	EnableHarvester = true
+	#Enables/Disables Super Pickaxe [false/true|default:true]
+	EnablePickaxe = true
+
+[Tree_Farm]
+	#Fake player name, default: [rr_fakeplayer2]
+	FakePlayerName = "[rr_fakeplayer2]"
+	#Fake player UUID, default: 68a1ce13-8fc1-449d-b1d0-2218bdbb2277
+	FakePlayerUUID = "68a1ce13-8fc1-449d-b1d0-2218bdbb2277"
+	#Max range for each direction [1..32|default:5]
+	#Range: 1 ~ 32
+	MaxRange = 5
+	#RF to use while scanning for trees [0..50000|default:20]
+	#Range: 0 ~ 50000
+	RF_Scan = 20
+	#RF to use while planting [0..50000|default:100]
+	#Range: 0 ~ 50000
+	RF_Plant = 100
+	#RF to use while harvesting [0..50000|default:400]
+	#Range: 0 ~ 50000
+	RF_Harvest = 400
+
+[OreGen]
+	#Enables/Disables copper ore spawn [false/true|default:true]
+	EnableCopperWorldGen = true
+

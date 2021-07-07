@@ -1,0 +1,94 @@
+
+#Game settings
+[settings]
+	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
+	farmersBuyFDCrops = true
+	#Farmer's Delight adds crates (3x3) for vanilla crops, similar to Quark and Thermal Cultivation. Should they be craftable?
+	enableVanillaCropCrates = true
+	#How often (in percentage) should Rich Soil succeed in boosting a plant's growth at each random tick? Setting it to 0.0 disables boosting.
+	#Range: 0.0 ~ 1.0
+	richSoilBoostChance = 0.2
+
+#Vanilla item overrides
+[overrides]
+	#Should Rabbit Stew grant users the jumping prowess of a rabbit when eaten?
+	rabbitStewJumpBoost = true
+	#Should most vanilla tools register a dispenser behavior when facing a Cutting Board?
+	dispenserUsesToolsOnCuttingBoard = true
+	#Should items inside the tag 'farmersdelight:comfort_foods' grant 5 minutes of Comfort when eaten? (defaults to vanilla SoupItems)
+	comfortFoodTagEffect = true
+
+	#Stack size overrides
+	[overrides.stack_size]
+		#Should SoupItems in the following list become stackable to 16, much like Farmer's Delight's meals?
+		enableStackableSoupItems = true
+		#List of SoupItems. Default: vanilla soups and stews.
+		soupItemList = ["minecraft:mushroom_stew", "minecraft:beetroot_soup", "minecraft:rabbit_stew"]
+		#Toggle this setting to instead make ALL SoupItems stackable, except the ones on the list (deny-list). This affects items from other mods, so be careful!
+		overrideAllSoupItems = false
+
+#World generation
+[world]
+	#Generate crop items on Village houses (all biomes)
+	cropsOnVillageHouseLoot = true
+	#Generate crop items on a Shipwreck's supply chests
+	cropsOnShipwreckSupplyLoot = true
+	#Generate Compost Heaps across all village biomes
+	genVillageCompostHeaps = true
+
+	#Sea Beet generation
+	[world.wild_beetroots]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 10
+		#Generate sea beets on beaches
+		genWildBeetroots = true
+
+	#Tomato Vines generation
+	[world.wild_tomatoes]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 8
+		#Generate tomato vines on arid biomes (temperature 1.0 or higher)
+		genWildTomatoes = false
+
+	#Wild Cabbage generation
+	[world.wild_cabbages]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 10
+		#Generate wild cabbages on beaches
+		genWildCabbages = false
+
+	#Wild Onion generation
+	[world.wild_onions]
+		#Generate wild onions on temperate biomes (temperature between 0.4 and 0.9)
+		genWildOnions = false
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 8
+
+	#Wild Potato generation
+	[world.wild_potatoes]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 8
+		#Generate wild potatoes on cold biomes (temperature between 0.0 and 0.3)
+		genWildPotatoes = true
+
+	#Wild Carrot generation
+	[world.wild_carrots]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 8
+		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
+		genWildCarrots = true
+
+	#Wild Rice generation
+	[world.wild_rice]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 10
+		#Generate wild rice on swamps and jungles
+		genWildRice = false
+

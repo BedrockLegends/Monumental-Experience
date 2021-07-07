@@ -1,0 +1,12 @@
+{
+  "tierMap": {
+    "glob_end": "SIX",
+    "glob_nether": "FIVE",
+    "glob": "FOUR"
+  },
+  "cruxMap": {
+    "glob_end": "",
+    "glob_nether": "",
+    "glob": ""
+  }
+}

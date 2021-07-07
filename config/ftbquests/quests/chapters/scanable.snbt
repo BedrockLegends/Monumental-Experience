@@ -1,0 +1,164 @@
+{
+	id: "0000000000002295"
+	group: "68BD27E8D0136E3E"
+	order_index: 4
+	filename: "scanable"
+	title: "&9Scanable"
+	icon: "scannable:module_blank"
+	default_quest_shape: ""
+	quests: [
+		{
+			icon: "scannable:module_blank"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000002296"
+			tasks: [
+				{
+					id: "00000000000022A8"
+					type: "item"
+					item: "scannable:scanner"
+				}
+				{
+					id: "00000000000022A9"
+					type: "item"
+					item: "scannable:module_blank"
+				}
+			]
+			rewards: [{
+				id: "00000000000023B3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["0000000000002296"]
+			id: "0000000000002298"
+			tasks: [{
+				id: "0000000000002299"
+				type: "item"
+				item: "scannable:module_range"
+			}]
+			rewards: [{
+				id: "00000000000023B6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["0000000000002296"]
+			id: "000000000000229A"
+			tasks: [{
+				id: "000000000000229B"
+				type: "item"
+				item: "scannable:module_entity"
+			}]
+			rewards: [{
+				id: "00000000000023B4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["0000000000002296"]
+			id: "000000000000229C"
+			tasks: [{
+				id: "000000000000229D"
+				type: "item"
+				item: "scannable:module_animal"
+			}]
+			rewards: [{
+				id: "00000000000023B8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["0000000000002296"]
+			id: "000000000000229E"
+			tasks: [{
+				id: "000000000000229F"
+				type: "item"
+				item: "scannable:module_monster"
+			}]
+			rewards: [{
+				id: "00000000000023B7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["0000000000002296"]
+			id: "00000000000022A0"
+			tasks: [{
+				id: "00000000000022A1"
+				type: "item"
+				item: "scannable:module_block"
+			}]
+			rewards: [{
+				id: "00000000000023B5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["0000000000002296"]
+			id: "00000000000022A2"
+			tasks: [{
+				id: "00000000000022A3"
+				type: "item"
+				item: "scannable:module_ore_common"
+			}]
+			rewards: [{
+				id: "00000000000023BA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["0000000000002296"]
+			id: "00000000000022A4"
+			tasks: [{
+				id: "00000000000022A5"
+				type: "item"
+				item: "scannable:module_ore_rare"
+			}]
+			rewards: [{
+				id: "00000000000023BB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["0000000000002296"]
+			id: "00000000000022A6"
+			tasks: [{
+				id: "00000000000022A7"
+				type: "item"
+				item: "scannable:module_fluid"
+			}]
+			rewards: [{
+				id: "00000000000023B9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

@@ -1,0 +1,69 @@
+
+#General settings
+[gardentools]
+
+	[gardentools.cultivator]
+		#
+		#Range of cultivator item
+		#Range: 2 ~ 32
+		range = 9
+		#
+		#Moisture level set by cultivator
+		#Range: 0 ~ 7
+		moisture = 7
+
+	[gardentools.planter]
+		#
+		#Range of planter item
+		#Range: 2 ~ 32
+		range = 9
+
+	[gardentools.irrigator]
+		#
+		#Watering radius of irrigation block
+		#Range: 1 ~ 64
+		radius = 8
+		#
+		#Is this a water source for buckets and capabilities
+		water_source = true
+
+	[gardentools.watering]
+		#
+		#Watering can range
+		#Range: 1 ~ 32
+		range = 4
+
+	[gardentools.fertilizer]
+		#
+		#The bonemeal-power of the fertilizer
+		#Range: 1 ~ 32
+		power = 6
+
+	[gardentools.feeder]
+		#
+		#Livestock Feeder range
+		#Range: 1 ~ 32
+		range = 8
+
+	[gardentools.rancher]
+		#
+		#Livestock Rancher range
+		#Range: 1 ~ 32
+		range = 8
+
+	[gardentools.magnet]
+		#
+		#Magnet max range
+		#Range: 1 ~ 256
+		range = 16
+
+		[gardentools.magnet.speed]
+			#
+			#Magnet speed when items are close within 3 blocks
+			#Range: 0.009999999776482582 ~ 0.5
+			close = 0.07000000029802322
+			#
+			#Magnet speed when items are farther out than 3 blocks
+			#Range: 0.009999999776482582 ~ 0.9900000095367432
+			far = 0.3100000023841858
+

@@ -1,0 +1,532 @@
+{
+	id: "0000000000000A27"
+	group: "6B2D545E7A3D7242"
+	order_index: 4
+	filename: "reliquary"
+	title: "&9Reliquary"
+	icon: {
+		id: "xreliquary:mercy_cross"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "0000000000000A28"
+			tasks: [{
+				id: "0000000000000A29"
+				type: "item"
+				item: {
+					id: "xreliquary:mercy_cross"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000011DC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "0000000000000A2A"
+			tasks: [{
+				id: "0000000000000A2D"
+				type: "item"
+				item: "xreliquary:destruction_catalyst"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			id: "0000000000000A2E"
+			tasks: [{
+				id: "0000000000000A2F"
+				type: "item"
+				item: {
+					id: "xreliquary:ender_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:ender_pearl"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000011E9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "0000000000000A30"
+			tasks: [{
+				id: "0000000000000A33"
+				type: "item"
+				item: "xreliquary:glacial_staff"
+			}]
+			rewards: [{
+				id: "00000000000011D6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			id: "0000000000000A61"
+			tasks: [{
+				id: "0000000000000A62"
+				type: "item"
+				item: {
+					id: "xreliquary:harvest_rod"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000011DA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			id: "0000000000000A63"
+			tasks: [{
+				id: "0000000000000A64"
+				type: "item"
+				item: "xreliquary:hero_medallion"
+			}]
+			rewards: [{
+				id: "00000000000011EB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "0000000000000A6A"
+			tasks: [{
+				id: "0000000000000A6B"
+				type: "item"
+				item: "xreliquary:holy_hand_grenade"
+			}]
+			rewards: [{
+				id: "00000000000011DB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			id: "0000000000001472"
+			tasks: [
+				{
+					id: "0000000000001473"
+					type: "item"
+					item: "xreliquary:infernal_chalice"
+				}
+				{
+					id: "0000000000000A7C"
+					type: "item"
+					item: "xreliquary:emperor_chalice"
+				}
+			]
+			rewards: [{
+				id: "00000000000011E7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			id: "0000000000000A9B"
+			tasks: [{
+				id: "0000000000000AB3"
+				type: "item"
+				item: "xreliquary:fortune_coin"
+			}]
+			rewards: [{
+				id: "00000000000011D4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "0000000000000AB4"
+			tasks: [{
+				id: "0000000000000ABA"
+				type: "item"
+				item: "xreliquary:ice_magus_rod"
+			}]
+			rewards: [{
+				id: "00000000000011D7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			id: "0000000000000ABB"
+			tasks: [
+				{
+					id: "0000000000000ABC"
+					type: "item"
+					item: "xreliquary:infernal_claws"
+				}
+				{
+					id: "0000000000000ABF"
+					type: "item"
+					item: "xreliquary:infernal_claw"
+				}
+			]
+			rewards: [{
+				id: "00000000000011D8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "0000000000000ABD"
+			tasks: [{
+				id: "0000000000000ABE"
+				type: "item"
+				item: "xreliquary:lantern_of_paranoia"
+			}]
+			rewards: [{
+				id: "00000000000011DD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			id: "0000000000000AC0"
+			tasks: [{
+				id: "0000000000000AC1"
+				type: "item"
+				item: "xreliquary:crimson_cloth"
+			}]
+			rewards: [{
+				id: "00000000000011DE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			id: "0000000000000AC2"
+			tasks: [{
+				id: "0000000000000AC3"
+				type: "item"
+				item: "xreliquary:pyromancer_staff"
+			}]
+			rewards: [{
+				id: "00000000000011E3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			id: "0000000000000AC4"
+			tasks: [{
+				id: "0000000000000AC5"
+				type: "item"
+				item: {
+					id: "xreliquary:serpent_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000011E0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			id: "0000000000000AC6"
+			tasks: [{
+				id: "0000000000000AC7"
+				type: "item"
+				item: "xreliquary:sojourner_staff"
+			}]
+			rewards: [{
+				id: "00000000000011ED"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			id: "0000000000000AC8"
+			tasks: [{
+				id: "0000000000000AC9"
+				type: "item"
+				item: {
+					id: "xreliquary:rending_gale"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:feather"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000011E6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			id: "0000000000000ACA"
+			tasks: [{
+				id: "0000000000000ACB"
+				type: "item"
+				item: "xreliquary:rod_of_lyssa"
+			}]
+			rewards: [{
+				id: "00000000000011DF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			id: "0000000000000ACC"
+			tasks: [{
+				id: "0000000000000ACD"
+				type: "item"
+				item: "xreliquary:shears_of_winter"
+			}]
+			rewards: [{
+				id: "00000000000011E4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			id: "0000000000000ACE"
+			tasks: [{
+				id: "0000000000000ACF"
+				type: "item"
+				item: "xreliquary:twilight_cloak"
+			}]
+			rewards: [{
+				id: "00000000000011E1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			id: "0000000000000AD0"
+			tasks: [{
+				id: "0000000000000AD1"
+				type: "item"
+				item: "xreliquary:witch_hat"
+			}]
+			rewards: [{
+				id: "00000000000011EF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			id: "0000000000000AD2"
+			tasks: [{
+				id: "0000000000000AD3"
+				type: "item"
+				item: "xreliquary:witherless_rose"
+			}]
+			rewards: [{
+				id: "00000000000011E5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			id: "0000000000000AD4"
+			tasks: [
+				{
+					id: "0000000000000AD5"
+					type: "item"
+					item: "xreliquary:barrel_assembly"
+				}
+				{
+					id: "0000000000000AD6"
+					type: "item"
+					item: "xreliquary:hammer_assembly"
+				}
+				{
+					id: "0000000000000AD7"
+					type: "item"
+					item: "xreliquary:handgun"
+				}
+				{
+					id: "0000000000000AD8"
+					type: "item"
+					item: "xreliquary:grip_assembly"
+				}
+			]
+			rewards: [{
+				id: "00000000000011E2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			id: "0000000000000AD9"
+			tasks: [{
+				id: "0000000000000ADA"
+				type: "item"
+				item: "xreliquary:alkahestry_altar"
+			}]
+			rewards: [{
+				id: "00000000000011EA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			id: "0000000000000ADB"
+			tasks: [{
+				id: "0000000000000ADC"
+				type: "item"
+				item: "xreliquary:apothecary_cauldron"
+			}]
+			rewards: [{
+				id: "00000000000011E8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			id: "0000000000000ADD"
+			tasks: [{
+				id: "0000000000000ADE"
+				type: "item"
+				item: "xreliquary:apothecary_mortar"
+			}]
+			rewards: [{
+				id: "00000000000011EC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			id: "0000000000000ADF"
+			tasks: [{
+				id: "0000000000000AE0"
+				type: "item"
+				item: "xreliquary:fertile_lily_pad"
+			}]
+			rewards: [{
+				id: "00000000000011EE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "0000000000000AE1"
+			tasks: [{
+				id: "0000000000000AE2"
+				type: "item"
+				item: "xreliquary:interdiction_torch"
+			}]
+			rewards: [{
+				id: "00000000000011D9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			id: "0000000000000AE3"
+			tasks: [{
+				id: "0000000000000AE4"
+				type: "item"
+				item: "xreliquary:wraith_node"
+			}]
+			rewards: [{
+				id: "00000000000011D5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

@@ -1,0 +1,271 @@
+
+#Inventory Pets Config Settings
+[common]
+	#Display the names of the fans who suggested pets (default:true)
+	showSuggestors = true
+	#Disable Cloud Pet thunder sounds (default:false)
+	disableCloudSound = false
+	#Display the mod update message during startup (default:true)
+	showUpdateMessage = true
+	#Display holiday messages during startup (default:true)
+	showHolidayMessages = true
+	#Are pets required to eat food (default:true)
+	petsMustEat = true
+	#Pets eat rarer items (default:false)
+	petsEatWholeItems = false
+	#Turn off all dungeons (default:false)
+	disableAllDungeons = false
+	#Turn off Nether dungeons (default:false)
+	disableNetherDungeons = false
+	#Turn off Space dungeons (default:false)
+	disableSpaceDungeons = false
+	#Turn off Underground dungeons (default:false)
+	disableUndergroundDungeons = false
+	#Turn off Sea Cave dungeons (default:false)
+	disableSeaCaveDungeons = false
+	#Turn off Sky dungeons (default:false)
+	disableSkyDungeons = false
+	#Turn off Tree Tops (default:false)
+	disableTreeTops = false
+	#Disable mobs spawning in dungeons (default:false)
+	disableMobsSpawnInDungeons = false
+	#Disable Squid Pet swim speed boost ability (default:false)
+	disableSquidSpeed = false
+	#Disable Creeper Pet explosion ability (default:false)
+	disableCreeperExplosion = false
+	#Disable Cloud Pet lightning strike ability (default:false)
+	disableCloudLightning = false
+	#Disable Enderman Pet auto-teleport (default:false)
+	disableEndermanAutoTeleport = false
+	#Disable Pingot Pet auto extract ability (default:false)
+	disablePingotAutoExtract = false
+	#Disable Sponge Pet absorb water (default:false)
+	disableSpongeWaterAbsorb = false
+	#Disable Illuminati Pet gives items ability (default:false)
+	disableIlluminatiGiveItems = false
+	#Illuminati Pet only gives craftable items (default:true)
+	illuminatiCraftedOnly = true
+	#Disable Machines that can Activate items (default:false)
+	disableRightClickMachines = false
+	#Reduce the number of Quantum Crystal Monster Pet minions (default:false)
+	reduceQuantumCrystalMonsterMinions = false
+	#Disable Spider Pet jump ability (default:false)
+	disableSpiderJump = false
+	#Disable Pets give items ability (default:false)
+	disablePetsGiveItems = false
+	#Disable Slime revival sound (default:false)
+	disableSlimeReviveSound = false
+	#Allow Black Hole pet abilities to affect other players (default:false)
+	enableBlackHoleAffectsPlayers = false
+	#Allow Pufferfish pet abilities to affect other players (default:false)
+	enablePufferfishAffectsPlayers = false
+	#Allow Moon pet abilities to affect other players (default:false)
+	enableMoonAffectsPlayers = false
+	#Allow Sun pet abilities to affect other players (default:false)
+	enableDubstepAffectsPlayers = false
+	#All players must be in bed for Bed Pet sleep ability (default:false)
+	allPlayersMustBeInBed = false
+	#Disable all holiday pets (default:false)
+	disableHolidayPets = false
+	#Disable the April Fool pet and messages (default:false)
+	disableAprilFoolHoliday = false
+	#Allow April Fool all year round (default:false)
+	yearroundAprilFool = false
+	#Allow more grieflike April Fools pranks (default:false)
+	enableAprilFoolGriefPranks = false
+	#Allow Petrifier to make legendary pets (default:false)
+	allowPetrifierLegendaries = false
+	#Disable the Petrifier (default:false)
+	disablePetrifier = false
+	#Disable random TNT in Tree Top chests (default:false)
+	disableTreeTopTNT = false
+	#Enable Loot Pet with FTBUltimine installed (default:false)
+	enableLootWithFTBUltimine = false
+	#Factor by which PacMan Powerup bonus increases with every kill (default: 3)
+	#Range: 1 ~ 10
+	pacManPowerupFactor = 3
+	#Cloud Pet fly speed (default:3)
+	#Range: 1 ~ 4
+	cloudFlySpeed = 3
+	#Radius blocks of water absorbed by Sponge Pet (default: 8)
+	#Range: 1 ~ 64
+	spongeAbsorbBlockRadius = 8
+	#Illuminati cooldown duration in minutes (default: 1)
+	#Range: 1 ~ 10
+	illuminatiCooldown = 1
+	#Illuminati invisibility duration in minutes (default: 1)
+	#Range: 1 ~ 3
+	illuminatiInvisibleDuration = 1
+	#Item cap for all loaded items, including mods (default: 5000)
+	#Range: 1 ~ 50000
+	illuminatiItemCapLimit = 5000
+	#Juggernaut cooldown duration in minutes (default: 1)
+	#Range: 1 ~ 10
+	juggernautCooldown = 1
+	#Juggernaut shield wall duration in minutes (default: 1)
+	#Range: 1 ~ 3
+	juggernautShieldWallDuration = 1
+	#Frequency of Sky Dungeons (default: 5)
+	#Range: 1 ~ 10
+	frequencySkyDungeons = 5
+	#Frequency of Underground Dungeons (default: 5)
+	#Range: 1 ~ 10
+	frequencyUndergroundDungeons = 5
+	#Frequency of Sea Cave Dungeons (default: 5)
+	#Range: 1 ~ 10
+	frequencySeaCaveDungeons = 5
+	#Frequency of Tree Tops (default: 5)
+	#Range: 1 ~ 10
+	frequencyTreeTops = 5
+	#Frequency of Space Dungeons (default: 5)
+	#Range: 1 ~ 10
+	frequencySpaceDungeons = 5
+	#Frequency of Nether Dungeons (default: 5)
+	#Range: 1 ~ 10
+	frequencyNetherDungeons = 5
+	#Frequency of Pet Eating (default: 120)
+	#Range: 1 ~ 5000
+	petEatTimerFactor = 120
+	#Holiday Pet active month (default:12)
+	#Range: 1 ~ 12
+	holidayPetMonth = 12
+	#Chunks Biome Pet will search through (default:96)
+	#Range: 1 ~ 1024
+	biomePetChunks = 96
+	#Disable the Anvil pet (default:false)
+	disableAnvil = false
+	#Disable the Apple pet (default:false)
+	disableApple = false
+	#Disable the April Fool pet (default:false)
+	disableAprilFool = false
+	#Disable the Banana pet (default:false)
+	disableBanana = false
+	#Disable the Bed pet (default:false)
+	disableBed = false
+	#Disable the Biome pet (default:false)
+	disableBiome = false
+	#Disable the Black Hole pet (default:false)
+	disableBlackHole = false
+	#Disable the (default:false)
+	disableBlaze = false
+	#Disable the (default:false)
+	disableBrewingStand = false
+	#Disable the Blaze pet (default:false)
+	disableCheetah = false
+	#Disable the Chest pet (default:false)
+	disableChest = false
+	#Disable the Chicken pet (default:false)
+	disableChicken = false
+	#Disable the Christmas Tree pet (default:false)
+	disableChristmasTree = false
+	#Disable the Cloud pet (default:false)
+	disableCloud = false
+	#Disable the Cobblestone pet (default:false)
+	disableCobblestone = false
+	#Disable the Cow pet (default:false)
+	disableCow = false
+	#Disable the disableing Table pet (default:false)
+	disabledisableingTable = false
+	#Disable the Creeper pet (default:false)
+	disableCreeper = false
+	#Disable the Dirt pet (default:false)
+	disableDirt = false
+	#Disable the Double Chest pet (default:false)
+	disableDoubleChest = false
+	#Disable the Dubstep pet (default:false)
+	disableDubstep = false
+	#Disable the Enchanting Table pet (default:false)
+	disableEnchantingTable = false
+	#Disable the Ender Chest pet (default:false)
+	disableEnderChest = false
+	#Disable the Enderman pet (default:false)
+	disableEnderman = false
+	#Disable the Flying Saddle pet (default:false)
+	disableFlyingSaddle = false
+	#Disable the Furnace pet (default:false)
+	disableFurnace = false
+	#Disable the Ghast pet (default:false)
+	disableGhast = false
+	#Disable the Grave pet (default:false)
+	disableGrave = false
+	#Disable the Heart pet (default:false)
+	disableHeart = false
+	#Disable the House pet (default:false)
+	disableHouse = false
+	#Disable the Illuminati pet (default:false)
+	disableIlluminati = false
+	#Disable the Iron Golem pet (default:false)
+	disableIronGolem = false
+	#Disable the Juggernaut pet (default:false)
+	disableJuggernaut = false
+	#Disable the Jukebox pet (default:false)
+	disableJukebox = false
+	#Disable the Lead pet (default:false)
+	disableLead = false
+	#Disable the Loot pet (default:false)
+	disableLoot = false
+	#Disable the Magma Cube pet (default:false)
+	disableMagmaCube = false
+	#Disable the Menorah pet (default:false)
+	disableMenorah = false
+	#Disable the Meta pet (default:false)
+	disableMeta = false
+	#Disable the Mickerson pet (default:false)
+	disableMickerson = false
+	#Disable the Mishumaa Saba pet (default:false)
+	disableMishumaaSaba = false
+	#Disable the Moon pet (default:false)
+	disableMoon = false
+	#Disable the Mooshroom pet (default:false)
+	disableMooshroom = false
+	#Disable the Nether Portal pet (default:false)
+	disableNetherPortal = false
+	#Disable the Ocelot pet (default:false)
+	disableOcelot = false
+	#Disable the PacMan pet (default:false)
+	disablePacMan = false
+	#Disable the Pig pet (default:false)
+	disablePig = false
+	#Disable the Pingot pet (default:false)
+	disablePingot = false
+	#Disable the Pixie pet (default:false)
+	disablePixie = false
+	#Disable the Politically Correct pet (default:false)
+	"disablePolitically Correct" = false
+	#Disable the Pufferfish pet (default:false)
+	disablePufferfish = false
+	#Disable the Purplicious Cow pet (default:false)
+	disablePurpliciousCow = false
+	#Disable the Quantum Crystal Monster pet (default:false)
+	disableQuantumCrystalMonster = false
+	#Disable the Quiver pet (default:false)
+	disableQuiver = false
+	#Disable the Saddle pet (default:false)
+	disableSaddle = false
+	#Disable the Sheep pet (default:false)
+	disableSheep = false
+	#Disable the Shield pet (default:false)
+	disableShield = false
+	#Disable the Siamese pet (default:false)
+	disableSiamese = false
+	#Disable the Silverfish pet (default:false)
+	disableSilverfish = false
+	#Disable the Slime pet (default:false)
+	disableSlime = false
+	#Disable the Snow Golem pet (default:false)
+	disableSnowGolem = false
+	#Disable the Spider pet (default:false)
+	disableSpider = false
+	#Disable the Sponge pet (default:false)
+	disableSponge = false
+	#Disable the Squid pet (default:false)
+	disableSquid = false
+	#Disable the Sun pet (default:false)
+	disableSun = false
+	#Disable the Torch pet (default:false)
+	disableTorch = false
+	#Disable the Wither pet (default:false)
+	disableWither = false
+	#Disable the Wolf pet (default:false)
+	disableWolf = false
+

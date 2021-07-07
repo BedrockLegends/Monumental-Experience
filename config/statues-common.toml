@@ -1,0 +1,44 @@
+
+#General settings
+[general]
+	#Setting this to false disables the statue bat from spawning naturally (Default: true)
+	statueBatSpawning = true
+
+#Statue drop Settings
+[drops]
+	#The drop chance of statues when statue drops is true (Default: 0.01)
+	#Range: 0.0 ~ 1.0
+	statueDropChance = 0.01
+	#Source of death that determines how the Statues drop (Default: "PLAYER") [player statue has it's own config option]
+	#ALL = All sources
+	#PLAYER = Player only
+	#PLAYER_FAKEPLAYER = Players / Fake players only
+	#Allowed Values: ALL, PLAYER, PLAYER_FAKEPLAYER
+	statueKillSource = "PLAYER"
+
+#Player Statue Settings
+[player]
+	#When true players will drop Player Statues when killed (Default: true)
+	playerDropsStatue = true
+	#Source of death that determines how the Player Statue drops (Default: "PLAYER") [player statue has it's own config option]
+	#ALL = All sources
+	#PLAYER = Player only
+	#PLAYER_FAKEPLAYER = Players / Fake players only
+	#Allowed Values: ALL, PLAYER, PLAYER_FAKEPLAYER
+	playerDropsKillSource = "PLAYER"
+	#The drop chance of player statues when playerDropsStatue is enabled (Default: 1.0)
+	#Range: 0.0 ~ 1.0
+	statueDropChance = 1.0
+	#When true Statues will add a player compass (Default: true)
+	playerCompass = true
+
+#Info messages
+[info_messages]
+	#Adding lines / removing lines specifies what the informative statue can say
+	info_messages = ["Statues is still in beta not all mobs have a statue yet", "Chickens are not royal, prove me wrong by placing the right statue on a royal looking block", "Undead stop burning in water, would a statue burn on a block that looks like water?", "Fun Fact: I was supposed to be a christmas special item, but plans got changed and now I am here", "Pigs love mud how will they react on a more sandy block", "Did you know chicken jockeys exist even in statues? go ahead try it out place a baby zombie statue on a chicken statue", "Huge thanks to Xisuma for helping create his statue", "Gone Fishing", "1-3 tall they seem, prickly is a bit mean, Give them a hat and see their true means", "Right click a fake mob with a statue core to prevent them from despawning", "Right click a player statue with a comparator to emit redstone when that player is online", "Right click a player statue with a compass to bound the compass to the last known location of the player", "A player and a creeper with blue fire in the middle", "How to make blue fire, if fire itself does not work", "Rename a bee 'Trans Bee' to show support for trans people", "Using a Statue Core on a player statue will make them grow, and will add more features to it", "The bat has returned, find them in caves near you, or in your local hellish dimension"]
+
+#Lucky players
+[lucky_players]
+	#Adding usernames will make these users have less luck with getting statues
+	lucky_players = ["iskall85"]
+

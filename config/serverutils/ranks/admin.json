@@ -1,0 +1,23 @@
+{
+  "name": "admin",
+  "prefix": "&8 &6&lAdmin &8",
+  "suffix": "",
+  "perms": [
+    "serverutils.maxhome_16",
+    "command.tell",
+    "command.ban",
+    "command.ban-ip",
+    "command.kill",
+    "command.tp",
+    "command.give",
+    "command.kick",
+    "command.kick.targets",
+    "serverutils.mute",
+    "serverutils.god.self"
+  ],
+  "parents": [
+    "default"
+  ],
+  "weight": 3,
+  "rank_up": 0
+}

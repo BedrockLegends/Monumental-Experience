@@ -1,0 +1,344 @@
+{
+	id: "2C6854CF34316C52"
+	group: "68BD27E8D0136E3E"
+	order_index: 5
+	filename: "wooden_utilities"
+	title: "&6Wooden Utilities"
+	icon: "woodenutilities:wooden_plate"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "&6Wooden Plates + Wooden Shears"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "43C35D40C9FEA0F1"
+			tasks: [
+				{
+					id: "0000000000000AA5"
+					type: "item"
+					item: {
+						id: "woodenutilities:wooden_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1FEF02585920FBF4"
+					type: "item"
+					title: "Wooden Plates"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:plates/wooden"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010AB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010AC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wooden Furnace"
+			x: 0.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "3C73EDBD941C38B7"
+			tasks: [{
+				id: "71053002E926930D"
+				type: "item"
+				item: "woodenutilities:wooden_furnace"
+			}]
+			rewards: [
+				{
+					id: "0000000000001099"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000109A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wooden Armor"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["0000000000000A9A"]
+			id: "3F85406759A5CECA"
+			tasks: [
+				{
+					id: "36826FF176F4AB88"
+					type: "item"
+					item: {
+						id: "woodenutilities:wooden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "617C473442AE9DA2"
+					type: "item"
+					item: {
+						id: "woodenutilities:wooden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000AA1"
+					type: "item"
+					item: {
+						id: "woodenutilities:wooden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000AA2"
+					type: "item"
+					item: {
+						id: "woodenutilities:wooden_boot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010A9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010AA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wood Cutter"
+			x: -4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "0000000000000AA3"
+			tasks: [{
+				id: "0000000000000AA4"
+				type: "item"
+				item: "woodenutilities:wood_cutter"
+			}]
+			rewards: [
+				{
+					id: "00000000000010A1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010A2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "68F9837897D5FD19"
+			tasks: [{
+				id: "0CDBA3FB129D335C"
+				type: "item"
+				item: "woodenutilities:wooden_horse_armor"
+			}]
+			rewards: [
+				{
+					id: "00000000000010A5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010A6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "670F5A49381AE211"
+			tasks: [{
+				id: "3B8A4E9DDA6D8821"
+				type: "item"
+				item: "woodenutilities:wooden_backpack"
+			}]
+			rewards: [
+				{
+					id: "00000000000010A7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010A8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wooden Hopper"
+			x: -4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "223FB4187EEC463A"
+			tasks: [{
+				id: "6C0D2E7419D4F931"
+				type: "item"
+				item: "woodenutilities:wooden_hopper"
+			}]
+			rewards: [
+				{
+					id: "00000000000010A3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010A4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wooden Solar Panel"
+			x: 4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "3D00512C4F2389BD"
+			tasks: [{
+				id: "1E550D30298BE4F8"
+				type: "item"
+				item: "woodenutilities:wooden_solar_panel"
+			}]
+			rewards: [
+				{
+					id: "000000000000109D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000109E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wooden Lamp"
+			x: -2.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "276FC6B87AFCF9C7"
+			tasks: [{
+				id: "6576FC11A4899AD7"
+				type: "item"
+				item: "woodenutilities:wooden_lamp"
+			}]
+			rewards: [
+				{
+					id: "0000000000001097"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001098"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Crafting Slab"
+			x: -4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "12EEC4DCF2020C9A"
+			tasks: [{
+				id: "510F1624097B8E09"
+				type: "item"
+				item: "woodenutilities:crafting_slab"
+			}]
+			rewards: [
+				{
+					id: "000000000000109F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010A0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "&6Wooden Bar"
+			x: 2.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["0000000000000A9A"]
+			id: "0522B496DB2030E4"
+			tasks: [{
+				id: "0D4D0BBFADA5A232"
+				type: "item"
+				item: "woodenutilities:wooden_bars"
+			}]
+			rewards: [
+				{
+					id: "000000000000109B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000109C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

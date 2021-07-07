@@ -1,0 +1,11 @@
+"Enable Base" = true
+
+[Base]
+	#No more boring 3D Area of Effect Clouds
+	"Enable Area Effect Cloud 3D" = true
+
+	#No more boring 3D Area of Effect Clouds
+	[Base."Area Effect Cloud 3D"]
+		#If true, vanilla Area of Effect Clouds will be replaced with 3D versions of them
+		"Replace Vanilla Area of Effect Clouds" = true
+

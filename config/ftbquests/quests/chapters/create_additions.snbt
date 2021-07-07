@@ -1,0 +1,143 @@
+{
+	id: "5F8FDCEDD1F79152"
+	group: "611DD6950AEE3D90"
+	order_index: 1
+	filename: "create_additions"
+	title: "&6Create Additions"
+	icon: "createaddition:electric_motor"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "40249A12B86B5422"
+			tasks: [{
+				id: "32653CB57CD2DFD0"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "3BC65A073FEF0673"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "7BCAF3000074933F"
+			tasks: [{
+				id: "2D4C5CE9DCC36788"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "785E0354AC432E0B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "55B145C21A4C44B2"
+			tasks: [{
+				id: "02E4F378D5C4C5FF"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "2DD46DA2473A81BB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			id: "1033E1724C8058AF"
+			tasks: [{
+				id: "3A5B9CF53EFC559B"
+				type: "item"
+				item: "createaddition:connector"
+			}]
+			rewards: [{
+				id: "3B07EC9E31859FB1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "0D51A1AB8E0559E3"
+			tasks: [{
+				id: "0F69C1978C36B02A"
+				type: "item"
+				item: "createaddition:multimeter"
+			}]
+			rewards: [{
+				id: "088DA8DE4EB8F860"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "6A925B34FF7FE307"
+			tasks: [
+				{
+					id: "17659321962F590C"
+					type: "item"
+					item: "createaddition:copper_spool"
+				}
+				{
+					id: "3A3941E0A8E23C82"
+					type: "item"
+					item: "createaddition:iron_spool"
+				}
+				{
+					id: "3DF4CA9BE1847B7D"
+					type: "item"
+					item: "createaddition:gold_spool"
+				}
+			]
+			rewards: [{
+				id: "35D2F41E655D9103"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "1FBE63FB1C8A6E71"
+			tasks: [{
+				id: "68ACD6D1DC1D99A3"
+				type: "item"
+				item: "createaddition:heater"
+			}]
+			rewards: [{
+				id: "0799B534A5AFFE95"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "4ABA11EF0B7B7E72"
+			tasks: [{
+				id: "31A8DEB42E0E9442"
+				type: "item"
+				item: "createaddition:capacitor"
+			}]
+			rewards: [{
+				id: "45C1EE767BE06B90"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

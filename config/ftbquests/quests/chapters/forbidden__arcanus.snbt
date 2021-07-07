@@ -1,0 +1,99 @@
+{
+	id: "0000000000000A86"
+	group: "4814F40AB34427B6"
+	order_index: 4
+	filename: "forbidden__arcanus"
+	title: "&6Forbidden and Arcanus"
+	icon: "forbidden_arcanus:forbiddenmicon"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000733"]
+			id: "0000000000000A87"
+			tasks: [{
+				id: "0000000000000A88"
+				type: "item"
+				item: "forbidden_arcanus:forbiddenmicon"
+			}]
+			rewards: [{
+				id: "0000000000000FC4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000000733"
+			tasks: [{
+				id: "0000000000000738"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+			rewards: [{
+				id: "0000000000000FC2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["0000000000000733"]
+			id: "0000000000000739"
+			tasks: [{
+				id: "0000000000000743"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+			rewards: [{
+				id: "0000000000000FC3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: [
+				"0000000000000733"
+				"0000000000000739"
+			]
+			id: "0000000000000757"
+			tasks: [{
+				id: "0000000000000758"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "0000000000000FC1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["0000000000000733"]
+			id: "000000000000075C"
+			tasks: [{
+				id: "0000000000000765"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_log"
+			}]
+			rewards: [{
+				id: "0000000000000FC0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

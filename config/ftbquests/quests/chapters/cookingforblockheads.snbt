@@ -1,0 +1,460 @@
+{
+	id: "00000000000006C8"
+	group: "33C9D311E461F30C"
+	order_index: 0
+	filename: "cookingforblockheads"
+	title: "&6Cooking For Blockheads"
+	icon: "cookingforblockheads:cow_jar"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "00000000000006C9"
+			tasks: [
+				{
+					id: "00000000000006CA"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+				{
+					id: "00000000000006CF"
+					type: "item"
+					item: "cookingforblockheads:crafting_book"
+				}
+				{
+					id: "00000000000006D0"
+					type: "item"
+					item: "cookingforblockheads:no_filter_edition"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F8F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "heart"
+			dependencies: ["00000000000006C9"]
+			size: 1.5d
+			id: "00000000000006D1"
+			tasks: [{
+				id: "00000000000006D2"
+				type: "item"
+				item: "cookingforblockheads:white_kitchen_floor"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0000000000000F98"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006D3"
+			tasks: [{
+				id: "00000000000006D4"
+				type: "item"
+				item: "cookingforblockheads:brown_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F99"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006D5"
+			tasks: [{
+				id: "00000000000006D6"
+				type: "item"
+				item: "cookingforblockheads:pink_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F93"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006D7"
+			tasks: [{
+				id: "00000000000006D8"
+				type: "item"
+				item: "cookingforblockheads:yellow_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F9E"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006D9"
+			tasks: [{
+				id: "00000000000006DA"
+				type: "item"
+				item: "cookingforblockheads:green_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F9B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006DB"
+			tasks: [{
+				id: "00000000000006DC"
+				type: "item"
+				item: "cookingforblockheads:light_blue_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F95"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006DD"
+			tasks: [{
+				id: "00000000000006DE"
+				type: "item"
+				item: "cookingforblockheads:purple_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F94"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006DF"
+			tasks: [{
+				id: "00000000000006E0"
+				type: "item"
+				item: "cookingforblockheads:magenta_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F9C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006E1"
+			tasks: [{
+				id: "00000000000006E2"
+				type: "item"
+				item: "cookingforblockheads:black_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F91"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006E3"
+			tasks: [{
+				id: "00000000000006E4"
+				type: "item"
+				item: "cookingforblockheads:orange_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F9A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006E5"
+			tasks: [{
+				id: "00000000000006E6"
+				type: "item"
+				item: "cookingforblockheads:light_gray_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F9D"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006E7"
+			tasks: [{
+				id: "00000000000006E8"
+				type: "item"
+				item: "cookingforblockheads:blue_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F92"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006E9"
+			tasks: [{
+				id: "00000000000006EA"
+				type: "item"
+				item: "cookingforblockheads:cyan_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F97"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006D1"]
+			id: "00000000000006EB"
+			tasks: [{
+				id: "00000000000006EC"
+				type: "item"
+				item: "cookingforblockheads:gray_kitchen_floor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000F96"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006C9"]
+			id: "00000000000006ED"
+			tasks: [{
+				id: "00000000000006EE"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+			rewards: [{
+				id: "0000000000000F9F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["00000000000006C9"]
+			id: "00000000000006EF"
+			tasks: [
+				{
+					id: "00000000000006F0"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "00000000000006FA"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+				{
+					id: "00000000000006FB"
+					type: "item"
+					item: "cookingforblockheads:hanging_corner"
+				}
+				{
+					id: "00000000000006FC"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+				{
+					id: "00000000000006FD"
+					type: "item"
+					item: "cookingforblockheads:corner"
+				}
+				{
+					id: "00000000000006FE"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F8B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006C9"]
+			id: "00000000000006F1"
+			tasks: [
+				{
+					id: "00000000000006F2"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "00000000000006F7"
+					type: "item"
+					item: "cookingforblockheads:spice_rack"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F90"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["00000000000006C9"]
+			id: "00000000000006F3"
+			tasks: [
+				{
+					id: "00000000000006F4"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "00000000000006F8"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+				{
+					id: "00000000000006FF"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F8E"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["00000000000006C9"]
+			id: "00000000000006F5"
+			tasks: [
+				{
+					id: "00000000000006F6"
+					type: "item"
+					item: "cookingforblockheads:cow_jar"
+				}
+				{
+					id: "00000000000006F9"
+					type: "item"
+					item: "cookingforblockheads:milk_jar"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F8C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["00000000000006F3"]
+			id: "0000000000000700"
+			tasks: [
+				{
+					id: "0000000000000701"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "0000000000000702"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "0000000000000703"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F8D"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

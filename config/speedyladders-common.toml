@@ -1,0 +1,16 @@
+
+#Speed
+[general]
+	#Stone Ladder Speed
+	#Range: 0.01 ~ 10.0
+	stoneLadderSpeed = 0.06
+	#Iron Ladder Speed
+	#Range: 0.01 ~ 10.0
+	ironLadderSpeed = 0.12
+	#Gold Ladder Speed
+	#Range: 0.01 ~ 10.0
+	goldLadderSpeed = 0.2
+	#Diamond Ladder Speed
+	#Range: 0.01 ~ 10.0
+	diamondLadderSpeed = 0.3
+

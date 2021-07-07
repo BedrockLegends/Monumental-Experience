@@ -1,0 +1,169 @@
+{
+	id: "0000000000001CDB"
+	group: "7E54189F6BA49858"
+	order_index: 1
+	filename: "compact_machines"
+	title: "&6Compact Machines"
+	icon: "compactmachines:personal_shrinking_device"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "heart"
+			hide_text_until_complete: false
+			size: 1.5d
+			id: "0000000000001CDC"
+			tasks: [{
+				id: "0000000000001CDD"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+			rewards: [{
+				id: "0000000000001CDE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CDF"
+			tasks: [{
+				id: "0000000000001CE0"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "0000000000001CF5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CE1"
+			tasks: [{
+				id: "0000000000001CE2"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "0000000000001CF6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CE3"
+			tasks: [{
+				id: "0000000000001CE4"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "0000000000001CF7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CE5"
+			tasks: [{
+				id: "0000000000001CE6"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+			rewards: [{
+				id: "0000000000001CF3"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CE7"
+			tasks: [{
+				id: "0000000000001CE8"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+			rewards: [{
+				id: "0000000000001CF1"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CE9"
+			tasks: [{
+				id: "0000000000001CEA"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "0000000000001CF2"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CEB"
+			tasks: [{
+				id: "0000000000001CEC"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "0000000000001CF4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["0000000000001CDC"]
+			id: "0000000000001CED"
+			tasks: [
+				{
+					id: "0000000000001CEE"
+					type: "item"
+					item: "compactmachines:item_tunnel"
+				}
+				{
+					id: "0000000000001CEF"
+					type: "item"
+					item: "compactmachines:redstone_in_tunnel"
+				}
+				{
+					id: "0000000000001CF0"
+					type: "item"
+					item: "compactmachines:redstone_out_tunnel"
+				}
+			]
+			rewards: [{
+				id: "0000000000001CF8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

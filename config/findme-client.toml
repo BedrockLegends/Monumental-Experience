@@ -1,0 +1,10 @@
+
+[CLIENT]
+	#How many ticks the searched-for item will be highlighted in containers
+	#Range: > 0
+	CONTAINER_TRACK_TIME = 600
+	#Whether or not tracked items will have their backgrounds highlighted
+	CONTAINER_TRACKING = true
+	#Colour used to highlight container background slots when a tracked item is contained within
+	CONTAINER_HIGHLIGHT = "#cf9d15"
+

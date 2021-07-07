@@ -1,0 +1,559 @@
+{
+	id: "00000000000004FE"
+	group: "13ABD77363F067A7"
+	order_index: 0
+	filename: "animalkilling"
+	title: "&9Animal Killing"
+	icon: {
+		id: "good_nights_sleep:rainbow_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000000501"
+			tasks: [{
+				id: "0000000000000502"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000503"
+			tasks: [{
+				id: "0000000000000504"
+				type: "kill"
+				title: "O wow, You killed Porky"
+				entity: "minecraft:pig"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DB6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DB7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000517"
+			tasks: [{
+				id: "0000000000000518"
+				type: "kill"
+				title: "O Wow, Not Sir chickenstien"
+				entity: "minecraft:chicken"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DCC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DCD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "00000000000006A5"
+			tasks: [{
+				id: "00000000000006A6"
+				type: "kill"
+				entity: "minecraft:cow"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DB8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DB9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "00000000000006A7"
+			tasks: [{
+				id: "00000000000006A8"
+				type: "kill"
+				entity: "minecraft:donkey"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DBE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DBF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "00000000000006A9"
+			tasks: [{
+				id: "00000000000006AA"
+				type: "kill"
+				entity: "minecraft:dolphin"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DD8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DD9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "00000000000006AB"
+			tasks: [{
+				id: "00000000000006AC"
+				type: "kill"
+				entity: "minecraft:fox"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DC2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DC3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "00000000000006AD"
+			tasks: [{
+				id: "00000000000006AE"
+				type: "kill"
+				entity: "minecraft:horse"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DC4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DC5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "00000000000006B1"
+			tasks: [{
+				id: "00000000000006B2"
+				type: "kill"
+				entity: "minecraft:llama"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DDC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DDD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000704"
+			tasks: [{
+				id: "0000000000000705"
+				type: "kill"
+				entity: "minecraft:mooshroom"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DD6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DD7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000706"
+			tasks: [{
+				id: "0000000000000707"
+				type: "kill"
+				entity: "minecraft:turtle"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DDA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DDB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000708"
+			tasks: [{
+				id: "0000000000000709"
+				type: "kill"
+				entity: "minecraft:squid"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DB4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DB5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "000000000000070A"
+			tasks: [{
+				id: "000000000000070B"
+				type: "kill"
+				entity: "minecraft:mule"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DCA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DCB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "000000000000070C"
+			tasks: [{
+				id: "000000000000070D"
+				type: "kill"
+				entity: "minecraft:parrot"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DCE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DCF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "Time To Kill Some 20 Bats"
+			icon: "minecraft:bat_spawn_egg"
+			x: -8.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "000000000000070E"
+			tasks: [{
+				id: "000000000000070F"
+				type: "kill"
+				entity: "minecraft:bat"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DBA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DBB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000710"
+			tasks: [{
+				id: "0000000000000711"
+				type: "kill"
+				entity: "minecraft:bee"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DBC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DBD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000712"
+			tasks: [{
+				id: "0000000000000713"
+				type: "kill"
+				entity: "minecraft:cat"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DC6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DC7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000714"
+			tasks: [{
+				id: "0000000000000715"
+				type: "kill"
+				entity: "minecraft:panda"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DC8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DC9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000716"
+			tasks: [{
+				id: "0000000000000717"
+				type: "kill"
+				entity: "minecraft:polar_bear"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DD2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DD3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "0000000000000718"
+			tasks: [{
+				id: "0000000000000719"
+				type: "kill"
+				entity: "minecraft:rabbit"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DD4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DD5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "000000000000071A"
+			tasks: [{
+				id: "000000000000071B"
+				type: "kill"
+				entity: "minecraft:sheep"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DD0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DD1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["0000000000000501"]
+			id: "000000000000071C"
+			tasks: [{
+				id: "000000000000071D"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "0000000000000DC0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000000DC1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

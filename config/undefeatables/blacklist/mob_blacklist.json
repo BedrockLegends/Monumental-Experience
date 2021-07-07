@@ -1,0 +1,6 @@
+{
+  "mobBlacklist": [
+    "minecraft:pig",
+    "minecraft:cow"
+  ]
+}

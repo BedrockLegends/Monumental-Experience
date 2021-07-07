@@ -1,0 +1,16 @@
+
+#General settings for the mod.
+[general]
+	#Should enchantability be shown?
+	show-enchantability = true
+	#Should repair cost be shown in the anvil GUI?
+	show-repair-cost = true
+	#Should mining efficiency be shown?
+	show-efficiency = true
+	#Should harvest level be shown?
+	show-harvest-level = true
+	#Should the durability be shown on the tool?
+	show-durability = true
+	#Should enchantability always be shown?
+	always-show-enchantability = false
+

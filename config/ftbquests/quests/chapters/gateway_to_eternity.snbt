@@ -1,0 +1,558 @@
+{
+	id: "0000000000001C09"
+	group: "6B2D545E7A3D7242"
+	order_index: 1
+	filename: "gateway_to_eternity"
+	title: "&6Gateway to Eternity"
+	icon: {
+		id: "gateways:small_gate_opener"
+		Count: 1b
+		tag: {
+			gateway_data: {
+				name: "gateways.small_skeleton_gate"
+				max_wave_time: 600
+				completion_xp: 150
+				color: "white"
+				entity: {
+					Entity: {
+						id: "minecraft:skeleton"
+					}
+					Weight: 1
+				}
+			}
+			opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_skeleton_gate\"}]}"
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Key to the Gateways"
+			icon: {
+				id: "gateways:small_gate_opener"
+				Count: 1b
+				tag: {
+					gateway_data: {
+						name: "gateways.small_skeleton_gate"
+						max_wave_time: 600
+						completion_xp: 150
+						color: "white"
+						entity: {
+							Entity: {
+								id: "minecraft:skeleton"
+							}
+							Weight: 1
+						}
+					}
+					opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_skeleton_gate\"}]}"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000001C0A"
+			tasks: [{
+				id: "0000000000001C0B"
+				type: "item"
+				item: "mysticalagriculture:enderium_essence"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C0C"
+			tasks: [{
+				id: "0000000000001C0D"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_creeper_gate"
+							max_wave_time: 350
+							completion_xp: 100
+							color: "green"
+							entity: {
+								Entity: {
+									id: "minecraft:creeper"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_creeper_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C35"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C36"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C0E"
+			tasks: [{
+				id: "0000000000001C0F"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_spider_gate"
+							max_wave_time: 600
+							completion_xp: 150
+							color: "red"
+							entity: {
+								Entity: {
+									id: "minecraft:spider"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_spider_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C33"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C34"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C10"
+			tasks: [{
+				id: "0000000000001C11"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_imp_gate"
+							max_wave_time: 750
+							completion_xp: 250
+							color: "red"
+							entity: {
+								Entity: {
+									id: "doomweapon:imp"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_imp_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C2F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C30"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C12"
+			tasks: [{
+				id: "0000000000001C13"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_witch_gate"
+							max_wave_time: 1400
+							completion_xp: 700
+							color: "pink"
+							entity: {
+								Entity: {
+									id: "minecraft:witch"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_witch_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C2A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "0000000000001C2B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C2C"
+					type: "item"
+					item: "mysticalagriculture:enderium_essence"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C14"
+			tasks: [{
+				id: "0000000000001C15"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_ghast_gate"
+							max_wave_time: 500
+							completion_xp: 250
+							color: "white"
+							entity: {
+								Entity: {
+									id: "minecraft:ghast"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_ghast_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C28"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C29"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C16"
+			tasks: [{
+				id: "0000000000001C17"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_magma_gate"
+							max_wave_time: 450
+							completion_xp: 100
+							color: "red"
+							entity: {
+								Entity: {
+									id: "minecraft:magma_cube"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_magma_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C3F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C40"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C18"
+			tasks: [{
+				id: "0000000000001C19"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_enderman_gate"
+							max_wave_time: 1200
+							completion_xp: 500
+							color: "purple"
+							entity: {
+								Entity: {
+									id: "minecraft:enderman"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_enderman_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C3B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C3C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C1A"
+			tasks: [{
+				id: "0000000000001C1B"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_blaze_gate"
+							max_wave_time: 750
+							completion_xp: 250
+							color: "red"
+							entity: {
+								Entity: {
+									id: "minecraft:blaze"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_blaze_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C39"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C3A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C1C"
+			tasks: [{
+				id: "0000000000001C1D"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_slime_gate"
+							max_wave_time: 600
+							completion_xp: 150
+							color: "green"
+							entity: {
+								Entity: {
+									id: "minecraft:slime"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_slime_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C37"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C38"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C1E"
+			tasks: [{
+				id: "0000000000001C1F"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_zombie_gate"
+							max_wave_time: 600
+							completion_xp: 150
+							color: "blue"
+							entity: {
+								Entity: {
+									id: "minecraft:zombie"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_zombie_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C31"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C32"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C20"
+			tasks: [{
+				id: "0000000000001C21"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_shulker_gate"
+							max_wave_time: 1000
+							completion_xp: 400
+							color: "purple"
+							entity: {
+								Entity: {
+									id: "minecraft:shulker"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_shulker_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C27"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C2E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["0000000000001C0A"]
+			id: "0000000000001C22"
+			tasks: [{
+				id: "0000000000001C23"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_skeleton_gate"
+							max_wave_time: 600
+							completion_xp: 150
+							color: "white"
+							entity: {
+								Entity: {
+									id: "minecraft:skeleton"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_skeleton_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001C3D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001C3E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

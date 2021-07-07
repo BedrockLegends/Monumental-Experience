@@ -1,0 +1,15 @@
+{
+  "tier1drops": [
+    "minecraft:iron_ingot:0-15:0-350",
+    "minecraft:diamond:17-28:0-350"
+  ],
+  "tier2drops": [
+    "minecraft:iron_ingot:0-15:0-350"
+  ],
+  "tier3drops": [
+    "minecraft:iron_ingot:0-15:0-350"
+  ],
+  "tier4drops": [
+    "minecraft:iron_ingot:0-15:0-350"
+  ]
+}

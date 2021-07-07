@@ -1,0 +1,1243 @@
+{
+	id: "0000000000000AF7"
+	group: "570AEC24DD8505B2"
+	order_index: 10
+	filename: "thermal"
+	title: "&6Thermal"
+	icon: "thermal:signalum_glass"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.5d
+			y: 1.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "0000000000000AF8"
+			tasks: [{
+				id: "7EE6BC32127565D3"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			rewards: [
+				{
+					id: "00000000000010C3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010C4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["0000000000000AF8"]
+			id: "635C0CFC242FFBE2"
+			tasks: [{
+				id: "56EB9A79A118188A"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			shape: "gear"
+			id: "7AAEC73777D7CBCB"
+			tasks: [{
+				id: "3EAA824E29519C5F"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "00000000000018FD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			shape: "gear"
+			id: "5639121C75F0AC1C"
+			tasks: [{
+				id: "0000000000000AFF"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "0000000000001901"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			shape: "gear"
+			id: "0BAC2F73444175E9"
+			tasks: [{
+				id: "1E8C48DF73FEAED0"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "00000000000018FF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			shape: "gear"
+			id: "08BA6EBD1B9836A5"
+			tasks: [{
+				id: "0177E4A6793EC29F"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "00000000000018FE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			shape: "gear"
+			optional: true
+			id: "24AE2C2B91DB95BD"
+			tasks: [{
+				id: "12E3AF9F07BCBF7A"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "00000000000018FC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.0d
+			shape: "gear"
+			id: "40981BDE80994E69"
+			tasks: [{
+				id: "0000000000000B07"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "0000000000001903"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			shape: "gear"
+			id: "0E1AC7DDA9C7942E"
+			tasks: [{
+				id: "4386E4934F350B3B"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "0000000000001902"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			shape: "gear"
+			id: "0FBFDF6B9381DC1A"
+			tasks: [{
+				id: "0000000000000B0B"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "00000000000018F8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "gear"
+			id: "29F5D9684B3E0D9B"
+			tasks: [{
+				id: "3A723FF8BF26AEB4"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "00000000000018FB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 8.0d
+			shape: "gear"
+			id: "6006A898B875CFBB"
+			tasks: [{
+				id: "5D7ED0B7334ADB69"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "0000000000001904"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			shape: "gear"
+			id: "57BFA98BF83A4ED7"
+			tasks: [{
+				id: "35CF3913DA9CA06C"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [{
+				id: "0000000000001900"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			shape: "gear"
+			id: "0C577631BCBA9F53"
+			tasks: [{
+				id: "75BF8B849E67C679"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "00000000000018FA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			shape: "gear"
+			id: "35D731DFEB88C067"
+			tasks: [{
+				id: "64CF2A1D45F35696"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "00000000000018F9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "0000000000000B16"
+			tasks: [{
+				id: "60FCE1EE1C657E86"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "7B34C30BFA5AFAC7"
+			tasks: [{
+				id: "42F53411CC609093"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "00000000000018F1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "4C9A27FBFAE9FE3C"
+			tasks: [{
+				id: "151DCE79255DDBC3"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "00000000000018F3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "30A2851CE3AF5C86"
+			tasks: [{
+				id: "6E88FA55ED4C75B0"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "00000000000018F4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "114035857B392805"
+			tasks: [{
+				id: "6E7D941B23A360E3"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "00000000000018F5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Coils of plenty"
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["0000000000000AF8"]
+			id: "790ED5F0C0481E06"
+			tasks: [
+				{
+					id: "7692AF917EAC7EBE"
+					type: "item"
+					item: "thermal:rf_coil_augment"
+				}
+				{
+					id: "0FA6607B17A6CF32"
+					type: "item"
+					item: "thermal:rf_coil_storage_augment"
+				}
+				{
+					id: "25A29837DBD974AC"
+					type: "item"
+					item: "thermal:rf_coil_xfer_augment"
+				}
+			]
+			rewards: [{
+				id: "00000000000018F7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "O My, Look a ton of Upgrades"
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["0000000000000AF8"]
+			id: "0000000000000B24"
+			tasks: [
+				{
+					id: "0000000000000B25"
+					type: "item"
+					item: "thermal:fluid_tank_augment"
+				}
+				{
+					id: "7D7CCDBF60EDD99A"
+					type: "item"
+					item: "thermal:machine_speed_augment"
+				}
+				{
+					id: "0000000000000B27"
+					type: "item"
+					item: "thermal:machine_output_augment"
+				}
+				{
+					id: "0000000000000B28"
+					type: "item"
+					item: "thermal:machine_catalyst_augment"
+				}
+				{
+					id: "0000000000000B29"
+					type: "item"
+					item: "thermal:machine_cycle_augment"
+				}
+				{
+					id: "0000000000000B2A"
+					type: "item"
+					item: "thermal:dynamo_output_augment"
+				}
+				{
+					id: "0000000000000B2B"
+					type: "item"
+					item: "thermal:area_radius_augment"
+				}
+				{
+					id: "0000000000000B2C"
+					type: "item"
+					item: "thermal:dynamo_fuel_augment"
+				}
+				{
+					id: "0000000000000B2D"
+					type: "item"
+					item: "thermal:potion_amplifier_augment"
+				}
+				{
+					id: "0000000000000B2E"
+					type: "item"
+					item: "thermal:potion_duration_augment"
+				}
+			]
+			rewards: [{
+				id: "00000000000018F6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			shape: "gear"
+			id: "0000000000000B2F"
+			tasks: [{
+				id: "0000000000000B30"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "00000000000018E7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["0000000000000B2F"]
+			id: "0000000000000B31"
+			tasks: [{
+				id: "0000000000000B32"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "00000000000018E9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.0d
+			shape: "gear"
+			dependencies: ["0000000000000B31"]
+			id: "0000000000000B33"
+			tasks: [{
+				id: "0000000000000B34"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "00000000000018EA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			shape: "gear"
+			id: "0000000000000B35"
+			tasks: [{
+				id: "0000000000000B36"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [
+				{
+					id: "00000000000010B3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010B4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			shape: "gear"
+			id: "0000000000000B37"
+			tasks: [{
+				id: "0000000000000B38"
+				type: "item"
+				item: "thermal:lock"
+			}]
+			rewards: [
+				{
+					id: "00000000000010B1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010B2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			shape: "gear"
+			id: "0000000000000B39"
+			tasks: [{
+				id: "0000000000000B3A"
+				type: "item"
+				item: "thermal:detonator"
+			}]
+			rewards: [
+				{
+					id: "00000000000010AF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010B0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "Rails O My"
+			x: 6.5d
+			y: 10.0d
+			shape: "gear"
+			id: "0000000000000B3B"
+			tasks: [
+				{
+					id: "0000000000000B3C"
+					type: "item"
+					item: "thermal:crossover_rail"
+				}
+				{
+					id: "0000000000000B3D"
+					type: "item"
+					item: "thermal:prismarine_rail"
+				}
+				{
+					id: "0000000000000B3E"
+					type: "item"
+					item: "thermal:prismarine_crossover_rail"
+				}
+				{
+					id: "0000000000000B3F"
+					type: "item"
+					item: "thermal:prismarine_powered_rail"
+				}
+				{
+					id: "0000000000000B40"
+					type: "item"
+					item: "thermal:prismarine_activator_rail"
+				}
+				{
+					id: "0000000000000B41"
+					type: "item"
+					item: "thermal:prismarine_detector_rail"
+				}
+				{
+					id: "0000000000000B42"
+					type: "item"
+					item: "thermal:lumium_rail"
+				}
+				{
+					id: "0000000000000B43"
+					type: "item"
+					item: "thermal:lumium_crossover_rail"
+				}
+				{
+					id: "0000000000000B44"
+					type: "item"
+					item: "thermal:lumium_powered_rail"
+				}
+				{
+					id: "0000000000000B45"
+					type: "item"
+					item: "thermal:lumium_activator_rail"
+				}
+				{
+					id: "0000000000000B46"
+					type: "item"
+					item: "thermal:lumium_detector_rail"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010AD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010AE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			shape: "gear"
+			id: "0000000000000B47"
+			tasks: [
+				{
+					id: "0000000000000B48"
+					type: "item"
+					item: "thermal:earth_charge"
+				}
+				{
+					id: "0000000000000B49"
+					type: "item"
+					item: "thermal:ice_charge"
+				}
+				{
+					id: "0000000000000B4A"
+					type: "item"
+					item: "thermal:lightning_charge"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010B5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010B6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			shape: "gear"
+			id: "0000000000000B4B"
+			tasks: [
+				{
+					id: "0000000000000B4C"
+					type: "item"
+					item: "thermal:device_hive_extractor"
+				}
+				{
+					id: "0000000000000B4D"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+				}
+				{
+					id: "0000000000000B4E"
+					type: "item"
+					item: "thermal:tinker_bench"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010B7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010B8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			shape: "gear"
+			id: "0000000000000B4F"
+			tasks: [
+				{
+					id: "0000000000000B50"
+					type: "item"
+					item: "thermal:phyto_tnt"
+				}
+				{
+					id: "0000000000000B51"
+					type: "item"
+					item: "thermal:fire_tnt"
+				}
+				{
+					id: "0000000000000B52"
+					type: "item"
+					item: "thermal:earth_tnt"
+				}
+				{
+					id: "0000000000000B53"
+					type: "item"
+					item: "thermal:ice_tnt"
+				}
+				{
+					id: "0000000000000B54"
+					type: "item"
+					item: "thermal:lightning_tnt"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010B9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010BA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "0000000000000B55"
+			tasks: [
+				{
+					id: "0000000000000B56"
+					type: "item"
+					item: "thermal:flux_drill"
+				}
+				{
+					id: "0000000000000B57"
+					type: "item"
+					item: "thermal:flux_saw"
+				}
+			]
+			rewards: [{
+				id: "00000000000018E3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["0000000000000AF8"]
+			id: "0000000000000B58"
+			tasks: [
+				{
+					id: "0000000000000B59"
+					type: "item"
+					item: {
+						id: "thermal:flux_capacitor"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0000000000000B5A"
+					type: "item"
+					item: "thermal:flux_magnet"
+				}
+			]
+			rewards: [{
+				id: "00000000000018F2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			shape: "gear"
+			id: "0000000000000B5D"
+			tasks: [
+				{
+					id: "0000000000000B5E"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B5F"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B60"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B61"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "00000000000018ED"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			shape: "gear"
+			id: "0000000000000B62"
+			tasks: [
+				{
+					id: "0000000000000B63"
+					type: "item"
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B64"
+					type: "item"
+					item: {
+						id: "thermal:diving_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B65"
+					type: "item"
+					item: {
+						id: "thermal:diving_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B66"
+					type: "item"
+					item: {
+						id: "thermal:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "00000000000018F0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.0d
+			shape: "gear"
+			id: "0000000000000B67"
+			tasks: [
+				{
+					id: "0000000000000B68"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B69"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B6A"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B6B"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "00000000000018EC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000B6C"
+			tasks: [
+				{
+					id: "0000000000000B6D"
+					type: "item"
+					item: "thermal:explosive_grenade"
+				}
+				{
+					id: "0000000000000B6E"
+					type: "item"
+					item: "thermal:phyto_grenade"
+				}
+				{
+					id: "0000000000000B6F"
+					type: "item"
+					item: "thermal:fire_grenade"
+				}
+				{
+					id: "0000000000000B70"
+					type: "item"
+					item: "thermal:earth_grenade"
+				}
+				{
+					id: "0000000000000B71"
+					type: "item"
+					item: "thermal:earth_grenade"
+				}
+				{
+					id: "0000000000000B72"
+					type: "item"
+					item: "thermal:lightning_grenade"
+				}
+				{
+					id: "0000000000000B73"
+					type: "item"
+					item: "thermal:ice_grenade"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010C7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010C8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000B74"
+			tasks: [{
+				id: "0000000000000B75"
+				type: "kill"
+				entity: "thermal:blizz"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "00000000000010C5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010C6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000B76"
+			tasks: [{
+				id: "0000000000000B77"
+				type: "kill"
+				entity: "thermal:blitz"
+				value: 50L
+			}]
+			rewards: [{
+				id: "00000000000010C2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000B85"
+			tasks: [{
+				id: "0000000000000CE8"
+				type: "kill"
+				entity: "thermal:basalz"
+				value: 50L
+			}]
+			rewards: [{
+				id: "00000000000010C1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000CE9"
+			tasks: [
+				{
+					id: "0000000000000CEA"
+					type: "item"
+					item: "thermal:press_coin_die"
+				}
+				{
+					id: "0000000000000CEB"
+					type: "item"
+					item: "thermal:press_gear_die"
+				}
+				{
+					id: "0000000000000CEC"
+					type: "item"
+					item: "thermal:chiller_ball_cast"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000B91"
+			tasks: [
+				{
+					id: "0000000000000B92"
+					type: "item"
+					item: "thermal:underwater_minecart"
+				}
+				{
+					id: "0000000000000B93"
+					type: "item"
+					item: "thermal:phyto_tnt_minecart"
+				}
+				{
+					id: "0000000000000B94"
+					type: "item"
+					item: "thermal:fire_tnt_minecart"
+				}
+				{
+					id: "0000000000000B95"
+					type: "item"
+					item: "thermal:earth_tnt_minecart"
+				}
+				{
+					id: "0000000000000B96"
+					type: "item"
+					item: "thermal:ice_tnt_minecart"
+				}
+				{
+					id: "0000000000000B97"
+					type: "item"
+					item: "thermal:lightning_tnt_minecart"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000010C9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000010CA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			shape: "gear"
+			id: "0000000000000B98"
+			tasks: [
+				{
+					id: "0000000000000B99"
+					type: "item"
+					item: "thermal:obsidian_glass"
+				}
+				{
+					id: "0000000000000B9A"
+					type: "item"
+					item: "thermal:signalum_glass"
+				}
+				{
+					id: "0000000000000B9B"
+					type: "item"
+					item: "thermal:lumium_glass"
+				}
+				{
+					id: "0000000000000B9C"
+					type: "item"
+					item: "thermal:enderium_glass"
+				}
+			]
+			rewards: [{
+				id: "00000000000018EF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			shape: "gear"
+			id: "0000000000000B9D"
+			tasks: [
+				{
+					id: "0000000000000B9E"
+					type: "item"
+					item: "thermal:drill_head"
+				}
+				{
+					id: "0000000000000B9F"
+					type: "item"
+					item: "thermal:saw_blade"
+				}
+			]
+			rewards: [{
+				id: "00000000000018EE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			shape: "gear"
+			id: "0000000000000BA3"
+			tasks: [{
+				id: "0000000000000CEF"
+				type: "item"
+				item: {
+					id: "thermal:potion_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000018E6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			shape: "gear"
+			id: "0000000000000BA5"
+			tasks: [{
+				id: "0000000000000BA6"
+				type: "item"
+				item: {
+					id: "thermal:potion_quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000018E8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

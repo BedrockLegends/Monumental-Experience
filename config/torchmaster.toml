@@ -1,0 +1,48 @@
+
+[General]
+	#The maximum amount of invisble lights a feral flare lantern can place. Set to 0 to disable light placement.
+	#Warning: Setting this value too high in conjunction with the feralFlareMinLightLevel and Radius can lead to world corruption!
+	#(Badly compressed packet error)
+	#Range: 0 ~ 32767
+	feralFlareLanternLightCountHardcap = 255
+	#Same as the mega torch block list override, just for the dread lamp
+	#Block squid: +minecraft:squid
+	#Allow pigs: -minecraft:pig
+	dreadLampEntityBlockListOverrides = ["+alexsmobs:sunbird", "+alexsmobs:warped_toad", "+alexsmobs:shoebill", "+alexsmobs:seal", "+alexsmobs:roadrunner", "+alexsmobs:raccoon", "+alexsmobs:mungus", "+alexsmobs:moose", "+alexsmobs:mantis_shrimp", "+alexsmobs:lobster", "+alexsmobs:komodo_dragon", "+alexsmobs:hummingbird", "+alexsmobs:grizzly_bear", "+alexsmobs:gorilla", "+alexsmobs:gazelle", "+alexsmobs:fly", "+alexsmobs:endergrade", "+alexsmobs:elephant", "+alexsmobs:crow", "+alexsmobs:cockroach", "+alexsmobs:capuchin_monkey", "+alexsmobs:blobfish", "+alexsmobs:crimson_mosquito"]
+	#The radius of the mega torch in each direction (cube) with the torch at its center
+	#Range: > 0
+	megaTorchRadius = 32
+	#Print entity spawn checks to the debug log
+	logSpawnChecks = false
+	#Durability of the frozen pearl. Each removed light will remove one charge from the pearl. Set to 0 to disable durability
+	#Range: 0 ~ 32767
+	frozenPearlDurability = 1024
+	#The radius in which the feral flare should try to place lights
+	#Range: 1 ~ 127
+	feralFlareRadius = 16
+	#The target minimum light level to place lights for
+	#Range: 0 ~ 15
+	feralFlareMinLightLevel = 10
+	#Configures the spawn check to be more aggressive, effectivly overriding the CheckSpawn results of other mods
+	aggressiveSpawnChecks = false
+	#Show additional information in the tooltip of certain items and blocks
+	beginnerTooltips = true
+	#Use this setting to override the internal lists for entity blocking
+	#You can use this to block more entities or even allow certain entities to still spawn
+	#The + prefix will add the entity to the list, effectivly denying its spawns
+	#The - prefix will remove the entity from the list (if necessary), effectivly allowing its spawns
+	#Note: Each entry needs to be put in quotes! Multiple Entries should be separated by comma.
+	#Block zombies: "+minecraft:zombie"
+	#Allow creepers: "-minecraft:creeper"
+	megaTorchEntityBlockListOverrides = ["+alexsmobs:rattlesnake", "+alexsmobs:orca", "+alexsmobs:grizzly_bear", "+alexsmobs:alligator_snapping_turtle", "+alexsmobs:crocodile", "+alexsmobs:hammerhead_shark", "+alexsmobs:snow_leopard", "+alexsmobs:stradpole", "+alexsmobs:straddler", "+alexsmobs:spectre", "+alexsmobs:soul_vulture", "+alexsmobs:hammerhead_shark", "+alexsmobs:crimson_mosquito", "+alexsmobs:centipede", "+alexsmobs:bone_serpent", "+alexsmobs:guster"]
+	#Controls how often the flare should try to place lights. 1 means every tick, 10 every 10th tick, etc
+	#Range: > 1
+	feralFlareTickRate = 5
+	#If this setting is enabled, the mega torch will block all natural spawn attempts from Lycanites Mobs in its radius
+	lycanitesMobsBlockAll = true
+	#By default, mega torches only block natural spawns (i.e. from low light levels). Setting this to false will also block spawns from spawners
+	blockOnlyNaturalSpawns = true
+	#The radius of the dread lamp in each direction (cube) with the torch at its center
+	#Range: > 0
+	dreadLampRadius = 32
+

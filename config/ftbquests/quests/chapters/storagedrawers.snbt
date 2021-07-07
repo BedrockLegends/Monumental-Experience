@@ -1,0 +1,427 @@
+{
+	id: "0000000000000CDF"
+	group: "7E54189F6BA49858"
+	order_index: 6
+	filename: "storagedrawers"
+	title: "&9Storage Drawers"
+	icon: "storagedrawers:oak_full_drawers_1"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000000171"
+			tasks: [{
+				id: "0000000000000172"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000173"
+			tasks: [{
+				id: "0000000000000174"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000175"
+			tasks: [{
+				id: "0000000000000176"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "Drawer Key's"
+			x: 2.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000179"
+			tasks: [
+				{
+					id: "000000000000017A"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+				{
+					id: "0000000000000198"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000011AC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011AD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000175"]
+			id: "000000000000017B"
+			tasks: [{
+				id: "000000000000017C"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [
+				{
+					id: "00000000000011B0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011B1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["000000000000017B"]
+			id: "000000000000017D"
+			tasks: [{
+				id: "000000000000017E"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011B8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011B9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["000000000000017D"]
+			id: "000000000000017F"
+			tasks: [{
+				id: "0000000000000180"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011BA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011BB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["000000000000017F"]
+			id: "0000000000000181"
+			tasks: [{
+				id: "0000000000000182"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011BE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011BF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000181"]
+			id: "0000000000000183"
+			tasks: [{
+				id: "0000000000000184"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011BC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011BD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			shape: "gear"
+			dependencies: ["0000000000000183"]
+			id: "0000000000000185"
+			tasks: [{
+				id: "0000000000000186"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011C0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011C1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["000000000000017B"]
+			id: "0000000000000187"
+			tasks: [{
+				id: "0000000000000188"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011B4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011B5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["000000000000017B"]
+			id: "0000000000000189"
+			tasks: [{
+				id: "000000000000018A"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011B6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011B7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["000000000000017B"]
+			id: "000000000000018B"
+			tasks: [{
+				id: "000000000000018C"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011B2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011B3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "000000000000018F"
+			tasks: [{
+				id: "0000000000000190"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_2"
+			}]
+			rewards: [
+				{
+					id: "00000000000011AE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011AF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000191"
+			tasks: [{
+				id: "0000000000000192"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+			rewards: [
+				{
+					id: "00000000000011AA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011AB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000193"
+			tasks: [{
+				id: "0000000000000194"
+				type: "item"
+				item: "storagedrawers:oak_trim"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000195"
+			tasks: [{
+				id: "0000000000000196"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

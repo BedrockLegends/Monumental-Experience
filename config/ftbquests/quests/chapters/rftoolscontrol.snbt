@@ -1,0 +1,485 @@
+{
+	id: "00000000000009B8"
+	group: "570AEC24DD8505B2"
+	order_index: 8
+	filename: "rftoolscontrol"
+	title: "&6Rftools Control"
+	icon: "rftoolscontrol:graphics_card"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "00000000000009B9"
+			tasks: [{
+				id: "00000000000009BA"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["00000000000009B9"]
+			id: "00000000000009BB"
+			tasks: [{
+				id: "00000000000009BC"
+				type: "item"
+				item: "rftoolscontrol:processor"
+			}]
+			rewards: [
+				{
+					id: "000000000000125C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000125D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["00000000000009B9"]
+			id: "00000000000009BD"
+			tasks: [{
+				id: "00000000000009BE"
+				type: "item"
+				item: "rftoolscontrol:programmer"
+			}]
+			rewards: [
+				{
+					id: "000000000000125A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000125B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000009B9"]
+			id: "00000000000009BF"
+			tasks: [{
+				id: "00000000000009C0"
+				type: "item"
+				item: "rftoolscontrol:card_base"
+			}]
+			rewards: [
+				{
+					id: "0000000000001240"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001241"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009C1"
+			tasks: [{
+				id: "00000000000009C2"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_500"
+			}]
+			rewards: [
+				{
+					id: "000000000000123E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000123F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: ["00000000000009C1"]
+			id: "00000000000009C3"
+			tasks: [{
+				id: "00000000000009C4"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_1000"
+			}]
+			rewards: [
+				{
+					id: "000000000000123C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000123D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			shape: "gear"
+			dependencies: ["00000000000009C3"]
+			id: "00000000000009C5"
+			tasks: [{
+				id: "00000000000009C6"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
+			rewards: [
+				{
+					id: "000000000000123A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000123B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009C7"
+			tasks: [{
+				id: "00000000000009C8"
+				type: "item"
+				item: "rftoolscontrol:ram_chip"
+			}]
+			rewards: [
+				{
+					id: "0000000000001248"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001249"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009C9"
+			tasks: [{
+				id: "00000000000009CA"
+				type: "item"
+				item: "rftoolscontrol:network_card"
+			}]
+			rewards: [
+				{
+					id: "0000000000001254"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001255"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000009C9"]
+			id: "00000000000009CB"
+			tasks: [{
+				id: "00000000000009CC"
+				type: "item"
+				item: "rftoolscontrol:advanced_network_card"
+			}]
+			rewards: [
+				{
+					id: "0000000000001256"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001257"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009CD"
+			tasks: [{
+				id: "00000000000009CE"
+				type: "item"
+				item: {
+					id: "rftoolscontrol:network_identifier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001242"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001243"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009CF"
+			tasks: [{
+				id: "00000000000009D0"
+				type: "item"
+				item: "rftoolscontrol:graphics_card"
+			}]
+			rewards: [
+				{
+					id: "000000000000124E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000124F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009D1"
+			tasks: [{
+				id: "00000000000009D2"
+				type: "item"
+				item: "rftoolscontrol:token"
+			}]
+			rewards: [
+				{
+					id: "000000000000124C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000124D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009D3"
+			tasks: [{
+				id: "00000000000009D4"
+				type: "item"
+				item: "rftoolscontrol:program_card"
+			}]
+			rewards: [
+				{
+					id: "000000000000124A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000124B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009D5"
+			tasks: [{
+				id: "00000000000009D6"
+				type: "item"
+				item: {
+					id: "rftoolscontrol:variable_module"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001244"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001245"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009D7"
+			tasks: [{
+				id: "00000000000009D8"
+				type: "item"
+				item: {
+					id: "rftoolscontrol:interaction_module"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001250"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001251"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009D9"
+			tasks: [{
+				id: "00000000000009DA"
+				type: "item"
+				item: {
+					id: "rftoolscontrol:console_module"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001252"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001253"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009DB"
+			tasks: [{
+				id: "00000000000009DC"
+				type: "item"
+				item: {
+					id: "rftoolscontrol:vectorart_module"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001246"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001247"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["00000000000009BF"]
+			id: "00000000000009DD"
+			tasks: [{
+				id: "00000000000009DE"
+				type: "item"
+				item: "rftoolscontrol:tablet_processor"
+			}]
+			rewards: [
+				{
+					id: "0000000000001258"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001259"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

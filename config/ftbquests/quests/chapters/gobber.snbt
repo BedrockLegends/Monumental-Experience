@@ -1,0 +1,2645 @@
+{
+	id: "0000000000000018"
+	group: "58428D7875B5E24E"
+	order_index: 1
+	filename: "gobber"
+	title: "&6Gobber"
+	icon: "gobber2:gobber2_globette"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000000552"
+			tasks: [{
+				id: "0000000000000553"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["0000000000000552"]
+			id: "0000000000000554"
+			tasks: [{
+				id: "0000000000000555"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [
+				{
+					id: "0000000000001595"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001596"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000556"
+			tasks: [{
+				id: "0000000000000557"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001597"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001598"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["0000000000000556"]
+			id: "0000000000000558"
+			tasks: [{
+				id: "0000000000000559"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001599"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000159A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["0000000000000558"]
+			id: "000000000000055A"
+			tasks: [{
+				id: "000000000000055B"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001587"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001588"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["000000000000055A"]
+			id: "000000000000055C"
+			tasks: [{
+				id: "000000000000055D"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001585"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001586"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "000000000000055E"
+			tasks: [{
+				id: "000000000000055F"
+				type: "item"
+				item: "gobber2:block_healer"
+			}]
+			rewards: [
+				{
+					id: "0000000000001593"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001594"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000560"
+			tasks: [{
+				id: "0000000000000561"
+				type: "item"
+				item: "gobber2:gobber2_ring"
+			}]
+			rewards: [
+				{
+					id: "0000000000001589"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000158A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "0000000000000562"
+			tasks: [{
+				id: "0000000000000563"
+				type: "item"
+				item: "gobber2:gobber2_ring_sunshine"
+			}]
+			rewards: [
+				{
+					id: "0000000000001577"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001578"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "0000000000000564"
+			tasks: [{
+				id: "0000000000000565"
+				type: "item"
+				item: "gobber2:gobber2_ring_swiftness"
+			}]
+			rewards: [
+				{
+					id: "0000000000001575"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001576"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "0000000000000566"
+			tasks: [{
+				id: "0000000000000567"
+				type: "item"
+				item: "gobber2:gobber2_ring_husbandry"
+			}]
+			rewards: [
+				{
+					id: "0000000000001579"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000157A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "0000000000000568"
+			tasks: [{
+				id: "0000000000000569"
+				type: "item"
+				item: "gobber2:gobber2_ring_farmer"
+			}]
+			rewards: [
+				{
+					id: "000000000000156F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001570"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "000000000000056A"
+			tasks: [{
+				id: "000000000000056B"
+				type: "item"
+				item: "gobber2:gobber2_ring_attraction"
+			}]
+			rewards: [
+				{
+					id: "0000000000001581"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001582"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "000000000000056C"
+			tasks: [{
+				id: "000000000000056D"
+				type: "item"
+				item: "gobber2:gobber2_ring_return"
+			}]
+			rewards: [
+				{
+					id: "0000000000001583"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001584"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "000000000000056E"
+			tasks: [{
+				id: "000000000000056F"
+				type: "item"
+				item: "gobber2:gobber2_ring_ascent"
+			}]
+			rewards: [
+				{
+					id: "000000000000157B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000157C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "0000000000000570"
+			tasks: [{
+				id: "0000000000000571"
+				type: "item"
+				item: "gobber2:gobber2_ring_above"
+			}]
+			rewards: [
+				{
+					id: "0000000000001573"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001574"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			shape: "gear"
+			dependencies: ["0000000000000560"]
+			id: "0000000000000572"
+			tasks: [{
+				id: "0000000000000573"
+				type: "item"
+				item: "gobber2:gobber2_ring_miner"
+			}]
+			rewards: [
+				{
+					id: "0000000000001571"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "0000000000001572"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["0000000000000552"]
+			id: "0000000000000576"
+			tasks: [{
+				id: "0000000000000577"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+			}]
+			rewards: [
+				{
+					id: "00000000000015F7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015F8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0000000000000576"]
+			id: "0000000000000578"
+			tasks: [{
+				id: "0000000000000579"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+			rewards: [
+				{
+					id: "00000000000015F5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015F6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["0000000000000576"]
+			id: "000000000000057A"
+			tasks: [{
+				id: "000000000000057B"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [
+				{
+					id: "00000000000015B3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015B4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0000000000000578"]
+			id: "000000000000057C"
+			tasks: [{
+				id: "000000000000057D"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+			rewards: [
+				{
+					id: "00000000000015F9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015FA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "000000000000057E"
+			tasks: [{
+				id: "000000000000057F"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015D6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015D7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000580"
+			tasks: [{
+				id: "0000000000000581"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015E0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015E1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000582"
+			tasks: [{
+				id: "0000000000000583"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015D4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015D5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000584"
+			tasks: [{
+				id: "0000000000000585"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015D2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015D3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000586"
+			tasks: [{
+				id: "0000000000000587"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015DC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015DD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000588"
+			tasks: [{
+				id: "0000000000000589"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_tree_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015DA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015DB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "000000000000058A"
+			tasks: [{
+				id: "000000000000058B"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015DE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015DF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "000000000000058C"
+			tasks: [{
+				id: "000000000000058D"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015D8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015D9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "000000000000058E"
+			tasks: [{
+				id: "000000000000058F"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015E2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015E3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000590"
+			tasks: [{
+				id: "0000000000000591"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015E8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015E9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["0000000000000554"]
+			id: "0000000000000592"
+			tasks: [{
+				id: "0000000000000593"
+				type: "item"
+				item: "gobber2:gobber2_medallion"
+			}]
+			rewards: [
+				{
+					id: "000000000000158B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000158C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "0000000000000594"
+			tasks: [{
+				id: "0000000000000595"
+				type: "item"
+				item: "gobber2:gobber2_medallion_nether"
+			}]
+			rewards: [
+				{
+					id: "00000000000015B1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015B2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000000596"
+			tasks: [{
+				id: "0000000000000597"
+				type: "item"
+				item: "gobber2:gobber2_medallion_end"
+			}]
+			rewards: [
+				{
+					id: "000000000000161D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000161E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "gear"
+			dependencies: ["0000000000000592"]
+			id: "0000000000000598"
+			tasks: [{
+				id: "0000000000000599"
+				type: "item"
+				item: "gobber2:gobber2_medallion_stepping"
+			}]
+			rewards: [
+				{
+					id: "000000000000157D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000157E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			shape: "gear"
+			dependencies: ["0000000000000592"]
+			id: "000000000000059A"
+			tasks: [{
+				id: "000000000000059B"
+				type: "item"
+				item: "gobber2:gobber2_medallion_breathing"
+			}]
+			rewards: [
+				{
+					id: "000000000000157F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001580"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["0000000000000592"]
+			id: "000000000000059C"
+			tasks: [{
+				id: "000000000000059D"
+				type: "item"
+				item: "gobber2:gobber2_medallion_hero"
+			}]
+			rewards: [
+				{
+					id: "000000000000158D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000158E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["0000000000000594"]
+			id: "000000000000059E"
+			tasks: [{
+				id: "000000000000059F"
+				type: "item"
+				item: "gobber2:gobber2_medallion_glowing"
+			}]
+			rewards: [
+				{
+					id: "00000000000015AF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015B0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["0000000000000596"]
+			id: "00000000000005A0"
+			tasks: [{
+				id: "00000000000005A1"
+				type: "item"
+				item: "gobber2:gobber2_medallion_conduit"
+			}]
+			rewards: [
+				{
+					id: "000000000000161B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000161C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["0000000000000596"]
+			id: "00000000000005A2"
+			tasks: [{
+				id: "00000000000005A3"
+				type: "item"
+				item: "gobber2:gobber2_medallion_dolphin"
+			}]
+			rewards: [
+				{
+					id: "000000000000161F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001620"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["000000000000055E"]
+			id: "00000000000005A6"
+			tasks: [{
+				id: "00000000000005A7"
+				type: "item"
+				item: "gobber2:block_protector"
+			}]
+			rewards: [
+				{
+					id: "0000000000001591"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001592"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["00000000000005A6"]
+			id: "00000000000005A8"
+			tasks: [{
+				id: "00000000000005A9"
+				type: "item"
+				item: "gobber2:block_defender"
+			}]
+			rewards: [
+				{
+					id: "000000000000158F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001590"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005AA"
+			tasks: [{
+				id: "00000000000005AB"
+				type: "item"
+				item: "gobber2:block_maturator"
+			}]
+			rewards: [
+				{
+					id: "000000000000159B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000159C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "00000000000005AC"
+			tasks: [{
+				id: "00000000000005AD"
+				type: "item"
+				item: "gobber2:block_looter"
+			}]
+			rewards: [
+				{
+					id: "0000000000001621"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001622"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005AE"
+			tasks: [{
+				id: "00000000000005AF"
+				type: "item"
+				item: "gobber2:gobber2_ring_nether"
+			}]
+			rewards: [
+				{
+					id: "00000000000015AD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015AE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005B0"
+			tasks: [{
+				id: "00000000000005B1"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015C1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015C2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005B2"
+			tasks: [{
+				id: "00000000000005B3"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015C6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015C7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005B4"
+			tasks: [{
+				id: "00000000000005B5"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_excavator_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015C8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015C9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005B6"
+			tasks: [{
+				id: "00000000000005B7"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015CA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015CB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005B8"
+			tasks: [{
+				id: "00000000000005B9"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_pickaxe_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015CE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015CF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005BA"
+			tasks: [{
+				id: "00000000000005BB"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_shovel_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015BF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015C0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005BC"
+			tasks: [{
+				id: "00000000000005BD"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_axe_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015D0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015D1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005BE"
+			tasks: [{
+				id: "00000000000005BF"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_tree_axe_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015CC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005C0"
+			tasks: [{
+				id: "00000000000005C1"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hoe_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015BD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015BE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005C2"
+			tasks: [{
+				id: "00000000000005C3"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hammer_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015C3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015C5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005C4"
+			tasks: [{
+				id: "00000000000005C5"
+				type: "item"
+				item: "gobber2:gobber2_ring_vision"
+			}]
+			rewards: [
+				{
+					id: "000000000000159D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000159E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005C6"
+			tasks: [{
+				id: "00000000000005C7"
+				type: "item"
+				item: "gobber2:gobber2_ring_acceleration"
+			}]
+			rewards: [
+				{
+					id: "00000000000015A3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015A4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005C8"
+			tasks: [{
+				id: "00000000000005C9"
+				type: "item"
+				item: "gobber2:gobber2_ring_leaping"
+			}]
+			rewards: [
+				{
+					id: "00000000000015AB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015AC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005CA"
+			tasks: [{
+				id: "00000000000005CB"
+				type: "item"
+				item: "gobber2:gobber2_ring_curing"
+			}]
+			rewards: [
+				{
+					id: "00000000000015A9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015AA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005CE"
+			tasks: [{
+				id: "00000000000005CF"
+				type: "item"
+				item: "gobber2:gobber2_ring_phoenix"
+			}]
+			rewards: [
+				{
+					id: "000000000000159F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "00000000000015A0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005D0"
+			tasks: [{
+				id: "00000000000005D1"
+				type: "item"
+				item: "gobber2:gobber2_ring_haste"
+			}]
+			rewards: [
+				{
+					id: "00000000000015A1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015A2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005D2"
+			tasks: [{
+				id: "00000000000005D3"
+				type: "item"
+				item: "gobber2:gobber2_ring_blaze"
+			}]
+			rewards: [
+				{
+					id: "00000000000015A7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015A8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005D4"
+			tasks: [{
+				id: "00000000000005D5"
+				type: "item"
+				item: "gobber2:gobber2_ring_repair"
+			}]
+			rewards: [
+				{
+					id: "00000000000015A5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015A6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["000000000000057A"]
+			id: "00000000000005D6"
+			tasks: [{
+				id: "00000000000005D7"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015B5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015B6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000005D6"]
+			id: "00000000000005D8"
+			tasks: [{
+				id: "00000000000005D9"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015B7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015B8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000005D8"]
+			id: "00000000000005DA"
+			tasks: [{
+				id: "00000000000005DB"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015B9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015BA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000005DA"]
+			id: "00000000000005DC"
+			tasks: [{
+				id: "00000000000005DD"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015BB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015BC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "00000000000005DE"
+			tasks: [{
+				id: "00000000000005DF"
+				type: "item"
+				item: "gobber2:gobber2_ring_end"
+			}]
+			rewards: [
+				{
+					id: "00000000000015FB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015FC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005E0"
+			tasks: [{
+				id: "00000000000005E1"
+				type: "item"
+				item: "gobber2:gobber2_ring_dismissal"
+			}]
+			rewards: [
+				{
+					id: "0000000000001601"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001602"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005E2"
+			tasks: [{
+				id: "00000000000005E3"
+				type: "item"
+				item: "gobber2:gobber2_ring_pyro"
+			}]
+			rewards: [
+				{
+					id: "00000000000015E4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015E5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005E4"
+			tasks: [{
+				id: "00000000000005E5"
+				type: "item"
+				item: "gobber2:gobber2_ring_traveler"
+			}]
+			rewards: [
+				{
+					id: "00000000000015E6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015E7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005E6"
+			tasks: [{
+				id: "00000000000005E7"
+				type: "item"
+				item: "gobber2:gobber2_ring_void"
+			}]
+			rewards: [
+				{
+					id: "00000000000015EE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015EF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005E8"
+			tasks: [{
+				id: "00000000000005E9"
+				type: "item"
+				item: "gobber2:gobber2_ring_airwalking"
+			}]
+			rewards: [
+				{
+					id: "00000000000015EA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015EB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005EA"
+			tasks: [{
+				id: "00000000000005EB"
+				type: "item"
+				item: "gobber2:gobber2_ring_stealth"
+			}]
+			rewards: [
+				{
+					id: "00000000000015F1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015F2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005EC"
+			tasks: [{
+				id: "00000000000005ED"
+				type: "item"
+				item: "gobber2:gobber2_ring_teleport"
+			}]
+			rewards: [
+				{
+					id: "00000000000015EC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015ED"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005EE"
+			tasks: [{
+				id: "00000000000005EF"
+				type: "item"
+				item: "gobber2:gobber2_ring_blink"
+			}]
+			rewards: [
+				{
+					id: "00000000000015FF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001600"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["00000000000005DE"]
+			id: "00000000000005F0"
+			tasks: [{
+				id: "00000000000005F1"
+				type: "item"
+				item: "gobber2:gobber2_ring_enderchest"
+			}]
+			rewards: [
+				{
+					id: "00000000000015FD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015FE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "00000000000005F2"
+			tasks: [{
+				id: "00000000000005F3"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001613"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001614"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["00000000000005F2"]
+			id: "0000000000001411"
+			tasks: [{
+				id: "0000000000001412"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000160D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000160E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["00000000000005F2"]
+			id: "00000000000005F6"
+			tasks: [{
+				id: "00000000000005F7"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_traveler"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001607"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001608"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "00000000000005F8"
+			tasks: [{
+				id: "00000000000005F9"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000015F3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000015F4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000001413"
+			tasks: [{
+				id: "0000000000001414"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_pickaxe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001619"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000161A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000001415"
+			tasks: [{
+				id: "00000000000005FD"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_shovel_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001611"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001612"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000001416"
+			tasks: [{
+				id: "00000000000005FF"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_axe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001617"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001618"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000000600"
+			tasks: [{
+				id: "0000000000000601"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_tree_axe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001615"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001616"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000001417"
+			tasks: [{
+				id: "0000000000000603"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hoe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000160F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001610"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000000604"
+			tasks: [{
+				id: "0000000000000605"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hammer_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000160B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000160C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000000606"
+			tasks: [{
+				id: "0000000000000607"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_excavator_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001609"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000160A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "0000000000000608"
+			tasks: [{
+				id: "0000000000000609"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001605"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001606"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["0000000000000608"]
+			id: "000000000000060A"
+			tasks: [{
+				id: "000000000000060B"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel_stars"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001603"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001604"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			shape: "gear"
+			dependencies: ["000000000000057C"]
+			id: "000000000000060C"
+			tasks: [{
+				id: "000000000000060D"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001623"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001624"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			shape: "gear"
+			dependencies: ["000000000000060C"]
+			id: "000000000000060E"
+			tasks: [{
+				id: "000000000000060F"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001625"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001626"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			shape: "gear"
+			dependencies: ["000000000000060E"]
+			id: "0000000000000610"
+			tasks: [{
+				id: "0000000000000611"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001627"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001628"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			shape: "gear"
+			dependencies: ["0000000000000610"]
+			id: "0000000000000612"
+			tasks: [{
+				id: "0000000000000613"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001629"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000162A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			shape: "gear"
+			dependencies: ["000000000000060C"]
+			id: "0000000000000614"
+			tasks: [{
+				id: "0000000000000615"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000162B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000162C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			shape: "gear"
+			dependencies: ["000000000000060E"]
+			id: "0000000000000616"
+			tasks: [{
+				id: "0000000000000617"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000162D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "000000000000162E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			shape: "gear"
+			dependencies: ["0000000000000610"]
+			id: "0000000000000618"
+			tasks: [{
+				id: "0000000000000619"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000162F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001630"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			shape: "gear"
+			dependencies: ["0000000000000612"]
+			id: "000000000000061A"
+			tasks: [{
+				id: "000000000000061B"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001631"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0000000000001632"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

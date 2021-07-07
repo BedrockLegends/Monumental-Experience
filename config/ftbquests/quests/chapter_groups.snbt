@@ -1,0 +1,18 @@
+{
+	chapter_groups: [
+		{ id: "611DD6950AEE3D90", title: "&4Create" }
+		{ id: "08B8463E6E996DCD", title: "&4Crafting" }
+		{ id: "58428D7875B5E24E", title: "&4End Game" }
+		{ id: "5271FC3947DEACC8", title: "&4Farming" }
+		{ id: "33C9D311E461F30C", title: "&4Food" }
+		{ id: "68BD27E8D0136E3E", title: "&4Misc" }
+		{ id: "4814F40AB34427B6", title: "&4Magic" }
+		{ id: "6B2D545E7A3D7242", title: "&4Mobs" }
+		{ id: "5D8921CB40569CE2", title: "&4Nether" }
+		{ id: "13ABD77363F067A7", title: "&4Overworld" }
+		{ id: "7E54189F6BA49858", title: "&4Storage" }
+		{ id: "570AEC24DD8505B2", title: "&4Tech" }
+		{ id: "4E2A2310634498BA", title: "&4Tools" }
+		{ id: "0063A2414C7C5E5B", title: "&4The End" }
+	]
+}
