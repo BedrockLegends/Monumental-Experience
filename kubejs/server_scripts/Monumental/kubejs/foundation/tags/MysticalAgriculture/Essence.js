@@ -28,12 +28,12 @@ onEvent('item.tags', (event) => {
 		'mysticalagriculture:shulker_essence',
 		'mysticalagriculture:villager_essence',
 		'mysticalagriculture:pink_slime_essence',
-		'mysticalagriculture:vindictor_essence',
+		'mysticalagriculture:vindicator_essence',
 		'mysticalagriculture:phantom_essence',
 		'mysticalagriculture:mooshroom_essence',
 		'mysticalagriculture:piglin_brute_essence',
 		'mysticalagriculture:glob_nether_essence',
 		'mysticalagriculture:evoker_essence',
-		'mysticalagriculture:glod_end_essence'      
+		'mysticalagriculture:glob_end_essence'      
     ]);
 });
