@@ -1332,5 +1332,9 @@ event.shaped(Item.of('emendatusenigmatica:electrum_gear', 1), [" A ", "ABA", " A
     })
     event.shaped(Item.of('envirocore:obsidian_plate', 4), ["AA ", "AA ", "   "], {
         A: '#forge:ingots/obsidian',
+    })
+    event.shaped(Item.of('minecraft:anvil', 1), ['A', ' B ', 'BBB'], {
+        A: '#forge:storage_blocks/compressed_iron',
+        B: '#forge:plates/iron'
     });
 });
