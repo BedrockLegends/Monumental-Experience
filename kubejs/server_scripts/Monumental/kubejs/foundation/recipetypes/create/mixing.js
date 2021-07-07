@@ -221,63 +221,6 @@ events.listen('recipes', (event) => {
                     'appliedenergistics2:quartz_glass'
                 ],
                 output: Item.of('appliedenergistics2:quartz_vibrant_glass', 2)
-            },
-            {
-                inputs: [
-                    '#forge:gems/diamond',
-                    'ironcoals:gold_coal',
-                ],
-                output: Item.of('ironcoals:diamond_coal', 1)
-            },
-            {
-                inputs: [
-                    '#forge:gems/emerald',
-                    'ironcoals:diamond_coal',
-                ],
-                output: Item.of('ironcoals:emerald_coal', 1)
-            },
-            {
-                inputs: [
-                    '#forge:ingots/gold',
-                    'ironcoals:iron_coal',
-                ],
-                output: Item.of('ironcoals:gold_coal', 1)
-            },
-            {
-                inputs: [
-                    '#forge:ingots/iron',
-                    'minecraft:coal',
-                ],
-                output: Item.of('ironcoals:iron_coal', 1)
-            },
-            {
-                inputs: [
-                    'greater_eye:greater_eye',
-                    'minecraft:chorus_fruit',
-                ],
-                output: Item.of('greater_eye:greater_eye_end', 1)
-            },
-            {
-                inputs: [
-                    'greater_eye:greater_eye',
-                    '#forge:gems/quartz',
-                ],
-                output: Item.of('greater_eye:greater_eye_nether', 1)
-            },
-            {
-                inputs: [
-                    'minecraft:ender_eye',
-                    'minecraft:diamond',
-                    'minecraft:emerald',
-                ],
-                output: Item.of('greater_eye:greater_eye', 1)
-            },
-            {
-                inputs: [
-                    'minecraft:redstone',
-                    '#forge:dusts/obsidian',
-                ],
-                output: Item.of('fluxnetworks:flux_dust', 1)
             }
         ],
         recipes_superheated: [
@@ -728,12 +671,36 @@ events.listen('recipes', (event) => {
                 output: Item.of('envirocore:litherite_crystal', 4)
             },
             {
-                inputs: [
-                    'mana-and-artifice:superheated_purified_vinteum_ingot',
-                    'mysticalagriculture:prosperity_shard',
-                    'mysticalagriculture:prosperity_shard'
-                ],
-                output: Item.of('mysticalagriculture:prosperity_ingot', 2)
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:bulbis_sprouts'],
+                output: Item.of('byg:bulbis_phycelium')
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:imparius_vine'],
+                output: Item.of('byg:imparius_phylium')
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
+                output: Item.of('byg:shulkren_phylium')
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:nightshade_sprouts'],
+                output: Item.of('byg:nightshade_phylium')
+            },
+            {
+                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:ivis_sprout'],
+                output: Item.of('byg:ivis_phylium')
+            },
+            {
+                inputs: ['byg:ether_soil', '#forge:fertilizer', 'byg:ether_foliage'],
+                output: Item.of('byg:ether_phylium')
+            },
+            {
+                inputs: ['#forge:dirt', '#forge:fertilizer', 'byg:ether_foliage'],
+                output: Item.of('byg:ether_soil')
+            },
+            {
+                inputs: ['byg:ether_stone', '#forge:fertilizer', 'byg:vermilion_sculk_growth'],
+                output: Item.of('byg:vermilion_sculk')
             }
         ]
     };
