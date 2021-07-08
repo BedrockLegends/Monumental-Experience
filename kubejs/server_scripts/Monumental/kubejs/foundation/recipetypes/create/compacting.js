@@ -112,8 +112,8 @@ onEvent('recipes', (event) => {
                 inputs: [
                     'extendedcrafting:black_iron_slate',
                     'extendedcrafting:luminessence',
-                    'forge:gems/diamond',
-                    'forge:gems/diamond'
+                    '#forge:gems/diamond',
+                    '#forge:gems/diamond'
                 ],
                 output: Item.of('extendedcrafting:elite_component', 1)
             }
