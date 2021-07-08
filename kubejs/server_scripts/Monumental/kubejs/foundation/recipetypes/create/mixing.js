@@ -744,7 +744,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:supremium_essence',
                     'mysticalagriculture:supremium_essence',
                     'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:infusion_crystals'
+                    '#mysticalagriculture:infusion_crystals'
                 ],
                 output: Item.of('mysticalagradditions:insanium_essence', 2)
             },
@@ -810,7 +810,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:tertium_essence',
                     'mysticalagriculture:tertium_essence',
                     'mysticalagriculture:tertium_essence',
-                    'mysticalagriculture:infusion_crystals'
+                    '#mysticalagriculture:infusion_crystals'
                 ],
                 output: Item.of('mysticalagriculture:imperium_essence', 2)
             },
@@ -870,7 +870,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
-                    'mysticalagriculture:infusion_crystals'
+                    '#mysticalagriculture:infusion_crystals'
                 ],
                 output: Item.of('mysticalagriculture:prudentium_essence', 2)
             },
@@ -934,7 +934,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:imperium_essence',
                     'mysticalagriculture:imperium_essence',
                     'mysticalagriculture:imperium_essence',
-                    'mysticalagriculture:infusion_crystals'
+                    '#mysticalagriculture:infusion_crystals'
                 ],
                 output: Item.of('mysticalagriculture:supremium_essence', 2)
             },
@@ -980,7 +980,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
-                    'mysticalagriculture:infusion_crystals',
+                    '#mysticalagriculture:infusion_crystals',
                     'mysticalagriculture:supremium_nugget'
                 ],
                 output: Item.of('mysticalagriculture:tertium_essence', 2)
