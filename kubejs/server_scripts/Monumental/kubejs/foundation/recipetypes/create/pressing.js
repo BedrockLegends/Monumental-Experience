@@ -114,6 +114,10 @@ onEvent('recipes', (event) => {
         {
             output: 'pneumaticcraft:compressed_iron_gear',
             inputs: ['#forge:ingots/compressed_iron']
+        },
+        {
+            output: 'emendatusenigmatica:diamond_plate',
+            inputs: ['#forge:gems/diamond']
         }
     ];
 
