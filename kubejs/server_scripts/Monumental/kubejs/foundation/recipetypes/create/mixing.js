@@ -810,7 +810,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:tertium_essence',
                     'mysticalagriculture:tertium_essence',
                     'mysticalagriculture:tertium_essence',
-                    '#mysticalagriculture:infusion_crystals'
+                    'mysticalagriculture:infusion_crystals'
                 ],
                 output: Item.of('mysticalagriculture:imperium_essence', 2)
             },
