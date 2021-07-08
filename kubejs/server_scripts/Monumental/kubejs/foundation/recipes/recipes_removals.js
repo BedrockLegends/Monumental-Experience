@@ -1,5 +1,8 @@
+//RECIPE REMOVAL
+//BY ModernGamingWorld & LaserJet / 2021
+//
 onEvent('recipes', event => {
-	//AstralSorcery Recipes
+//AstralSorcery Recipes
   	event.remove({id: 'astralsorcery:altar/colored_lens_break'})
   	event.remove({id: 'astralsorcery:altar/colored_lens_damage'})
   	event.remove({id: 'astralsorcery:altar/colored_lens_regeneration'})
@@ -8,7 +11,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'astralsorcery:altar/resonator'})
   	event.remove({id: 'astralsorcery:shaped/starmetal'})
 
-	//AE2 Recipes
+//AE2 Recipes
   	event.remove({id: 'appliedenergistics2:network/blocks/cell_workbench'})
   	event.remove({id: 'appliedenergistics2:network/blocks/crystal_processing_charger'})
   	event.remove({id: 'appliedenergistics2:network/blocks/energy_acceptor'})
@@ -63,7 +66,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'appliedenergistics2:inscriber/engineering_processor_print'})
   	event.remove({id: 'appliedenergistics2:inscriber/logic_processor_print'})
 
-	//Aluminum blasting and smelting recipes
+//Aluminum blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_from_dust_from_blasting'})
   	event.remove({id: 'tmechworks:aluminum_ingot_from_blasting'})
@@ -73,26 +76,26 @@ onEvent('recipes', event => {
   	event.remove({id: 'emendatusenigmatica:ingot_from_ore/smelting/aluminum'})
   	event.remove({id: 'tmechworks:aluminum_ingot_from_smelting'})	
 
-	//Aluminum block to ingot recipes
+//Aluminum block to ingot recipes
   	event.remove({id: 'tmechworks:aluminum_ingot_from_aluminum_block'})
   	event.remove({id: 'immersiveengineering:crafting/storage_aluminum_to_ingot_aluminum'})
 
-	//Aluminum nuggets to ingot recipes
+//Aluminum nuggets to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/nugget_aluminum_to_ingot_aluminum'})
   	event.remove({id: 'tmechworks:aluminum_ingot_from_aluminum_nugget'})
 
-	//Aluminum ingot to block recipes
+//Aluminum ingot to block recipes
   	event.remove({id: 'tmechworks:aluminum_block_from_aluminum_ingot'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_to_storage_aluminum'})
 
-	//Aluminum nuggets to ingot recipes
+//Aluminum nuggets to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_to_nugget_aluminum'})
   	event.remove({id: 'tmechworks:aluminum_nugget_from_aluminum_ingot'})
 
-	//Bigger Reactors
+//Bigger Reactors
 	event.remove({id: 'biggerreactors:graphite_dust'})
 
-	//BloodMagic recipes
+//BloodMagic recipes
   	event.remove({id: 'bloodmagic:altar/apprenticebloodorb'})
   	event.remove({id: 'bloodmagic:altar/magicianbloodorb'})
   	event.remove({id: 'bloodmagic:altar/weakbloodorb'})
@@ -107,42 +110,46 @@ onEvent('recipes', event => {
   	event.remove({id: 'bloodmagic:alchemy_table'})
   	event.remove({id: 'bloodmagic:arc'})
 
-	//Bronze blasting and smelting recipes
+//Bronze blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/bronze_ingot_from_dust_blasting'})
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_dust_smelting'})
   	event.remove({id: 'thermal:smelting/bronze_ingot_from_dust_smelting'})
 
-	//Bronze ingot to block recipes
+//Bronze ingot to block recipes
   	event.remove({id: 'thermal:storage/bronze_block'})
   	event.remove({id: 'mekanism:storage_blocks/bronze'})
 
-	//Bronze block to ingot recipes
+//Bronze block to ingot recipes
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_block'})
   	event.remove({id: 'thermal:storage/bronze_ingot_from_block'})
 
-	//Bronze nuggets to ingot recipes
+//Bronze nuggets to ingot recipes
   	event.remove({id: 'thermal:storage/bronze_ingot_from_nuggets'})
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_nuggets'})
 
-	//Bronze ingot to nugget recipes
+//Bronze ingot to nugget recipes
   	event.remove({id: 'mekanism:nuggets/bronze'})
   	event.remove({id: 'thermal:storage/bronze_nugget_from_ingot'})
 
-	//Bronze gear recipes
+//Bronze gear recipes
   	event.remove({id: 'thermal:parts/bronze_gear'})
 
-	//Bronze gear recipes
+//Bronze gear recipes
   	event.remove({id: 'botania:mana_infusion/mana_diamond'})
 
-	//Building Gadgets Recipes
+//brass Recipes
+	event.remove({id: 'create:crafting/materials/brass_ingot_from_compacting'})
+	event.remove({id: 'create:crafting/materials/brass_ingot_from_decompacting'})
+
+//Building Gadgets Recipes
 	event.remove({id: 'buildinggadgets:construction_block_powder'})
 	event.remove({id: 'buildinggadgets:gadget_building'})
 	event.remove({id: 'buildinggadgets:gadget_copy_paste'})
 	event.remove({id: 'buildinggadgets:gadget_destruction'})
 	event.remove({id: 'buildinggadgets:gadget_exchanging'})
 
-	//BYG recipes
+//BYG recipes
 	event.remove({id: 'byg:aspen_pressure_plate'})
 	event.remove({id: 'byg:baobab_pressure_plate'})
 	event.remove({id: 'byg:blue_enchanted_pressure_plate'})
@@ -170,21 +177,22 @@ onEvent('recipes', event => {
 	event.remove({id: 'byg:witch_hazel_pressure_plate'})
 	event.remove({id: 'byg:zelkova_pressure_plate'})
 
-	//Coal coke recipes
+//Coal coke recipes
   	event.remove({id: 'immersiveengineering:crafting/coke_to_coal_coke'})
   	event.remove({id: 'thermal:storage/coal_coke_from_block'})
 
-	//Coal coke to block recipes
+//Coal coke to block recipes
   	event.remove({id: 'immersiveengineering:crafting/coal_coke_to_coke'})
   	event.remove({id: 'thermal:storage/coal_coke_block'})
 
-	//Computercraft Recipes
+//Computercraft Recipes
 	event.remove({id: 'computercraft:cable'})
 	event.remove({id: 'computercraft:computer_advanced'})
 	event.remove({id: 'computercraft:computer_normal'})
 	event.remove({id: 'computercraft:turtle_advanced'})
 	event.remove({id: 'computercraft:disk'})
-	//Other disks are disabled because recipe could not be changed.
+	
+//Other disks are disabled because recipe could not be changed.
 	event.remove({id: 'computercraft:disk_1'})
 	event.remove({id: 'computercraft:disk_2'})
 	event.remove({id: 'computercraft:disk_3'})
@@ -209,7 +217,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'computercraft:wireless_modem_advanced'})
 	event.remove({id: 'computercraft:wireless_modem_normal'})
 
-	//Copper blasting and smelting recipes
+//Copper blasting and smelting recipes
   	event.remove({id: 'iceandfire:furnace/copper_ingot_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_copper_from_dust_from_blasting'})
   	event.remove({id: 'mekanism:processing/copper/ingot/from_ore_blasting'})
@@ -239,7 +247,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'emendatusenigmatica:ingot_from_chunk/smelting/copper'})
   	event.remove({id: 'tmechworks:copper_ingot_from_smelting'})
 
-	//Copper block to ingot recipes
+//Copper block to ingot recipes
   	event.remove({id: 'occultism:crafting/copper_ingot_from_block'})
   	event.remove({id: 'immersiveengineering:crafting/storage_copper_to_ingot_copper'})
   	event.remove({id: 'tconstruct:common/materials/copper_ingot_from_block'})
@@ -249,7 +257,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'iceandfire:copper_block_to_ingots'})
   	event.remove({id: 'tmechworks:copper_ingot_from_copper_block'})
 
-	//Copper nuggets to ingot recipes
+//Copper nuggets to ingot recipes
   	event.remove({id: 'create:crafting/materials/copper_ingot_from_compacting'})
   	event.remove({id: 'tconstruct:common/materials/copper_ingot_from_nuggets'})
   	event.remove({id: 'thermal:storage/copper_ingot_from_nuggets'})
@@ -259,7 +267,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'mekanism:processing/copper/ingot/from_nuggets'})
   	event.remove({id: 'immersiveengineering:crafting/nugget_copper_to_ingot_copper'})
 
-	//Copper ingot to block recipes
+//Copper ingot to block recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_copper_to_storage_copper'})
   	event.remove({id: 'tconstruct:common/materials/copper_block_from_ingots'})
   	event.remove({id: 'create:crafting/materials/copper_block_from_compacting'})
@@ -269,7 +277,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'tmechworks:copper_block_from_copper_ingot'})
   	event.remove({id: 'thermal:storage/copper_block'})
 
-	//Copper ingot to nugget recipes
+//Copper ingot to nugget recipes
   	event.remove({id: 'tmechworks:copper_nugget_from_copper_ingot'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_copper_to_nugget_copper'})
   	event.remove({id: 'mekanism:processing/copper/nugget/from_ingot'})
@@ -279,58 +287,58 @@ onEvent('recipes', event => {
   	event.remove({id: 'tconstruct:common/materials/copper_nugget_from_ingot'})
   	event.remove({id: 'thermal:storage/copper_nugget_from_ingot'})
 
-	//Copper gear recipes
+//Copper gear recipes
   	event.remove({id: 'thermal:parts/copper_gear'})
 
-	//Copper rod recipes
+//Copper rod recipes
   	event.remove({id: 'immersiveposts:has_copper_rod'})
 
-	//Constantan blasting and smelting recipes
+//Constantan blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/constantan_ingot_from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/constantan_ingot_from_dust_smelting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_constantan_from_dust_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_constantan_from_dust'})
 
-	//Constantan gear recipes
+//Constantan gear recipes
   	event.remove({id: 'thermal:parts/constantan_gear'})
 
-	//Constantan nugget to ingot recipes
+//Constantan nugget to ingot recipes
   	event.remove({id: 'thermal:storage/constantan_ingot_from_nuggets'})
   	event.remove({id: 'immersiveengineering:crafting/nugget_constantan_to_ingot_constantan'})
 
-	//Constantan block to ingot recipes
+//Constantan block to ingot recipes
   	event.remove({id: 'thermal:storage/constantan_ingot_from_block'})
 
-	//Constantan ingots to block recipes
+//Constantan ingots to block recipes
   	event.remove({id: 'thermal:storage/constantan_block'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_constantan_to_storage_constantan'})
 
-	//Constantan ingots to nugget recipes
+//Constantan ingots to nugget recipes
   	event.remove({id: 'thermal:storage/constantan_nugget_from_ingot'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_constantan_to_nugget_constantan'})
 
-	//Constantan dust recipes
+//Constantan dust recipes
   	event.remove({id: 'thermal:constantan_dust_2'})
   	event.remove({id: 'immersiveengineering:crafting/constantan_mix'})
 
-	//Constantan rod recipes
+//Constantan rod recipes
   	event.remove({id: 'immersiveposts:has_constantan_rod'})
 
-  	//Concrete recipe
+//Concrete recipe
   	event.remove({id: 'immersiveengineering:concrete'})
   	event.remove({id: 'immersiveengineering:concrete2'})
 
-  	//Concrete recipe
+//Concrete recipe
   	event.remove({id: 'create:mechanical_crafting/crushing_wheel'})
 
-	//CreateAdition Recipes
+//CreateAdition Recipes
 	event.remove({id: 'createaddition:spool'})
 
-	//Cyclic Recipes
+//Cyclic Recipes
 	event.remove({id: 'cyclic:melter'})
 	event.remove({id: 'cyclic:solidifier'})
 
-	//Diamond blasting and smelting recipes
+//Diamond blasting and smelting recipes
   	event.remove({id: 'undergarden:blast_undergarden_diamond'})
   	event.remove({id: 'minecraft:diamond_from_blasting'})
   	event.remove({id: 'atum:diamond_from_blasting'})
@@ -338,17 +346,17 @@ onEvent('recipes', event => {
   	event.remove({id: 'undergarden:smelt_undergarden_diamond'})
   	event.remove({id: 'minecraft:diamond_from_smelting'})
 
-	//Diamond gear recipes
+//Diamond gear recipes
   	event.remove({id: 'thermal:parts/diamond_gear'})
   	event.remove({id: 'industrialforegoing:diamond_gear'})
 
-	//Doom Recipes
+//Doom Recipes
 	event.remove({id: 'doom:argent_plate'})
 
-	//DruidCraft Recipes
+//DruidCraft Recipes
 	event.remove({id: 'druidcraft:elder_pressure_plate'})
 
-	//Emendatus Enigmatica Recipes
+//Emendatus Enigmatica Recipes
 	event.remove({id: 'emendatusenigmatica:diamond_gear'})
 	event.remove({id: 'emendatusenigmatica:emerald_gear'})
 	event.remove({id: 'emendatusenigmatica:lapis_gear'})
@@ -396,7 +404,8 @@ onEvent('recipes', event => {
 	event.remove({id: 'emendatusenigmatica:tin_plate'})
 	event.remove({id: 'emendatusenigmatica:uranium_plate'})
 	event.remove({id: 'emendatusenigmatica:zinc_plate'})
-	//Dusts
+
+//Dusts
 	event.remove({id: 'emendatusenigmatica:aluminum_dust'})
 	event.remove({id: 'emendatusenigmatica:bronze_dust'})
 	event.remove({id: 'emendatusenigmatica:coal_dust'})
@@ -413,29 +422,29 @@ onEvent('recipes', event => {
 	event.remove({id: 'emendatusenigmatica:uranium_dust'})
 	event.remove({id: 'emendatusenigmatica:zinc_dust'})
 
-	//Emerald gear recipes
+//Emerald gear recipes
   	event.remove({id: 'thermal:parts/emerald_gear'})
 
-	//Enderium blasting and smelting recipes
+//Enderium blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/enderium_ingot_from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/enderium_ingot_from_dust_smelting'})
 
-	//Enderium gear recipes
+//Enderium gear recipes
   	event.remove({id: 'thermal:parts/enderium_gear'})
 
-	//Enderium nugget to ingot recipes
+//Enderium nugget to ingot recipes
   	event.remove({id: 'thermal:storage/enderium_ingot_from_nuggets'})
 
-	//Enderium block to ingot recipes
+//Enderium block to ingot recipes
   	event.remove({id: 'thermal:storage/enderium_ingot_from_block'})
 
-	//Enderium ingots to block recipes
+//Enderium ingots to block recipes
   	event.remove({id: 'thermal:storage/enderium_block'})
 
-	//Enderium ingots to nugget recipes
+//Enderium ingots to nugget recipes
   	event.remove({id: 'thermal:storage/enderium_nugget_from_ingot'})
 	
-	//EnviroCore Recipes
+//EnviroCore Recipes
 	event.remove({id: 'envirocore:laser_core'})
 	event.remove({id: 'envirocore:laser_lens_holder'})
 	event.remove({id: 'envirocore:items/ct_diode'})
@@ -453,13 +462,13 @@ onEvent('recipes', event => {
 	event.remove({id: 'envirocore:items/ct_litherite8'})
 	event.remove({id: 'envirocore:items/obsidian_plate'})
 
-	//EnviroTech Recipes
+//EnviroTech Recipes
 	event.remove({id: 'envirocore:lens_grinder'})
 	event.remove({id: 'envirocore:block/ct_lens_grinder'})
 	event.remove({id: 'envirocore:lens'})
 	event.remove({id: 'envirocore:block/ct_lens'})
 
-	//Extended Crafting
+//Extended Crafting
 	event.remove({id: 'extendedcrafting:advanced_catalyst'})
 	event.remove({id: 'extendedcrafting:advanced_component'})
 	event.remove({id: 'extendedcrafting:advanced_table'})
@@ -475,7 +484,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'extendedcrafting:basic_component'})
 
 	
-	//Flux Networks Recipes
+//Flux Networks Recipes
 	event.remove({id: 'fluxnetworks:basic_flux_storage'})
 	event.remove({id: 'fluxnetworks:flux_dust'})
 	event.remove({id: 'fluxnetworks:flux_configurator'})
@@ -486,12 +495,12 @@ onEvent('recipes', event => {
 	event.remove({id: 'fluxnetworks:gargantuan_flux_storage'})
 	event.remove({id: 'fluxnetworks:herculean_flux_storage'})
 
-	//Gobber2 recipes
+//Gobber2 recipes
 	event.remove({id: 'gobber2:gobber2_ingot'})
 	event.remove({id: 'gobber2:gobber2_ingot_end'})
 	event.remove({id: 'gobber2:gobber2_ingot_nether'})
 
-	//Gold blasting and smelting recipes
+//Gold blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/gold/ingot/from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/gold_ingot_from_dust_blasting'})
   	event.remove({id: 'occultism:blasting/gold_ingot_from_dust'})
@@ -509,25 +518,25 @@ onEvent('recipes', event => {
   	event.remove({id: 'undergarden:blast_undergarden_gold'})
   	event.remove({id: 'undergarden:smelt_undergarden_gold'})
 
-	//Gold gear recipes
+//Gold gear recipes
   	event.remove({id: 'thermal:parts/gold_gear'})
   	event.remove({id: 'industrialforegoing:gold_gear'})
 
-	//Gold rod recipes
+//Gold rod recipes
   	event.remove({id: 'immersiveposts:has_gold_rod'})
 
-	//Good Nights Sleep Recipes
+//Good Nights Sleep Recipes
 	event.remove({id: 'good_nights_sleep:dead_pressure_plate'})
   	event.remove({id: 'good_nights_sleep:delusion_pressure_plate'})
 	event.remove({id: 'good_nights_sleep:dream_pressure_plate'})
   	event.remove({id: 'good_nights_sleep:white_pressure_plate'})
 
-	//Greater Eye Recipes
+//Greater Eye Recipes
 	event.remove({id: 'greater_eye:greater_eye_end'})
 	event.remove({id: 'greater_eye:greater_eye_nether'})
 	event.remove({id: 'greater_eye:greater_eye'})
 
-	//Industrial Agriculre Recipes
+//Industrial Agriculre Recipes
 	event.remove({id: 'mysticalagriculture:bat_essence'})
   	event.remove({id: 'mysticalagriculture:dolphin_essence'})
 	event.remove({id: 'mysticalagriculture:cat_essence'})
@@ -562,17 +571,17 @@ onEvent('recipes', event => {
 	event.remove({id: 'mysticalagriculture:wolf_essence'})
 	event.remove({id: 'mysticalagriculture:zombie_pigman_essence'})
 
-	//Iron ingot to nuggets recipes
+//Iron ingot to nuggets recipes
   	event.remove({id: 'dustrial_decor:rusty_iron_nugget_from_ingot'})
 
-	//Iron nuggets to ingot recipes
+//Iron nuggets to ingot recipes
   	event.remove({id: 'dustrial_decor:rusty_iron_ingot_from_nugget'})
 
-	//Iron gear recipes
+//Iron gear recipes
   	event.remove({id: 'thermal:parts/iron_gear'})
   	event.remove({id: 'industrialforegoing:iron_gear'})
 
-	//Iron blasting and smelting recipes
+//Iron blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/iron_ingot_from_dust_from_blasting'})
   	event.remove({id: 'mekanism:processing/iron/ingot/from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/iron_ingot_from_dust_blasting'})
@@ -590,68 +599,68 @@ onEvent('recipes', event => {
   	event.remove({id: 'atum:iron_ingot'})
   	event.remove({id: 'minecraft:iron_ingot'})
 
-	//Invar blasting and smelting recipes
+//Invar blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/invar_ingot_from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/invar_ingot_from_dust_smelting'})
 
-	//Invar gear recipes
+//Invar gear recipes
   	event.remove({id: 'thermal:parts/invar_gear'})
 
-	//Invar nugget to ingot recipes
+//Invar nugget to ingot recipes
   	event.remove({id: 'thermal:storage/invar_ingot_from_nuggets'})
 
-	//Invar block to ingot recipes
+//Invar block to ingot recipes
   	event.remove({id: 'thermal:storage/invar_ingot_from_block'})
 
-	//Invar ingots to block recipes
+//Invar ingots to block recipes
   	event.remove({id: 'thermal:storage/invar_block'})
 
-	//Invar ingots to nugget recipes
+//Invar ingots to nugget recipes
   	event.remove({id: 'thermal:storage/invar_nugget_from_ingot'})
 	
-	//Invar dust recipes
+//Invar dust recipes
   	event.remove({id: 'thermal:invar_dust_3'})
 
-	//Inferium watering can recipes
+//Inferium watering can recipes
   	event.remove({id: 'mysticalagriculture:inferium_watering_can'})
 
-	//Inferium apple recipes
+//Inferium apple recipes
   	event.remove({id: 'mysticalagradditions:inferium_apple'})
 
-	//Inferium farmland recipes
+//Inferium farmland recipes
   	event.remove({id: 'mysticalagriculture:inferium_farmland'})
   	event.remove({id: 'mysticalagriculture:inferium_farmland_till'})
 
-	//Inferium coal recipes
+//Inferium coal recipes
   	event.remove({id: 'mysticalagradditions:inferium_coal'})
 
-	//Inferium gemstone recipes
+//Inferium gemstone recipes
   	event.remove({id: 'mysticalagradditions:inferium_gemstone'})
 
-	//Iron Jetpacks Recipes
+//Iron Jetpacks Recipes
 	event.remove({id: 'ironjetpacks:strap'})
 	event.remove({id: 'ironjetpacks:basic_coil'})
 	event.remove({id: 'ironjetpacks:advanced_coil'})
 	event.remove({id: 'ironjetpacks:elite_coil'})
 	event.remove({id: 'ironjetpacks:ultimate_coil'})
 
-	//Insanium apple recipes
+//Insanium apple recipes
   	event.remove({id: 'mysticalagradditions:insanium_apple'})
 
-	//Insanium coal recipes
+//Insanium coal recipes
   	event.remove({id: 'mysticalagradditions:insanium_coal'})
 
-	//Insanium essence recipes
+//Insanium essence recipes
   	event.remove({id: 'mysticalagradditions:insanium_essence'})
 
-	//Insanium gemstone recipes
+//Insanium gemstone recipes
   	event.remove({id: 'mysticalagradditions:insanium_gemstone'})
 
-	//Insanium farmland recipes
+//Insanium farmland recipes
   	event.remove({id: 'mysticalagradditions:insanium_farmland'})
   	event.remove({id: 'mysticalagradditions:insanium_farmland_till'})
 
-	//Immersive Engineering recipes
+//Immersive Engineering recipes
   	event.remove({id: 'immersiveengineering:crafting/alloybrick'}) 
   	event.remove({id: 'immersiveengineering:crafting/blastbrick'})
   	event.remove({id: 'immersiveengineering:crafting/blastbrick_reinforced'})
@@ -667,14 +676,14 @@ onEvent('recipes', event => {
   	event.remove({id: 'immersiveengineering:crafting/rs_engineering'})
 	event.remove({id: 'immersivepetroleum:gas_generator'})
 
-	//Iron Coals Recipes
+//Iron Coals Recipes
 	event.remove({id: 'ironcoals:aeon_coal'})
 	event.remove({id: 'ironcoals:diamond_coal'})
 	event.remove({id: 'ironcoals:emerald_coal'})
 	event.remove({id: 'ironcoals:gold_coal'})
 	event.remove({id: 'ironcoals:iron_coal'})
 
-	//Iron Furnaces Recipes
+//Iron Furnaces Recipes
 	event.remove({id: 'ironfurnaces:allthemodium_furnace'})
 	event.remove({id: 'ironfurnaces:copper_furnace'})
 	event.remove({id: 'ironfurnaces:diamond_furnace'})
@@ -687,10 +696,10 @@ onEvent('recipes', event => {
 	event.remove({id: 'ironfurnaces:unobtainium_furnace'})
 	event.remove({id: 'ironfurnaces:vibranium_furnace'})
 
-	//Lapis gear recipes
+//Lapis gear recipes
   	event.remove({id: 'thermal:parts/lapis_gear'})
 
-	//Lead blasting and smelting recipes
+//Lead blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_lead_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_lead_from_dust_from_blasting'})
   	event.remove({id: 'mekanism:processing/lead/ingot/from_ore_blasting'})
@@ -719,66 +728,66 @@ onEvent('recipes', event => {
   	event.remove({id: 'create:smelting/ingot_lead_compat_immersiveengineering'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_chunk/smelting/lead'})
 
-	//Lead ingot to block recipes
+//Lead ingot to block recipes
   	event.remove({id: 'mekanism:processing/lead/storage_blocks/from_ingots'})
   	event.remove({id: 'thermal:storage/lead_block'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_lead_to_storage_lead'})
   	event.remove({id: 'eidolon:lead_block'})
 
-	//Lead block to ingot recipes
+//Lead block to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_lead_to_ingot_lead'})
   	event.remove({id: 'thermal:storage/lead_ingot_from_block'})
   	event.remove({id: 'eidolon:decompress_lead_block'})
   	event.remove({id: 'mekanism:processing/lead/ingot/from_block'})
 
-	//Lead nuggets to ingot recipes
+//Lead nuggets to ingot recipes
   	event.remove({id: 'eidolon:lead_ingot'})
   	event.remove({id: 'mekanism:processing/lead/ingot/from_nuggets'})
   	event.remove({id: 'thermal:storage/lead_ingot_from_nuggets'})
   	event.remove({id: 'immersiveengineering:crafting/nugget_lead_to_ingot_lead'})
 
-	//Lead ingot to nugget recipes
+//Lead ingot to nugget recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_lead_to_nugget_lead'})
   	event.remove({id: 'eidolon:decompress_lead_ingot'})
   	event.remove({id: 'mekanism:processing/lead/nugget/from_ingot'})
   	event.remove({id: 'thermal:storage/lead_nugget_from_ingot'})
 	
-	//Lead gear recipes
+//Lead gear recipes
   	event.remove({id: 'thermal:parts/lead_gear'})
 
-	//Lead rod recipes
+//Lead rod recipes
   	event.remove({id: 'immersiveposts:has_lead_rod'})
 
-	//Lumium blasting and smelting recipes
+//Lumium blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/lumium_ingot_from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/lumium_ingot_from_dust_smelting'})
 	
-	//Lumium dust recipes
+//Lumium dust recipes
   	event.remove({id: 'thermal:lumium_dust_4'})
 
-	//Lumium gear recipes
+//Lumium gear recipes
   	event.remove({id: 'thermal:parts/lumium_gear'})
 
-	//Lumium nugget to ingot recipes
+//Lumium nugget to ingot recipes
   	event.remove({id: 'thermal:storage/lumium_ingot_from_nuggets'})
 
-	//Lumium block to ingot recipes
+//Lumium block to ingot recipes
   	event.remove({id: 'thermal:storage/lumium_ingot_from_block'})
 
-	//Lumium ingots to block recipes
+//Lumium ingots to block recipes
   	event.remove({id: 'thermal:storage/lumium_block'})
 
-	//Lumium ingots to nugget recipes
+//Lumium ingots to nugget recipes
   	event.remove({id: 'thermal:storage/lumium_nugget_from_ingot'})
 
-	//Mana-and-artifice recipes
+//Mana-and-artifice recipes
   	event.remove({id: 'mana-and-artifice:spell_book'})
   	event.remove({id: 'mana-and-artifice:purified_vinteum_dust'})
   	event.remove({id: 'mana-and-artifice:arcane_compound'})
   	event.remove({id: 'mana-and-artifice:stone_runes/rune_bag'})
   	event.remove({id: 'mana-and-artifice:stone_runes/rune_blank'})
 
-	//Minecraft recipes
+//Minecraft recipes
   	event.remove({id: 'minecraft:compass'})
   	event.remove({id: 'minecraft:ender_eye'})
   	event.remove({id: 'minecraft:hopper'})
@@ -787,7 +796,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'minecraft:netherite_ingot'})
 	event.remove({id: 'minecraft:anvil'})
 
-	//MCWFurnitures recipes
+//MCWFurnitures recipes
   	event.remove({id: 'mcwfurnitures:acacia_plate'})
   	event.remove({id: 'mcwfurnitures:birch_plate'})
   	event.remove({id: 'mcwfurnitures:spruce_plate'})
@@ -797,17 +806,17 @@ onEvent('recipes', event => {
   	event.remove({id: 'mcwfurnitures:crimson_plate'})
   	event.remove({id: 'mcwfurnitures:warped_plate'})
 
-	//Mining gadgets recipes
+//Mining gadgets recipes
   	event.remove({id: 'mininggadgets:mininggadget'})
   	event.remove({id: 'mininggadgets:upgrade_empty'})
   	event.remove({id: 'mininggadgets:modificationtable'})
 
-	//Modular Routers recipes
+//Modular Routers recipes
   	event.remove({id: 'modularrouters:blank_module'})
   	event.remove({id: 'modularrouters:blank_upgrade'})
   	event.remove({id: 'modularrouters:item_router'})
 
-	//Mekanism generators recipes
+//Mekanism generators recipes
   	event.remove({id: 'mekanismgenerators:solar_panel'})
   	event.remove({id: 'mekanismgenerators:electromagnetic_coil'})
   	event.remove({id: 'mekanismgenerators:reactor/glass'})
@@ -819,10 +828,10 @@ onEvent('recipes', event => {
   	event.remove({id: 'mekanismgenerators:generator/solar'})
 	event.remove({id: 'mekanism:configurator'})
 
-	//Morph O Tool recipes
+//Morph O Tool recipes
   	event.remove({id: 'morphtool:tool'})
 
-	//Mystical Agriculture Recipes
+//Mystical Agriculture Recipes
 	event.remove({id: 'mysticalagriculture:infusion_altar'})
 	event.remove({id: 'mysticalagriculture:infusion_pedestal'})
 	event.remove({id: 'mysticalagriculture:prosperity_ingot'})
@@ -876,7 +885,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'mysticalagriculture:tertium_gemstone'})
 	event.remove({id: 'mysticalagriculture:tertium_watering_can'})
 
-	//Nickel blasting and smelting recipes
+//Nickel blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_from_dust_from_blasting'})
   	event.remove({id: 'create:blasting/nickel_ingot_compat_thermal'})
@@ -890,38 +899,38 @@ onEvent('recipes', event => {
   	event.remove({id: 'create:smelting/ingot_nickel_compat_immersiveengineering'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_chunk/smelting/nickel'})
 
-	//Nickel ingot to block recipes
+//Nickel ingot to block recipes
   	event.remove({id: 'thermal:storage/nickel_block'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_to_storage_nickel'})
 
-	//Nickel block to ingot recipes
+//Nickel block to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_nickel_to_ingot_nickel'})
   	event.remove({id: 'thermal:storage/nickel_ingot_from_block'})
 
-	//Nickel nuggets to ingot recipes
+//Nickel nuggets to ingot recipes
   	event.remove({id: 'thermal:storage/nickel_ingot_from_nuggets'})
   	event.remove({id: 'immersiveengineering:crafting/nugget_nickel_to_ingot_nickel'})
 
-	//Nickel ingot to nugget recipes
+//Nickel ingot to nugget recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_to_nugget_nickel'})
   	event.remove({id: 'thermal:storage/nickel_nugget_from_ingot'})
 
-	//Nickel gear recipes
+//Nickel gear recipes
   	event.remove({id: 'thermal:parts/nickel_gear'})
 
-	//Nickel rod recipes
+//Nickel rod recipes
   	event.remove({id: 'immersiveposts:has_nickel_rod'})
 
-	//Osmium ingot to nugget recipes
+//Osmium ingot to nugget recipes
   	event.remove({id: 'mekanism:processing/osmium/nugget/from_ingot'})
 
-	//Osmium nugget  to ingot recipes
+//Osmium nugget  to ingot recipes
   	event.remove({id: 'mekanism:processing/osmium/ingot/from_nuggets'})
 
- 	//Osmium block to ingot recipes
+ //Osmium block to ingot recipes
   	event.remove({id: 'mekanism:processing/osmium/ingot/from_block'})
 
-	//Osmium blasting and smelting recipes
+//Osmium blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/osmium/ingot/from_ore_blasting'})
   	event.remove({id: 'mekanism:processing/osmium/ingot/from_dust_blasting'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_ore/blasting/osmium'})
@@ -929,10 +938,10 @@ onEvent('recipes', event => {
   	event.remove({id: 'mekanism:processing/osmium/ingot/from_dust_smelting'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_ore/smelting/osmium'})
 
-	//Osmium ingot to block recipes
+//Osmium ingot to block recipes
   	event.remove({id: 'mekanism:processing/osmium/storage_blocks/from_ingots'})
 
-	//Pams Harvestcraft 2 Recipes
+//Pams Harvestcraft 2 Recipes
 	event.remove({id: 'pamhc2foodextended:bananasplititem'})
 	event.remove({id: 'pamhc2foodcore:cottoncandyitem'})
 	event.remove({id: 'pamhc2foodextended:peachesandcreamoatmealitem'})
@@ -940,7 +949,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'pamhc2foodcore:cookingoilitem_x2_nuts'})
 	event.remove({id: 'pamhc2foodcore:cookingoilitem_x2_vegetables'})
 
-	//Pneumaticcraft recipes
+//Pneumaticcraft recipes
   	event.remove({id: 'pneumaticcraft:pressure_chamber/capacitor'})
   	event.remove({id: 'pneumaticcraft:pressure_chamber/compressed_iron_ingot'})
   	event.remove({id: 'pneumaticcraft:pressure_chamber/empty_pcb'})
@@ -963,26 +972,26 @@ onEvent('recipes', event => {
   	event.remove({id: 'pneumaticcraft:reinforced_stone'})
   	event.remove({id: 'pneumaticcraft:vortex_tube'})
 
-	//PSI recipes
+//PSI recipes
   	event.remove({id: 'psi:assembler'})
   	event.remove({id: 'psi:programmer'})
 
-	//Purified vinteum ingot recipes
+//Purified vinteum ingot recipes
   	event.remove({id: 'mana-and-artifice:purified_vinteum_bar_blast_furnace'})
   	event.remove({id: 'mana-and-artifice:purified_vinteum_bar'})
 
-	//Quantumstorage recipes
+//Quantumstorage recipes
   	event.remove({id: 'quantumstorage:controller'}) 
   	event.remove({id: 'quantumstorage:qsu'})  
   	event.remove({id: 'quantumstorage:tank'}) 
 
-	//Rose quartz recipes
+//Rose quartz recipes
   	event.remove({id: 'create:crafting/materials/rose_quartz'}) 
 
-	//Ranged Pumps recipes
+//Ranged Pumps recipes
   	event.remove({id: 'rangedpumps:pump'}) 
 
-	//Refined Pipes recipes
+//Refined Pipes recipes
   	event.remove({id: 'refinedpipes:basic_extractor_attachment'}) 
   	event.remove({id: 'refinedpipes:advanced_extractor_attachment'}) 
   	event.remove({id: 'refinedpipes:elite_extractor_attachment'}) 
@@ -996,7 +1005,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'refinedpipes:improved_fluid_pipe'})
   	event.remove({id: 'refinedpipes:improved_item_pipe'})       
 
-	//Refinedstorage recipes
+//Refinedstorage recipes
   	event.remove({id: 'refinedstorage:1k_storage_block'}) 
   	event.remove({id: 'refinedstorage:1k_storage_part'}) 
   	event.remove({id: 'refinedstorage:4k_storage_block'}) 
@@ -1041,7 +1050,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'refinedstorage:advanced_processor'})
   	event.remove({id: 'refinedstorage:basic_processor'})
 
-	//Rftools recipes
+//Rftools recipes
   	event.remove({id: 'rftoolsbase:filter_module'}) 
   	event.remove({id: 'rftoolsbase:machine_base'})
   	event.remove({id: 'rftoolsbase:machine_frame'})
@@ -1103,7 +1112,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'rftoolscontrol:vectorart_module'})
   	event.remove({id: 'rftoolscontrol:variable_module'})
 
-  	//Router reborn rod recipes
+//Router reborn rod recipes
   	event.remove({id: 'routerreborn:barrel_t1'})
   	event.remove({id: 'routerreborn:barrel_t2'})
   	event.remove({id: 'routerreborn:barrel_t3'})
@@ -1117,41 +1126,41 @@ onEvent('recipes', event => {
   	event.remove({id: 'routerreborn:energy_conduit'})
   	event.remove({id: 'routerreborn:item_conduit'})
 
-  	//Si ingot recipes
+//Si ingot recipes
   	event.remove({id: 'woot:si_ingot'}) 
 
-	//Signalum blasting and smelting recipes
+//Signalum blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/signalum_ingot_from_dust_blasting'})
   	event.remove({id: 'thermal:smelting/signalum_ingot_from_dust_smelting'})
 	
-	//Signalum dust recipes
+//Signalum dust recipes
   	event.remove({id: 'thermal:signalum_dust_4'})
 
-	//Signalum gear recipes
+//Signalum gear recipes
   	event.remove({id: 'thermal:parts/signalum_gear'})
 
-	//Signalum nugget to ingot recipes
+//Signalum nugget to ingot recipes
   	event.remove({id: 'thermal:storage/signalum_ingot_from_nuggets'})
 
-	//Signalum block to ingot recipes
+//Signalum block to ingot recipes
   	event.remove({id: 'thermal:storage/signalum_ingot_from_block'})
 
-	//Signalum ingots to block recipes
+//Signalum ingots to block recipes
   	event.remove({id: 'thermal:storage/signalum_block'})
 
-	//Signalum ingots to nugget recipes
+//Signalum ingots to nugget recipes
   	event.remove({id: 'thermal:storage/signalum_nugget_from_ingot'})
 
-	//Silicon blasting and smelting recipes
+//Silicon blasting and smelting recipes
   	event.remove({id: 'refinedstorage:silicon'})
 
-	//Sulfur ingot to block recipes
+//Sulfur ingot to block recipes
   	event.remove({id: 'thermal:storage/sulfur_block'})
 
- 	//Sulfur block to ingot recipes
+//Sulfur block to ingot recipes
   	event.remove({id: 'thermal:storage/sulfur_from_block'})
 
-	//Silver blasting and smelting recipes
+//Silver blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_silver_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_silver_from_dust_from_blasting'})
   	event.remove({id: 'create:blasting/silver_ingot_compat_thermal'})
@@ -1174,58 +1183,58 @@ onEvent('recipes', event => {
   	event.remove({id: 'iceandfire:furnace/silver_ingot'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_chunk/smelting/silver'})
 
-  	//Silver rod recipes
+//Silver rod recipes
   	event.remove({id: 'immersiveposts:has_silver_rod'})
 	
-	//Silver gear recipes
+//Silver gear recipes
   	event.remove({id: 'thermal:parts/silver_gear'})
 
-	//Silver ingot to nugget recipes
+//Silver ingot to nugget recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_silver_to_nugget_silver'})
   	event.remove({id: 'occultism:crafting/silver_ingot_from_nuggets'})
   	event.remove({id: 'occultism:crafting/silver_nugget'})
   	event.remove({id: 'thermal:storage/silver_nugget_from_ingot'})
   	event.remove({id: 'iceandfire:silver_ingot_to_nuggets'})
 
-	//Silver nuggets to ingot recipes
+//Silver nuggets to ingot recipes
   	event.remove({id: 'iceandfire:silver_ingot'})
   	event.remove({id: 'thermal:storage/silver_ingot_from_nuggets'})
   	event.remove({id: 'immersiveengineering:crafting/nugget_silver_to_ingot_silver'})
 
-	//Silver block to ingot recipes
+//Silver block to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_silver_to_ingot_silver'})
   	event.remove({id: 'thermal:storage/silver_ingot_from_block'})
   	event.remove({id: 'iceandfire:silver_block_to_ingots'})
   	event.remove({id: 'occultism:crafting/silver_ingot_from_block'})
 
-	//Silver ingot to block recipes
+//Silver ingot to block recipes
   	event.remove({id: 'iceandfire:silver_block'})
   	event.remove({id: 'thermal:storage/silver_block'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_silver_to_storage_silver'})
   	event.remove({id: 'occultism:silver_block'})
 
-  	//Steel rod recipes
+//Steel rod recipes
   	event.remove({id: 'immersiveposts:has_steel_rod'})
 
-	//Steel blasting and smelting recipes
+//Steel blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/steel/ingot/from_dust_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_steel_from_dust_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_steel_from_dust'})
   	event.remove({id: 'mekanism:processing/steel/ingot/from_dust_smelting'})
 
-	//Steel ingot to nugget recipes
+//Steel ingot to nugget recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_steel_to_nugget_steel'})
   	event.remove({id: 'mekanism:nuggets/steel'})
 
-	//Steel nuggets to ingot recipes
+//Steel nuggets to ingot recipes
   	event.remove({id: 'mekanism:processing/steel/ingot/from_nuggets'})
   	event.remove({id: 'immersiveengineering:crafting/nugget_steel_to_ingot_steel'})
 
-	//Steel block to ingot recipes
+//Steel block to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_steel_to_ingot_steel'})
   	event.remove({id: 'mekanism:processing/steel/ingot/from_block'})
 
-	//Storagenetwork recipes
+//Storagenetwork recipes
   	event.remove({id: 'storagenetwork:collector'})
   	event.remove({id: 'storagenetwork:crafting_remote'})
   	event.remove({id: 'storagenetwork:exchange'})
@@ -1237,17 +1246,17 @@ onEvent('recipes', event => {
   	event.remove({id: 'storagenetwork:stack_upgrade'})
   	event.remove({id: 'storagenetwork:master'})
 
-	//Shrink recipes
+//Shrink recipes
   	event.remove({id: 'shrink:shrinking_device'})
 
-	//Steel ingot to block recipes
+//Steel ingot to block recipes
   	event.remove({id: 'mekanism:storage_blocks/steel'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_steel_to_storage_steel'})
 	
-	//Scannable recipes
+//Scannable recipes
   	event.remove({id: 'scannable:module_blank'})
 
-	//Speedy recipes
+//Speedy recipes
   	event.remove({id: 'speedyladders:iron_ladder'})
   	event.remove({id: 'speedyladders:gold_ladder'})
   	event.remove({id: 'speedyladders:diamond_ladder'})
@@ -1255,26 +1264,26 @@ onEvent('recipes', event => {
   	event.remove({id: 'speedyhoppers:speedyhopper_mk2'})
   	event.remove({id: 'speedyhoppers:speedyhopper_mk3'})
 
-	//Tin gear recipes
+//Tin gear recipes
   	event.remove({id: 'thermal:parts/tin_gear'})
 
-	//Tin nugget  to ingot recipes
+//Tin nugget  to ingot recipes
   	event.remove({id: 'thermal:storage/tin_nugget_from_ingot'})
   	event.remove({id: 'mekanism:processing/tin/nugget/from_ingot'})
 
-	//Tin block to ingot recipes
+//Tin block to ingot recipes
   	event.remove({id: 'thermal:storage/tin_ingot_from_block'})
   	event.remove({id: 'mekanism:processing/tin/ingot/from_block'})
 
-	//Tin ingot to block recipes
+//Tin ingot to block recipes
   	event.remove({id: 'mekanism:processing/tin/storage_blocks/from_ingots'})
   	event.remove({id: 'thermal:storage/tin_block'})
 
-	//Tin ingot to nugget recipes
+//Tin ingot to nugget recipes
   	event.remove({id: 'thermal:storage/tin_ingot_from_nuggets'})
   	event.remove({id: 'mekanism:processing/tin/ingot/from_nuggets'})
 
-	//Tin blasting and smelting recipes
+//Tin blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/tin/ingot/from_dust_blasting'})
   	event.remove({id: 'mekanism:processing/tin/ingot/from_ore_blasting'})
   	event.remove({id: 'thermal:smelting/tin_ingot_from_dust_blasting'})
@@ -1288,7 +1297,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'emendatusenigmatica:ingot_from_ore/smelting/tin'})
   	event.remove({id: 'create:smelting/ingot_tin_compat_mekanism'})
 
-	//Thermal recipes
+//Thermal recipes
   	event.remove({id: 'thermal:dynamo_lapidary'})
   	event.remove({id: 'thermal:dynamo_compression'})
   	event.remove({id: 'thermal:dynamo_magmatic'})
@@ -1337,34 +1346,34 @@ onEvent('recipes', event => {
 	event.remove({id: 'thermal:niter_dust'})
 	event.remove({id: 'thermal:sulfur_dust'})
 
-	//Tmechworks recipes
+//Tmechworks recipes
   	event.remove({id: 'tmechworks:upgrade_blank'})
 
-	//Tconstruct recipes
+//Tconstruct recipes
   	event.remove({id: 'tconstruct:gadgets/throwball/efln_ball'})
   	event.remove({id: 'tconstruct:tables/pattern'})
   	event.remove({id: 'tconstruct:tables/modifier_chest'})
   	event.remove({id: 'tconstruct:tables/part_chest'})
   	event.remove({id: 'tconstruct:common/slime/sticky_piston'})
 
-	//Uranium nugget  to ingot recipes
+//Uranium nugget  to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium'})
 
-	//Uranium block to ingot recipes
+//Uranium block to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_uranium_to_ingot_uranium'})
   	event.remove({id: 'bigreactors:crafting/yellorium_storage_to_component'})
   	event.remove({id: 'mekanism:processing/uranium/ingot/from_block'})
 
-	//Uranium ingot to block recipes
+//Uranium ingot to block recipes
   	event.remove({id: 'mekanism:processing/uranium/storage_blocks/from_ingots'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_uranium_to_storage_uranium'})
 
-	//Uranium ingot to nugget recipes
+//Uranium ingot to nugget recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium'})
   	event.remove({id: 'mekanism:processing/uranium/nugget/from_ingot'})
   	event.remove({id: 'mekanism:processing/uranium/ingot/from_nuggets'})
 
-	//Uranium blasting and smelting recipes
+//Uranium blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/uranium/ingot/from_dust_blasting'})
   	event.remove({id: 'mekanism:processing/uranium/ingot/from_ore_blasting'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_chunk/blasting/uranium'})
@@ -1382,25 +1391,25 @@ onEvent('recipes', event => {
   	event.remove({id: 'immersiveengineering:crafting/ingot_uranium_from_dust'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_chunk/smelting/uranium'})
 
-	//Vinteum ingot recipes
+//Vinteum ingot recipes
   	event.remove({id: 'mana-and-artifice:vinteum_bar_blast_furnace'})
   	event.remove({id: 'mana-and-artifice:vinteum_bar'})
 	
-	//Waystones recipes
+//Waystones recipes
   	event.remove({id: 'waystones:bound_scroll'})
   	event.remove({id: 'waystones:return_scroll'})
   	event.remove({id: 'waystones:warp_scroll'})
   	event.remove({id: 'waystones:warp_stone'})
   	event.remove({id: 'waystones:waystone'})
 
-	//Wooden Utils recipes
+//Wooden Utils recipes
   	event.remove({id: 'woodenutilities:crafting_slab'})
   	event.remove({id: 'woodenutilities:wood_plate'})
   	event.remove({id: 'woodenutilities:wooden_furnace'})
   	event.remove({id: 'woodenutilities:wooden_hopper'})
   	event.remove({id: 'woodenutilities:wooden_shears'})
 
-   //XNet recipes 
+//XNet recipes 
   	event.remove({id: 'xnet:netcable_blue'})
   	event.remove({id: 'xnet:netcable_blue_dye'})
   	event.remove({id: 'xnet:netcable_green'})
@@ -1432,21 +1441,21 @@ onEvent('recipes', event => {
   	event.remove({id: 'xnet:router'})
   	event.remove({id: 'xnet:wireless_router'})
 
-	//Zinc ingot to nugget recipes
+//Zinc ingot to nugget recipes
   	event.remove({id: 'create:crafting/materials/zinc_nugget_from_decompacting'})
 
-	//Zinc nugget  to ingot recipes
+//Zinc nugget  to ingot recipes
   	event.remove({id: 'create:crafting/materials/zinc_ingot_from_compacting'})
 
- 	//Zinc block to ingot recipes
+//Zinc block to ingot recipes
   	event.remove({id: 'create:crafting/materials/zinc_ingot_from_decompacting'})
 
-	//Zinc blasting and smelting recipes
+//Zinc blasting and smelting recipes
   	event.remove({id: 'create:blasting/zinc_ingot_from_ore'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_ore/blasting/zinc'})
   	event.remove({id: 'create:smelting/zinc_ingot_from_ore'})
   	event.remove({id: 'emendatusenigmatica:ingot_from_ore/smelting/zinc'})
 
-	//Zinc ingot to block recipes
+//Zinc ingot to block recipes
   	event.remove({id: 'create:crafting/materials/zinc_block_from_compacting'})
 })
