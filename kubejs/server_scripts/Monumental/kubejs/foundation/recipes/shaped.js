@@ -1333,8 +1333,33 @@ event.shaped(Item.of('emendatusenigmatica:electrum_gear', 1), [" A ", "ABA", " A
     event.shaped(Item.of('envirocore:obsidian_plate', 4), ["AA ", "AA ", "   "], {
         A: '#forge:ingots/obsidian',
     })
-    event.shaped(Item.of('minecraft:anvil', 1), ['A', ' B ', 'BBB'], {
+    event.shaped(Item.of('minecraft:anvil', 1), [' A ', ' B ', 'BBB'], {
         A: '#forge:storage_blocks/compressed_iron',
         B: '#forge:plates/iron'
+    })
+    //Extended Crafting
+    //Needs extendedcrafting:advanced_table condition
+    event.shaped(Item.of('extendedcrafting:advanced_table', 1), ['CDC', 'ABA', 'CDC'], {
+        A: '#forge:plates/gold',
+        B: 'extendedcrafting:basic_table',
+        C: 'extendedcrafting:advanced_component',
+        D: 'extendedcrafting:advanced_catalyst'
+    })
+    event.shaped(Item.of('extendedcrafting:basic_table', 1), ['CDC', 'ABA', 'CDC'], {
+        A: '#forge:plates/iron',
+        B: 'immersiveengineering:craftingtable',
+        C: 'extendedcrafting:basic_component',
+        D: 'extendedcrafting:basic_catalyst'
+    })
+    event.shaped(Item.of('extendedcrafting:black_iron_slate', 1), [' B ', ' A ', ' A '], {
+        A: 'extendedcrafting:black_iron_ingot',
+        B: 'immersiveengineering:hammer',
+    })
+    //Needs extendedcrafting:basic_table condition
+    event.shaped(Item.of('extendedcrafting:basic_table', 1), ['CDC', 'ABA', 'CDC'], {
+        A: '#forge:plates/iron',
+        B: 'immersiveengineering:craftingtable',
+        C: 'extendedcrafting:basic_component',
+        D: 'extendedcrafting:basic_catalyst',
     });
 });

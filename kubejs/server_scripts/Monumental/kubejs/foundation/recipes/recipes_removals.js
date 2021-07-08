@@ -458,6 +458,22 @@ onEvent('recipes', event => {
 	event.remove({id: 'envirocore:block/ct_lens_grinder'})
 	event.remove({id: 'envirocore:lens'})
 	event.remove({id: 'envirocore:block/ct_lens'})
+
+	//Extended Crafting
+	event.remove({id: 'extendedcrafting:advanced_catalyst'})
+	event.remove({id: 'extendedcrafting:advanced_component'})
+	event.remove({id: 'extendedcrafting:advanced_table'})
+	event.remove({id: 'extendedcrafting:basic_catalyst'})
+
+	event.remove({id: 'extendedcrafting:basic_component'})
+	event.remove({id: 'extendedcrafting:basic_table'})
+	event.remove({id: 'extendedcrafting:black_iron_ingot'})
+	event.remove({id: 'extendedcrafting:black_iron_slate'})
+	event.remove({id: 'extendedcrafting:elite_catalyst'})
+	event.remove({id: 'extendedcrafting:elite_component'})
+	event.remove({id: 'extendedcrafting:basic_table'})
+	event.remove({id: 'extendedcrafting:basic_component'})
+
 	
 	//Flux Networks Recipes
 	event.remove({id: 'fluxnetworks:basic_flux_storage'})
@@ -826,6 +842,39 @@ onEvent('recipes', event => {
 	event.remove({id: 'mysticalagriculture:supremium_block_uncraft'})
 
 	event.remove({output: '#mysticalagriculture:essences'})
+
+	event.remove({id: 'mysticalagradditions:imperium_apple'})
+	event.remove({id: 'mysticalagradditions:imperium_coal'})
+	event.remove({id: 'mysticalagriculture:imperium_essence'})
+	event.remove({id: 'mysticalagriculture:imperium_farmland'})
+	event.remove({id: 'mysticalagriculture:imperium_gemstone'})
+	event.remove({id: 'mysticalagriculture:imperium_watering_can'})
+	event.remove({id: 'mysticalagriculture:imperium_ingot'})
+	event.remove({id: 'mysticalagriculture:prosperity_gemstone'})
+	event.remove({id: 'mysticalagriculture:prosperity_ingot'})
+	event.remove({id: 'mysticalagradditions:prudentium_apple'})
+	event.remove({id: 'mysticalagradditions:prudentium_coal'})
+	event.remove({id: 'mysticalagriculture:prudentium_essence'})
+	event.remove({id: 'mysticalagriculture:prudentium_farmland'})
+	event.remove({id: 'mysticalagriculture:prudentium_gemstone'})
+	event.remove({id: 'mysticalagriculture:prudentium_watering_can'})
+	event.remove({id: 'mysticalagriculture:prudentium_ingot'})
+
+	event.remove({id: 'mysticalagriculture:soulium_gemstone'})
+	event.remove({id: 'mysticalagriculture:soulium_ingot'})
+	event.remove({id: 'mysticalagradditions:supremium_apple'})
+	event.remove({id: 'mysticalagradditions:supremium_coal'})
+	event.remove({id: 'mysticalagriculture:supremium_essence'})
+	event.remove({id: 'mysticalagriculture:supremium_farmland'})
+	event.remove({id: 'mysticalagriculture:supremium_gemstone'})
+	event.remove({id: 'mysticalagriculture:supremium_watering_can'})
+	event.remove({id: 'mysticalagriculture:supremium_ingot'})
+	event.remove({id: 'mysticalagradditions:tertium_apple'})
+	event.remove({id: 'mysticalagradditions:tertium_coal'})
+	event.remove({id: 'mysticalagriculture:tertium_essence'})
+	event.remove({id: 'mysticalagriculture:tertium_farmland'})
+	event.remove({id: 'mysticalagriculture:tertium_gemstone'})
+	event.remove({id: 'mysticalagriculture:tertium_watering_can'})
 
 	//Nickel blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_from_blasting'})
@@ -1280,6 +1329,13 @@ onEvent('recipes', event => {
   	event.remove({id: 'thermal:augments/upgrade_augment_1'})
   	event.remove({id: 'thermal:augments/upgrade_augment_2'})
   	event.remove({id: 'thermal:augments/upgrade_augment_3'})
+
+	event.remove({id: 'thermal:apatite_dust'})
+	event.remove({id: 'thermal:blizz_powder'})
+	event.remove({id: 'thermal:cinnabar_dust'})
+	event.remove({id: 'thermal:ender_pearl_dust'})
+	event.remove({id: 'thermal:niter_dust'})
+	event.remove({id: 'thermal:sulfur_dust'})
 
 	//Tmechworks recipes
   	event.remove({id: 'tmechworks:upgrade_blank'})

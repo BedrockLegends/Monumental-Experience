@@ -1054,6 +1054,36 @@ onEvent('recipes', (event) => {
                 input: 'mysticalagriculture:zombie_seeds',
                 outputs: [Item.of('mysticalagriculture:zombie_essence', 1)],
                 processingTime: 200
+            },
+            {
+                input: '#forge:gems/apatite',
+                outputs: [Item.of('thermal:apatite_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: 'thermal:blizz_rod',
+                outputs: ['minecraft:snowball', Item.of('thermal:blizz_powder', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:gems/cinnabar',
+                outputs: [Item.of('thermal:cinnabar_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:ender_pearls',
+                outputs: [Item.of('thermal:ender_pearl_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:gems/niter',
+                outputs: [Item.of('thermal:niter_dust', 1)],
+                processingTime: 200
+            },
+            {
+                input: '#forge:gems/sulfur',
+                outputs: [Item.of('thermal:sulfur_dust', 1)],
+                processingTime: 200
             }
         ]
     };

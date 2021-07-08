@@ -46,6 +46,14 @@ events.listen('recipes', (event) => {
                     '#mana-and-artifice:ma_flowers'
                 ],
                 output: Item.of('mana-and-artifice:arcane_compound', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:soulium_dust',
+                    'mysticalagriculture:soulium_dust',
+                    'mysticalagriculture:soulium_dust'
+                ],
+                output: Item.of('mysticalagriculture:soulium_gemstone', 1)
             }
         ],
         recipes_heated: [
@@ -221,6 +229,100 @@ events.listen('recipes', (event) => {
                     'appliedenergistics2:quartz_glass'
                 ],
                 output: Item.of('appliedenergistics2:quartz_vibrant_glass', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'minecraft:golden_apple'
+                ],
+                output: Item.of('mysticalagradditions:imperium_apple', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'minecraft:coal'
+                ],
+                output: Item.of('mysticalagradditions:imperium_coal', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:prosperity_gemstone'
+                ],
+                output: Item.of('mysticalagriculture:imperium_gemstone', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_shard',
+                    'mysticalagriculture:prosperity_shard',
+                    '#forge:gems/diamond'
+                ],
+                output: Item.of('mysticalagriculture:prosperity_gemstone', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'minecraft:golden_apple'
+                ],
+                output: Item.of('mysticalagradditions:prudentium_apple', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'minecraft:coal'
+                ],
+                output: Item.of('mysticalagradditions:prudentium_coal', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:supremium_essence',
+                    'minecraft:coal'
+                ],
+                output: Item.of('mysticalagradditions:supremium_coal', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:prosperity_gemstone'
+                ],
+                output: Item.of('mysticalagriculture:supremium_gemstone', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'minecraft:golden_apple'
+                ],
+                output: Item.of('mysticalagradditions:tertium_apple', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'minecraft:coal'
+                ],
+                output: Item.of('mysticalagradditions:tertium_coal', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:prosperity_gemstone'
+                ],
+                output: Item.of('mysticalagriculture:tertium_gemstone', 1)
             }
         ],
         recipes_superheated: [
@@ -642,7 +744,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:supremium_essence',
                     'mysticalagriculture:supremium_essence',
                     'mysticalagriculture:supremium_essence',
-                    '#mysticalagriculture:infusion_crystals'
+                    'mysticalagriculture:infusion_crystals'
                 ],
                 output: Item.of('mysticalagradditions:insanium_essence', 2)
             },
@@ -701,6 +803,230 @@ events.listen('recipes', (event) => {
             {
                 inputs: ['byg:ether_stone', '#forge:fertilizer', 'byg:vermilion_sculk_growth'],
                 output: Item.of('byg:vermilion_sculk')
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence',
+                    '#mysticalagriculture:infusion_crystals'
+                ],
+                output: Item.of('mysticalagriculture:imperium_essence', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_essence',
+                    '#forge:hoes',
+                    'minecraft:dirt'
+                ],
+                output: Item.of('mysticalagriculture:imperium_farmland', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:tertium_watering_can'
+                ],
+                output: Item.of('mysticalagriculture:imperium_watering_can', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot',
+                    'mysticalagriculture:imperium_ingot'
+                ],
+                output: Item.of('mysticalagriculture:imperium_ingot', 3)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget',
+                    'mysticalagriculture:prosperity_nugget'
+                ],
+                output: Item.of('mysticalagriculture:prosperity_ingot', 3)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:inferium_essence',
+                    'mysticalagriculture:inferium_essence',
+                    'mysticalagriculture:inferium_essence',
+                    'mysticalagriculture:inferium_essence',
+                    'mysticalagriculture:infusion_crystals'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_essence', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_essence',
+                    '#forge:hoes',
+                    'minecraft:dirt'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_farmland', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prosperity_gemstone'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_gemstone', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:prudentium_ingot',
+                    'mysticalagriculture:prudentium_ingot',
+                    'mysticalagriculture:prudentium_ingot',
+                    'mysticalagriculture:prudentium_ingot',
+                    'mysticalagriculture:inferium_watering_can'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_watering_can', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget',
+                    'mysticalagriculture:prudentium_nugget'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_ingot', 3)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:supremium_essence',
+                    'minecraft:golden_apple'
+                ],
+                output: Item.of('mysticalagradditions:supremium_apple', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:infusion_crystals'
+                ],
+                output: Item.of('mysticalagriculture:supremium_essence', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_essence',
+                    '#forge:hoes',
+                    'minecraft:dirt'
+                ],
+                output: Item.of('mysticalagriculture:supremium_farmland', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:supremium_ingot',
+                    'mysticalagriculture:supremium_ingot',
+                    'mysticalagriculture:supremium_ingot',
+                    'mysticalagriculture:supremium_ingot',
+                    'mysticalagriculture:imperium_watering_can'
+                ],
+                output: Item.of('mysticalagriculture:supremium_watering_can', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget'
+                ],
+                output: Item.of('mysticalagriculture:supremium_ingot', 3)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:infusion_crystals',
+                    'mysticalagriculture:supremium_nugget'
+                ],
+                output: Item.of('mysticalagriculture:tertium_essence', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:tertium_essence',
+                    '#forge:hoes',
+                    'minecraft:dirt'
+                ],
+                output: Item.of('mysticalagriculture:tertium_farmland', 2)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:mystical_fertilizer',
+                    'mysticalagriculture:tertium_ingot',
+                    'mysticalagriculture:tertium_ingot',
+                    'mysticalagriculture:tertium_ingot',
+                    'mysticalagriculture:tertium_ingot',
+                    'mysticalagriculture:prudentium_watering_can'
+                ],
+                output: Item.of('mysticalagriculture:tertium_watering_can', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget',
+                    'mysticalagriculture:supremium_nugget'
+                ],
+                output: Item.of('mysticalagriculture:supremium_ingot', 3)
+            },
+            {
+                inputs: [
+                    '#forge:ingots/compressed_iron',
+                    '#forge:dyes/black'
+                ],
+                output: Item.of('extendedcrafting:black_iron_ingot', 1)
             }
         ]
     };

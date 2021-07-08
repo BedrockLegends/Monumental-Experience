@@ -58,6 +58,64 @@ onEvent('recipes', (event) => {
                     'minecraft:smooth_stone'
                 ],
                 output: Item.of('pneumaticcraft:reinforced_stone', 4)
+            },
+            //Extended Crafting
+            {
+                inputs: [
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:advanced_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:ingots/gold',
+                    '#forge:ingots/gold'
+                ],
+                output: Item.of('extendedcrafting:advanced_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:basic_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:ingots/iron',
+                    '#forge:ingots/iron'
+                ],
+                output: Item.of('extendedcrafting:basic_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:elite_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    'forge:gems/diamond',
+                    'forge:gems/diamond'
+                ],
+                output: Item.of('extendedcrafting:elite_component', 1)
             }
         ],
         recipes_superheated: [
