@@ -308,6 +308,7 @@ onEvent('recipes', event => {
 
 //Constantan block to ingot recipes
   	event.remove({id: 'thermal:storage/constantan_ingot_from_block'})
+  	event.remove({id: 'immersiveengineering:crafting/storage_constantan_to_ingot_constantan'})
 
 //Constantan ingots to block recipes
   	event.remove({id: 'thermal:storage/constantan_block'})
@@ -337,6 +338,15 @@ onEvent('recipes', event => {
 //Cyclic Recipes
 	event.remove({id: 'cyclic:melter'})
 	event.remove({id: 'cyclic:solidifier'})
+
+//Certus Quartz Recipes
+	event.remove({id: 'appliedenergistics2:decorative/certus_quartz_block'})
+
+//Cobalt Recipes
+	event.remove({id: 'tconstruct:common/materials/cobalt_ingot_from_block'})
+	event.remove({id: 'tconstruct:common/materials/cobalt_ingot_from_nuggets'})
+	event.remove({id: 'tconstruct:common/materials/cobalt_ingot_smelting'})
+	event.remove({id: 'tconstruct:common/materials/cobalt_block_from_ingots'})
 
 //Diamond blasting and smelting recipes
   	event.remove({id: 'undergarden:blast_undergarden_diamond'})
@@ -380,7 +390,18 @@ onEvent('recipes', event => {
 
 //Enderium ingots to nugget recipes
   	event.remove({id: 'thermal:storage/enderium_nugget_from_ingot'})
-	
+
+//Electrum recipes
+  	event.remove({id: 'immersiveengineering:crafting/storage_electrum_to_ingot_electrum'})
+  	event.remove({id: 'thermal:storage/electrum_ingot_from_block'})
+  	event.remove({id: 'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum'})
+  	event.remove({id: 'thermal:storage/electrum_ingot_from_nuggets'})
+  	event.remove({id: 'thermal:smelting/electrum_ingot_from_dust_blasting'})
+  	event.remove({id: 'thermal:smelting/electrum_ingot_from_dust_smelting'})
+  	event.remove({id: 'immersiveengineering:crafting/ingot_electrum_from_dust_from_blasting'})
+  	event.remove({id: 'immersiveengineering:crafting/ingot_electrum_from_dust'})
+
+
 //EnviroCore Recipes
 	event.remove({id: 'envirocore:laser_core'})
 	event.remove({id: 'envirocore:laser_lens_holder'})
@@ -670,6 +691,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'thermal:storage/lead_block'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_lead_to_storage_lead'})
   	event.remove({id: 'eidolon:lead_block'})
+  	event.remove({id: 'occultism:crafting/silver_block'})
 
 //Lead block to ingot recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_lead_to_ingot_lead'})
@@ -1304,6 +1326,7 @@ onEvent('recipes', event => {
 //Uranium ingot to block recipes
   	event.remove({id: 'mekanism:processing/uranium/storage_blocks/from_ingots'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_uranium_to_storage_uranium'})
+  	event.remove({id: 'biggerreactors:crafting/yellorium_block'})
 
 //Uranium ingot to nugget recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium'})
