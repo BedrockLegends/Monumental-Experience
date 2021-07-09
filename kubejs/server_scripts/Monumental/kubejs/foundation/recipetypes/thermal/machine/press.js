@@ -56,9 +56,49 @@ onEvent('recipes', (event) => {
             energy: 600
         },
         {
+            inputs: [Ingredient.of('#forge:ingots/iron', 4), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('emendatusenigmatica:iron_plate', 2)],
+            energy: 600
+        },
+        {
             inputs: [Ingredient.of('#forge:rods/wooden', 4), Ingredient.of('thermal:press_gear_die')],
             outputs: [Item.of('appliedenergistics2:wooden_gear', 1)],
             energy: 600
+        },
+        {
+            inputs: [Item.of('byg:purple_sandstone', 1), Ingredient.of('thermal:press_unpacking_die')],
+            outputs: [Item.of('byg:purple_sand', 4)],
+            energy: 2400
+        },
+        {
+            inputs: [Item.of('byg:blue_sandstone', 1), Ingredient.of('thermal:press_unpacking_die')],
+            outputs: [Item.of('byg:blue_sand', 4)],
+            energy: 2400
+        },
+        {
+            inputs: [Item.of('byg:white_sandstone', 1), Ingredient.of('thermal:press_unpacking_die')],
+            outputs: [Item.of('byg:white_sand', 4)],
+            energy: 2400
+        },
+        {
+            inputs: [Item.of('byg:black_sandstone', 1), Ingredient.of('thermal:press_unpacking_die')],
+            outputs: [Item.of('byg:black_sand', 4)],
+            energy: 2400
+        },
+        {
+            inputs: [Item.of('betterendforge:dense_snow', 1), Ingredient.of('thermal:press_unpacking_die')],
+            outputs: [Item.of('minecraft:snow_block', 9)],
+            energy: 2400
+        },
+        {
+            inputs: [Item.of('minecraft:snow_block', 9), Ingredient.of('thermal:press_packing_3x3_die')],
+            outputs: [Item.of('betterendforge:dense_snow', 1)],
+            energy: 2400
+        },
+        {
+            inputs: [Item.of('mekanism:hdpe_pellet'), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('mekanism:hdpe_sheet')],
+            energy: 2400
         }
     ];
 
