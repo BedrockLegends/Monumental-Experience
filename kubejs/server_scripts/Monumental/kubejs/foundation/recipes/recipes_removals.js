@@ -401,7 +401,6 @@ onEvent('recipes', event => {
   	event.remove({id: 'immersiveengineering:crafting/ingot_electrum_from_dust_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_electrum_from_dust'})
 
-
 //EnviroCore Recipes
 	event.remove({id: 'envirocore:laser_core'})
 	event.remove({id: 'envirocore:laser_lens_holder'})
@@ -441,7 +440,9 @@ onEvent('recipes', event => {
 	event.remove({id: 'extendedcrafting:basic_table'})
 	event.remove({id: 'extendedcrafting:basic_component'})
 
-	
+//Fluix Recipes
+	event.remove({id: 'appliedenergistics2:decorative/fluix_block'})	
+
 //Flux Networks Recipes
 	event.remove({id: 'fluxnetworks:basic_flux_storage'})
 	event.remove({id: 'fluxnetworks:flux_dust'})
