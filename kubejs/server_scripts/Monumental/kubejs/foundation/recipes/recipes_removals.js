@@ -142,6 +142,9 @@ onEvent('recipes', event => {
 	event.remove({id: 'create:crafting/materials/brass_ingot_from_compacting'})
 	event.remove({id: 'create:crafting/materials/brass_ingot_from_decompacting'})
 
+//bitumen
+  	event.remove({id: 'thermal:storage/bitumen_block'})
+
 //Building Gadgets Recipes
 	event.remove({id: 'buildinggadgets:construction_block_powder'})
 	event.remove({id: 'buildinggadgets:gadget_building'})
