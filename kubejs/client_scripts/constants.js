@@ -89,7 +89,8 @@ var itemsToHide = [
     'good_nights_sleep:dream_grass_block',
     'byg:peat',
     'inventorypets:nether_spawn',
-    'phosphophyllite:phosphophyllite_ore'
+    'phosphophyllite:phosphophyllite_ore',
+    'emendatusenigmatica:arcane_ore'
 ];
 
 var regexHide = [
@@ -138,8 +139,6 @@ var regexHide = [
     /immersiveposts:stick_/,
     /byg:pendorite/,
     /byg:ametrine/,
-    /emendatusenigmatica:\w+certus/,
-    /emendatusenigmatica:\w+fluix/,
     /rftoolsbase:dimensionalshard/,
     /appliedenergistics2:facade/,
     /extrastorage:disk_/,
@@ -163,7 +162,8 @@ var regexHide = [
     /quark:.*_ladder/,      
     /mekanism:creative_chemical_tank/,
     /mekanism:creative_fluid_tank/,      
-    /ceramics:.*_bucket/
+    /ceramics:.*_bucket/,      
+    /emendatusenigmatica:.*_bucket/
 ];
 
 const materialsToUnify = [
