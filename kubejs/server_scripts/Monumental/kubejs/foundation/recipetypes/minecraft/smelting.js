@@ -15,4 +15,8 @@ onEvent('recipes', event => {
         event.smelting('minecraft:red_stained_glass', 'minecraft:red_concrete_powder').id('monumental:red_stained_glass')
         event.smelting('minecraft:yellow_stained_glass', 'minecraft:yellow_concrete_powder').id('monumental:yellow_stained_glass')
         event.smelting('minecraft:white_stained_glass', 'minecraft:white_concrete_powder').id('monumental:white_stained_glass')
+        event.smelting('#forge:nuggets/iron', 'dustrial_decor:rusty_iron_nugget').id('monumental:iron_nugget')
+        event.smelting('#forge:ingots/iron', 'dustrial_decor:rusty_iron_ingot').id('monumental:iron_ingot')
+        event.smelting('#forge:plates/iron', 'dustrial_decor:rusty_sheet_metal').id('monumental:iron_plate')
+        event.smelting('7x emendatusenigmatica:tin_nugget', 'aquaculture:tin_can').id('monumental:tin_can_to_iron_nugget')
 })
