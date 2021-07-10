@@ -1,0 +1,11 @@
+onEvent('recipes', event => {
+  event.stonecutting('masonry:stonechiseledslab', 'minecraft:chiseled_stone_bricks')
+  event.stonecutting('masonry:stonechiseledwall', 'minecraft:chiseled_stone_bricks')
+    event.stonecutting('masonry:stonelargebrickscrackedslab', 'minecraft:cracked_stone_bricks')
+    event.stonecutting('masonry:stonelargebrickscrackedwall', 'minecraft:cracked_stone_bricks')
+    event.stonecutting('masonry:granitepolishedwall', 'minecraft:polished_granite')
+    event.stonecutting('masonry:dioritepolishedwall', 'minecraft:polished_diorite')
+    event.stonecutting('masonry:andesitepolishedwall', 'minecraft:polished_andesite')
+    event.stonecutting('masonry:darkprismarinepanelswall', 'minecraft:dark_prismarine')
+    event.stonecutting('masonry:prismarinepaverswall', 'minecraft:prismarine_bricks')
+})
