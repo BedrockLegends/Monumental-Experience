@@ -875,6 +875,9 @@ onEvent('recipes', event => {
 	event.remove({id: 'mysticalagriculture:tertium_gemstone'})
 	event.remove({id: 'mysticalagriculture:tertium_watering_can'})
 
+//Mana Diamond recipes
+  	event.remove({id: 'botania:mana_infusion/mana_diamond'})
+
 //Nickel blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_nickel_from_dust_from_blasting'})
@@ -936,6 +939,7 @@ onEvent('recipes', event => {
 
 //Potassium Nitrate recipe
   	event.remove({id: 'thermal:storage/niter_from_block'})
+  	event.remove({id: 'thermal:storage/niter_block'})
 
 //Pams Harvestcraft 2 Recipes
 	event.remove({id: 'pamhc2foodextended:bananasplititem'})
