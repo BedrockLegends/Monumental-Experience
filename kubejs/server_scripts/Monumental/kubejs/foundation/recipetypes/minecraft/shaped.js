@@ -76,97 +76,97 @@ event.shaped(Item.of('computercraft:turtle_normal', 1), ["AAA", "ABA", "ACA"], {
     C: 'immersiveengineering:reinforced_crate'
 })
 //Emendatus Enigmatica
-event.shaped(Item.of('emendatusenigmatica:diamond_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:diamond_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:gems/diamond',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:emerald_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:emerald_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:gems/emerald',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:lapis_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:lapis_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:gems/emerald',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:aluminum_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:aluminum_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/aluminum',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:brass_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:brass_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/brass',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:bronze_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:bronze_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/bronze',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:constantan_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:constantan_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/constantan',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:copper_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:copper_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/copper',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:electrum_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:electrum_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/electrum',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:enderium_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:enderium_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/enderium',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:gold_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:gold_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/gold',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:invar_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:invar_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/invar',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:iron_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:iron_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/iron',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:lead_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:lead_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/lead',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:lumium_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:lumium_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/lumium',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 });
-event.shaped(Item.of('emendatusenigmatica:nickel_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:nickel_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/nickel',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:osmium_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:osmium_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/osmium',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:signalum_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:signalum_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/signalum',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:silver_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:silver_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/silver',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:steel_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:steel_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/steel',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:tin_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:tin_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/tin',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:uranium_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:uranium_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/uranium',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
-event.shaped(Item.of('emendatusenigmatica:zinc_plate', 1), ["   ", "BAA", " AA"], {
+event.shaped(Item.of('emendatusenigmatica:zinc_plate', 2), ["   ", "BAA", " AA"], {
     A: '#forge:ingots/zinc',
-    B: '#forge:tools/wrenches',
+    B: '#forge:tools/wrenches'
 })
 event.shaped(Item.of('emendatusenigmatica:aluminum_gear', 1), [" A ", "ABA", " A "], {
     A: '#forge:ingots/aluminum',
