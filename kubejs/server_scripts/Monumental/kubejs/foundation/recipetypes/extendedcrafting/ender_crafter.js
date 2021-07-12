@@ -591,4 +591,33 @@ onEvent('recipes', (event) => {
             }
         }
     );
+    //Extra Disks
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["ABA", "BEB", "CDC"
+            ],
+            "key": {
+                "A": {
+                "item": "appliedenergistics2:quartz_vibrant_glass"
+                },
+                "B": {
+                "item": "refinedstorage:quartz_enriched_iron"
+                },
+                "C": {
+                "item": "refinedstorage:improved_processor"
+                },
+                "D": {
+                "item": "refinedstorage:improved_processor"
+                },
+                "E": {
+                "item": "refinedstorage:storage_housing"
+                }
+            },
+            "result": {
+                "item": "extradisks:advanced_storage_housing",
+                "count": 1
+            }
+        }
+    );
 });

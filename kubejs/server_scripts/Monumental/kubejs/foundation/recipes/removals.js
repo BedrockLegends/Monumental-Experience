@@ -476,6 +476,11 @@ onEvent('recipes', event => {
 	event.remove({id: 'extendedcrafting:elite_component'})
 	event.remove({id: 'extendedcrafting:basic_table'})
 	event.remove({id: 'extendedcrafting:basic_component'})
+	
+//Exta Disks
+	event.remove({id: 'extradisks:advanced_storage_housing'})
+	event.remove({id: 'extradisks:raw_withering_processor'})
+	event.remove({id: 'extradisks:withering_processor'})
 
 //Fluix Recipes
 	event.remove({id: 'appliedenergistics2:decorative/fluix_block'})
