@@ -449,8 +449,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "ACA"
-            ],
+            "pattern": ["AAA", "ABA", "ACA"],
             "key": {
                 "A": {
                 "item": "pneumaticcraft:reinforced_stone"
@@ -471,8 +470,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "ACA"
-            ],
+            "pattern": ["AAA", "ABA", "ACA"],
             "key": {
                 "A": {
                 "item": "pneumaticcraft:reinforced_stone"
@@ -493,8 +491,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "AAA"
-            ],
+            "pattern": ["AAA", "ABA", "AAA"],
             "key": {
                 "A": {
                 "item": "pneumaticcraft:reinforced_stone"
@@ -512,14 +509,13 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "AAA"
-            ],
+            "pattern": ["AAA", "ABA", "AAA"],
             "key": {
                 "A": {
-                "item": "pneumaticcraft:reinforced_stone"
+                "tag": "forge:plates/electrum"
                 },
                 "B": {
-                "item": "immersiveengineering:wirecoil_redstone"
+                "item": "minecraft:ender_eye"
                 }
             },
             "result": {
@@ -531,8 +527,25 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": [" B ", "A A", " B "
-            ],
+            "pattern": ["AAA", "ABA", "AAA"],
+            "key": {
+                "A": {
+                "item": "pneumaticcraft:reinforced_stone"
+                },
+                "B": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                }
+            },
+            "result": {
+                "item": "computercraft:wireless_modem_normal",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": [" B ", "A A", " B "],
             "key": {
                 "A": {
                 "item": "contenttweaker:compressed_plate"
@@ -550,8 +563,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["ADA", "ABA", "ACA"
-            ],
+            "pattern": ["ADA", "ABA", "ACA"],
             "key": {
                 "A": {
                 "item": "contenttweaker:compressed_plate"
@@ -575,8 +587,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": [" A ", "ABA", " A "
-            ],
+            "pattern": [" A ", "ABA", " A "],
             "key": {
                 "A": {
                 "item": "immersiveengineering:insulating_glass"
