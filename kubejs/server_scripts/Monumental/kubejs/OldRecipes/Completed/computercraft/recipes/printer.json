@@ -1,0 +1,23 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        "###",
+        "#G#",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "pneumaticcraft:reinforced_stone"
+        },
+        "G": {
+            "tag": "forge:paper"
+        },
+        "S": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "result": {
+        "item": "computercraft:printer",
+        "count": 1
+    }
+}

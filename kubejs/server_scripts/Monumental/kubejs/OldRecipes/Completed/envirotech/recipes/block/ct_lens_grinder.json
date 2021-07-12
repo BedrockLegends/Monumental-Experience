@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        "isi",
+        "iPi",
+        "ici"
+    ],
+    "key": {
+        "i": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "c": {
+            "item": "envirocore:cpu"
+        },
+        "s": {
+            "item": "envirocore:lens"
+        }
+    },
+    "result": {
+        "item": "envirocore:lens_grinder",
+        "count": 1
+    }
+}

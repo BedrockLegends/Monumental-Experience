@@ -1,0 +1,21 @@
+{
+    "type": "botania:runic_altar",
+    "output": {
+        "item": "bloodmagic:speedrune"
+    },
+    "mana": 8000,
+    "ingredients": [
+        {
+            "item": "bloodmagic:blankrune"
+        },
+        {
+            "item": "bloodmagic:blankslate"
+        },
+        {
+            "item": "bloodmagic:blankslate"
+        },
+        {
+            "tag": "forge:sugar/sugar"
+        }
+    ]
+}

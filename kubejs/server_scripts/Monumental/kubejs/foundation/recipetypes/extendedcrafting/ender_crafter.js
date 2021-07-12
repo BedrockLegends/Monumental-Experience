@@ -471,8 +471,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "ACA"
-            ],
+            "pattern": ["AAA", "ABA", "ACA"],
             "key": {
                 "A": {
                 "item": "pneumaticcraft:reinforced_stone"
@@ -493,8 +492,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "AAA"
-            ],
+            "pattern": ["AAA", "ABA", "AAA"],
             "key": {
                 "A": {
                 "item": "pneumaticcraft:reinforced_stone"
@@ -512,8 +510,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["AAA", "ABA", "AAA"
-            ],
+            "pattern": ["AAA", "ABA", "AAA"],
             "key": {
                 "A": {
                 "item": "pneumaticcraft:reinforced_stone"
@@ -531,8 +528,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": [" B ", "A A", " B "
-            ],
+            "pattern": [" B ", "A A", " B "],
             "key": {
                 "A": {
                 "item": "contenttweaker:compressed_plate"
@@ -550,8 +546,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["ADA", "ABA", "ACA"
-            ],
+            "pattern": ["ADA", "ABA", "ACA"],
             "key": {
                 "A": {
                 "item": "contenttweaker:compressed_plate"
@@ -575,8 +570,7 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": [" A ", "ABA", " A "
-            ],
+            "pattern": [" A ", "ABA", " A "],
             "key": {
                 "A": {
                 "item": "immersiveengineering:insulating_glass"
@@ -588,6 +582,60 @@ onEvent('recipes', (event) => {
             "result": {
                 "item": "envirocore:lens",
                 "count": 4
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "industrialforegoing:fluid_extractor",
+            "pattern": ["ABA", "CDC", "AEA"],
+            "key": {
+                "A": {
+                "item": "contenttweaker:compressed_plate"
+                },
+                "B": {
+                "item": "#forge:gears/electrum"
+                },
+                "C": {
+                 "item": "create:mechanical_piston"
+                },
+                "D": {
+                "item": "#industrialforegoing:machine_frame/pity"
+                },
+                "E": {
+                "item": "immersiveengineering:fluid_pump"
+                }
+            },
+            "result": {
+                "item": "industrialforegoing:fluid_extractor",
+                "count": 1
+            }
+        }
+    )
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "industrialforegoing:fluid_extractor",
+            "pattern": ["ABA", "CDC", "AEA"],
+            "key": {
+                "A": {
+                "item": "contenttweaker:compressed_plate"
+                },
+                "B": {
+                "item": "thermal:rf_coil"
+                },
+                "C": {
+                 "item": "pneumaticcraft:plastic"
+                },
+                "D": {
+                "item": "#industrialforegoing:machine_frame/pity"
+                },
+                "E": {
+                "item": "routerreborn:furnace"
+                }
+            },
+            "result": {
+                "item": "industrialforegoing:latex_processing_unit",
+                "count": 1
             }
         }
     );

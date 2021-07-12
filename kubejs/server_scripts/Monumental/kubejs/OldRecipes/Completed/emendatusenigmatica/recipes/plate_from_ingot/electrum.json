@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "$##",
+        "## ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/electrum"
+        },
+        "$": {
+            "tag": "forge:tools/wrench"
+        }
+    },
+    "result": {
+        "item": "emendatusenigmatica:electrum_plate",
+        "count": 2
+    }
+}

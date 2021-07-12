@@ -1,0 +1,28 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "GEG",
+    "EWE",
+    "IAI"
+  ],
+  "key": {
+    "G": {
+      "item": "appliedenergistics2:quartz_vibrant_glass"
+    },
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "I": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "A": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "W": {
+      "item": "refinedstorage:storage_housing"
+    }
+  },
+  "result": {
+    "item": "extradisks:advanced_storage_housing"
+  }
+}

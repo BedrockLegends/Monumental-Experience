@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_mixingbowl"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:dyes"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodcoreextended:cottoncandyitem",
+	"count": 1}
+	
+}

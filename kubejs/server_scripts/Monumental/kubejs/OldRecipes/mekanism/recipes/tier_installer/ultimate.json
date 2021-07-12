@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:ultimate_tier_installer"
+    },
+    "pattern": [
+        "ACA",
+        "IPI",
+        "ACA"
+    ],
+    "key": {
+        "P": {
+            "item": "mekanism:elite_tier_installer"
+        },
+        "C": {
+            "tag": "forge:circuits/ultimate"
+        },
+        "I": {
+            "tag": "forge:gears/diamond"
+        },
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        }
+    }
+}

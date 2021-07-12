@@ -323,6 +323,64 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:prosperity_gemstone'
                 ],
                 output: Item.of('mysticalagriculture:tertium_gemstone', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/redstone',
+                    '#forge:ingots/iron',
+                ],
+                output: Item.of('extendedcrafting:redstone_ingot', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:ultimate_component',
+                    'extendedcrafting:ultimate_component',
+                    'extendedcrafting:ultimate_component',
+                    'extendedcrafting:ultimate_component',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:ultimate_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'forbidden_arcanus:mundabitur_dust',
+                    '#forge:ingots/gold',
+                    '#forge:charcoal',
+                    '#forge:charcoal',
+                    '#forge:charcoal',
+                    'forbidden_arcanus:mundabitur_dust',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:charcoal'
+                ],
+                output: Item.of('forbidden_arcanus:arcane_gold_ingot', 1)
+            },
+            {
+                inputs: [
+                    '#forge:crops/nether_wart',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:nuggets/ender_pearl',
+                    '#forge:ingots/obsidian',
+                    'minecraft:blaze_powder'
+                ],
+                output: Item.of('forbidden_arcanus:corrupti_dust', 4)
+            },
+            {
+                inputs: [
+                    'minecraft:bone_meal',
+                    'minecraft:phantom_membrane',
+                    '#forge:gunpowder',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/redstone',
+                    'minecraft:blaze_powder'
+                ],
+                output: Item.of('forbidden_arcanus:mundabitur_dust', 4)
+            },
+            {
+                inputs: [
+                    '#forge:obsidian',
+                    'create:andesite_alloy',
+                ],
+                output: Item.of('forbidden_arcanus:obsidian_ingot', 1)
             }
         ],
         recipes_superheated: [
@@ -1027,6 +1085,67 @@ events.listen('recipes', (event) => {
                     '#forge:dyes/black'
                 ],
                 output: Item.of('extendedcrafting:black_iron_ingot', 1)
+            },
+            {
+                inputs: [
+                    '#forge:ingots/enderium',
+                    '#forge:ingots/compressed_iron'
+                ],
+                output: Item.of('extendedcrafting:ender_ingot', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/glowstone',
+                    '#forge:dusts/redstone',
+                    '#forge:gunpowder',
+                    '#forge:dusts/glowstone'
+                ],
+                output: Item.of('extendedcrafting:luminessence', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/prismarine',
+                    '#forge:gems/prismarine',
+                    '#forge:dusts/arcane_crystal',
+                    'forbidden_arcanus:dragon_scale'
+                ],
+                output: Item.of('forbidden_arcanus:aquatic_dragon_scale', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:ingots/gold',
+                    '#forge:ingots/gold',
+                    '#forge:ingots/gold',
+                    'forbidden_arcanus:dragon_scale'
+                ],
+                output: Item.of('forbidden_arcanus:golden_dragon_scale', 1)
+            },
+            {
+                inputs: [
+                    '#forge:slimeballs',
+                    '#forge:gems/prismarine',
+                    '#minecraft:small_flowers',
+                    '#forge:dusts/arcane_crystal',
+                    'forbidden_arcanus:wax'
+                ],
+                output: Item.of('forbidden_arcanus:purifying_soap', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:dusts/arcane_crystal',
+                    '#forge:ingots/silver',
+                    '#forge:ingots/silver',
+                    '#forge:ingots/silver',
+                    'forbidden_arcanus:dragon_scale'
+                ],
+                output: Item.of('forbidden_arcanus:silver_dragon_scale', 1)
             }
         ]
     };

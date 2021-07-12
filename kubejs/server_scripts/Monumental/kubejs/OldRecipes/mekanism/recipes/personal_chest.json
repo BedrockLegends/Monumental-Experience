@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:personal_chest"
+    },
+    "pattern": [
+        "SGS",
+        "PCP",
+        "SSS"
+    ],
+    "key": {
+        "P": {
+            "tag": "forge:chests/wooden"
+        },
+        "C": {
+            "tag": "forge:circuits/basic"
+        },
+        "S": {
+            "tag": "forge:ingots/steel"
+        },
+        "G": {
+            "item": "appliedenergistics2:quartz_glass"
+        }
+    }
+}

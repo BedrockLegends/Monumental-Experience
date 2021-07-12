@@ -1,0 +1,18 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+        {
+            "item": "envirocore:volatile_memory"
+        },
+        {
+            "item": "contenttweaker:compressed_plate"
+        },
+        {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    ],
+    "category": "components",
+    "result": {
+        "item": "envirocore:flash_memory"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:metallurgic_infuser"
+    },
+    "pattern": [
+        "IOI",
+        "RSR",
+        "I#I"
+    ],
+    "key": {
+        "I": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "O": {
+            "tag": "forge:gears/osmium"
+        },
+        "R": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "#": {
+            "item": "routerreborn:furnace"
+        },
+        "S": {
+            "item": "mekanism:steel_casing"
+        }
+    }
+}

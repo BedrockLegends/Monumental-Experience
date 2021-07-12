@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "emendatusenigmatica",
+    "pattern": [
+        " I ",
+        "INI",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/osmium"
+        },
+        "N": {
+            "item": "create:andesite_alloy"
+        }
+    },
+    "result": {
+        "item": "emendatusenigmatica:osmium_gear"
+    }
+}

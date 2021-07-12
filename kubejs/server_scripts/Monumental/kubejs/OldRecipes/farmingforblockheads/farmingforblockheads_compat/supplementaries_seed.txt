@@ -1,0 +1,18 @@
+{
+    "modId": "supplementaries",
+    "group": {
+        "name": "Suplementaries Seed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "supplementaries:flax_seeds"
+            }
+        }
+    ]
+}

@@ -116,6 +116,34 @@ onEvent('recipes', (event) => {
                     '#forge:gems/diamond'
                 ],
                 output: Item.of('extendedcrafting:elite_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:redstone_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    'extendedcrafting:redstone_ingot',
+                    'extendedcrafting:redstone_ingot'
+                ],
+                output: Item.of('extendedcrafting:redstone_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:gems/emerald',
+                    '#forge:gems/emerald'
+                ],
+                output: Item.of('extendedcrafting:ultimate_component', 1)
             }
         ],
         recipes_superheated: [

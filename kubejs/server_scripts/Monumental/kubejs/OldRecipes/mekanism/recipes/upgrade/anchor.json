@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:upgrade_anchor"
+    },
+    "pattern": [
+        " G ",
+        "A#A",
+        " G "
+    ],
+    "key": {
+        "G": {
+            "item": "appliedenergistics2:quartz_glass"
+        },
+        "#": {
+            "tag": "forge:dusts/diamond"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        }
+    }
+}

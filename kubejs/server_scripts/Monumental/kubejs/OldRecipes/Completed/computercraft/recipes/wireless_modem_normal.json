@@ -1,0 +1,19 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        "###",
+        "#E#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "pneumaticcraft:reinforced_stone"
+        },
+        "E": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "result": {
+        "item": "computercraft:wireless_modem_normal"
+    }
+}

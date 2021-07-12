@@ -1,0 +1,20 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "pneumaticcraft:reinforced_stone"
+        },
+        "G": {
+            "item": "immersiveengineering:insulating_glass"
+        }
+    },
+    "result": {
+        "item": "computercraft:monitor_normal",
+        "count": 2
+    }
+}

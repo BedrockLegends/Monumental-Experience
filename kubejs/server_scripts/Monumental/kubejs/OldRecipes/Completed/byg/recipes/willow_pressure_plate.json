@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " $ ",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "byg:willow_planks"
+        },
+        "$": {
+            "item": "immersiveengineering:hammer"
+        }
+    },
+    "result": {
+        "item": "byg:willow_pressure_plate"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

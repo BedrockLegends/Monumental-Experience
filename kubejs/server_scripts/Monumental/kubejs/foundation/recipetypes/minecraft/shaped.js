@@ -680,7 +680,7 @@ event.shaped(Item.of('byg:zelkova_pressure_plate', 1), [" A ", " A ", " B "], {
     A: 'byg:zelkova_planks',
     B: 'immersiveengineering:hammer'
 })
-//pneumaticcraft
+//Pneumaticcraft
 event.shaped(Item.of('pneumaticcraft:compressed_iron_gear', 1), [" C ", "CIC", " C "], {
     C: '#forge:ingots/compressed_iron',
     I: 'create:andesite_alloy'
@@ -1380,5 +1380,45 @@ event.shaped(Item.of('morphtool:tool').nbt({
             D: '#forge:gears/silver',
             E: '#forge:gears/copper',
             F: 'morphtool:tool'
+    })
+    //Extended Crafting
+    event.shaped(Item.of('extendedcrafting:elite_table', 1), ["CDC", "ABA", "CDC"], {
+        A: '#forge:plates/diamond',
+        B: 'extendedcrafting:advanced_table',
+        C: 'extendedcrafting:elite_component',
+        D: 'extendedcrafting:elite_catalyst'
+    })
+    event.shaped(Item.of('extendedcrafting:ultimate_table', 1), ["CDC", "BAB", "CDC"], {
+        A: 'extendedcrafting:elite_table',
+        B: '#forge:plates/emerald',
+        C: 'extendedcrafting:ultimate_component',
+        D: 'extendedcrafting:ultimate_catalyst'
+    })
+    //Forbidden Arcanus
+    event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
+        A: 'forbidden_arcanus:arcane_gold_ingot',
+        B: 'immersiveengineering:hammer'
+    })
+    event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
+        A: 'forbidden_arcanus:cherrywood_planks',
+        B: 'immersiveengineering:hammer'
+    })
+    event.shaped(Item.of('forbidden_arcanus:edelwood_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'forbidden_arcanus:edelwood_planks',
+        B: 'immersiveengineering:hammer'
+    })
+    event.shaped(Item.of('forbidden_arcanus:mysterywood_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'forbidden_arcanus:mysterywood_planks',
+        B: 'immersiveengineering:hammer'
+    })
+    event.shaped(Item.of('forbidden_arcanus:polished_darkstone_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'forbidden_arcanus:polished_darkstone',
+        B: 'immersiveengineering:hammer'
+    })
+    event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  "], {
+        A: 'minecraft:glass_bottle',
+        B: 'minecraft:nether_bricks',
+        C: 'minecraft:quartz_block',
+        D: 'minecraft:quartz'
     });
 });

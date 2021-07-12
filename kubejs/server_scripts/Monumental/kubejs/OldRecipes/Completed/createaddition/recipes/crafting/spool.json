@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	["P",
+	 "N",
+	 "P"],
+	"key":
+	{
+		"P":
+		{
+			"tag": "forge:treated_wood_slab"
+		},
+		"N":
+		{
+			"tag": "forge:rods/iron"
+		}
+	},
+	"result":{
+		"item": "createaddition:spool",
+		"count": 8
+	}
+}

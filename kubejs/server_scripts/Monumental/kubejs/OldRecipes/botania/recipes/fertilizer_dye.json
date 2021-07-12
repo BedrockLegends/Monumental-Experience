@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:dyes"
+        },
+        {
+            "tag": "forge:dyes"
+        },
+        {
+            "tag": "forge:dyes"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        }
+    ],
+    "results": [
+        {
+            "item": "botania:fertilizer"
+        }
+    ]
+}

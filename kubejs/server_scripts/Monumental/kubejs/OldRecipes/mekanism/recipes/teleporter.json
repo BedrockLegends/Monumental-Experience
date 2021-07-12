@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:teleporter"
+    },
+    "pattern": [
+        "CXC",
+        "XTX",
+        "CSC"
+    ],
+    "key": {
+        "T": {
+            "item": "mekanism:teleportation_core"
+        },
+        "C": {
+            "tag": "forge:circuits/basic"
+        },
+        "X": {
+            "item": "contenttweaker:compressed_plate"
+        },
+        "S": {
+            "item": "mekanism:steel_casing"
+        }
+    }
+}

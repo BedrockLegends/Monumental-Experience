@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    " fe",
+    " of",
+    "o  "
+  ],
+  "key": {
+    "o": {
+      "tag": "forge:ingots/obsidian"
+    },
+    "f": {
+      "item": "fluxnetworks:flux_dust"
+    },
+    "e": {
+      "item": "fluxnetworks:flux_core"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_configurator"
+  }
+}

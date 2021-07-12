@@ -1,0 +1,27 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:crops/nether_wart"
+        },
+        {
+            "tag": "forge:dusts/arcane_crystal"
+        },
+        {
+            "tag": "forge:nuggets/ender_pearl"
+        },
+        {
+            "tag": "forge:ingots/obsidian"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        }
+    ],
+    "results": [
+        {
+            "item": "forbidden_arcanus:corrupti_dust",
+            "count": 4
+        }
+    ],
+    "heatRequirement": "heated"
+}

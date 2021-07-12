@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_mixingbowl"
+    },
+    {
+      "tag": "forge:crops/banana"
+    },
+    {
+      "tag": "forge:icecreams"
+    },
+    {
+      "tag": "forge:fruits"
+    },
+    {
+      "item": "pamhx2trees:walnutitem"
+    },
+    {
+      "tag": "forge:chocolatebar"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:bananasplititem",
+	"count": 1}
+	
+}

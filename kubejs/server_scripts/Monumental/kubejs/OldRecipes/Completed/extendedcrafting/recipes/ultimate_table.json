@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "conditions": [
+        {
+            "type": "cucumber:enabled",
+            "item": "extendedcrafting:ultimate_table"
+        }
+    ],
+    "pattern": [
+        "BSB",
+        "CIC",
+        "BSB"
+    ],
+    "key": {
+        "I": {
+            "item": "extendedcrafting:elite_table"
+        },
+        "C": {
+            "tag": "forge:plates/emerald"
+        },
+        "B": {
+            "item": "extendedcrafting:ultimate_component"
+        },
+        "S": {
+            "item": "extendedcrafting:ultimate_catalyst"
+        }
+    },
+    "result": {
+        "item": "extendedcrafting:ultimate_table"
+    }
+}

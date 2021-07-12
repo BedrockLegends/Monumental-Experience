@@ -1,0 +1,27 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:ores/inferium"
+        }
+    ],
+    "results": [
+        {
+            "item": "mysticalagriculture:inferium_essence"
+        }
+    ],
+    "processingTime": 350,
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ores/inferium",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

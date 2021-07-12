@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "emendatusenigmatica",
+    "pattern": [
+        " I ",
+        "INI",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/silver"
+        },
+        "N": {
+            "item": "create:andesite_alloy"
+        }
+    },
+    "result": {
+        "item": "emendatusenigmatica:silver_gear"
+    }
+}

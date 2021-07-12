@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "item": "industrialforegoing:fluid_extractor",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "extendedcrafting:shaped_ender_crafter",
+        "pattern": [
+          "IGI",
+          "CMC",
+          "IPI"
+        ],
+        "key": {
+          "I": {
+            "item": "contenttweaker:compressed_plate"
+          },
+          "G": {
+            "tag": "forge:gears/electrum"
+          },
+          "C": {
+            "item": "create:mechanical_piston"
+          },
+          "M": {
+            "tag": "industrialforegoing:machine_frame/pity"
+          },
+          "P": {
+            "item": "immersiveengineering:fluid_pump"
+          }
+        },
+        "result": {
+          "item": "industrialforegoing:fluid_extractor"
+        }
+      }
+    }
+  ]
+}

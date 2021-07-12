@@ -1,0 +1,20 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        "###",
+        "RRR",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "pneumaticcraft:reinforced_stone"
+        },
+        "R": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "result": {
+        "item": "computercraft:cable",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "greater_eye:greater_eye"
+        },
+        {
+            "tag": "forge:gems/quartz"
+        }
+    ],
+    "results": [
+        {
+            "item": "greater_eye:greater_eye_nether"
+        }
+    ],
+    "heatRequirement": "heated"
+}

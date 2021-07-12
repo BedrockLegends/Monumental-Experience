@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    "ACA",
+    "BA "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/diamond"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "C": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "result": {
+    "item": "ironjetpacks:elite_coil"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+        "###",
+        "#R#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "pneumaticcraft:reinforced_stone"
+        },
+        "R": {
+            "tag": "forge:ender_pearls"
+        }
+    },
+    "result": {
+        "item": "computercraft:wired_modem"
+    }
+}

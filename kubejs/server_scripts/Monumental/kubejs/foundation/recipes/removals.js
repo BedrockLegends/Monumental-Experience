@@ -479,8 +479,15 @@ onEvent('recipes', event => {
 	event.remove({id: 'extendedcrafting:elite_catalyst'})
 	event.remove({id: 'extendedcrafting:elite_component'})
 	event.remove({id: 'extendedcrafting:basic_table'})
-	event.remove({id: 'extendedcrafting:basic_component'})
-	
+	event.remove({id: 'extendedcrafting:elite_table'})
+	event.remove({id: 'extendedcrafting:ender_ingot'})
+	event.remove({id: 'extendedcrafting:luminessence'})
+	event.remove({id: 'extendedcrafting:redstone_catalyst'})
+	event.remove({id: 'extendedcrafting:redstone_ingot'})
+	event.remove({id: 'extendedcrafting:ultimate_catalyst'})
+	event.remove({id: 'extendedcrafting:ultimate_component'})
+	event.remove({id: 'extendedcrafting:ultimate_table'})
+
 //Exta Disks
 	event.remove({id: 'extradisks:advanced_storage_housing'})
 	event.remove({id: 'extradisks:raw_withering_processor'})
@@ -488,7 +495,23 @@ onEvent('recipes', event => {
 
 //Fluix Recipes
 	event.remove({id: 'appliedenergistics2:decorative/fluix_block'})
-	event.remove({id: 'appliedenergistics2:misc/deconstruction_fluix_block'})		
+	event.remove({id: 'appliedenergistics2:misc/deconstruction_fluix_block'})
+	
+//Forbidden Arcanus Recipes
+	event.remove({id: 'forbidden_arcanus:aquatic_dragon_scale'})
+	event.remove({id: 'forbidden_arcanus:arcane_gold_ingot'})
+	event.remove({id: 'forbidden_arcanus:arcane_gold_pressure_plate'})
+	event.remove({id: 'forbidden_arcanus:cherrywood_pressure_plate'})
+	event.remove({id: 'forbidden_arcanus:corrupti_dust'})
+	event.remove({id: 'forbidden_arcanus:edelwood_pressure_plate'})
+	event.remove({id: 'forbidden_arcanus:golden_dragon_scale'})
+	event.remove({id: 'forbidden_arcanus:mundabitur_dust'})
+	event.remove({id: 'forbidden_arcanus:mysterywood_pressure_plate'})
+	event.remove({id: 'forbidden_arcanus:polished_darkstone_pressure_plate'})
+	event.remove({id: 'forbidden_arcanus:obsidian_ingot'})
+	event.remove({id: 'forbidden_arcanus:purifying_soap'})
+	event.remove({id: 'forbidden_arcanus:silver_dragon_scale'})
+	event.remove({id: 'forbidden_arcanus:soul_extractor'})
 
 //Flux Networks Recipes
 	event.remove({id: 'fluxnetworks:basic_flux_storage'})
@@ -609,6 +632,11 @@ onEvent('recipes', event => {
   	event.remove({id: 'undergarden:smelt_undergarden_iron'})
   	event.remove({id: 'atum:iron_ingot'})
   	event.remove({id: 'minecraft:iron_ingot'})
+
+//Industrial Forgoing Recipes
+	event.remove({id: 'industrialforegoing:fluid_extractor'})
+	event.remove({id: 'industrialforegoing:latex_processing_unit'})
+	event.remove({id: 'industrialforegoing:machine_frame_pity'})
 
 //Invar blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/invar_ingot_from_dust_blasting'})

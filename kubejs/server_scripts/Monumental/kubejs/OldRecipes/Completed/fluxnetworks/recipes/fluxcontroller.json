@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    "bxb",
+    "cac",
+    "bbb"
+  ],
+  "key": {
+    "c": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "b": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "x": {
+      "item": "thermal:obsidian_glass"
+    },
+    "a": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_controller"
+  }
+}

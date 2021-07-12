@@ -1,0 +1,36 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 0,
+  "duration": 100,
+  "starlight": 200,
+  "pattern": [
+    "_____",
+    "_W W_",
+    "_QPQ_",
+    "_QLQ_",
+    "_____"
+  ],
+  "key": {
+    "P": {
+      "item": "bloodmagic:basemonstersoul"
+    },
+    "L": {
+      "item": "iceandfire:dragonforge_fire_core_disabled"
+    },
+    "Q": {
+      "item": "bloodmagic:blankrune"
+    },
+    "W": {
+      "item": "mana-and-artifice:superheated_purified_vinteum_ingot"
+    }
+  },
+  "output": [
+    {
+      "item": "bloodmagic:soulforge",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam"
+  ]
+}
