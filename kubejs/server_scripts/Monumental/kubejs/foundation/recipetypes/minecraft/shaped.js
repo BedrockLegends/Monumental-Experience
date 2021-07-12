@@ -1355,7 +1355,6 @@ event.shaped(Item.of('morphtool:tool', 1), ["AB ", "CD ", "  D"], {
 })
 event.shaped(Item.of('morphtool:tool').nbt({
 'morphtool:data': {
-        resourcefulbees: { id: 'resourcefulbees:scraper', Count: 1 },
         astralsorcery: { id: 'astralsorcery:wand', Count: 1 },
         pneumaticcraft: { id: 'pneumaticcraft:pneumatic_wrench', Count: 1 },
         immersiveengineering: { id: 'immersiveengineering:hammer', Count: 1 },
