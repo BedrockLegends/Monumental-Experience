@@ -1,5 +1,5 @@
 onEvent('item.tags', (event) => {
     event.add('forge:wrenches', [
-        'chiselandbits:wrench_wood'
+        'chiselsandbits:wrench_wood'
     ]);
 });
