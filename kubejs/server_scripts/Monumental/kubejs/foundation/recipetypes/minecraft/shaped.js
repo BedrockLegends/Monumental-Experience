@@ -1,4 +1,170 @@
 onEvent('recipes', event => {
+//Project Vibrant Journeys
+event.shaped(Item.of('projectvibrantjourneys:bones', 8), ["AAA", "A A", "AAA"], {
+    A: '#forge:bones'
+})
+event.shaped(Item.of('projectvibrantjourneys:charred_bones', 8), ["AAA", "ABA", "AAA"], {
+    A: '#forge:bones',
+    B: '#forge:charcoal'
+})
+event.shaped(Item.of('projectvibrantjourneys:seashells', 8), ["AAA", "ABA", "AAA"], {
+    A: '#forge:dusts/prismarine',
+    B: 'minecraft:nautilus_shell'
+})
+//scanables
+event.shaped(Item.of('scannable:module_blank', 1), ["ggg", "crc", "qnq"], {
+    g: 'immersiveengineering:insulating_glass',
+    c: 'modularrouters:blank_module',
+    q: '#forge:plates/wooden',
+    n: 'immersiveengineering:wirecoil_electrum',
+    r: '#forge:dusts/glowstone'
+})
+//create additions
+event.shaped(Item.of('createaddition:spool', 8), [" P ", " N ", " P "], {
+    A: '#forge:treated_wood_slab',
+    B: '#forge:rods/iron'
+})
+//DruidCraft
+event.shaped(Item.of('druidcraft:elder_pressure_plate', 1), [" A ", " B ", " B "], {
+    A: 'druidcraft:elder_planks',
+    B: 'immersiveengineering:hammer'
+})
+//Enviro Core
+event.shaped(Item.of('envirocore:obsidian_plate', 4), ["AA ", "AA ", "   "], {
+    A: '#forge:ingots/obsidian'
+})
+//Ranged Pumps
+event.shaped(Item.of('rangedpumps:pump', 1), ["OPO", "LDL", "OPO"], {
+    O: '#forge:plates/steel',
+    P: 'minecraft:diamond_pickaxe',
+    L: '#forge:ingots/obsidian',
+    D: 'immersiveengineering:fluid_pump',
+})
+//Modular Routers
+event.shaped(Item.of('modularrouters:blank_module', 2), ["SRS", "PPP", "GGG"], {
+    R: 'extendedcrafting:redstone_ingot',
+    P: '#forge:paper',
+    G: '#forge:plates/gold',
+    S: 'create:andesite_alloy',
+})
+event.shaped(Item.of('modularrouters:blank_upgrade', 2), ["PPG", "PLG", "SPG"], {
+    P: '#forge:paper',
+    L: '#forge:gears/lapis',
+    G: '#forge:plates/gold',
+    S: 'create:andesite_alloy',
+})
+event.shaped(Item.of('modularrouters:item_router', 4), ["IBI", "BMB", "IBI"], {
+    I: '#forge:plates/steel',
+    M: 'modularrouters:blank_module',
+    B: '#forge:sheetmetals/steel'
+})
+//Extended Crafting   
+event.shaped(Item.of('extendedcrafting:advanced_table', 1), ['CDC', 'ABA', 'CDC'], {
+    A: '#forge:plates/gold',
+    B: 'extendedcrafting:basic_table',
+    C: 'extendedcrafting:advanced_component',
+    D: 'extendedcrafting:advanced_catalyst'
+})
+event.shaped(Item.of('extendedcrafting:basic_table', 1), ['CDC', 'ABA', 'CDC'], {
+    A: '#forge:plates/iron',
+    B: 'immersiveengineering:craftingtable',
+    C: 'extendedcrafting:basic_component',
+    D: 'extendedcrafting:basic_catalyst'
+})
+event.shaped(Item.of('extendedcrafting:black_iron_slate', 1), [' B ', ' A ', ' A '], {
+    A: 'extendedcrafting:black_iron_ingot',
+    B: 'immersiveengineering:hammer'
+})
+event.shaped(Item.of('extendedcrafting:basic_table', 1), ['CDC', 'ABA', 'CDC'], {
+    A: '#forge:plates/iron',
+    B: 'immersiveengineering:craftingtable',
+    C: 'extendedcrafting:basic_component',
+    D: 'extendedcrafting:basic_catalyst'
+})
+//Building Gadgets
+event.shaped(Item.of('buildinggadgets:gadget_building', 1), ["AEA", "DBD", "ACA"], {
+    A: '#forge:plates/iron',
+    B: 'immersiveengineering:insulating_glass',
+    C: '#forge:plates/lapis_lazuli',
+    D: '#forge:gears/diamond',
+    E: 'create:electron_tube'
+})
+event.shaped(Item.of('buildinggadgets:gadget_copy_paste', 1), ["AEA", "DBD", "ACA"], {
+    A: '#forge:plates/iron',
+    B: 'immersiveengineering:insulating_glass',
+    C: '#forge:plates/lapis_lazuli',
+    D: '#forge:gears/emerald',
+    E: 'create:electron_tube'
+})
+event.shaped(Item.of('buildinggadgets:gadget_destruction', 1), ["AEA", "DBD", "ACA"], {
+    A: '#forge:plates/iron',
+    B: 'immersiveengineering:insulating_glass',
+    C: '#forge:plates/lapis_lazuli',
+    D: '#forge:dusts/ender_pearl',
+    E: 'create:electron_tube'
+})
+event.shaped(Item.of('buildinggadgets:gadget_exchanging', 1), ["AEA", "DBD", "ACA"], {
+    A: '#forge:plates/iron',
+    B: 'immersiveengineering:insulating_glass',
+    C: '#forge:plates/lapis_lazuli',
+    D: '#forge:gears/diamond',
+    E: 'create:electron_tube'
+})
+//Quantum Storage
+event.shaped(Item.of('quantumstorage:qsu', 1), ["ACA", "AQA", "ACA"], {
+    A: '#forge:plates/steel',
+    Q: 'storagedrawers:emerald_storage_upgrade',
+    C: 'quantumstorage:chestdiamond'
+})
+event.shaped(Item.of('quantumstorage:tank', 1), ["AEA", "ACA", "AEA"], {
+    A: '#forge:plates/steel',
+    C: 'create:fluid_tank',
+    E: 'cyclic:tank'
+})
+//Waystones
+event.shaped(Item.of('waystones:return_scroll', 3), ["GEG", "PPP"], {
+    G: 'naturesaura:tainted_gold',
+    E: '#forge:dyes/purple',
+    P: '#forge:paper'
+})
+event.shaped(Item.of('waystones:bound_scroll', 3), ["DDD", "GEG", "PPP"], {
+    D: '#forge:dyes/purple',
+    G: 'naturesaura:tainted_gold',
+    E: 'botania:mana_pearl',
+    P: '#forge:paper'
+})
+event.shaped(Item.of('waystones:warp_scroll', 3), ["GDG", "GEG", "PPP"], {
+    G: 'naturesaura:tainted_gold',
+    E: 'botania:mana_pearl',
+    P: '#forge:paper',
+    D: '#forge:dyes/purple'
+})
+//Wooden Utils
+event.shaped(Item.of('woodenutilities:crafting_slab', 1), ["_e_"], {
+    e: '#forge:plates/wooden',
+    _: '#minecraft:wooden_slabs'
+})
+event.shaped(Item.of('woodenutilities:wooden_plate', 1), [" $ ", " S ", " S "], {
+    S: '#minecraft:planks',
+    $: 'immersiveengineering:hammer'
+})
+event.shaped(Item.of('woodenutilities:wooden_plate', 1), [" $ ", " S ", " S "], {
+    S: '#minecraft:planks',
+    $: 'emendatusenigmatica:enigmatic_hammer'
+})
+event.shaped(Item.of('woodenutilities:wooden_furnace', 1), ["BIB", "ISI", "BIB"], {
+    B: '#minecraft:logs',
+    S: '#minecraft:coals',
+    I: '#minecraft:planks'
+})
+event.shaped(Item.of('woodenutilities:wooden_hopper', 1), ["W W", "WCW", " W "], {
+    W: '#forge:plates/wooden',
+    C: '#forge:rods/wooden'
+})
+event.shaped(Item.of('woodenutilities:wooden_shears', 1), ["W ", "SW"], {
+    W: '#minecraft:planks',
+    S: '#forge:rods/wooden'
+})
 //appliedenergistics2
 event.shaped(Item.of('appliedenergistics2:quartz_growth_accelerator', 1), ["aba", "cdc", "aba"], {
     c: 'appliedenergistics2:quartz_glass',
@@ -400,6 +566,9 @@ event.shaped(Item.of('minecraft:sticky_piston', 1), ["TTT", "PXP", "PRP"], {
     X: '#forge:slimeballs',
 })
 //BYG
+event.shaped(Item.of('byg:pollen_block', 1), ["AA", "AA"], {
+    A: 'byg:pollen_dust'
+})
 event.shaped(Item.of('byg:embur_hyphae', 3), ["AA", "AA"], {
     A: 'byg:embur_pedu'
 })
