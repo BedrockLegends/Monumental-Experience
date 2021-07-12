@@ -12,6 +12,7 @@
 		}
 	}
 	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d
@@ -23,10 +24,14 @@
 				id: "0000000000001C43"
 				type: "item"
 				item: {
-					id: "inventorypets:feed_bag"
+					id: "cyclic:storage_bag"
 					Count: 1b
+					tag: { }
 					ForgeCaps: {
-						Parent: [ ]
+						Parent: {
+							Size: 81
+							Items: [ ]
+						}
 					}
 				}
 			}]

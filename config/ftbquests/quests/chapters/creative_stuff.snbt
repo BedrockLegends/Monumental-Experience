@@ -6,6 +6,7 @@
 	title: "&9Creative Stuff"
 	icon: "storagedrawers:creative_storage_upgrade"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -1.0d

@@ -6,6 +6,7 @@
 	title: "&6Extended Crafting"
 	icon: "extendedcrafting:basic_table"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "&6Black Iron Ingot x2"

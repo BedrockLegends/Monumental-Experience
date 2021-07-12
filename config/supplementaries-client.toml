@@ -170,4 +170,6 @@
 	brewing_stand_colors = true
 	#Makes tipped arrows show their colors when loaded with a crossbow
 	crossbows_colors = true
+	#Allow to right click with a clock to display current time in numerical form
+	clock_right_click = true
 

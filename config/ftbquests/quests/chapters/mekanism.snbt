@@ -6,6 +6,7 @@
 	title: "&9Mekanism"
 	icon: "mekanism:robit"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d

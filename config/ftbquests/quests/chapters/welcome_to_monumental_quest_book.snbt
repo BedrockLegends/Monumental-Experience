@@ -5,6 +5,7 @@
 	filename: "welcome_to_monumental_quest_book"
 	title: "Welcome to Monumental Quest Book"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d

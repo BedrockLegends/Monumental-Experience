@@ -67,5 +67,5 @@
 
 [OreGen]
 	#Enables/Disables copper ore spawn [false/true|default:true]
-	EnableCopperWorldGen = true
+	EnableCopperWorldGen = false
 

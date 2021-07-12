@@ -41,6 +41,9 @@
 		#Max health for a tier 5 mob
 		#Range: > 5
 		t5MaxHealth = 2147483647
+		#Exotic drop chance
+		#Range: 0.0 ~ 100.0
+		exotic = 15.0
 
 	[factory.base]
 		#Number of mobs to spawn

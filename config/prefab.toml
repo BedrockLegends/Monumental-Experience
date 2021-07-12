@@ -164,4 +164,6 @@
 		"Sugar Cane Farm" = true
 		#Determines if the recipe(s) associated with the Workshop are enabled.
 		Workshop = true
+		#Determines if the recipe(s) associated with the Modern Buildings are enabled.
+		"Modern Buildings" = true
 

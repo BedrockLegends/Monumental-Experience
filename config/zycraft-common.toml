@@ -21,10 +21,10 @@
 	[worldGen.aluminium]
 		#Defines the maximum amount of blocks in a vein
 		#Range: > 0
-		size = 8
+		size = 0
 		#Defines the amount of veins per chunk
 		#Range: > 0
-		amount = 8
+		amount = 0
 		#Defines the maximum height at which a vein can be generated
 		#Range: 0 ~ 256
 		maxHeight = 64

@@ -6,6 +6,7 @@
 	title: "&6All the Fame"
 	icon: "xreliquary:holy_hand_grenade"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Modern Gaming"
@@ -744,7 +745,6 @@
 			icon: "woodenutilities:wooden_plate"
 			x: 0.5d
 			y: 11.0d
-			dependencies: ["0000000000000A99"]
 			id: "00000000000002ED"
 			rewards: [{
 				id: "0000000000000904"
@@ -866,26 +866,6 @@
 				type: "command"
 				auto: "invisible"
 				command: "/say @p has compleated the The End chapter"
-				player_command: false
-			}]
-		}
-		{
-			title: "Jellyfishing any one?"
-			icon: {
-				id: "jellyfishing:jellyfish_net"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 3.0d
-			y: 7.0d
-			id: "00000000000013D9"
-			rewards: [{
-				id: "00000000000013DB"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Jellyfishing any one chapter"
 				player_command: false
 			}]
 		}
@@ -1157,21 +1137,6 @@
 				type: "command"
 				auto: "invisible"
 				command: "/say @p has completed the Environmental Tech chapter"
-				player_command: false
-			}]
-		}
-		{
-			title: "Extreme Reactors"
-			icon: "bigreactors:reinforced_reactorcontroller"
-			x: 2.0d
-			y: 5.0d
-			dependencies: ["0000000000001F70"]
-			id: "0000000000002409"
-			rewards: [{
-				id: "000000000000240B"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has completed the Extreme Reactors chapter"
 				player_command: false
 			}]
 		}

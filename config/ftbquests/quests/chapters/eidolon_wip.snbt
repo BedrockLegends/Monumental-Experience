@@ -7,6 +7,7 @@
 	icon: "eidolon:unholy_symbol"
 	subtitle: ["Praise Herobrine"]
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Welcome to Eidolon!"

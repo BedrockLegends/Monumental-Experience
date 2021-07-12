@@ -6,6 +6,7 @@
 	title: "&6Mob Grinding Utils"
 	icon: "mob_grinding_utils:saw"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d

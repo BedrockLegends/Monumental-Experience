@@ -6,6 +6,7 @@
 	title: "&6PSI"
 	icon: "psi:cad_assembly_ivory_psimetal"
 	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d

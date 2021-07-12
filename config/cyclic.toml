@@ -163,6 +163,18 @@
 			#Weapon damage
 			#Range: 0.10000000149011612 ~ 99.0
 			damage = 4.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 9
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 7
 
 		#####################################################################################
 		# Obsidian gear settings
@@ -174,6 +186,18 @@
 			#Weapon damage
 			#Range: 0.10000000149011612 ~ 99.0
 			damage = 10.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 11
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 10
 
 		#Wand settings
 		[cyclic.items.teleport_wand]

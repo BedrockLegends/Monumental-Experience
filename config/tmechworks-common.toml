@@ -7,7 +7,7 @@
 	#Generation settings for copper ore
 	[world.copper]
 		#Whether or not this ore is generated
-		enabled = true
+		enabled = false
 		#If true, the filter will act as a whitelist, otherwise, blacklist
 		isWhitelist = false
 		#A list of fully qualified biome names, for example "minecraft:river"
@@ -16,7 +16,7 @@
 	#Generation settings for aluminum ore
 	[world.aluminum]
 		#Whether or not this ore is generated
-		enabled = true
+		enabled = false
 		#If true, the filter will act as a whitelist, otherwise, blacklist
 		isWhitelist = false
 		#A list of fully qualified biome names, for example "minecraft:river"
