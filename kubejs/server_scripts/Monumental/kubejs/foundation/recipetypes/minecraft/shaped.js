@@ -1269,13 +1269,13 @@ event.shaped(Item.of('refinedstorage:1024k_fluid_storage_part', 1), ["PEP", "SRS
         P: 'refinedstorage:improved_processor',
         E: 'refinedstorage:quartz_enriched_iron',
         S: 'refinedstorage:256k_fluid_storage_part',
-        R: 'cyclic:tank'
+        R: '#forge:tank'
 })
 event.shaped(Item.of('refinedstorage:4096k_fluid_storage_part', 1), ["PEP", "SRS", "PSP"], {
         P: 'refinedstorage:advanced_processor',
         E: 'refinedstorage:quartz_enriched_iron',
         S: 'refinedstorage:1024k_fluid_storage_part',
-        R: 'cyclic:tank'
+        R: '#forge:tank'
 })
 event.shaped(Item.of('refinedstorage:cable', 12), ["EEE", "GRG", "EEE"], {
         E: 'refinedstorage:quartz_enriched_iron',
@@ -1416,9 +1416,9 @@ event.shaped(Item.of('forbidden_arcanus:polished_darkstone_pressure_plate', 1), 
 })
 event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  "], {
         A: 'minecraft:glass_bottle',
-        B: 'minecraft:nether_bricks',
-        C: 'minecraft:quartz_block',
-        D: 'minecraft:quartz'
+        B: '#chipped:nether_bricks',
+        C: '#chipped:quartz_block',
+        D: '#forge:gems/quartz'
 })
 //Mekanism
 event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
@@ -1435,34 +1435,34 @@ event.shaped(Item.of('mekanism:advanced_energy_cube', 1), ["DBD", "CAC", "DBD"],
         A: 'mekanism:basic_energy_cube',
         B: 'mekanism:energy_tablet',
         C: '#forge:plates/osmium',
-        D: 'mekanism:alloys/infused'
+        D: '#mekanism:alloys/infused'
 })
 event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:advanced_energy_cube',
         B: 'mekanism:energy_tablet',
         C: '#forge:plates/electrum',
-        D: 'mekanism:alloys/reinforced'
+        D: '#mekanism:alloys/reinforced'
 })
 event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:elite_energy_cube',
         B: 'mekanism:energy_tablet',
         C: '#forge:plates/diamond',
-        D: 'mekanism:alloys/atomic'
+        D: '#mekanism:alloys/atomic'
 })
 event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
         A: 'extendedcrafting:redstone_ingot',
         B: '#forge:plates/iron',
-        C: 'cyclic:tank'
+        C: '#forge:tank'
 })
 event.shaped(Item.of('mekanism:thermal_evaporation_block', 1), ["BAB", "ACA", "BAB"], {
         A: 'extendedcrafting:redstone_ingot',
         B: '#forge:plates/iron',
-        C: 'cyclic:tank'
+        C: '#forge:tank'
 })
 event.shaped(Item.of('mekanism:thermal_evaporation_controller', 1), ["BDB", "ACA", "AAA"], {
         A: 'mekanism:thermal_evaporation_block',
         B: '#forge:circuits/advanced',
-        C: 'mekanism:basic_fluid_tank',
+        C: '#forge:tank',
         D: 'appliedenergistics2:quartz_vibrant_glass'
 })
 event.shaped(Item.of('mekanism:basic_tier_installer', 1), ["DBD", "CAC", "DBD"], {
