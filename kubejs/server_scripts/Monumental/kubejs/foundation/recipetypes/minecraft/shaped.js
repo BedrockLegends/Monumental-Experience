@@ -1354,201 +1354,198 @@ event.shaped(Item.of('morphtool:tool', 1), ["AB ", "CD ", "  D"], {
         D: '#forge:plates/iron'
 })
 event.shaped(Item.of('morphtool:tool').nbt({
-            'morphtool:data': {
-                resourcefulbees: { id: 'resourcefulbees:scraper', Count: 1 },
-                astralsorcery: { id: 'astralsorcery:wand', Count: 1 },
-                pneumaticcraft: { id: 'pneumaticcraft:pneumatic_wrench', Count: 1 },
-                immersiveengineering: { id: 'immersiveengineering:hammer', Count: 1 },
-                transport: { id: 'transport:rail_breaker', Count: 1 },
-                botania: { id: 'botania:twig_wand', Count: 1, tag: { color1: 0, color2: 0 } },
-                mekanism: { id: 'mekanism:configurator', Count: 1 },
-                bloodmagic: { id: 'bloodmagic:ritualtinkerer', Count: 1 },
-                thermal: { id: 'thermal:wrench', Count: 1 },
-                rftoolsbase: { id: 'rftoolsbase:smartwrench', Count: 1 },
-                create: { id: 'create:wrench', Count: 1 },
-                chiselsandbits: { id: 'chiselsandbits:wrench_wood', Count: 1 },
-                refinedstorage: { id: 'refinedstorage:wrench', Count: 1 },
-                storagedrawers: { id: 'storagedrawers:drawer_key', Count: 1 },
-                fluxnetworks: { id: 'fluxnetworks:flux_configurator', Count: 1 }
-            }
-        }),
+'morphtool:data': {
+        resourcefulbees: { id: 'resourcefulbees:scraper', Count: 1 },
+        astralsorcery: { id: 'astralsorcery:wand', Count: 1 },
+        pneumaticcraft: { id: 'pneumaticcraft:pneumatic_wrench', Count: 1 },
+        immersiveengineering: { id: 'immersiveengineering:hammer', Count: 1 },
+        transport: { id: 'transport:rail_breaker', Count: 1 },
+        botania: { id: 'botania:twig_wand', Count: 1, tag: { color1: 0, color2: 0 } },
+        mekanism: { id: 'mekanism:configurator', Count: 1 },
+        bloodmagic: { id: 'bloodmagic:ritualtinkerer', Count: 1 },
+        thermal: { id: 'thermal:wrench', Count: 1 },
+        rftoolsbase: { id: 'rftoolsbase:smartwrench', Count: 1 },
+        create: { id: 'create:wrench', Count: 1 },
+        chiselsandbits: { id: 'chiselsandbits:wrench_wood', Count: 1 },
+        refinedstorage: { id: 'refinedstorage:wrench', Count: 1 },
+        storagedrawers: { id: 'storagedrawers:drawer_key', Count: 1 },
+        fluxnetworks: { id: 'fluxnetworks:flux_configurator', Count: 1 }
+    }
+}),
         ['ABA', 'CFD', 'AEA'],
-        {
-            A: '#forge:storage_blocks/redstone',
-            B: '#forge:gears/gold',
-            C: '#forge:gears/iron',
-            D: '#forge:gears/silver',
-            E: '#forge:gears/copper',
-            F: 'morphtool:tool'
-    })
-    //Extended Crafting
-    event.shaped(Item.of('extendedcrafting:elite_table', 1), ["CDC", "ABA", "CDC"], {
+    {
+        A: '#forge:storage_blocks/redstone',
+        B: '#forge:gears/gold',
+        C: '#forge:gears/iron',
+        D: '#forge:gears/silver',
+        E: '#forge:gears/copper',
+        F: 'morphtool:tool'
+})
+//Extended Crafting
+event.shaped(Item.of('extendedcrafting:elite_table', 1), ["CDC", "ABA", "CDC"], {
         A: '#forge:plates/diamond',
         B: 'extendedcrafting:advanced_table',
         C: 'extendedcrafting:elite_component',
         D: 'extendedcrafting:elite_catalyst'
-    })
-    event.shaped(Item.of('extendedcrafting:ultimate_table', 1), ["CDC", "BAB", "CDC"], {
+})
+event.shaped(Item.of('extendedcrafting:ultimate_table', 1), ["CDC", "BAB", "CDC"], {
         A: 'extendedcrafting:elite_table',
         B: '#forge:plates/emerald',
         C: 'extendedcrafting:ultimate_component',
         D: 'extendedcrafting:ultimate_catalyst'
-    })
-    //Forbidden Arcanus
+})
+//Forbidden Arcanus
     event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
         A: 'forbidden_arcanus:arcane_gold_ingot',
         B: 'immersiveengineering:hammer'
-    })
-    event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
+})
+event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
         A: 'forbidden_arcanus:cherrywood_planks',
         B: 'immersiveengineering:hammer'
-    })
-    event.shaped(Item.of('forbidden_arcanus:edelwood_pressure_plate', 1), [" B ", " A ", " A "], {
+})
+event.shaped(Item.of('forbidden_arcanus:edelwood_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:edelwood_planks',
         B: 'immersiveengineering:hammer'
-    })
-    event.shaped(Item.of('forbidden_arcanus:mysterywood_pressure_plate', 1), [" B ", " A ", " A "], {
+})
+event.shaped(Item.of('forbidden_arcanus:mysterywood_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:mysterywood_planks',
         B: 'immersiveengineering:hammer'
-    })
-    event.shaped(Item.of('forbidden_arcanus:polished_darkstone_pressure_plate', 1), [" B ", " A ", " A "], {
+})
+event.shaped(Item.of('forbidden_arcanus:polished_darkstone_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:polished_darkstone',
         B: 'immersiveengineering:hammer'
-    })
-    event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  "], {
+})
+event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  "], {
         A: 'minecraft:glass_bottle',
         B: 'minecraft:nether_bricks',
         C: 'minecraft:quartz_block',
         D: 'minecraft:quartz'
-    })
-    //Mekanism
-    event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
+})
+//Mekanism
+event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
         A: 'contenttweaker:compressed_plate',
         B: 'extendedcrafting:redstone_component'
-    })
-    event.shaped(Item.of('mekanism:basic_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+})
+event.shaped(Item.of('mekanism:basic_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:steel_casing',
         B: 'mekanism:energy_tablet',
         C: 'contenttweaker:compressed_plate',
         D: 'extendedcrafting:redstone_component'
-    })
-    event.shaped(Item.of('mekanism:advanced_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+})
+event.shaped(Item.of('mekanism:advanced_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:basic_energy_cube',
         B: 'mekanism:energy_tablet',
         C: '#forge:plates/osmium',
         D: 'mekanism:alloys/infused'
-    })
-    event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+})
+event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:advanced_energy_cube',
         B: 'mekanism:energy_tablet',
         C: '#forge:plates/electrum',
         D: 'mekanism:alloys/reinforced'
-    })
-    event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+})
+event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:elite_energy_cube',
         B: 'mekanism:energy_tablet',
         C: '#forge:plates/diamond',
         D: 'mekanism:alloys/atomic'
-    })
-    event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
+})
+event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
         A: 'extendedcrafting:redstone_ingot',
         B: '#forge:plates/iron',
         C: 'cyclic:tank'
-    })
-    event.shaped(Item.of('mekanism:thermal_evaporation_block', 1), ["BAB", "ACA", "BAB"], {
+})
+event.shaped(Item.of('mekanism:thermal_evaporation_block', 1), ["BAB", "ACA", "BAB"], {
         A: 'extendedcrafting:redstone_ingot',
         B: '#forge:plates/iron',
         C: 'cyclic:tank'
-    })
-    event.shaped(Item.of('mekanism:thermal_evaporation_controller', 1), ["BDB", "ACA", "AAA"], {
+})
+event.shaped(Item.of('mekanism:thermal_evaporation_controller', 1), ["BDB", "ACA", "AAA"], {
         A: 'mekanism:thermal_evaporation_block',
         B: '#forge:circuits/advanced',
         C: 'mekanism:basic_fluid_tank',
         D: 'appliedenergistics2:quartz_vibrant_glass'
-    })
-    event.shaped(Item.of('mekanism:basic_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+})
+event.shaped(Item.of('mekanism:basic_tier_installer', 1), ["DBD", "CAC", "DBD"], {
         A: 'appliedenergistics2:smooth_sky_stone_block',
         B: '#forge:circuits/basic',
         C: 'pneumaticcraft:compressed_iron_gear',
         D: 'extendedcrafting:redstone_component'
-    })
-    event.shaped(Item.of('mekanism:advanced_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+})
+event.shaped(Item.of('mekanism:advanced_tier_installer', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:basic_tier_installer',
         B: '#forge:circuits/advanced',
         C: '#forge:gears/osmium',
-        D: 'mekanism:alloys/infused'
-    })
-    event.shaped(Item.of('mekanism:elite_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+        D: '#mekanism:alloys/infused'
+})
+event.shaped(Item.of('mekanism:elite_tier_installer', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:advanced_tier_installer',
         B: '#forge:circuits/elite',
         C: '#forge:gears/electrum',
-        D: 'mekanism:alloys/reinforced'
-    })
-    event.shaped(Item.of('mekanism:ultimate_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+        D: '#mekanism:alloys/reinforced'
+})
+event.shaped(Item.of('mekanism:ultimate_tier_installer', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:elite_tier_installer',
         B: '#forge:circuits/ultimate',
         C: '#forge:gears/diamond',
-        D: 'mekanism:alloys/atomic'
-    })
-    event.shaped(Item.of('mekanism:basic_logistical_transporter', 8), ["   ", "ACA", " B "], {
+        D: '#mekanism:alloys/atomic'
+})
+event.shaped(Item.of('mekanism:basic_logistical_transporter', 8), ["   ", "ACA", " B "], {
         A: 'contenttweaker:compressed_plate',
         B: '#forge:circuits/basic',
         C: 'refinedpipes:basic_item_pipe'
-    })
-    event.shaped(Item.of('mekanism:basic_mechanical_pipe', 8), ["   ", "ABA", "   "], {
+})
+event.shaped(Item.of('mekanism:basic_mechanical_pipe', 8), ["   ", "ABA", "   "], {
         A: 'contenttweaker:compressed_plate',
         B: 'refinedpipes:basic_fluid_pipe'
     })
-    event.shaped(Item.of('mekanism:basic_pressurized_tube', 8), [" A ", "BCB", " A "], {
+event.shaped(Item.of('mekanism:basic_pressurized_tube', 8), [" A ", "BCB", " A "], {
         A: 'appliedenergistics2:quartz_glass',
         B: 'contenttweaker:compressed_plate',
         C: 'mekanism:basic_mechanical_pipe'
     })
-    event.shaped(Item.of('mekanism:basic_universal_cable', 8), ["   ", "ABA", "   "], {
+event.shaped(Item.of('mekanism:basic_universal_cable', 8), ["   ", "ABA", "   "], {
         A: 'contenttweaker:compressed_plate',
         B: 'refinedpipes:basic_energy_pipe'
-    })
-    event.shaped(Item.of('mekanism:diversion_transporter', 2), [" B ", "ACA", " B "], {
+})
+event.shaped(Item.of('mekanism:diversion_transporter', 2), [" B ", "ACA", " B "], {
         A: 'contenttweaker:compressed_plate',
         B: 'extendedcrafting:redstone_ingot',
         C: 'mekanism:restrictive_transporter'
-    })
-    event.shaped(Item.of('mekanism:restrictive_transporter', 2), [" B ", "ACA", " B "], {
+})
+event.shaped(Item.of('mekanism:restrictive_transporter', 2), [" B ", "ACA", " B "], {
         A: 'contenttweaker:compressed_plate',
         B: 'minecraft:iron_bars',
         C: 'mekanism:basic_logistical_transporter'
-    })
-
-
-
-    event.shaped(Item.of('mekanism:upgrade_anchor', 1), [" A ", "CBC", " A "], {
+})
+event.shaped(Item.of('mekanism:upgrade_anchor', 1), [" A ", "CBC", " A "], {
         A: 'appliedenergistics2:quartz_glass',
         B: '#forge:dusts/diamond',
         C: 'refinedpipes:basic_item_pipe'
-    })
-    event.shaped(Item.of('mekanism:upgrade_energy', 2), [" A ", "CBC", " A "], {
+})
+event.shaped(Item.of('mekanism:upgrade_energy', 2), [" A ", "CBC", " A "], {
         A: 'appliedenergistics2:quartz_glass',
         B: '#forge:dusts/gold',
         C: '#mekanism:alloys/infused'
-    })
-    event.shaped(Item.of('mekanism:upgrade_filter', 1), [" A ", "CBC", " A "], {
+})
+event.shaped(Item.of('mekanism:upgrade_filter', 1), [" A ", "CBC", " A "], {
         A: 'appliedenergistics2:quartz_glass',
-        B: 'forge:dusts/tin',
+        B: '#forge:dusts/tin',
         C: 'mekanism:basic_mechanical_pipe'
-    })
-    event.shaped(Item.of('mekanism:upgrade_gas', 2), [" A ", "CBC", " A "], {
+})
+event.shaped(Item.of('mekanism:upgrade_gas', 2), [" A ", "CBC", " A "], {
         A: 'contenttweaker:compressed_plate',
-        B: 'forge:dusts/iron',
+        B: '#forge:dusts/iron',
         C: 'mekanism:restrictive_transporter'
-    })
-    event.shaped(Item.of('mekanism:upgrade_muffling', 1), [" A ", "CBC", " A "], {
+})
+event.shaped(Item.of('mekanism:upgrade_muffling', 1), [" A ", "CBC", " A "], {
         A: 'contenttweaker:compressed_plate',
-        B: 'forge:dusts/steel',
+        B: '#forge:dusts/steel',
         C: 'mekanism:restrictive_transporter'
-    })
-    event.shaped(Item.of('mekanism:upgrade_speed', 2), [" A ", "CBC", " A "], {
+})
+event.shaped(Item.of('mekanism:upgrade_speed', 2), [" A ", "CBC", " A "], {
         A: 'contenttweaker:compressed_plate',
-        B: 'forge:dusts/osmium',
+        B: '#forge:dusts/osmium',
         C: 'mekanism:basic_logistical_transporter'
     });
 });
