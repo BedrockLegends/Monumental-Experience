@@ -415,7 +415,7 @@ onEvent('recipes', (event) => {
             ],
             "key": {
                 "A": {
-                "item": "#forge:plates/gold"
+                "tag": "forge:plates/gold"
                 },
                 "B": {
                 "item": "computercraft:monitor_normal"
@@ -434,7 +434,7 @@ onEvent('recipes', (event) => {
             ],
             "key": {
                 "A": {
-                "item": "#forge:plates/gold"
+                "tag": "forge:plates/gold"
                 },
                 "B": {
                 "item": "immersiveengineering:insulating_glass"
@@ -456,7 +456,7 @@ onEvent('recipes', (event) => {
                 "item": "pneumaticcraft:reinforced_stone"
                 },
                 "B": {
-                "item": "#forge:paper"
+                "tag": "forge:paper"
                 },
                 "C": {
                     "item": "immersiveengineering:wirecoil_redstone"
@@ -500,7 +500,7 @@ onEvent('recipes', (event) => {
                 "item": "pneumaticcraft:reinforced_stone"
                 },
                 "B": {
-                "item": "#forge:ender_pearls"
+                "tag": "forge:ender_pearls"
                 }
             },
             "result": {
@@ -550,25 +550,6 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
-            "pattern": ["ABA", "B B", "ABA"
-            ],
-            "key": {
-                "A": {
-                "item": "envirocore:obsidian_plate"
-                },
-                "B": {
-                "item": "contenttweaker:compressed_plate"
-                }
-            },
-            "result": {
-                "item": "computercraft:wireless_modem_advanced",
-                "count": 1
-            }
-        }
-    );
-    event.recipes.extendedcrafting.shaped_ender_crafter(
-        {
-            "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": ["ADA", "ABA", "ACA"
             ],
             "key": {
@@ -576,7 +557,7 @@ onEvent('recipes', (event) => {
                 "item": "contenttweaker:compressed_plate"
                 },
                 "B": {
-                "item": "minecraft:piston"
+                "tag": "forge:piston"
                 },
                 "C": {
                 "item": "envirocore:cpu"
