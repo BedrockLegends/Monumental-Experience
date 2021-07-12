@@ -136,6 +136,18 @@ onEvent('recipes', (event) => {
                 ingredients: [{ type: 'pneumaticcraft:stacked_item', item: 'minecraft:snow_block', count: 4 }],
                 pressure: 2.0,
                 output: [{ item: 'betterendforge:dense_snow', count: 1 }]
+            },
+            //Extra Disks
+            {
+                ingredients: [
+                    { item: '#forge:nether_stars' },
+                    { item: 'appliedenergistics2:silicon' },
+                    { item: 'extendedcrafting:redstone_catalyst' },
+                    { item: 'refinedstorage:processor_binding' }
+                ],
+                pressure: 4.0,
+                output: [{ item: 'extradisks:raw_withering_processor', count: 1 }],
+                id: 'raw_withering_processor'
             }
         ]
     };
