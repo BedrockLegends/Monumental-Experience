@@ -235,9 +235,9 @@ onEvent('recipes', (event) => {
             {
                 inputs: [
                     { count: 1, base_ingredient: { item: 'contenttweaker:compressed_plate' } },
-                    { item:  'envirocore:litherite_boule' },
                     { item: 'envirocore:litherite_boule' },
-                    { item:  'envirocore:litherite_wafer' },
+                    { item: 'envirocore:litherite_boule' },
+                    { item: 'envirocore:litherite_wafer' },
                     { item: 'immersiveengineering:wirecoil_redstone' }
                 ],
                 category: 'components',
@@ -245,6 +245,50 @@ onEvent('recipes', (event) => {
                     item: 'envirocore:volatile_memory'
                 },
                 id: 'volatile_memory'
+            },
+
+
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'mekanism:alloy_infused' } },
+                    { item: 'mekanism:alloy_infused' },
+                    { tag:  'forge:circuits/basic' },
+                    { item: 'pneumaticcraft:plastic' },
+                    { item: 'industrialforegoing:plastic' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'mekanism:advanced_control_circuit'
+                },
+                id: 'advanced_control_circuit'
+            },
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'mekanism:alloy_reinforced' } },
+                    { item: 'mekanism:alloy_reinforced' },
+                    { tag:  'forge:circuits/advanced' },
+                    { item: 'pneumaticcraft:plastic' },
+                    { item: 'industrialforegoing:plastic' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'mekanism:elite_control_circuit'
+                },
+                id: 'elite_control_circuit'
+            },
+            {
+                inputs: [
+                    { count: 1, base_ingredient: { item: 'mekanism:alloy_atomic' } },
+                    { item: 'mekanism:alloy_atomic' },
+                    { tag:  'forge:circuits/elite' },
+                    { item: 'pneumaticcraft:plastic' },
+                    { item: 'industrialforegoing:plastic' }
+                ],
+                category: 'components',
+                output: {
+                    item: 'mekanism:ultimate_control_circuit'
+                },
+                id: 'elite_control_circuit'
             }
         ]
     };

@@ -6,6 +6,12 @@ onEvent('recipes', (event) => {
                 input: 'pneumaticcraft:advanced_pcb',
                 infusionInput: 'mekanism:redstone',
                 infusionAmount: 20
+            },
+            {
+                output: 'mekanism:alloy_infused',
+                input: 'extendedcrafting:black_iron_ingot',
+                infusionInput: 'mekanism:redstone',
+                infusionAmount: 10
             }
         ]
     };

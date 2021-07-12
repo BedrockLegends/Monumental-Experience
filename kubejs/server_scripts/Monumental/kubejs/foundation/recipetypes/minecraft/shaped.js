@@ -20,7 +20,7 @@ event.shaped(Item.of('scannable:module_blank', 1), ["ggg", "crc", "qnq"], {
     r: '#forge:dusts/glowstone'
 })
 //create additions
-event.shaped(Item.of('createaddition:spool', 8), [" P ", " N ", " P "], {
+event.shaped(Item.of('createaddition:spool', 8), [" A ", " B ", " A "], {
     A: '#forge:treated_wood_slab',
     B: '#forge:rods/iron'
 })
@@ -1420,5 +1420,135 @@ event.shaped(Item.of('morphtool:tool').nbt({
         B: 'minecraft:nether_bricks',
         C: 'minecraft:quartz_block',
         D: 'minecraft:quartz'
+    })
+    //Mekanism
+    event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'extendedcrafting:redstone_component'
+    })
+    event.shaped(Item.of('mekanism:basic_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:steel_casing',
+        B: 'mekanism:energy_tablet',
+        C: 'contenttweaker:compressed_plate',
+        D: 'extendedcrafting:redstone_component'
+    })
+    event.shaped(Item.of('mekanism:advanced_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:basic_energy_cube',
+        B: 'mekanism:energy_tablet',
+        C: '#forge:plates/osmium',
+        D: 'mekanism:alloys/infused'
+    })
+    event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:advanced_energy_cube',
+        B: 'mekanism:energy_tablet',
+        C: '#forge:plates/electrum',
+        D: 'mekanism:alloys/reinforced'
+    })
+    event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:elite_energy_cube',
+        B: 'mekanism:energy_tablet',
+        C: '#forge:plates/diamond',
+        D: 'mekanism:alloys/atomic'
+    })
+    event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
+        A: 'extendedcrafting:redstone_ingot',
+        B: '#forge:plates/iron',
+        C: 'cyclic:tank'
+    })
+    event.shaped(Item.of('mekanism:thermal_evaporation_block', 1), ["BAB", "ACA", "BAB"], {
+        A: 'extendedcrafting:redstone_ingot',
+        B: '#forge:plates/iron',
+        C: 'cyclic:tank'
+    })
+    event.shaped(Item.of('mekanism:thermal_evaporation_controller', 1), ["BDB", "ACA", "AAA"], {
+        A: 'mekanism:thermal_evaporation_block',
+        B: '#forge:circuits/advanced',
+        C: 'mekanism:basic_fluid_tank',
+        D: 'appliedenergistics2:quartz_vibrant_glass'
+    })
+    event.shaped(Item.of('mekanism:basic_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+        A: 'appliedenergistics2:smooth_sky_stone_block',
+        B: '#forge:circuits/basic',
+        C: 'pneumaticcraft:compressed_iron_gear',
+        D: 'extendedcrafting:redstone_component'
+    })
+    event.shaped(Item.of('mekanism:advanced_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:basic_tier_installer',
+        B: '#forge:circuits/advanced',
+        C: '#forge:gears/osmium',
+        D: 'mekanism:alloys/infused'
+    })
+    event.shaped(Item.of('mekanism:elite_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:advanced_tier_installer',
+        B: '#forge:circuits/elite',
+        C: '#forge:gears/electrum',
+        D: 'mekanism:alloys/reinforced'
+    })
+    event.shaped(Item.of('mekanism:ultimate_tier_installer', 1), ["DBD", "CAC", "DBD"], {
+        A: 'mekanism:elite_tier_installer',
+        B: '#forge:circuits/ultimate',
+        C: '#forge:gears/diamond',
+        D: 'mekanism:alloys/atomic'
+    })
+    event.shaped(Item.of('mekanism:basic_logistical_transporter', 8), ["   ", "ACA", " B "], {
+        A: 'contenttweaker:compressed_plate',
+        B: '#forge:circuits/basic',
+        C: 'refinedpipes:basic_item_pipe'
+    })
+    event.shaped(Item.of('mekanism:basic_mechanical_pipe', 8), ["   ", "ABA", "   "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'refinedpipes:basic_fluid_pipe'
+    })
+    event.shaped(Item.of('mekanism:basic_pressurized_tube', 8), [" A ", "BCB", " A "], {
+        A: 'appliedenergistics2:quartz_glass',
+        B: 'contenttweaker:compressed_plate',
+        C: 'mekanism:basic_mechanical_pipe'
+    })
+    event.shaped(Item.of('mekanism:basic_universal_cable', 8), ["   ", "ABA", "   "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'refinedpipes:basic_energy_pipe'
+    })
+    event.shaped(Item.of('mekanism:diversion_transporter', 2), [" B ", "ACA", " B "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'extendedcrafting:redstone_ingot',
+        C: 'mekanism:restrictive_transporter'
+    })
+    event.shaped(Item.of('mekanism:restrictive_transporter', 2), [" B ", "ACA", " B "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'minecraft:iron_bars',
+        C: 'mekanism:basic_logistical_transporter'
+    })
+
+
+
+    event.shaped(Item.of('mekanism:upgrade_anchor', 1), [" A ", "CBC", " A "], {
+        A: 'appliedenergistics2:quartz_glass',
+        B: '#forge:dusts/diamond',
+        C: 'refinedpipes:basic_item_pipe'
+    })
+    event.shaped(Item.of('mekanism:upgrade_energy', 2), [" A ", "CBC", " A "], {
+        A: 'appliedenergistics2:quartz_glass',
+        B: '#forge:dusts/gold',
+        C: '#mekanism:alloys/infused'
+    })
+    event.shaped(Item.of('mekanism:upgrade_filter', 1), [" A ", "CBC", " A "], {
+        A: 'appliedenergistics2:quartz_glass',
+        B: 'forge:dusts/tin',
+        C: 'mekanism:basic_mechanical_pipe'
+    })
+    event.shaped(Item.of('mekanism:upgrade_gas', 2), [" A ", "CBC", " A "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'forge:dusts/iron',
+        C: 'mekanism:restrictive_transporter'
+    })
+    event.shaped(Item.of('mekanism:upgrade_muffling', 1), [" A ", "CBC", " A "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'forge:dusts/steel',
+        C: 'mekanism:restrictive_transporter'
+    })
+    event.shaped(Item.of('mekanism:upgrade_speed', 2), [" A ", "CBC", " A "], {
+        A: 'contenttweaker:compressed_plate',
+        B: 'forge:dusts/osmium',
+        C: 'mekanism:basic_logistical_transporter'
     });
 });

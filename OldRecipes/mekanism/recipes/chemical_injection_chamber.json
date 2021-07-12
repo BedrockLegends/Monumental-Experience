@@ -1,4 +1,5 @@
 {
+    //Next Recipe
     "type": "mekanism:mek_data",
     "result": {
         "item": "mekanism:chemical_injection_chamber"
