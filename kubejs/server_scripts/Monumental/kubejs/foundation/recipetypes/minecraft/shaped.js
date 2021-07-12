@@ -1,4 +1,72 @@
 onEvent('recipes', event => {
+//appliedenergistics2
+event.shaped(Item.of('appliedenergistics2:quartz_growth_accelerator', 1), ["aba", "cdc", "aba"], {
+    c: 'appliedenergistics2:quartz_glass',
+    a: 'contenttweaker:compressed_plate',
+    b: 'appliedenergistics2:fluix_glass_cable',
+    d: '#forge:storage_blocks/fluix'
+})
+event.shaped(Item.of('appliedenergistics2:quantum_ring', 1), ["aba", "cde", "aba"], {
+    c: 'appliedenergistics2:engineering_processor',
+    e: 'appliedenergistics2:fluix_smart_dense_cable',
+    a: 'contenttweaker:compressed_plate',
+    d: 'appliedenergistics2:energy_cell',
+    b: 'appliedenergistics2:logic_processor'
+})
+event.shaped(Item.of('appliedenergistics2:crafting_unit', 1), ["aba", "cdc", "aba"], {
+    a: 'contenttweaker:compressed_plate',
+    d: 'appliedenergistics2:logic_processor',
+    c: 'appliedenergistics2:fluix_glass_cable',
+    b: 'appliedenergistics2:calculation_processor'
+})
+event.shaped(Item.of('appliedenergistics2:blank_pattern', 2), ["ABA", "BCB", "DDD"], {
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:ingots/refined_glowstone',
+    C: 'appliedenergistics2:charged_certus_quartz_crystal',
+    D: 'contenttweaker:compressed_plate'
+})
+event.shaped(Item.of('appliedenergistics2:fluid_export_bus', 1), ["aca", "lbl"], {
+    a: 'contenttweaker:compressed_plate',
+    b: 'appliedenergistics2:formation_core',
+    c: '#forge:piston',
+    l: 'cyclic:tank'
+})
+event.shaped(Item.of('appliedenergistics2:import_bus', 1), [" a ", "bcb"], {
+    a: 'appliedenergistics2:annihilation_core',
+    b: 'contenttweaker:compressed_plate',
+    c: '#forge:piston'
+})
+event.shaped(Item.of('appliedenergistics2:fluid_import_bus', 1), ["lal", "bcb"], {
+    a: 'appliedenergistics2:annihilation_core',
+    b: 'contenttweaker:compressed_plate',
+    c: '#forge:piston',
+    l: 'cyclic:tank'
+})
+event.shaped(Item.of('appliedenergistics2:annihilation_plane', 1), ["aaa", "bcb"], {
+    a: '#forge:gems/fluix',
+    b: 'contenttweaker:compressed_plate',
+    c: 'appliedenergistics2:annihilation_core'
+})
+event.shaped(Item.of('appliedenergistics2:annihilation_plane', 1), ["ab", "cb", "ab"], {
+    a: '#forge:gems/fluix',
+    b: 'contenttweaker:compressed_plate',
+    c: 'appliedenergistics2:annihilation_core'
+})
+event.shaped(Item.of('appliedenergistics2:formation_plane', 1), ["aaa", "bcb"], {
+    a: '#forge:gems/fluix',
+    b: '#forge:plates/enderium',
+    c: 'appliedenergistics2:formation_core'
+})
+event.shaped(Item.of('appliedenergistics2:formation_plane', 1), ["ab", "cb", "ab"], {
+    a: '#forge:gems/fluix',
+    b: '#forge:plates/enderium',
+    c: 'appliedenergistics2:formation_core'
+})
+event.shaped(Item.of('appliedenergistics2:export_bus', 1), ["aba", " c "], {
+    a: 'contenttweaker:compressed_plate',
+    b: 'appliedenergistics2:formation_core',
+    c: '#forge:piston'
+})
 //Xnet
 event.shaped(Item.of('xnet:advanced_connector_blue', 1), [" A ", "ABA", " A "], {
     A: '#forge:dyes/blue',
@@ -301,6 +369,9 @@ event.shaped(Item.of('mekanism:configurator', 1), [" AI", " EA", "S  "], {
     S: '#forge:rods/steel'
 })
 //Minecraft
+event.shaped(Item.of('minecraft:string', 3), ['AA', 'A '], {
+    A: 'supplementaries:flax'
+})
 event.shaped(Item.of('minecraft:anvil', 1), [" A ", " B ", "BBB"], {
     A: '#forge:storage_blocks/compressed_iron',
     B: '#forge:plates/iron'
