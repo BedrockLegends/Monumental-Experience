@@ -12,6 +12,12 @@ onEvent('recipes', (event) => {
                 input: 'extendedcrafting:black_iron_ingot',
                 infusionInput: 'mekanism:redstone',
                 infusionAmount: 10
+            },
+            {
+                output: 'betterendforge:end_mycelium',
+                input: 'minecraft:end_stone',
+                infusionInput: 'mekanism:fungi',
+                infusionAmount: 10
             }
         ]
     };
