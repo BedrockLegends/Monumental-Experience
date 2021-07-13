@@ -479,7 +479,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["SSS", "CXC", "CTC"],
                 key: {
-                    X: 'create:integrated_circuit',
+                    X: 'immersiveengineering:circuit_board',
                     C: '#forge:sheetmetals/constantan',
                     T: 'immersiveengineering:coil_hv',
                     S: '#forge:sheetmetals/steel'
