@@ -284,7 +284,6 @@ onEvent('recipes', event => {
   	event.remove({id: 'mekanism:processing/copper/storage_blocks/from_ingots'})
   	event.remove({id: 'tmechworks:copper_block_from_copper_ingot'})
   	
-
 //Copper ingot to nugget recipes
   	event.remove({id: 'tmechworks:copper_nugget_from_copper_ingot'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_copper_to_nugget_copper'})
@@ -311,6 +310,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'create:crafting/materials/brass_ingot_from_decompacting'})
 	event.remove({id: 'create:crafting/materials/brass_block_from_compacting'})
 	event.remove({id: 'create:crafting/materials/brass_nugget_from_decompacting'})
+	event.remove({id: 'create:crafting/schematics/schematicannon'})
 
 //CreateAdition Recipes
 	event.remove({id: 'createaddition:spool'})
