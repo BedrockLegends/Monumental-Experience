@@ -1420,6 +1420,14 @@ event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  
         C: '#chipped:quartz_block',
         D: '#forge:gems/quartz'
 })
+//Create
+event.shaped(Item.of('create:schematicannon', 1), [" C ", "LDL", "SIS"], {
+        L: '#minecraft:logs',
+        D: 'minecraft:dispenser',
+        C: 'xreliquary:apothecary_cauldron',
+        S: 'minecraft:smooth_stone',
+        I: 'compressium:iron_1'
+})
 //Mekanism
 event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
         A: 'contenttweaker:compressed_plate',
