@@ -34,7 +34,6 @@ events.listen('jei.hide.items', (event) => {
             'iceandfire:' + material + '_ore',
             'iceandfire:' + material + '_nugget',
             'iceandfire:' + material + '_block',
-            'emendatusenigmatica:' + material + '_ore',
             'allthemodium:' + material + '_ore',
             'astralsorcery:' + material + '_ore',
             'appliedenergistics2:' + material + '_ore',
