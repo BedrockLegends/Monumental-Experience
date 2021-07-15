@@ -117,6 +117,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'bloodmagic:soulforge/demon_crystallizer'})
   	event.remove({id: 'bloodmagic:alchemy_table'})
   	event.remove({id: 'bloodmagic:arc'})
+  	event.remove({id: 'bloodmagic:blood_altar'})
 
 //Bronze blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_dust_blasting'})
