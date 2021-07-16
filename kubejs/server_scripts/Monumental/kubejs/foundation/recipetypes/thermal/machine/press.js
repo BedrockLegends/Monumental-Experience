@@ -61,6 +61,26 @@ onEvent('recipes', (event) => {
             energy: 600
         },
         {
+            inputs: [Ingredient.of('#forge:ingots/osmium', 4), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('emendatusenigmatica:osmium_plate', 2)],
+            energy: 600
+        },
+        {
+            inputs: [Ingredient.of('#forge:ingots/zinc', 4), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('emendatusenigmatica:zinc_plate', 2)],
+            energy: 600
+        },
+        {
+            inputs: [Ingredient.of('#forge:ingots/cobalt', 4), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('emendatusenigmatica:cobalt_plate', 2)],
+            energy: 600
+        },
+        {
+            inputs: [Ingredient.of('#forge:ingots/brass', 4), Ingredient.of('thermal:press_packing_2x2_die')],
+            outputs: [Item.of('emendatusenigmatica:brass_plate', 2)],
+            energy: 600
+        },
+        {
             inputs: [Ingredient.of('#forge:rods/wooden', 4), Ingredient.of('thermal:press_gear_die')],
             outputs: [Item.of('appliedenergistics2:wooden_gear', 1)],
             energy: 600

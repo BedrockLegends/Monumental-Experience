@@ -118,6 +118,10 @@ onEvent('recipes', (event) => {
         {
             output: 'emendatusenigmatica:diamond_plate',
             inputs: ['#forge:gems/diamond']
+        },
+        {
+            output: 'emendatusenigmatica:enderium_plate',
+            inputs: ['#forge:ingots/enderium']
         }
     ];
 

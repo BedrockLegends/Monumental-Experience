@@ -402,6 +402,10 @@ event.shaped(Item.of('emendatusenigmatica:zinc_plate', 2), ["   ", "BAA", " AA"]
     A: '#forge:ingots/zinc',
     B: '#forge:tools/wrenches'
 })
+event.shaped(Item.of('emendatusenigmatica:cobalt_plate', 2), ["   ", "BAA", " AA"], {
+    A: '#forge:ingots/cobalt',
+    B: '#forge:tools/wrenches'
+})
 event.shaped(Item.of('emendatusenigmatica:aluminum_gear', 1), [" A ", "ABA", " A "], {
     A: '#forge:ingots/aluminum',
     B: 'create:andesite_alloy'

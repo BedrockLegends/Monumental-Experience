@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
             },
             cast_consumed: true,
             fluid: {
-                name: 'tconstruct:molten_diamond',
+                name: 'emendatusenigmatica:molten_diamond',
                 amount: 144
             },
             result: 'emendatusenigmatica:diamond_plate',
@@ -18,7 +18,7 @@ onEvent('recipes', (event) => {
             },
             cast_consumed: true,
             fluid: {
-                name: 'tconstruct:molten_diamond',
+                name: 'emendatusenigmatica:molten_diamond',
                 amount: 144
             },
             result: 'emendatusenigmatica:diamond_plate',
@@ -30,7 +30,31 @@ onEvent('recipes', (event) => {
             },
             cast_consumed: true,
             fluid: {
-                name: 'tconstruct:molten_emerald',
+                name: 'emendatusenigmatica:molten_enderium',
+                amount: 144
+            },
+            result: 'emendatusenigmatica:enderium_plate',
+            cooling_time: 57
+        },
+        {
+            cast: {
+                tag: 'tconstruct:casts/single_use/plate'
+            },
+            cast_consumed: true,
+            fluid: {
+                name: 'emendatusenigmatica:molten_enderium',
+                amount: 144
+            },
+            result: 'emendatusenigmatica:enderium_plate',
+            cooling_time: 57
+        },
+        {
+            cast: {
+                tag: 'tconstruct:casts/multi_use/plate'
+            },
+            cast_consumed: true,
+            fluid: {
+                name: 'emendatusenigmatica:molten_emerald',
                 amount: 144
             },
             result: 'emendatusenigmatica:emerald_plate',
@@ -42,7 +66,7 @@ onEvent('recipes', (event) => {
             },
             cast_consumed: true,
             fluid: {
-                name: 'tconstruct:molten_emerald',
+                name: 'emendatusenigmatica:molten_emerald',
                 amount: 144
             },
             result: 'emendatusenigmatica:emerald_plate',
