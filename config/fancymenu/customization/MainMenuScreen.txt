@@ -209,7 +209,7 @@ customization {
   backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_discord.png
   label = 
   backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_discord.png
-  value = https://discord.gg/kvagXuP
+  value = https://discord.gg/wadcxefVA7
   height = 37
 }
 

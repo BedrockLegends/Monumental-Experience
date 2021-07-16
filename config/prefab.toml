@@ -1,7 +1,7 @@
 
 [general]
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Structure Part", "Nothing". Server configuration overrides client.
-	"Starting Item" = "Starting House"
+	"Starting Item" = "Moderate House"
 	#Determines if the loft starter house is enabled. This house contains Nether materials in it's construction. Server configuration overrides client.
 	"Enable Loft House" = false
 	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
@@ -29,13 +29,13 @@
 		#Determines if Bread is added the the chest when the house is created.
 		"Add Food" = true
 		#Determines if seeds, potatoes and carrots are added the the chest when the house is created.
-		"Add Crops" = true
+		"Add Crops" = false
 		#Determines if a stack of dirt is added the the chest when the house is created.
 		"Add Dirt" = true
 		#Determines if a stack of cobble is added the the chest when the house is created.
 		"Add Cobblestone" = true
 		#Determines if a set of oak saplings are added the the chest when the house is created.
-		"Add Saplings" = true
+		"Add Saplings" = false
 		#Determines if a set of torches are added the the chest when the house is created.
 		"Add Torches" = true
 

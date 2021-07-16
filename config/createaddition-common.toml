@@ -102,4 +102,7 @@
 	#Diamond Grit Sandpaper durability (number of uses).
 	#Range: > 3
 	diamond_grit_sandpaper_uses = 1024
+	#The energy cost of turning Chromatic Compound into Overcharged Alloy.
+	#Range: > 1
+	overcharging_energy_cost = 16777216
 
