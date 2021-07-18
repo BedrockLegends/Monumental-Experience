@@ -1024,115 +1024,115 @@ event.shaped(Item.of('rftoolsutility:redstone_module', 1), [" X ", "rir", " Z "]
     Z: '#forge:dyes/black'
 })
 event.shaped(Item.of('rftoolsutility:text_module', 1), [" p ", "rir", " Z "], {
-        p: '#forge:paper',
-        r: '#forge:dusts/redstone',
-        i: 'modularrouters:blank_module',
-        Z: '#forge:dyes/black'
+    p: '#forge:paper',
+    r: '#forge:dusts/redstone',
+    i: 'modularrouters:blank_module',
+    Z: '#forge:dyes/black'
 })
 event.shaped(Item.of('rftoolsutility:crafter1', 1), ["QTQ", "CMC", "QTQ"], {
-        C: 'immersiveengineering:craftingtable',
-        M: 'immersiveengineering:heavy_engineering',
-        T: '#forge:plates/steel',
-        Q: 'immersiveengineering:wirecoil_redstone'
+    C: 'immersiveengineering:craftingtable',
+    M: 'immersiveengineering:heavy_engineering',
+    T: '#forge:plates/steel',
+    Q: 'immersiveengineering:wirecoil_redstone'
 })
 event.shaped(Item.of('rftoolsutility:crafter2', 1), ["QTQ", "CMC", "QTQ"], {
-        C: 'immersiveengineering:craftingtable',
-        M: 'rftoolsutility:crafter1',
-        T: '#forge:plates/steel',
-        Q: 'immersiveengineering:wirecoil_redstone'
+    C: 'immersiveengineering:craftingtable',
+    M: 'rftoolsutility:crafter1',
+    T: '#forge:plates/steel',
+    Q: 'immersiveengineering:wirecoil_redstone'
 })
 event.shaped(Item.of('rftoolsutility:crafter3', 1), ["QTQ", "CMC", "QTQ"], {
-        C: 'immersiveengineering:craftingtable',
-        M: 'rftoolsutility:crafter2',
-        T: '#forge:plates/steel',
-        Q: 'immersiveengineering:wirecoil_redstone'
+    C: 'immersiveengineering:craftingtable',
+    M: 'rftoolsutility:crafter2',
+    T: '#forge:plates/steel',
+    Q: 'immersiveengineering:wirecoil_redstone'
 })
 event.shaped(Item.of('rftoolspower:dimensionalcell', 1), ["RdR", "PFP", "ReR"], {
-        P: '#forge:dusts/prismarine',
-        R: 'extendedcrafting:redstone_catalyst',
-        d: '#forge:gears/diamond',
-        e: '#forge:gears/emerald',
-        F: 'rftoolspower:dimensionalcell_simple'
+    P: '#forge:dusts/prismarine',
+    R: 'extendedcrafting:redstone_catalyst',
+    d: '#forge:gears/diamond',
+    e: '#forge:gears/emerald',
+    F: 'rftoolspower:dimensionalcell_simple'
 })
 event.shaped(Item.of('rftoolspower:dimensionalcell_advanced', 1), ["RdR", "dKd", "RdR"], {
-        K: 'rftoolspower:dimensionalcell',
-        R: 'extendedcrafting:redstone_catalyst',
-        d: 'rftoolsbase:infused_diamond'
+    K: 'rftoolspower:dimensionalcell',
+    R: 'extendedcrafting:redstone_catalyst',
+    d: 'rftoolsbase:infused_diamond'
 })
 event.shaped(Item.of('rftoolspower:powercell_card', 1), ["rgr", "gpg", "rgr"], {
-        g: 'immersiveengineering:wirecoil_electrum',
-        p: 'modularrouters:blank_module',
-        r: 'extendedcrafting:redstone_component'
+    g: 'immersiveengineering:wirecoil_electrum',
+    p: 'modularrouters:blank_module',
+    r: 'extendedcrafting:redstone_component'
 })
 event.shaped(Item.of('rftoolspower:dimensionalcell_simple', 1), ["RdR", "qFq", "RdR"], {
-        R: 'extendedcrafting:redstone_catalyst',
-        d: '#forge:gears/diamond',
-        q: 'create:polished_rose_quartz',
-        F: 'rftoolsbase:machine_frame'
+    R: 'extendedcrafting:redstone_catalyst',
+    d: '#forge:gears/diamond',
+    q: 'create:polished_rose_quartz',
+    F: 'rftoolsbase:machine_frame'
 })
 event.shaped(Item.of('rftoolscontrol:console_module', 1), ["PMP", "rir", "PzP"], {
-        M: 'rftoolscontrol:card_base',
-        P: '#forge:glass_panes',
-        z: '#forge:dyes/black',
-        r: '#forge:dusts/redstone',
-        i: 'modularrouters:blank_module'
+    M: 'rftoolscontrol:card_base',
+    P: '#forge:glass_panes',
+    z: '#forge:dyes/black',
+    r: '#forge:dusts/redstone',
+    i: 'modularrouters:blank_module'
 })
 event.shaped(Item.of('rftoolscontrol:craftingstation', 1), ["rMr", "CFC", "rMr"], {
-        M: 'rftoolscontrol:card_base',
-        C: 'immersiveengineering:craftingtable',
-        r: 'immersiveengineering:wirecoil_redstone',
-        F: 'immersiveengineering:heavy_engineering'
+    M: 'rftoolscontrol:card_base',
+    C: 'immersiveengineering:craftingtable',
+    r: 'immersiveengineering:wirecoil_redstone',
+    F: 'immersiveengineering:heavy_engineering'
 })
 event.shaped(Item.of('rftoolscontrol:interaction_module', 1), ["PMP", "rir", " z "], {
-        M: 'rftoolscontrol:card_base',
-        z: '#forge:dyes/black',
-        P: 'minecraft:stone_pressure_plate',
-        r: '#forge:dusts/redstone',
-        i: 'modularrouters:blank_module'
+    M: 'rftoolscontrol:card_base',
+    z: '#forge:dyes/black',
+    P: 'minecraft:stone_pressure_plate',
+    r: '#forge:dusts/redstone',
+    i: 'modularrouters:blank_module'
 })
 event.shaped(Item.of('rftoolscontrol:node', 1), ["ror", "rFr", "rMr"], {
-        M: 'rftoolscontrol:card_base',
-        r: 'immersiveengineering:wirecoil_redstone',
-        F: 'immersiveengineering:heavy_engineering',
-        o: '#forge:ender_pearls'
+    M: 'rftoolscontrol:card_base',
+    r: 'immersiveengineering:wirecoil_redstone',
+    F: 'immersiveengineering:heavy_engineering',
+    o: '#forge:ender_pearls'
 })
 event.shaped(Item.of('rftoolscontrol:processor', 1), ["rqr", "MFM", "rqr"], {
-        M: 'rftoolscontrol:card_base',
-        q: 'create:polished_rose_quartz',
-        r: 'immersiveengineering:wirecoil_redstone',
-        F: 'immersiveengineering:heavy_engineering'
+    M: 'rftoolscontrol:card_base',
+    q: 'create:polished_rose_quartz',
+    r: 'immersiveengineering:wirecoil_redstone',
+    F: 'immersiveengineering:heavy_engineering'
 })
 event.shaped(Item.of('rftoolscontrol:programmer', 1), ["rqr", "pFp", "rsr"], {
-        q: 'create:polished_rose_quartz',
-        p: 'pneumaticcraft:plastic',
-        r: 'immersiveengineering:wirecoil_redstone',
-        F: 'immersiveengineering:heavy_engineering',
-        s: 'immersiveengineering:circuit_board'
+    q: 'create:polished_rose_quartz',
+    p: 'pneumaticcraft:plastic',
+    r: 'immersiveengineering:wirecoil_redstone',
+    F: 'immersiveengineering:heavy_engineering',
+    s: 'immersiveengineering:circuit_board'
 })
 event.shaped(Item.of('rftoolscontrol:variable_module', 1), [" M ", "rir", " z "], {
-        M: 'rftoolscontrol:card_base',
-        z: '#forge:dyes/black',
-        r: '#forge:dusts/redstone',
-        i: 'modularrouters:blank_module'
+    M: 'rftoolscontrol:card_base',
+    z: '#forge:dyes/black',
+    r: '#forge:dusts/redstone',
+    i: 'modularrouters:blank_module'
 })
 event.shaped(Item.of('rftoolscontrol:vectorart_module', 1), ["PMP", "rIr", "PzP"], {
-        M: 'rftoolscontrol:card_base',
-        z: '#forge:dyes/black',
-        P: '#forge:glass_panes',
-        I: 'modularrouters:blank_module',
-        r: '#forge:dusts/redstone'
+    M: 'rftoolscontrol:card_base',
+    z: '#forge:dyes/black',
+    P: '#forge:glass_panes',
+    I: 'modularrouters:blank_module',
+    r: '#forge:dusts/redstone'
 })
 event.shaped(Item.of('rftoolsbuilder:shape_card_def', 1), ["pBp", "rir", "pBp"], {
-        p: 'modularrouters:blank_module',
-        B: 'immersiveengineering:alloybrick',
-        r: 'extendedcrafting:redstone_catalyst',
-        i: 'pneumaticcraft:compressed_iron_gear'
+    p: 'modularrouters:blank_module',
+    B: 'immersiveengineering:alloybrick',
+    r: 'extendedcrafting:redstone_catalyst',
+    i: 'pneumaticcraft:compressed_iron_gear'
 })
 event.shaped(Item.of('rftoolsbase:filter_module', 1), [" h ", "rir", " p "], {
-        h: '#forge:hopper',
-        r: '#forge:dusts/redstone',
-        p: '#forge:paper',
-        i: 'modularrouters:blank_module'
+    h: '#forge:hopper',
+    r: '#forge:dusts/redstone',
+    p: '#forge:paper',
+    i: 'modularrouters:blank_module'
 })
 //Refined Pipes
 event.shaped(Item.of('refinedpipes:advanced_extractor_attachment', 1), ["SPS", "PIP", "SPS"], {
@@ -1222,140 +1222,140 @@ event.shaped(Item.of('refinedstorage:constructor', 1), ["ECE", "RMR", "EIE"], {
     I: 'refinedstorage:improved_processor'
 })
 event.shaped(Item.of('refinedstorage:1k_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:1k_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:1k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:4k_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:4k_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:4k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:16k_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:16k_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:16k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:64k_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:64k_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:64k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:64k_fluid_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:64k_fluid_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:64k_fluid_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:256k_fluid_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:256k_fluid_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:256k_fluid_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:1024k_fluid_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:1024k_fluid_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:1024k_fluid_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:4096k_fluid_storage_block', 1), ["EPE", "EME", "ERE"], {
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        P: 'refinedstorage:4096k_fluid_storage_part',
-        E: 'refinedstorage:quartz_enriched_iron'
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:4096k_fluid_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:1024k_fluid_storage_part', 1), ["PEP", "SRS", "PSP"], {
-        P: 'refinedstorage:improved_processor',
-        E: 'refinedstorage:quartz_enriched_iron',
-        S: 'refinedstorage:256k_fluid_storage_part',
-        R: '#forge:tank'
+    P: 'refinedstorage:improved_processor',
+    E: 'refinedstorage:quartz_enriched_iron',
+    S: 'refinedstorage:256k_fluid_storage_part',
+    R: '#forge:tank'
 })
 event.shaped(Item.of('refinedstorage:4096k_fluid_storage_part', 1), ["PEP", "SRS", "PSP"], {
-        P: 'refinedstorage:advanced_processor',
-        E: 'refinedstorage:quartz_enriched_iron',
-        S: 'refinedstorage:1024k_fluid_storage_part',
-        R: '#forge:tank'
+    P: 'refinedstorage:advanced_processor',
+    E: 'refinedstorage:quartz_enriched_iron',
+    S: 'refinedstorage:1024k_fluid_storage_part',
+    R: '#forge:tank'
 })
 event.shaped(Item.of('refinedstorage:cable', 12), ["EEE", "GRG", "EEE"], {
-        E: 'refinedstorage:quartz_enriched_iron',
-        G: 'appliedenergistics2:quartz_vibrant_glass',
-        R: 'appliedenergistics2:fluix_glass_cable'
+    E: 'refinedstorage:quartz_enriched_iron',
+    G: 'appliedenergistics2:quartz_vibrant_glass',
+    R: 'appliedenergistics2:fluix_glass_cable'
 })
 event.shaped(Item.of('refinedstorage:upgrade', 1), ["EGE", "EPE", "EGE"], {
-        E: 'refinedstorage:quartz_enriched_iron',
-        G: 'appliedenergistics2:quartz_vibrant_glass',
-        P: 'refinedstorage:improved_processor'
+    E: 'refinedstorage:quartz_enriched_iron',
+    G: 'appliedenergistics2:quartz_vibrant_glass',
+    P: 'refinedstorage:improved_processor'
 })
 event.shaped(Item.of('refinedstorage:storage_monitor', 1), ["PCG", "EMG", "PDG"], {
-        P: 'refinedstorage:basic_processor',
-        C: 'refinedstorage:construction_core',
-        G: 'appliedenergistics2:semi_dark_monitor',
-        E: 'refinedstorage:quartz_enriched_iron',
-        M: 'refinedstorage:machine_casing',
-        D: 'refinedstorage:destruction_core'
+    P: 'refinedstorage:basic_processor',
+    C: 'refinedstorage:construction_core',
+    G: 'appliedenergistics2:semi_dark_monitor',
+    E: 'refinedstorage:quartz_enriched_iron',
+    M: 'refinedstorage:machine_casing',
+    D: 'refinedstorage:destruction_core'
 })
 event.shaped(Item.of('refinedstorage:storage_housing', 1), ["GRG", "RSR", "GRG"], {
-        G: 'appliedenergistics2:quartz_vibrant_glass',
-        R: 'refinedstorage:quartz_enriched_iron',
-        S: 'appliedenergistics2:empty_storage_cell'
+    G: 'appliedenergistics2:quartz_vibrant_glass',
+    R: 'refinedstorage:quartz_enriched_iron',
+    S: 'appliedenergistics2:empty_storage_cell'
 })
 event.shaped(Item.of('refinedstorage:network_card', 1), ["SSS", "WQW", "SSS"], {
-        Q: 'refinedstorage:advanced_processor',
-        W: 'pneumaticcraft:plastic',
-        S: 'refinedstorage:quartz_enriched_iron'
+    Q: 'refinedstorage:advanced_processor',
+    W: 'pneumaticcraft:plastic',
+    S: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:machine_casing', 1), ["WEW", "ESE", "WEW"], {
-        E: 'appliedenergistics2:smooth_sky_stone_block',
-        S: 'refinedstorage:quartz_enriched_iron_block',
-        W: 'create:refined_radiance'
+    E: 'appliedenergistics2:smooth_sky_stone_block',
+    S: 'refinedstorage:quartz_enriched_iron_block',
+    W: 'create:refined_radiance'
 })
 event.shaped(Item.of('refinedstorage:interface', 1), ["UIU", "RMR", "UEU"], {
-        I: 'refinedstorage:importer',
-        E: 'refinedstorage:exporter',
-        M: 'refinedstorage:machine_casing',
-        R: 'extendedcrafting:redstone_component',
-        U: 'refinedstorage:quartz_enriched_iron'
+    I: 'refinedstorage:importer',
+    E: 'refinedstorage:exporter',
+    M: 'refinedstorage:machine_casing',
+    R: 'extendedcrafting:redstone_component',
+    U: 'refinedstorage:quartz_enriched_iron'
 })
 event.shaped(Item.of('refinedstorage:grid', 1), ["PCG", "EMG", "PDG"], {
-        P: 'refinedstorage:improved_processor',
-        C: 'refinedstorage:construction_core',
-        G: 'appliedenergistics2:semi_dark_monitor',
-        E: 'refinedstorage:quartz_enriched_iron',
-        M: 'refinedstorage:machine_casing',
-        D: 'refinedstorage:destruction_core'
+    P: 'refinedstorage:improved_processor',
+    C: 'refinedstorage:construction_core',
+    G: 'appliedenergistics2:semi_dark_monitor',
+    E: 'refinedstorage:quartz_enriched_iron',
+    M: 'refinedstorage:machine_casing',
+    D: 'refinedstorage:destruction_core'
 })
 event.shaped(Item.of('refinedstorage:destructor', 1), ["EDE", "RMR", "EIE"], {
-        E: 'refinedstorage:quartz_enriched_iron',
-        D: 'refinedstorage:destruction_core',
-        R: 'extendedcrafting:redstone_component',
-        M: 'refinedstorage:cable',
-        I: 'refinedstorage:improved_processor'
+    E: 'refinedstorage:quartz_enriched_iron',
+    D: 'refinedstorage:destruction_core',
+    R: 'extendedcrafting:redstone_component',
+    M: 'refinedstorage:cable',
+    I: 'refinedstorage:improved_processor'
 })
 event.shaped(Item.of('refinedstorage:crafting_monitor', 1), ["PAG", "EMG", "PAG"], {
-        P: 'refinedstorage:improved_processor',
-        A: 'refinedstorage:pattern',
-        G: 'appliedenergistics2:semi_dark_monitor',
-        E: 'refinedstorage:quartz_enriched_iron',
-        M: 'refinedstorage:machine_casing'
+    P: 'refinedstorage:improved_processor',
+    A: 'refinedstorage:pattern',
+    G: 'appliedenergistics2:semi_dark_monitor',
+    E: 'refinedstorage:quartz_enriched_iron',
+    M: 'refinedstorage:machine_casing'
 })
 event.shaped(Item.of('refinedstorage:crafter_manager', 1), ["PCG", "EMG", "PCG"], {
-        P: 'refinedstorage:advanced_processor',
-        C: '#refinedstorage:crafter',
-        G: 'appliedenergistics2:semi_dark_monitor',
-        E: 'refinedstorage:quartz_enriched_iron',
-        M: 'refinedstorage:machine_casing'
+    P: 'refinedstorage:advanced_processor',
+    C: '#refinedstorage:crafter',
+    G: 'appliedenergistics2:semi_dark_monitor',
+    E: 'refinedstorage:quartz_enriched_iron',
+    M: 'refinedstorage:machine_casing'
 })
 //Morph o Tool Recipes
 event.shaped(Item.of('morphtool:tool', 1), ["AB ", "CD ", "  D"], {
-        A: '#forge:dyes/blue',
-        B: '#forge:dyes/red',
-        C: '#forge:dyes/green',
-        D: '#forge:plates/iron'
+    A: '#forge:dyes/blue',
+    B: '#forge:dyes/red',
+    C: '#forge:dyes/green',
+    D: '#forge:plates/iron'
 })
 event.shaped(Item.of('morphtool:tool').nbt({
 'morphtool:data': {
@@ -1386,177 +1386,354 @@ event.shaped(Item.of('morphtool:tool').nbt({
 })
 //Extended Crafting
 event.shaped(Item.of('extendedcrafting:elite_table', 1), ["CDC", "ABA", "CDC"], {
-        A: '#forge:plates/diamond',
-        B: 'extendedcrafting:advanced_table',
-        C: 'extendedcrafting:elite_component',
-        D: 'extendedcrafting:elite_catalyst'
+    A: '#forge:plates/diamond',
+    B: 'extendedcrafting:advanced_table',
+    C: 'extendedcrafting:elite_component',
+    D: 'extendedcrafting:elite_catalyst'
 })
 event.shaped(Item.of('extendedcrafting:ultimate_table', 1), ["CDC", "BAB", "CDC"], {
-        A: 'extendedcrafting:elite_table',
-        B: '#forge:plates/emerald',
-        C: 'extendedcrafting:ultimate_component',
-        D: 'extendedcrafting:ultimate_catalyst'
+    A: 'extendedcrafting:elite_table',
+    B: '#forge:plates/emerald',
+    C: 'extendedcrafting:ultimate_component',
+    D: 'extendedcrafting:ultimate_catalyst'
 })
 //Forbidden Arcanus
     event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
-        A: 'forbidden_arcanus:arcane_gold_ingot',
-        B: 'immersiveengineering:hammer'
+    A: 'forbidden_arcanus:arcane_gold_ingot',
+    B: 'immersiveengineering:hammer'
 })
 event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
-        A: 'forbidden_arcanus:cherrywood_planks',
-        B: 'immersiveengineering:hammer'
+    A: 'forbidden_arcanus:cherrywood_planks',
+    B: 'immersiveengineering:hammer'
 })
 event.shaped(Item.of('forbidden_arcanus:edelwood_pressure_plate', 1), [" B ", " A ", " A "], {
-        A: 'forbidden_arcanus:edelwood_planks',
-        B: 'immersiveengineering:hammer'
+    A: 'forbidden_arcanus:edelwood_planks',
+    B: 'immersiveengineering:hammer'
 })
 event.shaped(Item.of('forbidden_arcanus:mysterywood_pressure_plate', 1), [" B ", " A ", " A "], {
-        A: 'forbidden_arcanus:mysterywood_planks',
-        B: 'immersiveengineering:hammer'
+    A: 'forbidden_arcanus:mysterywood_planks',
+    B: 'immersiveengineering:hammer'
 })
 event.shaped(Item.of('forbidden_arcanus:polished_darkstone_pressure_plate', 1), [" B ", " A ", " A "], {
-        A: 'forbidden_arcanus:polished_darkstone',
-        B: 'immersiveengineering:hammer'
+    A: 'forbidden_arcanus:polished_darkstone',
+    B: 'immersiveengineering:hammer'
 })
 event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  "], {
-        A: 'minecraft:glass_bottle',
-        B: '#chipped:nether_bricks',
-        C: '#chipped:quartz_block',
-        D: '#forge:gems/quartz'
+    A: 'minecraft:glass_bottle',
+    B: '#chipped:nether_bricks',
+    C: '#chipped:quartz_block',
+    D: '#forge:gems/quartz'
 })
 //Create
 event.shaped(Item.of('create:schematicannon', 1), [" C ", "LDL", "SIS"], {
-        L: '#minecraft:logs',
-        D: 'minecraft:dispenser',
-        C: 'xreliquary:apothecary_cauldron',
-        S: 'minecraft:smooth_stone',
-        I: 'compressium:iron_1'
+    L: '#minecraft:logs',
+    D: 'minecraft:dispenser',
+    C: 'xreliquary:apothecary_cauldron',
+    S: 'minecraft:smooth_stone',
+    I: 'compressium:iron_1'
 })
 //Mekanism
 event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
-        A: 'contenttweaker:compressed_plate',
-        B: 'extendedcrafting:redstone_component'
+    A: 'contenttweaker:compressed_plate',
+    B: 'extendedcrafting:redstone_component'
 })
 event.shaped(Item.of('mekanism:basic_energy_cube', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:steel_casing',
-        B: 'mekanism:energy_tablet',
-        C: 'contenttweaker:compressed_plate',
-        D: 'extendedcrafting:redstone_component'
+    A: 'mekanism:steel_casing',
+    B: 'mekanism:energy_tablet',
+    C: 'contenttweaker:compressed_plate',
+    D: 'extendedcrafting:redstone_component'
 })
 event.shaped(Item.of('mekanism:advanced_energy_cube', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:basic_energy_cube',
-        B: 'mekanism:energy_tablet',
-        C: '#forge:plates/osmium',
-        D: '#mekanism:alloys/infused'
+    A: 'mekanism:basic_energy_cube',
+    B: 'mekanism:energy_tablet',
+    C: '#forge:plates/osmium',
+    D: '#mekanism:alloys/infused'
 })
 event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:advanced_energy_cube',
-        B: 'mekanism:energy_tablet',
-        C: '#forge:plates/electrum',
-        D: '#mekanism:alloys/reinforced'
+    A: 'mekanism:advanced_energy_cube',
+    B: 'mekanism:energy_tablet',
+    C: '#forge:plates/electrum',
+    D: '#mekanism:alloys/reinforced'
 })
 event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:elite_energy_cube',
-        B: 'mekanism:energy_tablet',
-        C: '#forge:plates/diamond',
-        D: '#mekanism:alloys/atomic'
+    A: 'mekanism:elite_energy_cube',
+    B: 'mekanism:energy_tablet',
+    C: '#forge:plates/diamond',
+    D: '#mekanism:alloys/atomic'
 })
 event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
-        A: 'extendedcrafting:redstone_ingot',
-        B: '#forge:plates/iron',
-        C: '#forge:tank'
+    A: 'extendedcrafting:redstone_ingot',
+    B: '#forge:plates/iron',
+    C: '#forge:tank'
 })
 event.shaped(Item.of('mekanism:thermal_evaporation_block', 1), ["BAB", "ACA", "BAB"], {
-        A: 'extendedcrafting:redstone_ingot',
-        B: '#forge:plates/iron',
-        C: '#forge:tank'
+    A: 'extendedcrafting:redstone_ingot',
+    B: '#forge:plates/iron',
+    C: '#forge:tank'
 })
 event.shaped(Item.of('mekanism:thermal_evaporation_controller', 1), ["BDB", "ACA", "AAA"], {
-        A: 'mekanism:thermal_evaporation_block',
-        B: '#forge:circuits/advanced',
-        C: '#forge:tank',
-        D: 'appliedenergistics2:quartz_vibrant_glass'
+    A: 'mekanism:thermal_evaporation_block',
+    B: '#forge:circuits/advanced',
+    C: '#forge:tank',
+    D: 'appliedenergistics2:quartz_vibrant_glass'
 })
 event.shaped(Item.of('mekanism:basic_tier_installer', 1), ["DBD", "CAC", "DBD"], {
-        A: 'appliedenergistics2:smooth_sky_stone_block',
-        B: '#forge:circuits/basic',
-        C: 'pneumaticcraft:compressed_iron_gear',
-        D: 'extendedcrafting:redstone_component'
+    A: 'appliedenergistics2:smooth_sky_stone_block',
+    B: '#forge:circuits/basic',
+    C: 'pneumaticcraft:compressed_iron_gear',
+    D: 'extendedcrafting:redstone_component'
 })
 event.shaped(Item.of('mekanism:advanced_tier_installer', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:basic_tier_installer',
-        B: '#forge:circuits/advanced',
-        C: '#forge:gears/osmium',
-        D: '#mekanism:alloys/infused'
+    A: 'mekanism:basic_tier_installer',
+    B: '#forge:circuits/advanced',
+    C: '#forge:gears/osmium',
+    D: '#mekanism:alloys/infused'
 })
 event.shaped(Item.of('mekanism:elite_tier_installer', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:advanced_tier_installer',
-        B: '#forge:circuits/elite',
-        C: '#forge:gears/electrum',
-        D: '#mekanism:alloys/reinforced'
+    A: 'mekanism:advanced_tier_installer',
+    B: '#forge:circuits/elite',
+    C: '#forge:gears/electrum',
+    D: '#mekanism:alloys/reinforced'
 })
 event.shaped(Item.of('mekanism:ultimate_tier_installer', 1), ["DBD", "CAC", "DBD"], {
-        A: 'mekanism:elite_tier_installer',
-        B: '#forge:circuits/ultimate',
-        C: '#forge:gears/diamond',
-        D: '#mekanism:alloys/atomic'
+    A: 'mekanism:elite_tier_installer',
+    B: '#forge:circuits/ultimate',
+    C: '#forge:gears/diamond',
+    D: '#mekanism:alloys/atomic'
 })
 event.shaped(Item.of('mekanism:basic_logistical_transporter', 8), ["   ", "ACA", " B "], {
-        A: 'contenttweaker:compressed_plate',
-        B: '#forge:circuits/basic',
-        C: 'refinedpipes:basic_item_pipe'
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:circuits/basic',
+    C: 'refinedpipes:basic_item_pipe'
 })
 event.shaped(Item.of('mekanism:basic_mechanical_pipe', 8), ["   ", "ABA", "   "], {
-        A: 'contenttweaker:compressed_plate',
-        B: 'refinedpipes:basic_fluid_pipe'
-    })
+    A: 'contenttweaker:compressed_plate',
+    B: 'refinedpipes:basic_fluid_pipe'
+})
 event.shaped(Item.of('mekanism:basic_pressurized_tube', 8), [" A ", "BCB", " A "], {
-        A: 'appliedenergistics2:quartz_glass',
-        B: 'contenttweaker:compressed_plate',
-        C: 'mekanism:basic_mechanical_pipe'
-    })
+    A: 'appliedenergistics2:quartz_glass',
+    B: 'contenttweaker:compressed_plate',
+    C: 'mekanism:basic_mechanical_pipe'
+})
 event.shaped(Item.of('mekanism:basic_universal_cable', 8), ["   ", "ABA", "   "], {
-        A: 'contenttweaker:compressed_plate',
-        B: 'refinedpipes:basic_energy_pipe'
+    A: 'contenttweaker:compressed_plate',
+    B: 'refinedpipes:basic_energy_pipe'
 })
 event.shaped(Item.of('mekanism:diversion_transporter', 2), [" B ", "ACA", " B "], {
-        A: 'contenttweaker:compressed_plate',
-        B: 'extendedcrafting:redstone_ingot',
-        C: 'mekanism:restrictive_transporter'
+    A: 'contenttweaker:compressed_plate',
+    B: 'extendedcrafting:redstone_ingot',
+    C: 'mekanism:restrictive_transporter'
 })
 event.shaped(Item.of('mekanism:restrictive_transporter', 2), [" B ", "ACA", " B "], {
-        A: 'contenttweaker:compressed_plate',
-        B: 'minecraft:iron_bars',
-        C: 'mekanism:basic_logistical_transporter'
+    A: 'contenttweaker:compressed_plate',
+    B: 'minecraft:iron_bars',
+    C: 'mekanism:basic_logistical_transporter'
 })
 event.shaped(Item.of('mekanism:upgrade_anchor', 1), [" A ", "CBC", " A "], {
-        A: 'appliedenergistics2:quartz_glass',
-        B: '#forge:dusts/diamond',
-        C: 'refinedpipes:basic_item_pipe'
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:dusts/diamond',
+    C: 'refinedpipes:basic_item_pipe'
 })
 event.shaped(Item.of('mekanism:upgrade_energy', 2), [" A ", "CBC", " A "], {
-        A: 'appliedenergistics2:quartz_glass',
-        B: '#forge:dusts/gold',
-        C: '#mekanism:alloys/infused'
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:dusts/gold',
+    C: '#mekanism:alloys/infused'
 })
 event.shaped(Item.of('mekanism:upgrade_filter', 1), [" A ", "CBC", " A "], {
-        A: 'appliedenergistics2:quartz_glass',
-        B: '#forge:dusts/tin',
-        C: 'mekanism:basic_mechanical_pipe'
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:dusts/tin',
+    C: 'mekanism:basic_mechanical_pipe'
 })
 event.shaped(Item.of('mekanism:upgrade_gas', 2), [" A ", "CBC", " A "], {
-        A: 'contenttweaker:compressed_plate',
-        B: '#forge:dusts/iron',
-        C: 'mekanism:restrictive_transporter'
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:dusts/iron',
+    C: 'mekanism:restrictive_transporter'
 })
 event.shaped(Item.of('mekanism:upgrade_muffling', 1), [" A ", "CBC", " A "], {
-        A: 'contenttweaker:compressed_plate',
-        B: '#forge:dusts/steel',
-        C: 'mekanism:restrictive_transporter'
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:dusts/steel',
+    C: 'mekanism:restrictive_transporter'
 })
 event.shaped(Item.of('mekanism:upgrade_speed', 2), [" A ", "CBC", " A "], {
-        A: 'contenttweaker:compressed_plate',
-        B: '#forge:dusts/osmium',
-        C: 'mekanism:basic_logistical_transporter'
-    });
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:dusts/osmium',
+    C: 'mekanism:basic_logistical_transporter'
+})
+event.shaped(Item.of('mekanism:chemical_injection_chamber', 1), ["CBC", "ADA", "CBC"], {
+    A: '#forge:plates/electrum',
+    B: '#forge:circuits/elite',
+    C: 'mekanism:alloys/reinforced',
+    D: 'mekanism:purification_chamber'
+})
+event.shaped(Item.of('mekanism:combiner', 1), ["CBC", "ADA", "CBC"], {
+    A: 'pneumaticcraft:reinforced_stone',
+    B: '#forge:circuits/elite',
+    C: '#mekanism:alloys/reinforced',
+    D: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:configurator', 1), [" BC", " AB", "D  "], {
+    A: 'mekanism:energy_tablet',
+    B: '#mekanism:alloys/infused',
+    C: '#forge:gears/lapis',
+    D: '#forge:rods/steel'
+})
+event.shaped(Item.of('mekanism:crusher', 1), ["ABA", "DCD", "ABA"], {
+    A: 'extendedcrafting:redstone_component',
+    B: '#forge:circuits/basic',
+    C: 'mekanism:steel_casing',
+    D: 'minecraft:lava_bucket'
+})
+event.shaped(Item.of('mekanism:electrolytic_separator', 1), ["ABA", "CDC", "ABA"], {
+    A: 'contenttweaker:compressed_plate',
+    B: 'extendedcrafting:redstone_component',
+    C: '#mekanism:alloys/infused',
+    D: 'mekanism:electrolytic_core'
+})
+event.shaped(Item.of('mekanism:energized_smelter', 1), ["CBC", "ADA", "CEC"], {
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:circuits/basic',
+    C: 'extendedcrafting:redstone_component',
+    D: 'mekanism:steel_casing',
+    E: 'routerreborn:furnace'
+})
+event.shaped(Item.of('mekanism:energy_tablet', 1), ["ABA", "CDC", "ABA"], {
+    A: 'extendedcrafting:redstone_component',
+    B: '#forge:gears/electrum',
+    C: '#mekanism:alloys/infused',
+    D: 'thermal:rf_coil'
+})
+event.shaped(Item.of('mekanism:enrichment_chamber', 1), ["CBC", "ADA", "CBC"], {
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:circuits/basic',
+    C: 'extendedcrafting:redstone_component',
+    D: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:fluidic_plenisher', 1), ["CCC", "BAB", "CCC"], {
+    A: 'mekanism:electric_pump',
+    B: '#forge:circuits/basic',
+    C: '#forge:plates/bronze'
+})
+event.shaped(Item.of('mekanism:laser_amplifier', 1), ["BBB", "BCA", "BBB"], {
+    A: 'envirocore:lens',
+    B: '#forge:ingots/steel',
+    C: 'mekanism:basic_energy_cube'
+})
+event.shaped(Item.of('mekanism:laser', 2), ["CD ", "CBA", "CD "], {
+    A: 'mininggadgets:mininggadget',
+    B: 'mekanism:steel_casing',
+    C: '#mekanism:alloys/reinforced',
+    D: 'mekanism:energy_tablet'
+})
+event.shaped(Item.of('mekanism:logistical_sorter', 1), ["ACA", "ABA", "AAA"], {
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:circuits/basic',
+    C: 'create:mechanical_piston'
+})
+event.shaped(Item.of('mekanism:metallurgic_infuser', 1), ["ABA", "CEC", "ADA"], {
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:gears/osmium',
+    C: 'extendedcrafting:redstone_component',
+    D: 'routerreborn:furnace',
+    E: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:module_base', 2), ["BAB", "ACA", "BAB"], {
+    A: 'modularrouters:blank_module',
+    B: '#forge:plates/bronze',
+    C: 'mekanism:hdpe_sheet'
+})
+event.shaped(Item.of('mekanism:network_reader', 1), [" A ", "CDC", " B "], {
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:plates/steel',
+    C: '#mekanism:alloys/infused',
+    D: 'mekanism:energy_tablet'
+})
+event.shaped(Item.of('mekanism:nutritional_liquifier', 1), ["CAC", "DBD", "CAC"], {
+    A: '#forge:circuits/basic',
+    B: 'mekanism:steel_casing',
+    C: 'extendedcrafting:redstone_component',
+    D: 'minecraft:bowl'
+})
+event.shaped(Item.of('mekanism:osmium_compressor', 1), ["CAC", "ADA", "CAC"], {
+    A: 'create:mechanical_piston',
+    B: '#forge:circuits/advanced',
+    C: '#mekanism:alloys/infused',
+    D: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:personal_chest', 1), ["CDC", "ABA", "DDD"], {
+    A: '#forge:chests/wooden',
+    B: '#forge:circuits/basic',
+    C: '#forge:ingots/steel',
+    D: 'appliedenergistics2:quartz_glass'
+})
+event.shaped(Item.of('mekanism:precision_sawmill', 1), ["ABA", "CDC", "ABA"], {
+    A: 'contenttweaker:compressed_plate',
+    B: '#forge:circuits/basic',
+    C: '#mekanism:alloys/infused',
+    D: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:qio_dashboard', 1), ["DBD", "BAB", "DCD"], {
+    A: 'appliedenergistics2:quartz_vibrant_glass',
+    B: '#forge:pellets/polonium',
+    C: 'mekanism:teleportation_core',
+    C: '#forge:ingots/lead'
+})
+event.shaped(Item.of('mekanism:resistive_heater', 1), ["BAB", "ADA", "BCB"], {
+    A: 'extendedcrafting:redstone_component',
+    B: '#forge:ingots/tin',
+    C: 'mekanism:energy_tablet',
+    D: 'mekanism:steel_casing'
+})
+
+
+
+event.shaped(Item.of('mekanism:rotary_condensentrator', 1), ["ABA", "CED", "AB"], {
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:circuits/basic',
+    C: 'mekanism:basic_chemical_tank',
+    D: 'mekanism:basic_fluid_tank',
+    E: 'mekanism:energy_tablet'
+})
+event.shaped(Item.of('mekanism:security_desk', 1), ["CAC", "BDB", "CEC"], {
+    A: 'appliedenergistics2:quartz_glass',
+    B: '#forge:circuits/elite',
+    C: '#forge:ingots/steel',
+    D: 'mekanism:steel_casing',
+    E: 'mekanism:teleportation_core'
+})
+event.shaped(Item.of('mekanism:seismic_vibrator', 1), ["CAC", "BDB", "CCC"], {
+    A: '#forge:gears/lapis',
+    B: '#forge:circuits/basic',
+    C: '#forge:plates/bronze',
+    D: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:solar_neutron_activator', 1), ["CEC", "BDB", "AAA"], {
+    A: '#forge:plates/bronze',
+    B: '#forge:circuits/elite',
+    C: '#mekanism:alloys/reinforced',
+    D: 'mekanism:steel_casing',
+    D: 'mekanism:hdpe_sheet'
+})
+event.shaped(Item.of('mekanism:steel_casing', 1), ["CAC", "ABA", "CAC"], {
+    A: 'extendedcrafting:black_iron_slate',
+    B: '#forge:gears/osmium',
+    C: 'contenttweaker:compressed_plate'
+})
+event.shaped(Item.of('mekanism:supercharged_coil', 1), ["CCC", "ABA", "DDD"], {
+    A: '#forge:circuits/ultimate',
+    B: 'mekanism:laser',
+    C: '#forge:plates/bronze',
+    D: 'mekanism:pellet_polonium'
+})
+event.shaped(Item.of('mekanism:superheating_element', 1), ["BAB", "ACA", "BAB"], {
+    A: '#forge:plates/bronze',
+    B: 'extendedcrafting:redstone_component',
+    C: 'mekanism:steel_casing'
+})
+event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
+    A: 'mekanism:teleportation_core',
+    B: '#forge:circuits/basic',
+    C: 'contenttweaker:compressed_plate',
+    D: 'mekanism:steel_casing'
+});
+
 });
