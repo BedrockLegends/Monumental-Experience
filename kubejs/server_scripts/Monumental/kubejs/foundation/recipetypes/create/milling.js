@@ -127,21 +127,6 @@ onEvent('recipes', (event) => {
                 processingTime: 250
             },
             {
-                input: '#forge:ingots/allthemodium',
-                outputs: [Item.of('allthemodium:allthemodium_dust', 1)],
-                processingTime: 400
-            },
-            {
-                input: '#forge:ingots/unobtainium',
-                outputs: [Item.of('allthemodium:unobtainium_dust', 1)],
-                processingTime: 400
-            },
-            {
-                input: '#forge:ingots/vibranium',
-                outputs: [Item.of('allthemodium:vibranium_dust', 1)],
-                processingTime: 400
-            },
-            {
                 input: '#forge:ingots/netherite',
                 outputs: [Item.of('mekanism:dust_netherite', 1)],
                 processingTime: 400
