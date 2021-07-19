@@ -65,5 +65,13 @@ BH Team - Illustrations
 
 
   <p align="center">
-NillerMedDild - KubeJs Scripts
+NillerMedDild - Guidance with KubeJs Scripts
+</p>
+
+  <p align="center">
+Ridanisaurus - Guidance with KubeJs Scripts
+</p>
+
+  <p align="center">
+Anokka  - Unifying Emendatus Enigmatica and more!
 </p>
