@@ -1562,7 +1562,7 @@ event.shaped(Item.of('mekanism:upgrade_speed', 2), [" A ", "CBC", " A "], {
 event.shaped(Item.of('mekanism:chemical_injection_chamber', 1), ["CBC", "ADA", "CBC"], {
     A: '#forge:plates/electrum',
     B: '#forge:circuits/elite',
-    C: 'mekanism:alloys/reinforced',
+    C: '#mekanism:alloys/reinforced',
     D: 'mekanism:purification_chamber'
 })
 event.shaped(Item.of('mekanism:combiner', 1), ["CBC", "ADA", "CBC"], {
